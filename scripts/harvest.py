@@ -674,7 +674,24 @@ _HF_SCALE_REV = re.compile(
     r"(?i)(0?\.\d+|1(?:\.0+)?)\s*(?:[-–—to]+)\s*(0?\.\d+|1(?:\.0+)?)?\s*(?:lora[_\s-]*(?:scale|strength|weight))"
 )
 _HF_TRIGGER_LINE = re.compile(
-    r"(?i)(?:^|\n)\s*(?:trigger(?:\s+word(?:s)?)?|instance[_\s-]*prompt|activation(?:\s+word(?:s)?)?|trained[_\s-]*words?)\s*[:：]\s*`?([^`\n]+?)`?\s*(?:\n|$)"
+    r"(?i)(?:^|\n)\s*(?:\*\*|__|<b>|<strong>)?\s*"
+    r"(?:trigger(?:\s+word(?:s)?)?|instance[_\s-]*prompt|activation(?:\s+word(?:s)?)?|trained[_\s-]*words?)"
+    r"\s*[:：]?\s*(?:\*\*|__|</b>|</strong>)?\s*[:：]?\s*`?([^`\n<]+?)`?\s*(?:\n|$)"
+)
+# Also mid-sentence: trigger word `foo`
+_HF_TRIGGER_INLINE = re.compile(
+    r"(?i)trigger(?:\s+word(?:s)?)?\s+(?:is\s+)?`([^`]+)`"
+)
+_HF_STRENGTH_LINE = re.compile(
+    r"(?i)(?:^|\n)\s*(?:\*\*|__|<b>|<strong>)?\s*"
+    r"(?:lora[\s_-]*strength|lora[\s_-]*scale|lora[\s_-]*weight|(?:recommended\s+)?strength)"
+    r"\s*(?:\*\*|__|</b>|</strong>)?\s*[:：]\s*`?(0?\.\d+|1(?:\.0+)?)(?:\s*(?:[-–—to]+)\s*(0?\.\d+|1(?:\.0+)?))?"
+)
+_HF_STRENGTH_TABLE = re.compile(
+    r"(?i)\|\s*LoRA\s+strength\s*\|\s*`?(0?\.\d+|1(?:\.0+)?)`?\s*\|"
+)
+_HF_STRENGTH_JSON = re.compile(
+    r'(?i)"lora_(?:strength|scale|weight)"\s*:\s*(0?\.\d+|1(?:\.0+)?)'
 )
 
 
@@ -683,7 +700,12 @@ def _as_str_list(val) -> list[str]:
     if val is None or val is False:
         return out
     if isinstance(val, str):
-        # split only on commas / newlines, keep multi-word triggers intact
+        val = val.strip().strip("`\"'")
+        # Long prose instance prompts stay whole; short lists may be comma-separated.
+        if len(val) > 80 or ("," in val and re.search(r"[.!?]", val)):
+            if val and val not in out:
+                out.append(val)
+            return out
         parts = re.split(r"[\n,]+", val)
         for p in parts:
             p = p.strip().strip("`\"'")
@@ -702,6 +724,34 @@ def _as_str_list(val) -> list[str]:
     if s:
         out.append(s)
     return out
+
+
+def _looks_like_prompt(s: str) -> bool:
+    if not s or len(s.strip()) < 12:
+        return False
+    low = s.strip().lower()
+    if re.match(r"(?i)^(pip |python[3]? |git |cd |docker |mkdir |import |from |wget |curl |https?://)", low):
+        return False
+    if re.search(r"(?i)(docker pull|git clone|unet loader|loraloader|comfyui/|safetensors\s*$)", low):
+        return False
+    if "huggingface.co/" in low and ".safetensors" in low and " " not in s.strip()[:80]:
+        return False
+    if low.startswith("#") or low.startswith("####"):
+        return False
+    if re.search(r"(?i)(examples below|for image-to-video generation|inference code|optional but rec)", low[:200]):
+        return False
+    if "├──" in s or "📂" in s or re.search(r"(?m)^\|\s*file\s*\|", low):
+        return False
+    if re.search(r"(?m)^## files\b", low):
+        return False
+    return True
+
+
+def _strength_context_ok(text: str, start: int) -> bool:
+    window = text[max(0, start - 48):start + 80].lower()
+    if re.search(r"(weight decay|learning rate|\blr\b|optimizer|adamw|epoch|train(?:ing)? steps|denoise_strength|noise_scale|decode_timestep|cfg[_ ]scale|guidance)", window):
+        return False
+    return True
 
 
 def _split_frontmatter(text: str):
@@ -769,11 +819,15 @@ def parse_hf_card(text: str) -> dict:
             for t in _as_str_list(front[key]):
                 if t and t not in triggers and t.lower() not in ("lora", "none", "n/a", "not stated"):
                     triggers.append(t)
-    if not triggers:
-        for m in _HF_TRIGGER_LINE.finditer(body):
-            for t in _as_str_list(m.group(1)):
-                if t and t not in triggers and len(t) < 200:
-                    triggers.append(t)
+    # Body / markdown lines often state "Trigger word:" even when YAML is empty.
+    for m in list(_HF_TRIGGER_LINE.finditer(body)) + list(_HF_TRIGGER_INLINE.finditer(body)):
+        chunk = m.group(1)
+        chunk = re.sub(r"\([^)]*\)", "", chunk).strip()
+        for t in _as_str_list(chunk):
+            if t.lower() in ("null", "none", "n/a", "not stated", "lora"):
+                continue
+            if t and t not in triggers and 1 < len(t) < 240:
+                triggers.append(t)
     examples = []
     widgets = front.get("widget") or front.get("examples") or []
     if isinstance(widgets, dict):
@@ -795,17 +849,16 @@ def parse_hf_card(text: str) -> dict:
             if isinstance(params, dict) and params.get("prompt"):
                 cand.append(params["prompt"])
         for c in cand:
-            c = str(c).strip()
-            if c and c not in examples and len(c) > 8:
+            c = str(c).strip().strip('"')
+            if _looks_like_prompt(c) and c not in examples:
                 examples.append(c[:1500])
         if len(examples) >= 2:
             break
     if len(examples) < 2:
-        for m in re.finditer(r"```(?:prompt|text|markdown)?\n(.*?)```", body, re.S | re.I):
+        for m in re.finditer(r"```(?:prompt|text)?\n(.*?)```", body, re.S | re.I):
             block = m.group(1).strip()
-            if len(block) > 20 and not re.match(r"(?i)^(pip |python |git |cd |import |from )", block):
-                if block not in examples:
-                    examples.append(block[:1500])
+            if _looks_like_prompt(block) and block not in examples:
+                examples.append(block[:1500])
             if len(examples) >= 2:
                 break
     if len(examples) < 2:
@@ -819,15 +872,17 @@ def parse_hf_card(text: str) -> dict:
                 examples.append(cand[:1500])
 
     strength_hits = []
-    for rx in (_HF_SCALE, _HF_SCALE_REV):
+    for rx in (_HF_SCALE, _HF_SCALE_REV, _HF_STRENGTH_LINE, _HF_STRENGTH_TABLE, _HF_STRENGTH_JSON):
         for m in rx.finditer(blob):
+            if not _strength_context_ok(blob, m.start()):
+                continue
             a = m.group(1)
             b = m.group(2) if m.lastindex and m.lastindex >= 2 else None
-            if a and not re.match(r"^(0?\.\d+|1(?:\.0+)?)$", a or ""):
-                # _HF_SCALE_REV group 1 is the number; _HF_SCALE too
-                pass
+            if not a or not re.match(r"^(0?\.\d+|1(?:\.0+)?)$", str(a)):
+                continue
+            if b and not re.match(r"^(0?\.\d+|1(?:\.0+)?)$", str(b)):
+                b = None
             hit = f"{a}–{b}" if b else a
-            # For _HF_SCALE_REV, if group2 missing and group1 is scale number...
             if hit and hit not in strength_hits:
                 strength_hits.append(hit)
     # also YAML keys
