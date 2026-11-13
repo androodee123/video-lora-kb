@@ -12,3 +12,6 @@ __pycache__/
 data/raw/civitai/
 data/raw/huggingface/
 data/.records-rich.json
+
+# Generated share pack (rebuild with python3 scripts/export_pack.py)
+dist/

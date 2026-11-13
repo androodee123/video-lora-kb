@@ -80,6 +80,18 @@ Wan 2.2 14B dual-KSampler graphs need **paired HIGH and LOW noise LoRAs** for th
 
 High vs low noise is not a `baseModel` value.
 
+
+## Share pack (for other AIs)
+
+To attach this knowledge base to another chat or agent without opening the private repo, regenerate a local export:
+
+```
+python3 scripts/export_pack.py
+```
+
+`dist/` is gitignored. It contains a prompt-ready `video-lora-skill.md` (recipes, stacking, compact top-LoRA tables), compact catalog JSON/CSV, `HOW-TO-USE.md`, a Claude Agent Skill zip, and `video-lora-kb-share-pack.zip`. The script never downloads weights and never invents triggers or strengths.
+
+
 ## Reproducing the harvest
 
 ```
