@@ -1,12 +1,11 @@
 # H3: Style
 
-310 LoRAs (47 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+310 LoRAs (46 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `hyperdetailed-colored-pencil-krea2` | `ArsMJStyle, Colored pencil hyperdetailed realism` | not stated | I2V and T2V | Hyperdetailed Colored Pencil | 46,223 | installed, verified | [CivitAI](https://civitai.com/models/1155749?modelVersionId=3398426) |
 | `2d-anime-style-nsfw-h3` | `2d anime style` | not stated | I2V and T2V | 2D Anime Style NSFW LORA - H3 | 22,786 | installed, verified | [CivitAI](https://civitai.com/models/2861135?modelVersionId=3286171) |
 | `playboy-style-h3` | `playboy style h3` | not stated | not stated | Playboy Style | 18,639 | installed, verified | [CivitAI](https://civitai.com/models/2735835?modelVersionId=3198433) |
 | `amateur-pov-h3` | `zy_amateurpov` | 0.4–0.85 | not stated | Amateur POV ✨ KREA 2 + H3 | 12,200 | installed, verified | [CivitAI](https://civitai.com/models/2776852?modelVersionId=3403798) |
@@ -58,6 +57,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `shake-harder-h3` | `dynv2`, `integrated_multimodal_description: [Shot 1] dynfb1, keep the characters, clothing, environment, and overall composition from the first frame consistent. The two figures remain in close interaction while performing extremely strong, rapid, repeated forward-and-back body motion at maximum visible intensity. The hip movement is large, forceful, and high-amplitude, with deep repeated thrusting motion and very fast rhythmic pacing. The bodies show powerful momentum, strong recoil, and aggressive weight transfer with every cycle. The torso, shoulders, chest, waist, hips, hair, and limbs all display intense secondary motion, violent follow-through, and pronounced shaking from the force of the movement. The chest bouncing becomes very strong and highly visible, and the entire upper body reacts dynamically to the repeated high-force motion. The pace continues to build, becoming faster, harder, and more energetic over time. Preserve stable anatomy, keep both figures clearly separated, and keep the camera mostly steady so the body motion remains the main source of intensity.`, `integrated_multimodal_description: [Shot 1] dynvt1, keep the characters, clothing, environment, and overall composition from the first frame consistent. From the very first frame the two figures are already locked in extremely fast, maximum-intensity vertical rising-and-dropping motion with zero build-up. The repeated upward lift and downward drop run at the highest possible speed and frequency for the entire duration, delivering relentless, non-stop, high-amplitude pounding without any slowing or pause. Every cycle is large, forceful, and aggressive, creating continuous deep recoil, violent weight transfer, and explosive body momentum. The hips and lower body drive the motion at blistering pace, while the torso, shoulders, chest, waist, hair, and limbs shake violently with strong secondary motion and heavy follow-through on every single stroke. Chest bouncing is extreme, constant, and highly visible from start to finish. Preserve stable anatomy, keep both figures clearly separated, and keep the camera mostly steady so the ultra-fast body motion remains the sole source of intensity through the final frame.` | 0.6–0.8 | I2V and T2V | Faster! Harder! Shake Harder! | 55,636 | catalog, verified | [CivitAI](https://civitai.com/models/2840146?modelVersionId=3228867) |
 | `shake-harder-ref-h3` | `dynv2`, `integrated_multimodal_description: [Shot 1] dynfb1, keep the characters, clothing, environment, and overall composition from the first frame consistent. The two figures remain in close interaction while performing extremely strong, rapid, repeated forward-and-back body motion at maximum visible intensity. The hip movement is large, forceful, and high-amplitude, with deep repeated thrusting motion and very fast rhythmic pacing. The bodies show powerful momentum, strong recoil, and aggressive weight transfer with every cycle. The torso, shoulders, chest, waist, hips, hair, and limbs all display intense secondary motion, violent follow-through, and pronounced shaking from the force of the movement. The chest bouncing becomes very strong and highly visible, and the entire upper body reacts dynamically to the repeated high-force motion. The pace continues to build, becoming faster, harder, and more energetic over time. Preserve stable anatomy, keep both figures clearly separated, and keep the camera mostly steady so the body motion remains the main source of intensity.`, `integrated_multimodal_description: [Shot 1] dynvt1, keep the characters, clothing, environment, and overall composition from the first frame consistent. From the very first frame the two figures are already locked in extremely fast, maximum-intensity vertical rising-and-dropping motion with zero build-up. The repeated upward lift and downward drop run at the highest possible speed and frequency for the entire duration, delivering relentless, non-stop, high-amplitude pounding without any slowing or pause. Every cycle is large, forceful, and aggressive, creating continuous deep recoil, violent weight transfer, and explosive body momentum. The hips and lower body drive the motion at blistering pace, while the torso, shoulders, chest, waist, hair, and limbs shake violently with strong secondary motion and heavy follow-through on every single stroke. Chest bouncing is extreme, constant, and highly visible from start to finish. Preserve stable anatomy, keep both figures clearly separated, and keep the camera mostly steady so the ultra-fast body motion remains the sole source of intensity through the final frame.` | 0.6–0.8 | I2V and T2V | Faster! Harder! Shake Harder! | 55,636 | catalog, verified | [CivitAI](https://civitai.com/models/2840146?modelVersionId=3246346) |
 | `live-wallpaper-style` | `live_wallpaper: Animate <Picture 1> with a locked-off camera with no zoom, pan, tilt, tracking, or reframing, plus subtle natural movement in visible elements, while preserving the original subject and composition.`, `live_wallpaper: Animate <Picture 1>, using <Picture 2> as the midpoint, with a locked-off camera with no zoom, pan, tilt, tracking, or reframing, plus continuous motion connecting the supplied images, while preserving the original subject and composition.`, `live_wallpaper: Animate <Picture 1>, using <Picture 2> as the midpoint and <Picture 3> as the ending frame, with a locked-off camera with no zoom, pan, tilt, tracking, or reframing, plus continuous motion connecting the supplied images, while preserving the original subject and composition.` | 1.0 | I2V and T2V | Live Wallpaper Style | 46,643 | catalog, verified | [CivitAI](https://civitai.com/models/1264662?modelVersionId=3351608) |
+| `hyperdetailed-colored-pencil` | `ArsMJStyle, Colored pencil hyperdetailed realism` | not stated | I2V and T2V | Hyperdetailed Colored Pencil | 46,223 | catalog, verified | [CivitAI](https://civitai.com/models/1155749?modelVersionId=3398426) |
 | `80s-fantasy-movie` | `ArsMovieStill, 80s Fantasy Movie Still` | not stated | not stated | 80s Fantasy Movie | 46,168 | catalog, verified | [CivitAI](https://civitai.com/models/789313?modelVersionId=3336371) |
 | `anime-flat-style` | — | not stated | T2V | Anime Flat Style | 41,497 | catalog, verified | [CivitAI](https://civitai.com/models/1952560?modelVersionId=3225946) |
 | `epic-cumshots` | — | 1.0 | I2V and T2V | Epic Cumshots | 35,354 | catalog, verified | [CivitAI](https://civitai.com/models/2621242?modelVersionId=3202064) |
@@ -318,15 +318,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `loru-ribs-christmas-bone-dance` | — | not stated | not stated | 🎄LORU & RIBS: CHRISTMAS BONE DANCE | 0 | catalog, verified | [CivitAI](https://civitai.com/models/3038289?modelVersionId=3452769) |
 
 ## Details
-
-### `hyperdetailed-colored-pencil-krea2.safetensors`
-
-**Hyperdetailed Colored Pencil**
-- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `ArsMJStyle, Colored pencil hyperdetailed realism` · installed
-
-Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
-
-Source: [CivitAI](https://civitai.com/models/1155749?modelVersionId=3398426)
 
 ### `2d-anime-style-nsfw-h3.safetensors`
 
@@ -797,4 +788,29 @@ Then the lines turn into moans and keep changing:
 Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2840146?modelVersionId=3228867)
+
+### `shake-harder-ref-h3.safetensors`
+
+**Faster! Harder! Shake Harder! \| H3 Motion Booster(ANIME Edition Update)**
+- base `MiniMax H3` · I2V and T2V · strength (stated): 0.6–0.8 · triggers: `dynv2`, `integrated_multimodal_description: [Shot 1] dynfb1, keep the characters, clothing, environment, and overall composition from the first frame consistent. The two figures remain in close interaction while performing extremely strong, rapid, repeated forward-and-back body motion at maximum visible intensity. The hip movement is large, forceful, and high-amplitude, with deep repeated thrusting motion and very fast rhythmic pacing. The bodies show powerful momentum, strong recoil, and aggressive weight transfer with every cycle. The torso, shoulders, chest, waist, hips, hair, and limbs all display intense secondary motion, violent follow-through, and pronounced shaking from the force of the movement. The chest bouncing becomes very strong and highly visible, and the entire upper body reacts dynamically to the repeated high-force motion. The pace continues to build, becoming faster, harder, and more energetic over time. Preserve stable anatomy, keep both figures clearly separated, and keep the camera mostly steady so the body motion remains the main source of intensity.`, `integrated_multimodal_description: [Shot 1] dynvt1, keep the characters, clothing, environment, and overall composition from the first frame consistent. From the very first frame the two figures are already locked in extremely fast, maximum-intensity vertical rising-and-dropping motion with zero build-up. The repeated upward lift and downward drop run at the highest possible speed and frequency for the entire duration, delivering relentless, non-stop, high-amplitude pounding without any slowing or pause. Every cycle is large, forceful, and aggressive, creating continuous deep recoil, violent weight transfer, and explosive body momentum. The hips and lower body drive the motion at blistering pace, while the torso, shoulders, chest, waist, hair, and limbs shake violently with strong secondary motion and heavy follow-through on every single stroke. Chest bouncing is extreme, constant, and highly visible from start to finish. Preserve stable anatomy, keep both figures clearly separated, and keep the camera mostly steady so the ultra-fast body motion remains the sole source of intensity through the final frame.`
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`She snaps: "What the hell are you doing?! Get off me!"
+The next thrusts break the line: "Don't— wait— ah—"
+Then the lines turn into moans and keep changing:
+"Nnh..."
+"Ah— slow down—"
+"Hah... hah... there—"
+"Mm— wait, wait—"
+"Ahh... nnh... I can't—"
+"Ah-ah-ah—"
+"Fuck... right there..."`
+```
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
+Source: [CivitAI](https://civitai.com/models/2840146?modelVersionId=3246346)
 

@@ -1,6 +1,6 @@
 # Wan: Motion
 
-67 LoRAs (2 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+66 LoRAs (2 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -69,7 +69,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `crane-up-camera-motion-wan2-1-i2v-lora` | `cr4n3 crane up effect` | 1.0 | I2V and T2V | crane-up-camera-motion-wan2.1-i2v-lora | 66 | catalog, verified | [HF](https://huggingface.co/Muapi/crane-up-camera-motion-wan2.1-i2v-lora) |
 | `crane-overhead-camera-motion-wan2-1-i2v-lora` | `cr4n3 crane over the head movement` | 1.0 | I2V and T2V | crane-overhead-camera-motion-wan2.1-i2v-lora | 65 | catalog, verified | [HF](https://huggingface.co/Muapi/crane-overhead-camera-motion-wan2.1-i2v-lora) |
 | `motion-lora-camera-push-in-wan-14b-720p-i2v` | `## 🧠 Usage` | 1.0 | I2V and T2V | motion-lora-camera-push-in-wan-14b-720p-i2v | 16 | catalog, verified | [HF](https://huggingface.co/Muapi/motion-lora-camera-push-in-wan-14b-720p-i2v) |
-| `loras` | — | not stated | I2V | loras | 0 | catalog, verified | [HF](https://huggingface.co/zxtopower/loras) |
 | `motion-lora-camera-push-in-wan-14b-720p-i2v` | `Push-in camera` | not stated | I2V | Motion-Lora-Camera-Push-In-Wan-14B-720p-I2V | 0 | catalog, verified | [HF](https://huggingface.co/lovis93/Motion-Lora-Camera-Push-In-Wan-14B-720p-I2V) |
 | `motion-lora-camera-push-in-wan-14b-720p-i2v` | `Push-in camera` | not stated | I2V | Motion-Lora-Camera-Push-In-Wan-14B-720p-I2V | 0 | catalog, verified | [HF](https://huggingface.co/chfm/Motion-Lora-Camera-Push-In-Wan-14B-720p-I2V) |
 | `motion-lora-camera-push-in-wan-14b-720p-i2v` | `Push-in camera` | not stated | I2V | Motion-Lora-Camera-Push-In-Wan-14B-720p-I2V | 0 | catalog, verified | [HF](https://huggingface.co/Bn53/Motion-Lora-Camera-Push-In-Wan-14B-720p-I2V) |

@@ -1,6 +1,6 @@
 # LTX2: Enhancement / quality / speed
 
-327 LoRAs (13 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+313 LoRAs (13 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -19,16 +19,10 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `showering-and-foam-ltx2` | — | not stated | not stated | Showering and Foam | 342 | installed, verified | [CivitAI](https://civitai.com/models/3032306?modelVersionId=3457897) |
 | `plorav7-ltx-000010500` | `PLORAV7_LTX`, `PLORAV7 LTX` | not stated | not stated | PLORAV7 LTX 000010500 | — | installed, unverified | — |
 | `tiny-breasts-flat-chest-ltx2` | — | not stated | not stated | tiny breasts flat chest | — | installed, unverified | — |
-| `ltx-2-5` | — | not stated | not stated | LTX-2.5 | 2,778,909 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.5) |
-| `ltx-video` | — | not stated | I2V | LTX-Video | 1,180,743 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-Video) |
-| `ltx-2-3` | — | not stated | I2V and T2V | LTX-2.3 | 862,819 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.3) |
-| `ltx-2-3-fp8` | — | not stated | I2V and T2V | LTX-2.3-fp8 | 746,227 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.3-fp8) |
 | `dr34ml4y-all-in-one-nsfw-h3-wan-ltx2` | `m15510n4ry`, `bl0wj0b`, `d0ubl3_bj`, `d0gg1e`, `c0wg1rl` | not stated | T2V | DR34ML4Y - All-In-One NSFW (H3/WAN/LTX2) | 537,585 | catalog, verified | [CivitAI](https://civitai.com/models/1811313?modelVersionId=3082662) |
-| `ltx-2` | — | not stated | I2V and T2V | LTX-2 | 297,917 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2) |
 | `bouncing-boobs-ltx-wan-h3` | `her breast is bouncing up and down`, `her breast is bouncing from left to right` | not stated | I2V | Bouncing Boobs - LTX / Wan / H3 | 194,866 | catalog, verified | [CivitAI](https://civitai.com/models/1343431?modelVersionId=2864091) |
 | `nsfw-posing-nude` | — | not stated | I2V | NSFW Posing Nude | 91,732 | catalog, verified | [CivitAI](https://civitai.com/models/1648982?modelVersionId=2949966) |
 | `h3-ltx-2-3-ltx2-better-nsfw-motion` | `g@n` | 0.8; 0.9; 1 | I2V | H3 - LTX 2.3 - LTX2 better NSFW motion | 40,210 | catalog, verified | [CivitAI](https://civitai.com/models/2344781?modelVersionId=2986751) |
-| `ltx-2-5-diffusers` | — | not stated | not stated | LTX-2.5-Diffusers | 32,655 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.5-Diffusers) |
 | `furry-enhancer-video` | `anthro` | not stated | I2V and T2V | Furry Enhancer  Video | 21,804 | catalog, verified | [CivitAI](https://civitai.com/models/1782485?modelVersionId=2931454) |
 | `ltx-2-5-22b-ic-lora-sdr-to-hdr` | — | not stated | not stated | LTX-2.5 22B IC-LoRA SDR To HDR | 20,565 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-SDR-To-HDR) |
 | `ltx-2-5-22b-ic-lora-refine-details` | — | not stated | not stated | LTX-2.5 22B IC-LoRA Refine Details | 19,202 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Refine-Details) |
@@ -36,14 +30,12 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ltx-video-iclora-detailer-13b-0-9-8` | — | not stated | I2V and T2V | LTX-Video-ICLoRA-detailer-13b-0.9.8 | 17,058 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-Video-ICLoRA-detailer-13b-0.9.8) |
 | `thiccification-body-expansion` | — | 0.5–1.0; 0.5–1 | I2V and T2V | 🍑 Thiccification (Body Expansion) | 15,715 | catalog, verified | [CivitAI](https://civitai.com/models/2322189?modelVersionId=3200748) |
 | `nsfw-body-physics-fluid-motion-enhancer-lora-ltx2-3` | `D4S1W4_NSFWSME` | 0.5–1.0 | not stated | NSFW Body Physics Fluid Motion Enhancer | 14,768 | catalog, verified | [CivitAI](https://civitai.com/models/2668916?modelVersionId=2996907) |
-| `ltx-2-3-nvfp4` | — | not stated | I2V and T2V | LTX-2.3-nvfp4 | 14,760 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.3-nvfp4) |
 | `pussyjob-ltx-2-3-sulphur` | `pussyjob`, `Pussy job` | 0.4–0.8; 1.0; 0.7 | I2V and T2V | Pussyjob LTX-2.3/Sulphur | 14,145 | catalog, verified | [CivitAI](https://civitai.com/models/2492660?modelVersionId=2814696) |
 | `ltx-2-5-22b-ic-lora-restore` | — | not stated | not stated | LTX Restore IC-LoRA | 13,207 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Restore) |
 | `ltx-2-5-22b-ic-lora-pixel-spatial-upscaler` | — | not stated | not stated | LTX-2.5 22B IC-LoRA Pixel Spatial Upscaler | 13,183 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Pixel-Spatial-Upscaler) |
 | `ltx-2-3-22b-ic-lora-in-outpainting` | — | not stated | not stated | LTX-2.3 22B IC-LoRA Inpainting & Outpainting | 13,170 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-In-Outpainting) |
 | `h3-ltx-2-3-paizuri-titfuck-with-thrusting-squeeze-i2v` | — | 1; 0.5 | I2V and T2V | H3 - LTX 2.3 - Paizuri - Titfuck (With Thrusting + Squeeze) I2V | 12,860 | catalog, verified | [CivitAI](https://civitai.com/models/2364658?modelVersionId=2766201) |
 | `minimaxh3-krea2-qwen-ltx2-3-flux2-wan-2-2-t2v-huge-breasts-large-breasts` | `bigsloppytits`, `bust`, `nip_protruding`, `nip_flat`, `nip_soft` | 0.7–1.0 | T2V | MiniMaxH3 / KREA2 / QWEN / LTX2.3 / FLUX2 / WAN 2.2 T2V - Huge Breasts - Large Breasts | 12,693 | catalog, verified | [CivitAI](https://civitai.com/models/1890652?modelVersionId=2943429) |
-| `ltx-video-0-9-5` | — | not stated | I2V and T2V | LTX-Video-0.9.5 | 11,941 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-Video-0.9.5) |
 | `ltx2-3-vbvr-lora-i2v` | — | not stated | I2V | LTX-2.3 VBVR I2V LoRA | 11,257 | catalog, verified | [HF](https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V) |
 | `finger-licking-and-sucking` | — | not stated | I2V and T2V | Finger Licking and Sucking | 10,292 | catalog, verified | [CivitAI](https://civitai.com/models/1831957?modelVersionId=3245015) |
 | `beanflk-masturbation-finger-insertion-audio` | `BEANFLK` | 1 | not stated | BEANFLK — Masturbation & Finger Insertion + Audio | 9,649 | catalog, verified | [CivitAI](https://civitai.com/models/2829335?modelVersionId=3192441) |
@@ -83,11 +75,9 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ltx2-ic-lora-detailer` | — | not stated | not stated | LTX2 - IC LORA DETAILER | 3,372 | catalog, verified | [CivitAI](https://civitai.com/models/2293339?modelVersionId=2580702) |
 | `ltx-2-3-transformation` | — | not stated | not stated | LTX-2.3-transformation | 3,203 | catalog, verified | [CivitAI](https://civitai.com/models/2487612?modelVersionId=2813668) |
 | `ltx-2-3-crisp-enhance-style-lora` | — | not stated | T2V | LTX_2.3_Crisp_Enhance_Style_LoRa | 3,151 | catalog, verified | [HF](https://huggingface.co/vrgamedevgirl84/LTX_2.3_Crisp_Enhance_Style_LoRa) |
-| `ltx-video-0-9-8-13b-distilled` | — | not stated | I2V | LTX-Video-0.9.8-13B-distilled | 3,054 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-Video-0.9.8-13B-distilled) |
 | `airbag-deploy` | `airbag`, `Airbag`, `airbag deploy`, `crash`, `car` | .30–.60 | not stated | Airbag Deploy | 2,855 | catalog, verified | [CivitAI](https://civitai.com/models/1901787?modelVersionId=2902608) |
 | `ltx-ic-lora-v2v-multi-switch-missionary-version` | — | not stated | I2V | LTX IC-Lora v2v Multi Switch: Missionary version | 2,594 | catalog, verified | [CivitAI](https://civitai.com/models/2776628?modelVersionId=3126760) |
 | `best-faceid` | `ref_t2v: A [age group] [gender/person] with [skin tone], [hair length, texture, and color], [facial hair or distinctive facial feature], a [face shape] face, and [eye color] eyes, with a [body type] build and [posture], wearing [main clothing, colors, and footwear], working as a [profession, role, or character archetype] inside [location or environment], [shot type].  The subject [first action], [second action], and [third action]. They then [final or concluding action involving an object, character, or environment].  The camera begins [initial camera position or angle], [camera movement], and slowly [final camera movement] as the subject [action performed during the camera movement].  [Role-specific clothing or costume details], [important props or accessories], [lighting style], [visual atmosphere or cinematic mood].` | not stated | not stated | Best-FaceID | 2,473 | catalog, verified | [CivitAI](https://civitai.com/models/2757549?modelVersionId=3116433) |
-| `ltx-video-0-9-7-distilled` | — | not stated | I2V and T2V | LTX-Video-0.9.7-distilled | 2,456 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-Video-0.9.7-distilled) |
 | `singularity-ltx-2-3-omnicine-v1` | `无字幕` | not stated | I2V | Singularity-LTX-2.3_OmniCine_V1 | 2,456 | catalog, verified | [CivitAI](https://civitai.com/models/2610733?modelVersionId=3001143) |
 | `pornstar-kissing` | — | not stated | I2V and T2V | Pornstar Kissing | 2,422 | catalog, verified | [CivitAI](https://civitai.com/models/2662497?modelVersionId=2989697) |
 | `ltx-2-3-dmd-distilled-lora` | — | not stated | I2V and T2V | LTX 2.3 DMD/Distilled LoRA | 2,345 | catalog, verified | [CivitAI](https://civitai.com/models/2781695?modelVersionId=3132965) |
@@ -154,17 +144,14 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ltx-2-3-22b-ic-lora-hdr` | — | not stated | not stated | LTX-2.3-22b-IC-LoRA-HDR | 672 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-HDR) |
 | `maid-video-ltx2` | — | not stated | not stated | Maid_Video_LTX2 | 653 | catalog, verified | [CivitAI](https://civitai.com/models/2323289?modelVersionId=2613602) |
 | `ltx-2-3-lewd-backshots` | — | not stated | not stated | LTX_2.3_LEWD_BACKSHOTS | 639 | catalog, verified | [CivitAI](https://civitai.com/models/2918416?modelVersionId=3301769) |
-| `ltxv-spatial-upscaler-0-9-7` | — | not stated | I2V and T2V | ltxv-spatial-upscaler-0.9.7 | 623 | catalog, verified | [HF](https://huggingface.co/Lightricks/ltxv-spatial-upscaler-0.9.7) |
 | `ltx-video-iclora-canny-13b-0-9-7` | — | not stated | I2V and T2V | LTX-Video-ICLoRA-canny-13b-0.9.7 | 617 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-Video-ICLoRA-canny-13b-0.9.7) |
 | `ltx-2-3` | — | 0.8–1.0 | not stated | ltx-2.3月兮 | 604 | catalog, verified | [CivitAI](https://civitai.com/models/2637116?modelVersionId=2974888) |
 | `ltx2-i2v-smooth-lora` | — | not stated | I2V | LTX2-I2V-Smooth-LORA | 598 | catalog, verified | [HF](https://huggingface.co/starsfriday/LTX2-I2V-Smooth-LORA) |
 | `ltx-2-3-distilled-lora-384-diffusers` | — | not stated | I2V and T2V | LTX-2.3-distilled-lora-384-Diffusers | 597 | catalog, verified | [HF](https://huggingface.co/CalamitousFelicitousness/LTX-2.3-distilled-lora-384-Diffusers) |
 | `ltx-2-3-bodypositivity-lora` | — | not stated | I2V and T2V | ltx-2.3-bodypositivity-lora | 593 | catalog, verified | [HF](https://huggingface.co/kenzato/ltx-2.3-bodypositivity-lora) |
-| `ltx-video-0-9-7-dev` | — | not stated | I2V and T2V | LTX-Video-0.9.7-dev | 590 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-Video-0.9.7-dev) |
 | `cartoonishly-eaten-ltx-2-wan2-1-14b-t2v` | `eat style` | not stated | T2V | Cartoonishly Eaten - LTX-2 / Wan2.1 14b T2V | 571 | catalog, verified | [CivitAI](https://civitai.com/models/1637933?modelVersionId=2603658) |
 | `zaynab-nordhavenlove` | — | not stated | not stated | Zaynab NordhavenLove | 567 | catalog, verified | [CivitAI](https://civitai.com/models/3036157?modelVersionId=3455572) |
 | `ltx-2-3-googlyeyes-lora` | — | not stated | I2V and T2V | ltx-2.3-googlyeyes-lora | 558 | catalog, verified | [HF](https://huggingface.co/TheBurgstall/ltx-2.3-googlyeyes-lora) |
-| `ltx-video-0-9-1` | — | not stated | I2V and T2V | LTX-Video-0.9.1 | 554 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-Video-0.9.1) |
 | `ltx2-3-stockings-feet-i2v` | — | not stated | I2V | LTX2.3 stockings feet i2v | 542 | catalog, verified | [CivitAI](https://civitai.com/models/2630795?modelVersionId=2953735) |
 | `paste-squeeze-ltx-2-3` | `KABAPASTE` | not stated | not stated | Paste Squeeze - LTX-2.3 | 536 | catalog, verified | [CivitAI](https://civitai.com/models/2516144?modelVersionId=2828127) |
 | `flying` | `Flying` | not stated | not stated | Flying | 523 | catalog, verified | [CivitAI](https://civitai.com/models/1556870?modelVersionId=1761736) |
@@ -173,7 +160,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `arcright-ltx` | `ArcRight` | not stated | not stated | ArcRight - LTX | 488 | catalog, verified | [CivitAI](https://civitai.com/models/1556498?modelVersionId=1761324) |
 | `take-a-taxi` | — | not stated | not stated | Take a taxi | 486 | catalog, verified | [CivitAI](https://civitai.com/models/2337804?modelVersionId=2629698) |
 | `ltx-2-3-22b-ic-lora-colorization` | — | not stated | not stated | LTX-2.3 22B IC-LoRA Colorization | 480 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Colorization) |
-| `ltx-2-5-pre-trained` | — | not stated | not stated | LTX-2.5-Pre-Trained | 447 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.5-Pre-Trained) |
 | `actionrun` | `ActionRun` | not stated | not stated | ActionRun | 446 | catalog, verified | [CivitAI](https://civitai.com/models/1556450?modelVersionId=1761273) |
 | `ltx-2-3-post-apocalyptic-style-lora` | — | not stated | I2V and T2V | LTX_2.3_Post_Apocalyptic_Style_LoRa | 443 | catalog, verified | [HF](https://huggingface.co/vrgamedevgirl84/LTX_2.3_Post_Apocalyptic_Style_LoRa) |
 | `star-trek-tos-uniforms-ltx2` | `red tos unform`, `blue tos uniform`, `red tos uniform dress`, `yellow tos uniform`, `yellow tos uniform dress` | not stated | not stated | Star Trek TOS uniforms (LTX2) | 442 | catalog, verified | [CivitAI](https://civitai.com/models/2314444?modelVersionId=2603893) |
@@ -439,41 +425,6 @@ Source: [CivitAI](https://civitai.com/models/2985345?modelVersionId=3384607)
 
 Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
-### `LTX-2`
-
-**LTX-2**
-- base `LTXV2` · I2V and T2V · strength: not stated
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-For more inference examples, including generation with the distilled checkpoint, visit [here](https://huggingface.co/docs/diffusers/main/en/api/pipelines/ltx2#diffusers.LTX2Pipeline.__call__.example). 
-
-## General tips:
-* Width & height settings must be divisible by 32. Frame count must be divisible by 8 + 1. 
-* In case the resolution or number of frames are not divisible by 32 or 8 + 1, the input should be padded with -1 and then cropped to the desired resolution and number of frames.
-* For tips on writing effective prompts, please visit our [Prompting guide](https://ltx.video/blog/how-to-prompt-for-ltx-2) 
-
-### Limitations
-- This model is not intended or able to provide factual information.
-- As a statistical model this checkpoint might amplify existing societal biases.
-- The model may fail to generate videos that matches the prompts perfectly.
-- Prompt following is heavily influenced by the prompting-style.
-- The model may generate content that is inappropriate or offensive.
-- When generating audio without speech, the audio may be of lower quality.
-
-# Train the model
-
-The base (dev) model is fully trainable.
-
-It's extremely easy to reproduce the LoRAs and IC-LoRAs we publish wit
-```
-
-Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
-
-Source: [HF](https://huggingface.co/Lightricks/LTX-2)
-
 ### `LTX23_ReverseDeepthroatV1_1.safetensors`
 
 **Reverse deepthroat**
@@ -523,22 +474,6 @@ Example prompt (from the images API, page, or sidecar; never invented):
 Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2492660?modelVersionId=2814696)
-
-### `LTX-Video-0.9.5`
-
-**LTX-Video-0.9.5**
-- base `LTXV` · I2V and T2V · strength: not stated
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-For image-to-video:
-```
-
-Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
-
-Source: [HF](https://huggingface.co/Lightricks/LTX-Video-0.9.5)
 
 ### `BEANFLK_V1.safetensors`
 
@@ -607,4 +542,42 @@ Example prompt (from the images API, page, or sidecar; never invented):
 Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2496953?modelVersionId=2993393)
+
+### `DaSiWa_LTX23_NSFW_Cumshot_Joyshot-v01.comfy.safetensors`
+
+**NSFW Cumshot Joyshot \| Lora \| LTX2.3**
+- base `LTXV 2.3` · not stated · strength (stated): 0.5–1 · triggers: `cum`, `stroking his penis`, `he ejaculates`, `on her face`, `ejaculates on her`
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`cum , white cum, transparent cum, cum is thick`
+```
+
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
+
+Source: [CivitAI](https://civitai.com/models/2680695?modelVersionId=3010054)
+
+### `ltx23_height_growth.safetensors`
+
+**💁‍♀️ Height Growth**
+- base `LTXV 2.3` · I2V and T2V · strength (stated): 0.3–0.9; 0.5–1; 0.5–1.0 · triggers: `grwth`
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`gtsgrw, A realistic video of a young woman sitting on a couch.
+
+She looks shocked as her height increases. Her giant legs stretch across the room Her head bumps into the ceiling, cracking it. Plaster and dust falling down.
+
+After becoming a giantess, her clothes are tight and her body is curvy.
+
+She says: "Ouch!", after hitting the ceiling.`
+```
+
+Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
+
+Source: [CivitAI](https://civitai.com/models/2773174?modelVersionId=3126495)
 

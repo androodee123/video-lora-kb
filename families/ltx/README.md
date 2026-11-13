@@ -4,9 +4,9 @@ Installed rows are flagged in every table and sorted first.
 
 - [Motion](motion.md) — 34 (4 installed)
 - [Camera](camera.md) — 44 (2 installed)
-- [Audio / voice](audio.md) — 17 (1 installed)
+- [Audio / voice](audio.md) — 16 (1 installed)
 - [Style](style.md) — 175 (9 installed)
-- [Enhancement / quality / speed](enhancement.md) — 327 (13 installed)
+- [Enhancement / quality / speed](enhancement.md) — 313 (13 installed)
 - [Identity / character](identity.md) — 148 (0 installed)
 - [Effects / VFX](effects.md) — 26 (1 installed)
 - [Transitions](transitions.md) — 15 (0 installed)

@@ -49,7 +49,7 @@ Do not stack two motion boosters and two realism LoRAs on the first pass. Turbo 
 
 ## Goal recipes
 
-Recipes 1–16 and 49–64 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33–45 and 79–90 LTX, 46–48 and 91–96 cross-family (97 recipes). “Installed” means present on the 13 Nov 2026 RAID snapshot. Prompt templates: `guides/prompt-patterns.md`.
+Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33–45 and 79–90 LTX, 46–48 and 91–96 cross-family (98 recipes). “Installed” means present on the 13 Nov 2026 RAID snapshot. Prompt templates: `guides/prompt-patterns.md`.
 
 ### 1. Realistic, less-morphing human motion (H3)
 
@@ -301,10 +301,11 @@ Recipes 1–16 and 49–64 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33–45 
 - To change the face but keep motion: recipe 11 (`akatz-ai/MiniMax-H3-Character-Swap-LoRA`, Ref2VA; not on RAID). Catalog face-swap: `FaceSwap - MiniMax REF2VA` (trigger `Faceswap`); `BFS - Best Face Swap` uses a structured `body_swap` / subject-definition trigger — follow the page, do not invent one.
 - Conflict: two identity LoRAs, or swap + a second character LoRA on the first test.
 
-### 51. Pose or ControlNet guidance (H3)
+### 51. Pose or control LoRA guidance (H3)
 
-- HF (not on RAID): `MiniMax-H3-Fun-Controlnet-Union` / `Union-2.0` — use the pack’s control input. Strength not stated.
-- Installed pose-like: `Jacko pose minimax h3 v1` (trigger not stated). Catalog: `ADD SexyPose H3` (trigger `sexypose`); `BLACKED Style — Cowgirl Pose [MiniMax H3 Ref2VA]` (trigger not stated; Ref2VA graph); `Genshin-like ultimate burst poses` (trigger `ulti`).
+- Fun ControlNet Union packs are **not LoRAs** and are out of this catalog. Use a pose or control *LoRA* instead.
+- Installed: `Jacko pose minimax h3 v1` (trigger not stated).
+- Catalog: `ADD SexyPose H3` (trigger `sexypose`); `BLACKED Style — Cowgirl Pose [MiniMax H3 Ref2VA]` (trigger not stated; Ref2VA graph); `Genshin-like ultimate burst poses` (trigger `ulti`); `SHINJUTSU-H3-Control-LoRA` (trigger and strength not stated — a control LoRA, not a ControlNet).
 - Drive the pose in the action sentence; do not stack two pose LoRAs.
 
 ### 52. Lighting, caustics, relight (H3)
@@ -473,7 +474,7 @@ Recipes 1–16 and 49–64 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33–45 
 
 ### 86. LTX image / spatial upscaler
 
-- Official IC-LoRAs: `LTX-2.5 22B IC-LoRA Pixel Spatial Upscaler`, `LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler`, older `ltxv-spatial-upscaler-0.9.7`. Catalog: `LTX 2.3 - LTX Image Upscaler (LORA + Workflow)`.
+- Official IC-LoRAs: `Lightricks/LTX-2.5-22b-IC-LoRA-Pixel-Spatial-Upscaler` and `Lightricks/LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler`. The older `ltxv-spatial-upscaler-0.9.7` pipeline is not a LoRA and is out of this catalog. Catalog LoRA: `LTX 2.3 - LTX Image Upscaler (LORA + Workflow)` — use the LoRA file, not the bundled workflow.
 - Strengths usually `not stated`. Use on the upscaler / IC graph, not as a fifth style LoRA on a generate pass.
 
 ### 87. Bouncy walk / body physics add-on (LTX, also Wan)
@@ -510,7 +511,7 @@ Recipes 1–16 and 49–64 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33–45 
 
 ### 93. Pose or ControlNet: pick a family
 
-- H3: recipe 51 (Fun ControlNet Union, or a named pose LoRA).
+- H3: recipe 51 (Jacko / SexyPose / other named pose LoRAs, or `SHINJUTSU-H3-Control-LoRA`).
 - Wan: recipe 68 (named pose LoRAs; match 2.1/2.2).
 - LTX: recipe 81 (official pose/depth IC-LoRAs or Pose Helper).
 - Official IC / ControlNet packs need their control input. A trigger-only pose LoRA does not replace a pose map.
@@ -540,6 +541,12 @@ Recipes 1–16 and 49–64 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33–45 
 - 1.3B-only examples now in the catalog (triggers as recorded; strengths `not stated` unless noted): `wan2.1 1.3b female anatomy` (`NTM`); `wan2.1 1.3b male anatomy` (`ntm-male`); `wan2.1 1.3b static rotation` (`sttcrttn`); `Wan 2.1 1.3B tools` (`low speed`, `high speed`); `Beauty of rain [Wan 1.3B]` (`b3@ut1f0ll_r@in`); `Genshin TCG Style [Wan 1.3B]` (`Genshin_TCG`, stated **0.75–1.0**); `PixelArtRedmond - Wan Lora` (`Pixel Art`, `PixArFK`); `Kubakub_Architecture_Wan2.1_1.3B_t2v` (`Kubakub`); `Enchanted - Giselle` (`2DGiselle`); `Vintage 1980s anime` (stated **0.7–1.0**, trigger not stated).
 - `Sex helper for NSFW Wan 1.3b` and the 1.3B furry I2V pack have no recorded trigger — do not invent one.
 - Two low-download 1.3B rows are flagged `low_signal` (`Twerk - Wan2.1 - 1.3b`, `Etot`).
+
+### 98. Convert H3 FL2VA to Ref2VA (LoHA)
+
+- Catalog LoCon/LoHA (not on RAID): `minimax H3 fl2va to ref2va conversion` (`minimax_h3_lf2ref_full_loha_r256.safetensors`, plus an fp8 variant). Trigger not stated. A recommended positive strength is not stated; the page says the LoHA is reversible at weight **-1**.
+- Page note: load it with a model-only LoRA loader — do not use a joint model+CLIP node.
+- This is a graph conversion helper, not a style LoRA. Pair with a Ref2VA workflow once converted (recipes 11, 53), and do not stack a second conversion adapter.
 
 ---
 

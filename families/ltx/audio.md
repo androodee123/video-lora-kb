@@ -1,6 +1,6 @@
 # LTX2: Audio / voice
 
-17 LoRAs (1 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+16 LoRAs (1 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -22,7 +22,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ltx-2-3-frieren-anime` | — | not stated | I2V | LTX 2.3. Frieren Anime | 309 | catalog, verified | [CivitAI](https://civitai.com/models/2818137?modelVersionId=3178713) |
 | `ltx23-surfaces-realism-lora` | — | not stated | T2V | ltx23-surfaces-realism-lora | 160 | catalog, verified | [HF](https://huggingface.co/joeygambino/ltx23-surfaces-realism-lora) |
 | `ltx23-accent-american-audio-lora` | — | not stated | T2V | ltx23-accent-american-audio-lora | 91 | catalog, verified | [HF](https://huggingface.co/joeygambino/ltx23-accent-american-audio-lora) |
-| `ltx-2-3-foley-workflow` | — | not stated | not stated | LTX-2.3-Foley-Workflow | 0 | catalog, verified | [HF](https://huggingface.co/FuzzPuppy/LTX-2.3-Foley-Workflow) |
 
 ## Details
 
@@ -139,28 +138,4 @@ Example prompt (from the images API, page, or sidecar; never invented):
 Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2287974?modelVersionId=2574779)
-
-### `LTX-2.3-Foley-Workflow`
-
-**LTX-2.3-Foley-Workflow**
-- base `LTXV 2.3` · not stated · strength: not stated
-
-Example prompts (from the images API, page, or sidecar; never invented):
-
-Example 1:
-```
-The setup script installs the nodes and models, downloads the tennis test video as `input.mp4`, restarts ComfyUI without stopping the pod (with `--cache-classic`, see the Manual ComfyUI Install notes), and waits until the UI responds on port `8188`.
-
-By default the script installs ComfyUI `v0.27.0`. To test another ComfyUI release, set `COMFYUI_CORE_REF`:
-```
-
-Example 2:
-```
-To install workflow files from a different Hugging Face branch, set
-`WORKFLOW_REVISION`:
-```
-
-Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
-
-Source: [HF](https://huggingface.co/FuzzPuppy/LTX-2.3-Foley-Workflow)
 

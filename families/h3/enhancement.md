@@ -1,6 +1,6 @@
 # H3: Enhancement / quality / speed
 
-503 LoRAs (142 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+501 LoRAs (140 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -12,7 +12,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `larryvrh-h3` | `larryvrh-h3` | not stated | I2V | Minimax H3 Turbo LoRas | 57,125 | installed, verified | [CivitAI](https://civitai.com/models/2837571?modelVersionId=3202732) |
 | `minimax-h3-turbo-loras-h3` | — | not stated | I2V | Minimax H3 Turbo LoRas | 57,125 | installed, verified | [CivitAI](https://civitai.com/models/2837571?modelVersionId=3202732) |
 | `cumshot3-h3` | `hmcumshot3`, `cumshot` | 0.85 | I2V and T2V | HMCumshot - Cumshot LoRA for MiniMax H3 | 57,043 | installed, verified | [CivitAI](https://civitai.com/models/2857340?modelVersionId=3227331) |
-| `hyperdetailed-colored-pencil-krea2` | `ArsMJStyle, Colored pencil hyperdetailed realism` | not stated | I2V and T2V | Hyperdetailed Colored Pencil | 46,223 | installed, verified | [CivitAI](https://civitai.com/models/1155749?modelVersionId=3398426) |
 | `h3-ltx-2-3-ltx2-better-nsfw-motion-h3` | `h3 ltx 2 3 ltx2 better nsfw motion h3` | 0.8; 0.9; 1 | I2V | H3 - LTX 2.3 - LTX2 better NSFW motion | 40,210 | installed, verified | [CivitAI](https://civitai.com/models/2344781?modelVersionId=2986751) |
 | `sexgod-s-naughtytimes-mm-h3` | `sexgod s naughtytimes mm h3` | 1.0 | I2V and T2V | SexGod's NaughtyTimes MM H3 Lora | 36,594 | installed, verified | [CivitAI](https://civitai.com/models/2836176?modelVersionId=3303468) |
 | `breast-play-jiggle-for-minimax-h3` | `breast play jiggle for minimax h3` | 0.7–0.8 | I2V and T2V | Breast Play & Jiggle for MiniMax H3 | 26,703 | installed, verified | [CivitAI](https://civitai.com/models/2856004?modelVersionId=3278283) |
@@ -26,7 +25,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ultimate-deepthroat-frenulum-vers-minimax-h3` | — | not stated | not stated | Ultimate DeepThroat + Frenulum Vers - MiniMax H3 LoRa - K3NK | 10,984 | installed, verified | [CivitAI](https://civitai.com/models/2904180?modelVersionId=3331949) |
 | `blowjobs-bbc-h3` | — | not stated | not stated | Blowjobs - BBC | 10,958 | installed, verified | [CivitAI](https://civitai.com/models/1494990?modelVersionId=3356763) |
 | `minimax-worship-it-h3` | — | not stated | not stated | Minimax - Worship It | 10,940 | installed, verified | [CivitAI](https://civitai.com/models/2897013?modelVersionId=3275319) |
-| `minigirl-onahole-xl` | — | not stated | I2V and T2V | Minigirl Onahole (pony & illustrious) | 10,688 | installed, verified | [CivitAI](https://civitai.com/models/567727?modelVersionId=3387029) |
 | `mmh3-realism-slider-h3` | — | not stated | not stated | [MMH3] Realism Slider | 9,583 | installed, verified | [CivitAI](https://civitai.com/models/3014078?modelVersionId=3421124) |
 | `messy-blowjob-h3` | — | 1 | I2V | Messy Blowjob H3 | 8,664 | installed, verified | [CivitAI](https://civitai.com/models/2997232?modelVersionId=3399472) |
 | `sexy-massage-high-wan` | `getting a sexy massage` | not stated | not stated | Sexy Massage | 8,142 | installed, verified | [CivitAI](https://civitai.com/models/2526675?modelVersionId=3387225) |
@@ -180,6 +178,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `minimaxh3-krea2-qwen-ltx2-3-flux2-wan-2-2-t2v-huge-breasts-large-breasts` | `bigsloppytits`, `huge breasts`, `huge saggy breasts`, `massive saggy breasts`, `huge bust` | 0.7–1.0 | T2V | MiniMaxH3 / KREA2 / QWEN / LTX2.3 / FLUX2 / WAN 2.2 T2V - Huge Breasts - Large Breasts | 12,693 | catalog, verified | [CivitAI](https://civitai.com/models/1890652?modelVersionId=3220778) |
 | `minimax-h3-turbo-ref2va-fl2va-hybrid` | — | not stated | I2V | Minimax H3 Turbo | 12,094 | catalog, verified | [CivitAI](https://civitai.com/models/2929860?modelVersionId=3315815) |
 | `h3-anti-burn-lora` | — | not stated | I2V and T2V | H3-Anti-Burn-LoRA | 10,728 | catalog, verified | [HF](https://huggingface.co/Imagineer13/H3-Anti-Burn-LoRA) |
+| `minigirl-onahole-pony-illustrious` | — | not stated | I2V and T2V | Minigirl Onahole (pony & illustrious) | 10,688 | catalog, verified | [CivitAI](https://civitai.com/models/567727?modelVersionId=3387029) |
 | `sexgod-after-midnight-mm-h3-ref2va` | — | 1.0 | I2V and T2V | SexGod "After Midnight" MM H3 ref2va | 10,298 | catalog, verified | [CivitAI](https://civitai.com/models/2867841?modelVersionId=3243898) |
 | `side-splits-start` | — | not stated | I2V | Side splits start | 10,013 | catalog, verified | [CivitAI](https://civitai.com/models/1855103?modelVersionId=3428248) |
 | `motion-repair-h3` | — | not stated | I2V | BUNNY General Motion Continuity Repair | 9,916 | catalog, verified | [CivitAI](https://civitai.com/models/2890788?modelVersionId=3366092) |
@@ -336,6 +335,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `jade-belwyn` | — | not stated | not stated | Jade Belwyn | 710 | catalog, verified | [CivitAI](https://civitai.com/models/3007831?modelVersionId=3413000) |
 | `stockings-wearing-minimax-h3` | `Make the woman wear stockings` | not stated | not stated | Stockings_wearing_MiniMax-H3 | 710 | catalog, verified | [CivitAI](https://civitai.com/models/3012696?modelVersionId=3419318) |
 | `minimax-h3-t2va-t2v-polyhedron-better-hair` | `ha8ir`, `perfect hair`, `thick hair`, `airy volume`, `natural waves` | 0.6–0.7 | T2V | Minimax H3: t2va (T2V) – Polyhedron: Better Hair | 678 | catalog, verified | [CivitAI](https://civitai.com/models/3038528?modelVersionId=3453108) |
+| `minimax-h3-fl2va-to-ref2va-conversion` | — | not stated | I2V | minimax H3 fl2va to ref2va conversion | 663 | catalog, verified | [CivitAI](https://civitai.com/models/2841039?modelVersionId=3207111) |
 | `pixeltune-minimax-h3-lora` | — | 1.0 | I2V and T2V | PixelTune-MiniMax-H3-LoRA | 658 | catalog, verified | [HF](https://huggingface.co/ij/PixelTune-MiniMax-H3-LoRA) |
 | `hcsm` | `HCSM, handcrafted stop-motion, miniature cinematic` | not stated | not stated | HCSM | 650 | catalog, verified | [CivitAI](https://civitai.com/models/2971871?modelVersionId=3385119) |
 | `minimax-h3-t2va-t2v-polyhedron-perfect-feet` | `fee8t`, `perfect feet` | not stated | I2V and T2V | Minimax H3: t2va (T2V) – Polyhedron: Perfect Feet | 644 | catalog, verified | [CivitAI](https://civitai.com/models/3006953?modelVersionId=3411833) |
@@ -375,7 +375,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `minimax-h3-turbo-lora` | — | 1.0 | I2V and T2V | MiniMax-H3-Turbo-Lora | 474 | catalog, verified | [HF](https://huggingface.co/Assfnjk/MiniMax-H3-Turbo-Lora) |
 | `cora-nordhavenlove` | — | not stated | not stated | Cora NordhavenLove | 469 | catalog, verified | [CivitAI](https://civitai.com/models/3025400?modelVersionId=3435875) |
 | `the-terminator-1984-movie-lora-style-minimax-h3-style-lora` | `terminator84style` | not stated | I2V and T2V | The Terminator 1984 Movie Lora Style - MiniMax H3 Style LoRA | 468 | catalog, verified | [CivitAI](https://civitai.com/models/2992236?modelVersionId=3393199) |
-| `minimax-h3-prompt-rewriter-lora-8b` | — | not stated | I2V and T2V | MiniMax-H3-Prompt-Rewriter-LoRA-8B | 466 | catalog, verified | [HF](https://huggingface.co/lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA-8B) |
 | `penis-lora-by-coachbate-minimax-h3` | `p3n15` | not stated | I2V and T2V | Penis LoRA by CoachBate Minimax H3 | 466 | catalog, verified | [CivitAI](https://civitai.com/models/2835126?modelVersionId=3199605) |
 | `muscular-bodybuilder-for-minimax-h3-nice-muscle` | — | not stated | T2V | muscular bodybuilder for minimax h3,nice muscle | 464 | catalog, verified | [CivitAI](https://civitai.com/models/2877644?modelVersionId=3252049) |
 | `minimax-h3-t2va-t2v-polyhedron-goth-girls` | `go8th`, `black choker`, `blunt bangs`, `black lipstick`, `fishnet stockings` | not stated | I2V and T2V | Minimax H3: t2va (T2V) – Polyhedron: Goth Girls | 463 | catalog, verified | [CivitAI](https://civitai.com/models/2981783?modelVersionId=3380197) |
@@ -404,7 +403,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `esmae-belwyn` | — | not stated | not stated | Esmae Belwyn | 331 | catalog, verified | [CivitAI](https://civitai.com/models/3040459?modelVersionId=3462710) |
 | `faye-belwyn` | — | not stated | not stated | Faye Belwyn | 331 | catalog, verified | [CivitAI](https://civitai.com/models/3038822?modelVersionId=3462499) |
 | `only-saree-minimax-h3-by-sarcastic-tofu` | `Only_Saree` | not stated | not stated | Only Saree Minimax H3 by Sarcastic TOFU | 331 | catalog, verified | [CivitAI](https://civitai.com/models/2878350?modelVersionId=3252913) |
-| `minimax-h3-prompt-rewriter-lora-omni` | — | not stated | not stated | MiniMax-H3-Prompt-Rewriter-LoRA-Omni | 324 | catalog, verified | [HF](https://huggingface.co/lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA-Omni) |
 | `1920s-silent-film-intertitles-aged-intertitle-concept-lora-minimax-h3` | `aged_intertitle` | not stated | not stated | 1920s Silent Film Intertitles - Aged Intertitle Concept LoRA (MiniMax H3) | 322 | catalog, verified | [CivitAI](https://civitai.com/models/2966370?modelVersionId=3361105) |
 | `confident-model-walk` | — | not stated | I2V and T2V | Confident Model Walk | 317 | catalog, verified | [CivitAI](https://civitai.com/models/3020457?modelVersionId=3429450) |
 | `princess-belwyn` | — | not stated | not stated | Princess Belwyn | 316 | catalog, verified | [CivitAI](https://civitai.com/models/3042028?modelVersionId=3457799) |
@@ -426,7 +424,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `kreasammelin-minimax-h3-style-lora` | `kreasammelinstyle` | not stated | I2V and T2V | KreaSammelin - MiniMax H3 Style LoRA | 281 | catalog, verified | [CivitAI](https://civitai.com/models/2992917?modelVersionId=3394013) |
 | `minimax-h3-t2v-i2v-2bplaydildo` | `2BPlaydildo` | not stated | I2V and T2V | Minimax-H3-T2V_I2V-2BPlaydildo | 274 | catalog, verified | [CivitAI](https://civitai.com/models/2961828?modelVersionId=3355496) |
 | `minimax-h3-turbo-lora` | — | 1.0 | I2V and T2V | MiniMax-H3-Turbo-Lora | 266 | catalog, verified | [HF](https://huggingface.co/Kokosowek/MiniMax-H3-Turbo-Lora) |
-| `minimax-h3-prompt-rewriter-lora` | — | not stated | I2V and T2V | MiniMax-H3-Prompt-Rewriter-LoRA | 259 | catalog, verified | [HF](https://huggingface.co/lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA) |
 | `corgis-are-cats-style-anima-krea2-minimax-h3-style-lora` | `corgiscatsstyle` | not stated | I2V and T2V | Corgis are Cats Style [Anima/Krea2] - MiniMax H3 Style LoRA | 258 | catalog, verified | [CivitAI](https://civitai.com/models/2992752?modelVersionId=3393814) |
 | `sheer-nighty-minimax-h3` | `sheer nighty` | not stated | not stated | sheer_nighty_MiniMax-H3 | 258 | catalog, verified | [CivitAI](https://civitai.com/models/3035162?modelVersionId=3448679) |
 | `pika-h3-flex-turbo-lora` | — | not stated | I2V and T2V | Pika-H3-Flex-Turbo-LoRA | 257 | catalog, verified | [HF](https://huggingface.co/helao123/Pika-H3-Flex-Turbo-LoRA) |
@@ -465,6 +462,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `80s-commercial-essential-1983-minimax-h3-style-lora` | `com80style` | not stated | I2V and T2V | 80S COMMERCIAL ESSENTIAL 1983 - MiniMax H3 Style LoRA | 160 | catalog, verified | [CivitAI](https://civitai.com/models/2918721?modelVersionId=3302147) |
 | `minimax-h3-t2v-i2v-gv-facecum` | — | not stated | not stated | Minimax-H3-T2V_I2V-Gv颜射FaceCum | 160 | catalog, verified | [CivitAI](https://civitai.com/models/2915067?modelVersionId=3297809) |
 | `minimax-h3-t2v-i2v-urethralrodplay` | `Urodplay` | not stated | T2V | Minimax-H3-T2V_I2V-Urethralrodplay | 160 | catalog, verified | [CivitAI](https://civitai.com/models/2939382?modelVersionId=3327686) |
+| `minimax-h3-t2v-i2v-cumblaster` | `Cumblaster` | not stated | not stated | Minimax-H3-T2V_I2V-Cumblaster | 158 | catalog, verified | [CivitAI](https://civitai.com/models/2954303?modelVersionId=3346302) |
 | `thailand-tradition-dress-minimax-h3` | `Thailand Tradition Dress` | not stated | not stated | Thailand_Tradition_Dress_MiniMax-H3 | 156 | catalog, verified | [CivitAI](https://civitai.com/models/3034204?modelVersionId=3447500) |
 | `krea-2-dit-nola-znolanola-consistent-southern-street-muse` | `znolanola`, `znolawoman` | not stated | I2V and T2V | [Krea 2 DiT] Nola (znolanola) — Consistent Southern Street Muse | 150 | catalog, verified | [CivitAI](https://civitai.com/models/3041979?modelVersionId=3464988) |
 | `minimax-h3-t2v-i2v-analfisting` | — | not stated | I2V and T2V | Minimax-H3-T2V_I2V-analfisting | 146 | catalog, verified | [CivitAI](https://civitai.com/models/2928021?modelVersionId=3313505) |
@@ -565,15 +563,6 @@ shot shows her kneeling on a dark wood floor.`
 Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2857340?modelVersionId=3227331)
-
-### `hyperdetailed-colored-pencil-krea2.safetensors`
-
-**Hyperdetailed Colored Pencil**
-- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `ArsMJStyle, Colored pencil hyperdetailed realism` · installed
-
-Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
-
-Source: [CivitAI](https://civitai.com/models/1155749?modelVersionId=3398426)
 
 ### `h3-ltx-2-3-ltx2-better-nsfw-motion-h3.safetensors`
 
@@ -985,4 +974,13 @@ Source: [CivitAI](https://civitai.com/models/2895717?modelVersionId=3273642)
 Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/3041489?modelVersionId=3463588)
+
+### `grindlg-a-better-grinding-motion-assist-h3.safetensors`
+
+**GRINDLG - A Better Grinding Motion - Assist LoRA - H3**
+- base `MiniMax H3` · not stated · strength (stated): 1.0 · installed
+
+Compatibility: speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
+Source: [CivitAI](https://civitai.com/models/2987156?modelVersionId=3386796)
 

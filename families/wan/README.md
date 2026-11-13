@@ -2,11 +2,11 @@
 
 Installed rows are flagged in every table and sorted first.
 
-- [Motion](motion.md) — 67 (2 installed)
-- [Camera](camera.md) — 149 (4 installed)
+- [Motion](motion.md) — 66 (2 installed)
+- [Camera](camera.md) — 145 (4 installed)
 - [Audio / voice](audio.md) — 3 (0 installed)
 - [Style](style.md) — 498 (1 installed)
-- [Enhancement / quality / speed](enhancement.md) — 1002 (31 installed)
+- [Enhancement / quality / speed](enhancement.md) — 981 (30 installed)
 - [Identity / character](identity.md) — 644 (0 installed)
 - [Effects / VFX](effects.md) — 117 (0 installed)
 - [Transitions](transitions.md) — 9 (0 installed)
@@ -18,4 +18,4 @@ Installed rows are flagged in every table and sorted first.
 - [Character consistency](character-consistency.md) — 6 (0 installed)
 - [Object control](object-control.md) — 1 (0 installed)
 - [Pose / control](pose.md) — 32 (0 installed)
-- [unverified](unverified.md) — 8 (8 installed)
+- [unverified](unverified.md) — 7 (7 installed)

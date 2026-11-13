@@ -1,6 +1,6 @@
 # H3: NSFW acts and anatomy
 
-235 LoRAs (97 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+234 LoRAs (96 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -101,7 +101,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `oral-sex-cumshot-h3-i2v-h3` | `H-KJYS` | not stated | I2V | oral sex cumshot i2v | — | installed, unverified | [CivitAI](https://civitai.com/models/2905997) |
 | `penis-h3` | — | not stated | not stated | penis | — | installed, unverified | — |
 | `solo-dildo-h3` | — | not stated | not stated | solo dildo | — | installed, unverified | — |
-| `strapon-dildo-krea2-3` | — | not stated | not stated | strapon dildo krea2 3 | — | installed, unverified | — |
 | `synth-pussy-h3` | — | not stated | not stated | synth pussy | — | installed, unverified | — |
 | `dr34ml4y-all-in-one-nsfw-h3-wan-ltx2` | `m15510n4ry`, `bl0wj0b`, `d0ubl3_bj`, `d0gg1e`, `c0wg1rl` | not stated | T2V | DR34ML4Y - All-In-One NSFW (H3/WAN/LTX2) | 537,585 | catalog, verified | [CivitAI](https://civitai.com/models/1811313?modelVersionId=3405852) |
 | `hmnsfw-h3` | `hmmotion` | 0.6–1.0 | I2V and T2V | HMNSFW - AIO Sex LoRA | 88,223 | catalog, verified | [CivitAI](https://civitai.com/models/2834417?modelVersionId=3206518) |

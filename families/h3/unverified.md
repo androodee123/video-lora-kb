@@ -37,7 +37,6 @@ These could not be confirmed against a live CivitAI or Hugging Face page. Do not
 | `scissoring-tribbing-h3` | — | not stated | not stated | scissoring tribbing | — | installed, unverified | — |
 | `she-struts-h3` | `she struts` | not stated | not stated | she struts | — | installed, unverified | [CivitAI](https://civitai.com/models/2905284) |
 | `solo-dildo-h3` | — | not stated | not stated | solo dildo | — | installed, unverified | — |
-| `strapon-dildo-krea2-3` | — | not stated | not stated | strapon dildo krea2 3 | — | installed, unverified | — |
 | `synth-pussy-h3` | — | not stated | not stated | synth pussy | — | installed, unverified | — |
 | `tentacles-concept-wan-21` | — | not stated | not stated | tentacles concept 21 | — | installed, unverified | — |
 | `theofficialpit-style-h3` | — | not stated | not stated | theofficialpit style | — | installed, unverified | — |

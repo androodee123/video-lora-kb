@@ -1,6 +1,6 @@
 # Wan: Camera
 
-149 LoRAs (4 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+145 LoRAs (4 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -26,7 +26,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `pov-blowjob` | `POV blowjob, deepthroat;`, `Pov,`, `Pov blowjob,`, `deepthroat,`, `Shallow penetration,` | not stated | I2V | Pov_Blowjob | 28,614 | catalog, verified | [CivitAI](https://civitai.com/models/680129?modelVersionId=2155928) |
 | `wan2-2-smartphone-snapshot-photo-reality-style` | `amateur photo`, `image in an early 2010s amateur photo artstyle with washed out colors`, `Early 2010s snapshot photo captured with a phone and uploaded to Facebook, featuring dynamic natural lighting, and a neutral white color balance with washed out colors` | not stated | T2V | [WAN2.2] Smartphone Snapshot Photo Reality [STYLE] | 25,805 | catalog, verified | [CivitAI](https://civitai.com/models/1834338?modelVersionId=2079658) |
 | `k3nk-4llinone-nsfw-helper-wan-2-2-video-lora-k3nk` | `k3nk4llin0n3` | not stated | I2V and T2V | K3NK 4llinOne - NSFW Helper - Wan 2.2 Video LoRa - K3NK | 24,428 | catalog, verified | [CivitAI](https://civitai.com/models/2206794?modelVersionId=2484657) |
-| `wan2-2-fun-5b-control-camera` | — | not stated | TI2V (and I2V) | Wan2.2-Fun-5B-Control-Camera | 22,435 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.2-Fun-5B-Control-Camera) |
 | `pov-riding` | `From a low angle, a woman is having sex, bouncing up and down.` | not stated | I2V | POV Riding | 20,805 | catalog, verified | [CivitAI](https://civitai.com/models/2215920?modelVersionId=2648813) |
 | `holding-deepthroat-pov-klein-wan-video` | `povffdt`, `POVFFDT  ` | not stated | I2V and T2V | Holding Deepthroat POV - Klein/WAN Video | 19,779 | catalog, verified | [CivitAI](https://civitai.com/models/1487284?modelVersionId=1682350) |
 | `wan-dr34m15h-multi-perspective-missionary-pov` | `m15510n4ry`, `pov`, `side-shot`, `extreme close-up`, `close shot` | not stated | I2V and T2V | WAN DR34M15H - Multi-perspective Missionary  (POV+) | 19,533 | catalog, verified | [CivitAI](https://civitai.com/models/1745090?modelVersionId=1975021) |
@@ -54,7 +53,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `pov-implied-blowjobs` | — | not stated | I2V | POV Implied Blowjobs | 7,192 | catalog, verified | [CivitAI](https://civitai.com/models/2359189?modelVersionId=2653362) |
 | `wan-2-2-wan-2-1-taker-pov-fellatio-i2v` | `taker POV fellatio`, `Moving towards and away from her pelvis.` | not stated | I2V and T2V | Wan 2.2 / Wan 2.1 - Taker POV Fellatio - I2V | 6,996 | catalog, verified | [CivitAI](https://civitai.com/models/1518243?modelVersionId=2591003) |
 | `camera-tilt-up-overhead` | `(过顶升摇).`, `The camera travels forward, gradually soaring up and panning to an overhead view directly above the woman's head` | not stated | I2V | Camera Tilt-up Overhead-过顶升摇 | 6,961 | catalog, verified | [CivitAI](https://civitai.com/models/1878750?modelVersionId=2126493) |
-| `wan2-2-fun-a14b-control-camera` | — | not stated | I2V and T2V | Wan2.2-Fun-A14B-Control-Camera | 6,743 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.2-Fun-A14B-Control-Camera) |
 | `wan2-2-surround-camera-movement` | `The camera moves in a circular motion, rapidly circling the woman while the background constantly changes.` | not stated | I2V | 【wan2.2】Surround camera movement | 6,257 | catalog, verified | [CivitAI](https://civitai.com/models/2639629?modelVersionId=2963778) |
 | `pov-titfuck-wan2-2-5b-lora` | — | not stated | TI2V (and I2V) | POV Titfuck Wan2.2 5B LoRA | 6,128 | catalog, verified | [CivitAI](https://civitai.com/models/1840703?modelVersionId=2083063) |
 | `wan2-2-i2v-bottom-pov` | — | .2–.5; 1 | I2V | Wan2.2 I2V Bottom POV + | 6,004 | catalog, verified | [CivitAI](https://civitai.com/models/2001919?modelVersionId=2265946) |
@@ -107,8 +105,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `motion-lora-camera-push-in-wan-14b-720p-i2v` | — | not stated | I2V | Motion-Lora-Camera-Push-In-Wan-14B-720p-I2V | 1,592 | catalog, verified | [CivitAI](https://civitai.com/models/1784288?modelVersionId=2019338) |
 | `crane-up-camera-motion-wan2-1-i2v-lora` | `cr4n3 crane up effect` | 1.0 | I2V | Crane Up Camera Motion (Wan2.1 I2V LoRA) | 1,485 | catalog, verified | [CivitAI](https://civitai.com/models/1620292?modelVersionId=1833731) |
 | `imminent-kiss-xl` | `POV perspective, the <person>'s lips press close to kiss you, <her/his>  lips fill the entire screen. Camera zooms on <her/his> face.` | not stated | I2V | Imminent kiss - XL | 1,344 | catalog, verified | [CivitAI](https://civitai.com/models/1716803?modelVersionId=1954662) |
-| `wan2-1-fun-v1-1-14b-control-camera` | — | not stated | T2V | Wan2.1-Fun-V1.1-14B-Control-Camera | 1,338 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-V1.1-14B-Control-Camera) |
-| `wan2-1-fun-v1-1-1-3b-control-camera` | — | not stated | T2V | Wan2.1-Fun-V1.1-1.3B-Control-Camera | 1,333 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-V1.1-1.3B-Control-Camera) |
 | `hand-to-kiss` | `h4ndtokiss` | not stated | I2V | Hand To Kiss | 1,313 | catalog, verified | [CivitAI](https://civitai.com/models/2200092?modelVersionId=2477237) |
 | `the-camera-zooms-upward` | `KZ` | not stated | I2V | The camera zooms upward | 1,259 | catalog, verified | [CivitAI](https://civitai.com/models/1906438?modelVersionId=2157825) |
 | `luisap-wan-2-2-extreme-handheld-camera` | `The camera follows her with a handheld perspective, the viewer shakes. earthquake.` | not stated | I2V | [LuisaP❤️] WAN 2.2 EXTREME HANDHELD CAMERA | 1,244 | catalog, verified | [CivitAI](https://civitai.com/models/2103025?modelVersionId=2379256) |
