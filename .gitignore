@@ -1,0 +1,9 @@
+# Never commit weights or hashes of private RAID dumps
+*.safetensors
+*.pt
+*.bin
+*.ckpt
+.DS_Store
+__pycache__/
+*.pyc
+.env
