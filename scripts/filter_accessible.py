@@ -379,7 +379,7 @@ def sort_accessible(rows: list[dict]) -> list[dict]:
 
     def key(r):
         lab = R.access_label(r)
-        lab_ord = {"both": 0, "AIOps": 1, "Graydient": 2}.get(lab, 3)
+        lab_ord = {R.ON_GRAYDIENT: 0, R.TO_ADD: 1}.get(lab, 3)
         inst = 0 if r.get("aiops") or r.get("installed") else 1
         dl = -(r.get("downloads") or 0)
         return (fam_ord.get(r.get("family"), 9), lab_ord, inst, dl, r.get("slug") or r.get("file") or "")
@@ -537,9 +537,11 @@ def main():
         r["aiops"] = bool(r.get("installed"))
         if i in matches:
             r["graydient"] = True
+            r["graydient_status"] = R.ON_GRAYDIENT
             r["graydient_files"] = sorted({p for _, p in matches[i]})
         else:
             r["graydient"] = False
+            r["graydient_status"] = R.TO_ADD if r["aiops"] else "candidate"
             r["graydient_files"] = []
         if r["graydient"] or r["aiops"]:
             accessible.append(r)

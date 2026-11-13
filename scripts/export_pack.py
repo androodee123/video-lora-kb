@@ -51,7 +51,7 @@ name: video-lora-kb
 description: >-
   Choose and stack video LoRAs for MiniMax H3, Wan 2.1/2.2 (14B high/low and
   5B TI2V), and LTX-2/2.3/2.5 (T2V and I2V). Use when picking, comparing, or
-  combining video LoRAs. Prefer LoRAs already on Graydient or the AIOps RAID when they cover the goal;
+  combining video LoRAs. Prefer LoRAs already on Graydient when they cover the goal; if a pick is still *to add to Graydient*, ingest it first;
   never invent triggers or strengths.
 ---
 """
@@ -59,13 +59,13 @@ description: >-
 INTRO = """\
 # Skill: choose a video LoRA
 
-Comprehensive goal→LoRA chooser for MiniMax H3, Wan 2.1 / 2.2 (14B high/low and 5B TI2V), and LTX-2 / 2.3 / 2.5. Prefer **available** LoRAs (on Graydient, the AIOps RAID, or both) when they cover the goal. Where a high-value candidate is not yet available, add a clearly labelled Suggest ingest line; never auto-download. Adult NSFW LoRAs are in scope — describe them factually.
+Comprehensive goal→LoRA chooser for MiniMax H3, Wan 2.1 / 2.2 (14B high/low and 5B TI2V), and LTX-2 / 2.3 / 2.5. Prefer **available** Graydient LoRAs (already on Graydient, or *to add to Graydient* after civit-to-graydient ingest) when they cover the goal. Where a high-value candidate is not yet available, add a clearly labelled Suggest ingest line; never auto-download. Adult NSFW LoRAs are in scope — describe them factually.
 
 This is a standalone, prompt-ready export of the private `video-lora-kb` knowledge base (391 video LoRAs; RAID snapshot 13 Nov 2026). It stores **metadata only** — no weights.
 
 **Never invent a trigger or a strength.** If the catalog says a strength is blank / `not stated`, or a trigger cell is empty, say so and tune on a short test clip. A general H3 starting range of 0.6–0.9 is only a rule of thumb, not per-file data.
 
-Names use catalog slugs. Compact top-N tables list accessible LoRAs (Graydient+AIOps, then AIOps, then Graydient). Candidates that are not yet available appear only as Suggest ingest. The accessible catalog is in `video-lora-catalog.json` / `.csv` in the same share pack.
+Names use catalog slugs. Compact top-N tables list available Graydient LoRAs (on Graydient first, then to add). Candidates that are not yet available appear only as Suggest ingest. The accessible catalog is in `video-lora-catalog.json` / `.csv` in the same share pack.
 
 """
 
@@ -153,7 +153,7 @@ def sort_catalog(rows: list[dict]) -> list[dict]:
         dl = -(dl or 0)
         return (
             fam_rank.get(r.get("family"), 99),
-            0 if r.get("installed") else 1,
+            0 if (r.get("graydient_status") == "on Graydient" or r.get("graydient")) else 1,
             dl,
             (r.get("slug") or ""),
             (r.get("file") or ""),
@@ -177,6 +177,8 @@ def compact_record(r: dict) -> dict[str, Any]:
         "name": display_name(r),
         "trigger": trigger_text(r),
         "strength": stated_strength(r),
+        "graydient_status": r.get("graydient_status") or "",
+        "aiops": bool(r.get("aiops")),
         "installed": bool(r.get("installed")),
         "url": primary_url(r),
         "downloads": downloads,
@@ -256,7 +258,7 @@ def build_top_sections(rows: list[dict], per_cat: int) -> str:
     parts = [
         "## Top LoRAs per family and category",
         "",
-        f"Up to {per_cat} LoRAs per category: **accessible first** (Graydient+AIOps, then AIOps, then Graydient), then by download count. "
+        f"Up to {per_cat} LoRAs per category: **available first** (on Graydient, then to add to Graydient), then by download count. "
         "Trigger and strength are shown only when already recorded in the catalog — never invented. "
         "A blank trigger or strength means `not stated`. A LoRA may appear in more than one category. "
         f"Full catalog ({len(rows)} rows): `video-lora-catalog.json` / `video-lora-catalog.csv`.",
@@ -267,7 +269,9 @@ def build_top_sections(rows: list[dict], per_cat: int) -> str:
         inst_n = sum(1 for r in sub if r.get("installed"))
         parts.append(f"## {FAMILY_LABEL[fam]} (`{fam}`)")
         parts.append("")
-        parts.append(f"{len(sub)} LoRAs in this family ({inst_n} installed).")
+        on_n = sum(1 for r in sub if (r.get("graydient_status")=="on Graydient" or r.get("graydient")))
+        to_n = len(sub) - on_n
+        parts.append(f"{len(sub)} available Graydient LoRAs in this family ({on_n} on Graydient, {to_n} to add).")
         parts.append("")
         for cat, _fname in R.CAT_FILE.items():
             cat_rows = [r for r in sub if cat in (r.get("categories") or [])]
@@ -277,7 +281,7 @@ def build_top_sections(rows: list[dict], per_cat: int) -> str:
             shown = min(per_cat, len(cat_rows))
             title = R.CAT_TITLE[cat]
             parts.append(
-                f"### {fam} — {title} ({len(cat_rows)} in catalog, {inst_c} installed; showing {shown})"
+                f"### {fam} — {title} ({len(cat_rows)} available; showing {shown})"
             )
             parts.append("")
             parts.append(top_table(cat_rows, per_cat))
@@ -341,6 +345,8 @@ def write_csv(path: Path, records: list[dict]) -> None:
         "name",
         "trigger",
         "strength",
+        "graydient_status",
+        "aiops",
         "installed",
         "url",
         "downloads",
@@ -355,6 +361,10 @@ def write_csv(path: Path, records: list[dict]) -> None:
             row["installed"] = "true"
         elif row.get("installed") is False:
             row["installed"] = "false"
+        if row.get("aiops") is True:
+            row["aiops"] = "true"
+        elif row.get("aiops") is False:
+            row["aiops"] = "false"
         if row.get("downloads") is None:
             row["downloads"] = ""
         w.writerow(row)
@@ -370,7 +380,7 @@ This pack is a privacy-preserving export of the private `video-lora-kb` knowledg
 ## Files
 
 - `video-lora-skill.md` — single consolidated, prompt-ready skill (selection logic, stacking, I2V/T2V usage, prompt patterns, all 98 recipes, compact top LoRAs per family/category). Target size is under ~150 KB so it fits in an AI context window.
-- `video-lora-catalog.json` / `video-lora-catalog.csv` — the full accessible-row catalog with useful fields only (id, family, base, category, name, trigger, strength, installed, url, downloads, short example prompt).
+- `video-lora-catalog.json` / `video-lora-catalog.csv` — the full accessible-row catalog with useful fields only (id, family, base, category, name, trigger, strength, graydient_status, aiops, installed, url, downloads, short example prompt).
 - `HOW-TO-USE.md` — this file.
 - `video-lora-kb-claude-skill.zip` — Anthropic Agent Skills layout (`video-lora-kb/SKILL.md` plus `references/` guides and family category pages).
 
@@ -378,7 +388,7 @@ This pack is a privacy-preserving export of the private `video-lora-kb` knowledg
 
 Attach `video-lora-skill.md` to the chat, or add it to a Project / Gem / custom GPT knowledge file. For lookups beyond the compact tables, also attach `video-lora-catalog.json` (or the CSV). A typical starter instruction:
 
-> Use the attached video LoRA skill to choose and stack LoRAs for MiniMax H3, Wan, and LTX. Prefer LoRAs already on Graydient or the AIOps RAID. Suggest ingest only when the documented rule says so, and never auto-download. Never invent a trigger or a strength; if the skill or catalog leaves them blank, say so and suggest a short test clip.
+> Use the attached video LoRA skill to choose and stack LoRAs for MiniMax H3, Wan, and LTX. Prefer LoRAs already on Graydient. If a pick is *to add to Graydient*, ingest it with civit-to-graydient before use. Suggest ingest of a public candidate only when the documented rule says so, and never auto-download. Never invent a trigger or a strength; if the skill or catalog leaves them blank, say so and suggest a short test clip.
 
 ## Claude (Agent Skill)
 

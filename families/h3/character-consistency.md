@@ -1,6 +1,6 @@
 # H3: Character consistency
 
-No LoRA in this category is currently on Graydient or the AIOps RAID. See *Suggest ingest* below for high-value candidates. Nothing is auto-downloaded.
+No LoRA in this category is in the available Graydient set yet. See *Suggest ingest* below for high-value candidates. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 

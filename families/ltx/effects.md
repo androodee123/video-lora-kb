@@ -1,13 +1,13 @@
 # LTX2: Effects / VFX
 
-2 accessible LoRAs (0 on both Graydient and AIOps, 1 Graydient-only, 1 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+2 available Graydient LoRAs (1 already on Graydient, 1 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `showering-and-foam-ltx2` | — | not stated | not stated | Showering and Foam | 342 | AIOps, verified | [CivitAI](https://civitai.com/models/3032306?modelVersionId=3457897) |
-| `lana-wind-motion-ltx` | — | 0.8–1 | not stated | Lana_Wind_Motion_LTX | 251 | Graydient, verified | [CivitAI](https://civitai.com/models/2800393?modelVersionId=3156988) |
+| `lana-wind-motion-ltx` | — | 0.8–1 | not stated | Lana_Wind_Motion_LTX | 251 | on Graydient, verified | [CivitAI](https://civitai.com/models/2800393?modelVersionId=3156988) |
+| `showering-and-foam-ltx2` | — | not stated | not stated | Showering and Foam | 342 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/3032306?modelVersionId=3457897) |
 
 ## Suggest ingest
 
@@ -24,7 +24,7 @@ These are **not** on Graydient or the AIOps RAID yet. Suggestion only — downlo
 ### `V1.safetensors`
 
 **Lana_Wind_Motion_LTX**
-- base `LTXV 2.3` · not stated · strength (stated): 0.8–1 · Graydient
+- base `LTXV 2.3` · not stated · strength (stated): 0.8–1 · on Graydient
 
 Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 

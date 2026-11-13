@@ -1,12 +1,12 @@
 # Wan: Pose / control
 
-1 accessible LoRAs (0 on both Graydient and AIOps, 1 Graydient-only, 0 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+1 available Graydient LoRAs (1 already on Graydient, 0 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `zero-two-dance` | `doing the zero-two dance`, `arms are up with her hands behind her head as she sways her hips from side the side` | not stated | T2V | Zero-Two Dance | 5,226 | Graydient, verified | [CivitAI](https://civitai.com/models/1819613?modelVersionId=2412504) |
+| `zero-two-dance` | `doing the zero-two dance`, `arms are up with her hands behind her head as she sways her hips from side the side` | not stated | T2V | Zero-Two Dance | 5,226 | on Graydient, verified | [CivitAI](https://civitai.com/models/1819613?modelVersionId=2412504) |
 
 ## Suggest ingest
 
@@ -23,7 +23,7 @@ These are **not** on Graydient or the AIOps RAID yet. Suggestion only — downlo
 ### `zerto-two-dance-wan-one-e18-az420.safetensors`
 
 **Zero-Two Dance**
-- base `Wan Video 14B t2v` · T2V · strength: not stated · triggers: `doing the zero-two dance`, `arms are up with her hands behind her head as she sways her hips from side the side` · Graydient
+- base `Wan Video 14B t2v` · T2V · strength: not stated · triggers: `doing the zero-two dance`, `arms are up with her hands behind her head as she sways her hips from side the side` · on Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 

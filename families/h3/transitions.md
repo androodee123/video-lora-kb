@@ -1,13 +1,13 @@
 # H3: Transitions
 
-2 accessible LoRAs (2 on both Graydient and AIOps, 0 Graydient-only, 0 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+2 available Graydient LoRAs (2 already on Graydient, 0 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `body-obese-transition-minimax-h3` | `make the women obese` | not stated | not stated | Body_obese_MiniMax-H3 | 567 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/3010906?modelVersionId=3416989) |
-| `transition-minimax-h3-f2v-h3` | `ysp_smshcut a woman. no transition` | not stated | not stated | transition minimax f2v | — | Graydient+AIOps, unverified | [CivitAI](https://civitai.com/models/2902679) |
+| `body-obese-transition-minimax-h3` | `make the women obese` | not stated | not stated | Body_obese_MiniMax-H3 | 567 | on Graydient, verified | [CivitAI](https://civitai.com/models/3010906?modelVersionId=3416989) |
+| `transition-minimax-h3-f2v-h3` | `ysp_smshcut a woman. no transition` | not stated | not stated | transition minimax f2v | — | on Graydient, unverified | [CivitAI](https://civitai.com/models/2902679) |
 
 ## Suggest ingest
 
@@ -22,7 +22,7 @@ These are **not** on Graydient or the AIOps RAID yet. Suggestion only — downlo
 ### `body-obese-transition-minimax-h3.safetensors`
 
 **Body_obese_MiniMax-H3**
-- base `MiniMax H3` · not stated · strength: not stated · triggers: `make the women obese` · Graydient+AIOps
+- base `MiniMax H3` · not stated · strength: not stated · triggers: `make the women obese` · on Graydient
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
@@ -31,7 +31,7 @@ Source: [CivitAI](https://civitai.com/models/3010906?modelVersionId=3416989)
 ### `transition-minimax-h3-f2v-h3.safetensors`
 
 **transition minimax f2v**
-- not stated · strength: not stated · triggers: `ysp_smshcut a woman. no transition` · Graydient+AIOps
+- not stated · strength: not stated · triggers: `ysp_smshcut a woman. no transition` · on Graydient
 - **Unverified** — no confirmed live page, or the listed id 404'd.
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)

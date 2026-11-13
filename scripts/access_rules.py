@@ -1,7 +1,13 @@
 """Shared accessibility and ingest-suggestion rules for the video LoRA KB.
 
-Accessible = on Graydient (a matching file in Hugging Face Octavian123/civit)
-OR on AIOps (installed=true, RAID snapshot /Volumes/RAID/Lora/{H3,Wan,LTX2}).
+The available set is Graydient LoRAs: every row in data/loras.jsonl.
+graydient_status is either:
+  - "on Graydient" — a matching file is in Hugging Face Octavian123/civit
+  - "to add to Graydient" — the LoRA is on the AIOps RAID and must be ingested
+    into Graydient (civit-to-graydient) before it can be used in the concept
+    browser. There is no "AIOps only" category.
+
+aiops remains a secondary boolean (present on the 13 Nov 2026 RAID snapshot).
 
 Suggestions never download or ingest weights. They only point at a CivitAI or
 Hugging Face page so a person can run civit-to-graydient if they want the LoRA.
@@ -31,26 +37,33 @@ OFFICIAL_UTIL_RE = re.compile(
 )
 
 
-def access_label(row: dict) -> str:
-    g = bool(row.get("graydient"))
-    a = bool(row.get("aiops") or row.get("installed"))
-    if g and a:
-        return "both"
-    if g:
-        return "Graydient"
-    if a:
-        return "AIOps"
+ON_GRAYDIENT = "on Graydient"
+TO_ADD = "to add to Graydient"
+
+
+def graydient_status(row: dict) -> str:
+    """Return 'on Graydient', 'to add to Graydient', or 'candidate'."""
+    stated = row.get("graydient_status")
+    if stated in (ON_GRAYDIENT, TO_ADD):
+        return stated
+    if row.get("graydient"):
+        return ON_GRAYDIENT
+    if row.get("aiops") or row.get("installed"):
+        return TO_ADD
     return "candidate"
 
 
+def access_label(row: dict) -> str:
+    # Kept as an alias of graydient_status so older callers keep working.
+    return graydient_status(row)
+
+
 def access_label_pretty(row: dict) -> str:
-    lab = access_label(row)
-    return {
-        "both": "Graydient+AIOps",
-        "Graydient": "Graydient",
-        "AIOps": "AIOps",
-        "candidate": "candidate",
-    }[lab]
+    return graydient_status(row)
+
+
+def needs_graydient_ingest(row: dict) -> bool:
+    return graydient_status(row) == TO_ADD
 
 
 def _num(v, default=0):

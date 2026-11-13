@@ -1,13 +1,13 @@
 # LTX2: Identity / character
 
-2 accessible LoRAs (0 on both Graydient and AIOps, 2 Graydient-only, 0 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+2 available Graydient LoRAs (2 already on Graydient, 0 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `xellia-ltx` | — | not stated | not stated | Xellia LTX | 70 | Graydient, verified | [CivitAI](https://civitai.com/models/2890502?modelVersionId=3267851) |
-| `soma-ltx` | — | not stated | not stated | SOMA_LTX | 46 | Graydient, verified, low_signal | [CivitAI](https://civitai.com/models/2833784?modelVersionId=3197954) |
+| `xellia-ltx` | — | not stated | not stated | Xellia LTX | 70 | on Graydient, verified | [CivitAI](https://civitai.com/models/2890502?modelVersionId=3267851) |
+| `soma-ltx` | — | not stated | not stated | SOMA_LTX | 46 | on Graydient, verified, low_signal | [CivitAI](https://civitai.com/models/2833784?modelVersionId=3197954) |
 
 ## Suggest ingest
 

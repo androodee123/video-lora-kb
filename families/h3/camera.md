@@ -1,23 +1,23 @@
 # H3: Camera
 
-12 accessible LoRAs (9 on both Graydient and AIOps, 0 Graydient-only, 3 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+12 available Graydient LoRAs (9 already on Graydient, 3 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `h3-ltx-2-3-ltx2-better-nsfw-motion-h3` | `h3 ltx 2 3 ltx2 better nsfw motion h3` | 0.8; 0.9; 1 | I2V | H3 - LTX 2.3 - LTX2 better NSFW motion | 40,210 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2344781?modelVersionId=2986751) |
-| `missionary-sex-pov-h3` | `having missionary sex` | not stated | not stated | Missionary Sex - POV | 14,551 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/1769556?modelVersionId=3279596) |
-| `pov-doggy-h3` | — | not stated | not stated | POV Doggy | 13,270 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/1893639?modelVersionId=3300169) |
-| `amateur-pov-h3` | `zy_amateurpov` | 0.4–0.85 | not stated | Amateur POV ✨ KREA 2 + H3 | 12,200 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2776852?modelVersionId=3403798) |
-| `pov-fisheye-immersive-sexy-chasing-track-h-h3` | — | not stated | I2V and T2V | POV/Fisheye Immersive \ Sexy Chasing Track H3 | 2,982 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2973739?modelVersionId=3370171) |
-| `mmh3-locked-stabilization-camera-locked-to-h3` | `the camera is centred on`, `lockstab` | 1 | not stated | MMH3 - Locked Stabilization (Camera locked to target) | 2,806 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2975645?modelVersionId=3372549) |
-| `crash-zoom-minimax-h3` | `crash_zm` | not stated | not stated | Crash Zoom | 1,526 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2912041?modelVersionId=3294020) |
-| `minimax-h3-orb360-cardspin-h3` | `ORB360_CARDSPIN`, `ORB360_CW` | 1.0 | I2V | MiniMax-H3 ORB360 CardSpin | 1,440 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2969628?modelVersionId=3370581) |
-| `minimax-h3-t2v-i2v-gpovxxx-h3` | `minimax h3 t2v i2v gpovxxx h3` | not stated | I2V and T2V | Minimax-H3-T2V_I2V-GPovxxx | 207 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2893972?modelVersionId=3272198) |
-| `smart-glasses-pov-minimax-h3` | `povsint` | not stated | I2V and T2V | Smart Glasses POV - MiniMax H3 | 712 | AIOps, verified | [CivitAI](https://civitai.com/models/3040975?modelVersionId=3456452) |
-| `friend-s-pov-minimax-h3` | `celsint` | not stated | I2V and T2V | Friend's POV - MiniMax H3 | 419 | AIOps, verified | [CivitAI](https://civitai.com/models/3040960?modelVersionId=3456437) |
-| `earth-from-iss-low-earth-orbit-planetary-v-h3` | — | not stated | not stated | Earth from ISS | 164 | AIOps, verified | [CivitAI](https://civitai.com/models/3044877?modelVersionId=3461417) |
+| `h3-ltx-2-3-ltx2-better-nsfw-motion-h3` | `h3 ltx 2 3 ltx2 better nsfw motion h3` | 0.8; 0.9; 1 | I2V | H3 - LTX 2.3 - LTX2 better NSFW motion | 40,210 | on Graydient, verified | [CivitAI](https://civitai.com/models/2344781?modelVersionId=2986751) |
+| `missionary-sex-pov-h3` | `having missionary sex` | not stated | not stated | Missionary Sex - POV | 14,551 | on Graydient, verified | [CivitAI](https://civitai.com/models/1769556?modelVersionId=3279596) |
+| `pov-doggy-h3` | — | not stated | not stated | POV Doggy | 13,270 | on Graydient, verified | [CivitAI](https://civitai.com/models/1893639?modelVersionId=3300169) |
+| `amateur-pov-h3` | `zy_amateurpov` | 0.4–0.85 | not stated | Amateur POV ✨ KREA 2 + H3 | 12,200 | on Graydient, verified | [CivitAI](https://civitai.com/models/2776852?modelVersionId=3403798) |
+| `pov-fisheye-immersive-sexy-chasing-track-h-h3` | — | not stated | I2V and T2V | POV/Fisheye Immersive \ Sexy Chasing Track H3 | 2,982 | on Graydient, verified | [CivitAI](https://civitai.com/models/2973739?modelVersionId=3370171) |
+| `mmh3-locked-stabilization-camera-locked-to-h3` | `the camera is centred on`, `lockstab` | 1 | not stated | MMH3 - Locked Stabilization (Camera locked to target) | 2,806 | on Graydient, verified | [CivitAI](https://civitai.com/models/2975645?modelVersionId=3372549) |
+| `crash-zoom-minimax-h3` | `crash_zm` | not stated | not stated | Crash Zoom | 1,526 | on Graydient, verified | [CivitAI](https://civitai.com/models/2912041?modelVersionId=3294020) |
+| `minimax-h3-orb360-cardspin-h3` | `ORB360_CARDSPIN`, `ORB360_CW` | 1.0 | I2V | MiniMax-H3 ORB360 CardSpin | 1,440 | on Graydient, verified | [CivitAI](https://civitai.com/models/2969628?modelVersionId=3370581) |
+| `minimax-h3-t2v-i2v-gpovxxx-h3` | `minimax h3 t2v i2v gpovxxx h3` | not stated | I2V and T2V | Minimax-H3-T2V_I2V-GPovxxx | 207 | on Graydient, verified | [CivitAI](https://civitai.com/models/2893972?modelVersionId=3272198) |
+| `smart-glasses-pov-minimax-h3` | `povsint` | not stated | I2V and T2V | Smart Glasses POV - MiniMax H3 | 712 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/3040975?modelVersionId=3456452) |
+| `friend-s-pov-minimax-h3` | `celsint` | not stated | I2V and T2V | Friend's POV - MiniMax H3 | 419 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/3040960?modelVersionId=3456437) |
+| `earth-from-iss-low-earth-orbit-planetary-v-h3` | — | not stated | not stated | Earth from ISS | 164 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/3044877?modelVersionId=3461417) |
 
 ## Suggest ingest
 
@@ -33,7 +33,7 @@ These are **not** on Graydient or the AIOps RAID yet. Suggestion only — downlo
 ### `h3-ltx-2-3-ltx2-better-nsfw-motion-h3.safetensors`
 
 **H3 - LTX 2.3 - LTX2 better NSFW motion**
-- base `LTXV 2.3` · I2V · strength (stated): 0.8; 0.9; 1 · triggers: `h3 ltx 2 3 ltx2 better nsfw motion h3` · Graydient+AIOps
+- base `LTXV 2.3` · I2V · strength (stated): 0.8; 0.9; 1 · triggers: `h3 ltx 2 3 ltx2 better nsfw motion h3` · on Graydient
 
 Compatibility: mode: I2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
@@ -42,7 +42,7 @@ Source: [CivitAI](https://civitai.com/models/2344781?modelVersionId=2986751)
 ### `missionary-sex-pov-h3.safetensors`
 
 **Missionary Sex - POV**
-- base `MiniMax H3` · not stated · strength: not stated · triggers: `having missionary sex` · Graydient+AIOps
+- base `MiniMax H3` · not stated · strength: not stated · triggers: `having missionary sex` · on Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 
@@ -72,7 +72,7 @@ Source: [CivitAI](https://civitai.com/models/1769556?modelVersionId=3279596)
 ### `pov-doggy-h3.safetensors`
 
 **POV Doggy**
-- base `MiniMax H3` · not stated · strength: not stated · Graydient+AIOps
+- base `MiniMax H3` · not stated · strength: not stated · on Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 
@@ -94,7 +94,7 @@ Source: [CivitAI](https://civitai.com/models/1893639?modelVersionId=3300169)
 ### `amateur-pov-h3.safetensors`
 
 **Amateur POV ✨ KREA 2 + H3**
-- base `MiniMax H3` · not stated · strength (stated): 0.4–0.85 · triggers: `zy_amateurpov` · Graydient+AIOps
+- base `MiniMax H3` · not stated · strength (stated): 0.4–0.85 · triggers: `zy_amateurpov` · on Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 
@@ -110,7 +110,7 @@ Source: [CivitAI](https://civitai.com/models/2776852?modelVersionId=3403798)
 ### `mmh3-locked-stabilization-camera-locked-to-h3.safetensors`
 
 **MMH3 - Locked Stabilization (Camera locked to target)**
-- base `MiniMax H3` · not stated · strength (stated): 1 · triggers: `the camera is centred on`, `lockstab` · Graydient+AIOps
+- base `MiniMax H3` · not stated · strength (stated): 1 · triggers: `the camera is centred on`, `lockstab` · on Graydient
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
@@ -119,7 +119,7 @@ Source: [CivitAI](https://civitai.com/models/2975645?modelVersionId=3372549)
 ### `crash-zoom-minimax-h3.safetensors`
 
 **Crash Zoom \| Minimax H3**
-- base `MiniMax H3` · not stated · strength: not stated · triggers: `crash_zm` · Graydient+AIOps
+- base `MiniMax H3` · not stated · strength: not stated · triggers: `crash_zm` · on Graydient
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
@@ -128,7 +128,7 @@ Source: [CivitAI](https://civitai.com/models/2912041?modelVersionId=3294020)
 ### `minimax-h3-orb360-cardspin-h3.safetensors`
 
 **MiniMax-H3 ORB360 CardSpin**
-- base `MiniMax H3` · I2V · strength (stated): 1.0 · triggers: `ORB360_CARDSPIN`, `ORB360_CW` · Graydient+AIOps
+- base `MiniMax H3` · I2V · strength (stated): 1.0 · triggers: `ORB360_CARDSPIN`, `ORB360_CW` · on Graydient
 
 Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
@@ -137,7 +137,7 @@ Source: [CivitAI](https://civitai.com/models/2969628?modelVersionId=3370581)
 ### `minimax-h3-t2v-i2v-gpovxxx-h3.safetensors`
 
 **Minimax-H3-T2V_I2V-GPovxxx**
-- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `minimax h3 t2v i2v gpovxxx h3` · Graydient+AIOps
+- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `minimax h3 t2v i2v gpovxxx h3` · on Graydient
 
 Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
@@ -146,7 +146,7 @@ Source: [CivitAI](https://civitai.com/models/2893972?modelVersionId=3272198)
 ### `smart-glasses-pov-minimax-h3.safetensors`
 
 **Smart Glasses POV - MiniMax H3**
-- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `povsint` · AIOps
+- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `povsint` · to add to Graydient
 
 Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
@@ -155,7 +155,7 @@ Source: [CivitAI](https://civitai.com/models/3040975?modelVersionId=3456452)
 ### `friend-s-pov-minimax-h3.safetensors`
 
 **Friend's POV - MiniMax H3**
-- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `celsint` · AIOps
+- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `celsint` · to add to Graydient
 
 Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
@@ -164,7 +164,7 @@ Source: [CivitAI](https://civitai.com/models/3040960?modelVersionId=3456437)
 ### `earth-from-iss-low-earth-orbit-planetary-v-h3.safetensors`
 
 **Earth from ISS \| Low Earth Orbit \| Planetary view \| H3 Minimax LoRA**
-- base `MiniMax H3` · not stated · strength: not stated · AIOps
+- base `MiniMax H3` · not stated · strength: not stated · to add to Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 

@@ -1,12 +1,12 @@
 # LTX2: Realism
 
-1 accessible LoRAs (1 on both Graydient and AIOps, 0 Graydient-only, 0 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+1 available Graydient LoRAs (1 already on Graydient, 0 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `warped-female-body-parts-for-ltxv-2-5-ltx2` | `sloped_breasts`, `round_breasts`, `perfect_breasts`, `pointy_breasts`, `puffy_nipples` | not stated | I2V | Warped Female Body Parts For LTXV 2.5 | 496 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2985345?modelVersionId=3384607) |
+| `warped-female-body-parts-for-ltxv-2-5-ltx2` | `sloped_breasts`, `round_breasts`, `perfect_breasts`, `pointy_breasts`, `puffy_nipples` | not stated | I2V | Warped Female Body Parts For LTXV 2.5 | 496 | on Graydient, verified | [CivitAI](https://civitai.com/models/2985345?modelVersionId=3384607) |
 
 ## Suggest ingest
 
@@ -23,7 +23,7 @@ These are **not** on Graydient or the AIOps RAID yet. Suggestion only — downlo
 ### `warped-female-body-parts-for-ltxv-2-5-ltx2.safetensors`
 
 **Warped Female Body Parts For LTXV 2.5**
-- base `LTXV 2.5` · I2V · strength: not stated · triggers: `sloped_breasts`, `round_breasts`, `perfect_breasts`, `pointy_breasts`, `puffy_nipples`, `fake_breasts`, `natural_breasts`, `saggy_breasts` · Graydient+AIOps
+- base `LTXV 2.5` · I2V · strength: not stated · triggers: `sloped_breasts`, `round_breasts`, `perfect_breasts`, `pointy_breasts`, `puffy_nipples`, `fake_breasts`, `natural_breasts`, `saggy_breasts` · on Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 

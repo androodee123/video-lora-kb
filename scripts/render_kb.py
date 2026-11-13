@@ -99,9 +99,9 @@ def table(rows):
     return "\n".join(lines)
 
 def sort_rows(rows):
-    lab_ord = {"both": 0, "AIOps": 1, "Graydient": 2, "candidate": 3}
+    lab_ord = {R.ON_GRAYDIENT: 0, R.TO_ADD: 1, "candidate": 2}
     def key(r):
-        lab = R.access_label(r)
+        lab = R.graydient_status(r)
         dl = -(r.get("downloads") or 0)
         return (lab_ord.get(lab, 9), dl, (r.get("slug") or r["file"]))
     return sorted(rows, key=key)
@@ -111,15 +111,14 @@ def counts(recs, cands=None):
     out = {}
     for fam in ("H3", "Wan", "LTX2"):
         sub = [r for r in recs if r["family"] == fam]
-        g = [r for r in sub if r.get("graydient")]
+        g = [r for r in sub if R.graydient_status(r) == R.ON_GRAYDIENT]
+        to_add = [r for r in sub if R.graydient_status(r) == R.TO_ADD]
         a = [r for r in sub if r.get("aiops") or r.get("installed")]
-        both = [r for r in sub if r.get("graydient") and (r.get("aiops") or r.get("installed"))]
         inst = a
         out[fam] = {
             "total": len(sub),
-            "graydient_only": len(g) - len(both),
-            "aiops_only": len(a) - len(both),
-            "both": len(both),
+            "on_graydient": len(g),
+            "to_add": len(to_add),
             "graydient": len(g),
             "aiops": len(a),
             "installed": len(inst),
@@ -131,6 +130,8 @@ def counts(recs, cands=None):
             "unverified": sum(1 for r in sub if not r.get("verified")),
             "cats": {c: sum(1 for r in sub if c in (r.get("categories") or [])) for c in CAT_FILE},
             "cats_inst": {c: sum(1 for r in inst if c in (r.get("categories") or [])) for c in CAT_FILE},
+            "cats_on": {c: sum(1 for r in g if c in (r.get("categories") or [])) for c in CAT_FILE},
+            "cats_toadd": {c: sum(1 for r in to_add if c in (r.get("categories") or [])) for c in CAT_FILE},
         }
     return out
 
@@ -192,18 +193,21 @@ def render_families(recs, rich_by_key, candidates=None):
             if not rows and not suggest:
                 continue
             inst_n = sum(1 for r in rows if r.get("aiops") or r.get("installed"))
-            gd_n = sum(1 for r in rows if r.get("graydient"))
-            both_n = sum(1 for r in rows if r.get("graydient") and (r.get("aiops") or r.get("installed")))
+            gd_n = sum(1 for r in rows if R.graydient_status(r) == R.ON_GRAYDIENT)
+            to_add_n = sum(1 for r in rows if R.graydient_status(r) == R.TO_ADD)
             if rows:
                 intro = (
-                    f"{len(rows)} accessible LoRAs ({both_n} on both Graydient and AIOps, "
-                    f"{gd_n - both_n} Graydient-only, {inst_n - both_n} AIOps-only). "
-                    "Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. "
-                    "The 13 Nov 2026 RAID snapshot is the AIOps source."
+                    f"{len(rows)} available Graydient LoRAs ({gd_n} already on Graydient, "
+                    f"{to_add_n} to add to Graydient). "
+                    "Everything in this table is part of the Graydient set: files already in "
+                    "`Octavian123/civit` are listed first; RAID files that still need ingest "
+                    "are labelled *to add to Graydient* and must be run through civit-to-graydient "
+                    "before they appear in the concept browser. There is no AIOps-only category. "
+                    "Nothing is auto-downloaded."
                 )
             else:
                 intro = (
-                    "No LoRA in this category is currently on Graydient or the AIOps RAID. "
+                    "No LoRA in this category is in the available Graydient set yet. "
                     "See *Suggest ingest* below for high-value candidates. Nothing is auto-downloaded."
                 )
             parts = [
@@ -285,7 +289,7 @@ def render_families(recs, rich_by_key, candidates=None):
         for cat, fname, n, inst_n in written[fam]:
             title = CAT_TITLE.get(cat, cat)
             if cat == "unverified":
-                idx.append(f"- [{title}]({fname}) — {n} ({inst_n} on AIOps)")
+                idx.append(f"- [{title}]({fname}) — {n}")
             else:
                 idx.append(f"- [{title}]({fname}) — {n} accessible")
         (dest / "README.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
@@ -308,38 +312,38 @@ def render_readme(recs, c, written, cand_n=0):
     h, w, l = c["H3"], c["Wan"], c["LTX2"]
     def cat_table():
         lines = [
-            "| Category | H3 accessible (AIOps) | Wan accessible (AIOps) | LTX accessible (AIOps) |",
+            "| Category | H3 available (on Graydient / to add) | Wan available (on Graydient / to add) | LTX available (on Graydient / to add) |",
             "|---|---:|---:|---:|",
         ]
         for cat, title in CAT_TITLE.items():
             lines.append(
-                f"| {title} | {h['cats'][cat]} ({h['cats_inst'][cat]}) | "
-                f"{w['cats'][cat]} ({w['cats_inst'][cat]}) | "
-                f"{l['cats'][cat]} ({l['cats_inst'][cat]}) |"
+                f"| {title} | {h['cats'][cat]} ({h['cats_on'][cat]}/{h['cats_toadd'][cat]}) | "
+                f"{w['cats'][cat]} ({w['cats_on'][cat]}/{w['cats_toadd'][cat]}) | "
+                f"{l['cats'][cat]} ({l['cats_on'][cat]}/{l['cats_toadd'][cat]}) |"
             )
         return "\n".join(lines)
     return f"""# Video LoRA knowledge base
 
-Private catalog of **accessible video LoRAs** for MiniMax H3, Wan (2.1 including 1.3B T2V, 2.2 14B high/low and 5B TI2V), and LTX (LTXV, LTX-2, 2.3, 2.5). A LoRA is **accessible** when it is on **Graydient** (a matching `{{slug}}.safetensors` in the Hugging Face repo `Octavian123/civit`, which is what the civit-to-graydient pipeline registers as a private concept) or on **AIOps** (present on the 13 Nov 2026 RAID snapshot at `/Volumes/RAID/Lora/{{H3,Wan,LTX2}}`, flagged `aiops=true` / `installed=true`), or both.
+Private catalog of **available Graydient video LoRAs** for MiniMax H3, Wan (2.1 including 1.3B T2V, 2.2 14B high/low and 5B TI2V), and LTX (LTXV, LTX-2, 2.3, 2.5). Every row in `data/loras.jsonl` is a Graydient LoRA. `graydient_status` is **on Graydient** when a matching `{{slug}}.safetensors` is already in Hugging Face `Octavian123/civit`, or **to add to Graydient** when the file is on the 13 Nov 2026 RAID snapshot (`/Volumes/RAID/Lora/{{H3,Wan,LTX2}}`, `aiops=true`) and still needs civit-to-graydient ingest before it appears in the concept browser. There is no “AIOps only” category — anything on the RAID must be added to Graydient.
 
-`data/loras.jsonl` holds only accessible rows. Public CivitAI / Hugging Face video LoRAs that are not yet on Graydient or the RAID live in [`data/candidates.jsonl`](data/candidates.jsonl) with an `ingest_priority` score. They are suggested for ingest when they fill a gap or clearly outrank what is already available — never auto-downloaded.
+Public CivitAI / Hugging Face video LoRAs that are not yet in this set live in [`data/candidates.jsonl`](data/candidates.jsonl) with an `ingest_priority` score. They are suggested for ingest when they fill a gap or clearly outrank what is already available — never auto-downloaded. The RAID files that still need ingest are listed in [`data/graydient_ingest_queue.md`](data/graydient_ingest_queue.md).
 
-**Out of scope** (image LoRAs, checkpoints, finetunes, merges, full base-model repos, pure workflows, ControlNets that are not LoRAs, VAEs, text encoders, GGUF/quantised full models, and non-video families such as Hunyuan) are not in `data/loras.jsonl`. Installed RAID files that fail this test are in [`data/excluded.jsonl`](data/excluded.jsonl) with a reason. See [`data/accessibility_report.md`](data/accessibility_report.md) for the last Graydient/AIOps filter.
+**Out of scope** (image LoRAs, checkpoints, finetunes, merges, full base-model repos, pure workflows, ControlNets that are not LoRAs, VAEs, text encoders, GGUF/quantised full models, and non-video families such as Hunyuan) are not in `data/loras.jsonl`. Installed RAID files that fail this test are in [`data/excluded.jsonl`](data/excluded.jsonl) with a reason. See [`data/accessibility_report.md`](data/accessibility_report.md) for the last accessibility filter.
 
 Research compiled **{DATE_LABEL}**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
 
 ## Counts
 
-| Family | Accessible | Graydient only | AIOps only | Both | Candidates |
-|---|---:|---:|---:|---:|---:|
-| MiniMax H3 | {h['total']} | {h['graydient_only']} | {h['aiops_only']} | {h['both']} | {h['candidates']} |
-| Wan (2.1 / 2.2) | {w['total']} | {w['graydient_only']} | {w['aiops_only']} | {w['both']} | {w['candidates']} |
-| LTX-2 / 2.3 / 2.5 | {l['total']} | {l['graydient_only']} | {l['aiops_only']} | {l['both']} | {l['candidates']} |
-| **Total** | **{h['total']+w['total']+l['total']}** | **{h['graydient_only']+w['graydient_only']+l['graydient_only']}** | **{h['aiops_only']+w['aiops_only']+l['aiops_only']}** | **{h['both']+w['both']+l['both']}** | **{h['candidates']+w['candidates']+l['candidates']}** |
+| Family | On Graydient | To add to Graydient | Available total | Candidates |
+|---|---:|---:|---:|---:|
+| MiniMax H3 | {h['on_graydient']} | {h['to_add']} | {h['total']} | {h['candidates']} |
+| Wan (2.1 / 2.2) | {w['on_graydient']} | {w['to_add']} | {w['total']} | {w['candidates']} |
+| LTX-2 / 2.3 / 2.5 | {l['on_graydient']} | {l['to_add']} | {l['total']} | {l['candidates']} |
+| **Total** | **{h['on_graydient']+w['on_graydient']+l['on_graydient']}** | **{h['to_add']+w['to_add']+l['to_add']}** | **{h['total']+w['total']+l['total']}** | **{h['candidates']+w['candidates']+l['candidates']}** |
 
-Recommend available LoRAs first (Graydient, AIOps, or both). Suggest ingest of a candidate when the category or goal has no accessible option, or when a candidate is clearly stronger (at least 2,000 downloads and at least 2× the top accessible download count in that category) or is an official utility pack with no accessible equivalent. The full rule is in [`SKILL.md`](SKILL.md).
+Recommend a LoRA that is already on Graydient first. If the pick is labelled *to add to Graydient*, ingest it with civit-to-graydient before using it in the concept browser (not auto-downloaded). Suggest ingest of a public candidate when the category or goal has no available option, or when a candidate is clearly stronger (at least 2,000 downloads and at least 2× the top available download count in that category) or is an official utility pack with no available equivalent. The full rule is in [`SKILL.md`](SKILL.md).
 
-### Counts by category (accessible)
+### Counts by category (available)
 
 {cat_table()}
 
@@ -349,11 +353,11 @@ A LoRA may appear in more than one category.
 
 ## How to use this repo
 
-1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser. Recipes recommend accessible LoRAs first and, when the rule says so, add a clearly labelled *Suggest ingest* line with a CivitAI or Hugging Face link.
-2. Open the family + category page under `families/`. Tables list accessible LoRAs (both, then AIOps, then Graydient), then a *Suggest ingest* block when the rule fires.
+1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser. Recipes recommend available Graydient LoRAs first. Picks labelled *to add to Graydient* must be ingested before use. When the rule says so, a *Suggest ingest* line points at a public candidate.
+2. Open the family + category page under `families/`. Tables list available LoRAs (on Graydient first, then to add), then a *Suggest ingest* block when the rule fires.
 3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md). Per-family prompt templates and trigger usage: [`guides/prompt-patterns.md`](guides/prompt-patterns.md).
-4. Official / utility packs also appear in [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md). If they are not on Graydient or the RAID, treat them as ingest candidates.
-5. Machine-readable data: [`data/loras.jsonl`](data/loras.jsonl) (accessible), [`data/candidates.jsonl`](data/candidates.jsonl) (ranked ingest candidates), [`data/excluded.jsonl`](data/excluded.jsonl) (non-video or otherwise dropped, with a reason).
+4. Official / utility packs also appear in [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md). If they are not already on Graydient, treat them as ingest candidates.
+5. Machine-readable data: [`data/loras.jsonl`](data/loras.jsonl) (available Graydient set), [`data/graydient_ingest_queue.md`](data/graydient_ingest_queue.md) (RAID files still to add), [`data/candidates.jsonl`](data/candidates.jsonl) (ranked public candidates), [`data/excluded.jsonl`](data/excluded.jsonl) (non-video or otherwise dropped, with a reason).
 6. Refresh CivitAI/HF metadata: `python3 scripts/harvest.py` (writes `data/raw/`, gitignored). Re-filter accessibility: `python3 scripts/filter_accessible.py`. Propose new ingest candidates: `python3 scripts/check_new.py`.
 
 ## Share pack (for other AIs)
@@ -403,7 +407,7 @@ python3 scripts/harvest.py --hf-cards                      # README/model cards 
 python3 scripts/harvest.py --enrich --enrich-images        # full /models/{{id}} + example-prompt images API
 python3 scripts/harvest.py --full-sorts --bases 'Wan Video 1.3B t2v'
 python3 scripts/build_kb.py
-python3 scripts/filter_accessible.py    # keep only Graydient- or AIOps-accessible rows; rest -> data/candidates.jsonl
+python3 scripts/filter_accessible.py    # available Graydient set (on Graydient or to add); rest -> data/candidates.jsonl
 python3 scripts/render_kb.py
 python3 scripts/export_pack.py
 ```

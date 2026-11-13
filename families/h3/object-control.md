@@ -1,19 +1,19 @@
 # H3: Object control
 
-1 accessible LoRAs (1 on both Graydient and AIOps, 0 Graydient-only, 0 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+1 available Graydient LoRAs (1 already on Graydient, 0 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `vaginal-object-delivery-h3` | `Emerging from inside the stretched birthing vagina, Frontal view,  Rear view, visible anus.` | not stated | I2V and T2V | Vaginal object delivery | 2,108 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2973453?modelVersionId=3369823) |
+| `vaginal-object-delivery-h3` | `Emerging from inside the stretched birthing vagina, Frontal view,  Rear view, visible anus.` | not stated | I2V and T2V | Vaginal object delivery | 2,108 | on Graydient, verified | [CivitAI](https://civitai.com/models/2973453?modelVersionId=3369823) |
 
 ## Details
 
 ### `vaginal-object-delivery-h3.safetensors`
 
 **Vaginal object delivery**
-- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `Emerging from inside the stretched birthing vagina, Frontal view,  Rear view, visible anus.` · Graydient+AIOps
+- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `Emerging from inside the stretched birthing vagina, Frontal view,  Rear view, visible anus.` · on Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 

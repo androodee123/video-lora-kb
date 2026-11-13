@@ -1,14 +1,14 @@
 # H3: Audio / voice
 
-3 accessible LoRAs (2 on both Graydient and AIOps, 0 Graydient-only, 1 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+3 available Graydient LoRAs (2 already on Graydient, 1 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `jav-moans-audio-only-minimax-h3` | `jpnMoans` | not stated | not stated | JAV moans/喘ぎ声 - Audio Only [Minimax H3] | 6,566 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2902825?modelVersionId=3282509) |
-| `natural-face-speech-minimax-h3` | — | not stated | not stated | natural face speech minimax | — | Graydient+AIOps, unverified | — |
-| `minimax-female-accents-north-american-h3` | — | 0.4–0.5 | not stated | Minimax Female Accents (North American) | 281 | AIOps, verified | [CivitAI](https://civitai.com/models/3047714?modelVersionId=3465296) |
+| `jav-moans-audio-only-minimax-h3` | `jpnMoans` | not stated | not stated | JAV moans/喘ぎ声 - Audio Only [Minimax H3] | 6,566 | on Graydient, verified | [CivitAI](https://civitai.com/models/2902825?modelVersionId=3282509) |
+| `natural-face-speech-minimax-h3` | — | not stated | not stated | natural face speech minimax | — | on Graydient, unverified | — |
+| `minimax-female-accents-north-american-h3` | — | 0.4–0.5 | not stated | Minimax Female Accents (North American) | 281 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/3047714?modelVersionId=3465296) |
 
 ## Suggest ingest
 
@@ -23,7 +23,7 @@ These are **not** on Graydient or the AIOps RAID yet. Suggestion only — downlo
 ### `jav-moans-audio-only-minimax-h3.safetensors`
 
 **JAV moans/喘ぎ声 - Audio Only [Minimax H3]**
-- base `MiniMax H3` · not stated · strength: not stated · triggers: `jpnMoans` · Graydient+AIOps
+- base `MiniMax H3` · not stated · strength: not stated · triggers: `jpnMoans` · on Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 
@@ -58,7 +58,7 @@ Source: [CivitAI](https://civitai.com/models/2902825?modelVersionId=3282509)
 ### `minimax-female-accents-north-american-h3.safetensors`
 
 **Minimax Female Accents (North American)**
-- base `MiniMax H3` · not stated · strength (stated): 0.4–0.5 · AIOps
+- base `MiniMax H3` · not stated · strength (stated): 0.4–0.5 · to add to Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 

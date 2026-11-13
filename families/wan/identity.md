@@ -1,13 +1,13 @@
 # Wan: Identity / character
 
-2 accessible LoRAs (0 on both Graydient and AIOps, 2 Graydient-only, 0 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+2 available Graydient LoRAs (2 already on Graydient, 0 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `fionafit` | `Fionafit` | not stated | T2V | FionaFit | 55 | Graydient, verified | [CivitAI](https://civitai.com/models/2836036?modelVersionId=3200805) |
-| `V1.safetensors` | — | not stated | T2V | 夢幻光影 影片模型 | 46 | Graydient, verified | [CivitAI](https://civitai.com/models/2839936?modelVersionId=3205648) |
+| `fionafit` | `Fionafit` | not stated | T2V | FionaFit | 55 | on Graydient, verified | [CivitAI](https://civitai.com/models/2836036?modelVersionId=3200805) |
+| `V1.safetensors` | — | not stated | T2V | 夢幻光影 影片模型 | 46 | on Graydient, verified | [CivitAI](https://civitai.com/models/2839936?modelVersionId=3205648) |
 
 ## Suggest ingest
 

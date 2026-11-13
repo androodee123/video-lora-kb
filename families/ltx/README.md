@@ -18,4 +18,4 @@ Tables list **accessible** LoRAs only (on Graydient, the AIOps RAID, or both). A
 - [Character consistency](character-consistency.md) — 0 accessible
 - [Pose / control](pose.md) — 0 accessible
 - [Lipsync](lipsync.md) — 0 accessible
-- [unverified](unverified.md) — 5 (4 on AIOps)
+- [unverified](unverified.md) — 5

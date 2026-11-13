@@ -1,12 +1,12 @@
 # H3: Lipsync
 
-1 accessible LoRAs (1 on both Graydient and AIOps, 0 Graydient-only, 0 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+1 available Graydient LoRAs (1 already on Graydient, 0 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `natural-face-speech-minimax-h3` | — | not stated | not stated | natural face speech minimax | — | Graydient+AIOps, unverified | — |
+| `natural-face-speech-minimax-h3` | — | not stated | not stated | natural face speech minimax | — | on Graydient, unverified | — |
 
 ## Suggest ingest
 

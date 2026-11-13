@@ -1,20 +1,20 @@
 # H3: Effects / VFX
 
-9 accessible LoRAs (7 on both Graydient and AIOps, 0 Graydient-only, 2 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+9 available Graydient LoRAs (7 already on Graydient, 2 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `jacko-pose-minimax-h3-v1-h3` | — | not stated | not stated | Jacko pose minimax h3 v1 | 2,301 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2961690?modelVersionId=3355328) |
-| `2-girls-2-handed-twisting-handjob-frontal-h3` | — | not stated | I2V and T2V | 2 Girls 2-Handed Twisting Handjob Frontal MInimax H3 V1 | 2,073 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2949557?modelVersionId=3340406) |
-| `crash-zoom-minimax-h3` | `crash_zm` | not stated | not stated | Crash Zoom | 1,526 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2912041?modelVersionId=3294020) |
-| `blowjob-sandwich-h3-minimax-v2-h3` | — | not stated | I2V | Blowjob Sandwich H3 Minimax V2 | 1,169 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2984419?modelVersionId=3383495) |
-| `h3-bj-gesture-v1-h3` | — | not stated | not stated | H3_BJ_Gesture_V1 | 1,109 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2980377?modelVersionId=3378444) |
-| `underwater-sunlight-caustics-ocean-refract-h3` | — | not stated | I2V and T2V | Underwater Sunlight Caustics & Ocean Refraction Slider (Avatar 2 Style) | 614 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/3014895?modelVersionId=3422144) |
-| `books-world-morph-h3` | `books` | not stated | not stated | Books - World Morph | 166 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2994894?modelVersionId=3396506) |
-| `h3-analsex-missionary-v1-h3` | — | not stated | not stated | H3_AnalSex_Missionary_V1 | 1,857 | AIOps, verified | [CivitAI](https://civitai.com/models/3033260?modelVersionId=3446291) |
-| `growth-effect-minimax-h3-alpha-h3` | `growth` | not stated | not stated | Growth Effect Minimax H3 (alpha) | 284 | AIOps, verified | [CivitAI](https://civitai.com/models/3039688?modelVersionId=3454732) |
+| `jacko-pose-minimax-h3-v1-h3` | — | not stated | not stated | Jacko pose minimax h3 v1 | 2,301 | on Graydient, verified | [CivitAI](https://civitai.com/models/2961690?modelVersionId=3355328) |
+| `2-girls-2-handed-twisting-handjob-frontal-h3` | — | not stated | I2V and T2V | 2 Girls 2-Handed Twisting Handjob Frontal MInimax H3 V1 | 2,073 | on Graydient, verified | [CivitAI](https://civitai.com/models/2949557?modelVersionId=3340406) |
+| `crash-zoom-minimax-h3` | `crash_zm` | not stated | not stated | Crash Zoom | 1,526 | on Graydient, verified | [CivitAI](https://civitai.com/models/2912041?modelVersionId=3294020) |
+| `blowjob-sandwich-h3-minimax-v2-h3` | — | not stated | I2V | Blowjob Sandwich H3 Minimax V2 | 1,169 | on Graydient, verified | [CivitAI](https://civitai.com/models/2984419?modelVersionId=3383495) |
+| `h3-bj-gesture-v1-h3` | — | not stated | not stated | H3_BJ_Gesture_V1 | 1,109 | on Graydient, verified | [CivitAI](https://civitai.com/models/2980377?modelVersionId=3378444) |
+| `underwater-sunlight-caustics-ocean-refract-h3` | — | not stated | I2V and T2V | Underwater Sunlight Caustics & Ocean Refraction Slider (Avatar 2 Style) | 614 | on Graydient, verified | [CivitAI](https://civitai.com/models/3014895?modelVersionId=3422144) |
+| `books-world-morph-h3` | `books` | not stated | not stated | Books - World Morph | 166 | on Graydient, verified | [CivitAI](https://civitai.com/models/2994894?modelVersionId=3396506) |
+| `h3-analsex-missionary-v1-h3` | — | not stated | not stated | H3_AnalSex_Missionary_V1 | 1,857 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/3033260?modelVersionId=3446291) |
+| `growth-effect-minimax-h3-alpha-h3` | `growth` | not stated | not stated | Growth Effect Minimax H3 (alpha) | 284 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/3039688?modelVersionId=3454732) |
 
 ## Suggest ingest
 
@@ -31,7 +31,7 @@ These are **not** on Graydient or the AIOps RAID yet. Suggestion only — downlo
 ### `2-girls-2-handed-twisting-handjob-frontal-h3.safetensors`
 
 **2 Girls 2-Handed Twisting Handjob Frontal MInimax H3 V1**
-- base `MiniMax H3` · I2V and T2V · strength: not stated · Graydient+AIOps
+- base `MiniMax H3` · I2V and T2V · strength: not stated · on Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 
@@ -47,7 +47,7 @@ Source: [CivitAI](https://civitai.com/models/2949557?modelVersionId=3340406)
 ### `crash-zoom-minimax-h3.safetensors`
 
 **Crash Zoom \| Minimax H3**
-- base `MiniMax H3` · not stated · strength: not stated · triggers: `crash_zm` · Graydient+AIOps
+- base `MiniMax H3` · not stated · strength: not stated · triggers: `crash_zm` · on Graydient
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
@@ -56,7 +56,7 @@ Source: [CivitAI](https://civitai.com/models/2912041?modelVersionId=3294020)
 ### `underwater-sunlight-caustics-ocean-refract-h3.safetensors`
 
 **Underwater Sunlight Caustics & Ocean Refraction Slider (Avatar 2 Style)**
-- base `MiniMax H3` · I2V and T2V · strength: not stated · Graydient+AIOps
+- base `MiniMax H3` · I2V and T2V · strength: not stated · on Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 
@@ -72,7 +72,7 @@ Source: [CivitAI](https://civitai.com/models/3014895?modelVersionId=3422144)
 ### `books-world-morph-h3.safetensors`
 
 **Books - World Morph**
-- base `MiniMax H3` · not stated · strength: not stated · triggers: `books` · Graydient+AIOps
+- base `MiniMax H3` · not stated · strength: not stated · triggers: `books` · on Graydient
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
@@ -81,7 +81,7 @@ Source: [CivitAI](https://civitai.com/models/2994894?modelVersionId=3396506)
 ### `growth-effect-minimax-h3-alpha-h3.safetensors`
 
 **Growth Effect Minimax H3 (alpha)**
-- base `MiniMax H3` · not stated · strength: not stated · triggers: `growth` · AIOps
+- base `MiniMax H3` · not stated · strength: not stated · triggers: `growth` · to add to Graydient
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 

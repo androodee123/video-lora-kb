@@ -19,4 +19,4 @@ Tables list **accessible** LoRAs only (on Graydient, the AIOps RAID, or both). A
 - [Object control](object-control.md) — 1 accessible
 - [Pose / control](pose.md) — 2 accessible
 - [Lipsync](lipsync.md) — 1 accessible
-- [unverified](unverified.md) — 46 (40 on AIOps)
+- [unverified](unverified.md) — 46

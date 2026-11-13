@@ -1,14 +1,14 @@
 # Wan: Motion
 
-3 accessible LoRAs (1 on both Graydient and AIOps, 1 Graydient-only, 1 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+3 available Graydient LoRAs (2 already on Graydient, 1 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `wan-2-2-i2v-gay-riding-motion-anal-wan` | `gayriding` | not stated | I2V | Wan 2.2 I2V - Gay Riding (motion) (anal) | 601 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864) |
-| `wanfutaonfuta` | `WanFutaonFuta`, `futa on futa` | not stated | T2V | Wan Futa on Futa - Penis Motion Modifier | 1,498 | AIOps, verified | [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929) |
-| `wan-2-2-i2v-gay-anal-motion` | `gayanal` | not stated | I2V | Wan 2.2 I2V - Gay Anal (motion) | 1,006 | Graydient, verified | [CivitAI](https://civitai.com/models/2889631?modelVersionId=3279268) |
+| `wan-2-2-i2v-gay-anal-motion` | `gayanal` | not stated | I2V | Wan 2.2 I2V - Gay Anal (motion) | 1,006 | on Graydient, verified | [CivitAI](https://civitai.com/models/2889631?modelVersionId=3279268) |
+| `wan-2-2-i2v-gay-riding-motion-anal-wan` | `gayriding` | not stated | I2V | Wan 2.2 I2V - Gay Riding (motion) (anal) | 601 | on Graydient, verified | [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864) |
+| `wanfutaonfuta` | `WanFutaonFuta`, `futa on futa` | not stated | T2V | Wan Futa on Futa - Penis Motion Modifier | 1,498 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929) |
 
 ## Suggest ingest
 
@@ -25,7 +25,7 @@ These are **not** on Graydient or the AIOps RAID yet. Suggestion only — downlo
 ### `wan-2-2-i2v-gay-riding-motion-anal-wan.safetensors`
 
 **Wan 2.2 I2V - Gay Riding (motion) (anal)**
-- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `gayriding` · Graydient+AIOps
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `gayriding` · on Graydient
 
 Compatibility: mode: I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
@@ -34,7 +34,7 @@ Source: [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864)
 ### `WanFutaonFuta.safetensors`
 
 **Wan Futa on Futa - Penis Motion Modifier**
-- base `Wan Video 14B t2v` · T2V · strength: not stated · triggers: `WanFutaonFuta`, `futa on futa` · AIOps
+- base `Wan Video 14B t2v` · T2V · strength: not stated · triggers: `WanFutaonFuta`, `futa on futa` · to add to Graydient
 
 Compatibility: mode: T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 

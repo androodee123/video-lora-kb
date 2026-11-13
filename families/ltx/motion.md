@@ -1,15 +1,15 @@
 # LTX2: Motion
 
-4 accessible LoRAs (2 on both Graydient and AIOps, 0 Graydient-only, 2 AIOps-only). Accessible rows are listed first (both, then AIOps, then Graydient), then by download count. The 13 Nov 2026 RAID snapshot is the AIOps source.
+4 available Graydient LoRAs (2 already on Graydient, 2 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `ltx23-i2v-swing-up-down-os` | `ltx23-i2v-swing-up-down`, `ltx23 i2v swing up down os` | not stated | I2V and T2V | Swing Up and Down Legs | 752 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2755595?modelVersionId=3100594) |
-| `ltx23-i2v-swing-in-out-os` | `ltx23-i2v-swing-in-out2`, `ltx23 i2v swing in out os` | not stated | I2V and T2V | Swing In and Out Legs | 649 | Graydient+AIOps, verified | [CivitAI](https://civitai.com/models/2755583?modelVersionId=3100573) |
-| `ltx2-i2v-sexymove` | `LTX2-i2v-SexyMove`, `LTX2 i2v SexyMove`, `sexy` | 0.2–0.91 | I2V and T2V | LTX2 i2v - Sexy Move | 13,288 | AIOps, verified | [CivitAI](https://civitai.com/models/2312166?modelVersionId=2621203) |
-| `ltx2-i2v-sexthrust` | `LTX2-i2v-SexThrust_1`, `LTX2 i2v SexThrust` | 0.8–1.0; 0.2–0.4 | I2V and T2V | LTX2 - Sex Thrust | 10,888 | AIOps, verified | [CivitAI](https://civitai.com/models/2378690?modelVersionId=2674954) |
+| `ltx23-i2v-swing-up-down-os` | `ltx23-i2v-swing-up-down`, `ltx23 i2v swing up down os` | not stated | I2V and T2V | Swing Up and Down Legs | 752 | on Graydient, verified | [CivitAI](https://civitai.com/models/2755595?modelVersionId=3100594) |
+| `ltx23-i2v-swing-in-out-os` | `ltx23-i2v-swing-in-out2`, `ltx23 i2v swing in out os` | not stated | I2V and T2V | Swing In and Out Legs | 649 | on Graydient, verified | [CivitAI](https://civitai.com/models/2755583?modelVersionId=3100573) |
+| `ltx2-i2v-sexymove` | `LTX2-i2v-SexyMove`, `LTX2 i2v SexyMove`, `sexy` | 0.2–0.91 | I2V and T2V | LTX2 i2v - Sexy Move | 13,288 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/2312166?modelVersionId=2621203) |
+| `ltx2-i2v-sexthrust` | `LTX2-i2v-SexThrust_1`, `LTX2 i2v SexThrust` | 0.8–1.0; 0.2–0.4 | I2V and T2V | LTX2 - Sex Thrust | 10,888 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/2378690?modelVersionId=2674954) |
 
 ## Suggest ingest
 
@@ -26,7 +26,7 @@ These are **not** on Graydient or the AIOps RAID yet. Suggestion only — downlo
 ### `ltx23-i2v-swing-up-down-os.safetensors`
 
 **Swing Up and Down Legs**
-- base `LTXV 2.3` · I2V and T2V · strength: not stated · triggers: `ltx23-i2v-swing-up-down`, `ltx23 i2v swing up down os` · Graydient+AIOps
+- base `LTXV 2.3` · I2V and T2V · strength: not stated · triggers: `ltx23-i2v-swing-up-down`, `ltx23 i2v swing up down os` · on Graydient
 
 Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
@@ -35,7 +35,7 @@ Source: [CivitAI](https://civitai.com/models/2755595?modelVersionId=3100594)
 ### `ltx23-i2v-swing-in-out-os.safetensors`
 
 **Swing In and Out Legs**
-- base `LTXV 2.3` · I2V and T2V · strength: not stated · triggers: `ltx23-i2v-swing-in-out2`, `ltx23 i2v swing in out os` · Graydient+AIOps
+- base `LTXV 2.3` · I2V and T2V · strength: not stated · triggers: `ltx23-i2v-swing-in-out2`, `ltx23 i2v swing in out os` · on Graydient
 
 Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
@@ -44,7 +44,7 @@ Source: [CivitAI](https://civitai.com/models/2755583?modelVersionId=3100573)
 ### `LTX2-i2v-SexyMove.safetensors`
 
 **LTX2 i2v - Sexy Move**
-- base `LTXV2` · I2V and T2V · strength (stated): 0.2–0.91 · triggers: `LTX2-i2v-SexyMove`, `LTX2 i2v SexyMove`, `sexy` · AIOps
+- base `LTXV2` · I2V and T2V · strength (stated): 0.2–0.91 · triggers: `LTX2-i2v-SexyMove`, `LTX2 i2v SexyMove`, `sexy` · to add to Graydient
 
 Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
@@ -53,7 +53,7 @@ Source: [CivitAI](https://civitai.com/models/2312166?modelVersionId=2621203)
 ### `LTX2-i2v-SexThrust.safetensors`
 
 **LTX2 - Sex Thrust**
-- base `LTXV2` · I2V and T2V · strength (stated): 0.8–1.0; 0.2–0.4 · triggers: `LTX2-i2v-SexThrust_1`, `LTX2 i2v SexThrust` · AIOps
+- base `LTXV2` · I2V and T2V · strength (stated): 0.8–1.0; 0.2–0.4 · triggers: `LTX2-i2v-SexThrust_1`, `LTX2 i2v SexThrust` · to add to Graydient
 
 Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 

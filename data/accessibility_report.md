@@ -1,112 +1,21 @@
 # Accessibility report
 
-Generated 13 Nov 2026, 22:06 Africa/Johannesburg (SAST). Source of Graydient access: Hugging Face `Octavian123/civit` (11206 paths, 10169 weight files, listed via the Hub API — no weights downloaded). Source of AIOps access: `installed=true` rows from the 13 Nov 2026 RAID snapshot (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`).
+Updated 13 Nov 2026, 22:18 Africa/Johannesburg (SAST). The available set is **Graydient LoRAs** — every row in `data/loras.jsonl`.
 
-Catalog before filter: **4844** video LoRAs. After filter: **391** accessible, **4461** ingest candidates. Unmatched HF video files added: **8** (verified=false).
+`graydient_status` is **on Graydient** when a matching file is in Hugging Face `Octavian123/civit`, or **to add to Graydient** when the LoRA is on the 13 Nov 2026 AIOps RAID snapshot and still needs civit-to-graydient ingest before it appears in the concept browser. There is no “AIOps only” category: anything on the RAID must be added to Graydient. The `aiops` boolean is kept as secondary information (present on the RAID).
+
+Public CivitAI / Hugging Face video LoRAs not yet in this set live in `data/candidates.jsonl`. RAID files still to add are listed in `data/graydient_ingest_queue.md`. Nothing was auto-downloaded or ingested.
 
 ## Counts
 
-| Family | Graydient only | AIOps only | Both | Accessible total | Candidates |
-|---|---:|---:|---:|---:|---:|
-| MiniMax H3 | 33 | 50 | 191 | 274 | 981 |
-| Wan | 19 | 19 | 35 | 73 | 2706 |
-| LTX | 12 | 17 | 15 | 44 | 774 |
-| **Total** | 64 | 86 | 241 | 391 | 4461 |
+| Family | On Graydient | To add to Graydient | Available total | Candidates |
+|---|---:|---:|---:|---:|
+| MiniMax H3 | 224 | 50 | 274 | 981 |
+| Wan | 54 | 19 | 73 | 2706 |
+| LTX | 27 | 17 | 44 | 774 |
+| **Total** | **305** | **86** | **391** | **4461** |
 
-HF weight files reviewed: **10169**. HF weight files matched to a catalog row: **323**.
-
-## AIOps (installed) not on Graydient
-
-86 of the installed RAID video LoRAs have no matching file in `Octavian123/civit`. They stay in `data/loras.jsonl` as AIOps-only.
-
-| family | slug / file | source |
-|---|---|---|
-| H3 | `deepthroat-face-fuck-high-wan` | civitai |
-| H3 | `larryvrh-h3` | civitai |
-| H3 | `rough-sex-fucked-silly-il-chroma-shrekman-h3` | civitai |
-| H3 | `human-onahole-fantasy-sex-concept-collecti-h3` | civitai |
-| H3 | `minimax-h3-pussy-spread-v1-h3` | civitai |
-| H3 | `messy-blowjob-h3` | civitai |
-| H3 | `sexy-massage-high-wan` | civitai |
-| H3 | `pornmaster-mmh3-fast-motion-slider-h3` | civitai |
-| H3 | `teasing-sensual-blowjob-minimax-h3` | civitai |
-| H3 | `mmh3-realism-slider-v2-hyperflow-h3-flash-h3` | civitai |
-| H3 | `h3-anal-dildo-ref2va-h3` | civitai |
-| H3 | `h3-analsex-missionary-v1-h3` | civitai |
-| H3 | `lactation-lactating-breasts-minimax-h3` | civitai |
-| H3 | `hair-pulling-h3-101-h3` | civitai |
-| H3 | `self-anal-fisting-minimax-h3-k3nk-h3` | civitai |
-| H3 | `rvr-style-minimax-h3` | civitai |
-| H3 | `hataraki-ari-style-h3` | civitai |
-| H3 | `dirtylarry-s-dick-detailer-h3` | civitai |
-| H3 | `minimax-h3-t2v-i2v-doublefuck-h3` | civitai |
-| H3 | `bust-on-tits-face-nsfw-round-breasts-h3-mi-h3` | civitai |
-| H3 | `minimax-h3-image-anime-classic-hd-h3` | civitai |
-| H3 | `getting-on-all-fours-minimax-h3` | civitai |
-| H3 | `irrumatio-blowjob-minimax-h3-k3nk-h3` | civitai |
-| H3 | `smart-glasses-pov-minimax-h3` | civitai |
-| H3 | `minimax-h3-t2v-i2v-nipplesuck-h3` | civitai |
-| H3 | `graycolor-retro-anime-style-h3` | civitai |
-| H3 | `lean-forward-and-place-hands-on-the-knees-h3` | civitai |
-| H3 | `anaya-von-vergin-h3` | civitai |
-| H3 | `friend-s-pov-minimax-h3` | civitai |
-| H3 | `minimax-h3-t2v-i2v-selfsuck-h3` | civitai |
-| H3 | `paizuri-fellatio-h3` | civitai |
-| H3 | `growth-effect-minimax-h3-alpha-h3` | civitai |
-| H3 | `minimax-female-accents-north-american-h3` | civitai |
-| H3 | `civchan-unoffical-h3` | civitai |
-| H3 | `staci-80s-zit-mmh3-h3` | civitai |
-| H3 | `teal-orange-cinematic-h3` | civitai |
-| H3 | `round-firm-breasts-massage-breasts-lotion-h3` | civitai |
-| H3 | `earth-from-iss-low-earth-orbit-planetary-v-h3` | civitai |
-| H3 | `esther-nordhavenlove-h3` | civitai |
-| H3 | `whisk-face-p-h3-image-black-h3` | civitai |
-| H3 | `whisk-face-p-h3-image-h3` | civitai |
-| H3 | `neon-blackpink-pink-edge-glow-style-h3` | civitai |
-| H3 | `annabelle-nordhavenlove-h3` | inventory |
-| H3 | `assjob-minimax-h3` | inventory |
-| H3 | `blowjob-v1-5-minimax-h3` | inventory |
-| H3 | `early-1900s-photograph-h3` | inventory |
-| H3 | `fingering-high-wan` | inventory |
-| H3 | `h3-ltx-2-3-paizuri-titfuck-with-thrusting-v2-h3` | inventory |
-| H3 | `haijme-sorayama-style-h3` | inventory |
-| H3 | `theofficialpit-style-h3` | inventory |
-| Wan | `wan2-2-i2v-tentacled-v2-1-high-tawslora` | civitai |
-| Wan | `wan2-2-i2v-tentacled-v2-1-low-tawslora` | civitai |
-| Wan | `wan22-i2v-futa-cowgirl-low-noise` | civitai |
-| Wan | `wan2-1-i2v-480p-flaccid-v1-0` | civitai |
-| Wan | `wanfutaonfuta` | civitai |
-| Wan | `drift-stop-from-close-up-face-wan2-2-i2v-a-wan` | civitai |
-| Wan | `b7-test1-wan22-t2v-f17-high-000000200-high-noise` | local |
-| Wan | `b7-test1-wan22-t2v-f17-high-000000400-high-noise` | local |
-| Wan | `b7-test1-wan22-t2v-f17-high-000000600-high-noise` | local |
-| Wan | `b7-test1-wan22-t2v-f17-high-000000800-high-noise` | local |
-| Wan | `b7-test1-wan22-t2v-f17-high-000001000-high-noise` | local |
-| Wan | `b7-test1-wan22-t2v-f17-high-000001200-high-noise` | local |
-| Wan | `b7-test1-wan22-t2v-f17-high-000001400-high-noise` | local |
-| Wan | `b7-test1-wan22-t2v-f17-high-high-noise` | local |
-| Wan | `fondled-wan2-2-14b-i2v-high-v1-0` | inventory |
-| Wan | `fondled-wan2-2-14b-i2v-low-v1-0` | inventory |
-| Wan | `wan22-i2v-futa-missionary-low-noise` | inventory |
-| Wan | `xmilkductxrayx-wan22-1217-e50-high` | inventory |
-| Wan | `xmilkductxrayx-wan22-1217-e50-low` | inventory |
-| LTX2 | `st0mach-bulge-ltx2-v1-1` | civitai |
-| LTX2 | `ltx2-nsfw-furry-lora-step-15000` | civitai |
-| LTX2 | `ltx-2-better-female-nudity` | civitai |
-| LTX2 | `ltx2-i2v-sexymove` | civitai |
-| LTX2 | `ltx2-i2v-sexthrust` | civitai |
-| LTX2 | `cr3ampi3-animation-i2v-ltx2-v1-0` | civitai |
-| LTX2 | `m2ltx-fingering-step00004000-comfy` | civitai |
-| LTX2 | `msltx-3fingering-step00005000-comfy` | civitai |
-| LTX2 | `msltx-3fingering-step00005000-comfy-1` | civitai |
-| LTX2 | `beeg-v3-13000-step00006000-comfy` | civitai |
-| LTX2 | `mr-glitter-bikini-ltx2` | civitai |
-| LTX2 | `ltx-2-takerpov-lora-v1-2` | civitai |
-| LTX2 | `retro-anime-mix-by-shrekman-ltx2` | civitai |
-| LTX2 | `showering-and-foam-ltx2` | civitai |
-| LTX2 | `ltx-2-orgasm-v1` | inventory |
-| LTX2 | `ltx-2-rubbing-her-pussy` | inventory |
-| LTX2 | `plorav7-ltx-000010500` | inventory |
+The 86 *to add to Graydient* rows are the RAID-installed video LoRAs with no matching file in `Octavian123/civit`. See `data/graydient_ingest_queue.md`.
 
 ## Unmatched Hugging Face video files added
 
