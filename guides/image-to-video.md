@@ -5,7 +5,7 @@ How the three families installed on AIOps are usually driven, including the Gray
 
 ## Choosing LoRAs for a prompt upgrade
 
-This guide is about prompt shape and Graydient workflow names. For *which* LoRA to hang on the graph, use [`SKILL.md`](../SKILL.md) (48 goal recipes) and the family tables. Installed LoRAs are listed first.
+This guide is about prompt shape and Graydient workflow names. For *which* LoRA to hang on the graph, use [`SKILL.md`](../SKILL.md) (96 goal recipes) and [`prompt-patterns.md`](prompt-patterns.md) and the family tables. Installed LoRAs are listed first.
 
 Official speed and control packs that are usually **not** on the RAID — LightX2V / CausVid distill LoRAs for Wan, Lightricks LTX-2/2.3/2.5 camera-control and IC-LoRAs, Pika H3 Flex, MiniMax H3 turbo and character-swap — are in the SKILL recipes and in `guides/fuzzpuppy-directory.md`. They are workflow-specific; do not treat an IC-LoRA as a drop-in I2V style adapter.
 

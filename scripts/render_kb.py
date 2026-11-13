@@ -28,6 +28,10 @@ CAT_FILE = {
     "nsfw-act": "nsfw-acts.md",
     "anime": "anime.md",
     "realism": "realism.md",
+    "character_consistency": "character-consistency.md",
+    "object_control": "object-control.md",
+    "pose": "pose.md",
+    "lipsync": "lipsync.md",
 }
 CAT_TITLE = {
     "motion": "Motion",
@@ -43,6 +47,10 @@ CAT_TITLE = {
     "nsfw-act": "NSFW acts and anatomy",
     "anime": "Anime / 2D",
     "realism": "Realism",
+    "character_consistency": "Character consistency",
+    "object_control": "Object control",
+    "pose": "Pose / control",
+    "lipsync": "Lipsync",
 }
 
 def esc(s):
@@ -73,6 +81,8 @@ def table(rows):
         purpose = esc(r.get("purpose") or r.get("civitai_name") or slug)[:90]
         inst = "installed" if r.get("installed") else "catalog"
         ver = "verified" if r.get("verified") else "unverified"
+        if r.get("low_signal"):
+            ver += ", low_signal"
         dl = r.get("downloads")
         dl_s = f"{int(dl):,}" if isinstance(dl, (int, float)) and dl is not None else "—"
         lines.append(
@@ -169,8 +179,15 @@ def render_families(recs, rich_by_key):
                     parts.append("- " + " · ".join(meta))
                     if not r.get("verified"):
                         parts.append("- **Unverified** — no confirmed live page, or the listed id 404'd.")
-                    if ex:
-                        parts += ["", "Example prompt (from the source page or sidecar):", "", "```", str(ex).strip()[:1200], "```"]
+                    prompts = r.get("example_prompts") or ([ex] if ex else [])
+                    if prompts:
+                        parts.append("")
+                        parts.append("Example prompt" + ("s" if len(prompts) > 1 else "") + " (from the images API, page, or sidecar; never invented):")
+                        for i, pr in enumerate(prompts[:2], 1):
+                            parts += ["", f"Example {i}:" if len(prompts) > 1 else "", "```", str(pr).strip()[:1200], "```"]
+                    if r.get("compatibility"):
+                        parts.append("")
+                        parts.append("Compatibility: " + "; ".join(str(x) for x in r["compatibility"]))
                     if r.get("urls"):
                         parts.append(f"\nSource: {links(r)}")
                     parts.append("")
@@ -193,6 +210,19 @@ def render_families(recs, rich_by_key):
             idx.append(f"- [{title}]({fname}) — {n} ({inst_n} installed)")
         (dest / "README.md").write_text("\n".join(idx) + "\n", encoding="utf-8")
     return written
+
+def coverage_block(recs):
+    n = len(recs) or 1
+    trig = sum(1 for r in recs if r.get("triggers"))
+    strn = sum(1 for r in recs if r.get("strength") not in (None, "", "not stated"))
+    ex = sum(1 for r in recs if r.get("example_prompts") or r.get("example_prompt"))
+    low = sum(1 for r in recs if r.get("low_signal"))
+    return (
+        f"Of {len(recs)} rows: **{trig}** ({100*trig/n:.1f}%) have at least one recorded trigger, "
+        f"**{strn}** ({100*strn/n:.1f}%) have a stated strength, "
+        f"**{ex}** ({100*ex/n:.1f}%) have at least one example prompt (images API or page text). "
+        f"**{low}** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented."
+    )
 
 def render_readme(recs, c, written):
     h, w, l = c["H3"], c["Wan"], c["LTX2"]
@@ -225,7 +255,7 @@ Research compiled **{DATE_LABEL}**. Many entries are adult NSFW and are document
 | LTX-2 / 2.3 / 2.5 | {l['total']} | {l['installed']} | {l['installed_verified']} | {l['installed_unverified']} | {l['catalog_only']} | {l['verified']} |
 | **Total** | **{h['total']+w['total']+l['total']}** | **{h['installed']+w['installed']+l['installed']}** | **{h['installed_verified']+w['installed_verified']+l['installed_verified']}** | **{h['installed_unverified']+w['installed_unverified']+l['installed_unverified']}** | **{h['catalog_only']+w['catalog_only']+l['catalog_only']}** | **{h['verified']+w['verified']+l['verified']}** |
 
-Low-value CivitAI rows (under ~100 downloads and no thumbs-up) were dropped unless they were installed. 37 such models were excluded.
+Low-download CivitAI rows (under ~100 downloads and no thumbs-up) are kept and flagged `low_signal=true` rather than dropped, so niche but relevant LoRAs stay in the catalog.
 
 ### Counts by category
 
@@ -233,11 +263,13 @@ Low-value CivitAI rows (under ~100 downloads and no thumbs-up) were dropped unle
 
 A LoRA may appear in more than one category.
 
+{coverage_block(recs)}
+
 ## How to use this repo
 
 1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser with recipes across families, stacking, stated strengths, and known conflicts.
 2. Open the family + category page under `families/`. Tables list **installed first**, then catalog entries by popularity (downloads).
-3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md).
+3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md). Per-family prompt templates and trigger usage: [`guides/prompt-patterns.md`](guides/prompt-patterns.md).
 4. Official / utility packs also appear in [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md).
 5. Machine-readable data: [`data/loras.jsonl`](data/loras.jsonl).
 6. Refresh CivitAI/HF metadata: `python3 scripts/harvest.py` (writes `data/raw/`, gitignored). Propose new models since the last harvest: `python3 scripts/check_new.py`.
@@ -270,9 +302,10 @@ High vs low noise is not a `baseModel` value.
 ## Reproducing the harvest
 
 ```
-python3 scripts/harvest.py --sorts newest           # resume from data/raw cache
-python3 scripts/harvest.py --verify-sorts           # first page of Most Downloaded / Highest Rated
-python3 scripts/harvest.py --hf-only                # official HF org listings
+python3 scripts/harvest.py --full-sorts --period AllTime   # Newest + Most Downloaded + Highest Rated, all bases
+python3 scripts/harvest.py --keywords                      # CivitAI keyword queries (video bases only)
+python3 scripts/harvest.py --hf-expand                     # broader Hugging Face LoRA search
+python3 scripts/harvest.py --enrich --enrich-images        # full /models/{id} + example-prompt images API
 python3 scripts/build_kb.py && python3 scripts/render_kb.py
 ```
 
@@ -280,8 +313,8 @@ Raw API dumps live in `data/raw/` and are gitignored (tens of megabytes). See `d
 
 ## Sources
 
-- CivitAI public API, metadata only (full Newest crawl of the base models above, plus Most Downloaded / Highest Rated first-page checks; two popular models missing from Newest were merged in).
-- Hugging Face model listings (Lightricks, lightx2v, alibaba-pai, Kijai, Cseti, fal, Pika-Labs, FuzzPuppy, plus targeted searches for CausVid / self-forcing / distill / camera-control).
+- CivitAI public API, metadata only (every confirmed baseModel paged with Newest, Most Downloaded, and Highest Rated, including `period=AllTime`; keyword queries for camera/motion/audio/identity/control/etc.; full `/api/v1/models/{id}` descriptions and `/api/v1/images` example prompts when the public API returns `meta.prompt`).
+- Hugging Face Hub search (author lists plus `models?search=` / pipeline tags for Wan-AI / Wan2.1 / Wan2.2, Lightricks / LTX, MiniMax, lightx2v, alibaba-pai, and related community packs).
 - RAID inventory and sidecars, Sept 2026 catalog skeletons, curated MCB `h3-loras.md`.
 - [fuzzpuppy.com/lora-directory](https://www.fuzzpuppy.com/lora-directory).
 """

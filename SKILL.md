@@ -49,7 +49,7 @@ Do not stack two motion boosters and two realism LoRAs on the first pass. Turbo 
 
 ## Goal recipes
 
-Recipes 1–16 are MiniMax H3, 17–32 Wan, 33–45 LTX, 46–48 cross-family. “Installed” means present on the 13 Nov 2026 RAID snapshot.
+Recipes 1–16 and 49–64 are MiniMax H3, 17–32 and 65–78 Wan, 33–45 and 79–90 LTX, 46–48 and 91–96 cross-family (96 recipes). “Installed” means present on the 13 Nov 2026 RAID snapshot. Prompt templates: `guides/prompt-patterns.md`.
 
 ### 1. Realistic, less-morphing human motion (H3)
 
@@ -287,9 +287,255 @@ Recipes 1–16 are MiniMax H3, 17–32 Wan, 33–45 LTX, 46–48 cross-family. �
 
 ---
 
+### 49. Talking head / lipsync (H3)
+
+- Installed but **unverified**, no recorded trigger: `natural-face-speech-minimax-h3`. Test it; do not invent a trigger.
+- Catalog: `nafasp_h3_lora_v2_500` (Natural Face & Speech H3/LTX 2.5, stated **0.6–0.8**); `aswhm_lora_v1_500` (ASMR Whisper Audio, stated **0.6–0.8**); Kokoro female voices (stated **0.5–0.7**).
+- Put dialogue in the H3 `</d\\>` block and describe lip motion and breaths. Conflict: a moan LoRA will not add clear English speech.
+
+### 50. Character consistency across an H3 clip
+
+- Start with a complete `retention_analysis` (see `guides/prompt-patterns.md`). Add **one** installed identity LoRA (recipe 12) if you have it.
+- To change the face but keep motion: recipe 11 (`akatz-ai/MiniMax-H3-Character-Swap-LoRA`, Ref2VA; not on RAID). Catalog face-swap: `FaceSwap - MiniMax REF2VA` (trigger `Faceswap`); `BFS - Best Face Swap` uses a structured `body_swap` / subject-definition trigger — follow the page, do not invent one.
+- Conflict: two identity LoRAs, or swap + a second character LoRA on the first test.
+
+### 51. Pose or ControlNet guidance (H3)
+
+- HF (not on RAID): `MiniMax-H3-Fun-Controlnet-Union` / `Union-2.0` — use the pack’s control input. Strength not stated.
+- Installed pose-like: `Jacko pose minimax h3 v1` (trigger not stated). Catalog: `ADD SexyPose H3` (trigger `sexypose`); `BLACKED Style — Cowgirl Pose [MiniMax H3 Ref2VA]` (trigger not stated; Ref2VA graph); `Genshin-like ultimate burst poses` (trigger `ulti`).
+- Drive the pose in the action sentence; do not stack two pose LoRAs.
+
+### 52. Lighting, caustics, relight (H3)
+
+- Installed: `Underwater Sunlight Caustics & Ocean Refraction Slider` (trigger not stated).
+- Catalog / texture already in recipes 7–8 (`teal-orange-cinematic-h3` installed). Pick one lighting/texture direction.
+- Conflict: caustics/underwater look vs dry cinematic teal-orange on the same pass.
+
+### 53. First-last / FL2VA transitions (H3)
+
+- Frozen-time orbit is recipe 5 (`minimax-h3-orb360-cardspin-h3`; HF `pablodawson/MiniMax-H3-360-Orbit-LoRA` needs first-last frames).
+- 2D↔real transformation catalog: `Realistic → Anime Transformation | MiniMax H3` (trigger `anime_tx`, stated **0.8–1.0**) — that is a look change, not a scene cut.
+- Do not treat a plain I2V still as a first-last transition.
+
+### 54. Cloth and hair motion (H3)
+
+- Catalog hair: `Minimax H3: t2va (T2V) – Polyhedron: Better Hair` (triggers `ha8ir`, `perfect hair`, `thick hair`, `airy volume`, `natural`; stated **0.6–0.7**). That pack is T2VA — check `i2v_t2v` before using it on I2V.
+- Installed: `Latex clothes Minimax H3` (trigger `latex,`); `hair pulling h3 101` (trigger not stated).
+- Catalog: `[Invisible person / Living clothes]` (triggers `living clothes`, `magic clothes`, `livingclothes`, `invisible`; stated **0.6–0.9**).
+
+### 55. Water, fire, smoke / elemental VFX (H3)
+
+- Installed: underwater caustics (recipe 52). Catalog: `Water Foam World`; `KinetiX Elemental VFX Suite`; `KinetiX Ghost Rider Hellfire Wheels & Molten Ground Concept Slider`. Triggers and strengths for those catalog rows are `not stated` unless the family table records them after enrichment — do not invent any.
+- Keep to one VFX LoRA; describe the element in prose.
+
+### 56. Sharper / upscaled H3 video
+
+- Catalog: `Minimax H3 Image Upscaler (LORA + Workflow & Batch)` (trigger not stated); `Sharper Video` (stated **1** / **1.0**).
+- These are post / tool LoRAs, not style LoRAs. Do not stack with a turbo pack unless the upscaler workflow says to.
+
+### 57. Stereo / depth video (H3)
+
+- Catalog: `Real Stereo Depth Video - H3 Minimax` (stated **1**). Trigger not stated. This is a depth/stereo helper, not a pose ControlNet.
+
+### 58. JOI gesture (H3)
+
+- Installed: `minimax-joi-gesture-h3` (stated **0.6–0.8**). Trigger not stated. Describe the pointing / looking-at-camera gesture in `detailed_description`.
+
+### 59. Pegging (H3)
+
+- Installed: `minimax-pegging-h3` (stated **0.5–0.8**). Trigger not stated. If the still already reads as the act, start at the low end of the stated range.
+
+### 60. Cum / finish / squirt (H3)
+
+- Installed: `hmsquirt-squirting-for-minimax-h3` (trigger `hmsquirt`, stated **0.4–0.8**), `h3-edge-time-h3` (stated **1**), `h3-throat-time-h3` (stated **1.0**). Triggers for the last two are not stated.
+- One finish LoRA at a time. Conflict: stacking edge-time + throat-time + squirt on the first test.
+
+### 61. Penis detail / futa helpers (H3)
+
+- Installed: `dirtylarry-s-dick-detailer-h3` (stated **1**; trigger not stated). Other futa / condom-stroke helpers are in `families/h3/nsfw-acts.md` (installed first).
+- Pair with one act LoRA, not a second detailer.
+
+### 62. Face-slap motion (H3, Ref2VA)
+
+- Installed: `face-slap-motion-minimax-h3-ref2va-h3` (trigger `f4c3sl4p`, stated **1.0**). Requires the Ref2VA graph, not a plain I2V still-to-clip unless the page says otherwise.
+
+### 63. Bursting / wardrobe break (H3)
+
+- Installed: `bursting-out-minimax-h3` (trigger `brstingout`, stated **0.75**). Describe a single burst, not a long sequence of costume changes.
+
+### 64. Hair-pulling motion (H3)
+
+- Installed: `hair pulling h3 101` (trigger not stated). Catalog may list other hair-pull acts; use the family table. Strength not stated — short test clip.
+
+### 65. Talking / lipsync on Wan
+
+- Do not use H3 audio LoRAs. Wan rows tagged lipsync/speech are listed in `families/wan/lipsync.md` and `audio.md` when present. If the row’s trigger and strength are `not stated`, describe mouth motion in prose and test.
+- Conflict: expecting a Wan act LoRA to fix lip sync.
+
+### 66. Character or clothing consistency (Wan)
+
+- Catalog: `ClothConsistency-Wan2.2-I2V-ConsistencyLoRA2` (I2V; recorded intent is clothing consistency with the first frame; strength not stated).
+- Identity: recipe 24, one character LoRA. Face/head swap catalog: `BFS - Best Face Swap` (Wan trigger recorded as `head_swap:`, stated **0.7–1.0** on the Wan version). Follow the page’s subject-definition pattern.
+
+### 67. Object interaction / living clothes (Wan)
+
+- Catalog: `[Invisible person / Living clothes] WAN2.1 T2V I2V 14B` (triggers `invisible`, `living cloth`, `living clothes`, `magic cloth`; stated **0.75–1.0**). Match 2.1 vs 2.2; this page is Wan 2.1.
+- Catalog typography / object: `ObjectTypo-Redmond-T2V-14B` (trigger `ObjectTypography`, strength not stated).
+- Describe the held or transforming object in the action clause. Through-body errors: drop extra act LoRAs before adding a second object pack.
+
+### 68. Pose control (Wan)
+
+- Catalog poses (triggers as recorded; strengths mostly `not stated`): Paw Pose (`paw pose`, `panting` on 2.1; a 2.2 I2V/T2V variant uses a longer “moves into a paw pose…” phrase — use the row that matches the base), `Arched Back Pose` (`sensual back arch`), `Most Muscular/Crab Flex` (`most muscular pose`), `Ab Crunch Pose` (`ab crunch pose`), `Front Lat Spread Pose`, `Full Extension Split Pose`, `WAN2.2_T2V_14b - Female Bodybuilder Pose`, `Pronebone Poses - XL` (trigger starts `pronebone sex…`).
+- One pose LoRA. Match 2.1 vs 2.2 and I2V vs T2V.
+
+### 69. Underwater / submerge (Wan)
+
+- Catalog: `Wan 2.2 T2V Motion (High & Low Noise) – Polyhedron: Submerge` (triggers `submer8ge`, `underwater`, `caustics`, `open water`, `swimming`; high/low pair). Strength not stated — same value on both noises.
+- Other underwater style rows exist (`Freedive girls`, `Underwater`) with triggers `not stated` or as in the table. Do not put a 5B LoRA on this 14B T2V pair.
+
+### 70. Fire and smoke (Wan)
+
+- `Realistic Fire (Wan2.1 T2V LoRA)`: trigger `[r3al_f1re]`, stated **1.0**.
+- `Realistic Fire Wan 2.2 I2V 5B`: trigger `fire`, stated **0.8**. **5B TI2V only**.
+- Catalog also: `Colored smoke effects-wan2.1`, `Shadow smoke` (trigger `<shadow>`), `Morph From The Influence Of Smoke` (trigger `5M0K3 EFFECT`). Strengths not stated unless the table says so.
+- Match base. One element LoRA.
+
+### 71. Dissolve / melt transition (Wan)
+
+- Catalog: `Melt It (Acid Dissolve) I Wan 2.1 I2V` (triggers `m3lt1ng` plus a long demo sentence on some rows; stated **1**). Wan 2.1 I2V — do not assume 2.2 high/low behavior.
+
+### 72. Wan upscale tool
+
+- Catalog: `[LuisaP] WAN 2.2 UPSCALER [TOOL]` (trigger `upscale this video`, strength not stated). Use as a tool pass, not as a style LoRA on a generation graph.
+
+### 73. Stereo / depth (Wan)
+
+- Catalog: `Real Stereo Depth Video - WAN 2.2 I2V` (trigger and strength not stated). Separate from pose/depth ControlNet packs.
+
+### 74. Bullet time / hero-run camera FX (Wan)
+
+- Catalog Wan 2.1 I2V: `Matrix Bullet Time Camera Effect` (trigger `b4ll3t t1m3 bullet time shot`, stated **1.0**); `Hero Run Effect` (trigger `4ct3ion Action Run`, stated **1.0**).
+- Conflict: a general orbit/dolly LoRA plus bullet-time on the first test. 2.1 LoRAs are not a free upgrade to 2.2 high/low.
+
+### 75. Clothing tightness / ripped clothes (Wan)
+
+- Catalog: `Clothing Tightness Slider (Wan2.2)` (trigger not stated); `Ripped Clothing - Wan` (triggers `ripped`, `ripped and frayed`); `Wet Translucent clothes (Wan t2v)` (triggers `w3tcl0`, `wet clothes`, `Translucent clothes`, …). Strengths not stated unless the table records them.
+- One wardrobe-modifier LoRA.
+
+### 76. Using a Wan 2.1 LoRA on a 2.2 graph (or the reverse)
+
+- Do not assume cross-use. If you try it anyway, keep a short test, do not invent a high/low twin for a 2.1 file, and do not drop a 5B TI2V LoRA into 14B (or a 480p I2V LoRA into a 720p / 2.2 sampler) without a recorded reason.
+- Prefer the row whose `base` / `bases` match the workflow (recipes 20–21).
+
+### 77. Wan audio / accent / Foley
+
+- H3 moan and accent LoRAs will not transfer. Use only Wan-family audio rows in `families/wan/audio.md`. If triggers/strengths are `not stated`, describe the sound in prose and test. Official LTX Foley packs are LTX-only (recipe 43).
+
+### 78. Macromastia / clothed body (Wan)
+
+- Catalog: `Macromastia (Clothed)` (trigger `macromastia`, stated **0.5–1** / **0.5–1.0** / **0.3–0.5** — use the stated range from the matching version, not a guess). Start mid-range and test. Conflict: a size slider plus a second body-physics pack on the first pass.
+
+### 79. Lipsync / dubbing (LTX)
+
+- HF / catalog: dubbing and lip-sync LoRA for LTX-2.3 (speech-performance transfer). Strength and trigger often `not stated` — follow the pack card.
+- Describe the line and mouth motion in prose (`Audio:` sentence). Do not use an H3 speech LoRA on LTX. Natural Face & Speech also has an LTX 2.5 version (`nafasp_ltx_25_500`, stated **0.6–0.8**).
+
+### 80. Character consistency / multi-reference (LTX)
+
+- HF official / community: identity in-context LoRA for LTX-2.3; packs that combine up to five visual references for consistent characters and objects; multi-subject reference (two to five images). Strengths usually `not stated`.
+- Supply the reference images the card asks for. Conflict: two character LoRAs plus a style LoRA on the first test. Face/head swap is recipe 45.
+
+### 81. Pose and depth control (LTX)
+
+- HF official: `LTX-2-19b-IC-LoRA-Pose-Control`, `LTX-2-19b-IC-LoRA-Depth-Control`, `LTX-Video-ICLoRA-pose-13b-0.9.7`, `LTX-Video-ICLoRA-depth-13b-0.9.7`. These need a control video / map, not a prompt tag you invent.
+- Catalog helpers: `(LTX-2.3 Lora) - Pose Helper (I2V)` (trigger not stated); `Front Lat Spread Pose` (trigger `FrontLatSpreadPose`); `LTX-2.3 Most Muscular Pose LoRA` (trigger `mm_pose`).
+- Match 2 / 2.3 / 2.5 and I2V vs the IC-LoRA graph.
+
+### 82. Slow motion vs floaty-motion reduction (LTX)
+
+- Official: `LTX-2.5-22b-LoRA-Slow-Motion-Control` and the 2.3 counterpart (recipe 41). Catalog slider: `LTX 2.3 – Slow Motion & Floaty Movement Reducer Slider` (trigger not stated).
+- Say whether you want time stretched or more natural timing. Conflict: Slow-Motion-Control + SexyMove + a second motion booster together.
+
+### 83. Hard cut / cinematic transition (LTX)
+
+- Catalog: `LTX-2.3_Cinematic hardcut` (stated **0.2–1.0**, trigger not stated). Start mid-range. This is not a dissolve (Wan Melt It is a different family).
+
+### 84. LTX 2.3 vs 2.5 (and LTXV2) cross-use
+
+- Match `base` to `animate-ltx2` / `animate-ltx23` / `animate-ltx25` (or the T2V `video-ltx*` slugs) when you can. A 2.3 LoRA may or may not behave on 2.5; official IC-LoRAs are often version-specific (2.3 relight vs 2.5 water/upscaler).
+- Installed SexyMove and taker POV: check the row’s `base` (recipes 33, 35).
+
+### 85. Watermark / subtitle removal (LTX)
+
+- Catalog: `Watermark and Subtitle Remover` (trigger and strength not stated). Tool pass, not a style LoRA. Official clean-plate / object-removal IC-LoRAs are recipe 40.
+
+### 86. LTX image / spatial upscaler
+
+- Official IC-LoRAs: `LTX-2.5 22B IC-LoRA Pixel Spatial Upscaler`, `LTX-2.3-22b-IC-LoRA-Pixel-Spatial-Upscaler`, older `ltxv-spatial-upscaler-0.9.7`. Catalog: `LTX 2.3 - LTX Image Upscaler (LORA + Workflow)`.
+- Strengths usually `not stated`. Use on the upscaler / IC graph, not as a fifth style LoRA on a generate pass.
+
+### 87. Bouncy walk / body physics add-on (LTX, also Wan)
+
+- Catalog: `Bouncy Walk - LTX / Wan I2V 14B` (triggers include `walking into the direction of the moving camera`, stated **0.75**). Versions exist for LTX 2.3 and Wan — pick the family that matches the graph.
+- Other LTX physics: recipe 36 (`D4S1W4_NSFWSME` **0.5–1.0**; BBW `j1ggle` / `bounce` **0.6–1**).
+
+### 88. Wind / melt / surreal LTX effects
+
+- Catalog: `Lana_Wind_Motion_LTX` (stated **0.8–1**, trigger not stated); `Melting | Surreal Dissolution Effects - LTXV 13b` (trigger `Melting`, stated **1.0**). Check `base` (older LTXV vs 2.3 / 2.5). One effect LoRA.
+
+### 89. Installed LTX multi-purpose NSFW
+
+- Installed: `LTX 2/2.3 [I2V] NSFW (+furry) - Multi purpose sex lora` (trigger `ltx2 nsfw+furry`, strength not stated). Use with one additional motion helper at most (SexyMove in its **0.75–0.8** best zone if needed).
+- Browse `families/ltx/nsfw-acts.md` for more installed acts.
+
+### 90. CrossView / alternate camera IC-LoRA (LTX)
+
+- Catalog: `CrossView IC-LoRA for LTX 2.3 22B` (trigger `Crossview`, stated **1**). This is an IC-LoRA — use the pack’s control/prompt pattern, not a plain I2V still unless the card says that works.
+
+### 91. Lipsync: pick a family
+
+- H3: recipe 49 (structured dialogue block; Natural Face & Speech **0.6–0.8** when using the catalog version).
+- LTX: recipe 79 (2.3 dubbing/lip-sync pack, or `nafasp_ltx_25_500` **0.6–0.8**).
+- Wan: recipe 65; do not borrow H3 or LTX audio LoRAs.
+- The still should already show a near-frontal face when you care about mouth lock.
+
+### 92. Character consistency: pick a family
+
+- H3: recipe 50 (retention block + one identity, or Ref2VA swap).
+- Wan: recipe 66 (cloth-consistency LoRA and/or one character LoRA; BFS `head_swap:` **0.7–1.0** on the Wan version).
+- LTX: recipe 80 (identity / multi-ref IC-LoRAs).
+- Conflict in every family: two identity LoRAs at once.
+
+### 93. Pose or ControlNet: pick a family
+
+- H3: recipe 51 (Fun ControlNet Union, or a named pose LoRA).
+- Wan: recipe 68 (named pose LoRAs; match 2.1/2.2).
+- LTX: recipe 81 (official pose/depth IC-LoRAs or Pose Helper).
+- Official IC / ControlNet packs need their control input. A trigger-only pose LoRA does not replace a pose map.
+
+### 94. Object interaction: pick a family
+
+- H3: recipe 16 (`LiconStudio/Minimax-H3-VBVR`) and catalog `Swallowing Object` (stated **0.75–1**, trigger starts `She inserts the [object] inside her mouth…` — use the recorded wording, filling only the object slot the page leaves open). Installed `Vaginal object delivery` has a recorded delivery trigger in the table.
+- Wan: recipe 67 (living clothes **0.75–1.0** on 2.1; ObjectTypo).
+- LTX: official clean-plate / ingredients / edit packs (recipe 40) and prompt-based object-edit LoRAs; strength often `not stated`.
+
+### 95. Fire, water, smoke: pick a family
+
+- H3: recipe 55 + caustics (52).
+- Wan: recipe 70 (fire **1.0** on 2.1 T2V with `[r3al_f1re]`; **0.8** on 2.2 I2V 5B with `fire`) and recipe 69 (submerge).
+- LTX: official water-simulation IC-LoRAs (recipe 41). Do not cross-load these packs across families.
+
+### 96. The still already looks right, but T2V would have to invent the person
+
+- Prefer I2V (H3 `omni-eros-new-h3`, Wan `animate-wan22`, LTX `animate-ltx2` / `23` / `25`) and spend the prompt on action, camera, and sound — not on re-describing the face.
+- Use T2V (`video-h3`, `video-wan22`, `video-ltx*`) only when there is no still, and then write a full appearance description. Identity LoRAs help T2V more than a good I2V still does.
+- FL2VA / first-last / Ref2VA packs still need their extra frames (recipes 5, 11, 53).
+
+---
+
 ## Where to look next
 
 - Tables: `families/h3/`, `families/wan/`, `families/ltx/` — installed first, then by downloads.
-- Prompt shapes: `guides/image-to-video.md`.
+- Prompt shapes: `guides/image-to-video.md` and per-family templates in `guides/prompt-patterns.md`.
 - Official utility directory: `guides/fuzzpuppy-directory.md`.
 - New CivitAI uploads: `python3 scripts/check_new.py` (proposal markdown only, no downloads).

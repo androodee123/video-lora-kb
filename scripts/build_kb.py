@@ -50,6 +50,9 @@ STRENGTH_RES = [
     re.compile(rf"(?i)(?:lora\s*)?(?:strength|weight|scale)\s*(?:of\s*)?(?:[:：=\-]|is)?\s*{NUM}\s*(?:[-–—to]+)\s*{NUM}"),
     re.compile(rf"(?i)(?:recommended|suggest(?:ed)?|use(?:d)?(?: at)?|start(?:ing)?(?: at)?|try)\s+(?:a\s+)?(?:lora\s*)?(?:strength|weight|scale)\s*(?:of\s*)?(?:[:：=])?\s*{NUM}(?:\s*(?:[-–—to]+)\s*{NUM})?"),
     re.compile(rf"(?i)(?:lora\s*)?(?:strength|weight)\s*[:：=]\s*{NUM}(?:\s*(?:[-–—to]+)\s*{NUM})?"),
+    re.compile(rf"(?i){NUM}\s*(?:[-–—to]+)\s*{NUM}\s*(?:lora\s*)?(?:strength|weight|scale)"),
+    re.compile(rf"(?i)(?:at|with)\s+(?:a\s+)?(?:lora\s+)?(?:strength|weight|scale)\s+(?:of\s+)?{NUM}(?:\s*(?:[-–—to]+)\s*{NUM})?"),
+    re.compile(rf"(?i)recommended\s+(?:lora\s+)?(?:strength|weight)\s+is\s+{NUM}(?:\s*(?:[-–—to]+)\s*{NUM})?"),
 ]
 
 def extract_strength(text: str) -> str | None:
@@ -108,11 +111,14 @@ def infer_i2v_t2v(bases: list[str], name: str, desc: str, filename: str) -> str:
     return "not stated"
 
 # ---- classification ----
-# Categories requested: motion, camera, style, enhancement/quality/speed,
-# audio/voice, identity/character, effects/VFX, transitions, lighting,
-# physics/cloth/hair, NSFW acts, anime/2D, realism.
+# Categories: existing plus character_consistency, object_control, pose, lipsync.
+# Tagging uses name + CivitAI tags + description (not name alone).
 
 CAT_RULES = [
+    ("lipsync", r"\b(lip[- ]?sync|lipsync|viseme|talking head|talking face|mouth sync|speech.?to.?lip|dubbing.{0,60}lip|natural face.{0,20}speech)\b"),
+    ("character_consistency", r"\b(character consistency|consistent character|identity lock|identity preservation|face lock|character sheet|same character|character reference|consistency lora|clothconsistency|clothing consistency)\b"),
+    ("object_control", r"\b(object control|object interaction|object persist|hold(?:ing)? (?:the |an )?object|through[- ]body|in[- ]hand object|swallowing object|object delivery|object typography|living clothes|interact(?:s|ion)? with (?:the |an )?object)\b"),
+    ("pose", r"\b(pose control|openpose|controlnet|dwpose|pose lock|pose helper|ic-lora[- ]?pose|pose-control|depth control|depth-control|ic-lora[- ]?depth|fun-controlnet|most muscular pose|paw pose|jacko pose|arched back pose|sexypose|ab crunch pose|front lat spread)\b"),
     ("audio", r"\b(audio[- ]only|audio lora|moans?|speech|voices?|accents?|whisper|breathy|jpnmoans|jav moans|foley|soundscape|dialogue lora)\b"),
     ("transitions", r"\b(transition|morph cut|scene change|wipe|dissolve|day[- ]to[- ]night|first[- ]last)\b"),
     ("lighting", r"\b(lighting|relight|relighting|teal orange|cinematic color|neon glow|caustic|god rays|volumetric light)\b"),
@@ -137,8 +143,24 @@ def tag_names(tags) -> list[str]:
             out.append(t["name"])
     return out
 
-def classify(name: str, tags: list, filename: str, curated: str | None = None) -> list[str]:
-    blob = " ".join([name or "", filename or "", curated or "", " ".join(tag_names(tags))]).lower()
+# Description text is used only with high-precision phrases. Generic words like
+# "camera", "character", "speech", "lighting", "moans" appear in almost every
+# H3/LTX model card and must not drive categories.
+DESC_RULES = [
+    ("lipsync", r"\b(lip[- ]?sync(?:ing)? lora|lipsync lora|dubbing (?:and )?lip[- ]?sync|viseme)\b"),
+    ("character_consistency", r"\b(character consistency lora|consistencylora|identity preservation lora|clothing consistency lora|clothconsistency)\b"),
+    ("object_control", r"\b(object control lora|object interaction lora|living clothes)\b"),
+    ("pose", r"\b(pose control|openpose|controlnet|dwpose|ic-lora[- ]?pose|ic-lora[- ]?depth|pose helper|fun-controlnet)\b"),
+    ("audio", r"\b(audio[- ]only lora|audio lora|foley lora|moan lora|speech lora|accent lora|voice lora)\b"),
+    ("camera", r"\b(camera[- ]control lora|orbit lora|dolly zoom lora|taker ?pov lora)\b"),
+    ("lighting", r"\b(relight(?:ing)? lora|ic-lora[- ]?relight)\b"),
+    ("physics", r"\b(body physics lora|cloth physics|hair physics|breast physics lora)\b"),
+    ("enhancement", r"\b(upscaler lora|distill lora|turbo lora|speed lora)\b"),
+]
+
+def classify(name: str, tags: list, filename: str, curated: str | None = None, description: str | None = None) -> list[str]:
+    core = " ".join([name or "", filename or "", curated or "", " ".join(tag_names(tags))]).lower()
+    desc = (description or "").lower()
     cats = []
     def add(c):
         if c not in cats:
@@ -156,9 +178,12 @@ def classify(name: str, tags: list, filename: str, curated: str | None = None) -
         for c in cmap.get(curated, []):
             add(c)
     for cat, rx in CAT_RULES:
-        if re.search(rx, blob):
+        if re.search(rx, core):
             add(cat)
-    # tag shortcuts
+    for cat, rx in DESC_RULES:
+        if re.search(rx, desc):
+            add(cat)
+    # tag shortcuts (exact tag names, not loose word matches)
     tset = {t.lower() for t in tag_names(tags)}
     if "character" in tset:
         add("identity")
@@ -170,12 +195,18 @@ def classify(name: str, tags: list, filename: str, curated: str | None = None) -
         add("realism")
     if "effect" in tset:
         add("effects")
+    if tset & {"pose", "controlnet", "openpose", "depth", "dwpose"}:
+        add("pose")
+    if tset & {"lipsync", "lip sync", "lip-sync"} or any("lipsync" in t or "lip sync" in t for t in tset):
+        add("lipsync")
+    if any("character consistency" in t or "identity preservation" in t for t in tset):
+        add("character_consistency")
     if "concept" in tset and not cats:
         add("enhancement")
     if not cats:
         add("enhancement")
     # Speed/turbo packs are enhancement, not audio/motion, unless the name is about those.
-    if re.search(r"\b(turbo|distill|lightx2v|causvid|self-forcing|pika-h3-flex|few[- ]step)\b", blob) and not re.search(r"\b(moan|speech|accent|foley|motion booster|orbit|jiggle)\b", blob):
+    if re.search(r"\b(turbo|distill|lightx2v|causvid|self-forcing|pika-h3-flex|few[- ]step)\b", core) and not re.search(r"\b(moan|speech|accent|foley|motion booster|orbit|jiggle)\b", core):
         cats = [c for c in cats if c not in ("audio", "motion")]
         add("enhancement")
     return cats
@@ -223,14 +254,130 @@ def useful(model, installed_ids: set) -> bool:
     th = st.get("thumbsUpCount") or 0
     if dl >= 100 or th >= 1:
         return True
-    return False  # uniqueness applied later if needed
+    return False  # uniqueness no longer drops rows; low_signal is recorded instead
+
+
+def load_enriched_model(mid):
+    p = H.CIVIT_RAW / "models" / f"{mid}.json"
+    if not p.exists():
+        return None
+    try:
+        d = json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    if d.get("_error") or not d.get("id"):
+        return None
+    return d
+
+
+def load_image_prompts(version_id, limit=2) -> list[str]:
+    if not version_id:
+        return []
+    p = H.CIVIT_RAW / "images" / f"{version_id}.json"
+    if not p.exists():
+        return []
+    try:
+        d = json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    out = []
+    for it in d.get("items") or []:
+        pr = ((it.get("meta") or {}) or {}).get("prompt")
+        if isinstance(pr, str):
+            pr = pr.strip()
+            if pr and pr not in out:
+                out.append(pr[:1500])
+        if len(out) >= limit:
+            break
+    return out
+
+
+def model_description(model, vers=None) -> str:
+    parts = [model.get("description") or ""]
+    for v in (vers or model.get("modelVersions") or []):
+        if v.get("description"):
+            parts.append(v["description"])
+    return html_to_text("\n".join(parts))
+
+
+def trained_words(vers) -> list[str]:
+    out = []
+    for v in vers or []:
+        for w in v.get("trainedWords") or []:
+            if w and w not in out:
+                out.append(w)
+    return out
+
+
+def compatibility_notes(family, bases, name, desc, filename, files, i2v_t2v) -> list[str]:
+    notes = []
+    if i2v_t2v and i2v_t2v != "not stated":
+        notes.append(f"mode: {i2v_t2v}")
+    bjoin = " ".join(bases or [])
+    if "480p" in bjoin:
+        notes.append("resolution: 480p I2V")
+    if "720p" in bjoin:
+        notes.append("resolution: 720p I2V")
+    fn = " ".join((files or []) + [filename or ""]).lower()
+    blob = " ".join([name or "", desc or "", fn]).lower()
+    if family == "Wan":
+        high = bool(re.search(r"high[-_ ]noise|_high_|-high-", fn))
+        low = bool(re.search(r"low[-_ ]noise|_low_|-low-", fn))
+        if high and low:
+            notes.append("Wan 2.2: use the matching HIGH + LOW pair on the matching samplers")
+        elif high:
+            notes.append("Wan high-noise file present; pair with the matching low-noise LoRA on 2.2 14B")
+        elif low:
+            notes.append("Wan low-noise file present; pair with the matching high-noise LoRA on 2.2 14B")
+        has_21 = any(("2.2" not in (b or "") and "Wan" in (b or "")) for b in (bases or []))
+        has_22 = any("2.2" in (b or "") for b in (bases or []))
+        has_5b = any("5B" in (b or "") or "TI2V" in (b or "") for b in (bases or []))
+        if has_5b:
+            notes.append("Wan 2.2 5B TI2V — do not drop into a 14B I2V-A14B / T2V-A14B graph")
+        if has_21 and has_22:
+            notes.append("versions exist for both Wan 2.1 and 2.2 — match the workflow; cross-use is not guaranteed")
+        elif has_21:
+            notes.append("Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs")
+        elif has_22 and not has_5b:
+            notes.append("Wan 2.2 14B; 2.1 cross-use is not guaranteed")
+    if re.search(r"\b(turbo|distill|lightx2v|causvid|self-forcing|few[- ]step)\b", blob):
+        notes.append("speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass")
+    if family == "H3":
+        notes.append("Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)")
+    elif family == "Wan":
+        notes.append("Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22")
+    elif family == "LTX2":
+        notes.append("Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible")
+    return notes
+
+
+def example_prompts_for(ver, desc) -> list[str]:
+    out = []
+    for p in load_image_prompts((ver or {}).get("id"), limit=2):
+        if p not in out:
+            out.append(p)
+    if len(out) < 2:
+        ex = extract_example_prompt(desc)
+        if ex and ex not in out:
+            out.append(ex)
+    return out[:2]
 
 
 def load_merged_models():
-    items = []
-    for sort in ("newest", "downloads", "rated"):
-        items.extend(H.load_cached_sort(sort))
-    return H.merge_civitai_items(items)
+    """Merge every cached CivitAI list page (all sorts, periods, keyword queries) and overlay full /models/{id} dumps."""
+    models = {m["id"]: m for m in H.merge_civitai_items(H.load_all_civitai_items())}
+    for mid, base in list(models.items()):
+        full = load_enriched_model(mid)
+        if not full:
+            continue
+        vers = {v.get("id"): v for v in (base.get("modelVersions") or []) if v.get("id")}
+        for v in (full.get("modelVersions") or []):
+            if v.get("id"):
+                vers[v["id"]] = v
+        full = dict(full)
+        full["modelVersions"] = list(vers.values())
+        models[mid] = full
+    return list(models.values())
 
 
 def load_installed():
@@ -281,18 +428,37 @@ def compile_records():
         rec["downloads"] = st.get("downloadCount")
         rec["thumbs_up"] = st.get("thumbsUpCount")
         rec["source"] = rec.get("source") or ("civitai" if mid else ("local" if "b7_test1" in (r.get("file") or "") else "inventory"))
-        # refresh categories with new taxonomy, union with old
+        # refresh categories with new taxonomy (name + tags + description), union with old
         name = rec.get("civitai_name") or rec.get("purpose") or rec.get("file")
         tags = (model.get("tags") if model else None) or []
-        new_cats = classify(name, tags, rec.get("file") or "", rec.get("curated_category"))
+        fam = rec.get("family")
+        vers = versions_for_family(model, fam) if model else []
+        ver = best_version(vers, prefer_vid=rec.get("version_id")) if vers else None
+        desc = model_description(model, vers) if model else ""
+        new_cats = classify(name, tags, rec.get("file") or "", rec.get("curated_category"), description=desc)
         old = rec.get("categories") or []
-        # map old enhancement-only leftovers; union
+        allowed = {x[0] for x in CAT_RULES} | {"enhancement", "audio", "identity", "nsfw-act"}
         cats = []
         for c in new_cats + list(old):
-            if c == "nsfw-act" or c in {x[0] for x in CAT_RULES} or c in ("enhancement", "audio", "identity"):
-                if c not in cats:
-                    cats.append(c)
+            if c in allowed and c not in cats:
+                cats.append(c)
         rec["categories"] = cats or ["enhancement"]
+        if rec.get("strength") in (None, "", "not stated") and desc:
+            rec["strength"] = extract_strength(desc) or "not stated"
+        trained = trained_words(vers)
+        existing = list(rec.get("triggers") or [])
+        for w in trained:
+            if w and w not in existing:
+                existing.append(w)
+        rec["triggers"] = existing
+        rec["example_prompts"] = example_prompts_for(ver or {"id": rec.get("version_id")}, desc)
+        rec["example_prompt"] = rec["example_prompts"][0] if rec["example_prompts"] else None
+        bases = rec.get("bases") or ([rec.get("base")] if rec.get("base") else [])
+        rec["compatibility"] = compatibility_notes(
+            fam, bases, name, desc, rec.get("file") or "", rec.get("files") or high_low_files(vers),
+            rec.get("i2v_t2v") or infer_i2v_t2v(bases, name, desc, rec.get("file") or ""),
+        )
+        rec["low_signal"] = False
         rec.pop("curated_category", None)
         rec.pop("match_how", None)
         rec.pop("page_404", None)
@@ -302,9 +468,9 @@ def compile_records():
 
     # 2) CivitAI catalog rows (not already represented as an installed file for that family+id)
     installed_family_ids = {(r["family"], r.get("civitai_model_id")) for r in records if r.get("civitai_model_id")}
-    dropped_low = 0
+    dropped_low = 0  # retained for log compatibility; always 0 after restore
     kept_low_unique = 0
-    # precompute category occupancy among useful models for uniqueness
+    low_signal_n = 0
     prelim = []
     for mid, model in models.items():
         st = model.get("stats") or {}
@@ -313,40 +479,24 @@ def compile_records():
         for fam in families:
             prelim.append((keep, fam, mid, model, st))
 
-    # uniqueness: low-value models whose category would otherwise be empty in that family
-    useful_cats = defaultdict(set)
-    for keep, fam, mid, model, st in prelim:
-        if keep:
-            cats = classify(model.get("name") or "", model.get("tags") or [], "", None)
-            for c in cats:
-                useful_cats[fam].add(c)
-
     for keep, fam, mid, model, st in prelim:
         if (fam, mid) in installed_family_ids:
             continue
-        cats = classify(model.get("name") or "", model.get("tags") or [], first_safetensor(best_version(versions_for_family(model, fam))) or "", None)
-        if not keep:
-            # keep if it introduces a category that family doesn't have yet among useful
-            if any(c not in useful_cats[fam] for c in cats):
-                keep = True
-                kept_low_unique += 1
-            else:
-                dropped_low += 1
-                continue
         vers = versions_for_family(model, fam)
         ver = best_version(vers)
         if not ver:
             continue
-        desc = html_to_text((model.get("description") or "") + "\n" + (ver.get("description") or ""))
-        trained = list(ver.get("trainedWords") or [])
-        # also union trained words from other family versions
-        for v in vers:
-            for w in v.get("trainedWords") or []:
-                if w and w not in trained:
-                    trained.append(w)
-        strength = extract_strength(desc) or "not stated"
-        example = extract_example_prompt(desc)
         fname = first_safetensor(ver) or f"{slugify(model.get('name') or str(mid))}.safetensors"
+        desc = model_description(model, vers)
+        cats = classify(model.get("name") or "", model.get("tags") or [], fname, None, description=desc)
+        low_signal = not keep
+        if low_signal:
+            low_signal_n += 1
+            kept_low_unique += 1  # restored rather than unique-only
+        trained = trained_words(vers)
+        strength = extract_strength(desc) or "not stated"
+        examples = example_prompts_for(ver, desc)
+        example = examples[0] if examples else None
         bases = sorted({v.get("baseModel") for v in vers if v.get("baseModel")})
         rec = {
             "family": fam,
@@ -371,6 +521,12 @@ def compile_records():
             "source": "civitai",
             "files": high_low_files(vers)[:12],
             "example_prompt": example,
+            "example_prompts": examples,
+            "low_signal": low_signal,
+            "compatibility": compatibility_notes(
+                fam, bases, model.get("name") or "", desc, fname, high_low_files(vers),
+                infer_i2v_t2v(bases, model.get("name") or "", desc, fname),
+            ),
         }
         records.append(rec)
 
@@ -421,7 +577,8 @@ def compile_records():
         name = hid.split("/")[-1]
         fuzz_hit = fuzz_by_url.get(url) or fuzz_by_url.get(url + "/")
         desc = (fuzz_hit or {}).get("description") or ""
-        cats = classify(name + " " + desc, it.get("tags") or [], name, None)
+        cats = classify(name, it.get("tags") or [], name, None, description=desc)
+        rec_i2v = infer_i2v_t2v([base] if base else [], name, desc, name)
         rec = {
             "family": fam,
             "file": name,
@@ -436,7 +593,7 @@ def compile_records():
             "urls": {"huggingface": url},
             "verified": True,
             "installed": False,
-            "i2v_t2v": infer_i2v_t2v([base] if base else [], name, desc, name),
+            "i2v_t2v": rec_i2v,
             "purpose": (fuzz_hit or {}).get("name") or name,
             "path": None,
             "civitai_name": None,
@@ -445,6 +602,9 @@ def compile_records():
             "source": "huggingface",
             "hf_id": hid,
             "example_prompt": None,
+            "example_prompts": [],
+            "low_signal": False,
+            "compatibility": compatibility_notes(fam, [base] if base else [], name, desc, name, [], rec_i2v),
         }
         if fuzz_hit and fuzz_hit.get("tutorial"):
             rec["urls"]["tutorial"] = fuzz_hit["tutorial"]
@@ -478,7 +638,7 @@ def compile_records():
             "bases": [base],
             "triggers": [],
             "strength": "not stated",
-            "categories": classify(name + " " + (L.get("description") or ""), [], name, None),
+            "categories": classify(name, [], name, None, description=L.get("description") or ""),
             "urls": {"huggingface": url} if "huggingface.co" in url else {"source": url},
             "verified": True,
             "installed": False,
@@ -490,10 +650,13 @@ def compile_records():
             "thumbs_up": None,
             "source": "fuzzpuppy",
             "example_prompt": None,
+            "example_prompts": [],
+            "low_signal": False,
+            "compatibility": compatibility_notes(fam, [base], name, L.get("description") or "", name, [], "not stated"),
         }
         records.append(rec)
 
-    print(f"records {len(records)} dropped_low {dropped_low} kept_low_unique {kept_low_unique}", file=sys.stderr)
+    print(f"records {len(records)} dropped_low {dropped_low} low_signal {low_signal_n} restored {kept_low_unique}", file=sys.stderr)
     return records
 
 
@@ -502,6 +665,7 @@ JSONL_KEYS = [
     "triggers", "strength", "categories", "urls", "verified", "installed",
     "i2v_t2v", "purpose", "path", "civitai_name",
     "downloads", "thumbs_up", "source", "bases", "hf_id", "files",
+    "example_prompt", "example_prompts", "low_signal", "compatibility",
 ]
 
 
@@ -527,4 +691,11 @@ if __name__ == "__main__":
         inst = [r for r in sub if r.get("installed")]
         print(f"  {fam}: {len(sub)} installed={len(inst)} verified={sum(1 for r in sub if r.get('verified'))}")
         print("    cats", Counter(c for r in sub for c in (r.get("categories") or [])))
-        print("    strength stated", sum(1 for r in sub if r.get("strength") not in (None, "not stated")))
+        n = len(sub) or 1
+        trig = sum(1 for r in sub if r.get("triggers"))
+        strn = sum(1 for r in sub if r.get("strength") not in (None, "", "not stated"))
+        ex = sum(1 for r in sub if r.get("example_prompts") or r.get("example_prompt"))
+        print("    strength stated", strn, f"({100*strn/n:.1f}%)")
+        print("    has trigger", trig, f"({100*trig/n:.1f}%)")
+        print("    has example prompt", ex, f"({100*ex/n:.1f}%)")
+        print("    low_signal", sum(1 for r in sub if r.get("low_signal")))

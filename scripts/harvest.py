@@ -68,6 +68,29 @@ HF_SEARCHES = [
     "MiniMax H3 LoRA",
     "Wan2.2 Distill LoRA",
     "LTX-2 Camera-Control LoRA",
+    "Wan2.1 LoRA",
+    "Wan2.2 LoRA I2V",
+    "Wan2.2 LoRA T2V",
+    "LTX-2.3 LoRA",
+    "LTX-2.5 LoRA",
+    "MiniMax-H3 LoRA",
+    "lightx2v Wan LoRA",
+    "AccVid Wan LoRA",
+    "lipsync LoRA video",
+    "character consistency LoRA video",
+]
+
+KEYWORDS = [
+    "camera", "orbit", "dolly", "zoom", "motion", "transition", "lighting",
+    "physics", "cloth", "hair", "water", "fire", "smoke", "audio", "voice",
+    "lipsync", "lip sync", "face", "identity", "character", "consistency",
+    "object", "control", "depth", "pose", "style", "anime", "realism",
+    "upscale", "speed", "distill", "foley", "jiggle", "turbo", "i2v", "t2v",
+    "relight", "slow motion", "orbit camera", "character swap",
+]
+
+HF_PIPELINES = [
+    "text-to-video", "image-to-video", "image-text-to-video", "video-to-video",
 ]
 
 
@@ -100,24 +123,35 @@ def page_key(base_model: str, cursor) -> str:
 
 
 def iter_civitai_pages(base_model: str, sort: str, limit: int = 100, max_pages: int = 80,
-                       refresh: bool = False, delay: float = 0.35, cache_name: str | None = None):
+                       refresh: bool = False, delay: float = 0.35, cache_name: str | None = None,
+                       period: str | None = None, query: str | None = None):
     """Yield raw page dicts, caching each under data/raw/civitai/<cache_name or sort>/. """
     sort_dir = CIVIT_RAW / (cache_name or sort)
     sort_dir.mkdir(parents=True, exist_ok=True)
     cursor = None
     pages = 0
     while pages < max_pages:
-        dest = sort_dir / page_key(base_model, cursor)
+        key_src = f"{base_model}|{cursor or ''}|{period or ''}|{query or ''}|{limit}"
+        dest = sort_dir / (hashlib.sha1(key_src.encode()).hexdigest()[:16] + "_" + safe_base(base_model or "any") + ".json")
+        # also accept legacy page_key filenames for unfiltered newest/downloads/rated
+        legacy = sort_dir / page_key(base_model, cursor) if not period and not query else None
         if dest.exists() and dest.stat().st_size > 20 and not refresh:
             data = json.loads(dest.read_text(encoding="utf-8"))
+        elif legacy and legacy.exists() and legacy.stat().st_size > 20 and not refresh:
+            data = json.loads(legacy.read_text(encoding="utf-8"))
         else:
             params = {
                 "types": "LORA",
                 "limit": limit,
-                "baseModels": base_model,
                 "nsfw": "true",
                 "sort": SORTS.get(sort, sort),
             }
+            if base_model:
+                params["baseModels"] = base_model
+            if period:
+                params["period"] = period
+            if query:
+                params["query"] = query
             if cursor:
                 params["cursor"] = cursor
             url = API + "?" + urllib.parse.urlencode(params)
@@ -318,6 +352,238 @@ def family_of_base(base: str | None) -> str | None:
     return None
 
 
+
+EXTRA_VIDEO_BASES = ["Wan Video 1.3B t2v"]  # rare / mis-filed vs the 14B bases; still Wan family
+
+def is_video_model(m) -> bool:
+    allowed = set(BASE_MODELS) | set(EXTRA_VIDEO_BASES)
+    return any(v.get("baseModel") in allowed for v in (m.get("modelVersions") or []))
+
+
+def filter_video_models(models):
+    """Keep models that have at least one version on a confirmed video baseModel."""
+    return [m for m in models if is_video_model(m)]
+
+
+def load_all_civitai_items():
+    """Merge every cached CivitAI list page (all sorts, periods, keyword dumps)."""
+    items = []
+    skip = {"models", "check_new", "images"}
+    if not CIVIT_RAW.exists():
+        return []
+    for d in sorted(CIVIT_RAW.iterdir()):
+        if not d.is_dir() or d.name in skip:
+            continue
+        for f in d.glob("*.json"):
+            if f.name.startswith("manifest"):
+                continue
+            try:
+                data = json.loads(f.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            items.extend(data.get("items") or [])
+    return items
+
+
+def write_index(models, extra=None, log=sys.stderr):
+    models = filter_video_models(models)
+    manifest = {
+        "harvested_at": datetime.now().isoformat(timespec="seconds"),
+        "baseModels": BASE_MODELS,
+        "unique_models": len(models),
+        "note": "Metadata only. No weights downloaded.",
+    }
+    if extra:
+        manifest.update(extra)
+    (CIVIT_RAW / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    index_path = CIVIT_RAW / "index.jsonl"
+    with index_path.open("w", encoding="utf-8") as f:
+        for m in models:
+            bases = sorted({v.get("baseModel") for v in (m.get("modelVersions") or []) if v.get("baseModel")})
+            st = m.get("stats") or {}
+            f.write(json.dumps({
+                "id": m["id"],
+                "name": m.get("name"),
+                "bases": bases,
+                "downloadCount": st.get("downloadCount") or 0,
+                "thumbsUpCount": st.get("thumbsUpCount") or 0,
+                "nsfw": m.get("nsfw"),
+            }, ensure_ascii=False) + "\n")
+    print(f"index {len(models)} -> {index_path}", file=log)
+    return manifest
+
+
+def harvest_full_sorts(period="AllTime", refresh=False, log=sys.stderr):
+    """Exhaust Newest / Most Downloaded / Highest Rated for every baseModel."""
+    counts = {}
+    for sort in ("newest", "downloads", "rated"):
+        cache = f"{sort}-{period}" if period else sort
+        counts[cache] = {}
+        for bm in BASE_MODELS:
+            n = pages = 0
+            for page in iter_civitai_pages(bm, sort, max_pages=80, refresh=refresh,
+                                           period=period, cache_name=cache):
+                n += len(page.get("items") or [])
+                pages += 1
+            counts[cache][bm] = {"listed": n, "pages": pages}
+            print(f"  {cache} {bm}: {pages} pages, {n} listed", file=log, flush=True)
+    models = merge_civitai_items(load_all_civitai_items())
+    write_index(models, extra={"full_sorts": counts, "period": period})
+    return models
+
+
+def harvest_keywords(pages=3, refresh=False, log=sys.stderr):
+    """Query keywords across all video LoRAs; keep rows whose versions match BASE_MODELS."""
+    cache = "keywords"
+    allowed = set(BASE_MODELS)
+    kept = 0
+    for q in KEYWORDS:
+        n = new = 0
+        for page in iter_civitai_pages(None, "downloads", limit=100, max_pages=pages,
+                                       refresh=refresh, cache_name=cache, query=q, period="AllTime"):
+            for it in page.get("items") or []:
+                n += 1
+                bases = {v.get("baseModel") for v in (it.get("modelVersions") or [])}
+                if bases & allowed:
+                    new += 1
+        print(f"  keyword {q!r}: items={n} video-base={new}", file=log, flush=True)
+        kept += new
+    models = merge_civitai_items(load_all_civitai_items())
+    write_index(models, extra={"keywords_video_hits": kept})
+    return models
+
+
+def harvest_hf_expanded(refresh=False, log=sys.stderr):
+    """Broader Hub search: pipeline tags + author lists + keyword searches. Metadata only."""
+    catalog = {it["id"]: it for it in harvest_hf(refresh=refresh, log=log)}
+    for pipe in HF_PIPELINES:
+        dest = HF_RAW / f"pipeline-{safe_base(pipe)}.json"
+        items = []
+        if dest.exists() and not refresh:
+            items = json.loads(dest.read_text(encoding="utf-8"))
+        else:
+            # paginate with skip
+            for skip in range(0, 400, 100):
+                url = HF_API + "?" + urllib.parse.urlencode({
+                    "search": "lora", "pipeline_tag": pipe, "limit": 100,
+                    "skip": skip, "sort": "downloads", "direction": -1,
+                })
+                try:
+                    chunk = _get(url)
+                except Exception as e:
+                    print(f"  HF pipeline {pipe} skip={skip} ERR {e}", file=log)
+                    break
+                if not chunk:
+                    break
+                items.extend(chunk)
+                if len(chunk) < 100:
+                    break
+                time.sleep(0.25)
+            dest.write_text(json.dumps(items, ensure_ascii=False), encoding="utf-8")
+            time.sleep(0.2)
+        for it in items:
+            if is_video_hf_repo(it) or (it.get("pipeline_tag") in HF_PIPELINES and "lora" in ((it.get("id") or "") + " ".join(it.get("tags") or [])).lower()):
+                catalog[it["id"]] = it
+        print(f"  HF pipeline {pipe}: {len(items)} listed, catalog {len(catalog)}", file=log)
+    (HF_RAW / "index.json").write_text(json.dumps(list(catalog.values()), indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"HF expanded catalog: {len(catalog)}", file=log)
+    return list(catalog.values())
+
+
+def enrich_models(ids=None, delay=0.18, log=sys.stderr):
+    """Fetch /api/v1/models/{id} for every known id. Resumable; metadata only."""
+    models_dir = CIVIT_RAW / "models"
+    models_dir.mkdir(parents=True, exist_ok=True)
+    if ids is None:
+        models = filter_video_models(merge_civitai_items(load_all_civitai_items()))
+        ids = [m["id"] for m in models]
+    ok = skip = err = 0
+    for i, mid in enumerate(ids, 1):
+        dest = models_dir / f"{mid}.json"
+        if dest.exists() and dest.stat().st_size > 80:
+            try:
+                d = json.loads(dest.read_text(encoding="utf-8"))
+                if not d.get("_error"):
+                    skip += 1
+                    continue
+            except Exception:
+                pass
+        try:
+            d = _get(f"{API}/{mid}")
+            dest.write_text(json.dumps(d, ensure_ascii=False), encoding="utf-8")
+            ok += 1
+        except Exception as e:
+            dest.write_text(json.dumps({"_error": str(e), "id": mid}), encoding="utf-8")
+            err += 1
+        if i % 50 == 0:
+            print(f"  enrich models {i}/{len(ids)} ok={ok} skip={skip} err={err}", file=log, flush=True)
+        time.sleep(delay)
+    print(f"enrich models done ok={ok} skip={skip} err={err}", file=log)
+    return {"ok": ok, "skip": skip, "err": err, "total": len(ids)}
+
+
+def enrich_images(delay=0.18, max_versions_per_model=2, log=sys.stderr):
+    """Fetch /api/v1/images?modelVersionId=...&nsfw=X&limit=3. Resumable. Meta is often empty on the public API."""
+    img_dir = CIVIT_RAW / "images"
+    img_dir.mkdir(parents=True, exist_ok=True)
+    models_dir = CIVIT_RAW / "models"
+    versions = []
+    for p in sorted(models_dir.glob("*.json")):
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if d.get("_error"):
+            continue
+        vers = d.get("modelVersions") or []
+        # prefer versions whose base is a video model
+        scored = []
+        for v in vers:
+            if family_of_base(v.get("baseModel")):
+                st = v.get("stats") or {}
+                scored.append((st.get("downloadCount") or 0, v.get("id")))
+        scored.sort(reverse=True)
+        for _, vid in scored[:max_versions_per_model]:
+            if vid:
+                versions.append(vid)
+    # unique preserve order
+    seen = set(); vids = []
+    for v in versions:
+        if v not in seen:
+            seen.add(v); vids.append(v)
+    ok = skip = err = prompts = 0
+    for i, vid in enumerate(vids, 1):
+        dest = img_dir / f"{vid}.json"
+        if dest.exists() and dest.stat().st_size > 20:
+            skip += 1
+            try:
+                d = json.loads(dest.read_text(encoding="utf-8"))
+                for it in d.get("items") or []:
+                    if (it.get("meta") or {}).get("prompt"):
+                        prompts += 1
+            except Exception:
+                pass
+            continue
+        url = "https://civitai.com/api/v1/images?" + urllib.parse.urlencode({
+            "modelVersionId": vid, "nsfw": "X", "limit": 3,
+        })
+        try:
+            d = _get(url)
+            dest.write_text(json.dumps(d, ensure_ascii=False), encoding="utf-8")
+            ok += 1
+            for it in d.get("items") or []:
+                if (it.get("meta") or {}).get("prompt"):
+                    prompts += 1
+        except Exception as e:
+            dest.write_text(json.dumps({"_error": str(e), "modelVersionId": vid}), encoding="utf-8")
+            err += 1
+        if i % 50 == 0:
+            print(f"  enrich images {i}/{len(vids)} ok={ok} skip={skip} err={err} prompts={prompts}", file=log, flush=True)
+        time.sleep(delay)
+    print(f"enrich images done ok={ok} skip={skip} err={err} prompts={prompts} versions={len(vids)}", file=log)
+    return {"ok": ok, "skip": skip, "err": err, "prompts": prompts, "versions": len(vids)}
+
+
 def main():
     ap = argparse.ArgumentParser(description="Harvest CivitAI/HF video LoRA metadata (no weights).")
     ap.add_argument("--refresh", action="store_true", help="re-fetch pages even if cached")
@@ -328,6 +594,13 @@ def main():
     ap.add_argument("--sorts", default="newest",
                     help="comma list: newest,downloads,rated (default newest; cache is already a full Newest crawl)")
     ap.add_argument("--max-pages", type=int, default=80)
+    ap.add_argument("--full-sorts", action="store_true",
+                    help="exhaust Newest/Most Downloaded/Highest Rated for every baseModel (period=AllTime)")
+    ap.add_argument("--keywords", action="store_true", help="CivitAI keyword queries for video baseModels")
+    ap.add_argument("--hf-expand", action="store_true", help="broader Hugging Face Hub LoRA search")
+    ap.add_argument("--enrich", action="store_true", help="fetch full /api/v1/models/{id} for every id")
+    ap.add_argument("--enrich-images", action="store_true", help="fetch /api/v1/images for version example prompts")
+    ap.add_argument("--period", default="AllTime")
     args = ap.parse_args()
 
     if args.verify_sorts:
@@ -340,11 +613,23 @@ def main():
             print("No gaps: first pages of downloads/rated are already in the newest cache.", file=sys.stderr)
         return
 
-    sorts = [s.strip() for s in args.sorts.split(",") if s.strip()]
-    if not args.hf_only:
-        harvest_civitai(sorts=sorts, refresh=args.refresh, max_pages=args.max_pages)
-    if not args.civitai_only:
-        harvest_hf(refresh=args.refresh)
+    if args.full_sorts:
+        harvest_full_sorts(period=args.period, refresh=args.refresh)
+    if args.keywords:
+        harvest_keywords(refresh=args.refresh)
+    if args.hf_expand or args.hf_only:
+        harvest_hf_expanded(refresh=args.refresh)
+    if args.enrich:
+        enrich_models()
+    if args.enrich_images:
+        enrich_images()
+    if not any([args.full_sorts, args.keywords, args.hf_expand, args.hf_only,
+                args.enrich, args.enrich_images, args.civitai_only, args.verify_sorts]):
+        sorts = [s.strip() for s in args.sorts.split(",") if s.strip()]
+        if not args.hf_only:
+            harvest_civitai(sorts=sorts, refresh=args.refresh, max_pages=args.max_pages)
+        if not args.civitai_only:
+            harvest_hf(refresh=args.refresh)
 
 
 if __name__ == "__main__":
