@@ -1,6 +1,6 @@
 # LTX2: Camera
 
-43 LoRAs (2 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+44 LoRAs (2 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -8,28 +8,25 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 |---|---|---|---|---|---:|---|---|
 | `ltx-2-takerpov-lora-v1-2` | `LTX-2_takerpov_lora_v1.2`, `LTX takerpov`, `takerpov1`, `taker pov` | 0.8–1.0 | I2V | LTX 10Eros & LTX-2 I2V Taker pov LoRA | 1,922 | installed, verified | [CivitAI](https://civitai.com/models/2331070?modelVersionId=2692374) |
 | `handjob-fingers-pov-ltx2` | — | not stated | I2V and T2V | Handjob Fingers POV | 1,148 | installed, verified | [CivitAI](https://civitai.com/models/2898794?modelVersionId=3277525) |
-| `dr34ml4y-all-in-one-nsfw-h3-wan-ltx2` | `m15510n4ry`, `bl0wj0b`, `d0ubl3_bj`, `d0gg1e`, `c0wg1rl` | not stated | T2V | DR34ML4Y - All-In-One NSFW (H3/WAN/LTX2) | 537,553 | catalog, verified | [CivitAI](https://civitai.com/models/1811313?modelVersionId=3082662) |
-| `h3-ltx2-riding-pov-i2v` | `Riding backshot animation`, `Riding frontshot animation`, `moaning and wet slapping sounds`, `heavy breathing`, `relief` | not stated | I2V | H3/LTX2 Riding pov (I2V) | 34,264 | catalog, verified | [CivitAI](https://civitai.com/models/2446218?modelVersionId=2754108) |
+| `dr34ml4y-all-in-one-nsfw-h3-wan-ltx2` | `m15510n4ry`, `bl0wj0b`, `d0ubl3_bj`, `d0gg1e`, `c0wg1rl` | not stated | T2V | DR34ML4Y - All-In-One NSFW (H3/WAN/LTX2) | 537,585 | catalog, verified | [CivitAI](https://civitai.com/models/1811313?modelVersionId=3082662) |
+| `h3-ltx2-riding-pov-i2v` | `Riding backshot animation`, `Riding frontshot animation`, `moaning and wet slapping sounds`, `heavy breathing`, `relief` | 0.5–0.8 | I2V | H3/LTX2 Riding pov (I2V) | 34,267 | catalog, verified | [CivitAI](https://civitai.com/models/2446218?modelVersionId=2754108) |
 | `ltx-2-5-22b-ic-lora-layout-to-render` | — | not stated | not stated | LTX-2.5 22B IC-LoRA Layout To Render | 19,164 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Layout-To-Render) |
 | `ltx-2-19b-lora-camera-control-dolly-left` | — | not stated | not stated | LTX-2 19B Camera Control Dolly Left | 9,158 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Left) |
 | `ltx-2-19b-lora-camera-control-jib-up` | — | not stated | not stated | LTX-2 19B Camera Control Jib Up | 7,836 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Jib-Up) |
-| `ltx-2-3-3dreal-lora` | — | not stated | not stated | LTX-2.3 3DREAL IC-LoRA | 7,656 | catalog, verified | [HF](https://huggingface.co/fal/LTX-2.3-3DREAL-LoRA) |
 | `ltx-2-19b-lora-camera-control-jib-down` | — | not stated | not stated | LTX-2 19B Camera Control Jib Down | 7,631 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Jib-Down) |
 | `ltx-2-19b-lora-camera-control-dolly-in` | — | not stated | not stated | LTX-2 19B Camera Control Dolly In | 7,545 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-In) |
 | `ltx-2-19b-lora-camera-control-static` | — | not stated | not stated | LTX-2 19B Camera Control Static | 6,634 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Static) |
 | `tada-cum-swallow-lora` | `TADAA` | not stated | not stated | TADA - Cum Swallow LoRA | 6,367 | catalog, verified | [CivitAI](https://civitai.com/models/2868961?modelVersionId=3247361) |
-| `minimax-h3-ltx-2-3-misticnsfw-aio-10eros` | — | not stated | I2V | Minimax H3 - LTX 2.3 MisticNSFW AIO 10eros | 3,633 | catalog, verified | [CivitAI](https://civitai.com/models/2814217?modelVersionId=3173958) |
+| `minimax-h3-ltx-2-3-misticnsfw-aio-10eros` | — | not stated | I2V | Minimax H3 - LTX 2.3 MisticNSFW AIO 10eros | 3,635 | catalog, verified | [CivitAI](https://civitai.com/models/2814217?modelVersionId=3173958) |
 | `camera-controls-ltx-2-3` | `the camera tilts up`, `the camera tilts down`, `the camera pans to the left`, `the camera pans to the right`, `the camera zooms in on <object>` | not stated | not stated | Camera Controls [LTX-2.3] | 3,322 | catalog, verified | [CivitAI](https://civitai.com/models/2622189?modelVersionId=2944022) |
 | `ltx-2-19b-lora-camera-control-dolly-right` | — | not stated | not stated | LTX-2 19B Camera Control Dolly Right | 2,210 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Right) |
 | `ltx-2-3-lora-camera-zoom-out-i2v` | — | not stated | I2V | (LTX-2.3 Lora) - Camera Zoom Out (I2V) | 2,097 | catalog, verified | [CivitAI](https://civitai.com/models/2490345?modelVersionId=2799690) |
-| `ltx2-3-audio-reactive-lora` | — | not stated | not stated | LTX-2.3 Audio Reactive LoRA | 1,818 | catalog, verified | [HF](https://huggingface.co/fal/ltx2.3-audio-reactive-lora) |
 | `pov-deepthroat-blowjob-ltx2-3-video-lora-k3nk` | — | not stated | not stated | POV Deepthroat Blowjob - LTX2.3 Video LoRa - K3NK | 1,777 | catalog, verified | [CivitAI](https://civitai.com/models/2776963?modelVersionId=3127057) |
 | `face-tracking-shot-music-video-drclips-style` | `drclipz` | not stated | I2V | Face-Tracking Shot - Music Video - DrClips Style | 1,390 | catalog, verified | [CivitAI](https://civitai.com/models/2736521?modelVersionId=3077078) |
 | `valiantcat-ltx-2-3-transition-lora` | `zhuanchang` | not stated | I2V and T2V | valiantcat LTX-2.3 Transition LORA | 1,315 | catalog, verified | [CivitAI](https://civitai.com/models/2641811?modelVersionId=2966333) |
 | `ltx-2-camera-control-lora-dolly-in-smooth-cinematic-push-in` | — | not stated | not stated | LTX-2 Camera Control LoRA — Dolly In | 1,116 | catalog, verified | [CivitAI](https://civitai.com/models/2296511?modelVersionId=2584183) |
 | `ltx2-pov-tittyfucking-lora` | — | not stated | I2V and T2V | LTX2 - (POV)Tittyfucking LORA | 994 | catalog, verified | [CivitAI](https://civitai.com/models/2416244?modelVersionId=2716592) |
 | `crossview-ic-lora-for-ltx-2-3-22b` | `Crossview` | 1 | not stated | CrossView IC-LoRA for LTX 2.3 22B | 945 | catalog, verified | [CivitAI](https://civitai.com/models/2779316?modelVersionId=3130001) |
-| `ltx-2-3-22b-ic-lora-instant-shave` | — | not stated | not stated | LTX-2.3 22B IC-LoRA Instant Shave | 875 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Instant-Shave) |
 | `ltx-2-camera-control-lora-jib-down` | — | not stated | not stated | LTX-2 Camera Control LoRA — JIB DOWN | 806 | catalog, verified | [CivitAI](https://civitai.com/models/2293268?modelVersionId=2580619) |
 | `bts-movie-set` | `btssetstyle` | 0.8–1.0 | I2V and T2V | BTS Movie Set | 767 | catalog, verified | [CivitAI](https://civitai.com/models/2941912?modelVersionId=3330844) |
 | `cum-splash-on-pov-ltx2` | `cumsplash` | not stated | I2V | Cum Splash on POV (LTX2) | 766 | catalog, verified | [CivitAI](https://civitai.com/models/2362500?modelVersionId=2657002) |
@@ -40,6 +37,10 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `camera-controls-ltx-2` | `The camera pans up`, `The camera pans down`, `The camera pans left`, `The camera pans right`, `The camera zooms in on <object>` | not stated | not stated | Camera Controls [LTX-2] | 326 | catalog, verified | [CivitAI](https://civitai.com/models/2618345?modelVersionId=2939776) |
 | `robot-arm-camera-bolt-cam` | `RobotArm` | not stated | not stated | Robot Arm camera / bolt cam | 287 | catalog, verified | [CivitAI](https://civitai.com/models/1557306?modelVersionId=1762234) |
 | `jib-down` | `JibDown` | not stated | not stated | Jib Down | 283 | catalog, verified | [CivitAI](https://civitai.com/models/1557127?modelVersionId=1762036) |
+| `ltx-2-3-lora-camera-zoom-out-i2v` | — | not stated | I2V | ltx-2.3-lora-camera-zoom-out-i2v | 41 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2.3-lora-camera-zoom-out-i2v) |
+| `ltx-2-lora-rally-race-driver-pov-video` | — | not stated | not stated | ltx-2-lora-rally-race-driver-pov-video | 37 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-lora-rally-race-driver-pov-video) |
+| `ltx2-pov-tittyfucking-lora` | — | not stated | not stated | ltx2-pov-tittyfucking-lora | 34 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx2-pov-tittyfucking-lora) |
+| `ltx-2-i2v-taker-pov-lora` | — | not stated | I2V | ltx-2-i2v-taker-pov-lora | 29 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-i2v-taker-pov-lora) |
 | `ltx-2-19b-lora-camera-control-dolly-left` | — | not stated | not stated | LTX-2-19b-LoRA-Camera-Control-Dolly-Left | 0 | catalog, verified | [HF](https://huggingface.co/Galatea777/LTX-2-19b-LoRA-Camera-Control-Dolly-Left) |
 | `ltx-2-19b-lora-camera-control-dolly-out` | — | not stated | not stated | LTX-2 19B Camera Control Dolly Out | 0 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Out) |
 | `ltx-2-19b-lora-camera-control-jib-down` | — | not stated | not stated | LTX-2-19b-LoRA-Camera-Control-Jib-Down | 0 | catalog, verified | [HF](https://huggingface.co/editedge/LTX-2-19b-LoRA-Camera-Control-Jib-Down) |
@@ -57,6 +58,8 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 **LTX 10Eros & LTX-2 I2V Taker pov LoRA**
 - base `LTXV2` · I2V · strength (stated): 0.8–1.0 · triggers: `LTX-2_takerpov_lora_v1.2`, `LTX takerpov`, `takerpov1`, `taker pov` · installed
 
+Compatibility: mode: I2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
+
 Source: [CivitAI](https://civitai.com/models/2331070?modelVersionId=2692374)
 
 ### `TADA LTX ORAL SWALLOW.safetensors`
@@ -64,7 +67,8 @@ Source: [CivitAI](https://civitai.com/models/2331070?modelVersionId=2692374)
 **TADA - Cum Swallow LoRA**
 - base `LTXV 2.3` · not stated · strength: not stated · triggers: `TADAA`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `TADAA. The girl quickly sucks his cock. Sliding her mouth back and forth along
@@ -79,6 +83,8 @@ opens her mouth, sticks out her clean pink tongue and says "tada!"
 You hear wet sounds, his low grunting, one soft gulp, and her breathing.`
 ```
 
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
+
 Source: [CivitAI](https://civitai.com/models/2868961?modelVersionId=3247361)
 
 ### `LTX2.3_CameraControls.safetensors`
@@ -86,7 +92,8 @@ Source: [CivitAI](https://civitai.com/models/2868961?modelVersionId=3247361)
 **Camera Controls [LTX-2.3]**
 - base `LTXV 2.3` · not stated · strength: not stated · triggers: `the camera tilts up`, `the camera tilts down`, `the camera pans to the left`, `the camera pans to the right`, `the camera zooms in on <object>`, `the camera zooms out`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `the camera tilts up
@@ -97,6 +104,8 @@ the camera zooms in on
 the camera zooms out`
 ```
 
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
+
 Source: [CivitAI](https://civitai.com/models/2622189?modelVersionId=2944022)
 
 ### `ltx23_zoomout_z00m047.safetensors`
@@ -104,11 +113,14 @@ Source: [CivitAI](https://civitai.com/models/2622189?modelVersionId=2944022)
 **(LTX-2.3 Lora) - Camera Zoom Out (I2V)**
 - base `LTXV2` · I2V · strength: not stated
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `z00m047. a clean video of a closeup of a SINGLE blonde woman is posing and moving in a neon street. The camera zooms out, revealing a large cyberpunk like neon city street with shops, the SINGLE woman is barely visible in the distance`
 ```
+
+Compatibility: mode: I2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2490345?modelVersionId=2799690)
 
@@ -117,7 +129,8 @@ Source: [CivitAI](https://civitai.com/models/2490345?modelVersionId=2799690)
 **POV Deepthroat Blowjob - LTX2.3 Video LoRa - K3NK**
 - base `LTXV 2.3` · not stated · strength: not stated
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `The woman, who seems annoyed, says with colombian accent
@@ -130,6 +143,8 @@ The woman continues to suck the fair-skinned man's penis comming from the bottom
 she produces the wet oral sounds, choking and gagging sounds.`
 ```
 
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
+
 Source: [CivitAI](https://civitai.com/models/2776963?modelVersionId=3127057)
 
 ### `MVCamera-drclips.safetensors`
@@ -137,11 +152,14 @@ Source: [CivitAI](https://civitai.com/models/2776963?modelVersionId=3127057)
 **Face-Tracking Shot - Music Video - DrClips Style**
 - base `LTXV 2.3` · I2V · strength: not stated · triggers: `drclipz`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 drclipz, Pushes in briskly on a solo performer alone in kitchen, low angle, motion blur, neon grade, singing electronic music video
 ```
+
+Compatibility: mode: I2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2736521?modelVersionId=3077078)
 
@@ -150,12 +168,15 @@ Source: [CivitAI](https://civitai.com/models/2736521?modelVersionId=3077078)
 **valiantcat LTX-2.3 Transition LORA**
 - base `LTXV 2.3` · I2V and T2V · strength: not stated · triggers: `zhuanchang`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `[shot type and camera language]. [subject and scene description]. [describe the motion, transformation, or transition process in detail]. [add lighting, texture, atmosphere, and composition cues]. zhuanchang
 `
 ```
+
+Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2641811?modelVersionId=2966333)
 
@@ -164,12 +185,15 @@ Source: [CivitAI](https://civitai.com/models/2641811?modelVersionId=2966333)
 **CrossView IC-LoRA for LTX 2.3 22B**
 - base `LTXV 2.3` · not stated · strength (stated): 1 · triggers: `Crossview`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `crossview. new camera angle: {azimuth}, {elevation}, {distance}.
 `
 ```
+
+Compatibility: speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2779316?modelVersionId=3130001)
 
@@ -178,7 +202,8 @@ Source: [CivitAI](https://civitai.com/models/2779316?modelVersionId=3130001)
 **(LTX-2 Lora) - Rally (Race) Driver POV Video**
 - base `LTXV2` · I2V and T2V · strength: not stated
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `r4llyp0v, guardrails, forest, rainy, co-driver, windshield wipers wiping, fast driving, mud, Scottish voice accent
@@ -201,6 +226,8 @@ A left turn is coming up.
 
 Speech: "Fifty, don't cut. Danger up ahead. One hundred yards, right six into left four over crest"`
 ```
+
+Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2368506?modelVersionId=2663664)
 

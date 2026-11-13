@@ -1,6 +1,6 @@
 # Wan: Lighting
 
-9 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+10 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -13,6 +13,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `volumetric-light` | — | not stated | T2V | Volumetric Light | 684 | catalog, verified | [CivitAI](https://civitai.com/models/1687045?modelVersionId=1909398) |
 | `tina-oc` | — | not stated | I2V and T2V | Tina OC | 258 | catalog, verified | [CivitAI](https://civitai.com/models/1776318?modelVersionId=2013155) |
 | `nsfw-wan2-2-t2v-three-slim-office-style-beauties` | `NSFSFMN` | not stated | T2V | NSFW WAN2.2 T2V Three slim office-style beauties | 249 | catalog, verified | [CivitAI](https://civitai.com/models/1970268?modelVersionId=2230103) |
-| `instagram-tiktok-women-influencer-topgolf-girl-wan-2-2-t2v` | `GOLFGIRL` | not stated | T2V | Instagram TikTok Women Influencer - TopGolf Girl (WAN 2.2 T2V) | 229 | catalog, verified | [CivitAI](https://civitai.com/models/2019359?modelVersionId=2287233) |
+| `instagram-tiktok-women-influencer-topgolf-girl-wan-2-2-t2v` | `GOLFGIRL` | 0.65–0.8 | T2V | Instagram TikTok Women Influencer - TopGolf Girl (WAN 2.2 T2V) | 229 | catalog, verified | [CivitAI](https://civitai.com/models/2019359?modelVersionId=2287233) |
 | `nsfw-wan2-2-t2v-purple-long-sleeve-blouse-blue-patterned-short-skirt-black-panties-nude-high-heel` | `NSFSWZS` | not stated | T2V | NSFW WAN2.2 T2V Purple Long-Sleeve Blouse, Blue Patterned Short Skirt, black Panties Nude  | 114 | catalog, verified | [CivitAI](https://civitai.com/models/2105401?modelVersionId=2381897) |
+| `wan22-fp8-i2v-loras` | — | not stated | I2V | wan22-fp8-i2v-loras | 0 | catalog, verified | [HF](https://huggingface.co/wangkanai/wan22-fp8-i2v-loras) |
 

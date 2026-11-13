@@ -1,57 +1,57 @@
 # Wan: Style
 
-479 LoRAs (1 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+491 LoRAs (1 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
 | `drift-stop-from-close-up-face-wan2-2-i2v-a-wan` | `She's riding a sideways  motorcycle. Super fast animation. She is always looking at the camera. She's moving at super speed. She glides off into the background, sending up sparks and trailing dust. She and her vehicle come to a stop sideways.`, `She's riding a sideways  <***Any vehicle***>. Super fast animation. She is always looking at the camera. She's moving at super speed. She glides off into the background, sending up sparks and trailing dust. She and her vehicle come to a stop sideways.` | not stated | I2V | Drift stop from close-up face (WAN2.2 I2V) (ANIME) AKIRA in Kaneda's Bike Drift Stop | 698 | installed, verified | [CivitAI](https://civitai.com/models/2439156?modelVersionId=2742537) |
-| `lenovo-ultrareal` | `l3n0v0` | 0.85–0.9; 0.80–0.9; 0.8 | T2V | Lenovo UltraReal | 222,533 | catalog, verified | [CivitAI](https://civitai.com/models/1662740?modelVersionId=2066914) |
-| `flux-pony-perfect-full-round-breasts-slim-waist` | — | not stated | I2V and T2V | [Flux/Pony] Perfect Full Round Breasts & Slim Waist | 143,853 | catalog, verified | [CivitAI](https://civitai.com/models/61099?modelVersionId=2321136) |
-| `smoothmix-animations-wan-2-2` | `SmoothMixAnime`, `SmoothMixRealism`, `futanari`, `a futanari and a woman`, `a man and a woman` | 0.8 | I2V and T2V | SmoothMix Animations WAN 2.2 | 115,870 | catalog, verified | [CivitAI](https://civitai.com/models/2040641?modelVersionId=2376136) |
-| `flat-color-style` | `flat color`, `no lineart` | not stated | TI2V (and I2V/T2V) | Flat Color - Style | 56,280 | catalog, verified | [CivitAI](https://civitai.com/models/1132089?modelVersionId=1474944) |
+| `lenovo-ultrareal` | `l3n0v0` | 0.85–0.9; 0.80–0.9; 0.8 | T2V | Lenovo UltraReal | 222,556 | catalog, verified | [CivitAI](https://civitai.com/models/1662740?modelVersionId=2066914) |
+| `flux-pony-perfect-full-round-breasts-slim-waist` | — | not stated | I2V and T2V | [Flux/Pony] Perfect Full Round Breasts & Slim Waist | 143,854 | catalog, verified | [CivitAI](https://civitai.com/models/61099?modelVersionId=2321136) |
+| `smoothmix-animations-wan-2-2` | `SmoothMixAnime`, `SmoothMixRealism`, `futanari`, `a futanari and a woman`, `a man and a woman` | 0.8 | I2V and T2V | SmoothMix Animations WAN 2.2 | 115,878 | catalog, verified | [CivitAI](https://civitai.com/models/2040641?modelVersionId=2376136) |
+| `flat-color-style` | `flat color`, `no lineart` | not stated | TI2V (and I2V/T2V) | Flat Color - Style | 56,282 | catalog, verified | [CivitAI](https://civitai.com/models/1132089?modelVersionId=1474944) |
 | `live-wallpaper-style` | `l1v3w4llp4p3r`, `l1v3w4llp4p3r ` | not stated | TI2V (and I2V/T2V) | Live Wallpaper Style | 46,643 | catalog, verified | [CivitAI](https://civitai.com/models/1264662?modelVersionId=2067386) |
-| `hyperdetailed-colored-pencil` | `ArsMJStyle, Colored pencil hyperdetailed realism,` | not stated | I2V and T2V | Hyperdetailed Colored Pencil | 46,222 | catalog, verified | [CivitAI](https://civitai.com/models/1155749?modelVersionId=2328497) |
-| `80s-fantasy-movie` | `ArsMovieStill, 80s Fantasy Movie Still,`, `ArsMovieStill, 80s Fantasy Movie Still` | not stated | T2V | 80s Fantasy Movie | 46,165 | catalog, verified | [CivitAI](https://civitai.com/models/789313?modelVersionId=2221806) |
-| `instagirl-wan-2-2` | — | not stated | T2V | Instagirl WAN 2.2 | 45,450 | catalog, verified | [CivitAI](https://civitai.com/models/1822984?modelVersionId=2180477) |
+| `hyperdetailed-colored-pencil` | `ArsMJStyle, Colored pencil hyperdetailed realism,` | 0.6–1 | I2V and T2V | Hyperdetailed Colored Pencil | 46,223 | catalog, verified | [CivitAI](https://civitai.com/models/1155749?modelVersionId=2328497) |
+| `80s-fantasy-movie` | `ArsMovieStill, 80s Fantasy Movie Still,`, `ArsMovieStill, 80s Fantasy Movie Still` | not stated | I2V and T2V | 80s Fantasy Movie | 46,168 | catalog, verified | [CivitAI](https://civitai.com/models/789313?modelVersionId=2221806) |
+| `instagirl-wan-2-2` | — | not stated | T2V | Instagirl WAN 2.2 | 45,451 | catalog, verified | [CivitAI](https://civitai.com/models/1822984?modelVersionId=2180477) |
 | `wan2-1-fusionx-the-lora` | — | not stated | I2V and T2V | Wan2.1_FusionX -The LoRa | 31,592 | catalog, verified | [CivitAI](https://civitai.com/models/1678575?modelVersionId=1899873) |
-| `wan-pov-doggy-style-i2v` | `POVdog`, ` A POV video showing a man having sex doggy style sex with a woman.`, `A POV video showing man having sex doggy style sex with a woman.` | not stated | I2V and T2V | Wan POV Doggy Style (i2v) | 29,065 | catalog, verified | [CivitAI](https://civitai.com/models/1361228?modelVersionId=1545040) |
+| `wan-pov-doggy-style-i2v` | `POVdog`, `A POV video showing man having sex doggy style sex with a woman.`, ` A POV video showing a man having sex doggy style sex with a woman.` | 0.5 | I2V and T2V | Wan POV Doggy Style (i2v) | 29,066 | catalog, verified | [CivitAI](https://civitai.com/models/1361228?modelVersionId=1545040) |
 | `wan-front-view-doggy-style-i2v` | `Pl0wView` | not stated | I2V | Wan Front View Doggy Style (i2v) | 27,621 | catalog, verified | [CivitAI](https://civitai.com/models/1378353?modelVersionId=1605427) |
-| `dark-ghibli-fairytales` | `Studio Ghibli Dark Fairytale` | not stated | I2V and T2V | Dark Ghibli Fairytales | 26,497 | catalog, verified | [CivitAI](https://civitai.com/models/1349631?modelVersionId=2324878) |
-| `wan2-2-smartphone-snapshot-photo-reality-style` | `image in an early 2010s amateur photo artstyle with washed out colors`, `Early 2010s snapshot photo captured with a phone and uploaded to Facebook, featuring dynamic natural lighting, and a neutral white color balance with washed out colors`, `amateur photo` | not stated | T2V | [WAN2.2] Smartphone Snapshot Photo Reality [STYLE] | 25,805 | catalog, verified | [CivitAI](https://civitai.com/models/1834338?modelVersionId=2079658) |
-| `doggy-style-sex-front-view` | `doggy style sex`, `thrusts his hips forward and back` | not stated | I2V | doggy style sex front view | 24,627 | catalog, verified | [CivitAI](https://civitai.com/models/672232?modelVersionId=2311491) |
+| `dark-ghibli-fairytales` | `Studio Ghibli Dark Fairytale` | not stated | I2V and T2V | Dark Ghibli Fairytales | 26,502 | catalog, verified | [CivitAI](https://civitai.com/models/1349631?modelVersionId=2324878) |
+| `wan2-2-smartphone-snapshot-photo-reality-style` | `amateur photo`, `image in an early 2010s amateur photo artstyle with washed out colors`, `Early 2010s snapshot photo captured with a phone and uploaded to Facebook, featuring dynamic natural lighting, and a neutral white color balance with washed out colors` | not stated | T2V | [WAN2.2] Smartphone Snapshot Photo Reality [STYLE] | 25,805 | catalog, verified | [CivitAI](https://civitai.com/models/1834338?modelVersionId=2079658) |
+| `doggy-style-sex-front-view` | `doggy style sex`, `thrusts his hips forward and back` | not stated | I2V | doggy style sex front view | 24,628 | catalog, verified | [CivitAI](https://civitai.com/models/672232?modelVersionId=2311491) |
 | `detailz-wan-detail-enhancer-for-wan-videos` | — | 0.75–1.0 | I2V and T2V | Detailz-Wan: Detail Enhancer for WAN Videos | 24,141 | catalog, verified | [CivitAI](https://civitai.com/models/1385506?modelVersionId=1565668) |
-| `singularunity-wan2-1-motioncraft` | `Medium shot, chest-centered framing, secondary tissue motion.`, `Walking toward camera, gentle jiggle with each step, weighty but damped.`, `Realistic soft-body physics, natural breast bounce, subtle inertia.`, `Large breasts jiggling and bouncing.`, `A woman walks towards the camera, her breasts subtly jiggling and bouncing realistically, showcasing realistic soft-body dynamics.` | not stated | I2V | SingularUnity - Wan2.1 MotionCraft | 22,655 | catalog, verified | [CivitAI](https://civitai.com/models/1403959?modelVersionId=1872131) |
+| `singularunity-wan2-1-motioncraft` | `Fluid cinematic camera orbits with steady pacing to emphasize three-dimensionality and spatial depth`, `Realistic soft-body dynamics accentuated through natural movement and detailed close-ups`, `Dynamic camera angles paired with controlled lighting to highlight texture, form, and lifelike physics`, `Realistic jiggling and bouncing breasts `, `Uninterrupted pans and zooms synced to rhythmic motion for immersive, professional pacing` | not stated | I2V | SingularUnity - Wan2.1 MotionCraft | 22,655 | catalog, verified | [CivitAI](https://civitai.com/models/1403959?modelVersionId=1872131) |
 | `m4crom4sti4-huge-natural-breasts-physics-hun-wan2-1-lora-k3nk` | `m4crom4sti4`, `a woman with m4crom4stia`, `m4corm4sti4` | not stated | I2V and T2V | M4CROM4STI4 - Huge Natural Breasts Physics - Hun | 21,864 | catalog, verified | [CivitAI](https://civitai.com/models/1274733?modelVersionId=2022744) |
 | `best-jean-shorts-daisy-dukes-wan-hunyuan-flux-pony-sd` | `bj5`, `skin-tight denim shorts so tight her pussy lips are boldly visible from the front`, `skin-tight denim shorts so tight her pussy lips are boldly visible from the back`, ` frayed edges`, `no underwear` | not stated | T2V | Best Jean Shorts (Daisy Dukes)  //Wan+Hunyuan+Flux+Pony+SD | 21,451 | catalog, verified | [CivitAI](https://civitai.com/models/291248?modelVersionId=1899112) |
 | `wan2-2-anal-side-view-t2v-i2v` | — | not stated | I2V and T2V | Wan2.2 - Anal (Side View) T2V/I2V | 20,461 | catalog, verified | [CivitAI](https://civitai.com/models/1935054?modelVersionId=2190121) |
-| `cgi-disney-princesses-for-wan-14b-t2v-hunyuan-t2v` | `CGI Disney Princess Elsa`, `Elsa`, `CGI Disney Princess Rapunzel`, `Rapunzel`, `CGI Disney Princess Pocahontas` | not stated | T2V | CGI Disney Princesses for Wan 14B T2V+Hunyuan T2V | 20,428 | catalog, verified | [CivitAI](https://civitai.com/models/1149176?modelVersionId=1953205) |
-| `wan-2-2-tongue-kiss` | `l!kk`, `k!$$` | not stated | T2V | WAN 2.2 TONGUE KISS | 19,821 | catalog, verified | [CivitAI](https://civitai.com/models/2099265?modelVersionId=2421873) |
-| `wan2-2-twerk` | `twuuur` | not stated | I2V and T2V | WAN2.2 TWERK | 16,418 | catalog, verified | [CivitAI](https://civitai.com/models/2100260?modelVersionId=2514311) |
+| `cgi-disney-princesses-for-wan-14b-t2v-hunyuan-t2v` | `CGI Disney Princess Rapunzel`, `Rapunzel`, `CGI Disney Princess Pocahontas`, `Pocahontas`, `Disney Pocahontas` | not stated | T2V | CGI Disney Princesses for Wan 14B T2V+Hunyuan T2V | 20,428 | catalog, verified | [CivitAI](https://civitai.com/models/1149176?modelVersionId=1953205) |
+| `wan-2-2-tongue-kiss` | `k!$$`, `l!kk` | not stated | T2V | WAN 2.2 TONGUE KISS | 19,821 | catalog, verified | [CivitAI](https://civitai.com/models/2099265?modelVersionId=2421873) |
+| `wan2-2-twerk` | `twuuur` | not stated | I2V and T2V | WAN2.2 TWERK | 16,420 | catalog, verified | [CivitAI](https://civitai.com/models/2100260?modelVersionId=2514311) |
 | `wan2-2-jiggle` | `wxlkey`, `JIGGLE` | not stated | T2V | WAN2.2 JIGGLE | 14,956 | catalog, verified | [CivitAI](https://civitai.com/models/1946769?modelVersionId=2315187) |
 | `kuroinu-style-il-zit-chroma-pony-h3-shrekman-hentai-loras` | `Kur0inu` | not stated | not stated | Kuroinu Style [IL, ZIT, Chroma, Pony H3] | 13,784 | catalog, verified | [CivitAI](https://civitai.com/models/1386883?modelVersionId=1798331) |
-| `jellyhips-hun-wan-video-lora-k3nk` | — | not stated | I2V and T2V | JellyHips - Hun | 12,742 | catalog, verified | [CivitAI](https://civitai.com/models/1317502?modelVersionId=1947986) |
+| `jellyhips-hun-wan-video-lora-k3nk` | — | not stated | I2V and T2V | JellyHips - Hun | 12,743 | catalog, verified | [CivitAI](https://civitai.com/models/1317502?modelVersionId=1947986) |
 | `exotic-breast-massage-yet-another-breast-massage-lora-for-hunyuan-and-wan2-1` | `br38st-m8ss8g3` | not stated | I2V and T2V | Exotic Breast Massage (Yet Another Breast Massage Lora for Hunyuan and Wan2.1) | 12,616 | catalog, verified | [CivitAI](https://civitai.com/models/1229375?modelVersionId=1663812) |
-| `anime-style-wan-2-2-i2v` | `An1meStyl3, AnimeStyle` | not stated | I2V | Anime Style [WAN 2.2 I2V] | 11,946 | catalog, verified | [CivitAI](https://civitai.com/models/2222779?modelVersionId=2516839) |
+| `anime-style-wan-2-2-i2v` | `An1meStyl3, AnimeStyle` | 1.0 | I2V | Anime Style [WAN 2.2 I2V] | 11,947 | catalog, verified | [CivitAI](https://civitai.com/models/2222779?modelVersionId=2516839) |
 | `frieren` | `frieren, green eyes, elf, pointy ears, twintails, white hair, white capelet` | not stated | I2V and T2V | Frieren フリーレン  - 葬送のフリーレン | 11,332 | catalog, verified | [CivitAI](https://civitai.com/models/333139?modelVersionId=1505137) |
-| `doggy-style-leg-up` | `doggystyle leg up sex`, `horizontal with one leg up while a man thrusts into her vagina from behind` | not stated | T2V | Doggy Style - Leg Up | 10,871 | catalog, verified | [CivitAI](https://civitai.com/models/1993262?modelVersionId=2899125) |
+| `doggy-style-leg-up` | `doggystyle leg up sex`, `horizontal with one leg up while a man thrusts into her vagina from behind` | not stated | T2V | Doggy Style - Leg Up | 10,870 | catalog, verified | [CivitAI](https://civitai.com/models/1993262?modelVersionId=2899125) |
 | `instareal-wan-2-2` | — | not stated | T2V | Instareal WAN 2.2 | 10,242 | catalog, verified | [CivitAI](https://civitai.com/models/1877171?modelVersionId=2124694) |
 | `exotic-dancer-yet-another-sexy-dancer-lora-for-hunyuan-and-wan2-1` | `b3ll13-d8nc3r` | 0.6–0.8 | I2V and T2V | Exotic Dancer (Yet Another Sexy Dancer Lora for Hunyuan and Wan2.1) | 9,995 | catalog, verified | [CivitAI](https://civitai.com/models/1214079?modelVersionId=1671188) |
-| `nyl2-style` | — | not stated | I2V | Nyl2 Style | 9,927 | catalog, verified | [CivitAI](https://civitai.com/models/306952?modelVersionId=2644385) |
-| `retro-90-s-anime-golden-boy-style-lora-wan-2-2-14b` | `GoldenBoyStyle`, `goldenboystyle.` | not stated | TI2V (and I2V/T2V) | Retro 90's Anime / Golden Boy Style Lora Wan 2.2 14B | 9,306 | catalog, verified | [CivitAI](https://civitai.com/models/1671285?modelVersionId=2112013) |
+| `nyl2-style` | — | not stated | I2V | Nyl2 Style | 9,932 | catalog, verified | [CivitAI](https://civitai.com/models/306952?modelVersionId=2644385) |
+| `retro-90-s-anime-golden-boy-style-lora-wan-2-2-14b` | `GoldenBoyStyle`, `goldenboystyle.` | 0.75 | TI2V (and I2V/T2V) | Retro 90's Anime / Golden Boy Style Lora Wan 2.2 14B | 9,307 | catalog, verified | [CivitAI](https://civitai.com/models/1671285?modelVersionId=2112013) |
 | `singularunity-beautiful-blondes-wan-video-hunyuan-video-lora` | `A beautiful blonde woman with large breasts walking towards the camera. Her breasts jiggle and bounce with each step. The camera is static throughout the scene.`, `A beautiful blonde with large breasts. ` | not stated | I2V and T2V | SingularUnity - Beautiful Blondes - Wan Video + Hunyuan Video Lora | 9,073 | catalog, verified | [CivitAI](https://civitai.com/models/1230603?modelVersionId=1559864) |
 | `candid-photography-wan-2-2` | — | not stated | T2V | Candid Photography [Wan 2.2] | 8,930 | catalog, verified | [CivitAI](https://civitai.com/models/1925758?modelVersionId=2179627) |
 | `wan2-1-smartphone-snapshot-photo-reality-style` | `early 2010s snapshot photo captured with a phone and uploaded to facebook, featuring dynamic natural lighting, and a neutral white color balance with washed out colors` | not stated | T2V | [WAN2.1] Smartphone Snapshot Photo Reality [STYLE] | 8,666 | catalog, verified | [CivitAI](https://civitai.com/models/1763826?modelVersionId=1996092) |
-| `cinematic-hard-cut` | `the camera makes a hard cut`, `hard cut` | not stated | I2V | Cinematic Hard Cut | 8,599 | catalog, verified | [CivitAI](https://civitai.com/models/2088559?modelVersionId=2446376) |
+| `cinematic-hard-cut` | `the camera makes a hard cut`, `hard cut` | not stated | I2V and T2V | Cinematic Hard Cut | 8,600 | catalog, verified | [CivitAI](https://civitai.com/models/2088559?modelVersionId=2446376) |
 | `secret-sauce-wan-2-2` | — | not stated | I2V and T2V | SECRET SAUCE WAN 2.2 | 7,864 | catalog, verified | [CivitAI](https://civitai.com/models/2009839?modelVersionId=2343291) |
 | `pixel-art-animation-birdman-style-i-wan-2-1-i2v-lora` | `p1x3lStyl3`, `This p1x3lStyl3 animation features a character rendered in a pixelated style against a plain white background. The p1x3lStyl3 character initially stands facing forward, wearing her iconic blue shark hoodie with the hood down, showcasing her white and blue p1x3lStyl3 hair and bright blue eyes. Her hands are loosely clenched at her sides, and her blue p1x3lStyl3 shark tail rests behind her. The p1x3lStyl3 animation consists of a subtle loop where she slightly bends her knees, causing her whole p1x3lStyl3 body to dip down slightly. Simultaneously, her p1x3lStyl3 tail gives a small, gentle swish to the side. She then smoothly returns to her original standing pose, ready for the loop to repeat, creating a simple, idle p1x3lStyl3 animation.` | 1 | I2V | Pixel Art Animation (Birdman Style) I Wan 2.1 I2V LoRa | 7,836 | catalog, verified | [CivitAI](https://civitai.com/models/1431085?modelVersionId=1623701) |
-| `faceless-gods` | `DeosSineFacie,`, `Faceless God` | not stated | I2V and T2V | Faceless Gods | 7,693 | catalog, verified | [CivitAI](https://civitai.com/models/1951227?modelVersionId=2382500) |
+| `faceless-gods` | `DeosSineFacie,`, `Faceless God` | 0.6–1 | I2V and T2V | Faceless Gods | 7,694 | catalog, verified | [CivitAI](https://civitai.com/models/1951227?modelVersionId=2382500) |
 | `squatting-froggy-i2v-wan-2-2` | `fr0ggy` | not stated | I2V | Squatting Froggy - I2V - WAN 2.2 | 7,610 | catalog, verified | [CivitAI](https://civitai.com/models/2332227?modelVersionId=2623479) |
 | `nsfw-wan2-2-i2v-ultimate-sexual-cinematic-close-up-immersive-intimacy-body-aesthetics` | — | not stated | I2V | NSFW WAN2.2 i2v Ultimate sexual Cinematic Close-Up: Immersive Intimacy & Body Aesthetics | 7,311 | catalog, verified | [CivitAI](https://civitai.com/models/2471910?modelVersionId=2779292) |
 | `studio-ghibli-wan2-1-t2v-14b` | `Studio Ghibli style` | not stated | I2V and T2V | Studio Ghibli 🎥 Wan2.1-T2V-14B | 7,283 | catalog, verified | [CivitAI](https://civitai.com/models/1404755?modelVersionId=1587891) |
 | `oldnokia-ultrareal` | `n0k1a` | not stated | T2V | oldNokia Ultrareal | 7,153 | catalog, verified | [CivitAI](https://civitai.com/models/1808651?modelVersionId=2086770) |
-| `1980s-horror-movies-lora` | `80s_horror` | not stated | T2V | 1980s Horror movies lora | 6,973 | catalog, verified | [CivitAI](https://civitai.com/models/1592586?modelVersionId=2099157) |
+| `1980s-horror-movies-lora` | `80s_horror` | not stated | T2V | 1980s Horror movies lora | 6,974 | catalog, verified | [CivitAI](https://civitai.com/models/1592586?modelVersionId=2099157) |
 | `wan-fusionx-facenaturalizer` | — | not stated | T2V | Wan_FusionX_FaceNaturalizer | 6,931 | catalog, verified | [CivitAI](https://civitai.com/models/1755105?modelVersionId=1986305) |
 | `outsauce-wan-2-2-i2v` | `outsauce`, `outsauce, A person is at the center of the frame as another person enters from off-screen. The first person inserts their penis inside the other person's anus and they start having sex while the camera slowly zooms out to reveal more of the scene` | not stated | I2V | Outsauce - Wan 2.2 I2V | 6,732 | catalog, verified | [CivitAI](https://civitai.com/models/2077281?modelVersionId=2350472) |
 | `wan-25-realistic` | — | not stated | I2V and T2V | WAN 25 Realistic | 6,622 | catalog, verified | [CivitAI](https://civitai.com/models/2001317?modelVersionId=2272164) |
@@ -67,7 +67,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nsfw-nude-group-girls-for-wan-2-2-t2v` | `NSF35GG` | not stated | T2V | nsfw nude group girls for wan 2.2 T2V | 4,669 | catalog, verified | [CivitAI](https://civitai.com/models/1880458?modelVersionId=2128419) |
 | `wan-nude-art` | `WanNuArt style` | not stated | T2V | Wan Nude Art | 4,353 | catalog, verified | [CivitAI](https://civitai.com/models/1765826?modelVersionId=1998427) |
 | `cloud-meadow-art-style-video-loop` | — | not stated | I2V | Cloud Meadow Art Style Video Loop | 4,240 | catalog, verified | [CivitAI](https://civitai.com/models/2051467?modelVersionId=2334967) |
-| `gurren-lagann-anime-style-wan-2-2-14b-lora` | `GurrenLagannStyle.`, `GurrenLagannStyle` | not stated | TI2V (and I2V/T2V) | Gurren Lagann / Anime Style Wan 2.2 14B Lora | 4,233 | catalog, verified | [CivitAI](https://civitai.com/models/1897405?modelVersionId=2201875) |
+| `gurren-lagann-anime-style-wan-2-2-14b-lora` | `GurrenLagannStyle`, `GurrenLagannStyle.` | not stated | TI2V (and I2V/T2V) | Gurren Lagann / Anime Style Wan 2.2 14B Lora | 4,233 | catalog, verified | [CivitAI](https://civitai.com/models/1897405?modelVersionId=2201875) |
 | `nsfw-wan2-2-t2v-sexy-slim-professional-woman-in-black-stockings-and-red-high-heels` | `NSFOLHS` | not stated | T2V | NSFW WAN2.2 T2V Sexy slim professional woman in black stockings and red high heels | 4,120 | catalog, verified | [CivitAI](https://civitai.com/models/1947249?modelVersionId=2203887) |
 | `1950s-western-movies-lora` | `50s_western` | not stated | T2V | 1950s Western Movies Lora | 4,035 | catalog, verified | [CivitAI](https://civitai.com/models/1925404?modelVersionId=2179225) |
 | `perfect-body-wan-t2v-14b-lora` | `perfect body` | not stated | T2V | Perfect Body Wan T2V 14B LoRA | 3,982 | catalog, verified | [CivitAI](https://civitai.com/models/1410875?modelVersionId=1594927) |
@@ -75,20 +75,20 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan2-2-futanari` | `fxtx` | not stated | T2V | WAN2.2 FUTANARI | 3,928 | catalog, verified | [CivitAI](https://civitai.com/models/2128825?modelVersionId=2408181) |
 | `storybook-folk-art` | `Whimsical, storybook-inspired folk art with flowing, dreamlike details.` | 1.0; 0.8 | T2V | Storybook Folk Art | 3,881 | catalog, verified | [CivitAI](https://civitai.com/models/1321740?modelVersionId=2166387) |
 | `cloud-meadow-art-style-video-climax` | — | not stated | I2V | Cloud Meadow Art Style Video Climax | 3,792 | catalog, verified | [CivitAI](https://civitai.com/models/2054205?modelVersionId=2345146) |
-| `wan-2-2-live2d-background` | — | not stated | I2V | Wan 2.2 Live2D Background | 3,710 | catalog, verified | [CivitAI](https://civitai.com/models/2144951?modelVersionId=2426143) |
+| `wan-2-2-live2d-background` | — | not stated | I2V | Wan 2.2 Live2D Background | 3,711 | catalog, verified | [CivitAI](https://civitai.com/models/2144951?modelVersionId=2426143) |
 | `nsfw-wan2-2-i2v-h-l-noise-big-breasted-shakes-upper-body-wiggles-upper-body-breasts-move-up-and-down` | `NSFDDNW` | not stated | I2V | NSFW WAN2.2 I2V H&L noise Big-breasted shakes upper body wiggles upper body breasts move u | 3,637 | catalog, verified | [CivitAI](https://civitai.com/models/2349271?modelVersionId=2642369) |
 | `1920s-horror-movies-lora` | `20s_horror`, `1920s` | not stated | T2V | 1920s Horror Movies Lora | 3,616 | catalog, verified | [CivitAI](https://civitai.com/models/1371819?modelVersionId=2103115) |
 | `1980s-scifi-movies-lora` | `80s_scifi` | not stated | T2V | 1980s SciFi Movies Lora | 3,533 | catalog, verified | [CivitAI](https://civitai.com/models/1802714?modelVersionId=2165596) |
 | `wan2-2-i2v-a14b-4steps-lora-rank64-seko-v1` | — | not stated | I2V | Wan2.2-I2V-A14B-4steps-lora-rank64-Seko-V1 | 3,508 | catalog, verified | [CivitAI](https://civitai.com/models/2226769?modelVersionId=2506898) |
 | `virtual-japanese-woman-lisa-wan2-2` | — | not stated | T2V | Virtual Japanese Woman LISA (Wan2.2) | 3,494 | catalog, verified | [CivitAI](https://civitai.com/models/1940643?modelVersionId=2196426) |
-| `ghibli-style` | `Ghibli Style` | not stated | T2V | Ghibli Style | 3,413 | catalog, verified | [CivitAI](https://civitai.com/models/1734134?modelVersionId=2004680) |
+| `ghibli-style` | `Ghibli Style` | not stated | T2V | Ghibli Style | 3,414 | catalog, verified | [CivitAI](https://civitai.com/models/1734134?modelVersionId=2004680) |
 | `long-prime-lens-lora-up-to-600mm-wan-2-2-z-image` | `telephoto` | not stated | T2V | Long Prime Lens Lora (up to 600mm) (Wan 2.2 & Z-Image) | 3,398 | catalog, verified | [CivitAI](https://civitai.com/models/2181569?modelVersionId=2467448) |
 | `wan2-1-bullet-time-i2v14b-lora` | `zidanshijian` | not stated | not stated | [Wan2.1]子弹时间 | 3,315 | catalog, verified | [CivitAI](https://civitai.com/models/1475368?modelVersionId=1668789) |
 | `smoking-with-style` | `French1inhale`, `Openmouth1inhale`, `Snap1nhale`, `Nose3xhale`, `L1ghtup` | not stated | I2V | Smoking with Style | 3,158 | catalog, verified | [CivitAI](https://civitai.com/models/2554308?modelVersionId=2870639) |
 | `wan2-2-360-rotation-redmond-i2v-14b` | `360 Rotation` | not stated | I2V | [WAN2.2] 360 Rotation - Redmond - I2V - 14B | 3,004 | catalog, verified | [CivitAI](https://civitai.com/models/2216277?modelVersionId=2495172) |
 | `akira-toriyama-dragon-ball-style` | `Akira Toriyama Style` | not stated | T2V | Akira Toriyama - Dragon Ball Style | 2,989 | catalog, verified | [CivitAI](https://civitai.com/models/1633321?modelVersionId=2018567) |
 | `underwater` | — | not stated | T2V | Underwater | 2,833 | catalog, verified | [CivitAI](https://civitai.com/models/1704735?modelVersionId=1929196) |
-| `rapunzel-tangled-wan-video-2-2-t2v-a14b` | `Rapunzel`, `3D Cartoon Style`, `CGI Scene`, `Long Blonde Hair`, `Purple Dress` | not stated | T2V | Rapunzel - Tangled (Wan Video 2.2 T2V-A14B) | 2,767 | catalog, verified | [CivitAI](https://civitai.com/models/1388721?modelVersionId=2228478) |
+| `rapunzel-tangled-wan-video-2-2-t2v-a14b` | `CGI Scene`, `Rapunzel`, `Long Blonde Hair`, `Purple Dress`, `3D Cartoon Style` | not stated | T2V | Rapunzel - Tangled (Wan Video 2.2 T2V-A14B) | 2,767 | catalog, verified | [CivitAI](https://civitai.com/models/1388721?modelVersionId=2228478) |
 | `beauty-of-rain` | `b3@ut1f0ll_r@in` | not stated | TI2V (and I2V/T2V) | Beauty of rain | 2,646 | catalog, verified | [CivitAI](https://civitai.com/models/1747192?modelVersionId=1977389) |
 | `nsfw-motion-lora-wan2-1-i2v` | `nsfw,` | not stated | I2V | nsfw motion lora wan2.1 i2v | 2,634 | catalog, verified | [CivitAI](https://civitai.com/models/1371034?modelVersionId=1549021) |
 | `meatspin-wan-2-2-i2v` | `m34tsp1n` | not stated | I2V | Meatspin - Wan 2.2 I2V | 2,614 | catalog, verified | [CivitAI](https://civitai.com/models/2007310?modelVersionId=2316336) |
@@ -119,7 +119,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `film-noir-style-wan-hunyuan-video-lora` | `f11m_n01r film noir, black and white video` | 1.0 | not stated | Film Noir Style (Wan & Hunyuan Video LoRA) | 1,969 | catalog, verified | [CivitAI](https://civitai.com/models/1295979?modelVersionId=1588876) |
 | `wan-2-2-realistic-fantasy` | — | not stated | T2V | WAN 2.2 Realistic Fantasy | 1,950 | catalog, verified | [CivitAI](https://civitai.com/models/2064807?modelVersionId=2341281) |
 | `arcane-style-base-hellfire-shrekman-arcane-loras-collection` | `ARC4NE style` | not stated | T2V | Arcane Style Base+Hellfire | 1,922 | catalog, verified | [CivitAI](https://civitai.com/models/933035?modelVersionId=1810341) |
-| `wan2-2-t2v-lora-cartoon-style` | — | not stated | I2V and T2V | (Wan2.2 T2V Lora) - Cartoon Style | 1,830 | catalog, verified | [CivitAI](https://civitai.com/models/1862320?modelVersionId=2107735) |
+| `wan2-2-t2v-lora-cartoon-style` | — | 1 | I2V and T2V | (Wan2.2 T2V Lora) - Cartoon Style | 1,830 | catalog, verified | [CivitAI](https://civitai.com/models/1862320?modelVersionId=2107735) |
 | `freedive-girls-underwater-style` | — | not stated | T2V | Freedive girls, underwater style | 1,826 | catalog, verified | [CivitAI](https://civitai.com/models/825870?modelVersionId=2077872) |
 | `wan2-1-classic-90s-film-aesthetic-the-crow-style` | `1990s movie screencap` | not stated | T2V | [WAN2.1] Classic 90s Film Aesthetic (The Crow) [STYLE] | 1,822 | catalog, verified | [CivitAI](https://civitai.com/models/1773251?modelVersionId=2006926) |
 | `nuttbutt-body-type-wan2-2-video-lora-k3nk` | — | not stated | I2V and T2V | NuttButt - Body type - Wan2.2 - Video LoRa K3NK | 1,811 | catalog, verified | [CivitAI](https://civitai.com/models/2163425?modelVersionId=2436331) |
@@ -130,7 +130,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan2-2-disappearing-redmond-i2v-14b` | `Disappearing` | not stated | I2V | [WAN2.2] Disappearing - Redmond - I2V - 14B | 1,704 | catalog, verified | [CivitAI](https://civitai.com/models/2213137?modelVersionId=2491694) |
 | `big-nipples` | `erect nipple`, `erect nipples` | not stated | T2V | Big Nipples | 1,688 | catalog, verified | [CivitAI](https://civitai.com/models/2623437?modelVersionId=2945398) |
 | `stylized-pbr-animation-wan-2-2-i2v` | `PBRSty1e`, `(PBRSty1e, 3d animation), shiny skin, realistic style` | not stated | I2V | Stylized PBR Animation [WAN 2.2 I2V] | 1,667 | catalog, verified | [CivitAI](https://civitai.com/models/2250167?modelVersionId=2533055) |
-| `wan2-2-i2v-cinematic-flare` | — | not stated | I2V | wan2.2-i2v-Cinematic Flare | 1,636 | catalog, verified | [CivitAI](https://civitai.com/models/1902817?modelVersionId=2153813) |
+| `wan2-2-i2v-cinematic-flare` | — | 1 | I2V | wan2.2-i2v-Cinematic Flare | 1,636 | catalog, verified | [CivitAI](https://civitai.com/models/1902817?modelVersionId=2153813) |
 | `mcore-by-chronoknight-flux-2-klein-9b-wan2-2-t2i-zit` | `ckmcore` | not stated | T2V | MCORE by ChronoKnight - [FLUX.2 KLEIN 9B, WAN2.2 T2I, ZIT] | 1,613 | catalog, verified | [CivitAI](https://civitai.com/models/2151534?modelVersionId=2433479) |
 | `technically-color-wan` | `t3chnic4lly` | not stated | T2V | Technically Color WAN | 1,600 | catalog, verified | [CivitAI](https://civitai.com/models/2106471?modelVersionId=2383121) |
 | `ghibli-wan-1-3b` | `Studio Ghibli Style.` | 0.75 | T2V | Ghibli Wan 1.3B | 1,589 | catalog, verified | [CivitAI](https://civitai.com/models/1474964?modelVersionId=1668351) |
@@ -154,7 +154,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `1970s-blaxploitation-lora` | — | not stated | T2V | 1970s Blaxploitation Lora | 1,394 | catalog, verified | [CivitAI](https://civitai.com/models/1374902?modelVersionId=2202284) |
 | `mobile-kid-game-style` | `appcartoongame` | not stated | not stated | Mobile Kid Game Style | 1,390 | catalog, verified | [CivitAI](https://civitai.com/models/774483?modelVersionId=1544519) |
 | `singularunity-wan2-1-ghibli-style-t2v` | `Studio Ghibli anime style, watercolor-inspired backgrounds, soft line art, expressive characters, natural lighting, hand-drawn aesthetic`, `Lush and tranquil anime scene, vibrant soft color palette, traditional animation look, gentle shadows, Studio Ghibli atmosphere`, `Ghibli-style characters with expressive faces and fine clothing textures, smooth animation, naturalistic light, dreamy environment`, `Underwater anime scene in Ghibli style, ethereal lighting, flowing movements, whimsical designs, watercolor textures`, `Warm and nostalgic Studio Ghibli scene, traditional 2D animation style, natural world focus, subtle expressions, serene setting` | not stated | I2V and T2V | SingularUnity - Wan2.1 Ghibli Style T2V | 1,366 | catalog, verified | [CivitAI](https://civitai.com/models/1419443?modelVersionId=1607034) |
-| `anime-style-lora-m1-wan2-1-2-2-t2v-14b` | `anime-style girl`, `anime-style girl.` | 0.8 | T2V | Anime style lora M1 | 1,339 | catalog, verified | [CivitAI](https://civitai.com/models/1723109?modelVersionId=2144795) |
+| `anime-style-lora-m1-wan2-1-2-2-t2v-14b` | `anime-style girl`, `anime-style girl.` | 0.8 | T2V | Anime style lora M1 | 1,340 | catalog, verified | [CivitAI](https://civitai.com/models/1723109?modelVersionId=2144795) |
 | `comicbook-wan2-2-2-1-t2v-a14b` | `comicbook style`, `comic style` | not stated | I2V and T2V | ComicBook-Wan2.2/2.1-T2V-A14B | 1,330 | catalog, verified | [CivitAI](https://civitai.com/models/1776896?modelVersionId=2086190) |
 | `anime-wan2-1-anti-realistic-transformation` | — | 1.0 | I2V | [Anime] Wan2.1-Anti-Realistic-Transformation | 1,313 | catalog, verified | [CivitAI](https://civitai.com/models/1842155?modelVersionId=2084711) |
 | `if-wan` | — | not stated | T2V | IF-WAN | 1,238 | catalog, verified | [CivitAI](https://civitai.com/models/1850519?modelVersionId=2094183) |
@@ -207,7 +207,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ultra-wide-angle-cinematic-shot-wan2-1-t2v-lora` | `u1tr4_w1d3, ultra wide angle shot` | 1.0 | T2V | Ultra Wide Angle Cinematic Shot (Wan2.1 T2V LoRA) | 770 | catalog, verified | [CivitAI](https://civitai.com/models/1391197?modelVersionId=1572390) |
 | `kxsr-cinematic-boss-fight-wan-1-3b-t2v` | `kxsr` | 1.0 | T2V | KXSR Cinematic Boss Fight WAN 1.3B T2V | 765 | catalog, verified | [CivitAI](https://civitai.com/models/1392349?modelVersionId=1573723) |
 | `wan2-1-realistic-oil-paintings-style` | `oil painting in op artstyle` | not stated | T2V | [WAN2.1] Realistic Oil Paintings [STYLE] | 765 | catalog, verified | [CivitAI](https://civitai.com/models/1767231?modelVersionId=1999987) |
-| `pokemon-sprite-animation-video-lora` | `pokemon` | not stated | I2V and T2V | Pokemon Sprite Animation Video LoRA | 764 | catalog, verified | [CivitAI](https://civitai.com/models/1595383?modelVersionId=1840374) |
+| `pokemon-sprite-animation-video-lora` | `pokemon` | not stated | I2V and T2V | Pokemon Sprite Animation Video LoRA | 764 | catalog, verified | [CivitAI](https://civitai.com/models/1595383?modelVersionId=1805395) |
 | `marat-safin-style-wan2-1-qwen` | — | 1.00 | T2V | Marat Safin style [wan2.1/qwen] | 760 | catalog, verified | [CivitAI](https://civitai.com/models/1894150?modelVersionId=2144027) |
 | `gta-style-wan2-2-t2v` | `gta style` | not stated | T2V | GTA Style [Wan2.2 T2V] | 709 | catalog, verified | [CivitAI](https://civitai.com/models/2031050?modelVersionId=2299064) |
 | `wan2-1-the-incredibles-pixar-style` | `3d render in ti artstyle` | not stated | T2V | [WAN2.1] The Incredibles (Pixar) [STYLE] | 688 | catalog, verified | [CivitAI](https://civitai.com/models/1772650?modelVersionId=2006255) |
@@ -221,7 +221,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `bad-apple-style-wan-2-2-2-1-14b-t2v` | `bad apple style` | not stated | T2V | Bad Apple Style - Wan 2.2/2.1 14B T2V | 647 | catalog, verified | [CivitAI](https://civitai.com/models/1732430?modelVersionId=1960723) |
 | `wan-14b-shinkai-anime-style-lora-v1` | `sh1nka1 animation style` | 0.8–1.0 | T2V | WAN-14b-shinkai-anime-style-lora-v1 | 645 | catalog, verified | [CivitAI](https://civitai.com/models/1735711?modelVersionId=1964398) |
 | `virgin-killer-sweater` | — | not stated | T2V | VIRGIN KILLER SWEATER | 642 | catalog, verified | [CivitAI](https://civitai.com/models/2562802?modelVersionId=2879828) |
-| `djz-tokyo-racing-wan-14b` | `xkx style`, `xjx style`, `xjx car`, `found footage`, `jdm style` | not stated | T2V | DJZ Tokyo Racing - WAN 14B | 634 | catalog, verified | [CivitAI](https://civitai.com/models/1612738?modelVersionId=1847195) |
+| `djz-tokyo-racing-wan-14b` | `xjx car`, `found footage`, `jdm style`, `xkx style`, `xjx style` | not stated | T2V | DJZ Tokyo Racing - WAN 14B | 634 | catalog, verified | [CivitAI](https://civitai.com/models/1612738?modelVersionId=1847195) |
 | `wan2-1-semi-realistic-digital-concept-art-style` | `realistic painting illustration in sr artstyle with detailed textures and smooth gradients` | not stated | T2V | [WAN2.1] Semi-Realistic Digital Concept Art [STYLE] | 626 | catalog, verified | [CivitAI](https://civitai.com/models/1772736?modelVersionId=2006354) |
 | `vintage-cinematic-redmond-wan-2-2-t2v-14b` | `Vintage-Cinematic Color` | not stated | T2V | Vintage Cinematic Redmond Wan 2.2 T2V 14B | 613 | catalog, verified | [CivitAI](https://civitai.com/models/2030331?modelVersionId=2297811) |
 | `luis-royo-style-for-wan-2-2` | `l-royo` | not stated | T2V | Luis Royo style for Wan 2.2 | 600 | catalog, verified | [CivitAI](https://civitai.com/models/2047336?modelVersionId=2317122) |
@@ -288,6 +288,8 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `lightning-video-effects` | — | not stated | I2V | Lightning  video effects | 362 | catalog, verified | [CivitAI](https://civitai.com/models/1936511?modelVersionId=2191741) |
 | `nsfw-wan2-2-t2v-jk-sexy-outfit-white-shirt-with-pink-purple-plaid-tie-and-short-skirt` | `NSFJKBB` | not stated | T2V | NSFW WAN2.2 T2V JK, Sexy Outfit White Shirt with Pink-Purple Plaid Tie and Short Skirt | 357 | catalog, verified | [CivitAI](https://civitai.com/models/1984731?modelVersionId=2246668) |
 | `wan2-1-avatar-the-legend-of-korra-style` | `2d western animation screencap in lk artstyle with rich, desaturated color tones and soft ambient lighting` | not stated | T2V | [WAN2.1] Avatar The Legend Of Korra [STYLE] | 357 | catalog, verified | [CivitAI](https://civitai.com/models/1767212?modelVersionId=1999965) |
+| `anime-style-lora-m1-wan2-1-t2v-14b` | — | not stated | T2V | anime-style-lora-m1-wan2.1-t2v-14b | 356 | catalog, verified | [HF](https://huggingface.co/Muapi/anime-style-lora-m1-wan2.1-t2v-14b) |
+| `anime-style-lora-m3-wan2-1-t2v-14b` | — | not stated | T2V | anime-style-lora-m3-wan2.1-t2v-14b | 349 | catalog, verified | [HF](https://huggingface.co/Muapi/anime-style-lora-m3-wan2.1-t2v-14b) |
 | `nsfw-wan2-2-t2v-red-velvet-lace-gartered-bodysuit-stilettos-boldly-curvaceous-glamour-pose` | `NSFYSHS` | not stated | T2V | NSFW WAN2.2 T2V Red Velvet Lace Gartered Bodysuit & Stilettos — Boldly Curvaceous Glamour  | 349 | catalog, verified | [CivitAI](https://civitai.com/models/2130951?modelVersionId=2410506) |
 | `transform-into-guitarist-i2v-14b` | `in the style of 4O4KEF`, `4O4KEF` | not stated | I2V and T2V | Transform into Guitarist I2V 14B | 344 | catalog, verified | [CivitAI](https://civitai.com/models/1401910?modelVersionId=1584667) |
 | `monogatari-anime-style` | `anime in the style of monogatari`, `a boy's Naoetsu Private High School Uniform, consisting of a black jacket with red trim, with black pants`, `a girl's Naoetsu Private High School Uniform, which is a pink jacket with red trim and a purple bow, and a purple skirt`, ` a girl's Naoetsu Private High School Uniform, which is a pink jacket with red trim and a purple bow, and a purple skirt` | not stated | not stated | Monogatari anime style | 342 | catalog, verified | [CivitAI](https://civitai.com/models/1535536?modelVersionId=1737966) |
@@ -316,8 +318,10 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nsfw-wan2-2-t2v-sheer-lace-wedding-lingerie-thin-strap-bustier-bra-thong-panties-white-stockings` | `NSFBSHS` | not stated | T2V | NSFW WAN2.2 T2V  Sheer lace wedding lingerie, thin strap bustier bra, thong panties, white | 295 | catalog, verified | [CivitAI](https://civitai.com/models/2059420?modelVersionId=2330483) |
 | `tfm-game-girl-cutesy-anime-3-style-for-wan-2-1` | — | not stated | T2V | TFM Game Girl (Cutesy Anime 3 Style) for Wan 2.1 | 295 | catalog, verified | [CivitAI](https://civitai.com/models/1905213?modelVersionId=2156475) |
 | `tfm-pocket-rpg-style-for-wan-2-2` | — | not stated | T2V | TFM Pocket RPG Style for Wan 2.2 | 286 | catalog, verified | [CivitAI](https://civitai.com/models/2548223?modelVersionId=2863685) |
+| `wan-14b-shinkai-anime-style-lora-v1` | — | not stated | not stated | wan-14b-shinkai-anime-style-lora-v1 | 286 | catalog, verified | [HF](https://huggingface.co/Muapi/wan-14b-shinkai-anime-style-lora-v1) |
 | `folded-paper-style-wan2-1-t2v` | `paperfold`, `p4p3rf0ld`, `made of folded paper` | not stated | T2V | Folded paper style - WAN2.1 t2v | 285 | catalog, verified | [CivitAI](https://civitai.com/models/1728077?modelVersionId=1966155) |
 | `wan-effect-morph-to-demonic-lord` | `D3M0N1CL04D` | not stated | I2V | Wan Effect - Morph To Demonic Lord | 285 | catalog, verified | [CivitAI](https://civitai.com/models/1842404?modelVersionId=2084989) |
+| `anime-style-lora-m2-wan2-1-t2v-14b` | — | not stated | T2V | anime-style-lora-m2-wan2.1-t2v-14b | 284 | catalog, verified | [HF](https://huggingface.co/Muapi/anime-style-lora-m2-wan2.1-t2v-14b) |
 | `pilates-princess-wan-2-2-lora` | — | 0.7–1.0 | T2V | Pilates Princess Wan 2.2 LoRa | 284 | catalog, verified | [CivitAI](https://civitai.com/models/2114681?modelVersionId=2392247) |
 | `nsfw-wan-2-2-t2v-maid-style-fitted-corset-white-short-skirt-black-high-heels-black-stockings` | `NSFQLHS` | not stated | T2V | NSFW WAN 2.2 T2V Maid style Fitted corset,  white short skirt Black high heels  Black stoc | 283 | catalog, verified | [CivitAI](https://civitai.com/models/2056426?modelVersionId=2327164) |
 | `nsfw-wan2-2-t2v-bright-pink-suspender-dress-short-hair-high-heels` | `NSFDDDF` | not stated | T2V | NSFW WAN2.2 T2V Bright pink suspender dress short hair high heels | 280 | catalog, verified | [CivitAI](https://civitai.com/models/1912474?modelVersionId=2164627) |
@@ -328,6 +332,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nsfw-wan2-2-t2v-modern-boudoir-lingerie-set-delicate-purple-lace-bralette-ensemble-with-matching` | `NSFBTNZ` | not stated | T2V | NSFW WAN2.2 T2V Modern Boudoir Lingerie Set - Delicate Purple Lace Bralette Ensemble With  | 273 | catalog, verified | [CivitAI](https://civitai.com/models/2208455?modelVersionId=2486503) |
 | `jvs-style` | `jvs`, `joaovictorseixas` | not stated | not stated | JVS Style | 270 | catalog, verified | [CivitAI](https://civitai.com/models/1353579?modelVersionId=1548884) |
 | `nsfw-wan2-2-t2v-one-piece-black-stockings-high-heels-white-top` | `NSFHSLT` | not stated | T2V | NSFW WAN2.2 T2V One-piece black stockings, high heels, white top | 270 | catalog, verified | [CivitAI](https://civitai.com/models/1908231?modelVersionId=2159834) |
+| `cyberpixels-wan` | `cyberpixels` | not stated | T2V | CyberPixels WAN | 269 | catalog, verified | [CivitAI](https://civitai.com/models/1814719?modelVersionId=2053650) |
 | `nsfw-wan2-2-t2v-seductive-body-hugging-outfit-featuring-blue-crop-top-with-garter-panty-set-redheels` | `NSFLSNJ` | not stated | T2V | NSFW WAN2.2 T2V Seductive Body-Hugging Outfit Featuring Blue Crop Top With Garter Panty Se | 266 | catalog, verified | [CivitAI](https://civitai.com/models/2141856?modelVersionId=2422638) |
 | `tfm-mageworld-for-wan-video-t2v-14b` | — | not stated | T2V | TFM MageWorld for Wan Video T2V 14B | 266 | catalog, verified | [CivitAI](https://civitai.com/models/1482427?modelVersionId=1676811) |
 | `djz-3ucl1d-dancers` | `3ucl1d style`, `non-euclidean`, `dancers` | not stated | T2V | DJZ 3ucl1d Dancers | 264 | catalog, verified | [CivitAI](https://civitai.com/models/1726690?modelVersionId=1961974) |
@@ -363,7 +368,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `i2v-princess-of-persian-effect` | `W3STR3G1N EFFECT` | not stated | I2V | I2V - Princess of Persian Effect | 230 | catalog, verified | [CivitAI](https://civitai.com/models/1436884?modelVersionId=1624206) |
 | `kxsr-cinematic-chasm-concept-wan-1-3b-t2v` | `kxsr` | 1.0 | T2V | KXSR Cinematic Chasm Concept WAN 1.3B T2V | 230 | catalog, verified | [CivitAI](https://civitai.com/models/1391922?modelVersionId=1573239) |
 | `nsfw-wan2-2-t2v-sexy-fashionable-pink-lingerie-set-black-bow-decoration-black-high-heels` | `NSFLTBD` | not stated | T2V | NSFW WAN2.2 T2V Sexy, Fashionable Pink lingerie set, black bow decoration Black High Heels | 230 | catalog, verified | [CivitAI](https://civitai.com/models/2051423?modelVersionId=2321623) |
-| `instagram-tiktok-women-influencer-topgolf-girl-wan-2-2-t2v` | `GOLFGIRL` | not stated | T2V | Instagram TikTok Women Influencer - TopGolf Girl (WAN 2.2 T2V) | 229 | catalog, verified | [CivitAI](https://civitai.com/models/2019359?modelVersionId=2287233) |
+| `instagram-tiktok-women-influencer-topgolf-girl-wan-2-2-t2v` | `GOLFGIRL` | 0.65–0.8 | T2V | Instagram TikTok Women Influencer - TopGolf Girl (WAN 2.2 T2V) | 229 | catalog, verified | [CivitAI](https://civitai.com/models/2019359?modelVersionId=2287233) |
 | `nsfw-wan2-2-t2v-sm-black-lace-lingerie-transparent-bra-black-stockings-high-heels-ankle-restraints` | `NSFHSSM` | not stated | T2V | NSFW WAN2.2 T2V SM black lace lingerie transparent bra black stockings high heels ankle re | 229 | catalog, verified | [CivitAI](https://civitai.com/models/2080531?modelVersionId=2354111) |
 | `tfm-game-girl-mageworld-style-for-wan-video` | — | not stated | T2V | TFM Game Girl - MageWorld Style for Wan Video | 226 | catalog, verified | [CivitAI](https://civitai.com/models/1485561?modelVersionId=1680415) |
 | `appearfromdarkness-wan22-t2v-high-paseer` | `appear from darkness` | not stated | T2V | AppearFromDarkness-Wan22-T2V-High-PAseer | 225 | catalog, verified | [CivitAI](https://civitai.com/models/1865440?modelVersionId=2111317) |
@@ -415,6 +420,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nsfw-wan2-2-t2v-large-breasts-curvy-hips-red-backless-halter-mini-dress-black-high-heels` | — | not stated | T2V | NSFW WAN2.2 T2V  large breasts, curvy hips red backless halter mini dress black high heels | 178 | catalog, verified | [CivitAI](https://civitai.com/models/2099656?modelVersionId=2375567) |
 | `nsfw-wan2-2-t2v-black-background-white-floral-silk-robe-black-underwear` | `NSFHHSY` | not stated | T2V | NSFW WAN2.2 T2V Black background, white floral silk robe, black underwear | 176 | catalog, verified | [CivitAI](https://civitai.com/models/1944281?modelVersionId=2200549) |
 | `nsfw-wan2-2-t2v-sexy-police-cosplay-black-patent-leather-over-the-knee-boots-gray-garters` | — | not stated | T2V | NSFW WAN2.2 T2V sexy police cosplay black patent leather over-the-knee boots gray garters | 176 | catalog, verified | [CivitAI](https://civitai.com/models/2109583?modelVersionId=2386529) |
+| `nsfw-wan2-2-t2v-blue-denim-shorts-exposed-breasts-and-genitals-cosplay-cat-ear-headband` | `NSFQLMN` | not stated | T2V | NSFW WAN2.2 T2V blue denim shorts Exposed breasts and genitals cosplay cat ear headband | 175 | catalog, verified | [CivitAI](https://civitai.com/models/2085833?modelVersionId=2360013) |
 | `nintendo-style-for-wan-video` | — | not stated | T2V | Nintendo Style for Wan Video | 172 | catalog, verified | [CivitAI](https://civitai.com/models/1837477?modelVersionId=2079334) |
 | `nsfw-wan2-2-t2v-sexy-lingerie-style-white-sheer-bodysuit-black-leggings-red-patent-high-heels` | `NSFBSDD` | not stated | T2V | NSFW WAN2.2 T2V Sexy Lingerie Style,White Sheer Bodysuit, Black Leggings Red Patent High H | 172 | catalog, verified | [CivitAI](https://civitai.com/models/2115391?modelVersionId=2393050) |
 | `nsfw-wan2-2-t2v-white-short-hair-blue-lace-bra-lace-panties-black-high-boots-suspender-stockings` | `NSFTFNL` | not stated | T2V | NSFW WAN2.2 T2V White Short Hair Blue Lace Bra  Lace Panties Black High Boots Suspender St | 172 | catalog, verified | [CivitAI](https://civitai.com/models/2007895?modelVersionId=2272613) |
@@ -424,6 +430,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nsfw-wan2-2-t2v-leopard-print-underwear-big-breasts-bunny-girl` | `NSFBWTN` | not stated | T2V | NSFW WAN2.2 T2V Leopard print underwear big breasts bunny girl | 169 | catalog, verified | [CivitAI](https://civitai.com/models/1972930?modelVersionId=2233131) |
 | `wan-2-2-samdoesarts-t2i-lora` | — | not stated | T2V | Wan 2.2 SamDoesArts T2I LoRA | 169 | catalog, verified | [CivitAI](https://civitai.com/models/1865359?modelVersionId=2111234) |
 | `nsfw-wan2-2-t2v-young-woman-in-purple-black-leather-and-lace-cosplay-costume` | `NSFZSCO` | not stated | T2V | NSFW WAN2.2 T2V Young woman in purple, black leather and lace cosplay costume | 168 | catalog, verified | [CivitAI](https://civitai.com/models/1967297?modelVersionId=2226752) |
+| `1005-zhuwang-style-lora-lora` | — | not stated | T2V | 1005-zhuwang-style-lora-lora | 166 | catalog, verified | [HF](https://huggingface.co/hejl2016/1005-zhuwang-style-lora-lora) |
 | `djz-mountain-racing-dr1ft` | `dr1ft style` | not stated | T2V | DJZ Mountain Racing "DR1FT" | 164 | catalog, verified | [CivitAI](https://civitai.com/models/1659533?modelVersionId=1878342) |
 | `grilz-style-wan` | — | not stated | T2V | Grilz Style [WAN] | 164 | catalog, verified | [CivitAI](https://civitai.com/models/2049409?modelVersionId=2319425) |
 | `wan2-1-t2v-hong-kong-princess-pose-anime-style` | — | not stated | T2V | WAN2.1 T2V Hong Kong Princess Pose "Anime" Style | 164 | catalog, verified | [CivitAI](https://civitai.com/models/2075270?modelVersionId=2348216) |
@@ -482,7 +489,12 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `djz-g30rg3` | `G30RG3`, `red coat infantry`, `battlefield`, `napoleonic wars` | not stated | T2V | DJZ G30RG3 | 74 | catalog, verified | [CivitAI](https://civitai.com/models/1757844?modelVersionId=1989427) |
 | `shantae-retro-style-for-wan-2-1` | — | not stated | T2V | Shantae (Retro Style) for Wan 2.1 | 70 | catalog, verified | [CivitAI](https://civitai.com/models/1870658?modelVersionId=2117338) |
 | `vhsworldhead` | — | not stated | T2V | VHSWorldhead | 68 | catalog, verified | [CivitAI](https://civitai.com/models/2651034?modelVersionId=2976772) |
+| `pixel-art-animation-birdman-style-i-wan-2-1-i2v-lora` | — | not stated | I2V | pixel-art-animation-birdman-style-i-wan-2.1-i2v-lora | 46 | catalog, verified | [HF](https://huggingface.co/Muapi/pixel-art-animation-birdman-style-i-wan-2.1-i2v-lora) |
 | `biblical-days` | — | not stated | T2V | biblical days | 41 | catalog, verified | [CivitAI](https://civitai.com/models/2694569?modelVersionId=3025682) |
+| `wan-14b-wallace-and-gromit-style-lora-v1` | — | not stated | not stated | wan-14b-wallace_and_gromit-style-lora-v1 | 15 | catalog, verified | [HF](https://huggingface.co/Muapi/wan-14b-wallace_and_gromit-style-lora-v1) |
+| `disney-princess-video-lora` | — | not stated | I2V | disney-princess-video-lora | 13 | catalog, verified | [HF](https://huggingface.co/Muapi/disney-princess-video-lora) |
+| `tetsuo-ai-wan-video-lora` | — | not stated | T2V | tetsuo-ai-wan-video-lora | 0 | catalog, verified | [HF](https://huggingface.co/piccassol/tetsuo-ai-wan-video-lora) |
+| `tetsuo-ai-wan-video-lora` | — | not stated | T2V | tetsuo-ai-wan-video-lora | 0 | catalog, verified | [HF](https://huggingface.co/jauganaut1/tetsuo-ai-wan-video-lora) |
 | `wan-14b-shinkai-anime-style-lora-v1` | — | not stated | not stated | wan-14b-shinkai-anime-style-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/wan-14b-shinkai-anime-style-lora-v1) |
 | `wan-14b-wallace-and-gromit-style-lora-v1` | — | not stated | not stated | wan-14b-wallace_and_gromit-style-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/wan-14b-wallace_and_gromit-style-lora-v1) |
 
@@ -493,7 +505,8 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 **Drift stop from close-up face (WAN2.2 I2V) (ANIME) AKIRA in Kaneda's Bike Drift Stop \| AKIRAのバイクスライド**
 - base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `She's riding a sideways  motorcycle. Super fast animation. She is always looking at the camera. She's moving at super speed. She glides off into the background, sending up sparks and trailing dust. She and her vehicle come to a stop sideways.`, `She's riding a sideways  <***Any vehicle***>. Super fast animation. She is always looking at the camera. She's moving at super speed. She glides off into the background, sending up sparks and trailing dust. She and her vehicle come to a stop sideways.` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `She's riding a sideways Motorcycle.
@@ -504,6 +517,8 @@ She glides off into the background, sending up sparks and trailing dust.
 She and her vehicle come to a stop sideways.`
 ```
 
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
 Source: [CivitAI](https://civitai.com/models/2439156?modelVersionId=2742537)
 
 ### `wan_flat_color_v2.safetensors`
@@ -511,11 +526,14 @@ Source: [CivitAI](https://civitai.com/models/2439156?modelVersionId=2742537)
 **Flat Color - Style**
 - base `Wan Video 14B t2v` · TI2V (and I2V/T2V) · strength: not stated · triggers: `flat color`, `no lineart`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `flat color, no lineart, blending, negative space, {{color}} background`
 ```
+
+Compatibility: mode: TI2V (and I2V/T2V); Wan 2.2 5B TI2V — do not drop into a 14B I2V-A14B / T2V-A14B graph; versions exist for both Wan 2.1 and 2.2 — match the workflow; cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1132089?modelVersionId=1474944)
 
@@ -524,24 +542,30 @@ Source: [CivitAI](https://civitai.com/models/1132089?modelVersionId=1474944)
 **Wan2.1_FusionX -The LoRa**
 - base `Wan Video 14B t2v` · I2V and T2V · strength: not stated
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 strength `2.00` with 3 steps = 72s Or lower the strength and increase your steps to get a less “FusionX” look. (Experiment with settings) ⚡🔍
 ```
+
+Compatibility: mode: I2V and T2V; resolution: 720p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1678575?modelVersionId=1899873)
 
 ### `Su_Bounce_Ep50.safetensors`
 
 **SingularUnity - Wan2.1 MotionCraft**
-- base `Wan Video 14B i2v 720p` · I2V · strength: not stated · triggers: `Medium shot, chest-centered framing, secondary tissue motion.`, `Walking toward camera, gentle jiggle with each step, weighty but damped.`, `Realistic soft-body physics, natural breast bounce, subtle inertia.`, `Large breasts jiggling and bouncing.`, `A woman walks towards the camera, her breasts subtly jiggling and bouncing realistically, showcasing realistic soft-body dynamics.`, `A close-up camera angle highlights a woman adjusting her hair, her breasts gently rebounding while the lighting accentuates the natural texture and contours of her skin.`, `In soft, natural lighting, a woman stands confidently, her large breasts showing believable jiggle and bounce that emphasizes realistic soft-body dynamics and subtle movements.`, `A woman walks towards the camera in a bright, airy room, her round breasts gently bouncing with each step as the illumination highlights the lifelike texture of her skin.`
+- base `Wan Video 14B i2v 720p` · I2V · strength: not stated · triggers: `Fluid cinematic camera orbits with steady pacing to emphasize three-dimensionality and spatial depth`, `Realistic soft-body dynamics accentuated through natural movement and detailed close-ups`, `Dynamic camera angles paired with controlled lighting to highlight texture, form, and lifelike physics`, `Realistic jiggling and bouncing breasts `, `Uninterrupted pans and zooms synced to rhythmic motion for immersive, professional pacing`, `cinematic camera pan`, `cinematic camera zoom in`, `cinematic camera zoom out`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `A woman walks towards the camera, her body poised with a subtle jiggle of her breasts as she walks, capturing the realistic soft-body dynamics. The camera angle captures the full length of her body, highlighting the soft, realistic texture of her skin and the natural flow of her movements, creating a serene and inviting atmosphere.`
 ```
+
+Compatibility: mode: I2V; resolution: 720p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1403959?modelVersionId=1872131)
 
@@ -550,11 +574,14 @@ Source: [CivitAI](https://civitai.com/models/1403959?modelVersionId=1872131)
 **M4CROM4STI4 - Huge Natural Breasts Physics - Hun \| Wan2.1 Lora - K3NK**
 - base `Wan Video 14B i2v 480p` · I2V and T2V · strength: not stated · triggers: `m4crom4sti4`, `a woman with m4crom4stia`, `m4corm4sti4`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `{an asian woman|a black woman|a woman with fair skin} with M4CROM4STI4 wearing a {military suit|business woman suit|flight attendant attire}. Her skin is fair, and she has {long wavy brown|bobcut|pigtails|ponytail|short} {crimson|brown|white|blue|blonde} hair. Her breasts are gigantic. She wears minimal makeup, accentuating her natural beauty. The lighting is soft, highlighting her curves and creating a sensual ambiance. Her expression is sultry, with slightly parted lips and a confident stance. She {sways her hips|dances|squats}. The background is dark, drawing focus to her.`
 ```
+
+Compatibility: mode: I2V and T2V; resolution: 480p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1274733?modelVersionId=2022744)
 
@@ -563,24 +590,30 @@ Source: [CivitAI](https://civitai.com/models/1274733?modelVersionId=2022744)
 **Best Jean Shorts (Daisy Dukes)  //Wan+Hunyuan+Flux+Pony+SD**
 - base `Wan Video 14B t2v` · T2V · strength: not stated · triggers: `bj5`, `skin-tight denim shorts so tight her pussy lips are boldly visible from the front`, `skin-tight denim shorts so tight her pussy lips are boldly visible from the back`, ` frayed edges`, `no underwear`, `micro-cut denim shorts so high-cut they resemble a thong`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 from below, showing off her pussy spreading her legs, fit, 18 year old white girl with wide hips, a huge thigh gap, a narrow waist, hazel eyes, a beautiful face with delicate features, young and attractive, hoop earrings, tattoos, slutty eye shadow, long eyelashes, slutty makeup style, dirty blonde hair, wearing revealing bj5, revealing cutoff denim faded light blue jean shorts, showing off her pussy, vagina slightly visible, pussy lips, no underwear, pussy peek, wearing a Henley shirt, motivated lighting, hollywood blockbuster. flash zoom shot, in a hidden courtyard, posing crossing arms, erotic, XXX, sexuality implied, NSFW, explicit, porn
 ```
+
+Compatibility: mode: T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/291248?modelVersionId=1899112)
 
 ### `CGIDisneyPrincessElsa.safetensors`
 
 **CGI Disney Princesses for Wan 14B T2V+Hunyuan T2V**
-- base `Wan Video 14B t2v` · T2V · strength: not stated · triggers: `CGI Disney Princess Elsa`, `Elsa`, `CGI Disney Princess Rapunzel`, `Rapunzel`, `CGI Disney Princess Pocahontas`, `Pocahontas`, `Disney Pocahontas`, `CGI Disney Princess Mulan`
+- base `Wan Video 14B t2v` · T2V · strength: not stated · triggers: `CGI Disney Princess Rapunzel`, `Rapunzel`, `CGI Disney Princess Pocahontas`, `Pocahontas`, `Disney Pocahontas`, `CGI Disney Princess Mulan`, `CGI Disney Mulan`, `Mulan`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 Trigger: CGI Disney Princess Anna, with her auburn hair and twin braids is wearing her signature green top and shorts. Anna has large expressive eyes and blushed cheeks. Anna is smiling at the camera and performing a comedy routine. Supported Characters that have been trained: Anna Ariel Aurora Belle Cinderella Elsa Jasmine Merida Moana Namaari Pocahontas Snow White Tiana
 ```
+
+Compatibility: mode: T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1149176?modelVersionId=1953205)
 
@@ -589,11 +622,14 @@ Source: [CivitAI](https://civitai.com/models/1149176?modelVersionId=1953205)
 **JellyHips - Hun \| Wan Video Lora - K3NK**
 - base `Wan Video 14B i2v 480p` · I2V and T2V · strength: not stated
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `A woman twerking intensely, rapid buttocks jiggle with recoil, rhythmic up-and-down motion, dynamic hip thrusts, thighs shaking on impact, loose shorts/skirt fabric bouncing, sweat particles, club lighting (neon glow or strobe), low-angle camera view from behind, peak jiggle moments, realistic skin deformation, cellulite details when compressed `
 ```
+
+Compatibility: mode: I2V and T2V; resolution: 480p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1317502?modelVersionId=1947986)
 
@@ -602,7 +638,8 @@ Source: [CivitAI](https://civitai.com/models/1317502?modelVersionId=1947986)
 **Doggy Style - Leg Up**
 - base `Wan Video 2.2 T2V-A14B` · T2V · strength: not stated · triggers: `doggystyle leg up sex`, `horizontal with one leg up while a man thrusts into her vagina from behind`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `doggystyle leg up sex,
@@ -616,6 +653,8 @@ She is on a {blue|green|yellow|orange|brown|black|white|pink} {couch|bed|bench}.
 
 {bedroom|living room}, {high-angle|low-angle|wide} side view,`
 ```
+
+Compatibility: mode: T2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1993262?modelVersionId=2899125)
 

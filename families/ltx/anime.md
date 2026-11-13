@@ -1,26 +1,26 @@
 # LTX2: Anime / 2D
 
-60 LoRAs (4 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+64 LoRAs (4 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `animeflatltx-2-3` | `animeflat2.3`, `animeflatLTX.2.3` | not stated | I2V and T2V | Anime Flat Style | 41,499 | installed, verified | [CivitAI](https://civitai.com/models/1952560?modelVersionId=2809357) |
+| `animeflatltx-2-3` | `animeflat2.3`, `animeflatLTX.2.3` | not stated | I2V and T2V | Anime Flat Style | 41,497 | installed, verified | [CivitAI](https://civitai.com/models/1952560?modelVersionId=2809357) |
 | `retro-anime-mix-by-shrekman-ltx2` | `Flat 2D, Retro anime style` | not stated | not stated | Retro Anime Mix by Shrekman | 878 | installed, verified | [CivitAI](https://civitai.com/models/2664480?modelVersionId=3151866) |
 | `pvc-anime-figures-ltx-2-3-ltx2` | — | not stated | not stated | PVC Anime Figures - LTX-2.3 | 816 | installed, verified | [CivitAI](https://civitai.com/models/2530247?modelVersionId=2843695) |
 | `yaoi-ltx23-v1-step00009000-comfy` | `yaoi_ltx23_v1`, `yaoi ltx23` | not stated | I2V | Anime NSFW Yaoi Lora LTX 2.3 I2V | 755 | installed, verified | [CivitAI](https://civitai.com/models/2728890?modelVersionId=3067619) |
-| `posing-dynamics` | `PosingDynamicsDaal` | not stated | not stated | Posing Dynamics | 15,292 | catalog, verified | [CivitAI](https://civitai.com/models/1185671?modelVersionId=2690369) |
-| `h3-ltx-2-3-paizuri-titfuck-with-thrusting-squeeze-i2v` | — | not stated | I2V and T2V | H3 - LTX 2.3 - Paizuri - Titfuck (With Thrusting + Squeeze) I2V | 12,862 | catalog, verified | [CivitAI](https://civitai.com/models/2364658?modelVersionId=2766201) |
+| `posing-dynamics` | `PosingDynamicsDaal` | not stated | not stated | Posing Dynamics | 15,293 | catalog, verified | [CivitAI](https://civitai.com/models/1185671?modelVersionId=2690369) |
+| `h3-ltx-2-3-paizuri-titfuck-with-thrusting-squeeze-i2v` | — | 1; 0.5 | I2V and T2V | H3 - LTX 2.3 - Paizuri - Titfuck (With Thrusting + Squeeze) I2V | 12,860 | catalog, verified | [CivitAI](https://civitai.com/models/2364658?modelVersionId=2766201) |
 | `solo-male-masturbation-ltx-2-19b-with-audio` | — | not stated | I2V | Solo Male Masturbation --  LTX-2 19B (with Audio!) | 6,492 | catalog, verified | [CivitAI](https://civitai.com/models/906812?modelVersionId=2609597) |
-| `nsfw-cumshot-joyshot-lora-ltx2-3` | `cum`, `stroking his penis`, `he ejaculates`, `on her face`, `ejaculates on her` | 0.5–1 | not stated | NSFW Cumshot Joyshot | 3,898 | catalog, verified | [CivitAI](https://civitai.com/models/2680695?modelVersionId=3010054) |
+| `nsfw-cumshot-joyshot-lora-ltx2-3` | `cum`, `stroking his penis`, `he ejaculates`, `on her face`, `ejaculates on her` | 0.5–1 | not stated | NSFW Cumshot Joyshot | 3,899 | catalog, verified | [CivitAI](https://civitai.com/models/2680695?modelVersionId=3010054) |
 | `retro-90-s-anime-style-lora-ltx-2-3` | `ANIMSTY`, `SHW_AKIRA`, `SHW_CWBY`, `SHW_EVA`, `SHW_GITS` | not stated | T2V | Retro 90's Anime Style Lora LTX-2.3 | 3,755 | catalog, verified | [CivitAI](https://civitai.com/models/2557755?modelVersionId=2898537) |
 | `ltx-2-3-pixar-cgi-toon-style` | — | not stated | T2V | LTX 2.3 - Pixar CGI Toon Style | 3,691 | catalog, verified | [CivitAI](https://civitai.com/models/2536130?modelVersionId=2850271) |
-| `minimax-h3-ltx-2-3-misticnsfw-aio-10eros` | — | not stated | I2V | Minimax H3 - LTX 2.3 MisticNSFW AIO 10eros | 3,633 | catalog, verified | [CivitAI](https://civitai.com/models/2814217?modelVersionId=3173958) |
+| `minimax-h3-ltx-2-3-misticnsfw-aio-10eros` | — | not stated | I2V | Minimax H3 - LTX 2.3 MisticNSFW AIO 10eros | 3,635 | catalog, verified | [CivitAI](https://civitai.com/models/2814217?modelVersionId=3173958) |
 | `manga-style` | — | not stated | not stated | Manga Style | 3,023 | catalog, verified | [CivitAI](https://civitai.com/models/2032489?modelVersionId=2682194) |
 | `environmental-anime-style-mix-makoto-shinkai-h3-ltx-2-3` | `ANIMSTY, SHW_YN.` | not stated | not stated | Environmental Anime Style Mix (Makoto Shinkai) - H3 / LTX 2.3 | 2,831 | catalog, verified | [CivitAI](https://civitai.com/models/2650155?modelVersionId=2975759) |
-| `nsfw-anime-style-breast-helper-lora-ltx-2-3` | `ANIMSTY` | not stated | I2V | NSFW Anime Style + Breast Helper LORA LTX 2.3 | 1,853 | catalog, verified | [CivitAI](https://civitai.com/models/2667196?modelVersionId=2994959) |
-| `golden-boy-retro-90-s-anime-style-lora-ltx2-3` | `ANIMSTY, SHW_GLBY.` | not stated | not stated | Golden Boy  / Retro 90's Anime Style Lora LTX2.3 | 1,737 | catalog, verified | [CivitAI](https://civitai.com/models/2334302?modelVersionId=2988682) |
+| `nsfw-anime-style-breast-helper-lora-ltx-2-3` | `ANIMSTY` | 0.6 | I2V | NSFW Anime Style + Breast Helper LORA LTX 2.3 | 1,853 | catalog, verified | [CivitAI](https://civitai.com/models/2667196?modelVersionId=2994959) |
+| `golden-boy-retro-90-s-anime-style-lora-ltx2-3` | `ANIMSTY, SHW_GLBY.` | 1 | not stated | Golden Boy  / Retro 90's Anime Style Lora LTX2.3 | 1,737 | catalog, verified | [CivitAI](https://civitai.com/models/2334302?modelVersionId=2988682) |
 | `anime2half-real` | `Convert this video to a photorealistic style.` | not stated | not stated | Anime2Half-Real | 1,659 | catalog, verified | [CivitAI](https://civitai.com/models/2527511?modelVersionId=2840619) |
 | `legend-of-mortal-style` | — | not stated | not stated | 活俠風格   Legend of Mortal  Style | 1,431 | catalog, verified | [CivitAI](https://civitai.com/models/518919?modelVersionId=2623925) |
 | `anime-style-ltx-2` | `An1meStyl3, AnimeStyle` | not stated | not stated | Anime Style [LTX-2] | 1,409 | catalog, verified | [CivitAI](https://civitai.com/models/2338837?modelVersionId=2760193) |
@@ -32,7 +32,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ltx-2-3-swordbattle` | — | not stated | not stated | LTX-2.3-SwordBattle | 865 | catalog, verified | [CivitAI](https://civitai.com/models/2510672?modelVersionId=2822078) |
 | `ltxv-13b-lora-shinkai-anime-style` | `sh1nka1 style` | 0.8–1.0 | not stated | LTXV-13B-LoRA-shinkai-anime-style | 771 | catalog, verified | [CivitAI](https://civitai.com/models/1575844?modelVersionId=1783229) |
 | `ltx-2-3-grime-toon-style` | — | not stated | I2V and T2V | LTX 2.3 -  Grime Toon Style | 530 | catalog, verified | [CivitAI](https://civitai.com/models/2543789?modelVersionId=2858773) |
-| `ltx-ripple` | — | not stated | not stated | LtX Ripple | 373 | catalog, verified | [CivitAI](https://civitai.com/models/2989229?modelVersionId=3389424) |
+| `ltx-ripple` | — | not stated | not stated | LtX Ripple | 374 | catalog, verified | [CivitAI](https://civitai.com/models/2989229?modelVersionId=3389424) |
 | `gothic-core-ltx-2-3` | — | not stated | not stated | Gothic Core -LTX-2.3 | 372 | catalog, verified | [CivitAI](https://civitai.com/models/2526404?modelVersionId=2839395) |
 | `seikon-no-qwaser-ecchi-anime-style-lora-ltxv2` | `QWASERSTY` | not stated | not stated | Seikon no Qwaser Ecchi Anime Style Lora - LTXV2 | 361 | catalog, verified | [CivitAI](https://civitai.com/models/2415727?modelVersionId=2716034) |
 | `he-man-from-he-man-masters-of-the-universe-tos-ltx2-zit` | — | not stated | not stated | He-man from He-Man: Masters of the Universe TOS (LTX2 & ZIT) | 359 | catalog, verified | [CivitAI](https://civitai.com/models/2358091?modelVersionId=2652155) |
@@ -63,8 +63,12 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `souryu-artist-style` | — | not stated | I2V and T2V | souryu - Artist Style | 108 | catalog, verified | [CivitAI](https://civitai.com/models/2521915?modelVersionId=2834461) |
 | `ban-bansankan-artist-style` | — | not stated | I2V and T2V | ban! (bansankan) - Artist Style | 105 | catalog, verified | [CivitAI](https://civitai.com/models/2498299?modelVersionId=2808361) |
 | `carnelian-artist-style` | — | not stated | not stated | carnelian - Artist Style | 101 | catalog, verified | [CivitAI](https://civitai.com/models/2539376?modelVersionId=2853883) |
+| `retro-90-s-anime-style-lora-ltx-2-3` | — | not stated | not stated | retro-90-s-anime-style-lora-ltx-2.3 | 95 | catalog, verified | [HF](https://huggingface.co/Muapi/retro-90-s-anime-style-lora-ltx-2.3) |
 | `ohisashiburi-artist-style` | — | not stated | I2V and T2V | ohisashiburi - Artist Style | 90 | catalog, verified | [CivitAI](https://civitai.com/models/2526631?modelVersionId=2839645) |
 | `dishwasher1910-artist-style` | — | not stated | I2V and T2V | dishwasher1910 - Artist Style | 81 | catalog, verified | [CivitAI](https://civitai.com/models/2514943?modelVersionId=2826798) |
+| `anime-style-gurren-lagann-lora-ltx-2-3` | — | not stated | not stated | anime-style-gurren-lagann-lora-ltx-2.3 | 49 | catalog, verified | [HF](https://huggingface.co/Muapi/anime-style-gurren-lagann-lora-ltx-2.3) |
+| `retro-90-s-anime-golden-boy-style-lora-ltx2` | — | not stated | not stated | retro-90-s-anime-golden-boy-style-lora-ltx2 | 31 | catalog, verified | [HF](https://huggingface.co/Muapi/retro-90-s-anime-golden-boy-style-lora-ltx2) |
+| `seikon-no-qwaser-ecchi-anime-style-lora-ltxv2` | — | not stated | not stated | seikon-no-qwaser-ecchi-anime-style-lora-ltxv2 | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/seikon-no-qwaser-ecchi-anime-style-lora-ltxv2) |
 | `ltxv-13b-shinkai-anime-style-lora-v1` | — | not stated | not stated | ltxv-13b-shinkai-anime-style-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/ltxv-13b-shinkai-anime-style-lora-v1) |
 
 ## Details
@@ -74,12 +78,16 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 **Anime Flat Style**
 - base `LTXV 2.3` · I2V and T2V · strength: not stated · triggers: `animeflat2.3`, `animeflatLTX.2.3` · installed
 
+Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
+
 Source: [CivitAI](https://civitai.com/models/1952560?modelVersionId=2809357)
 
 ### `retro-anime-mix-by-shrekman-ltx2.safetensors`
 
 **Retro Anime Mix by Shrekman**
 - base `LTXV 2.3` · not stated · strength: not stated · triggers: `Flat 2D, Retro anime style` · installed
+
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2664480?modelVersionId=3151866)
 
@@ -88,6 +96,8 @@ Source: [CivitAI](https://civitai.com/models/2664480?modelVersionId=3151866)
 **Anime NSFW Yaoi Lora LTX 2.3 I2V**
 - base `LTXV 2.3` · I2V · strength: not stated · triggers: `yaoi_ltx23_v1`, `yaoi ltx23` · installed
 
+Compatibility: mode: I2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
+
 Source: [CivitAI](https://civitai.com/models/2728890?modelVersionId=3067619)
 
 ### `DaSiWa_LTX23_NSFW_Cumshot_Joyshot-v01.comfy.safetensors`
@@ -95,11 +105,14 @@ Source: [CivitAI](https://civitai.com/models/2728890?modelVersionId=3067619)
 **NSFW Cumshot Joyshot \| Lora \| LTX2.3**
 - base `LTXV 2.3` · not stated · strength (stated): 0.5–1 · triggers: `cum`, `stroking his penis`, `he ejaculates`, `on her face`, `ejaculates on her`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `cum , white cum, transparent cum, cum is thick`
 ```
+
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2680695?modelVersionId=3010054)
 
@@ -108,11 +121,14 @@ Source: [CivitAI](https://civitai.com/models/2680695?modelVersionId=3010054)
 **Seikon no Qwaser Ecchi Anime Style Lora - LTXV2**
 - base `LTXV2` · not stated · strength: not stated · triggers: `QWASERSTY`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 She says in Japanese "Omae mou shindeiru". It also works in English as is fine. Sexual noises like moans, kisses etc work. I don't mention the style at all but you can try "2d anime" if you think it will help.
 ```
+
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2415727?modelVersionId=2716034)
 
@@ -121,7 +137,8 @@ Source: [CivitAI](https://civitai.com/models/2415727?modelVersionId=2716034)
 **Seiichi Kinoshita - LTX2 (SHIROBAKO)**
 - base `LTXV2` · I2V and T2V · strength: not stated · triggers: `A chubby man with glasses. He is wearing a blue polo shirt. Anime style.`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `"ss_logit_mean": "0.0",
@@ -153,6 +170,8 @@ Example prompt (from the source page or sidecar):
 "ss_learning_rate": "0.0001",
 "ss_gradient_checkpointing": "True",`
 ```
+
+Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2390040?modelVersionId=2687366)
 

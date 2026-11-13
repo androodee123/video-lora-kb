@@ -1,6 +1,6 @@
 # Wan: Effects / VFX
 
-112 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+117 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -50,7 +50,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `energy-column-special-effects` | — | not stated | I2V | Energy column special effects | 911 | catalog, verified | [CivitAI](https://civitai.com/models/1663937?modelVersionId=1883337) |
 | `wan2-2-atomic-explosion-redmond-i2v-14b` | `ATOMIC EXPLOSION` | not stated | I2V | [WAN2.2] Atomic EXPLOSION - Redmond - I2V - 14B | 886 | catalog, verified | [CivitAI](https://civitai.com/models/2124869?modelVersionId=2403608) |
 | `flippinrad-motion-morph` | — | not stated | I2V and T2V | FlippinRad Motion Morph | 872 | catalog, verified | [CivitAI](https://civitai.com/models/2052865?modelVersionId=2323211) |
-| `tifa-tetra3d-animations-doggy-cowgirl-blowjob` | `doggystyle`, `cowgirl position`, `reverse cowgirl`, `oral,fellatio`, `female masturbation` | not stated | TI2V (and I2V) | Tifa TETRA3d animations (doggy+cowgirl+blowjob) | 861 | catalog, verified | [CivitAI](https://civitai.com/models/1673879?modelVersionId=1894549) |
+| `tifa-tetra3d-animations-doggy-cowgirl-blowjob` | `doggystyle`, `cowgirl position`, `reverse cowgirl`, `oral,fellatio`, `female masturbation` | not stated | TI2V (and I2V) | Tifa TETRA3d animations (doggy+cowgirl+blowjob) | 862 | catalog, verified | [CivitAI](https://civitai.com/models/1673879?modelVersionId=1894549) |
 | `bullet-zone-effect` | `The scene freezes, entering a bullet-zone effect, during which the camera rotates around the object while the entire scene remains frozen.` | not stated | I2V | BULLET ZONE EFFECT | 814 | catalog, verified | [CivitAI](https://civitai.com/models/2124676?modelVersionId=2403380) |
 | `sharingan-eyes-effect-wan-2-1-i2v-lora` | `Sh4r1ng4nEy3s`, `The video shows a close up of an person's face where their eyes are closed at the beginning. The camera zooms in closer and closer to the closed eye of the person. The person's eye starts slowly bleeding tears so that there are two streams of blood, then the person opens their eyes dramatically to reveal a Sh4r1ng4nEy3s effect in his eye, and at the same time, visual effect of light radiates outward around the border of the video.` | 1 | I2V | Sharingan Eyes Effect | 807 | catalog, verified | [CivitAI](https://civitai.com/models/1414162?modelVersionId=1598324) |
 | `little-planet-view-fisheye-lens-wan-hunyuan-video-lora` | `Little planet view fisheye lens` | 1.0 | not stated | Little Planet View Fisheye lens (Wan & Hunyuan Video LoRA) | 804 | catalog, verified | [CivitAI](https://civitai.com/models/1279990?modelVersionId=1588804) |
@@ -118,6 +118,11 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nsfw-wan2-2-t2v-oriental-noble-courtesan-ensemble-teal-lace-bra-set-with-fur-cape-stiletto-pumps` | `NSFLSQP` | not stated | T2V | NSFW WAN2.2 T2V Oriental Noble Courtesan Ensemble – Teal Lace Bra Set With Fur Cape & Stil | 124 | catalog, verified | [CivitAI](https://civitai.com/models/2186974?modelVersionId=2462446) |
 | `wan2-1-i2v-aoji-effect-14b` | `N5ONUHUAN effect` | not stated | I2V | Wan2.1 I2V - AoJi Effect 14b | 123 | catalog, verified | [CivitAI](https://civitai.com/models/1425277?modelVersionId=1610991) |
 | `djz-indoor-skateparks` | `vkv style` | not stated | T2V | DJZ Indoor Skateparks | 120 | catalog, verified | [CivitAI](https://civitai.com/models/1656720?modelVersionId=1875215) |
+| `matrix-bullet-time-camera-effect-wan2-1-i2v-lora` | — | not stated | I2V | matrix-bullet-time-camera-effect-wan2.1-i2v-lora | 78 | catalog, verified | [HF](https://huggingface.co/Muapi/matrix-bullet-time-camera-effect-wan2.1-i2v-lora) |
+| `superspeed` | `superspeed` | not stated | T2V | Superspeed | 77 | catalog, verified, low_signal | [CivitAI](https://civitai.com/models/2613400?modelVersionId=2934376) |
+| `refvfx-lora` | — | not stated | I2V | refVFX-lora | 26 | catalog, verified | [HF](https://huggingface.co/maxwelljones14/refVFX-lora) |
+| `hero-run-effect-wan2-1-i2v-lora` | — | not stated | I2V | hero-run-effect-wan2.1-i2v-lora | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/hero-run-effect-wan2.1-i2v-lora) |
+| `sharingan-eyes-effect-wan-2-1-i2v-lora` | — | not stated | I2V | sharingan-eyes-effect-wan-2.1-i2v-lora | 11 | catalog, verified | [HF](https://huggingface.co/Muapi/sharingan-eyes-effect-wan-2.1-i2v-lora) |
 
 ## Details
 
@@ -126,11 +131,14 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 **360 Degree Rotation (Microwave Rotation Wan2.1 I2V LoRA)**
 - base `Wan Video` · I2V · strength (stated): 1.0 · triggers: ` r0t4tion 360 degrees rotation`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 s that worked well for me. You can also check the videos I've posted here for the captions that were used to generate them. For each video the input image is just the first frame.
 ```
+
+Compatibility: mode: I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1346623?modelVersionId=1520902)
 
@@ -139,11 +147,14 @@ Source: [CivitAI](https://civitai.com/models/1346623?modelVersionId=1520902)
 **Squish Effect (Wan2.1 I2V LoRA)**
 - base `Wan Video` · I2V · strength (stated): 1.0 · triggers: `sq41sh squish effect`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 s that have worked very well. I believe the prompt structure can be very similar as the examples are; you just need to specify the object being squished and that is the only difference.
 ```
+
+Compatibility: mode: I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1340141?modelVersionId=1513385)
 
@@ -152,11 +163,14 @@ Source: [CivitAI](https://civitai.com/models/1340141?modelVersionId=1513385)
 **Go kiss effects Wan2.1_I2V**
 - base `Wan Video 14B i2v 480p` · I2V · strength: not stated · triggers: `They started looking at each other and moved closer, then they started kissing.`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 s and trigger words were just made up randomly the first time I used them—I didn’t even filter or refine them. You can use your own prompts instead. The main purpose of trigger words is to help align the pixel vector paths with the motion distribution probabilities during training. For users, they’re not really that important.
 ```
+
+Compatibility: mode: I2V; resolution: 480p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1607634?modelVersionId=1819273)
 
@@ -165,11 +179,14 @@ Source: [CivitAI](https://civitai.com/models/1607634?modelVersionId=1819273)
 **Flying Effect (Wan2.1 I2V LoRA)**
 - base `Wan Video` · I2V · strength (stated): 1.0 · triggers: `sb9527sb flying effect`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 s that have worked very well. I believe the prompt structure can be very similar as the examples are; you just need to specify the object flying into air form where and that is the only difference.
 ```
+
+Compatibility: mode: I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1348626?modelVersionId=1523247)
 
@@ -178,11 +195,14 @@ Source: [CivitAI](https://civitai.com/models/1348626?modelVersionId=1523247)
 **Erotic Dance Wan T2V**
 - base `Wan Video 14B t2v` · I2V and T2V · strength: not stated · triggers: `A woman is performing an erotic dance, with her body facing the camera, showcasing ass swaying, boobs bouncing, and hands waving.`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `A woman is performing an erotic dance, with her body facing the camera, showcasing ass swaying, boobs bouncing, and hands waving. She has large breasts and a playful expression. She is wearing a white, long-sleeved sailor uniform and a pink pleated mini skirt, with white thigh-high stockings. Her long, dark hair is styled in twin braids. The setting is indoors in a hallway with light-colored walls.`
 ```
+
+Compatibility: mode: I2V and T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1609106?modelVersionId=1820974)
 
@@ -191,11 +211,14 @@ Source: [CivitAI](https://civitai.com/models/1609106?modelVersionId=1820974)
 **Matrix Bullet Time Camera Effect (Wan2.1 I2V LoRA)**
 - base `Wan Video 14B i2v 480p` · I2V · strength (stated): 1.0 · triggers: `b4ll3t t1m3 bullet time shot`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 s that worked well for me. You can also check the videos I've posted here for the captions that were used to generate them. For each video the input image is just the first frame.
 ```
+
+Compatibility: mode: I2V; resolution: 480p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1620140?modelVersionId=1833560)
 
@@ -204,11 +227,14 @@ Source: [CivitAI](https://civitai.com/models/1620140?modelVersionId=1833560)
 **Super Saiyan Transformation (Wan2.1 I2V LoRA)**
 - base `Wan Video` · I2V · strength (stated): 1.0 · triggers: `5up3r super saiyan transformation`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 s that worked well for me. You can also check the videos I've posted here for the captions that were used to generate them. For each video the input image is just the first frame. It seems that describing the person in detail at the start of the prompt stops the model from changing them too much during the transformation. The example prompts are all the same structure, which seems to work well.
 ```
+
+Compatibility: mode: I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1375382?modelVersionId=1554033)
 
@@ -217,11 +243,14 @@ Source: [CivitAI](https://civitai.com/models/1375382?modelVersionId=1554033)
 **[WAN2.2] SkinMorph - Redmond - I2V - 14B**
 - base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `Skin morph`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 s Here are some example prompts to get you started with Skin Morph:
 ```
+
+Compatibility: mode: I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/2210162?modelVersionId=2488349)
 

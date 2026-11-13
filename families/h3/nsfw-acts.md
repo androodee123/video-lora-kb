@@ -6,46 +6,46 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `mystic-h3` | `mystic-h3` | 0.2–1 | I2V and T2V | [MMH3] Mystic XXX | 145,102 | installed, verified | [CivitAI](https://civitai.com/models/2856467?modelVersionId=3226233) |
-| `deepthroat-face-fuck-high-wan` | `a woman is kneeling in front of a man, his penis is out, he is grabbing her head with his hand, she is looking up at him, he is face fucking her, he thrusts his hips back and forth moving the penis inside her mouth, she reacts to each thrust by frowning and closes her eyes, pov view, ultra close-up` | not stated | I2V | Deepthroat/Face Fuck- Wan2.2 / Minimax H3 I2V | 100,673 | installed, verified | [CivitAI](https://civitai.com/models/2023407?modelVersionId=3374369) |
-| `cumshot3-h3` | `hmcumshot3` | not stated | I2V and T2V | HMCumshot - Cumshot LoRA for MiniMax H3 | 57,049 | installed, verified | [CivitAI](https://civitai.com/models/2857340?modelVersionId=3227331) |
-| `giant-dom-il-fantasy-sex-concept-h3` | `Video depicts a sexual scene between a female central character and a massive, giant partner that inserts it's giant erect penis into woman vagina` | not stated | T2V | Giant Dom IL | 46,534 | installed, verified | [CivitAI](https://civitai.com/models/831683?modelVersionId=3270783) |
-| `h3-ltx-2-3-ltx2-better-nsfw-motion-h3` | `h3 ltx 2 3 ltx2 better nsfw motion h3` | not stated | I2V | H3 - LTX 2.3 - LTX2 better NSFW motion | 40,214 | installed, verified | [CivitAI](https://civitai.com/models/2344781?modelVersionId=2986751) |
-| `rough-sex-fucked-silly-il-chroma-shrekman-h3` | `This is a cgi video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis` | not stated | not stated | Rough Sex/Fucked Silly IL&Chroma | 28,198 | installed, verified | [CivitAI](https://civitai.com/models/1332917?modelVersionId=3402996) |
+| `mystic-h3` | `mystic-h3` | 0.2–1 | I2V and T2V | [MMH3] Mystic XXX | 145,087 | installed, verified | [CivitAI](https://civitai.com/models/2856467?modelVersionId=3226233) |
+| `deepthroat-face-fuck-high-wan` | `a woman is kneeling in front of a man, his penis is out, he is grabbing her head with his hand, she is looking up at him, he is face fucking her, he thrusts his hips back and forth moving the penis inside her mouth, she reacts to each thrust by frowning and closes her eyes, pov view, ultra close-up` | not stated | I2V | Deepthroat/Face Fuck- Wan2.2 / Minimax H3 I2V | 100,672 | installed, verified | [CivitAI](https://civitai.com/models/2023407?modelVersionId=3374369) |
+| `cumshot3-h3` | `hmcumshot3`, `cumshot` | 0.85 | I2V and T2V | HMCumshot - Cumshot LoRA for MiniMax H3 | 57,043 | installed, verified | [CivitAI](https://civitai.com/models/2857340?modelVersionId=3227331) |
+| `giant-dom-il-fantasy-sex-concept-h3` | `Video depicts a sexual scene between a female central character and a massive, giant partner that inserts it's giant erect penis into woman vagina` | not stated | T2V | Giant Dom IL | 46,529 | installed, verified | [CivitAI](https://civitai.com/models/831683?modelVersionId=3270783) |
+| `h3-ltx-2-3-ltx2-better-nsfw-motion-h3` | `h3 ltx 2 3 ltx2 better nsfw motion h3` | 0.8; 0.9; 1 | I2V | H3 - LTX 2.3 - LTX2 better NSFW motion | 40,210 | installed, verified | [CivitAI](https://civitai.com/models/2344781?modelVersionId=2986751) |
+| `rough-sex-fucked-silly-il-chroma-shrekman-h3` | `This is a cgi video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis`, `Video depicts explicit sex scene, 2d anime style, intense, rough thrusting motion during penetrative sex` | not stated | not stated | Rough Sex/Fucked Silly IL&Chroma | 28,198 | installed, verified | [CivitAI](https://civitai.com/models/1332917?modelVersionId=3402996) |
 | `human-onahole-fantasy-sex-concept-collecti-h3` | `This video depicts explicit sex scene between female character and a giant male, the male is so gigantic that the woman who is central character is held in male hands` | not stated | not stated | Human Onahole | 25,778 | installed, verified | [CivitAI](https://civitai.com/models/1319951?modelVersionId=3436059) |
-| `2d-anime-style-nsfw-h3` | `2d anime style` | not stated | I2V and T2V | 2D Anime Style NSFW LORA - H3 | 22,788 | installed, verified | [CivitAI](https://civitai.com/models/2861135?modelVersionId=3286171) |
-| `hmmasturbation-squirting-and-female-mastur-h3` | `hmmasturbation` | 0.4–0.8 | not stated | HMMasturbation - Squirting and Female Masturbation LoRA for Minimax H3 | 20,090 | installed, verified | [CivitAI](https://civitai.com/models/2893742?modelVersionId=3275625) |
-| `minimax-cumshot-h3` | — | not stated | not stated | Minimax - Cumshot | 19,690 | installed, verified | [CivitAI](https://civitai.com/models/2909163?modelVersionId=3290361) |
-| `minimax-h3-pussy-spread-h3` | `MiniMax H3 - Pussy spread` | not stated | I2V and T2V | MiniMax H3 - Pussy spread | 17,207 | installed, verified | [CivitAI](https://civitai.com/models/2885332?modelVersionId=3306941) |
-| `minimax-h3-pussy-spread-v1-h3` | `spread_labia` | not stated | I2V and T2V | MiniMax H3 - Pussy spread | 17,207 | installed, verified | [CivitAI](https://civitai.com/models/2885332?modelVersionId=3461499) |
+| `2d-anime-style-nsfw-h3` | `2d anime style` | not stated | I2V and T2V | 2D Anime Style NSFW LORA - H3 | 22,786 | installed, verified | [CivitAI](https://civitai.com/models/2861135?modelVersionId=3286171) |
+| `hmmasturbation-squirting-and-female-mastur-h3` | `hmmasturbation`, `hmsquirt` | 0.4–0.8 | not stated | HMMasturbation - Squirting and Female Masturbation LoRA for Minimax H3 | 20,087 | installed, verified | [CivitAI](https://civitai.com/models/2893742?modelVersionId=3275625) |
+| `minimax-cumshot-h3` | — | not stated | not stated | Minimax - Cumshot | 19,687 | installed, verified | [CivitAI](https://civitai.com/models/2909163?modelVersionId=3290361) |
+| `minimax-h3-pussy-spread-h3` | `MiniMax H3 - Pussy spread`, `spread_labia` | not stated | I2V and T2V | MiniMax H3 - Pussy spread | 17,204 | installed, verified | [CivitAI](https://civitai.com/models/2885332?modelVersionId=3306941) |
+| `minimax-h3-pussy-spread-v1-h3` | `spread_labia` | not stated | I2V and T2V | MiniMax H3 - Pussy spread | 17,204 | installed, verified | [CivitAI](https://civitai.com/models/2885332?modelVersionId=3461499) |
 | `missionary-sex-pov-h3` | `having missionary sex` | not stated | not stated | Missionary Sex - POV | 14,551 | installed, verified | [CivitAI](https://civitai.com/models/1769556?modelVersionId=3279596) |
 | `pov-doggy-h3` | — | not stated | not stated | POV Doggy | 13,270 | installed, verified | [CivitAI](https://civitai.com/models/1893639?modelVersionId=3300169) |
-| `h3-ltx-2-3-paizuri-titfuck-with-thrusting-h3` | `she gathers her breasts around the penis` | not stated | I2V and T2V | H3 - LTX 2.3 - Paizuri - Titfuck (With Thrusting + Squeeze) I2V | 12,862 | installed, verified | [CivitAI](https://civitai.com/models/2364658?modelVersionId=2659405) |
-| `oral-creampie-h3` | `CUMOUF` | 0.4 | I2V | CIMLG - The Oral Creampie LoRa - Minimax H3 | 12,834 | installed, verified | [CivitAI](https://civitai.com/models/2846978?modelVersionId=3214563) |
-| `amateur-pov-h3` | `zy_amateurpov` | 0.4–0.85 | not stated | Amateur POV ✨ KREA 2 + H3 | 12,203 | installed, verified | [CivitAI](https://civitai.com/models/2776852?modelVersionId=3403798) |
-| `blackedraw-style-doggy-style-minimax-h3-re-h3` | `H3BLKD` | not stated | I2V | Blackedraw Style — DoggyStyle + Pronebone [MiniMax H3 Ref2VA] | 11,958 | installed, verified | [CivitAI](https://civitai.com/models/2905434?modelVersionId=3285724) |
-| `slop-twerk-minimax-h3` | `slop twerk minimax h3` | not stated | I2V and T2V | Slop Twerk MiniMax H3 LoRa | 11,378 | installed, verified | [CivitAI](https://civitai.com/models/2885070?modelVersionId=3283175) |
+| `h3-ltx-2-3-paizuri-titfuck-with-thrusting-h3` | `she gathers her breasts around the penis` | 1; 0.5 | I2V and T2V | H3 - LTX 2.3 - Paizuri - Titfuck (With Thrusting + Squeeze) I2V | 12,860 | installed, verified | [CivitAI](https://civitai.com/models/2364658?modelVersionId=2659405) |
+| `oral-creampie-h3` | `CUMOUF` | 0.4 | I2V | CIMLG - The Oral Creampie LoRa - Minimax H3 | 12,832 | installed, verified | [CivitAI](https://civitai.com/models/2846978?modelVersionId=3214563) |
+| `amateur-pov-h3` | `zy_amateurpov` | 0.4–0.85 | not stated | Amateur POV ✨ KREA 2 + H3 | 12,200 | installed, verified | [CivitAI](https://civitai.com/models/2776852?modelVersionId=3403798) |
+| `blackedraw-style-doggy-style-minimax-h3-re-h3` | `H3BLKD` | not stated | I2V | Blackedraw Style — DoggyStyle + Pronebone [MiniMax H3 Ref2VA] | 11,955 | installed, verified | [CivitAI](https://civitai.com/models/2905434?modelVersionId=3285724) |
+| `slop-twerk-minimax-h3` | `slop twerk minimax h3` | not stated | I2V and T2V | Slop Twerk MiniMax H3 LoRa | 11,374 | installed, verified | [CivitAI](https://civitai.com/models/2885070?modelVersionId=3283175) |
 | `blowjobs-bbc-h3` | — | not stated | not stated | Blowjobs - BBC | 10,958 | installed, verified | [CivitAI](https://civitai.com/models/1494990?modelVersionId=3356763) |
-| `minimax-worship-it-h3` | — | not stated | not stated | Minimax - Worship It | 10,941 | installed, verified | [CivitAI](https://civitai.com/models/2897013?modelVersionId=3275319) |
-| `doggy-style-leg-up-h3` | `doggystyle leg up sex` | not stated | not stated | Doggy Style - Leg Up | 10,871 | installed, verified | [CivitAI](https://civitai.com/models/1993262?modelVersionId=3303351) |
-| `minimaxh3-blowjob-nsfw-int8-convrot-h3` | `blowjob`, `sucking penis` | not stated | I2V and T2V | [MinimaxH3] Blowjob (NSFW) INT8 Convrot | 10,104 | installed, verified | [CivitAI](https://civitai.com/models/2929639?modelVersionId=3315548) |
-| `facial-cumshot-mm-h3-by-funphantom-h3` | `facial cumshot mm h3 by funphantom h3` | not stated | I2V | Facial CumShot MM H3 by FunPhantom | 9,438 | installed, verified | [CivitAI](https://civitai.com/models/2892032?modelVersionId=3269749) |
-| `extreme-close-up-blowjob-minimaxh3-h3` | — | not stated | not stated | Extreme Close-up (Blowjob) MinimaxH3 | 9,167 | installed, verified | [CivitAI](https://civitai.com/models/2997521?modelVersionId=3399840) |
-| `extreme-close-up-blowjob-minimaxh3-v1263-h3` | — | not stated | not stated | Extreme Close-up (Blowjob) MinimaxH3 | 9,167 | installed, verified | [CivitAI](https://civitai.com/models/2997521?modelVersionId=3431263) |
-| `messy-blowjob-h3` | — | not stated | I2V | Messy Blowjob H3 | 8,666 | installed, verified | [CivitAI](https://civitai.com/models/2997232?modelVersionId=3399472) |
+| `minimax-worship-it-h3` | — | not stated | not stated | Minimax - Worship It | 10,940 | installed, verified | [CivitAI](https://civitai.com/models/2897013?modelVersionId=3275319) |
+| `doggy-style-leg-up-h3` | `doggystyle leg up sex` | not stated | not stated | Doggy Style - Leg Up | 10,870 | installed, verified | [CivitAI](https://civitai.com/models/1993262?modelVersionId=3303351) |
+| `minimaxh3-blowjob-nsfw-int8-convrot-h3` | `blowjob`, `sucking penis` | not stated | I2V and T2V | [MinimaxH3] Blowjob (NSFW) INT8 Convrot | 10,102 | installed, verified | [CivitAI](https://civitai.com/models/2929639?modelVersionId=3315548) |
+| `facial-cumshot-mm-h3-by-funphantom-h3` | `facial cumshot mm h3 by funphantom h3` | not stated | I2V | Facial CumShot MM H3 by FunPhantom | 9,437 | installed, verified | [CivitAI](https://civitai.com/models/2892032?modelVersionId=3269749) |
+| `extreme-close-up-blowjob-minimaxh3-h3` | — | not stated | not stated | Extreme Close-up (Blowjob) MinimaxH3 | 9,166 | installed, verified | [CivitAI](https://civitai.com/models/2997521?modelVersionId=3399840) |
+| `extreme-close-up-blowjob-minimaxh3-v1263-h3` | — | not stated | not stated | Extreme Close-up (Blowjob) MinimaxH3 | 9,166 | installed, verified | [CivitAI](https://civitai.com/models/2997521?modelVersionId=3431263) |
+| `messy-blowjob-h3` | — | 1 | I2V | Messy Blowjob H3 | 8,664 | installed, verified | [CivitAI](https://civitai.com/models/2997232?modelVersionId=3399472) |
 | `simply-sybian-bouncing-edition-h3` | `riding a Sybian` | not stated | not stated | Simply Sybian - Bouncing Edition | 8,114 | installed, verified | [CivitAI](https://civitai.com/models/1389914?modelVersionId=3300498) |
-| `f4c3spl4sh-cumshot-minimax-h3-k3nk-h3` | — | not stated | I2V and T2V | F4C3SPL4SH Cumshot - MiniMax H3 LoRa - K3NK | 7,393 | installed, verified | [CivitAI](https://civitai.com/models/2945118?modelVersionId=3334780) |
+| `f4c3spl4sh-cumshot-minimax-h3-k3nk-h3` | — | not stated | I2V and T2V | F4C3SPL4SH Cumshot - MiniMax H3 LoRa - K3NK | 7,392 | installed, verified | [CivitAI](https://civitai.com/models/2945118?modelVersionId=3334780) |
 | `fisting-h3` | `being vaginally fisted by another person` | not stated | not stated | fisting | 7,039 | installed, verified | [CivitAI](https://civitai.com/models/1691421?modelVersionId=3383307) |
 | `minimax-h3-thumbinbutt-i2v-h3` | `thum1n8utt` | not stated | I2V and T2V | MiniMax H3 - ThumbInButt (I2V) | 6,583 | installed, verified | [CivitAI](https://civitai.com/models/2904444?modelVersionId=3284492) |
-| `nipple-play-minimax-h3` | `Nipple Play - MiniMax H3` | 1.0 | not stated | Nipple Play - MiniMax H3 | 6,221 | installed, verified | [CivitAI](https://civitai.com/models/2888071?modelVersionId=3295051) |
-| `extreme-close-up-anal-vaginal-minimaxh3-h3` | — | not stated | not stated | Extreme Close-up (Anal & Vaginal) MinimaxH3 | 5,979 | installed, verified | [CivitAI](https://civitai.com/models/2997416?modelVersionId=3399711) |
+| `nipple-play-minimax-h3` | `Nipple Play - MiniMax H3` | 1.0 | not stated | Nipple Play - MiniMax H3 | 6,218 | installed, verified | [CivitAI](https://civitai.com/models/2888071?modelVersionId=3295051) |
+| `extreme-close-up-anal-vaginal-minimaxh3-h3` | — | not stated | not stated | Extreme Close-up (Anal & Vaginal) MinimaxH3 | 5,978 | installed, verified | [CivitAI](https://civitai.com/models/2997416?modelVersionId=3399711) |
 | `dildoing-h3` | `pumping a dildo insider her vagina` | not stated | not stated | dildoing | 5,797 | installed, verified | [CivitAI](https://civitai.com/models/2903074?modelVersionId=3282820) |
 | `flaccid-vtx-flaccid-uncut-penis-minimax-h3` | `penis` | not stated | I2V and T2V | Flaccid VTX - Flaccid Uncut Penis [MiniMax H3] | 5,554 | installed, verified | [CivitAI](https://civitai.com/models/2847756?modelVersionId=3428891) |
 | `groping-loras-pack-il-shrekman-hentai-lora-h3` | `The video shows a scne where central female character breasts are getting groped, grabbed and held by hands of other character` | not stated | not stated | Groping Loras Pack IL | 5,535 | installed, verified | [CivitAI](https://civitai.com/models/1406452?modelVersionId=3269347) |
 | `cuddle-cup-spooning-sex-position-h3` | `SPOONLG` | not stated | I2V | CUDDLE CUP — Spooning Sex Position | 5,527 | installed, verified | [CivitAI](https://civitai.com/models/2968559?modelVersionId=3363705) |
 | `lotus-sex-position-h3` | `SPOONLG` | not stated | I2V | CUDDLE CUP — Spooning Sex Position | 5,527 | installed, verified | [CivitAI](https://civitai.com/models/2968559?modelVersionId=3363705) |
 | `cum-the-lg-cum-slider-h3` | — | not stated | I2V | CUM : The LG Cum Slider (H3) | 4,842 | installed, verified | [CivitAI](https://civitai.com/models/2983776?modelVersionId=3382694) |
-| `blowjob-cheek-bulge-101-h3` | — | not stated | not stated | Blowjob cheek bulge 101 H3 | 4,250 | installed, verified | [CivitAI](https://civitai.com/models/2958399?modelVersionId=3351317) |
+| `blowjob-cheek-bulge-101-h3` | — | not stated | not stated | Blowjob cheek bulge 101 H3 | 4,249 | installed, verified | [CivitAI](https://civitai.com/models/2958399?modelVersionId=3351317) |
 | `minimax-h3-astro-nsfw-h3` | `minimax h3 astro nsfw h3` | not stated | not stated | Minimax h3 Astro NSFW | 4,240 | installed, verified | [CivitAI](https://civitai.com/models/2895273?modelVersionId=3273104) |
 | `self-anal-finger-h3` | — | not stated | not stated | Self Anal Finger | 4,110 | installed, verified | [CivitAI](https://civitai.com/models/2988249?modelVersionId=3388162) |
 | `minimax-h3-rimjob-ass-licking-anal-h3` | — | 0.75–1.0 | T2V | Minimax H3_rimjob_ass licking_anal | 3,733 | installed, verified | [CivitAI](https://civitai.com/models/2962318?modelVersionId=3356109) |
@@ -103,103 +103,103 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `solo-dildo-h3` | — | not stated | not stated | solo dildo | — | installed, unverified | — |
 | `strapon-dildo-krea2-3` | — | not stated | not stated | strapon dildo krea2 3 | — | installed, unverified | — |
 | `synth-pussy-h3` | — | not stated | not stated | synth pussy | — | installed, unverified | — |
-| `dr34ml4y-all-in-one-nsfw-h3-wan-ltx2` | `m15510n4ry`, `bl0wj0b`, `d0ubl3_bj`, `d0gg1e`, `c0wg1rl` | not stated | T2V | DR34ML4Y - All-In-One NSFW (H3/WAN/LTX2) | 537,553 | catalog, verified | [CivitAI](https://civitai.com/models/1811313?modelVersionId=3405852) |
-| `hmnsfw-h3` | `hmmotion` | not stated | I2V and T2V | HMNSFW - AIO Sex LoRA | 88,228 | catalog, verified | [CivitAI](https://civitai.com/models/2834417?modelVersionId=3206518) |
-| `h3-ltx-2-3-i2v-t2v-video-reasoning-lora-vbvr` | — | 1.0–0.7; 1.0; 1 | I2V and T2V | H3 - LTX 2.3 - I2V T2V Video Reasoning lora VBVR | 81,845 | catalog, verified | [CivitAI](https://civitai.com/models/2497207?modelVersionId=3306139) |
-| `minimax-h3-nsfw-unlocked` | — | not stated | I2V and T2V | MiniMax H3 NSFW Unlocked | 71,953 | catalog, verified | [CivitAI](https://civitai.com/models/2925727?modelVersionId=3354822) |
-| `hmpussy-pussy-anus-lora-for-minimax-h3` | `pussy`, `Pussy`, `vagina`, `anus`, `Vagina` | not stated | I2V | HMPussy - Pussy/Anus LoRA for MiniMax H3 | 63,266 | catalog, verified | [CivitAI](https://civitai.com/models/2846342?modelVersionId=3252213) |
-| `better-titfuck-minimax-wan-hunyuan` | `titjob` | not stated | I2V | Better Titfuck (MiniMax, Wan, HunYuan) | 58,377 | catalog, verified | [CivitAI](https://civitai.com/models/1269557?modelVersionId=3264280) |
-| `daring-s-deepthroat-h3-ltx2-3` | — | not stated | I2V | Daring's Deepthroat H3/LTX2.3 | 52,472 | catalog, verified | [CivitAI](https://civitai.com/models/2476698?modelVersionId=3226989) |
-| `minimax-h3-wan2-2-i2v-a14b-futanari-transformation-futanarization-lora` | `futanaei transformation`, `penis growth` | not stated | I2V and T2V | Minimax H3 & Wan2.2 I2V A14B Futanari transformation (Futanarization) LoRA | 47,181 | catalog, verified | [CivitAI](https://civitai.com/models/1911812?modelVersionId=3212000) |
+| `dr34ml4y-all-in-one-nsfw-h3-wan-ltx2` | `m15510n4ry`, `bl0wj0b`, `d0ubl3_bj`, `d0gg1e`, `c0wg1rl` | not stated | T2V | DR34ML4Y - All-In-One NSFW (H3/WAN/LTX2) | 537,585 | catalog, verified | [CivitAI](https://civitai.com/models/1811313?modelVersionId=3405852) |
+| `hmnsfw-h3` | `hmmotion` | 0.6–1.0 | I2V and T2V | HMNSFW - AIO Sex LoRA | 88,223 | catalog, verified | [CivitAI](https://civitai.com/models/2834417?modelVersionId=3206518) |
+| `h3-ltx-2-3-i2v-t2v-video-reasoning-lora-vbvr` | — | 1.0–0.7; 1.0; 1 | I2V and T2V | H3 - LTX 2.3 - I2V T2V Video Reasoning lora VBVR | 81,861 | catalog, verified | [CivitAI](https://civitai.com/models/2497207?modelVersionId=3306139) |
+| `minimax-h3-nsfw-unlocked` | — | not stated | I2V and T2V | MiniMax H3 NSFW Unlocked | 71,984 | catalog, verified | [CivitAI](https://civitai.com/models/2925727?modelVersionId=3354822) |
+| `hmpussy-pussy-anus-lora-for-minimax-h3` | `Pussy`, `vagina`, `anus`, `pussy`, `Vagina` | 1.0; 0.35 | I2V | HMPussy - Pussy/Anus LoRA for MiniMax H3 | 63,278 | catalog, verified | [CivitAI](https://civitai.com/models/2846342?modelVersionId=3252213) |
+| `better-titfuck-minimax-wan-hunyuan` | `titjob` | not stated | I2V | Better Titfuck (MiniMax, Wan, HunYuan) | 58,378 | catalog, verified | [CivitAI](https://civitai.com/models/1269557?modelVersionId=3264280) |
+| `daring-s-deepthroat-h3-ltx2-3` | — | not stated | I2V | Daring's Deepthroat H3/LTX2.3 | 52,476 | catalog, verified | [CivitAI](https://civitai.com/models/2476698?modelVersionId=3226989) |
+| `minimax-h3-wan2-2-i2v-a14b-futanari-transformation-futanarization-lora` | `futanaei transformation`, `penis growth` | not stated | I2V and T2V | Minimax H3 & Wan2.2 I2V A14B Futanari transformation (Futanarization) LoRA | 47,183 | catalog, verified | [CivitAI](https://civitai.com/models/1911812?modelVersionId=3212000) |
 | `minimax-h3-loras` | — | not stated | not stated | minimax-h3-loras | 46,530 | catalog, verified | [HF](https://huggingface.co/Hearmeman/minimax-h3-loras) |
-| `fingering-pussy` | — | not stated | I2V and T2V | Fingering Pussy | 46,201 | catalog, verified | [CivitAI](https://civitai.com/models/2007360?modelVersionId=3342542) |
-| `synth-pussy` | — | not stated | I2V and T2V | Synth Pussy | 40,788 | catalog, verified | [CivitAI](https://civitai.com/models/2509189?modelVersionId=3320641) |
-| `epic-cumshots` | — | not stated | I2V and T2V | Epic Cumshots | 35,351 | catalog, verified | [CivitAI](https://civitai.com/models/2621242?modelVersionId=3202064) |
-| `hmpenis-penis-cock-lora-for-minimax-h3` | `penis`, `HMPenis` | not stated | not stated | HMPenis - Penis/Cock LoRA for MiniMax H3 | 34,306 | catalog, verified | [CivitAI](https://civitai.com/models/2849923?modelVersionId=3247473) |
-| `solo-dildo` | — | not stated | I2V and T2V | Solo Dildo | 33,169 | catalog, verified | [CivitAI](https://civitai.com/models/1707303?modelVersionId=3378450) |
-| `futa-masturbation-cumshot-i2v-mh3-ltx-wan` | — | not stated | I2V and T2V | Futa-Masturbation Cumshot - I2V [MH3/LTX/WAN] | 29,558 | catalog, verified | [CivitAI](https://civitai.com/models/2011853?modelVersionId=3200595) |
-| `instapic-ultrareal-the-authentic-social-media-lora-ig-tiktok-realism-flux-zit-flux-2-klein-krea2-minimax` | `instapic` | 0.8–1 | not stated | InstaPic : Ultrareal The Authentic Social Media Lora IG/Tiktok 📸 | 28,862 | catalog, verified | [CivitAI](https://civitai.com/models/2168120?modelVersionId=3405038) |
-| `h3-pov-missionary-insertion` | — | not stated | I2V and T2V | H3 POV Missionary Insertion | 18,776 | catalog, verified | [CivitAI](https://civitai.com/models/2843744?modelVersionId=3210503) |
-| `front-doggystyle` | `bent forward facing the front`, `man is partially visible behind her thrusting into her` | not stated | not stated | Front Doggystyle | 16,894 | catalog, verified | [CivitAI](https://civitai.com/models/1667001?modelVersionId=3321346) |
-| `minimax-h3-fingering-lora` | — | 0.8–1 | I2V | MiniMax H3 - Fingering LORA | 16,017 | catalog, verified | [CivitAI](https://civitai.com/models/2887438?modelVersionId=3264127) |
-| `penis-lora-h3` | `PENISLORA`, `Cinematic Realism` | not stated | not stated | Penis Lora - H3 | 15,546 | catalog, verified | [CivitAI](https://civitai.com/models/2895526?modelVersionId=3277703) |
-| `fineloras-pussy-anus-preview` | `pussy4nus` | not stated | not stated | FineLoRas - Pussy & Anus (preview) | 14,587 | catalog, verified | [CivitAI](https://civitai.com/models/2838518?modelVersionId=3207723) |
+| `fingering-pussy` | — | not stated | I2V and T2V | Fingering Pussy | 46,203 | catalog, verified | [CivitAI](https://civitai.com/models/2007360?modelVersionId=3342542) |
+| `synth-pussy` | — | not stated | I2V and T2V | Synth Pussy | 40,793 | catalog, verified | [CivitAI](https://civitai.com/models/2509189?modelVersionId=3320641) |
+| `epic-cumshots` | — | 1.0 | I2V and T2V | Epic Cumshots | 35,354 | catalog, verified | [CivitAI](https://civitai.com/models/2621242?modelVersionId=3202064) |
+| `hmpenis-penis-cock-lora-for-minimax-h3` | `penis`, `HMPenis` | not stated | not stated | HMPenis - Penis/Cock LoRA for MiniMax H3 | 34,312 | catalog, verified | [CivitAI](https://civitai.com/models/2849923?modelVersionId=3247473) |
+| `solo-dildo` | — | 1.0 | I2V and T2V | Solo Dildo | 33,168 | catalog, verified | [CivitAI](https://civitai.com/models/1707303?modelVersionId=3378450) |
+| `futa-masturbation-cumshot-i2v-mh3-ltx-wan` | — | not stated | I2V and T2V | Futa-Masturbation Cumshot - I2V [MH3/LTX/WAN] | 29,559 | catalog, verified | [CivitAI](https://civitai.com/models/2011853?modelVersionId=3200595) |
+| `instapic-ultrareal-the-authentic-social-media-lora-ig-tiktok-realism-flux-zit-flux-2-klein-krea2-minimax` | `instapic` | 0.8–1 | not stated | InstaPic : Ultrareal The Authentic Social Media Lora IG/Tiktok 📸 | 28,863 | catalog, verified | [CivitAI](https://civitai.com/models/2168120?modelVersionId=3405038) |
+| `h3-pov-missionary-insertion` | — | not stated | I2V and T2V | H3 POV Missionary Insertion | 18,779 | catalog, verified | [CivitAI](https://civitai.com/models/2843744?modelVersionId=3210503) |
+| `front-doggystyle` | `bent forward facing the front`, `man is partially visible behind her thrusting into her` | not stated | not stated | Front Doggystyle | 16,897 | catalog, verified | [CivitAI](https://civitai.com/models/1667001?modelVersionId=3321346) |
+| `minimax-h3-fingering-lora` | — | 0.8–1 | I2V | MiniMax H3 - Fingering LORA | 16,018 | catalog, verified | [CivitAI](https://civitai.com/models/2887438?modelVersionId=3264127) |
+| `penis-lora-h3` | `PENISLORA`, `Cinematic Realism` | not stated | not stated | Penis Lora - H3 | 15,553 | catalog, verified | [CivitAI](https://civitai.com/models/2895526?modelVersionId=3277703) |
+| `fineloras-pussy-anus-preview` | `pussy4nus` | not stated | not stated | FineLoRas - Pussy & Anus (preview) | 14,588 | catalog, verified | [CivitAI](https://civitai.com/models/2838518?modelVersionId=3207723) |
 | `hmmisdog-missionary-doggy-pov-lora-for-minimax-h3` | — | not stated | not stated | HMMisDog - Missionary / Doggy POV LoRA for Minimax H3 | 14,547 | catalog, verified | [CivitAI](https://civitai.com/models/2924146?modelVersionId=3356770) |
-| `hminnie-innie-pussy-lora-for-minimax-h3` | `inniepussy` | not stated | not stated | HMInnie - Innie Pussy LoRA for MiniMax H3 | 14,213 | catalog, verified | [CivitAI](https://civitai.com/models/2853405?modelVersionId=3222484) |
-| `facial-cumshot-into-hair` | — | not stated | I2V and T2V | Facial Cumshot into Hair | 14,041 | catalog, verified | [CivitAI](https://civitai.com/models/2383301?modelVersionId=3312141) |
+| `hminnie-innie-pussy-lora-for-minimax-h3` | `inniepussy` | not stated | not stated | HMInnie - Innie Pussy LoRA for MiniMax H3 | 14,215 | catalog, verified | [CivitAI](https://civitai.com/models/2853405?modelVersionId=3222484) |
+| `facial-cumshot-into-hair` | — | not stated | I2V and T2V | Facial Cumshot into Hair | 14,043 | catalog, verified | [CivitAI](https://civitai.com/models/2383301?modelVersionId=3312141) |
 | `kuroinu-style-il-zit-chroma-pony-h3-shrekman-hentai-loras` | `Digital erotic anime video that features:` | not stated | not stated | Kuroinu Style [IL, ZIT, Chroma, Pony H3] | 13,784 | catalog, verified | [CivitAI](https://civitai.com/models/1386883?modelVersionId=3354960) |
-| `minimaxh3-cowgirl-position-nsfw-int8-convrot` | `cowgirl position`, `thrusting her body` | not stated | I2V | [MinimaxH3] Cowgirl Position (NSFW) INT8 Convrot | 13,531 | catalog, verified | [CivitAI](https://civitai.com/models/2882639?modelVersionId=3258236) |
-| `minimaxh3-licking-penis-and-testicles-nsfw-int8-convrot` | `licking penis`, `licking testicles`, `licking penis tip` | not stated | I2V | [MinimaxH3] Licking Penis and Testicles (NSFW) INT8 Convrot | 12,930 | catalog, verified | [CivitAI](https://civitai.com/models/2888342?modelVersionId=3265246) |
+| `minimaxh3-cowgirl-position-nsfw-int8-convrot` | `cowgirl position`, `thrusting her body` | not stated | I2V | [MinimaxH3] Cowgirl Position (NSFW) INT8 Convrot | 13,534 | catalog, verified | [CivitAI](https://civitai.com/models/2882639?modelVersionId=3258236) |
+| `minimaxh3-licking-penis-and-testicles-nsfw-int8-convrot` | `licking penis`, `licking testicles`, `licking penis tip` | not stated | I2V | [MinimaxH3] Licking Penis and Testicles (NSFW) INT8 Convrot | 12,932 | catalog, verified | [CivitAI](https://civitai.com/models/2888342?modelVersionId=3265246) |
 | `cum-beam-cum-blast-hyper-projectile-cum` | `cum beam` | 0.5 | not stated | Cum beam / Cum blast / Hyper projectile cum | 12,343 | catalog, verified | [CivitAI](https://civitai.com/models/1068055?modelVersionId=3373587) |
-| `side-riding-cowgirl` | `riding a man`, `straddling his hips`, `side view cowgirl sex` | not stated | not stated | Side Riding Cowgirl | 11,220 | catalog, verified | [CivitAI](https://civitai.com/models/2546558?modelVersionId=3327446) |
-| `male-anatomy-ass-penis-testicles-and-glans-h3` | `asshole`, `ass`, `anus gap`, `penis`, `glans` | not stated | I2V and T2V | Male Anatomy – Ass, Penis, Testicles and Glans  – H3 | 10,128 | catalog, verified | [CivitAI](https://civitai.com/models/2839513?modelVersionId=3250559) |
-| `tig-ol-bitties-big-natural-tits-breasts-mh3-kr2-zit-f1d-pny-ill-sd1-5` | `TigOlBitties` | not stated | not stated | Tig Ol' Bitties (big natural tits/breasts) | 10,126 | catalog, verified | [CivitAI](https://civitai.com/models/957630?modelVersionId=3458906) |
-| `beanflk-masturbation-finger-insertion-audio` | `BEANFLK` | 0.40 | not stated | BEANFLK — Masturbation & Finger Insertion + Audio | 9,645 | catalog, verified | [CivitAI](https://civitai.com/models/2829335?modelVersionId=3267091) |
+| `side-riding-cowgirl` | `riding a man`, `straddling his hips`, `side view cowgirl sex` | not stated | not stated | Side Riding Cowgirl | 11,222 | catalog, verified | [CivitAI](https://civitai.com/models/2546558?modelVersionId=3327446) |
+| `male-anatomy-ass-penis-testicles-and-glans-h3` | `asshole`, `ass`, `anus gap`, `penis`, `glans` | 0.9 | I2V and T2V | Male Anatomy – Ass, Penis, Testicles and Glans  – H3 | 10,130 | catalog, verified | [CivitAI](https://civitai.com/models/2839513?modelVersionId=3250559) |
+| `tig-ol-bitties-big-natural-tits-breasts-mh3-kr2-zit-f1d-pny-ill-sd1-5` | `TigOlBitties` | not stated | not stated | Tig Ol' Bitties (big natural tits/breasts) | 10,128 | catalog, verified | [CivitAI](https://civitai.com/models/957630?modelVersionId=3458906) |
+| `beanflk-masturbation-finger-insertion-audio` | `BEANFLK` | 0.40 | not stated | BEANFLK — Masturbation & Finger Insertion + Audio | 9,649 | catalog, verified | [CivitAI](https://civitai.com/models/2829335?modelVersionId=3267091) |
+| `sideview-deepthroat-minimax-h3-lora-k3nk` | — | not stated | not stated | SideView Deepthroat - Minimax H3 LoRa - K3NK | 9,301 | catalog, verified | [CivitAI](https://civitai.com/models/2848656?modelVersionId=3216591) |
 | `tied-spreadeagle` | `tied supine spread-eagle pose` | not stated | not stated | Tied Spreadeagle | 9,301 | catalog, verified | [CivitAI](https://civitai.com/models/1428394?modelVersionId=3326785) |
-| `sideview-deepthroat-minimax-h3-lora-k3nk` | — | not stated | not stated | SideView Deepthroat - Minimax H3 LoRa - K3NK | 9,300 | catalog, verified | [CivitAI](https://civitai.com/models/2848656?modelVersionId=3216591) |
 | `2dan1m-2d-animated-nsfw` | `2dan1m` | 0.8–1.0 | I2V | 2dan1m - 2D Animated NSFW | 9,011 | catalog, verified | [CivitAI](https://civitai.com/models/2860624?modelVersionId=3259966) |
 | `deeper-h3` | — | not stated | not stated | Deeper... Hold It. | 8,928 | catalog, verified | [CivitAI](https://civitai.com/models/2879661?modelVersionId=3254522) |
-| `dildo-machine-sex` | `using a dildo sex machine` | not stated | not stated | Dildo Machine Sex | 8,904 | catalog, verified | [CivitAI](https://civitai.com/models/2263351?modelVersionId=3297515) |
+| `dildo-machine-sex` | `using a dildo sex machine` | not stated | not stated | Dildo Machine Sex | 8,907 | catalog, verified | [CivitAI](https://civitai.com/models/2263351?modelVersionId=3297515) |
 | `digicam-h3` | `d1g1cam` | not stated | I2V and T2V | [Minimax H3] Digicam Y2K Nude Realism Effect | 8,747 | catalog, verified | [CivitAI](https://civitai.com/models/2855485?modelVersionId=3224980) |
-| `mini-dick-fix-penis-helper-t2v` | `3r3kt (but not really needed)` | not stated | T2V | Mini Dick Fix - Penis Helper - T2V | 8,574 | catalog, verified | [CivitAI](https://civitai.com/models/2841239?modelVersionId=3207332) |
-| `cunnilingus` | `performing cunnilingus` | not stated | not stated | Cunnilingus | 8,431 | catalog, verified | [CivitAI](https://civitai.com/models/1971266?modelVersionId=3318405) |
-| `doggystyle-sex-side-rear-view` | — | not stated | I2V and T2V | Doggystyle Sex Side/Rear View | 7,842 | catalog, verified | [CivitAI](https://civitai.com/models/2967815?modelVersionId=3362792) |
-| `spooning-sex-leg-up` | `lying on her left side while a man lying behind her is thrusting into her vagina from behind` | not stated | not stated | Spooning Sex - Leg Up! | 7,758 | catalog, verified | [CivitAI](https://civitai.com/models/1803312?modelVersionId=3444113) |
+| `mini-dick-fix-penis-helper-t2v` | `3r3kt (but not really needed)` | 1.0 | T2V | Mini Dick Fix - Penis Helper - T2V | 8,574 | catalog, verified | [CivitAI](https://civitai.com/models/2841239?modelVersionId=3207332) |
+| `cunnilingus` | `performing cunnilingus` | not stated | not stated | Cunnilingus | 8,433 | catalog, verified | [CivitAI](https://civitai.com/models/1971266?modelVersionId=3318405) |
+| `doggystyle-sex-side-rear-view` | — | not stated | I2V and T2V | Doggystyle Sex Side/Rear View | 7,847 | catalog, verified | [CivitAI](https://civitai.com/models/2967815?modelVersionId=3362792) |
+| `spooning-sex-leg-up` | `lying on her left side while a man lying behind her is thrusting into her vagina from behind` | not stated | not stated | Spooning Sex - Leg Up! | 7,761 | catalog, verified | [CivitAI](https://civitai.com/models/1803312?modelVersionId=3444113) |
 | `chasing-blowjob` | `The girl performs a blowjob.` | not stated | not stated | chasing blowjob | 7,461 | catalog, verified | [CivitAI](https://civitai.com/models/2487911?modelVersionId=3211702) |
-| `cowgirl-behind` | `rear view cowgirl sex`, `riding a man, straddling him` | not stated | not stated | Cowgirl - Behind | 7,458 | catalog, verified | [CivitAI](https://civitai.com/models/1808710?modelVersionId=3311202) |
+| `cowgirl-behind` | `rear view cowgirl sex`, `riding a man, straddling him` | not stated | not stated | Cowgirl - Behind | 7,461 | catalog, verified | [CivitAI](https://civitai.com/models/1808710?modelVersionId=3311202) |
 | `minimax-h3-perfect-fingering` | — | not stated | not stated | Minimax H3 - Perfect Fingering | 7,114 | catalog, verified | [CivitAI](https://civitai.com/models/2935787?modelVersionId=3323149) |
-| `icy-twerk-pro-max` | `icytwerk`, `icytw3rk` | not stated | not stated | Icy Twerk Pro MAX | 6,663 | catalog, verified | [CivitAI](https://civitai.com/models/2836640?modelVersionId=3289971) |
+| `icy-twerk-pro-max` | `icytwerk`, `icytw3rk` | not stated | not stated | Icy Twerk Pro MAX | 6,664 | catalog, verified | [CivitAI](https://civitai.com/models/2836640?modelVersionId=3289971) |
 | `h3-female-masturbation-orgasmic-contractions` | `she is sitting with open legs while masturbating with a wand massager / massage gun / her hand`, `her pussy and anus to have strong orgasmic contractions visibly tightening and releasing rhythmically`, `She has an orgasm that causes her to ...`, `she falls back into a relaxed state, audibly catching her breath` | not stated | not stated | H3 Female Masturbation/Orgasmic Contractions | 6,643 | catalog, verified | [CivitAI](https://civitai.com/models/2926109?modelVersionId=3311155) |
 | `tada-cum-swallow-lora` | `TADAA` | not stated | not stated | TADA - Cum Swallow LoRA | 6,367 | catalog, verified | [CivitAI](https://civitai.com/models/2868961?modelVersionId=3241306) |
-| `fake-ass-silicone-bubble-butt` | `fake ass` | not stated | not stated | Fake ass, silicone bubble butt | 5,820 | catalog, verified | [CivitAI](https://civitai.com/models/2181576?modelVersionId=3468460) |
+| `fake-ass-silicone-bubble-butt` | `fake ass` | not stated | not stated | Fake ass, silicone bubble butt | 5,858 | catalog, verified | [CivitAI](https://civitai.com/models/2181576?modelVersionId=3468460) |
 | `heavymetalstyle` | `HvyMtl Style` | .7–.9 | not stated | HeavyMetalStyle | 5,159 | catalog, verified | [CivitAI](https://civitai.com/models/179844?modelVersionId=3256846) |
 | `dialectical-love-i2v-minimax-h3-nsfw-sex-lora` | — | not stated | I2V | Dialectical love-I2V Minimax H3 nsfw sex lora | 5,060 | catalog, verified | [CivitAI](https://civitai.com/models/2864913?modelVersionId=3236496) |
 | `tentacles-pack-h3-3d-realistic-2d-fantasy-sex-concept-collection` | `A digital, 3d CGI Video that features explicit scene involving female character and tentacles, the tentacles are being inserted into a female's vagina/ass, penetrates her vagina/ass`, `A digital 3d CGI Video that features explicit scene involving female character and tentacles, the tentacles are being inserted into a female's ass and vagina, one tentacle penetrates her ass, the second penetrates vagina.`, `Scene depicts 2d anime video of woman engaged in a sexual act with tentacles` | not stated | not stated | Tentacles Pack H3 - 3D/Realistic/2D | 4,957 | catalog, verified | [CivitAI](https://civitai.com/models/1466739?modelVersionId=3347053) |
-| `pornmaster-mmh3-side-view-of-penis-i2v` | — | not stated | I2V | PornMaster MMH3 Side View Of Penis I2V | 4,898 | catalog, verified | [CivitAI](https://civitai.com/models/2857221?modelVersionId=3227186) |
+| `pornmaster-mmh3-side-view-of-penis-i2v` | — | not stated | I2V | PornMaster MMH3 Side View Of Penis I2V | 4,902 | catalog, verified | [CivitAI](https://civitai.com/models/2857221?modelVersionId=3227186) |
 | `pjslide-pussyjob-sumata-grinding-no-penetration-audio` | `PJSLIDE` | not stated | I2V | PJSLIDE — Pussyjob / Sumata / Grinding, No Penetration + Audio | 4,851 | catalog, verified | [CivitAI](https://civitai.com/models/2849416?modelVersionId=3224859) |
-| `h3-grindtime` | — | 1.0 | I2V | H3 Grindtime | 4,769 | catalog, verified | [CivitAI](https://civitai.com/models/2862363?modelVersionId=3233508) |
-| `furry-cumshot-cum-physics-for-minimax-h3-ref2va` | — | 0.5–0.85; 0.7 | I2V | Furry cumshot & cum physics for Minimax H3 (REF2VA) | 4,666 | catalog, verified | [CivitAI](https://civitai.com/models/2854342?modelVersionId=3242952) |
-| `handjob-helper-101-h3` | — | not stated | not stated | Handjob Helper 101 h3 | 4,554 | catalog, verified | [CivitAI](https://civitai.com/models/2909518?modelVersionId=3290850) |
-| `penis-on-face-h3-and-wan-101` | `penis on face`, `penis on her face` | not stated | I2V and T2V | penis on face H3 and wan 101 | 4,134 | catalog, verified | [CivitAI](https://civitai.com/models/2438414?modelVersionId=3283360) |
+| `h3-grindtime` | — | 1.0 | I2V | H3 Grindtime | 4,771 | catalog, verified | [CivitAI](https://civitai.com/models/2862363?modelVersionId=3233508) |
+| `furry-cumshot-cum-physics-for-minimax-h3-ref2va` | — | 0.5–0.85; 0.7; 0.7–0.8 | I2V | Furry cumshot & cum physics for Minimax H3 (REF2VA) | 4,667 | catalog, verified | [CivitAI](https://civitai.com/models/2854342?modelVersionId=3242952) |
+| `handjob-helper-101-h3` | — | not stated | not stated | Handjob Helper 101 h3 | 4,557 | catalog, verified | [CivitAI](https://civitai.com/models/2909518?modelVersionId=3290850) |
+| `penis-on-face-h3-and-wan-101` | `penis on face`, `penis on her face` | not stated | I2V and T2V | penis on face H3 and wan 101 | 4,136 | catalog, verified | [CivitAI](https://civitai.com/models/2438414?modelVersionId=3283360) |
 | `minimax-h3-the-orgasm-button` | — | not stated | not stated | Minimax H3 - The Orgasm button | 3,747 | catalog, verified | [CivitAI](https://civitai.com/models/2858113?modelVersionId=3228264) |
 | `side-fuck-mmh3-by-funphantom` | — | not stated | not stated | Side Fuck MMH3 by FunPhantom | 3,718 | catalog, verified | [CivitAI](https://civitai.com/models/2887981?modelVersionId=3264805) |
-| `minimax-h3-ltx-2-3-misticnsfw-aio-10eros` | — | not stated | I2V | Minimax H3 - LTX 2.3 MisticNSFW AIO 10eros | 3,633 | catalog, verified | [CivitAI](https://civitai.com/models/2814217?modelVersionId=3391172) |
+| `minimax-h3-ltx-2-3-misticnsfw-aio-10eros` | — | not stated | I2V | Minimax H3 - LTX 2.3 MisticNSFW AIO 10eros | 3,635 | catalog, verified | [CivitAI](https://civitai.com/models/2814217?modelVersionId=3391172) |
 | `plastic-play-nsfw-plastic-wrap-plastic-bag-plastic-clothes-and-dresses-items-and-people-covered-by-plastic` | `covered by plastic`, `wrapped in plastic`, `wrapped in [color] [clarity] plastic`, `[color] [transparency] plastic dress`, `[color] [transparency] plastic ball gown` | not stated | not stated | Plastic play (NSFW)  + plastic wrap + plastic bag + plastic clothes and dresses + items An | 3,598 | catalog, verified | [CivitAI](https://civitai.com/models/1034427?modelVersionId=3326803) |
 | `handgag-pov` | — | 1.0 | not stated | Handgag POV | 3,538 | catalog, verified | [CivitAI](https://civitai.com/models/466438?modelVersionId=3378606) |
-| `cunnilingus` | — | not stated | I2V | Cunnilingus | 3,452 | catalog, verified | [CivitAI](https://civitai.com/models/2948890?modelVersionId=3339615) |
-| `gay-nsfw-model-for-minimax-h3` | `riding-anal-sexy` | 0.8–1.0 | I2V | Gay NSFW model for minimax h3 | 3,406 | catalog, verified | [CivitAI](https://civitai.com/models/2898865?modelVersionId=3279898) |
+| `cunnilingus` | — | not stated | I2V | Cunnilingus | 3,453 | catalog, verified | [CivitAI](https://civitai.com/models/2948890?modelVersionId=3339615) |
+| `gay-nsfw-model-for-minimax-h3` | `riding-anal-sexy` | 0.8–1.0 | I2V | Gay NSFW model for minimax h3 | 3,408 | catalog, verified | [CivitAI](https://civitai.com/models/2898865?modelVersionId=3279898) |
 | `t2v-i2v-h3-nsfw-furry-lora` | — | not stated | I2V and T2V | [T2V+I2V] H3 NSFW (+furry) lora | 3,397 | catalog, verified | [CivitAI](https://civitai.com/models/2857780?modelVersionId=3227854) |
-| `blowjob-v1-5-minimax` | — | not stated | not stated | Blowjob V1.5 - Minimax | 3,326 | catalog, verified | [CivitAI](https://civitai.com/models/3033120?modelVersionId=3446107) |
-| `blacked-style-cowgirl-pose-minimax-h3-ref2va` | — | not stated | I2V | BLACKED Style — Cowgirl Pose [MiniMax H3 Ref2VA] | 3,291 | catalog, verified | [CivitAI](https://civitai.com/models/2938209?modelVersionId=3326247) |
+| `blowjob-v1-5-minimax` | — | not stated | not stated | Blowjob V1.5 - Minimax | 3,335 | catalog, verified | [CivitAI](https://civitai.com/models/3033120?modelVersionId=3446107) |
+| `blacked-style-cowgirl-pose-minimax-h3-ref2va` | — | not stated | I2V | BLACKED Style — Cowgirl Pose [MiniMax H3 Ref2VA] | 3,292 | catalog, verified | [CivitAI](https://civitai.com/models/2938209?modelVersionId=3326247) |
 | `blow-job-minimax` | — | not stated | not stated | Blow Job MiniMax | 3,251 | catalog, verified | [CivitAI](https://civitai.com/models/3017523?modelVersionId=3425671) |
 | `kaku-table-humping-corner-grinding` | `KAKU` | not stated | not stated | KAKU - Table Humping / Corner Grinding | 2,853 | catalog, verified | [CivitAI](https://civitai.com/models/2878236?modelVersionId=3258282) |
-| `excellent-full-nude-minimax-h3-by-sarcastic-tofu` | `Excellent_Full_Nude` | not stated | not stated | Excellent Full Nude Minimax H3 by Sarcastic TOFU | 2,837 | catalog, verified | [CivitAI](https://civitai.com/models/2917388?modelVersionId=3300533) |
+| `excellent-full-nude-minimax-h3-by-sarcastic-tofu` | `Excellent_Full_Nude` | not stated | not stated | Excellent Full Nude Minimax H3 by Sarcastic TOFU | 2,841 | catalog, verified | [CivitAI](https://civitai.com/models/2917388?modelVersionId=3300533) |
 | `minimax-softsuck-blowjob` | — | 0.7–0.8 | I2V and T2V | Minimax Softsuck Blowjob | 2,751 | catalog, verified | [CivitAI](https://civitai.com/models/3007557?modelVersionId=3412628) |
 | `booty-physique` | `booty` | not stated | I2V | booty physique | 2,485 | catalog, verified | [CivitAI](https://civitai.com/models/2957370?modelVersionId=3405783) |
-| `down-blouse-101-h3` | — | not stated | I2V and T2V | Down blouse 101 H3 | 2,457 | catalog, verified | [CivitAI](https://civitai.com/models/2999645?modelVersionId=3402446) |
+| `down-blouse-101-h3` | — | not stated | I2V and T2V | Down blouse 101 H3 | 2,458 | catalog, verified | [CivitAI](https://civitai.com/models/2999645?modelVersionId=3402446) |
 | `fast-animation-nsfw-minimaxh3` | — | not stated | not stated | Fast Animation (NSFW) MiniMaxH3 | 2,212 | catalog, verified | [CivitAI](https://civitai.com/models/2970219?modelVersionId=3365799) |
-| `minimax-h3-reveals-her-penis` | — | not stated | not stated | MiNiMax-H3-reveals her penis | 2,169 | catalog, verified | [CivitAI](https://civitai.com/models/2930304?modelVersionId=3319225) |
-| `cunnilingus-minimax-h3-lora-k3nk` | `cunn1l1ngu5` | not stated | I2V and T2V | Cunnilingus - MiniMax H3 LoRa - K3NK | 2,140 | catalog, verified | [CivitAI](https://civitai.com/models/3013815?modelVersionId=3420786) |
-| `natural-saggy-boobs-by-funphantom` | — | not stated | I2V and T2V | Natural Saggy Boobs by FunPhantom | 2,133 | catalog, verified | [CivitAI](https://civitai.com/models/2903156?modelVersionId=3282910) |
-| `blowjob-wearing-thong-h3` | `blowjob_wearing_thong` | not stated | I2V and T2V | Blowjob wearing Thong - H3 | 2,114 | catalog, verified | [CivitAI](https://civitai.com/models/2893432?modelVersionId=3271508) |
-| `3d-animations-nsfw-helper-minimax-h3-lora-k3nk` | — | not stated | I2V | 3D Animations NSFW Helper - MiniMax H3 LoRa - K3NK | 2,041 | catalog, verified | [CivitAI](https://civitai.com/models/2966860?modelVersionId=3361684) |
-| `scissorlg-scissor-me-tribbers-h3-lesbian-sex` | `SCISSORLG` | 0.5 | I2V | SCISSORLG - SCISSOR ME TRIBBERS! - H3 - Lesbian Sex | 1,999 | catalog, verified | [CivitAI](https://civitai.com/models/2981796?modelVersionId=3380217) |
+| `minimax-h3-reveals-her-penis` | — | not stated | not stated | MiNiMax-H3-reveals her penis | 2,171 | catalog, verified | [CivitAI](https://civitai.com/models/2930304?modelVersionId=3319225) |
+| `cunnilingus-minimax-h3-lora-k3nk` | `cunn1l1ngu5` | not stated | I2V and T2V | Cunnilingus - MiniMax H3 LoRa - K3NK | 2,145 | catalog, verified | [CivitAI](https://civitai.com/models/3013815?modelVersionId=3420786) |
+| `natural-saggy-boobs-by-funphantom` | — | not stated | I2V and T2V | Natural Saggy Boobs by FunPhantom | 2,134 | catalog, verified | [CivitAI](https://civitai.com/models/2903156?modelVersionId=3282910) |
+| `blowjob-wearing-thong-h3` | `blowjob_wearing_thong` | not stated | I2V and T2V | Blowjob wearing Thong - H3 | 2,115 | catalog, verified | [CivitAI](https://civitai.com/models/2893432?modelVersionId=3271508) |
+| `3d-animations-nsfw-helper-minimax-h3-lora-k3nk` | — | not stated | I2V | 3D Animations NSFW Helper - MiniMax H3 LoRa - K3NK | 2,043 | catalog, verified | [CivitAI](https://civitai.com/models/2966860?modelVersionId=3361684) |
+| `scissorlg-scissor-me-tribbers-h3-lesbian-sex` | `SCISSORLG` | 0.5; 1.0 | I2V | SCISSORLG - SCISSOR ME TRIBBERS! - H3 - Lesbian Sex | 2,001 | catalog, verified | [CivitAI](https://civitai.com/models/2981796?modelVersionId=3380217) |
 | `blowjob-sandwich-h3-minimax-v1` | — | not stated | not stated | Blowjob Sandwich H3 Minimax V1 | 1,919 | catalog, verified | [CivitAI](https://civitai.com/models/2946371?modelVersionId=3336345) |
 | `peener-spooge` | `PEENER` | not stated | not stated | Peener SPOOGE! | 1,886 | catalog, verified | [CivitAI](https://civitai.com/models/2570815?modelVersionId=3265496) |
 | `invisible-grope-ghost-grab-breasts-minimax-h3-t2v-i2v-fl2v-nsfw` | `invisiblegrope`, `ghostgrope`, `invisiblegrab`, `ghostgrab`, `enf` | not stated | I2V and T2V | [Invisible Grope / Ghost grab breasts] MiniMax H3 T2V/I2V/FL2V  (NSFW) | 1,669 | catalog, verified | [CivitAI](https://civitai.com/models/2902092?modelVersionId=3281671) |
 | `bukkake-tongue-cum-playing` | `h3actv1,` | not stated | I2V and T2V | Bukkake - Tongue Cum Playing | 1,426 | catalog, verified | [CivitAI](https://civitai.com/models/3025664?modelVersionId=3436238) |
 | `darkroast-special-blends` | — | 1 | I2V and T2V | DarkRoast Special Blends | 1,224 | catalog, verified | [CivitAI](https://civitai.com/models/2998632?modelVersionId=3401224) |
-| `sex-doll-101-h3` | — | not stated | I2V and T2V | Sex Doll 101 H3 | 1,143 | catalog, verified | [CivitAI](https://civitai.com/models/3004560?modelVersionId=3408787) |
+| `sex-doll-101-h3` | — | not stated | I2V and T2V | Sex Doll 101 H3 | 1,145 | catalog, verified | [CivitAI](https://civitai.com/models/3004560?modelVersionId=3408787) |
 | `facial-str8-gay` | — | not stated | not stated | Facial Str8/Gay | 1,118 | catalog, verified | [CivitAI](https://civitai.com/models/3029113?modelVersionId=3440706) |
 | `3dcg-nsfw-h3` | `zy_3dcg` | 0.4–0.9 | T2V | 3DCG NSFW H3 ✨ | 1,032 | catalog, verified | [CivitAI](https://civitai.com/models/3023233?modelVersionId=3433071) |
 | `bend-over-spread` | — | not stated | not stated | Bend_Over_&_Spread | 1,008 | catalog, verified | [CivitAI](https://civitai.com/models/2997446?modelVersionId=3399855) |
-| `minimax-h3-2-5d-style-lora-il-trex` | — | not stated | I2V | Minimax H3 - 2.5d style lora [IL+Trex] | 1,001 | catalog, verified | [CivitAI](https://civitai.com/models/2925944?modelVersionId=3371489) |
-| `gay-porn` | — | not stated | not stated | Gay Porn | 985 | catalog, verified | [CivitAI](https://civitai.com/models/3027138?modelVersionId=3438132) |
+| `minimax-h3-2-5d-style-lora-il-trex` | — | 1.0 | I2V | Minimax H3 - 2.5d style lora [IL+Trex] | 1,001 | catalog, verified | [CivitAI](https://civitai.com/models/2925944?modelVersionId=3371489) |
+| `gay-porn` | — | not stated | not stated | Gay Porn | 986 | catalog, verified | [CivitAI](https://civitai.com/models/3027138?modelVersionId=3438132) |
 | `minimax-h3-t2v-i2v-male-malesuck` | — | not stated | not stated | Minimax-H3-T2V_I2V-Male-Malesuck | 950 | catalog, verified | [CivitAI](https://civitai.com/models/2886294?modelVersionId=3262707) |
 | `slop-cum` | — | not stated | not stated | Slop Cum | 924 | catalog, verified | [CivitAI](https://civitai.com/models/2928834?modelVersionId=3314567) |
 | `laphead` | — | not stated | not stated | LapHead | 779 | catalog, verified | [CivitAI](https://civitai.com/models/3007220?modelVersionId=3412196) |
-| `krea-2-dit-clementine-zclclementine-uncensored-glamour-muse-sfw-nsfw` | `zclclementine`, `zclclementinewoman` | not stated | I2V and T2V | [Krea 2 DiT] Clementine (zclclementine) — Uncensored Glamour Muse [SFW+NSFW] | 750 | catalog, verified | [CivitAI](https://civitai.com/models/3033305?modelVersionId=3453656) |
-| `exaggerated-paizuri` | — | 0.6–1.0 | not stated | Exaggerated Paizuri | 690 | catalog, verified | [CivitAI](https://civitai.com/models/3000256?modelVersionId=3403243) |
+| `krea-2-dit-clementine-zclclementine-uncensored-glamour-muse-sfw-nsfw` | `zclclementine`, `zclclementinewoman` | not stated | I2V and T2V | [Krea 2 DiT] Clementine (zclclementine) — Uncensored Glamour Muse [SFW+NSFW] | 751 | catalog, verified | [CivitAI](https://civitai.com/models/3033305?modelVersionId=3453656) |
+| `exaggerated-paizuri` | — | 0.6–1.0 | not stated | Exaggerated Paizuri | 691 | catalog, verified | [CivitAI](https://civitai.com/models/3000256?modelVersionId=3403243) |
 | `mello-s-definitive-nsfw-zootopia-lora-minimax-h3` | — | 0.85 | T2V | Mello's Definitive NSFW Zootopia Lora (Minimax H3) | 653 | catalog, verified | [CivitAI](https://civitai.com/models/2999666?modelVersionId=3402475) |
 | `minimax-h3-t2v-i2v-wanking` | — | not stated | not stated | Minimax-H3-T2V_I2V-wanking | 602 | catalog, verified | [CivitAI](https://civitai.com/models/2911364?modelVersionId=3293150) |
 | `wetwistle-h3-alt-dataset-faster-motion` | — | not stated | not stated | Wetwistle H3 (Alt-dataset/faster motion) | 552 | catalog, verified | [CivitAI](https://civitai.com/models/2954410?modelVersionId=3346429) |
@@ -214,14 +214,14 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nai-style-lora-minimax-h3-ref2va` | — | 0.85 | I2V | NAI Style Lora (Minimax H3, Ref2va) | 246 | catalog, verified | [CivitAI](https://civitai.com/models/3019999?modelVersionId=3428852) |
 | `gay-sex-minimax-h3-by-coachbate` | `g@ys3x_anal`, `g@ys3x_cowboy`, `g@ys3x_cumshot`, `g@ys3x_oral`, `g@ys3x_group` | not stated | I2V | Gay Sex MiniMax H3 by CoachBate | 216 | catalog, verified | [CivitAI](https://civitai.com/models/2861236?modelVersionId=3232136) |
 | `fatpussycameltoe-minimax-moss-krea2-sd` | `FatPussyCameltoe_TW` | not stated | T2V | FatPussyCameltoe [Minimax / MOSS / Krea2 / SD]🩲 | 210 | catalog, verified | [CivitAI](https://civitai.com/models/3022599?modelVersionId=3434217) |
-| `anal-minimax` | — | not stated | not stated | Anal - MiniMax | 194 | catalog, verified | [CivitAI](https://civitai.com/models/3031553?modelVersionId=3443995) |
+| `anal-minimax` | — | not stated | not stated | Anal - MiniMax | 195 | catalog, verified | [CivitAI](https://civitai.com/models/3031553?modelVersionId=3443995) |
 | `cumshot-minimax-h3-by-coachbate` | `CBL0ADZ` | not stated | not stated | Cumshot Minimax H3 by CoachBate | 188 | catalog, verified | [CivitAI](https://civitai.com/models/2840969?modelVersionId=3207014) |
 | `nude-collection-western-woman-boobs-3-moss-image` | `Western Woman Boobs` | not stated | not stated | Nude collection-Western_Woman_Boobs_3_MOSS-Image | 181 | catalog, verified | [CivitAI](https://civitai.com/models/3037792?modelVersionId=3452111) |
 | `anal-penetration-by-coachbate-minimax-h3` | — | not stated | I2V | Anal Penetration by CoachBate (Minimax H3) | 175 | catalog, verified | [CivitAI](https://civitai.com/models/2901443?modelVersionId=3280824) |
 | `krea-2-dit-nola-znolanola-uncensored-southern-street-muse-sfw-nsfw` | `znolanola`, `znolawoman` | not stated | I2V and T2V | [Krea 2 DiT] Nola (znolanola) — Uncensored Southern Street Muse [SFW+NSFW] | 165 | catalog, verified | [CivitAI](https://civitai.com/models/3041940?modelVersionId=3465011) |
 | `tit-fuck-101-h3` | — | not stated | I2V and T2V | Tit Fuck 101 h3 | 119 | catalog, verified | [CivitAI](https://civitai.com/models/3034804?modelVersionId=3448229) |
 | `cum-slut-minimax` | — | not stated | not stated | Cum Slut  - MiniMax | 118 | catalog, verified | [CivitAI](https://civitai.com/models/3031433?modelVersionId=3443842) |
-| `pornmaster-mmh3-breasts-slider` | `large breasts.`, `small breasts.` | not stated | not stated | PornMaster MMH3 Breasts Slider | 114 | catalog, verified | [CivitAI](https://civitai.com/models/2947241?modelVersionId=3337535) |
+| `pornmaster-mmh3-breasts-slider` | `large breasts.`, `small breasts.` | not stated | not stated | PornMaster MMH3 Breasts Slider | 115 | catalog, verified | [CivitAI](https://civitai.com/models/2947241?modelVersionId=3337535) |
 | `bulge-creator-animator-minimax-h3-underboner` | `underboner` | not stated | I2V | Bulge Creator & Animator Minimax H3 (Underboner) | 113 | catalog, verified | [CivitAI](https://civitai.com/models/2841876?modelVersionId=3235680) |
 | `slam-bam-wham-clam-slam-ass-ass-slam-on-ground` | `Thick curvy woman, low rear camera angle, in deep squat position. She aggressively lifts her hips then violently slams her huge soft ass into the floor repeatedly, hard impact, strong jiggle and bounce every time. Focused close-up on the ass slam, realistic physics, continuous powerful drops.` | not stated | not stated | Slam Bam Wham, Clam Slam Ass, Ass Slam on Ground | 99 | catalog, verified | [CivitAI](https://civitai.com/models/3001881?modelVersionId=3405313) |
 | `arousal-boner-m-l-for-minimax-h3` | `@r0us@l` | not stated | I2V and T2V | Arousal Boner (M/L) for Minimax H3 | 96 | catalog, verified | [CivitAI](https://civitai.com/models/2912806?modelVersionId=3243588) |
@@ -249,6 +249,8 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 **[MMH3] Mystic XXX**
 - base `MiniMax H3` · I2V and T2V · strength (stated): 0.2–1 · triggers: `mystic-h3` · installed
 
+Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2856467?modelVersionId=3226233)
 
 ### `deepthroat-face-fuck-high-wan.safetensors`
@@ -256,20 +258,25 @@ Source: [CivitAI](https://civitai.com/models/2856467?modelVersionId=3226233)
 **Deepthroat/Face Fuck- Wan2.2 / Minimax H3 I2V**
 - base `MiniMax H3` · I2V · strength: not stated · triggers: `a woman is kneeling in front of a man, his penis is out, he is grabbing her head with his hand, she is looking up at him, he is face fucking her, he thrusts his hips back and forth moving the penis inside her mouth, she reacts to each thrust by frowning and closes her eyes, pov view, ultra close-up` · installed
 
+Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2023407?modelVersionId=3374369)
 
 ### `cumshot3-h3.safetensors`
 
 **HMCumshot - Cumshot LoRA for MiniMax H3**
-- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `hmcumshot3` · installed
+- base `MiniMax H3` · I2V and T2V · strength (stated): 0.85 · triggers: `hmcumshot3`, `cumshot` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `hmcumshot3, he shoots a big load of thick white cum from his cock in five thick
 spurts. She is a petite blonde with her eyes shut and her mouth open. This pov
 shot shows her kneeling on a dark wood floor.`
 ```
+
+Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2857340?modelVersionId=3227331)
 
@@ -278,19 +285,25 @@ Source: [CivitAI](https://civitai.com/models/2857340?modelVersionId=3227331)
 **Giant Dom IL \| Fantasy Sex concept**
 - base `MiniMax H3` · T2V · strength: not stated · triggers: `Video depicts a sexual scene between a female central character and a massive, giant partner that inserts it's giant erect penis into woman vagina` · installed
 
+Compatibility: mode: T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/831683?modelVersionId=3270783)
 
 ### `h3-ltx-2-3-ltx2-better-nsfw-motion-h3.safetensors`
 
 **H3 - LTX 2.3 - LTX2 better NSFW motion**
-- base `LTXV 2.3` · I2V · strength: not stated · triggers: `h3 ltx 2 3 ltx2 better nsfw motion h3` · installed
+- base `LTXV 2.3` · I2V · strength (stated): 0.8; 0.9; 1 · triggers: `h3 ltx 2 3 ltx2 better nsfw motion h3` · installed
+
+Compatibility: mode: I2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2344781?modelVersionId=2986751)
 
 ### `rough-sex-fucked-silly-il-chroma-shrekman-h3.safetensors`
 
 **Rough Sex/Fucked Silly IL&Chroma \| Shrekman Hentai Loras**
-- base `MiniMax H3` · not stated · strength: not stated · triggers: `This is a cgi video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis` · installed
+- base `MiniMax H3` · not stated · strength: not stated · triggers: `This is a cgi video depicting a rough, intense, penetrative sex with male character performing, intense, fast thrusting motion penetrating female character with his erect penis`, `Video depicts explicit sex scene, 2d anime style, intense, rough thrusting motion during penetrative sex` · installed
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/1332917?modelVersionId=3402996)
 
@@ -299,6 +312,8 @@ Source: [CivitAI](https://civitai.com/models/1332917?modelVersionId=3402996)
 **Human Onahole \| Fantasy Sex Concept Collection**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `This video depicts explicit sex scene between female character and a giant male, the male is so gigantic that the woman who is central character is held in male hands` · installed
 
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/1319951?modelVersionId=3436059)
 
 ### `2d-anime-style-nsfw-h3.safetensors`
@@ -306,19 +321,25 @@ Source: [CivitAI](https://civitai.com/models/1319951?modelVersionId=3436059)
 **2D Anime Style NSFW LORA - H3**
 - base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `2d anime style` · installed
 
+Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2861135?modelVersionId=3286171)
 
 ### `hmmasturbation-squirting-and-female-mastur-h3.safetensors`
 
 **HMMasturbation - Squirting and Female Masturbation LoRA for Minimax H3**
-- base `MiniMax H3` · not stated · strength (stated): 0.4–0.8 · triggers: `hmmasturbation` · installed
+- base `MiniMax H3` · not stated · strength (stated): 0.4–0.8 · triggers: `hmmasturbation`, `hmsquirt` · installed
+
+Compatibility: speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2893742?modelVersionId=3275625)
 
 ### `minimax-h3-pussy-spread-h3.safetensors`
 
 **MiniMax H3 - Pussy spread**
-- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `MiniMax H3 - Pussy spread` · installed
+- base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `MiniMax H3 - Pussy spread`, `spread_labia` · installed
+
+Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2885332?modelVersionId=3306941)
 
@@ -327,6 +348,8 @@ Source: [CivitAI](https://civitai.com/models/2885332?modelVersionId=3306941)
 **MiniMax H3 - Pussy spread**
 - base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `spread_labia` · installed
 
+Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2885332?modelVersionId=3461499)
 
 ### `missionary-sex-pov-h3.safetensors`
@@ -334,7 +357,8 @@ Source: [CivitAI](https://civitai.com/models/2885332?modelVersionId=3461499)
 **Missionary Sex - POV**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `having missionary sex` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `Overhead view of a beautiful {Russian|French|Swedish|Swiss|Latina|Austrian|Dutch|English|America|Californian|Siberian|African} woman having missionary sex with a{|n African} man.
@@ -354,6 +378,8 @@ His mostly hidden {enormous|giant|huge|large|massive|thick|big} penis slides in 
 Lighting is {bright and even|soft|candle lit|d
 ```
 
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/1769556?modelVersionId=3279596)
 
 ### `pov-doggy-h3.safetensors`
@@ -361,7 +387,8 @@ Source: [CivitAI](https://civitai.com/models/1769556?modelVersionId=3279596)
 **POV Doggy**
 - base `MiniMax H3` · not stated · strength: not stated · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `POV doggystyle sex,
@@ -373,12 +400,16 @@ They are on a {white|red|blue|yellow|orange|multicolor|purple|teal|black} {bed|o
 Lighting is {bright and even|soft}, view from above`
 ```
 
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/1893639?modelVersionId=3300169)
 
 ### `h3-ltx-2-3-paizuri-titfuck-with-thrusting-h3.safetensors`
 
 **H3 - LTX 2.3 - Paizuri - Titfuck (With Thrusting + Squeeze) I2V**
-- base `LTXV2` · I2V and T2V · strength: not stated · triggers: `she gathers her breasts around the penis` · installed
+- base `LTXV2` · I2V and T2V · strength (stated): 1; 0.5 · triggers: `she gathers her breasts around the penis` · installed
+
+Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2364658?modelVersionId=2659405)
 
@@ -387,12 +418,15 @@ Source: [CivitAI](https://civitai.com/models/2364658?modelVersionId=2659405)
 **CIMLG - The Oral Creampie LoRa - Minimax H3**
 - base `LTXV 2.5` · I2V · strength (stated): 0.4 · triggers: `CUMOUF` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `CUMOUF. Close-up. Filmed from between his legs, looking at the underside of his cock.
 She lowers her mouth onto his cock sliding it up and down. She keeps his cock in her mouth and sucks it slowly, closing her eyes. His cock pulses in her mouth as he cums, the urethra on the underside swelling and shrinking with each pulse. Cum spills out of her lips. She swallows, looks at him and smiles.`
 ```
+
+Compatibility: mode: I2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2846978?modelVersionId=3214563)
 
@@ -401,11 +435,14 @@ Source: [CivitAI](https://civitai.com/models/2846978?modelVersionId=3214563)
 **Amateur POV ✨ KREA 2 + H3**
 - base `MiniMax H3` · not stated · strength (stated): 0.4–0.85 · triggers: `zy_amateurpov` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `integrated_multimodal_description: [Shot 1] zy_amateurpov, [detailed continuous scene description covering appearance, clothing/state of undress, body details, actions, facial expressions, camera angle, background, lighting]`
 ```
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2776852?modelVersionId=3403798)
 
@@ -414,6 +451,8 @@ Source: [CivitAI](https://civitai.com/models/2776852?modelVersionId=3403798)
 **Blackedraw Style — DoggyStyle + Pronebone [MiniMax H3 Ref2VA]**
 - base `MiniMax H3` · I2V · strength: not stated · triggers: `H3BLKD` · installed
 
+Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2905434?modelVersionId=3285724)
 
 ### `slop-twerk-minimax-h3.safetensors`
@@ -421,11 +460,14 @@ Source: [CivitAI](https://civitai.com/models/2905434?modelVersionId=3285724)
 **Slop Twerk MiniMax H3 LoRa**
 - base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `slop twerk minimax h3` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `twerks causing her ass to jiggle and shake`
 ```
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2885070?modelVersionId=3283175)
 
@@ -434,11 +476,14 @@ Source: [CivitAI](https://civitai.com/models/2885070?modelVersionId=3283175)
 **Blowjobs - BBC**
 - base `MiniMax H3` · not stated · strength: not stated · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `A beautiful woman is performing oral sex on a huge black penis.`
 ```
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/1494990?modelVersionId=3356763)
 
@@ -447,11 +492,14 @@ Source: [CivitAI](https://civitai.com/models/1494990?modelVersionId=3356763)
 **Minimax - Worship It**
 - base `MiniMax H3` · not stated · strength: not stated · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 s I threw at each save so I uploaded both.
 ```
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2897013?modelVersionId=3275319)
 
@@ -460,7 +508,8 @@ Source: [CivitAI](https://civitai.com/models/2897013?modelVersionId=3275319)
 **Doggy Style - Leg Up**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `doggystyle leg up sex` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `doggystyle leg up sex,
@@ -475,6 +524,8 @@ She is on a {blue|green|yellow|orange|brown|black|white|pink} {couch|bed|bench}.
 {bedroom|living room}, {high-angle|low-angle|wide} side view,`
 ```
 
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/1993262?modelVersionId=3303351)
 
 ### `minimaxh3-blowjob-nsfw-int8-convrot-h3.safetensors`
@@ -482,11 +533,14 @@ Source: [CivitAI](https://civitai.com/models/1993262?modelVersionId=3303351)
 **[MinimaxH3] Blowjob (NSFW) INT8 Convrot**
 - base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `blowjob`, `sucking penis` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 anything worn on the body is clothing, so any new outfit a character wears in a video game can be used as a trigger word without using the word clothing or hat). The same fate happens with captions too, too much = AI just gives up. The best way is to either balance out the dataset or create a new lora per clothing change/action.
 ```
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2929639?modelVersionId=3315548)
 
@@ -495,12 +549,25 @@ Source: [CivitAI](https://civitai.com/models/2929639?modelVersionId=3315548)
 **Facial CumShot MM H3 by FunPhantom**
 - base `MiniMax H3` · I2V · strength: not stated · triggers: `facial cumshot mm h3 by funphantom h3` · installed
 
+Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2892032?modelVersionId=3269749)
+
+### `messy-blowjob-h3.safetensors`
+
+**Messy Blowjob H3**
+- base `MiniMax H3` · I2V · strength (stated): 1 · installed
+
+Compatibility: mode: I2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
+Source: [CivitAI](https://civitai.com/models/2997232?modelVersionId=3399472)
 
 ### `simply-sybian-bouncing-edition-h3.safetensors`
 
 **Simply Sybian - Bouncing Edition**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `riding a Sybian` · installed
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/1389914?modelVersionId=3300498)
 
@@ -509,7 +576,8 @@ Source: [CivitAI](https://civitai.com/models/1389914?modelVersionId=3300498)
 **F4C3SPL4SH Cumshot - MiniMax H3 LoRa - K3NK**
 - base `MiniMax H3` · I2V and T2V · strength: not stated · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `For the target video, at 0.00 seconds into the target video, (from [Shot 1]) is fully referenced.
@@ -522,6 +590,8 @@ non_diegetic_music: none.
 `
 ```
 
+Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2945118?modelVersionId=3334780)
 
 ### `fisting-h3.safetensors`
@@ -529,7 +599,8 @@ Source: [CivitAI](https://civitai.com/models/2945118?modelVersionId=3334780)
 **Fisting**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `being vaginally fisted by another person` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `A {Russian|French|German|South Korean|Dutch|Swiss|American|Swedish|Austrian|Ukrainian|Portuguese} woman with {blonde|black|brown|dirty-blonde|dark red} hair is being vaginally fisted by another person {from behind|}, 
@@ -545,12 +616,16 @@ The person fisting her is a {man|woman|doctor|nurse|firefighter} and is thrustin
 {bright|soft} even lighting, {high-angle|} view`
 ```
 
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/1691421?modelVersionId=3383307)
 
 ### `minimax-h3-thumbinbutt-i2v-h3.safetensors`
 
 **MiniMax H3 - ThumbInButt (I2V)**
 - base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `thum1n8utt` · installed
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2904444?modelVersionId=3284492)
 
@@ -559,7 +634,8 @@ Source: [CivitAI](https://civitai.com/models/2904444?modelVersionId=3284492)
 **Nipple Play - MiniMax H3**
 - base `MiniMax H3` · not stated · strength (stated): 1.0 · triggers: `Nipple Play - MiniMax H3` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `integrated_multimodal_description:
@@ -572,6 +648,8 @@ non_diegetic_music:
 None.`
 ```
 
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2888071?modelVersionId=3295051)
 
 ### `dildoing-h3.safetensors`
@@ -579,7 +657,8 @@ Source: [CivitAI](https://civitai.com/models/2888071?modelVersionId=3295051)
 **Dildoing**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `pumping a dildo insider her vagina` · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `Realistic live-action cinematic look, high quality photo studio shoot: practical film photography style, a simple well-lit photo studio, anamorphic lens, shallow depth of field, 4k, simple natural movement.
@@ -592,12 +671,16 @@ Scene Overview: She is {{lying on her side|reclined|lying on her back} on a {lig
 {bright|natural|dim|neon} lighting, medium close-up view.`
 ```
 
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2903074?modelVersionId=3282820)
 
 ### `flaccid-vtx-flaccid-uncut-penis-minimax-h3.safetensors`
 
 **Flaccid VTX - Flaccid Uncut Penis [MiniMax H3]**
 - base `MiniMax H3` · I2V and T2V · strength: not stated · triggers: `penis` · installed
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2847756?modelVersionId=3428891)
 
@@ -606,12 +689,16 @@ Source: [CivitAI](https://civitai.com/models/2847756?modelVersionId=3428891)
 **Groping Loras Pack IL \| Shrekman Hentai Loras**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `The video shows a scne where central female character breasts are getting groped, grabbed and held by hands of other character` · installed
 
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/1406452?modelVersionId=3269347)
 
 ### `cuddle-cup-spooning-sex-position-h3.safetensors`
 
 **CUDDLE CUP — Spooning Sex Position**
 - base `MiniMax H3` · I2V · strength: not stated · triggers: `SPOONLG` · installed
+
+Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2968559?modelVersionId=3363705)
 
@@ -620,12 +707,16 @@ Source: [CivitAI](https://civitai.com/models/2968559?modelVersionId=3363705)
 **CUDDLE CUP — Spooning Sex Position**
 - base `MiniMax H3` · I2V · strength: not stated · triggers: `SPOONLG` · installed
 
+Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2968559?modelVersionId=3363705)
 
 ### `minimax-h3-astro-nsfw-h3.safetensors`
 
 **Minimax h3 Astro NSFW**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `minimax h3 astro nsfw h3` · installed
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2895273?modelVersionId=3273104)
 
@@ -634,12 +725,16 @@ Source: [CivitAI](https://civitai.com/models/2895273?modelVersionId=3273104)
 **Minimax H3_rimjob_ass licking_anal**
 - base `MiniMax H3` · T2V · strength (stated): 0.75–1.0 · installed
 
+Compatibility: mode: T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2962318?modelVersionId=3356109)
 
 ### `missionlg-mission-impossible-missionary-po-h3.safetensors`
 
 **MISSIONLG - Mission Impossible - Missionary Position Augmenter H3**
 - base `MiniMax H3` · I2V · strength: not stated · triggers: `MISSIONLG` · installed
+
+Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/3000657?modelVersionId=3403761)
 
@@ -648,12 +743,16 @@ Source: [CivitAI](https://civitai.com/models/3000657?modelVersionId=3403761)
 **Titfuck Sideview - H3**
 - base `MiniMax H3` · I2V · strength: not stated · triggers: `titfuck_sideview` · installed
 
+Compatibility: mode: I2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2908594?modelVersionId=3289602)
 
 ### `nursing-hand-job-101-h3.safetensors`
 
 **Nursing Hand job 101 H3**
 - base `MiniMax H3` · not stated · strength (stated): 0.7–1.0 · installed
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2994491?modelVersionId=3396004)
 
@@ -662,12 +761,7 @@ Source: [CivitAI](https://civitai.com/models/2994491?modelVersionId=3396004)
 **Vibrator & Squirting Minimax H3 NSFW**
 - base `MiniMax H3` · I2V and T2V · strength (stated): 0.7–0.8 · installed
 
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2960864?modelVersionId=3354340)
-
-### `h3-edge-time-h3.safetensors`
-
-**H3 Edge Time**
-- base `MiniMax H3` · I2V and T2V · strength (stated): 1 · installed
-
-Source: [CivitAI](https://civitai.com/models/3016803?modelVersionId=3424731)
 

@@ -1,21 +1,21 @@
 # Wan: Realism
 
-95 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+98 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `lenovo-ultrareal` | `l3n0v0` | 0.85–0.9; 0.80–0.9; 0.8 | T2V | Lenovo UltraReal | 222,533 | catalog, verified | [CivitAI](https://civitai.com/models/1662740?modelVersionId=2066914) |
-| `breast-expansion-wan-2-2-i2v` | `Br3ast3xpansion`, `her breasts grow`, `sagging breasts`, `rapid expansion` | not stated | I2V and T2V | Breast Expansion WAN 2.2 i2v | 58,357 | catalog, verified | [CivitAI](https://civitai.com/models/1918611?modelVersionId=2171522) |
-| `pov-blowjob` | `POV blowjob, deepthroat;`, `Pov,`, `Pov blowjob,`, `deepthroat,`, `Shallow penetration,` | not stated | I2V | Pov_Blowjob | 28,611 | catalog, verified | [CivitAI](https://civitai.com/models/680129?modelVersionId=2155928) |
-| `wan2-2-smartphone-snapshot-photo-reality-style` | `image in an early 2010s amateur photo artstyle with washed out colors`, `Early 2010s snapshot photo captured with a phone and uploaded to Facebook, featuring dynamic natural lighting, and a neutral white color balance with washed out colors`, `amateur photo` | not stated | T2V | [WAN2.2] Smartphone Snapshot Photo Reality [STYLE] | 25,805 | catalog, verified | [CivitAI](https://civitai.com/models/1834338?modelVersionId=2079658) |
-| `furry-enhancer-video` | `anthro`, `furry` | not stated | I2V and T2V | Furry Enhancer  Video | 21,801 | catalog, verified | [CivitAI](https://civitai.com/models/1782485?modelVersionId=2235087) |
+| `lenovo-ultrareal` | `l3n0v0` | 0.85–0.9; 0.80–0.9; 0.8 | T2V | Lenovo UltraReal | 222,556 | catalog, verified | [CivitAI](https://civitai.com/models/1662740?modelVersionId=2066914) |
+| `breast-expansion-wan-2-2-i2v` | `Br3ast3xpansion`, `her breasts grow`, `sagging breasts`, `rapid expansion` | 0.7; 1 | I2V and T2V | Breast Expansion WAN 2.2 i2v | 58,359 | catalog, verified | [CivitAI](https://civitai.com/models/1918611?modelVersionId=2171522) |
+| `pov-blowjob` | `POV blowjob, deepthroat;`, `Pov,`, `Pov blowjob,`, `deepthroat,`, `Shallow penetration,` | not stated | I2V | Pov_Blowjob | 28,614 | catalog, verified | [CivitAI](https://civitai.com/models/680129?modelVersionId=2155928) |
+| `wan2-2-smartphone-snapshot-photo-reality-style` | `amateur photo`, `image in an early 2010s amateur photo artstyle with washed out colors`, `Early 2010s snapshot photo captured with a phone and uploaded to Facebook, featuring dynamic natural lighting, and a neutral white color balance with washed out colors` | not stated | T2V | [WAN2.2] Smartphone Snapshot Photo Reality [STYLE] | 25,805 | catalog, verified | [CivitAI](https://civitai.com/models/1834338?modelVersionId=2079658) |
+| `furry-enhancer-video` | `anthro`, `furry` | not stated | I2V and T2V | Furry Enhancer  Video | 21,804 | catalog, verified | [CivitAI](https://civitai.com/models/1782485?modelVersionId=2235087) |
 | `best-jean-shorts-daisy-dukes-wan-hunyuan-flux-pony-sd` | `bj5`, `skin-tight denim shorts so tight her pussy lips are boldly visible from the front`, `skin-tight denim shorts so tight her pussy lips are boldly visible from the back`, ` frayed edges`, `no underwear` | not stated | T2V | Best Jean Shorts (Daisy Dukes)  //Wan+Hunyuan+Flux+Pony+SD | 21,451 | catalog, verified | [CivitAI](https://civitai.com/models/291248?modelVersionId=1899112) |
-| `natural-saggy-breasts` | `saggy` | not stated | T2V | Natural Saggy Breasts | 20,594 | catalog, verified | [CivitAI](https://civitai.com/models/1844246?modelVersionId=2087049) |
+| `natural-saggy-breasts` | `saggy` | not stated | T2V | Natural Saggy Breasts | 20,598 | catalog, verified | [CivitAI](https://civitai.com/models/1844246?modelVersionId=2087049) |
 | `wan-2-1-anime-cumshot-aesthetics-precision-load-live-action-compatible` | — | not stated | I2V | WAN 2.1 Anime Cumshot Aesthetics – Precision Load (Live-action compatible) | 17,601 | catalog, verified | [CivitAI](https://civitai.com/models/1684874?modelVersionId=1934867) |
 | `jculture-company` | — | not stated | I2V | Jculture Company (海外版) | 17,180 | catalog, verified | [CivitAI](https://civitai.com/models/1048386?modelVersionId=1693822) |
-| `real-nud3s-qwen-wan-2-2` | `nud3` | not stated | T2V | Real_Nud3s [Qwen/Wan 2.2] | 13,831 | catalog, verified | [CivitAI](https://civitai.com/models/1904517?modelVersionId=2386421) |
+| `real-nud3s-qwen-wan-2-2` | `nud3` | 1 | T2V | Real_Nud3s [Qwen/Wan 2.2] | 13,831 | catalog, verified | [CivitAI](https://civitai.com/models/1904517?modelVersionId=2386421) |
 | `pov-non-pov-cowgirl-position-sex` | `straddling a man in cowgirl position`, `moving her hips up and down on his penis`, `sliding his penis in and out of her vagina` | not stated | I2V | (POV/non-POV) Cowgirl Position Sex | 10,913 | catalog, verified | [CivitAI](https://civitai.com/models/717557?modelVersionId=2047787) |
 | `instareal-wan-2-2` | — | not stated | T2V | Instareal WAN 2.2 | 10,242 | catalog, verified | [CivitAI](https://civitai.com/models/1877171?modelVersionId=2124694) |
 | `upright-sex` | `standing sex, the man is standing behind the woman and penetrating her. He is thrusting his hip up and down` | not stated | I2V | Upright sex | 9,755 | catalog, verified | [CivitAI](https://civitai.com/models/2198636?modelVersionId=2475548) |
@@ -29,10 +29,10 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `tentacle-sex-realistic-concept-and-movement-wan2-1-i2v` | `tentacle` | not stated | I2V and T2V | Tentacle Sex Realistic Concept and Movement WAN2.1 i2v | 5,641 | catalog, verified | [CivitAI](https://civitai.com/models/1402485?modelVersionId=1585322) |
 | `nsfw-catalog` | — | not stated | I2V | NSFW catalog | 5,013 | catalog, verified | [CivitAI](https://civitai.com/models/2270151?modelVersionId=2555293) |
 | `mature-body-realism-lora-female` | — | not stated | T2V | Mature Body Realism LoRa (Female) | 2,952 | catalog, verified | [CivitAI](https://civitai.com/models/2266068?modelVersionId=2550743) |
-| `girl-next-door-realistic-mature-lady-imaginary-v3-0` | `GND_Wan`, `GND V4 `, `Random imaginary woman` | not stated | TI2V (and I2V/T2V) | Girl Next Door - Realistic Mature Lady (imaginary) V3.0 | 2,944 | catalog, verified | [CivitAI](https://civitai.com/models/1103661?modelVersionId=1720941) |
+| `girl-next-door-realistic-mature-lady-imaginary-v3-0` | `GND_Wan`, `GND V4 `, `Random imaginary woman` | not stated | TI2V (and I2V/T2V) | Girl Next Door - Realistic Mature Lady (imaginary) V3.0 | 2,945 | catalog, verified | [CivitAI](https://civitai.com/models/1103661?modelVersionId=1720941) |
 | `for-the-love-of-latex-fabric-realism-lora` | — | 0.4–0.7 | T2V | For the Love of Latex — Fabric Realism LoRA | 2,622 | catalog, verified | [CivitAI](https://civitai.com/models/2282950?modelVersionId=2569661) |
 | `surround-camera` | `ymq` | not stated | I2V | Surround camera | 2,551 | catalog, verified | [CivitAI](https://civitai.com/models/1959853?modelVersionId=2218344) |
-| `ratatoskr-animal-creature-and-furry-for-wan-2-1-i2v-lora` | `anthro`, `furry` | not stated | I2V | Ratatoskr (Animal, Creature and Furry ) for WAN 2.1 I2V (Lora) | 2,523 | catalog, verified | [CivitAI](https://civitai.com/models/1655634?modelVersionId=1889570) |
+| `ratatoskr-animal-creature-and-furry-for-wan-2-1-i2v-lora` | `furry`, `anthro` | not stated | I2V | Ratatoskr (Animal, Creature and Furry ) for WAN 2.1 I2V (Lora) | 2,524 | catalog, verified | [CivitAI](https://civitai.com/models/1655634?modelVersionId=1889570) |
 | `gwent-style-shrekman-game-styles` | `GWENT-PREM` | not stated | not stated | Gwent style | 2,416 | catalog, verified | [CivitAI](https://civitai.com/models/939818?modelVersionId=1794503) |
 | `wan-instagooner-v1` | `instag00n` | not stated | I2V | WAN - Instagooner v1 | 2,397 | catalog, verified | [CivitAI](https://civitai.com/models/1836311?modelVersionId=2078049) |
 | `beautiful-korean-ulzzang-girls-wan-2-2` | `UzzlangG1`, `a beautiful young Korean woman`, `large eyes`, `pale skin`, `small full lips` | 0.7–1 | T2V | Beautiful Korean Ulzzang Girls WAN 2.2 | 2,276 | catalog, verified | [CivitAI](https://civitai.com/models/2193272?modelVersionId=2469533) |
@@ -87,13 +87,14 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `tina-oc` | — | not stated | I2V and T2V | Tina OC | 258 | catalog, verified | [CivitAI](https://civitai.com/models/1776318?modelVersionId=2013155) |
 | `tfm-kash-realistic-version-for-wan-video` | — | not stated | T2V | TFM Kash Realistic Version for Wan Video | 246 | catalog, verified | [CivitAI](https://civitai.com/models/1606913?modelVersionId=1818467) |
 | `photo-realistic-style-wan-t2v-14b` | `Photo-realistic style,` | not stated | T2V | Photo-realistic style - Wan T2V 14B | 238 | catalog, verified | [CivitAI](https://civitai.com/models/2275157?modelVersionId=2560796) |
-| `instagram-tiktok-women-influencer-topgolf-girl-wan-2-2-t2v` | `GOLFGIRL` | not stated | T2V | Instagram TikTok Women Influencer - TopGolf Girl (WAN 2.2 T2V) | 229 | catalog, verified | [CivitAI](https://civitai.com/models/2019359?modelVersionId=2287233) |
+| `instagram-tiktok-women-influencer-topgolf-girl-wan-2-2-t2v` | `GOLFGIRL` | 0.65–0.8 | T2V | Instagram TikTok Women Influencer - TopGolf Girl (WAN 2.2 T2V) | 229 | catalog, verified | [CivitAI](https://civitai.com/models/2019359?modelVersionId=2287233) |
 | `handsome-old-men-wan-2-1-t2v-14b` | `handsome older man, white hair, caucasian, light skin` | not stated | T2V | Handsome Old Men WAN 2.1 T2V 14B | 223 | catalog, verified | [CivitAI](https://civitai.com/models/1834876?modelVersionId=2076448) |
 | `spy-in-disguise-video` | `UNMASKING` | not stated | T2V | SPY IN DISGUISE video | 222 | catalog, verified | [CivitAI](https://civitai.com/models/2060145?modelVersionId=2331280) |
 | `ai-girl-fictional-women-series27-27-wan-2-2-t2v` | `ai27` | not stated | T2V | AI Girl: Fictional Women Series27 / 架空の女性シリーズ27 Wan 2.2 T2V | 213 | catalog, verified | [CivitAI](https://civitai.com/models/2802978?modelVersionId=3160106) |
 | `nsfw-wan2-2-t2v-fashion-ol-slender-legs-professional-suit-white-lace-blouse-heels` | `NSFXGOL` | not stated | T2V | NSFW WAN2.2 T2V Fashion OL  Slender legs Professional suit White lace blouse heels | 205 | catalog, verified | [CivitAI](https://civitai.com/models/2069900?modelVersionId=2342188) |
 | `atm-09-st-scopedog-wan-2-2-flux-1d` | `ATM-09-ST` | not stated | T2V | ATM-09-ST SCOPEDOG / Wan 2.2 / FLUX.1D | 185 | catalog, verified | [CivitAI](https://civitai.com/models/1643408?modelVersionId=2959088) |
 | `nsfw-wan2-2-t2v-jk-black-lace-bra-white-short-shirt-blue-plaid-pleated-miniskirt-black-high-heels` | `NSFHSJK` | not stated | T2V | NSFW WAN2.2 T2V JK,Black lace bra, white short shirt blue plaid pleated miniskirt Black hi | 179 | catalog, verified | [CivitAI](https://civitai.com/models/2113471?modelVersionId=2390915) |
+| `nsfw-wan2-2-t2v-blue-denim-shorts-exposed-breasts-and-genitals-cosplay-cat-ear-headband` | `NSFQLMN` | not stated | T2V | NSFW WAN2.2 T2V blue denim shorts Exposed breasts and genitals cosplay cat ear headband | 175 | catalog, verified | [CivitAI](https://civitai.com/models/2085833?modelVersionId=2360013) |
 | `nsfw-wan2-2-t2v-red-turtleneck-sweater-black-patent-leather-mini-skirt-black-stockings-high-heels` | `NSFXGHS` | not stated | T2V | NSFW WAN2.2 T2V Red Turtleneck Sweater, Black Patent Leather Mini Skirt, Black Stockings H | 156 | catalog, verified | [CivitAI](https://civitai.com/models/2074717?modelVersionId=2347619) |
 | `erotic-beauty` | — | not stated | T2V | Erotic Beauty | 140 | catalog, verified | [CivitAI](https://civitai.com/models/1906046?modelVersionId=2157392) |
 | `nsfw-wan2-2-t2v-red-wrap-long-sleeve-blouse-black-lace-panties-black-sheer-stockings-full-leg` | — | not stated | T2V | NSFW WAN2.2 T2V  red wrap long-sleeve blouse black lace panties   black sheer stockings, f | 127 | catalog, verified | [CivitAI](https://civitai.com/models/2093545?modelVersionId=2368684) |
@@ -101,6 +102,8 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nsfw-wan2-2-t2v-purple-long-sleeve-blouse-blue-patterned-short-skirt-black-panties-nude-high-heel` | `NSFSWZS` | not stated | T2V | NSFW WAN2.2 T2V Purple Long-Sleeve Blouse, Blue Patterned Short Skirt, black Panties Nude  | 114 | catalog, verified | [CivitAI](https://civitai.com/models/2105401?modelVersionId=2381897) |
 | `yoko-littner-realistic-for-wan-2-1` | — | not stated | T2V | Yoko Littner (Realistic) for Wan 2.1 | 109 | catalog, verified | [CivitAI](https://civitai.com/models/1892650?modelVersionId=2142289) |
 | `shiro-deadman-wonderland-realistic-for-wan-21` | — | not stated | T2V | Shiro (Deadman Wonderland Realistic for Wan 21 | 103 | catalog, verified | [CivitAI](https://civitai.com/models/1901750?modelVersionId=2152592) |
+| `tetsuo-ai-wan-video-lora` | — | not stated | T2V | tetsuo-ai-wan-video-lora | 0 | catalog, verified | [HF](https://huggingface.co/piccassol/tetsuo-ai-wan-video-lora) |
+| `tetsuo-ai-wan-video-lora` | — | not stated | T2V | tetsuo-ai-wan-video-lora | 0 | catalog, verified | [HF](https://huggingface.co/jauganaut1/tetsuo-ai-wan-video-lora) |
 
 ## Details
 
@@ -109,11 +112,14 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 **Best Jean Shorts (Daisy Dukes)  //Wan+Hunyuan+Flux+Pony+SD**
 - base `Wan Video 14B t2v` · T2V · strength: not stated · triggers: `bj5`, `skin-tight denim shorts so tight her pussy lips are boldly visible from the front`, `skin-tight denim shorts so tight her pussy lips are boldly visible from the back`, ` frayed edges`, `no underwear`, `micro-cut denim shorts so high-cut they resemble a thong`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 from below, showing off her pussy spreading her legs, fit, 18 year old white girl with wide hips, a huge thigh gap, a narrow waist, hazel eyes, a beautiful face with delicate features, young and attractive, hoop earrings, tattoos, slutty eye shadow, long eyelashes, slutty makeup style, dirty blonde hair, wearing revealing bj5, revealing cutoff denim faded light blue jean shorts, showing off her pussy, vagina slightly visible, pussy lips, no underwear, pussy peek, wearing a Henley shirt, motivated lighting, hollywood blockbuster. flash zoom shot, in a hidden courtyard, posing crossing arms, erotic, XXX, sexuality implied, NSFW, explicit, porn
 ```
+
+Compatibility: mode: T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/291248?modelVersionId=1899112)
 
@@ -122,7 +128,8 @@ Source: [CivitAI](https://civitai.com/models/291248?modelVersionId=1899112)
 **WAN 2.1 Anime Cumshot Aesthetics – Precision Load (Live-action compatible)**
 - base `Wan Video 14B i2v 480p` · I2V · strength: not stated
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `A girl is kneeling
@@ -131,20 +138,41 @@ A girl is standing.
 A girl is lying down. `
 ```
 
+Compatibility: mode: I2V; resolution: 480p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
 Source: [CivitAI](https://civitai.com/models/1684874?modelVersionId=1934867)
+
+### `assslap_wan22_i2v_low_noise.safetensors`
+
+**Wan2.2 Ass Slap Dynamics: The Ultimate Wan2.2 LoRA for Realistic Butt Slapping in T2V & I2V**
+- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength: not stated
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`man slaps woman's ass during sex, ass slap`
+```
+
+Compatibility: mode: I2V and T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2314467?modelVersionId=2603972)
 
 ### `tentacles-shura.safetensors`
 
 **Tentacle Sex Realistic Concept and Movement WAN2.1 i2v**
 - base `Wan Video` · I2V and T2V · strength: not stated · triggers: `tentacle`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `One person named 8f%gqg in the middle of the screen, a black tentacle enters from the top of the screen and fills her mouth. White liquid cum shoots out from the tentacle. Stable camera.
 
 One person named 8f%gqg in the middle of the screen relaxing. Suddenly rusty flesh tentacles with suction cups appear from all sides of the screen and she is shocked. A tentacle from bottom thrust back and forth in her vagina violently, and another right below it enters her anus, and snaking throbbing. The tentacles shoot white cum liquid.`
 ```
+
+Compatibility: mode: I2V and T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1402485?modelVersionId=1585322)
 
@@ -153,11 +181,14 @@ Source: [CivitAI](https://civitai.com/models/1402485?modelVersionId=1585322)
 **Mature Body Realism LoRa (Female)**
 - base `Wan Video 2.2 T2V-A14B` · T2V · strength: not stated
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 s: - Realistic photo of a woman standing against a neutral light-gray studio backdrop, soft diffused lighting, natural skin texture, subtle pores and fine lines, confident relaxed posture, understated makeup, mature elegance, tasteful black sleeveless dress, shallow depth of field, 85mm lens, professional portrait photography.
 ```
+
+Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/2266068?modelVersionId=2550743)
 
@@ -166,11 +197,14 @@ Source: [CivitAI](https://civitai.com/models/2266068?modelVersionId=2550743)
 **For the Love of Latex — Fabric Realism LoRA**
 - base `Wan Video 2.2 T2V-A14B` · T2V · strength (stated): 0.4–0.7
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 s - A photograph of a woman wearing a tight, shiny, light turquoise latex dress with a keyhole neckline that reveals significant cleavage. Her dress is complemented by black, glossy latex gloves that extend to her elbows.
 ```
+
+Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/2282950?modelVersionId=2569661)
 
@@ -179,11 +213,14 @@ Source: [CivitAI](https://civitai.com/models/2282950?modelVersionId=2569661)
 **Surround camera**
 - base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `ymq`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 ymq, medium shot, central composition, surround camera movement, the camera circles 360° from the front to the back of the subject, showing a classical woman with her hair coiled into a bun and a graceful figure. She is wearing a light cyan halter-neck tight dress with ink-wash bamboo patterns. She stands still on a stone bridge. The camera pans from her front to her back, surrounded by stone Bridges and buildings from the water towns of Jiangnan. The tone of the picture is cold and clear, presenting a hazy and poetic atmosphere of the misty rain in Jiangnan. It's important to note that for the [Transform scene description] part of the prompt, the description should be related to the original background but not exactly the same. Otherwise, wan2.2 might just turn the character around from f
 ```
+
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1959853?modelVersionId=2218344)
 
@@ -192,24 +229,14 @@ Source: [CivitAI](https://civitai.com/models/1959853?modelVersionId=2218344)
 **Beautiful Korean Ulzzang Girls WAN 2.2**
 - base `Wan Video 2.2 T2V-A14B` · T2V · strength (stated): 0.7–1 · triggers: `UzzlangG1`, `a beautiful young Korean woman`, `large eyes`, `pale skin`, `small full lips`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `UlzzangG1, a beautiful young korean woman with large eyes, pale skin, makeup and small full lips`
 ```
 
+Compatibility: mode: T2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
 Source: [CivitAI](https://civitai.com/models/2193272?modelVersionId=2469533)
-
-### `fantasy_wan2.2_lora_v1_low_noise.safetensors`
-
-**WAN 2.2 Realistic Fantasy**
-- base `Wan Video 2.2 T2V-A14B` · T2V · strength: not stated
-
-Example prompt (from the source page or sidecar):
-
-```
-“fantasylora, a young woman with silver hair that shifts between silver and deep sapphire, her skin like polished river stones, standing at the edge of a river glowing with liquid starlight. She holds a staff carved from a single moonbeam, its tip pulsing with blue light as shimmering bridges form over the water.” Community Contribution I’m working on future versions of this LoRA and would love your help improving it! If you create great renders using WAN 2.2 , please upload them to help build a better training dataset. → Submit your images here
-```
-
-Source: [CivitAI](https://civitai.com/models/2064807?modelVersionId=2341281)
 

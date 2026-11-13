@@ -4,44 +4,50 @@ Private, comprehensive catalog of **useful video LoRAs** for MiniMax H3, Wan (2.
 
 Coverage is the full CivitAI inventory for the confirmed `baseModel` strings (paged to exhaustion, plus Most Downloaded / Highest Rated checks), Hugging Face official and community speed/control packs, and the [Fuzz Puppy directory](https://www.fuzzpuppy.com/lora-directory). LoRAs **installed** on the AIOps RAID (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`, snapshot 13 Nov 2026) are flagged `installed=true` and sorted first in every table.
 
-Research compiled **13 Nov 2026, 18:37 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py` and `scripts/check_new.py` must never download or ingest LoRA files.
+Research compiled **13 Nov 2026, 19:57 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py` and `scripts/check_new.py` must never download or ingest LoRA files.
 
 ## Counts
 
 | Family | Total records | Installed | Installed verified | Installed unverified | Catalog-only (CivitAI/HF) | Verified |
 |---|---:|---:|---:|---:|---:|---:|
-| MiniMax H3 | 1183 | 244 | 203 | 41 | 939 | 1142 |
-| Wan (2.1 / 2.2) | 2451 | 55 | 47 | 8 | 2396 | 2443 |
-| LTX-2 / 2.3 / 2.5 | 668 | 32 | 28 | 4 | 636 | 664 |
-| **Total** | **4302** | **331** | **278** | **53** | **3971** | **4249** |
+| MiniMax H3 | 1253 | 244 | 203 | 41 | 1009 | 1212 |
+| Wan (2.1 / 2.2) | 2790 | 55 | 47 | 8 | 2735 | 2782 |
+| LTX-2 / 2.3 / 2.5 | 832 | 32 | 28 | 4 | 800 | 828 |
+| **Total** | **4875** | **331** | **278** | **53** | **4544** | **4822** |
 
-Low-value CivitAI rows (under ~100 downloads and no thumbs-up) were dropped unless they were installed. 37 such models were excluded.
+Low-download CivitAI rows (under ~100 downloads and no thumbs-up) are kept and flagged `low_signal=true` rather than dropped, so niche but relevant LoRAs stay in the catalog.
 
 ### Counts by category
 
 | Category | H3 total (installed) | Wan total (installed) | LTX total (installed) |
 |---|---:|---:|---:|
-| Motion | 49 (14) | 55 (2) | 41 (4) |
-| Camera | 55 (12) | 130 (4) | 43 (2) |
-| Audio / voice | 37 (3) | 3 (0) | 12 (0) |
-| Style | 298 (47) | 479 (1) | 169 (9) |
-| Enhancement / quality / speed | 405 (131) | 768 (31) | 203 (10) |
-| Identity / character | 293 (24) | 607 (0) | 147 (0) |
-| Effects / VFX | 34 (9) | 112 (0) | 24 (1) |
-| Transitions | 3 (2) | 7 (0) | 6 (0) |
-| Lighting | 7 (1) | 9 (0) | 5 (0) |
-| Physics / cloth / hair | 23 (10) | 17 (0) | 9 (0) |
-| NSFW acts and anatomy | 235 (97) | 604 (34) | 112 (19) |
-| Anime / 2D | 88 (15) | 348 (1) | 60 (4) |
-| Realism | 75 (10) | 95 (0) | 20 (1) |
+| Motion | 51 (14) | 67 (2) | 34 (4) |
+| Camera | 61 (12) | 147 (4) | 44 (2) |
+| Audio / voice | 40 (3) | 3 (0) | 16 (1) |
+| Style | 310 (47) | 491 (1) | 175 (9) |
+| Enhancement / quality / speed | 497 (142) | 1002 (31) | 331 (13) |
+| Identity / character | 299 (24) | 643 (0) | 148 (0) |
+| Effects / VFX | 34 (9) | 117 (0) | 26 (1) |
+| Transitions | 6 (2) | 8 (0) | 15 (0) |
+| Lighting | 6 (1) | 10 (0) | 7 (0) |
+| Physics / cloth / hair | 25 (12) | 19 (0) | 9 (0) |
+| NSFW acts and anatomy | 235 (97) | 630 (34) | 121 (19) |
+| Anime / 2D | 90 (15) | 372 (1) | 64 (4) |
+| Realism | 76 (10) | 98 (0) | 21 (1) |
+| Character consistency | 3 (0) | 6 (0) | 1 (0) |
+| Object control | 3 (1) | 1 (0) | 0 (0) |
+| Pose / control | 12 (1) | 30 (0) | 10 (0) |
+| Lipsync | 2 (1) | 0 (0) | 2 (0) |
 
 A LoRA may appear in more than one category.
+
+Of 4875 rows: **2759** (56.6%) have at least one recorded trigger, **745** (15.3%) have a stated strength, **1156** (23.7%) have at least one example prompt (images API or page text). **37** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented.
 
 ## How to use this repo
 
 1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser with recipes across families, stacking, stated strengths, and known conflicts.
 2. Open the family + category page under `families/`. Tables list **installed first**, then catalog entries by popularity (downloads).
-3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md).
+3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md). Per-family prompt templates and trigger usage: [`guides/prompt-patterns.md`](guides/prompt-patterns.md).
 4. Official / utility packs also appear in [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md).
 5. Machine-readable data: [`data/loras.jsonl`](data/loras.jsonl).
 6. Refresh CivitAI/HF metadata: `python3 scripts/harvest.py` (writes `data/raw/`, gitignored). Propose new models since the last harvest: `python3 scripts/check_new.py`.
@@ -74,9 +80,10 @@ High vs low noise is not a `baseModel` value.
 ## Reproducing the harvest
 
 ```
-python3 scripts/harvest.py --sorts newest           # resume from data/raw cache
-python3 scripts/harvest.py --verify-sorts           # first page of Most Downloaded / Highest Rated
-python3 scripts/harvest.py --hf-only                # official HF org listings
+python3 scripts/harvest.py --full-sorts --period AllTime   # Newest + Most Downloaded + Highest Rated, all bases
+python3 scripts/harvest.py --keywords                      # CivitAI keyword queries (video bases only)
+python3 scripts/harvest.py --hf-expand                     # broader Hugging Face LoRA search
+python3 scripts/harvest.py --enrich --enrich-images        # full /models/<built-in function id> + example-prompt images API
 python3 scripts/build_kb.py && python3 scripts/render_kb.py
 ```
 
@@ -84,7 +91,7 @@ Raw API dumps live in `data/raw/` and are gitignored (tens of megabytes). See `d
 
 ## Sources
 
-- CivitAI public API, metadata only (full Newest crawl of the base models above, plus Most Downloaded / Highest Rated first-page checks; two popular models missing from Newest were merged in).
-- Hugging Face model listings (Lightricks, lightx2v, alibaba-pai, Kijai, Cseti, fal, Pika-Labs, FuzzPuppy, plus targeted searches for CausVid / self-forcing / distill / camera-control).
+- CivitAI public API, metadata only (every confirmed baseModel paged with Newest, Most Downloaded, and Highest Rated, including `period=AllTime`; keyword queries for camera/motion/audio/identity/control/etc.; full `/api/v1/models/<built-in function id>` descriptions and `/api/v1/images` example prompts when the public API returns `meta.prompt`).
+- Hugging Face Hub search (author lists plus `models?search=` / pipeline tags for Wan-AI / Wan2.1 / Wan2.2, Lightricks / LTX, MiniMax, lightx2v, alibaba-pai, and related community packs).
 - RAID inventory and sidecars, Sept 2026 catalog skeletons, curated MCB `h3-loras.md`.
 - [fuzzpuppy.com/lora-directory](https://www.fuzzpuppy.com/lora-directory).

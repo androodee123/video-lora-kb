@@ -15,23 +15,23 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `underwater-sunlight-caustics-ocean-refract-h3` | — | not stated | I2V and T2V | Underwater Sunlight Caustics & Ocean Refraction Slider (Avatar 2 Style) | 614 | installed, verified | [CivitAI](https://civitai.com/models/3014895?modelVersionId=3422144) |
 | `growth-effect-minimax-h3-alpha-h3` | `growth` | not stated | not stated | Growth Effect Minimax H3 (alpha) | 284 | installed, verified | [CivitAI](https://civitai.com/models/3039688?modelVersionId=3454732) |
 | `books-world-morph-h3` | `books` | not stated | not stated | Books - World Morph | 166 | installed, verified | [CivitAI](https://civitai.com/models/2994894?modelVersionId=3396506) |
-| `slop-bounce-minimax-h3-lora` | — | not stated | I2V and T2V | slop bounce MiniMax H3 LoRa | 14,015 | catalog, verified | [CivitAI](https://civitai.com/models/2876282?modelVersionId=3250381) |
+| `slop-bounce-minimax-h3-lora` | — | not stated | I2V and T2V | slop bounce MiniMax H3 LoRa | 14,021 | catalog, verified | [CivitAI](https://civitai.com/models/2876282?modelVersionId=3250381) |
 | `digicam-h3` | `d1g1cam` | not stated | I2V and T2V | [Minimax H3] Digicam Y2K Nude Realism Effect | 8,747 | catalog, verified | [CivitAI](https://civitai.com/models/2855485?modelVersionId=3224980) |
-| `cock-face-slap` | `Cock_slap, cock face slapping` | not stated | not stated | Cock Face Slap | 4,980 | catalog, verified | [CivitAI](https://civitai.com/models/2930156?modelVersionId=3320454) |
+| `cock-face-slap` | `Cock_slap, cock face slapping` | not stated | not stated | Cock Face Slap | 4,983 | catalog, verified | [CivitAI](https://civitai.com/models/2930156?modelVersionId=3320454) |
 | `h3-licklips-v1` | — | not stated | not stated | H3 LickLips V1 | 1,547 | catalog, verified | [CivitAI](https://civitai.com/models/2982306?modelVersionId=3380827) |
 | `h3bjhjsmilev1` | — | not stated | not stated | H3BJHJSmileV1 | 1,493 | catalog, verified | [CivitAI](https://civitai.com/models/2980221?modelVersionId=3378264) |
-| `dance-choreographed-dancing-lora-for-minimax-h3` | `dance, choreographed dancing`, `dance moves, dance choreography, dancing character, a character doing a dance choreography, arm dance choreography, leg dance choreography, body dance choreography, dynamic movements`, `Dance Choreography, dance moves` | not stated | not stated | Dance/Choreographed Dancing LoRA for MiniMax H3 | 1,417 | catalog, verified | [CivitAI](https://civitai.com/models/2991318?modelVersionId=3395440) |
+| `dance-choreographed-dancing-lora-for-minimax-h3` | `dance, choreographed dancing`, `dance moves, dance choreography, dancing character, a character doing a dance choreography, arm dance choreography, leg dance choreography, body dance choreography, dynamic movements`, `Dance Choreography, dance moves` | not stated | not stated | Dance/Choreographed Dancing LoRA for MiniMax H3 | 1,418 | catalog, verified | [CivitAI](https://civitai.com/models/2991318?modelVersionId=3395440) |
 | `breast-size-increase-minimax-h3` | `breast_inc` | not stated | not stated | Breast Size Increase | 1,293 | catalog, verified | [CivitAI](https://civitai.com/models/2926022?modelVersionId=3311022) |
-| `vfx-edit` | `vfx_edit: <action> <target> <result>, while preserving <what must not change>.` | not stated | I2V | VFX-Edit | 1,157 | catalog, verified | [CivitAI](https://civitai.com/models/2954203?modelVersionId=3346199) |
+| `vfx-edit` | `vfx_edit: <action> <target> <result>, while preserving <what must not change>.` | 1.0 | I2V | VFX-Edit | 1,157 | catalog, verified | [CivitAI](https://civitai.com/models/2954203?modelVersionId=3346199) |
 | `cumblast` | `SlimeBlast` | not stated | not stated | CumBlast | 1,139 | catalog, verified | [CivitAI](https://civitai.com/models/2888690?modelVersionId=3265653) |
-| `dolly-zoom-minimax-h3` | `dolly_zm` | not stated | not stated | Dolly Zoom | 937 | catalog, verified | [CivitAI](https://civitai.com/models/2913768?modelVersionId=3296179) |
+| `dolly-zoom-minimax-h3` | `dolly_zm` | not stated | not stated | Dolly Zoom | 938 | catalog, verified | [CivitAI](https://civitai.com/models/2913768?modelVersionId=3296179) |
 | `realistic-anime-transformation-minimax-h3` | `anime_tx` | 0.8–1.0 | I2V | Realistic → Anime Transformation | 874 | catalog, verified | [CivitAI](https://civitai.com/models/2924282?modelVersionId=3308909) |
 | `bts-movie-set` | `btssetstyle` | 0.8–1.0 | I2V and T2V | BTS Movie Set | 767 | catalog, verified | [CivitAI](https://civitai.com/models/2941912?modelVersionId=3383773) |
 | `hugging-together-minimax-h3` | `hug_tg` | not stated | I2V | Hugging Together | 760 | catalog, verified | [CivitAI](https://civitai.com/models/2915984?modelVersionId=3298869) |
 | `boobtwistfuck-for-h3-minimax-v1` | — | not stated | I2V and T2V | BoobTwistFuck for H3 Minimax V1 | 681 | catalog, verified | [CivitAI](https://civitai.com/models/2958350?modelVersionId=3351258) |
 | `shuffle-dancing-woman-minimax-h3-v1` | — | not stated | not stated | Shuffle Dancing Woman Minimax H3 V1 | 559 | catalog, verified | [CivitAI](https://civitai.com/models/2956281?modelVersionId=3348726) |
+| `crown-vfx-high-speed-combat-boost-minimax-h3` | `sd25_vfx_combat` | not stated | I2V and T2V | CROWN VFX & High-Speed Combat Boost | 415 | catalog, verified | [CivitAI](https://civitai.com/models/3041075?modelVersionId=3456568) |
 | `plushee-world-morph-by-coachbate-minimax-h3` | `PLUSH33` | not stated | not stated | Plushee World Morph by CoachBate (MiniMax H3) | 415 | catalog, verified | [CivitAI](https://civitai.com/models/2962414?modelVersionId=3356225) |
-| `crown-vfx-high-speed-combat-boost-minimax-h3` | `sd25_vfx_combat` | not stated | I2V and T2V | CROWN VFX & High-Speed Combat Boost | 414 | catalog, verified | [CivitAI](https://civitai.com/models/3041075?modelVersionId=3456568) |
 | `void-style-transformation-minimax-h3` | — | not stated | not stated | Void-Style Transformation MiniMax H3 | 398 | catalog, verified | [CivitAI](https://civitai.com/models/2950284?modelVersionId=3341289) |
 | `general-slapstick-minimaxh3-b-test-lora` | — | not stated | not stated | General_slapstick_minimaxH3_B (Test_Lora) | 265 | catalog, verified | [CivitAI](https://civitai.com/models/2916406?modelVersionId=3300881) |
 | `kinetix-elemental-vfx-suite` | — | not stated | not stated | KinetiX Elemental VFX Suite | 225 | catalog, verified | [CivitAI](https://civitai.com/models/3037872?modelVersionId=3452217) |
@@ -48,11 +48,14 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 **2 Girls 2-Handed Twisting Handjob Frontal MInimax H3 V1**
 - base `MiniMax H3` · I2V and T2V · strength: not stated · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 "The naked, gorgeous girls with perky, naked boobs in Picture1 and Picture2 giving a handjob twisting their hands around a well-formed cock" Used STR=1 Caveat: The LoRa results in very similar results, more than I expected looking at the training data which looked quite varied. When I tried simple T2V without a description of the girls, I got four clips of almost the same girls, which surpised me. It still works, but you should use either T2V: Describe the girls I2V/FL2V/Ref : Gives the most predictable girls. Images for the each girl and for the cock gives the best results.
 ```
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2949557?modelVersionId=3340406)
 
@@ -61,6 +64,8 @@ Source: [CivitAI](https://civitai.com/models/2949557?modelVersionId=3340406)
 **Crash Zoom \| Minimax H3**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `crash_zm` · installed
 
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/2912041?modelVersionId=3294020)
 
 ### `underwater-sunlight-caustics-ocean-refract-h3.safetensors`
@@ -68,11 +73,14 @@ Source: [CivitAI](https://civitai.com/models/2912041?modelVersionId=3294020)
 **Underwater Sunlight Caustics & Ocean Refraction Slider (Avatar 2 Style)**
 - base `MiniMax H3` · I2V and T2V · strength: not stated · installed
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 (T2V / I2V): integrated_multimodal_description: [Shot 1] Cinematic, crystal-clear tropical ocean documentary style. Gliding effortlessly through a sun-drenched turquoise coral lagoon, a sleek aquatic creature swims gracefully above vibrant purple and orange coral formations. The rippling sea surface above refracts brilliant tropical sunlight, casting an intricate, high-contrast network of shimmering golden caustic web patterns that dynamically dance across the creature's smooth skin and the white sandy seabed. Thousands of tiny suspended bioluminescent particles catch the caustic light beams like underwater dust motes. The water volume exhibits realistic optical depth absorption, transitioning from luminous aqua-green near the surface to deep sapphire blue in the distance. The camera execu
 ```
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/3014895?modelVersionId=3422144)
 
@@ -81,12 +89,16 @@ Source: [CivitAI](https://civitai.com/models/3014895?modelVersionId=3422144)
 **Growth Effect Minimax H3 (alpha)**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `growth` · installed
 
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
 Source: [CivitAI](https://civitai.com/models/3039688?modelVersionId=3454732)
 
 ### `books-world-morph-h3.safetensors`
 
 **Books - World Morph**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `books` · installed
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2994894?modelVersionId=3396506)
 
@@ -95,11 +107,14 @@ Source: [CivitAI](https://civitai.com/models/2994894?modelVersionId=3396506)
 **slop bounce MiniMax H3 LoRa**
 - base `MiniMax H3` · I2V and T2V · strength: not stated
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 `breasts bounce, shake, jiggle and sway.`
 ```
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2876282?modelVersionId=3250381)
 
@@ -108,24 +123,30 @@ Source: [CivitAI](https://civitai.com/models/2876282?modelVersionId=3250381)
 **Breast Size Increase \| MiniMax H3**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `breast_inc`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 breast_inc, her breast size gradually increases.
 ```
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2926022?modelVersionId=3311022)
 
 ### `minimax_h3_vfx_edit_v1.0_r128_ffp.safetensors`
 
 **VFX-Edit**
-- base `MiniMax H3` · I2V · strength: not stated · triggers: `vfx_edit: <action> <target> <result>, while preserving <what must not change>.`
+- base `MiniMax H3` · I2V · strength (stated): 1.0 · triggers: `vfx_edit: <action> <target> <result>, while preserving <what must not change>.`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 vfx_edit: Turn the man's skin into melting synthetic tissue that gradually reveals robotic components underneath, while preserving his identity, pose, hands, clothing, camera motion, framing, lighting, background, and every unrelated element.
 ```
+
+Compatibility: mode: I2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2954203?modelVersionId=3346199)
 
@@ -134,11 +155,14 @@ Source: [CivitAI](https://civitai.com/models/2954203?modelVersionId=3346199)
 **Realistic → Anime Transformation \| MiniMax H3**
 - base `MiniMax H3` · I2V · strength (stated): 0.8–1.0 · triggers: `anime_tx`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 anime_tx, the subject gradually transforms from a realistic human into a polished 2D anime version of themselves while continuing the same movement. Their face, hairstyle, clothing, pose, and identity remain recognizable throughout the transformation. Smooth continuous transformation with consistent motion and natural body movement.
 ```
+
+Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2924282?modelVersionId=3308909)
 
@@ -147,11 +171,14 @@ Source: [CivitAI](https://civitai.com/models/2924282?modelVersionId=3308909)
 **Hugging Together \| Minimax H3**
 - base `MiniMax H3` · I2V · strength: not stated · triggers: `hug_tg`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 hug_tg, a man and woman standing close together, they turn toward each other, move closer and embrace warmly, wrapping their arms around each other and holding the hug
 ```
+
+Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2915984?modelVersionId=3298869)
 
@@ -160,11 +187,14 @@ Source: [CivitAI](https://civitai.com/models/2915984?modelVersionId=3298869)
 **Void-Style Transformation MiniMax H3**
 - base `MiniMax H3` · not stated · strength: not stated
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 "Suddenly, the womans head's splits open vertically and revealing a mechanical interior with an alien inside her head leaving the face exposed, the aliens head explodes. "
 ```
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2950284?modelVersionId=3341289)
 
@@ -173,11 +203,14 @@ Source: [CivitAI](https://civitai.com/models/2950284?modelVersionId=3341289)
 **Liara T'Soni - Character LoRA for MiniMax H3 by Astroburner**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `see lora description`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 ` , Liara T'Soni, adult Asari woman, realistic blue skin, detailed facial markings, photorealistic skin texture, cinematic lighting` If the character is not appearing strongly enough, reinforce the important identity features: `adult Asari woman, blue skin, smooth Asari head crests, no human hair, blue facial markings, blue eyes`
 ```
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2889816?modelVersionId=3267026)
 
@@ -186,11 +219,14 @@ Source: [CivitAI](https://civitai.com/models/2889816?modelVersionId=3267026)
 **Tali'Zorah - Mass Effect Character LoRA for MiniMax H3 by Astroburner**
 - base `MiniMax H3` · not stated · strength: not stated · triggers: `see lora description`
 
-Example prompt (from the source page or sidecar):
+Example prompt (from the images API, page, or sidecar; never invented):
+
 
 ```
 Tali'Zorah, real woman standing on a rainy modern city street at night, iconic glossy purple sealed visor and patterned violet Quarian hood, wearing a contemporary black leather jacket over parts of her dark purple environmental suit, fitted black trousers, gloves, relaxed pose, neon storefront reflections across her visor, passing cars, wet asphalt, realistic rain, street photography, photorealistic For more radical clothing changes, lowering LoRA strength slightly may help the new clothing compete with the trained suit. ⚠️ IMPORTANT — HER VISOR Tali's helmet and covered face are major identity anchors in this LoRA. For the most authentic results use phrases such as: full-face visor opaque purple visor reflective purple helmet visor face completely concealed face hidden behind the visor I
 ```
+
+Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2889725?modelVersionId=3266914)
 
