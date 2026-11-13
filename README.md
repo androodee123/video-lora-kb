@@ -4,16 +4,16 @@ Private, comprehensive catalog of **useful video LoRAs** for MiniMax H3, Wan (2.
 
 Coverage is the full CivitAI inventory for the confirmed `baseModel` strings (paged to exhaustion, plus Most Downloaded / Highest Rated checks), Hugging Face official and community speed/control packs, and the [Fuzz Puppy directory](https://www.fuzzpuppy.com/lora-directory). LoRAs **installed** on the AIOps RAID (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`, snapshot 13 Nov 2026) are flagged `installed=true` and sorted first in every table.
 
-Research compiled **13 Nov 2026, 19:57 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py` and `scripts/check_new.py` must never download or ingest LoRA files.
+Research compiled **13 Nov 2026, 20:06 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py` and `scripts/check_new.py` must never download or ingest LoRA files.
 
 ## Counts
 
 | Family | Total records | Installed | Installed verified | Installed unverified | Catalog-only (CivitAI/HF) | Verified |
 |---|---:|---:|---:|---:|---:|---:|
 | MiniMax H3 | 1253 | 244 | 203 | 41 | 1009 | 1212 |
-| Wan (2.1 / 2.2) | 2790 | 55 | 47 | 8 | 2735 | 2782 |
+| Wan (2.1 / 2.2) | 2804 | 55 | 47 | 8 | 2749 | 2796 |
 | LTX-2 / 2.3 / 2.5 | 832 | 32 | 28 | 4 | 800 | 828 |
-| **Total** | **4875** | **331** | **278** | **53** | **4544** | **4822** |
+| **Total** | **4889** | **331** | **278** | **53** | **4558** | **4836** |
 
 Low-download CivitAI rows (under ~100 downloads and no thumbs-up) are kept and flagged `low_signal=true` rather than dropped, so niche but relevant LoRAs stay in the catalog.
 
@@ -22,26 +22,26 @@ Low-download CivitAI rows (under ~100 downloads and no thumbs-up) are kept and f
 | Category | H3 total (installed) | Wan total (installed) | LTX total (installed) |
 |---|---:|---:|---:|
 | Motion | 51 (14) | 67 (2) | 34 (4) |
-| Camera | 61 (12) | 147 (4) | 44 (2) |
-| Audio / voice | 40 (3) | 3 (0) | 16 (1) |
-| Style | 310 (47) | 491 (1) | 175 (9) |
-| Enhancement / quality / speed | 497 (142) | 1002 (31) | 331 (13) |
-| Identity / character | 299 (24) | 643 (0) | 148 (0) |
+| Camera | 61 (12) | 149 (4) | 44 (2) |
+| Audio / voice | 41 (3) | 3 (0) | 17 (1) |
+| Style | 310 (47) | 498 (1) | 175 (9) |
+| Enhancement / quality / speed | 503 (142) | 1002 (31) | 327 (13) |
+| Identity / character | 299 (24) | 644 (0) | 148 (0) |
 | Effects / VFX | 34 (9) | 117 (0) | 26 (1) |
-| Transitions | 6 (2) | 8 (0) | 15 (0) |
+| Transitions | 6 (2) | 9 (0) | 15 (0) |
 | Lighting | 6 (1) | 10 (0) | 7 (0) |
 | Physics / cloth / hair | 25 (12) | 19 (0) | 9 (0) |
-| NSFW acts and anatomy | 235 (97) | 630 (34) | 121 (19) |
-| Anime / 2D | 90 (15) | 372 (1) | 64 (4) |
+| NSFW acts and anatomy | 235 (97) | 634 (34) | 121 (19) |
+| Anime / 2D | 90 (15) | 373 (1) | 64 (4) |
 | Realism | 76 (10) | 98 (0) | 21 (1) |
 | Character consistency | 3 (0) | 6 (0) | 1 (0) |
 | Object control | 3 (1) | 1 (0) | 0 (0) |
-| Pose / control | 12 (1) | 30 (0) | 10 (0) |
+| Pose / control | 12 (1) | 32 (0) | 15 (0) |
 | Lipsync | 2 (1) | 0 (0) | 2 (0) |
 
 A LoRA may appear in more than one category.
 
-Of 4875 rows: **2759** (56.6%) have at least one recorded trigger, **745** (15.3%) have a stated strength, **1156** (23.7%) have at least one example prompt (images API or page text). **37** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented.
+Of 4889 rows: **3014** (61.6%) have at least one recorded trigger, **919** (18.8%) have a stated strength, **1332** (27.2%) have at least one example prompt (images API or page text). **39** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented.
 
 ## How to use this repo
 
@@ -83,7 +83,9 @@ High vs low noise is not a `baseModel` value.
 python3 scripts/harvest.py --full-sorts --period AllTime   # Newest + Most Downloaded + Highest Rated, all bases
 python3 scripts/harvest.py --keywords                      # CivitAI keyword queries (video bases only)
 python3 scripts/harvest.py --hf-expand                     # broader Hugging Face LoRA search
+python3 scripts/harvest.py --hf-cards                      # README/model cards for Hugging Face rows
 python3 scripts/harvest.py --enrich --enrich-images        # full /models/<built-in function id> + example-prompt images API
+python3 scripts/harvest.py --full-sorts --bases 'Wan Video 1.3B t2v'
 python3 scripts/build_kb.py && python3 scripts/render_kb.py
 ```
 

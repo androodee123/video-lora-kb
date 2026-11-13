@@ -15,5 +15,5 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nsfw-wan2-2-t2v-three-slim-office-style-beauties` | `NSFSFMN` | not stated | T2V | NSFW WAN2.2 T2V Three slim office-style beauties | 249 | catalog, verified | [CivitAI](https://civitai.com/models/1970268?modelVersionId=2230103) |
 | `instagram-tiktok-women-influencer-topgolf-girl-wan-2-2-t2v` | `GOLFGIRL` | 0.65–0.8 | T2V | Instagram TikTok Women Influencer - TopGolf Girl (WAN 2.2 T2V) | 229 | catalog, verified | [CivitAI](https://civitai.com/models/2019359?modelVersionId=2287233) |
 | `nsfw-wan2-2-t2v-purple-long-sleeve-blouse-blue-patterned-short-skirt-black-panties-nude-high-heel` | `NSFSWZS` | not stated | T2V | NSFW WAN2.2 T2V Purple Long-Sleeve Blouse, Blue Patterned Short Skirt, black Panties Nude  | 114 | catalog, verified | [CivitAI](https://civitai.com/models/2105401?modelVersionId=2381897) |
-| `wan22-fp8-i2v-loras` | — | not stated | I2V | wan22-fp8-i2v-loras | 0 | catalog, verified | [HF](https://huggingface.co/wangkanai/wan22-fp8-i2v-loras) |
+| `wan22-fp8-i2v-loras` | — | 0.6–0.8; 0.4–0.6; 0.7–0.9 | I2V and T2V | wan22-fp8-i2v-loras | 0 | catalog, verified | [HF](https://huggingface.co/wangkanai/wan22-fp8-i2v-loras) |
 

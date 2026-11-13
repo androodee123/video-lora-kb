@@ -19,7 +19,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `jiggle-tit-physics-h3` | — | not stated | not stated | jiggle tit physics | — | installed, unverified | — |
 | `natural-sagging-breasts-h3` | `natural-sagging-breasts-h3` | not stated | not stated | natural sagging breasts | — | installed, unverified | [CivitAI](https://civitai.com/models/2745280) |
 | `boob-physics-minimax-h3-wan2-2` | — | not stated | not stated | Boob Physics MiniMax H3 / Wan2.2 | 35,543 | catalog, verified | [CivitAI](https://civitai.com/models/1626704?modelVersionId=3245935) |
-| `minimax-h3-spatial-physics-lora` | — | not stated | not stated | minimax-h3-spatial-physics-lora | 20,158 | catalog, verified | [HF](https://huggingface.co/Jojocodex/minimax-h3-spatial-physics-lora) |
+| `minimax-h3-spatial-physics-lora` | — | not stated | T2V | minimax-h3-spatial-physics-lora | 20,158 | catalog, verified | [HF](https://huggingface.co/Jojocodex/minimax-h3-spatial-physics-lora) |
 | `slop-bounce-minimax-h3-lora` | — | not stated | I2V and T2V | slop bounce MiniMax H3 LoRa | 14,021 | catalog, verified | [CivitAI](https://civitai.com/models/2876282?modelVersionId=3250381) |
 | `h3-ass-jiggle-i2v` | `rear-entry pose`, `reverse cowgirl`, `doggy style pose`, `her ass jiggles from impact`, `creating ass jiggle` | not stated | I2V | H3 Ass jiggle (I2V) | 9,481 | catalog, verified | [CivitAI](https://civitai.com/models/2880033?modelVersionId=3255024) |
 | `furry-cumshot-cum-physics-for-minimax-h3-ref2va` | — | 0.5–0.85; 0.7; 0.7–0.8 | I2V | Furry cumshot & cum physics for Minimax H3 (REF2VA) | 4,667 | catalog, verified | [CivitAI](https://civitai.com/models/2854342?modelVersionId=3242952) |
@@ -152,6 +152,22 @@ Source: [CivitAI](https://civitai.com/models/2996117?modelVersionId=3398038)
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2745280)
+
+### `minimax-h3-spatial-physics-lora`
+
+**minimax-h3-spatial-physics-lora**
+- base `MiniMax H3` · T2V · strength: not stated
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+blurry, distorted, low quality, jittery motion, objects passing through each other, objects floating without gravity, morphing shapes, inconsistent lighting, flickering
+```
+
+Compatibility: mode: T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo); HF card base_model: Comfy-Org/MiniMax-H3
+
+Source: [HF](https://huggingface.co/Jojocodex/minimax-h3-spatial-physics-lora)
 
 ### `H3_slop_bounce.safetensors`
 

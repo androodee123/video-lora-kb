@@ -34,7 +34,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `goblin-girl-transformation-anima-krea-2-illustrious-pony-sd-1-5` | — | 0.8–1 | not stated | Goblin Girl Transformation [Anima | 4,260 | catalog, verified | [CivitAI](https://civitai.com/models/623639?modelVersionId=3388961) |
 | `safari-eyes` | `safarieyes` | not stated | not stated | 『SAFARI EYES』 | 3,770 | catalog, verified | [CivitAI](https://civitai.com/models/2099833?modelVersionId=3355007) |
 | `minimax-h3-ltx-2-3-misticnsfw-aio-10eros` | — | not stated | I2V | Minimax H3 - LTX 2.3 MisticNSFW AIO 10eros | 3,635 | catalog, verified | [CivitAI](https://civitai.com/models/2814217?modelVersionId=3391172) |
-| `minimax-h3-i2v-anime-motion-lora` | — | not stated | I2V | MiniMax-H3-I2V-Anime-Motion-LoRA | 3,073 | catalog, verified | [HF](https://huggingface.co/prithivMLmods/MiniMax-H3-I2V-Anime-Motion-LoRA) |
+| `minimax-h3-i2v-anime-motion-lora` | — | not stated | I2V and T2V | MiniMax-H3-I2V-Anime-Motion-LoRA | 3,073 | catalog, verified | [HF](https://huggingface.co/prithivMLmods/MiniMax-H3-I2V-Anime-Motion-LoRA) |
 | `manga-style` | — | not stated | not stated | Manga Style | 3,023 | catalog, verified | [CivitAI](https://civitai.com/models/2032489?modelVersionId=3453061) |
 | `environmental-anime-style-mix-makoto-shinkai-h3-ltx-2-3` | `2d anime style, art by makoto shinkai` | not stated | not stated | Environmental Anime Style Mix (Makoto Shinkai) - H3 / LTX 2.3 | 2,831 | catalog, verified | [CivitAI](https://civitai.com/models/2650155?modelVersionId=3302128) |
 | `minimax-h3-looping-sketch-anime` | `A hand-drawn 2D anime art style characterized by rough, textured outlines, coloring technique is minimalist, utilizing flat colors and white outline` | not stated | not stated | MiniMax-H3-Looping-Sketch-Anime | 2,225 | catalog, verified | [CivitAI](https://civitai.com/models/2849951?modelVersionId=3218202) |
@@ -57,7 +57,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `retro-anime-mix-by-shrekman` | `Late-1990s theatrical anime aesthetic` | not stated | not stated | Retro Anime Mix by Shrekman | 878 | catalog, verified | [CivitAI](https://civitai.com/models/2664480?modelVersionId=3457853) |
 | `realistic-anime-transformation-minimax-h3` | `anime_tx` | 0.8–1.0 | I2V | Realistic → Anime Transformation | 874 | catalog, verified | [CivitAI](https://civitai.com/models/2924282?modelVersionId=3308909) |
 | `mmh3-anime-shift` | `The style switch to anime` | not stated | not stated | [MMH3] Anime Shift | 689 | catalog, verified | [CivitAI](https://civitai.com/models/2998224?modelVersionId=3400711) |
-| `retro-toon-70s-lora-minimax-h3` | — | not stated | not stated | retro-toon-70s-lora-minimax-h3 | 658 | catalog, verified | [HF](https://huggingface.co/KennethFal/retro-toon-70s-lora-minimax-h3) |
+| `retro-toon-70s-lora-minimax-h3` | — | not stated | T2V | retro-toon-70s-lora-minimax-h3 | 658 | catalog, verified | [HF](https://huggingface.co/KennethFal/retro-toon-70s-lora-minimax-h3) |
 | `rooms-onsen-minimax-h3` | `z1os_onsen` | 1 | not stated | ROOMS : Onsen - MiniMax H3 | 584 | catalog, verified | [CivitAI](https://civitai.com/models/2958869?modelVersionId=3351910) |
 | `city-worlds-dark-cyberpunk-minimax-h3` | `z1os` | 1 | not stated | City Worlds : Dark Cyberpunk - Minimax H3 | 558 | catalog, verified | [CivitAI](https://civitai.com/models/2993011?modelVersionId=3394129) |
 | `space-worlds-planets-minimax-h3` | `z1os` | 1 | not stated | Space Worlds : Planets - MiniMax H3 | 527 | catalog, verified | [CivitAI](https://civitai.com/models/2963584?modelVersionId=3357677) |
@@ -96,7 +96,7 @@ upbeat happy music, performance stage background,` | not stated | not stated | C
 | `gumdong-minimaxh3` | `Gumdong,furry girl,black short hair,red eyes,` | not stated | not stated | Gumdong (minimaxH3) | 146 | catalog, verified | [CivitAI](https://civitai.com/models/2968887?modelVersionId=3364138) |
 | `soma-minimax` | — | not stated | not stated | SOMA_MiniMax | 140 | catalog, verified | [CivitAI](https://civitai.com/models/2945361?modelVersionId=3335086) |
 | `twink-chibi-video-1` | — | not stated | not stated | twink chibi video 1 | 68 | catalog, verified | [CivitAI](https://civitai.com/models/3039219?modelVersionId=3454033) |
-| `frieren-h3-lora` | — | not stated | not stated | Frieren-H3-LoRA | 0 | catalog, verified | [HF](https://huggingface.co/tazmannner/Frieren-H3-LoRA) |
+| `frieren-h3-lora` | `2d anime style`, `Frieren style` | 1.0; 0.6 | I2V and T2V | Frieren-H3-LoRA | 0 | catalog, verified | [HF](https://huggingface.co/tazmannner/Frieren-H3-LoRA) |
 
 ## Details
 
@@ -311,6 +311,22 @@ Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a pe
 
 Source: [CivitAI](https://civitai.com/models/2840146?modelVersionId=3246346)
 
+### `MiniMax-H3-I2V-Anime-Motion-LoRA`
+
+**MiniMax-H3-I2V-Anime-Motion-LoRA**
+- base `MiniMax H3` · I2V and T2V · strength: not stated
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+s used to generate the videos with respect to the image input.
+```
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo); HF card base_model: MiniMaxAI/MiniMax-H3
+
+Source: [HF](https://huggingface.co/prithivMLmods/MiniMax-H3-I2V-Anime-Motion-LoRA)
+
 ### `anirl_mmh3_t2va.safetensors`
 
 **Anime IRL (MiniMax H3)**
@@ -360,4 +376,29 @@ Tae says "私のオリジナルの薬ね。あんまり外には知られたく�
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/3035050?modelVersionId=3448535)
+
+### `Frieren-H3-LoRA`
+
+**Frieren-H3-LoRA**
+- base `MiniMax H3` · I2V and T2V · strength (stated): 1.0; 0.6 · triggers: `2d anime style`, `Frieren style`
+
+Example prompts (from the images API, page, or sidecar; never invented):
+
+Example 1:
+```
+integrated_multimodal_description: [Shot 1] 2d anime style, Frieren style, close-up, over-the-shoulder, char_himmel, a young man with short light blue hair and blue eyes, wearing a white cape over blue and gold garments and carrying a heavy sword with a gold hilt on his shoulder, looks forward with a gentle smile. In the right foreground, the back of char_frieren, a petite elf girl with long silver hair in twin tails and a pointed ear adorned with a red drop earring, is visible out of focus. A stone wall and daylight illuminate the background. The camera slowly pulls out and slowly pans right. char_himmel (S1) speaks in a calm, reflective tone <d>[Japanese] 君のこの先の人生は、僕たちには想像もできない。</d>
+overall_soundscape: Soft rustling fabric and a gentle outdoor breeze.
+non_diegetic_music: A gentle, resonant string melody plays softly in the background.
+```
+
+Example 2:
+```
+integrated_multimodal_description: [Shot 1] 2d anime style, Frieren style, wide shot, low angle, a starry night sky filled with countless tiny white stars and specks against a deep indigo-blue background. Several bright comets streak diagonally across the frame, leaving long faint blue tails and glowing turquoise-blue heads with scattered white and pink debris trailing behind them. The lighting is dark and ethereal, illuminated by the soft glow of the celestial bodies.
+overall_soundscape: N/A
+non_diegetic_music: N/A
+```
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
+
+Source: [HF](https://huggingface.co/tazmannner/Frieren-H3-LoRA)
 

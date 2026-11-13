@@ -1,6 +1,6 @@
 # LTX2: Pose / control
 
-10 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+15 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -11,11 +11,16 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ltx-2-3-lora-pose-helper-i2v` | — | not stated | I2V and T2V | (LTX-2.3 Lora) - Pose Helper (I2V) | 6,240 | catalog, verified | [CivitAI](https://civitai.com/models/2402694?modelVersionId=2783626) |
 | `ltx-2-3-lora-camera-zoom-out-i2v` | — | not stated | I2V | (LTX-2.3 Lora) - Camera Zoom Out (I2V) | 2,097 | catalog, verified | [CivitAI](https://civitai.com/models/2490345?modelVersionId=2799690) |
 | `east-asian-facial-fidelity-ltx-2-3-i2v` | — | 1.0 | I2V | East Asian Facial Fidelity | 1,258 | catalog, verified | [CivitAI](https://civitai.com/models/2816700?modelVersionId=3176918) |
+| `ltx-2-3-ic-lora-colorizer` | — | not stated | not stated | LTX-2.3-IC-LoRA-Colorizer | 1,232 | catalog, verified | [HF](https://huggingface.co/DoctorDiffusion/LTX-2.3-IC-LoRA-Colorizer) |
 | `front-lat-spread-pose` | `FrontLatSpreadPose` | not stated | not stated | Front Lat Spread Pose | 937 | catalog, verified | [CivitAI](https://civitai.com/models/2010060?modelVersionId=2906922) |
+| `ltx-video-iclora-pose-13b-0-9-7` | — | not stated | I2V and T2V | LTX-Video-ICLoRA-pose-13b-0.9.7 | 822 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-Video-ICLoRA-pose-13b-0.9.7) |
+| `ltx-video-iclora-depth-13b-0-9-7` | — | not stated | I2V and T2V | LTX-Video-ICLoRA-depth-13b-0.9.7 | 664 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-Video-ICLoRA-depth-13b-0.9.7) |
+| `ltx-2-3-ic-lora-colorizer` | — | not stated | not stated | LTX-2.3-IC-LoRA-Colorizer | 587 | catalog, verified | [HF](https://huggingface.co/miria338/LTX-2.3-IC-LoRA-Colorizer) |
 | `evernightwiggle` | `A girl is dancing the Cry0EvernWig`, `Dancing the Cry0EvernWig.` | not stated | I2V and T2V | EvernightWiggle | 472 | catalog, verified | [CivitAI](https://civitai.com/models/2339706?modelVersionId=2631753) |
 | `ltx-2-3-most-muscular-pose-lora` | `mm_pose` | not stated | not stated | LTX-2.3 Most Muscular Pose LoRA | 340 | catalog, verified | [CivitAI](https://civitai.com/models/2533614?modelVersionId=2847433) |
-| `ltx-2-19b-ic-lora-depth-control` | — | not stated | not stated | LTX-2-19b-IC-LoRA-Depth-Control | 0 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Depth-Control) |
-| `ltx-2-19b-ic-lora-pose-control` | — | not stated | not stated | LTX-2-19b-IC-LoRA-Pose-Control | 0 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Pose-Control) |
+| `ltx-2-3-lora-pose-helper-i2v` | `## 🧠 Usage` | 1.0 | I2V and T2V | ltx-2.3-lora-pose-helper-i2v | 59 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2.3-lora-pose-helper-i2v) |
+| `ltx-2-19b-ic-lora-depth-control` | — | not stated | I2V and T2V | LTX-2-19b-IC-LoRA-Depth-Control | 0 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Depth-Control) |
+| `ltx-2-19b-ic-lora-pose-control` | — | not stated | I2V and T2V | LTX-2-19b-IC-LoRA-Pose-Control | 0 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Pose-Control) |
 
 ## Details
 

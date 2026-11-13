@@ -43,9 +43,9 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `bouncing-boobs-ltx-wan-h3` | `her breasts are bouncing` | not stated | I2V and T2V | Bouncing Boobs - LTX / Wan / H3 | 194,866 | catalog, verified | [CivitAI](https://civitai.com/models/1343431?modelVersionId=2191217) |
 | `aesthetic-quality-modifiers-masterpiece` | `masterpiece, very aesthetic` | not stated | T2V | Aesthetic Quality Modifiers - Masterpiece | 183,771 | catalog, verified | [CivitAI](https://civitai.com/models/929497?modelVersionId=1498121) |
 | `lightning-lora-massive-speed-up-for-wan2-1-wan2-2-made-by-lightx2v-kijai` | — | not stated | I2V and T2V | Lightning Lora, massive speed up for Wan2.1 / Wan2.2 made by Lightx2v / Kijai | 143,185 | catalog, verified | [CivitAI](https://civitai.com/models/1585622?modelVersionId=2361379) |
-| `wan2-2-distill-loras` | — | not stated | I2V | Wan2.2-Distill-Loras | 113,395 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.2-Distill-Loras) |
+| `wan2-2-distill-loras` | — | 1.0 | I2V and T2V | Wan2.2-Distill-Loras | 113,395 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.2-Distill-Loras) |
 | `nsfw-posing-nude` | — | not stated | I2V and T2V | NSFW Posing Nude | 91,732 | catalog, verified | [CivitAI](https://civitai.com/models/1648982?modelVersionId=2391828) |
-| `wan2-2-distill-models` | — | not stated | I2V | Wan2.2-Distill-Models | 77,184 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.2-Distill-Models) |
+| `wan2-2-distill-models` | — | not stated | I2V and T2V | Wan2.2-Distill-Models | 77,184 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.2-Distill-Models) |
 | `better-titfuck-minimax-wan-hunyuan` | `Titjob`, `Gives a titjob`, `titjob`, `gives a titjob`, `titfuck` | not stated | I2V and T2V | Better Titfuck (MiniMax, Wan, HunYuan) | 58,378 | catalog, verified | [CivitAI](https://civitai.com/models/1269557?modelVersionId=1691105) |
 | `wan-2-2-i2v-breast-play` | `nipPull`, `nipRub`, `nipSqueeze`, `oneHand`, `breast play` | not stated | I2V | WAN 2.2 I2V - Breast Play | 56,436 | catalog, verified | [CivitAI](https://civitai.com/models/1967237?modelVersionId=2230125) |
 | `dancing` | `dncng`, `she is dancing, swaying her breasts, both hands above head,`, `she is dancing,  swaying her breasts,  both hands above head,`, `dncng1`, `,dancing, hand_above_head,` | 0.5 | I2V | dancing | 50,928 | catalog, verified | [CivitAI](https://civitai.com/models/1921237?modelVersionId=2174518) |
@@ -67,7 +67,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `detailz-wan-detail-enhancer-for-wan-videos` | — | 0.75–1.0 | I2V and T2V | Detailz-Wan: Detail Enhancer for WAN Videos | 24,141 | catalog, verified | [CivitAI](https://civitai.com/models/1385506?modelVersionId=1565668) |
 | `bouncy-forward-bends-wan-i2v-14b` | `bending forward`, `bends forward to show her cleavage` | not stated | I2V | Bouncy Forward Bends - Wan I2V 14B | 23,843 | catalog, verified | [CivitAI](https://civitai.com/models/1433071?modelVersionId=2207480) |
 | `femaled-vaginus-female-body-enhancer-wan2-2-t2v-14b` | — | not stated | T2V | Femaled-Vaginus - Female Body Enhancer - Wan2.2-T2V-14B | 23,719 | catalog, verified | [CivitAI](https://civitai.com/models/1888857?modelVersionId=2137989) |
-| `wan2-2-fun-reward-loras` | — | not stated | T2V | Wan2.2-Fun-Reward-LoRAs | 23,272 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.2-Fun-Reward-LoRAs) |
+| `wan2-2-fun-reward-loras` | — | 0.5 | T2V | Wan2.2-Fun-Reward-LoRAs | 23,272 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.2-Fun-Reward-LoRAs) |
 | `seductive-turns` | `doing the turning pose`, `she is turning a half circle and then walks away` | 0.6–1 | I2V | Seductive Turns | 23,049 | catalog, verified | [CivitAI](https://civitai.com/models/1663409?modelVersionId=2212521) |
 | `hucow-milking` | `hucowlora`, `milkingmachine` | not stated | not stated | Hucow Milking | 22,064 | catalog, verified | [CivitAI](https://civitai.com/models/377718?modelVersionId=1625197) |
 | `furry-enhancer-video` | `anthro`, `furry` | not stated | I2V and T2V | Furry Enhancer  Video | 21,804 | catalog, verified | [CivitAI](https://civitai.com/models/1782485?modelVersionId=2235087) |
@@ -80,7 +80,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan-2-2-i2v-mating-press` | `mating press` | not stated | I2V | WAN 2.2 I2V Mating Press | 19,787 | catalog, verified | [CivitAI](https://civitai.com/models/2368333?modelVersionId=2663475) |
 | `passionate-kissing` | `Passionate Kissing`, `Kiss passionately` | not stated | not stated | Passionate Kissing | 19,725 | catalog, verified | [CivitAI](https://civitai.com/models/1333275?modelVersionId=1574869) |
 | `wan2-2-i2v-high-screen-flood` | — | not stated | I2V | wan2.2-i2v-high-Screen Flood（屏幕淹水） | 18,642 | catalog, verified | [CivitAI](https://civitai.com/models/1905250?modelVersionId=2156513) |
-| `wan2-1-fun-v1-1-1-3b-inp` | — | not stated | not stated | Wan2.1-Fun-V1.1-1.3B-InP | 18,122 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-V1.1-1.3B-InP) |
+| `wan2-1-fun-v1-1-1-3b-inp` | — | not stated | T2V | Wan2.1-Fun-V1.1-1.3B-InP | 18,122 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-V1.1-1.3B-InP) |
 | `reverse-deepthroat` | `reverse deepthroat`, `dynamic throat fuck`, `deep throat fuck`, `oral insertion`, `male appears` | not stated | I2V | Reverse deepthroat | 17,890 | catalog, verified | [CivitAI](https://civitai.com/models/2168001?modelVersionId=2480971) |
 | `macromastia-naked` | `macromastia` | 0.5–1.0; 0.3–1.0; 0.3–0.5 | T2V | 🍒 Macromastia (Naked) | 16,597 | catalog, verified | [CivitAI](https://civitai.com/models/2311601?modelVersionId=2725002) |
 | `phut-hon-dance` | `dabaichui`, `making dabaichui motion` | not stated | I2V | phut hon dance/大摆锤 | 16,462 | catalog, verified | [CivitAI](https://civitai.com/models/1365589?modelVersionId=1542806) |
@@ -91,7 +91,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `macromastia-clothed` | `macromastia` | 0.5–1; 0.5–1.0; 0.3–0.5 | T2V | 🍒 Macromastia (Clothed) | 14,829 | catalog, verified | [CivitAI](https://civitai.com/models/2294035?modelVersionId=2755488) |
 | `wan-multiscene-bj-edition` | — | not stated | I2V | Wan Multiscene: BJ Edition | 14,740 | catalog, verified | [CivitAI](https://civitai.com/models/2477501?modelVersionId=2785621) |
 | `timefreezes` | — | not stated | I2V and T2V | Timefreezes | 14,392 | catalog, verified | [CivitAI](https://civitai.com/models/2437696?modelVersionId=2740940) |
-| `wan2-1-distill-models` | — | not stated | I2V | Wan2.1-Distill-Models | 14,352 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-Distill-Models) |
+| `wan2-1-distill-models` | — | not stated | I2V and T2V | Wan2.1-Distill-Models | 14,352 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-Distill-Models) |
 | `ahegao-face-wan-i2v` | `ahegao` | not stated | I2V and T2V | Ahegao Face Wan  (i2v) | 14,341 | catalog, verified | [CivitAI](https://civitai.com/models/1390545?modelVersionId=1571626) |
 | `middlefinger-ahegao-drooling` | — | not stated | I2V | Middlefinger + Ahegao + Drooling | 14,175 | catalog, verified | [CivitAI](https://civitai.com/models/1989276?modelVersionId=2251804) |
 | `groping-massage-show-off-fake-breasts` | — | not stated | I2V | Groping/massage/Show off (fake)breasts | 14,162 | catalog, verified | [CivitAI](https://civitai.com/models/1790891?modelVersionId=2605587) |
@@ -132,15 +132,16 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan-full-nelson-i2v` | `fullnelson` | not stated | I2V | Wan Full Nelson (I2V) | 8,925 | catalog, verified | [CivitAI](https://civitai.com/models/1442395?modelVersionId=1630562) |
 | `wan-2-2-i2v-14b-k1ssl1ck` | `k1ssl1ck`, `she bends forward and kisses the screen`, `she bends forward and licks the screen with her tongue, multiple times` | not stated | I2V | Wan 2.2 I2V 14B k1ssl1ck | 8,853 | catalog, verified | [CivitAI](https://civitai.com/models/2678061?modelVersionId=3007030) |
 | `female-squirt-v2-i2v-wan-2-2-video-lora-k3nk` | `A woman with her legs spread wide with her (vagina squirting clear fluid upwards hitting the camera lens), Her facial expression shows an open mouth, in state of arousal. She looks at the viewer. (highly detailed, anatomically correct)` | not stated | I2V and T2V | Female SQUIRT V2 - I2V Wan 2.2 Video LoRa - K3NK | 8,851 | catalog, verified | [CivitAI](https://civitai.com/models/2518574?modelVersionId=2830762) |
-| `autoencoders` | — | not stated | I2V | Autoencoders | 8,653 | catalog, verified | [HF](https://huggingface.co/lightx2v/Autoencoders) |
+| `autoencoders` | — | not stated | TI2V (and I2V/T2V) | Autoencoders | 8,653 | catalog, verified | [HF](https://huggingface.co/lightx2v/Autoencoders) |
 | `mating-press-wan` | — | not stated | I2V and T2V | Mating Press (Wan) | 8,589 | catalog, verified | [CivitAI](https://civitai.com/models/1466142?modelVersionId=1663271) |
-| `wan2-1-fun-v1-1-14b-control` | — | not stated | not stated | Wan2.1-Fun-V1.1-14B-Control | 8,559 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-V1.1-14B-Control) |
+| `wan2-1-fun-v1-1-14b-control` | — | not stated | T2V | Wan2.1-Fun-V1.1-14B-Control | 8,559 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-V1.1-14B-Control) |
 | `let-s-dance-wan2-1-i2v-lora` | `hee1，dancing`, `hee2，dancing`, `hee3，dancing`, `hee4，dancing`, `dancing` | 0.9–1 | I2V | let‘s dance（wan2.1 I2V lora） | 8,525 | catalog, verified | [CivitAI](https://civitai.com/models/1362624?modelVersionId=1586178) |
 | `wan-2-2-areolas-and-nipples-t2v-i2v` | — | not stated | I2V and T2V | WAN 2.2 Areolas and Nipples T2V / I2V | 8,500 | catalog, verified | [CivitAI](https://civitai.com/models/2378207?modelVersionId=2677689) |
 | `chest-bouncing-dance-wan-video-14b-itv` | `dancing` | not stated | I2V | Chest-Bouncing Dance | 8,223 | catalog, verified | [CivitAI](https://civitai.com/models/1379311?modelVersionId=1558460) |
 | `male-and-his-living-cocksleeve-wan-2-2` | — | not stated | I2V and T2V | Male and his living cocksleeve (WAN 2.2) | 8,213 | catalog, verified | [CivitAI](https://civitai.com/models/2224461?modelVersionId=2504253) |
 | `sexy-massage` | `getting a sexy massage` | not stated | T2V | Sexy Massage | 8,142 | catalog, verified | [CivitAI](https://civitai.com/models/2526675?modelVersionId=2853241) |
 | `magic-wand-vibrator-self-other-hunyuan-wan` | `using a {corded/cordless} {white/black/purple/pink/blue} MgcWndVb to stimulate her vagina`, `{wide shot/medium shot/medium close up/close up}` | not stated | T2V | Magic Wand Vibrator (self/other) (Hunyuan/Wan) | 8,137 | catalog, verified | [CivitAI](https://civitai.com/models/1314924?modelVersionId=1804710) |
+| `wan2-1-1-3b-female-anatomy` | `NTM` | not stated | T2V | wan2.1 1.3b female anatomy | 8,126 | catalog, verified | [CivitAI](https://civitai.com/models/1341017?modelVersionId=1514371) |
 | `wan2-2-skinny-fat-slider` | — | not stated | T2V | [Wan2.2] Skinny/Fat slider | 7,877 | catalog, verified | [CivitAI](https://civitai.com/models/1980236?modelVersionId=2241604) |
 | `breast-expansion-wan-i2v` | — | not stated | I2V and T2V | Breast Expansion Wan I2V | 7,749 | catalog, verified | [CivitAI](https://civitai.com/models/1528155?modelVersionId=1728992) |
 | `wan2-2-fun-a14b-inp` | — | not stated | I2V | Wan2.2-Fun-A14B-InP | 7,654 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.2-Fun-A14B-InP) |
@@ -156,7 +157,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan2-1-t2v-shake-ass-1-0` | `shake ass,shake her ass` | not stated | not stated | wan2.1_T2V_shake ass_1.0 | 6,904 | catalog, verified | [CivitAI](https://civitai.com/models/1444484?modelVersionId=1632940) |
 | `wan-2-2-wink-by-mq-lab` | — | not stated | I2V | Wan 2.2 Wink by MQ Lab | 6,771 | catalog, verified | [CivitAI](https://civitai.com/models/1936550?modelVersionId=2191798) |
 | `braless-walking-ltx-2-3-wan2-2-t2v-14b-wan2-2-ti2v-5b` | `braless, braless woman, walking, wearing a top.`, `braless`, `braless, walking, breasts bouncing, we can see her nipples trough the shirt`, `braless, walking, breasts bouncing, we can see her nipples trough the shirt.` | 0.5–0.8 | TI2V (and I2V/T2V) | Braless Walking LTX 2.3-Wan2.2-T2V-14b & Wan2.2 TI2V-5b | 6,702 | catalog, verified | [CivitAI](https://civitai.com/models/2016969?modelVersionId=2282767) |
-| `wan2-1-distill-loras` | — | not stated | I2V | Wan2.1-Distill-Loras | 6,571 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-Distill-Loras) |
+| `wan2-1-distill-loras` | — | not stated | I2V and T2V | Wan2.1-Distill-Loras | 6,571 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-Distill-Loras) |
 | `wan-2-2-i2v-foot-worship-toe-sucking` | `foot worship.` | not stated | I2V | Wan 2.2 I2V Foot Worship / Toe Sucking | 6,563 | catalog, verified | [CivitAI](https://civitai.com/models/2003375?modelVersionId=2267620) |
 | `furry-nsfw-wan-2-2-5b` | — | not stated | TI2V (and I2V/T2V) | Furry + nsfw wan 2.2 5b | 6,455 | catalog, verified | [CivitAI](https://civitai.com/models/1827161?modelVersionId=2165401) |
 | `tinkerwan-wan-1-3b-stability-and-quality-enhancement-lora` | — | not stated | not stated | TinkerWAN - WAN 1.3B Stability and Quality enhancement LoRA | 6,348 | catalog, verified | [CivitAI](https://civitai.com/models/1425406?modelVersionId=1618623) |
@@ -167,13 +168,13 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan2-2-t2i-high-low-noise-polyhedron-all-perfect-skin-perfect-hands-perfect-eyes-m-f` | `perfect eyes`, `perfect hands`, `perfect skin`, `skin blemish`, `detailed skin` | not stated | T2V | WAN2.2. T2I (HIGH/LOW Noise) -– Polyhedron_all: Perfect skin. Perfect hands. Perfect eyes. | 6,131 | catalog, verified | [CivitAI](https://civitai.com/models/1947995?modelVersionId=2204732) |
 | `wan2-1-1-3b-cfg-distill-lora` | — | not stated | not stated | Wan2.1-1.3b CFG distill lora | 6,109 | catalog, verified | [CivitAI](https://civitai.com/models/1337418?modelVersionId=1510288) |
 | `tied-standing` | `in a tied standing spread-eagle pose`, `is in a tied standing spread-eagle pose` | not stated | T2V | Tied Standing | 6,107 | catalog, verified | [CivitAI](https://civitai.com/models/1478655?modelVersionId=2745228) |
-| `wan2-1-fun-reward-loras` | — | not stated | not stated | Wan2.1-Fun-Reward-LoRAs | 6,103 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-Reward-LoRAs) |
+| `wan2-1-fun-reward-loras` | — | 0.5; 0.7 | T2V | Wan2.1-Fun-Reward-LoRAs | 6,103 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-Reward-LoRAs) |
 | `wan-2-2-i2v-pussyjob` | `pussyjob. She vigorously rubs her pussy on his penis.` | not stated | I2V | WAN 2.2 I2V - Pussyjob | 6,063 | catalog, verified | [CivitAI](https://civitai.com/models/2746974?modelVersionId=3089966) |
 | `hip-gyration` | `belly dance`, `gyrating her hips` | not stated | T2V | Hip Gyration | 5,965 | catalog, verified | [CivitAI](https://civitai.com/models/2536449?modelVersionId=2850632) |
 | `roundabout-full-body-rotation-lora-for-hunyuan-and-wan-video` | `r0und4b0ut` | not stated | I2V | Roundabout ( full body rotation lora for hunyuan and wan video ) | 5,950 | catalog, verified | [CivitAI](https://civitai.com/models/1430981?modelVersionId=1683094) |
 | `wan-2-2-i2v-extream-low-angle` | — | not stated | I2V | Wan 2.2 I2V Extream Low Angle | 5,867 | catalog, verified | [CivitAI](https://civitai.com/models/2418345?modelVersionId=2718916) |
 | `spit-on-another-i2v-wan-2-2-video-lora-k3nk` | `A woman enters the frame from the {right|left} side, leans and spits directly onto her face.` | not stated | I2V and T2V | Spit on another - I2V Wan 2.2 Video LoRa - K3NK | 5,840 | catalog, verified | [CivitAI](https://civitai.com/models/2435881?modelVersionId=2738840) |
-| `wan2-1-fun-1-3b-inp` | — | not stated | not stated | Wan2.1-Fun-1.3B-InP | 5,812 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-1.3B-InP) |
+| `wan2-1-fun-1-3b-inp` | — | not stated | T2V | Wan2.1-Fun-1.3B-InP | 5,812 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-1.3B-InP) |
 | `nipple-insertion` | — | not stated | I2V | nipple insertion | 5,796 | catalog, verified | [CivitAI](https://civitai.com/models/2122164?modelVersionId=2400624) |
 | `catwalk-wan-i2v-14b` | `catwalk` | not stated | I2V | Catwalk - Wan I2V 14B | 5,763 | catalog, verified | [CivitAI](https://civitai.com/models/1500170?modelVersionId=1859883) |
 | `5uck1t-suck-anything-i2v-v2-0-i2v-wan-2-2-video-lora-k3nk` | `5uck1t` | not stated | I2V | 5UCK1T Suck anything I2V V2.0 - I2V Wan 2.2 Video LoRa - K3NK | 5,760 | catalog, verified | [CivitAI](https://civitai.com/models/2569583?modelVersionId=2887197) |
@@ -202,7 +203,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `breast-expansion-wan` | `brstgrw` | 1.00 | I2V and T2V | Breast Expansion - Wan | 4,834 | catalog, verified | [CivitAI](https://civitai.com/models/2223955?modelVersionId=2504051) |
 | `car-love-wan2-2-i2v` | — | not stated | I2V | car love Wan2.2 I2V | 4,825 | catalog, verified | [CivitAI](https://civitai.com/models/2434252?modelVersionId=2736992) |
 | `spit-to-the-viewer-i2v-wan-2-2-video-lora-k3nk` | `a woman spitting to the viewer.`, `a woman spits to the viewer.` | not stated | I2V and T2V | Spit to the viewer - I2V Wan 2.2 Video LoRa - K3NK | 4,765 | catalog, verified | [CivitAI](https://civitai.com/models/2352908?modelVersionId=2646379) |
-| `wan2-1-fun-14b-control` | — | not stated | not stated | Wan2.1-Fun-14B-Control | 4,730 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-14B-Control) |
+| `wan2-1-fun-14b-control` | — | not stated | T2V | Wan2.1-Fun-14B-Control | 4,730 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-14B-Control) |
 | `flux-klein-9b-ltx-2-qwen-wan-2-1-zit-waist-sliders` | — | 1.0 | T2V | Flux Klein 9B, LTX-2, Qwen, Wan 2.1, ZIT Waist Sliders | 4,718 | catalog, verified | [CivitAI](https://civitai.com/models/2354366?modelVersionId=2647969) |
 | `balloon-blowing` | `blowing balloon` | not stated | I2V | Balloon Blowing | 4,632 | catalog, verified | [CivitAI](https://civitai.com/models/138824?modelVersionId=1750984) |
 | `quick-turn-hip-snap-dance` | — | not stated | I2V | Quick Turn & Hip Snap Dance | 4,631 | catalog, verified | [CivitAI](https://civitai.com/models/2142146?modelVersionId=2422976) |
@@ -232,7 +233,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan2-2-lift-one-leg-high` | — | not stated | I2V | 【wan2.2】Lift one leg high | 4,062 | catalog, verified | [CivitAI](https://civitai.com/models/2478891?modelVersionId=2787079) |
 | `high-speed-dynamic` | `maque` | not stated | T2V | High speed dynamic | 4,044 | catalog, verified | [CivitAI](https://civitai.com/models/1698719?modelVersionId=1922492) |
 | `wan2-1-480p-self-titsucking-licking-lora` | `s3lft1t` | 1 | I2V and T2V | Wan2.1 480p Self-titsucking/licking LoRA | 4,036 | catalog, verified | [CivitAI](https://civitai.com/models/1425743?modelVersionId=1611503) |
-| `wan2-1-fun-v1-1-1-3b-control` | — | not stated | not stated | Wan2.1-Fun-V1.1-1.3B-Control | 4,032 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-V1.1-1.3B-Control) |
+| `wan2-1-fun-v1-1-1-3b-control` | — | not stated | T2V | Wan2.1-Fun-V1.1-1.3B-Control | 4,032 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-V1.1-1.3B-Control) |
 | `penis-enhancer` | `Penis` | not stated | T2V | Penis Enhancer | 3,979 | catalog, verified | [CivitAI](https://civitai.com/models/2611925?modelVersionId=2932750) |
 | `facial-aftermath` | — | not stated | T2V | Facial Aftermath | 3,968 | catalog, verified | [CivitAI](https://civitai.com/models/2549629?modelVersionId=2865274) |
 | `facial-wan2-2-5b` | `facial` | not stated | TI2V (and I2V) | Facial WAN2.2 5B | 3,936 | catalog, verified | [CivitAI](https://civitai.com/models/1852427?modelVersionId=2096373) |
@@ -254,7 +255,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan2-2-muscle-slider` | — | not stated | T2V | [Wan2.2] Muscle slider | 3,464 | catalog, verified | [CivitAI](https://civitai.com/models/1981358?modelVersionId=2242869) |
 | `wan-2-2-i2v-instant-pregnant-instant-stomach-bulge-pregnancy-expansion` | `Her stomach slowly expands and rises, emphasizing the growing size of her pregnancy.` | not stated | I2V | (Wan 2.2 I2V) Instant Pregnant / Instant Stomach Bulge / Pregnancy expansion | 3,400 | catalog, verified | [CivitAI](https://civitai.com/models/2235937?modelVersionId=2517065) |
 | `wan-2-1-cleavage-breasts-big-tits-lora-t2v` | `her cleavage prominently displayed` | 0.8 | T2V | Wan 2.1 Cleavage - Breasts, Big Tits, Lora, T2V | 3,385 | catalog, verified | [CivitAI](https://civitai.com/models/1409526?modelVersionId=1593390) |
-| `wan2-1-fun-v1-1-14b-inp` | — | not stated | not stated | Wan2.1-Fun-V1.1-14B-InP | 3,374 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-V1.1-14B-InP) |
+| `wan2-1-fun-v1-1-14b-inp` | — | not stated | T2V | Wan2.1-Fun-V1.1-14B-InP | 3,374 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-V1.1-14B-InP) |
 | `luisap-wan-2-2-lip-biting` | `She sensually bites her lower lip.` | not stated | I2V | [LuisaP❤️] WAN 2.2 LIP BITING | 3,371 | catalog, verified | [CivitAI](https://civitai.com/models/2102793?modelVersionId=2379012) |
 | `wan2-2-pull-her-closer` | — | 1.0 | I2V | 【wan2.2】pull her closer | 3,343 | catalog, verified | [CivitAI](https://civitai.com/models/2505277?modelVersionId=2816241) |
 | `crawling` | — | not stated | I2V and T2V | Crawling | 3,336 | catalog, verified | [CivitAI](https://civitai.com/models/2536180?modelVersionId=2850329) |
@@ -327,7 +328,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan2-2-yoshiaki-kawajiri-retro-anime-style-t2v` | `Yoshiaki Kawajiri style.` | not stated | T2V | Wan2.2 Yoshiaki Kawajiri retro anime style t2v | 2,112 | catalog, verified | [CivitAI](https://civitai.com/models/1833906?modelVersionId=2235576) |
 | `tied-kneeling-bent-downward` | `tied kneeling bent forward`, `is tied kneeling bent forward` | not stated | T2V | Tied Kneeling Bent Downward | 2,111 | catalog, verified | [CivitAI](https://civitai.com/models/2515551?modelVersionId=2827712) |
 | `luisap-wan-2-2-i2v-jumpscare-happy-hallowen` | `JUMPSCARE, an character jumps to the camera, fast motion, really fast, impact, the character runs to the camera` | not stated | I2V | [LuisaP❤️] WAN 2.2 I2V JUMPSCARE [ HAPPY HALLOWEN!] | 2,100 | catalog, verified | [CivitAI](https://civitai.com/models/2071362?modelVersionId=2343822) |
-| `jav-company-uncensored-redcraft-wan2-1-il-pony-flux-1-lora` | — | not stated | not stated | jav-company-uncensored-redcraft-wan2.1-il-pony-flux.1-lora | 2,094 | catalog, verified | [HF](https://huggingface.co/Muapi/jav-company-uncensored-redcraft-wan2.1-il-pony-flux.1-lora) |
+| `jav-company-uncensored-redcraft-wan2-1-il-pony-flux-1-lora` | `JAV_AIPONDO` | 1.0 | not stated | jav-company-uncensored-redcraft-wan2.1-il-pony-flux.1-lora | 2,094 | catalog, verified | [HF](https://huggingface.co/Muapi/jav-company-uncensored-redcraft-wan2.1-il-pony-flux.1-lora) |
 | `wan-2-2-5b-t2v-big-sagging-butts-wide-hips-big-sagging-breasts` | — | not stated | TI2V (and I2V/T2V) | Wan 2.2 5b t2v Big sagging butts, wide hips, big sagging breasts | 2,056 | catalog, verified | [CivitAI](https://civitai.com/models/1853378?modelVersionId=2097470) |
 | `counter-side-idle` | — | not stated | I2V | Counter Side Idle | 2,044 | catalog, verified | [CivitAI](https://civitai.com/models/2051376?modelVersionId=2321568) |
 | `luisap-wan-2-2-upscaler-tool` | `upscale this video` | not stated | I2V | [LuisaP❤️] WAN 2.2 UPSCALER [TOOL] | 2,028 | catalog, verified | [CivitAI](https://civitai.com/models/2111356?modelVersionId=2388559) |
@@ -337,7 +338,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `quartercup-bra-wan` | `QuarterCup` | not stated | TI2V (and I2V/T2V) | QuarterCup Bra (Wan) | 1,996 | catalog, verified | [CivitAI](https://civitai.com/models/1957358?modelVersionId=2253704) |
 | `luisap-wan-2-2-split-tongue` | `see description` | not stated | I2V | [LuisaP❤️] WAN 2.2 SPLIT TONGUE | 1,995 | catalog, verified | [CivitAI](https://civitai.com/models/2103270?modelVersionId=2379521) |
 | `tied-upside-down` | `in a tied suspended upside down pose`, `tied suspended upside down pose` | not stated | T2V | Tied Upside Down | 1,979 | catalog, verified | [CivitAI](https://civitai.com/models/1585083?modelVersionId=2905592) |
-| `hstoric-color-wan2-2-5b-lora-bysilveragepoets` | — | not stated | TI2V (and I2V) | HSToric_Color_Wan2.2_5B_LoRA_BySilverAgePoets | 1,943 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/HSToric_Color_Wan2.2_5B_LoRA_BySilverAgePoets) |
+| `hstoric-color-wan2-2-5b-lora-bysilveragepoets` | `HST style HD film`, `early 1900s`, `autochrome`, `analog cinema` | not stated | TI2V (and I2V/T2V) | HSToric_Color_Wan2.2_5B_LoRA_BySilverAgePoets | 1,943 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/HSToric_Color_Wan2.2_5B_LoRA_BySilverAgePoets) |
 | `create-stereogram-wan-2-2-i2v` | — | not stated | I2V | Create Stereogram | 1,937 | catalog, verified | [CivitAI](https://civitai.com/models/2151524?modelVersionId=2433512) |
 | `wan-2-2-i2v-14b-t1ttypl4y` | `t1ttypl4y` | not stated | I2V | Wan 2.2 I2V 14B t1ttypl4y | 1,937 | catalog, verified | [CivitAI](https://civitai.com/models/2841662?modelVersionId=3207878) |
 | `strong-wind-wan2-1-i2v` | `W1NDY_FAC3` | not stated | I2V | Strong Wind (Wan2.1 I2V) | 1,922 | catalog, verified | [CivitAI](https://civitai.com/models/1445917?modelVersionId=1634716) |
@@ -375,9 +376,9 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `blowbang-wan-2-1-720p-img2v-shrekman-hentai-loras` | `The Woman is performing a BL0Wbang, she interact with two nude males, sucking one of the two visible penises while stroking the other, in this video she sucks the penis on the right/left side of her while stroking penis on the left/right side of her,` | not stated | I2V | Blowbang WAN 2.1 720p IMG2V | 1,591 | catalog, verified | [CivitAI](https://civitai.com/models/1719751?modelVersionId=1946198) |
 | `throat-distention-wan-2-2-i2v` | — | not stated | I2V | Throat Distention - Wan 2.2 I2V | 1,568 | catalog, verified | [CivitAI](https://civitai.com/models/2941612?modelVersionId=3330450) |
 | `short-wetsuit-wetsuitbbs` | `wetsuitBBS` | not stated | TI2V (and I2V/T2V) | Short wetsuit, wetsuitBBS | 1,565 | catalog, verified | [CivitAI](https://civitai.com/models/1071024?modelVersionId=1902507) |
-| `jodorowsky-wan-14b-lora-bysilveragepoets` | — | not stated | not stated | Jodorowsky_Wan_14b_LoRA_BySilverAgePoets | 1,560 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/Jodorowsky_Wan_14b_LoRA_BySilverAgePoets) |
+| `jodorowsky-wan-14b-lora-bysilveragepoets` | `Jodorowsky psychedelic montage 1970s film by jodorowsky` | not stated | T2V | Jodorowsky_Wan_14b_LoRA_BySilverAgePoets | 1,560 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/Jodorowsky_Wan_14b_LoRA_BySilverAgePoets) |
 | `croptop-wan` | `cr0pt0p` | not stated | T2V | CropTop - Wan | 1,558 | catalog, verified | [CivitAI](https://civitai.com/models/1678469?modelVersionId=1899744) |
-| `wan2-1-fun-1-3b-control` | — | not stated | not stated | Wan2.1-Fun-1.3B-Control | 1,558 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-1.3B-Control) |
+| `wan2-1-fun-1-3b-control` | — | not stated | T2V | Wan2.1-Fun-1.3B-Control | 1,558 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-1.3B-Control) |
 | `arch-back-climax-wan2-1-i2v-lora` | — | not stated | I2V and T2V | Arch Back Climax Wan2.1 i2V LoRA | 1,519 | catalog, verified | [CivitAI](https://civitai.com/models/1460344?modelVersionId=1651433) |
 | `wan2-2-backflip` | — | not stated | I2V | 【wan2.2】backflip | 1,516 | catalog, verified | [CivitAI](https://civitai.com/models/2325582?modelVersionId=2616137) |
 | `wan2-2-i2v-flip-high` | `performs the fl1p`, `performing the fl1p` | not stated | I2V | WAN2.2_I2V_Flip_High | 1,516 | catalog, verified | [CivitAI](https://civitai.com/models/2063767?modelVersionId=2335301) |
@@ -426,8 +427,9 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `calisthenic-moves-real-wan-2-2-i2v` | — | not stated | I2V | Calisthenic Moves [Real] | 1,229 | catalog, verified | [CivitAI](https://civitai.com/models/2438746?modelVersionId=2742040) |
 | `luisap-wan-2-2-shaking-concept` | `the person is shaking`, `the emoji is shaking` | not stated | I2V | [LuisaP❤️] WAN 2.2 SHAKING CONCEPT | 1,227 | catalog, verified | [CivitAI](https://civitai.com/models/2088076?modelVersionId=2362503) |
 | `wan2-1-carry-in-one-s-arms-i2v14b-lora` | `GmZmB` | not stated | I2V | [Wan2.1]公主抱 | 1,220 | catalog, verified | [CivitAI](https://civitai.com/models/1664842?modelVersionId=1884352) |
+| `wan2-1-1-3b-static-rotation` | `sttcrttn` | not stated | T2V | wan2.1 1.3b static rotation | 1,213 | catalog, verified | [CivitAI](https://civitai.com/models/1479320?modelVersionId=1673265) |
 | `abandoned-places-wan-hunyuan-video-t2v-lora` | `abandoned places` | 1.0 | T2V | Abandoned Places (Wan + Hunyuan Video T2V LoRA) | 1,202 | catalog, verified | [CivitAI](https://civitai.com/models/1296406?modelVersionId=1588377) |
-| `my-first-lora-v2-lora` | — | not stated | not stated | my_first_lora_v2-lora | 1,199 | catalog, verified | [HF](https://huggingface.co/bigdoinks420518/my_first_lora_v2-lora) |
+| `my-first-lora-v2-lora` | `chl0ep4rk` | not stated | T2V | my_first_lora_v2-lora | 1,199 | catalog, verified | [HF](https://huggingface.co/bigdoinks420518/my_first_lora_v2-lora) |
 | `haigure-i2v-wan2-2-5b` | `haigure` | not stated | TI2V (and I2V) | Haigure I2V WAN2.2 5B | 1,197 | catalog, verified | [CivitAI](https://civitai.com/models/1859244?modelVersionId=2120773) |
 | `french-cut-wetsuit-wetsuitals` | `wetsuitALS` | not stated | T2V | French cut wetsuit, wetsuitALS | 1,193 | catalog, verified | [CivitAI](https://civitai.com/models/1084159?modelVersionId=1645914) |
 | `facesit-wan-v2` | `Facesitting` | not stated | T2V | Facesit wan v2 | 1,186 | catalog, verified | [CivitAI](https://civitai.com/models/1797649?modelVersionId=2034366) |
@@ -457,7 +459,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan-i2v-flip-flop-foot-flirt` | `Shoeplay. Shoe dangle.`, `She is wearing [shoes]. her shoe is dangling from her foot.` | not stated | I2V | Wan I2V - Flip Flop Foot Flirt | 1,091 | catalog, verified | [CivitAI](https://civitai.com/models/1738039?modelVersionId=1966998) |
 | `trackingshot-wan2-1-i2v-720p` | `tracking shot` | not stated | I2V and T2V | TrackingShot-Wan2.1-I2V-720P | 1,087 | catalog, verified | [CivitAI](https://civitai.com/models/1813443?modelVersionId=2052209) |
 | `standing-frontbend-yoga-position-legs-behind-head-wan-t2v` | `woman doing a standing full frontbend pose`, `a woman doing a standing legs behind her head pose` | not stated | T2V | Standing frontbend yoga position - legs behind head - WAN t2v | 1,079 | catalog, verified | [CivitAI](https://civitai.com/models/1786938?modelVersionId=2036189) |
-| `hy1-5-quantized-models` | — | not stated | not stated | Hy1.5-Quantized-Models | 1,074 | catalog, verified | [HF](https://huggingface.co/lightx2v/Hy1.5-Quantized-Models) |
+| `hy1-5-quantized-models` | — | not stated | I2V and T2V | Hy1.5-Quantized-Models | 1,074 | catalog, verified | [HF](https://huggingface.co/lightx2v/Hy1.5-Quantized-Models) |
 | `wan-2-2-t2v-i2v-breast-shrinking` | `brstshrnk` | not stated | I2V and T2V | WAN 2.2 T2V/I2V Breast Shrinking | 1,066 | catalog, verified | [CivitAI](https://civitai.com/models/2350033?modelVersionId=2643176) |
 | `muscle-growth-wan` | `msclgrw` | not stated | I2V and T2V | Muscle Growth - Wan | 1,059 | catalog, verified | [CivitAI](https://civitai.com/models/2257040?modelVersionId=2540714) |
 | `yoga-frontbend-legs-behind-head-pretzel-position-wan2-1-t2v` | `a woman with her legs behind her head` | not stated | T2V | Yoga frontbend - legs behind head pretzel position WAN2.1 t2v | 1,058 | catalog, verified | [CivitAI](https://civitai.com/models/1763699?modelVersionId=1995935) |
@@ -521,7 +523,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `virgin-killer-sweater-wan-2-2-a14b-t2v` | `She wears a sleeveless, high-necked, [color] knit sweater that reveals her naked sides and back` | not stated | T2V | Virgin Killer Sweater - WAN 2.2 A14b T2V | 732 | catalog, verified | [CivitAI](https://civitai.com/models/2241345?modelVersionId=2523165) |
 | `wan2-2-i2v-high-shocked` | — | 1.0 | I2V | wan2.2-i2v-high-Shocked（震惊） | 728 | catalog, verified | [CivitAI](https://civitai.com/models/1896512?modelVersionId=2146823) |
 | `skinsuit-for-wan2-2-i2v-and-t2v` | `skinsuit` | not stated | I2V and T2V | Skinsuit 皮物 皮モノ for Wan2.2 (i2v and t2v) | 726 | catalog, verified | [CivitAI](https://civitai.com/models/2636295?modelVersionId=2959954) |
-| `wan2-2-distill-loras` | — | not stated | I2V | Wan2.2-Distill-Loras | 724 | catalog, verified | [HF](https://huggingface.co/AakashTestCheck/Wan2.2-Distill-Loras) |
+| `wan2-2-distill-loras` | — | 1.0 | I2V and T2V | Wan2.2-Distill-Loras | 724 | catalog, verified | [HF](https://huggingface.co/AakashTestCheck/Wan2.2-Distill-Loras) |
 | `vintage-short-wetsuit-wetsuitvs1` | `wetsuitVS1` | not stated | T2V | Vintage, short wetsuit. wetsuitVS1 | 720 | catalog, verified | [CivitAI](https://civitai.com/models/2395641?modelVersionId=2704982) |
 | `wan-2-2-i2v-male-chastity-device` | — | not stated | I2V | WAN 2.2 I2V Male Chastity Device | 713 | catalog, verified | [CivitAI](https://civitai.com/models/2311516?modelVersionId=2600662) |
 | `landscapetimelapse-wan2-1-i2v-720p` | `time-lapse effect` | not stated | I2V and T2V | LandScapeTimelapse-Wan2.1-I2V-720P | 711 | catalog, verified | [CivitAI](https://civitai.com/models/1764234?modelVersionId=1996554) |
@@ -535,7 +537,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `bulge-animator-underboner-by-coachbate-wan-2-2` | `underboner` | not stated | I2V | Bulge Animator (UnderBoner by CoachBate) WAN 2.2 | 669 | catalog, verified | [CivitAI](https://civitai.com/models/2449510?modelVersionId=2754274) |
 | `flight` | — | not stated | I2V | flight | 666 | catalog, verified | [CivitAI](https://civitai.com/models/1900809?modelVersionId=2151583) |
 | `ball-gag-wan-2-2-t2v-i2v-both` | `ball gag`, `leather straps` | not stated | I2V and T2V | Ball Gag - Wan 2.2 (T2V & I2V Both) | 663 | catalog, verified | [CivitAI](https://civitai.com/models/2602247?modelVersionId=2922020) |
-| `kvwan21-lora` | — | not stated | not stated | KVwan21-lora | 661 | catalog, verified | [HF](https://huggingface.co/jude1903/KVwan21-lora) |
+| `kvwan21-lora` | `KV woman` | not stated | T2V | KVwan21-lora | 661 | catalog, verified | [HF](https://huggingface.co/jude1903/KVwan21-lora) |
 | `wan2-2-eyes-3d-high-3d-high` | `eyes 3d` | not stated | I2V | wan2.2 Eyes_3d_high/裸眼3d_high | 661 | catalog, verified | [CivitAI](https://civitai.com/models/1982280?modelVersionId=2243889) |
 | `dogs-wan2-1-t2v-lora` | `d48g dog video` | 1.0 | T2V | Dogs (Wan2.1 T2V LoRA) | 657 | catalog, verified | [CivitAI](https://civitai.com/models/1391376?modelVersionId=1572616) |
 | `aether-exposure-wan-2-2-t2v-lora` | `double exposure of a [subject] and a [context], [white/black] background` | not stated | T2V | Aether Exposure - Wan 2.2 t2v LoRA | 654 | catalog, verified | [CivitAI](https://civitai.com/models/2032129?modelVersionId=2299874) |
@@ -545,7 +547,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nhs-nurse-sister-uniform-v3` | — | not stated | T2V | NHS Nurse Sister Uniform v3 | 644 | catalog, verified | [CivitAI](https://civitai.com/models/1150801?modelVersionId=1815238) |
 | `middle-finger-v2-wan22-5b-jgf` | `middle finger` | not stated | TI2V (and I2V) | middle finger_V2_wan22_5b_JGF | 640 | catalog, verified | [CivitAI](https://civitai.com/models/1959461?modelVersionId=2217925) |
 | `svi-v2-pro-wan2-2-i2v-a14b-high-lora-rank-128-fp16` | — | not stated | I2V | SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors | 637 | catalog, verified | [HF](https://huggingface.co/Stottsteven/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors) |
-| `baddie-4i-lora` | — | not stated | not stated | baddie-4i-lora | 635 | catalog, verified | [HF](https://huggingface.co/Mark3228/baddie-4i-lora) |
+| `baddie-4i-lora` | — | not stated | T2V | baddie-4i-lora | 635 | catalog, verified | [HF](https://huggingface.co/Mark3228/baddie-4i-lora) |
 | `stone-cold-stunner-wan-2-2-i2v-lora` | — | not stated | I2V | Stone Cold Stunner wan 2.2 i2v LoRA | 635 | catalog, verified | [CivitAI](https://civitai.com/models/2376850?modelVersionId=2672950) |
 | `humantaur-four-legs` | `humantaur` | 1.0 | T2V | Humantaur - Four Legs | 634 | catalog, verified | [CivitAI](https://civitai.com/models/2568877?modelVersionId=2886442) |
 | `wan2-2-t2i-asian-girl-with-photorealistic` | — | not stated | T2V | wan2.2-t2i-Asian Girl with Photorealistic（小红书女孩） | 631 | catalog, verified | [CivitAI](https://civitai.com/models/2099121?modelVersionId=2374979) |
@@ -554,34 +556,34 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ghost-rider` | `ELQS` | not stated | not stated | Ghost rider | 601 | catalog, verified | [CivitAI](https://civitai.com/models/1367331?modelVersionId=1581319) |
 | `luis-royo-style-for-wan-2-2` | `l-royo` | not stated | T2V | Luis Royo style for Wan 2.2 | 600 | catalog, verified | [CivitAI](https://civitai.com/models/2047336?modelVersionId=2317122) |
 | `everything-blossoms` | `ww2hk effect` | not stated | I2V | Everything blossoms-万物生花 | 599 | catalog, verified | [CivitAI](https://civitai.com/models/1396847?modelVersionId=1578859) |
-| `wan2-1-bullettime-lora` | — | not stated | I2V | Wan2.1-BulletTime-LoRA | 598 | catalog, verified | [HF](https://huggingface.co/joyfox/Wan2.1-BulletTime-LoRA) |
+| `wan2-1-bullettime-lora` | `rw360xz`, `人物定在空中，相机视角围绕人物向一个方向旋转` | not stated | I2V | Wan2.1-BulletTime-LoRA | 598 | catalog, verified | [HF](https://huggingface.co/joyfox/Wan2.1-BulletTime-LoRA) |
 | `bordelle-angella-dress` | — | not stated | T2V | Bordelle Angella dress | 596 | catalog, verified | [CivitAI](https://civitai.com/models/1850301?modelVersionId=2165214) |
 | `trampoline-diving-wan2-1-14b-t2v` | `diving competition` | not stated | I2V and T2V | Trampoline diving | 591 | catalog, verified | [CivitAI](https://civitai.com/models/1666148?modelVersionId=1885880) |
 | `amputee-wan2-1-t2v-14b` | `amputee` | not stated | T2V | Amputee - Wan2.1 T2V 14B | 590 | catalog, verified | [CivitAI](https://civitai.com/models/1476767?modelVersionId=1670366) |
 | `wan2-2-5b-lora-lab` | — | not stated | TI2V (and I2V/T2V) | wan2.2_5B_lora_lab | 589 | catalog, verified | [CivitAI](https://civitai.com/models/1890442?modelVersionId=2139784) |
-| `slashered-wan22-lora` | — | not stated | I2V | slashered_Wan22-lora | 585 | catalog, verified | [HF](https://huggingface.co/EightiesPower/slashered_Wan22-lora) |
+| `slashered-wan22-lora` | `slashered` | not stated | I2V | slashered_Wan22-lora | 585 | catalog, verified | [HF](https://huggingface.co/EightiesPower/slashered_Wan22-lora) |
 | `wan2-2-eyes-3d-low-3d-low` | `eyes 3D` | not stated | I2V | wan2.2 Eyes_3d_low/裸眼3d_low | 583 | catalog, verified | [CivitAI](https://civitai.com/models/1982298?modelVersionId=2243906) |
 | `birthday-party-atmosphere` | `ymq` | not stated | I2V | Birthday party atmosphere | 575 | catalog, verified | [CivitAI](https://civitai.com/models/1871799?modelVersionId=2118632) |
 | `cartoonishly-eaten-ltx-2-wan2-1-14b-t2v` | `eat style.` | not stated | T2V | Cartoonishly Eaten - LTX-2 / Wan2.1 14b T2V | 571 | catalog, verified | [CivitAI](https://civitai.com/models/1637933?modelVersionId=1854028) |
 | `tfmshrink-chest-deflate-for-wan-video` | `Her Chest Shrinks` | not stated | not stated | TFMShrink - Chest Deflate for Wan Video | 567 | catalog, verified | [CivitAI](https://civitai.com/models/1569474?modelVersionId=1776043) |
-| `vnkcwan21-lora` | — | not stated | not stated | VNKCWan21-lora | 567 | catalog, verified | [HF](https://huggingface.co/jude1903/VNKCWan21-lora) |
+| `vnkcwan21-lora` | `VNKC woman` | not stated | T2V | VNKCWan21-lora | 567 | catalog, verified | [HF](https://huggingface.co/jude1903/VNKCWan21-lora) |
 | `moonwalk-wan2-1-i2v-720p` | `moonwalk dance` | not stated | I2V and T2V | MoonWalk-Wan2.1-I2V-720P | 566 | catalog, verified | [CivitAI](https://civitai.com/models/1758583?modelVersionId=1990294) |
 | `wan2-2-fun-a14b-inp-low-noise-mps` | — | not stated | T2V | Wan2.2-Fun-A14B-InP-low-noise-MPS | 566 | catalog, verified | [CivitAI](https://civitai.com/models/1953737?modelVersionId=2211200) |
 | `airwolf-a-k-a-the-lady` | `Airwolf222A` | not stated | T2V | Airwolf - a.k.a. "The Lady" | 562 | catalog, verified | [CivitAI](https://civitai.com/models/1859550?modelVersionId=2216379) |
 | `wan-2-2-t2v-i2v-breast-shrinking-updated` | `brstshrnk` | not stated | I2V and T2V | WAN 2.2 T2V/I2V Breast Shrinking - Updated | 562 | catalog, verified | [CivitAI](https://civitai.com/models/2780239?modelVersionId=3131136) |
 | `growth-sequence` | `growth_sequence` | not stated | I2V | Growth Sequence | 557 | catalog, verified | [CivitAI](https://civitai.com/models/2166287?modelVersionId=2439503) |
 | `wan2-1-shrinks-concept` | `extremely tiny mini` | not stated | T2V | [WAN2.1] Shrinks [CONCEPT] | 553 | catalog, verified | [CivitAI](https://civitai.com/models/1767027?modelVersionId=1999755) |
-| `tlamwan21-lora` | — | not stated | not stated | tlamwan21-lora | 549 | catalog, verified | [HF](https://huggingface.co/jude1903/tlamwan21-lora) |
+| `tlamwan21-lora` | — | not stated | T2V | tlamwan21-lora | 549 | catalog, verified | [HF](https://huggingface.co/jude1903/tlamwan21-lora) |
 | `wan-2-2-t2v-head-scissor` | — | not stated | T2V | WAN 2.2 T2V Head Scissor | 544 | catalog, verified | [CivitAI](https://civitai.com/models/2135064?modelVersionId=2415195) |
 | `porsche-targa-flux-3-qwen-wan-hidream-ideogram` | `targa` | not stated | T2V | Porsche Targa [Flux 3,Qwen, WAN, Hidream, Ideogram] | 543 | catalog, verified | [CivitAI](https://civitai.com/models/1490273?modelVersionId=2156827) |
-| `mb-forest-road-wan-2-1-lora` | — | not stated | not stated | MB_FOREST_ROAD_wan-2-1-lora | 542 | catalog, verified | [HF](https://huggingface.co/Crowbar-Dub/MB_FOREST_ROAD_wan-2-1-lora) |
+| `mb-forest-road-wan-2-1-lora` | `SCROAD64` | not stated | I2V and T2V | MB_FOREST_ROAD_wan-2-1-lora | 542 | catalog, verified | [HF](https://huggingface.co/Crowbar-Dub/MB_FOREST_ROAD_wan-2-1-lora) |
 | `wan2-2-t2v-14b-female-bodybuilder-pose` | `Wellness, side pose, wellness posing. a bodybuilder woman posing`, `Wellness, front pose, wellness posing. a bodybuilder woman posing` | not stated | T2V | WAN2.2_T2V_14b - Female Bodybuilder Pose | 541 | catalog, verified | [CivitAI](https://civitai.com/models/2009066?modelVersionId=2273914) |
 | `wackadoodle-person` | `making wacky faces and gesturing` | not stated | I2V and T2V | Wackadoodle person | 533 | catalog, verified | [CivitAI](https://civitai.com/models/2023156?modelVersionId=2289750) |
-| `m33g33-lora` | — | not stated | not stated | M33G33-lora | 532 | catalog, verified | [HF](https://huggingface.co/penguinbox/M33G33-lora) |
+| `m33g33-lora` | `M33G33` | not stated | T2V | M33G33-lora | 532 | catalog, verified | [HF](https://huggingface.co/penguinbox/M33G33-lora) |
 | `ozempic-wan2-1-i2v-lora` | `l0ses w3ight` | not stated | I2V | Ozempic [Wan2.1 I2V] LoRA | 531 | catalog, verified | [CivitAI](https://civitai.com/models/1385301?modelVersionId=1565408) |
 | `wan2-2-i2v-high-inflatablefashion` | — | 0.8–1 | I2V | wan2.2-i2v-high-InflatableFashion | 529 | catalog, verified | [CivitAI](https://civitai.com/models/1882717?modelVersionId=2130979) |
 | `paint-splash-wan2-1-14b-lora` | — | not stated | I2V and T2V | Paint Splash - Wan2.1 14B Lora | 526 | catalog, verified | [CivitAI](https://civitai.com/models/1767104?modelVersionId=1999861) |
-| `winniewan21-lora` | — | not stated | not stated | winnieWan21-lora | 524 | catalog, verified | [HF](https://huggingface.co/jude1903/winnieWan21-lora) |
+| `winniewan21-lora` | `winnie woman` | not stated | T2V | winnieWan21-lora | 524 | catalog, verified | [HF](https://huggingface.co/jude1903/winnieWan21-lora) |
 | `hollow-knight-wan-2-2` | `hollow_knight` | not stated | TI2V (and I2V/T2V) | Hollow knight [Wan 2.2] | 523 | catalog, verified | [CivitAI](https://civitai.com/models/1836374?modelVersionId=2141366) |
 | `self-foot-worship-smelling` | `S3LFSN1FF1` | not stated | I2V | Self Foot Worship/Smelling | 522 | catalog, verified | [CivitAI](https://civitai.com/models/2597860?modelVersionId=2918322) |
 | `fighter-transform-gerwalk-wan2-2-i2v-14b-guardian-in-robotech` | `A sci-fi video focusing on vehicles. A fictional fighter jet transforms. The plane is flying. The plane is a transforming fighter jet, so it transforms like Robotech. A high-speed production.` | not stated | I2V | Fighter Transform GERWALK (WAN2.2 I2V 14B) (Guardian in Robotech) | 520 | catalog, verified | [CivitAI](https://civitai.com/models/2423675?modelVersionId=2725039) |
@@ -600,46 +602,46 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan2-2-i2v-high-cataclysmic-breath` | — | 1.0 | I2V | wan2.2-i2v-high-Cataclysmic Breath（毁灭之声） | 493 | catalog, verified | [CivitAI](https://civitai.com/models/1949892?modelVersionId=2206849) |
 | `vhs-look` | `vhs` | not stated | T2V | VHS LOOK | 492 | catalog, verified | [CivitAI](https://civitai.com/models/1677782?modelVersionId=1898974) |
 | `wan2-2-a14b-karlach-baldur-s-gate-3` | `karlach woman` | 0.9–1.0; 0.5–1.0; 1.0 | T2V | WAN2.2 A14B - Karlach (Baldur's Gate 3) | 491 | catalog, verified | [CivitAI](https://civitai.com/models/1842287?modelVersionId=2084850) |
-| `jun3womanwan21-lora` | — | not stated | not stated | jun3womanwan21-lora | 490 | catalog, verified | [HF](https://huggingface.co/jude1903/jun3womanwan21-lora) |
+| `jun3womanwan21-lora` | `jun3woman` | not stated | T2V | jun3womanwan21-lora | 490 | catalog, verified | [HF](https://huggingface.co/jude1903/jun3womanwan21-lora) |
 | `sultry-hijab-modern-draped-fashion-lora` | — | not stated | T2V | Sultry Hijab — Modern Draped Fashion LoRA | 489 | catalog, verified | [CivitAI](https://civitai.com/models/2271091?modelVersionId=2556322) |
 | `yutang-wan2-2-ghost-rider` | — | not stated | I2V | Yutang -wan2.2 Ghost Rider | 486 | catalog, verified | [CivitAI](https://civitai.com/models/1866411?modelVersionId=2112466) |
 | `wan2-1-fight-lora` | — | not stated | I2V | Wan2.1-Fight-LoRA | 480 | catalog, verified | [HF](https://huggingface.co/joyfox/Wan2.1-Fight-LoRA) |
 | `glowing-eyes-wan-2-2-5b-i2v` | — | 1 | TI2V (and I2V) | Glowing Eyes Wan 2.2 5B I2V | 479 | catalog, verified | [CivitAI](https://civitai.com/models/1936797?modelVersionId=2192059) |
-| `wan2-1-fun-14b-inp` | — | not stated | not stated | Wan2.1-Fun-14B-InP | 478 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-14B-InP) |
-| `fraemwerk-t2v-v1-lora` | — | not stated | not stated | fraemwerk_t2v_v1-lora | 473 | catalog, verified | [HF](https://huggingface.co/fraemwerk/fraemwerk_t2v_v1-lora) |
+| `wan2-1-fun-14b-inp` | — | not stated | T2V | Wan2.1-Fun-14B-InP | 478 | catalog, verified | [HF](https://huggingface.co/alibaba-pai/Wan2.1-Fun-14B-InP) |
+| `fraemwerk-t2v-v1-lora` | `fraemwerk` | not stated | T2V | fraemwerk_t2v_v1-lora | 473 | catalog, verified | [HF](https://huggingface.co/fraemwerk/fraemwerk_t2v_v1-lora) |
 | `wan-2-2-i2v-14b-walking-with-pegleg` | `p1glegging` | not stated | I2V | Wan 2.2 I2V 14B walking with pegleg | 473 | catalog, verified | [CivitAI](https://civitai.com/models/2264343?modelVersionId=2548814) |
-| `wan21-kapi-01-lora` | — | not stated | not stated | wan21_kapi_01-lora | 472 | catalog, verified | [HF](https://huggingface.co/spamnco/wan21_kapi_01-lora) |
+| `wan21-kapi-01-lora` | `kapi` | not stated | T2V | wan21_kapi_01-lora | 472 | catalog, verified | [HF](https://huggingface.co/spamnco/wan21_kapi_01-lora) |
 | `wan2-2-t2i-high-low-noise-polyhedron-high-fashion-haute-couture-glossy-wet-skin-look` | `glamgirls`, `glam models`, `glamour model`, `glamour photography`, `luxery photography` | not stated | T2V | WAN2.2. T2I (HIGH/LOW Noise) -– Polyhedron: High Fashion (Haute Couture) & Glossy Wet Skin | 471 | catalog, verified | [CivitAI](https://civitai.com/models/2373281?modelVersionId=2669019) |
 | `ladypot-wan2-2` | `ladypot` | not stated | T2V | Ladypot - Wan2.2 | 469 | catalog, verified | [CivitAI](https://civitai.com/models/2539527?modelVersionId=2854056) |
 | `arms-up-tickling` | — | not stated | T2V | Arms Up Tickling | 468 | catalog, verified | [CivitAI](https://civitai.com/models/1851150?modelVersionId=2094941) |
 | `green-geometric-dress` | `Grn_Geo_Drs` | not stated | T2V | Green Geometric Dress | 467 | catalog, verified | [CivitAI](https://civitai.com/models/998524?modelVersionId=2160175) |
-| `rjessiewan21-lora` | — | not stated | not stated | rjessiewan21-lora | 465 | catalog, verified | [HF](https://huggingface.co/jude1903/rjessiewan21-lora) |
+| `rjessiewan21-lora` | — | not stated | T2V | rjessiewan21-lora | 465 | catalog, verified | [HF](https://huggingface.co/jude1903/rjessiewan21-lora) |
 | `wan2-2-somersault-transformation-lora` | — | not stated | I2V | wan2.2真男人必会韦博斯特-空翻加变身(somersault transformation)特效lora | 462 | catalog, verified | [CivitAI](https://civitai.com/models/2009153?modelVersionId=2274003) |
-| `ajwwan21-lora` | — | not stated | not stated | ajwwan21-lora | 456 | catalog, verified | [HF](https://huggingface.co/jude1903/ajwwan21-lora) |
+| `ajwwan21-lora` | — | not stated | T2V | ajwwan21-lora | 456 | catalog, verified | [HF](https://huggingface.co/jude1903/ajwwan21-lora) |
 | `wan2-2-fun-a14b-inp-low-noise-hps2-1-rewards-lora` | — | not stated | T2V | Wan2.2-Fun-A14B-InP-low-noise-HPS2.1 (rewards lora) | 456 | catalog, verified | [CivitAI](https://civitai.com/models/1953804?modelVersionId=2211268) |
 | `mustang-gt500-eleanor-1967` | `MustangGT500Eleanor` | not stated | T2V | Mustang GT500 "Eleanor" - 1967 | 453 | catalog, verified | [CivitAI](https://civitai.com/models/1941600?modelVersionId=2208771) |
-| `wan21-ccerf-02-lora` | — | not stated | not stated | wan21_ccerf_02-lora | 452 | catalog, verified | [HF](https://huggingface.co/spamnco/wan21_ccerf_02-lora) |
+| `wan21-ccerf-02-lora` | `ccerf` | not stated | T2V | wan21_ccerf_02-lora | 452 | catalog, verified | [HF](https://huggingface.co/spamnco/wan21_ccerf_02-lora) |
 | `whipping-furry` | `whipping` | not stated | I2V | Whipping furry | 452 | catalog, verified | [CivitAI](https://civitai.com/models/1866214?modelVersionId=2112231) |
 | `spanking-furry` | `furry_spank, nsfwsks.` | not stated | I2V | Spanking Furry | 444 | catalog, verified | [CivitAI](https://civitai.com/models/1838170?modelVersionId=2080137) |
 | `all-things-come-to-life-wan2-1-i2v-lora` | `wwfs effect.` | not stated | I2V | all things come to life(Wan2.1 I2V LoRA) | 441 | catalog, verified | [CivitAI](https://civitai.com/models/1412984?modelVersionId=1597378) |
 | `luisap-wan-2-2-i2v-driving-crazy-40mb` | `POVCAR` | not stated | I2V | [LuisaP❤️] WAN 2.2 I2V DRIVING CRAZY [40MB] | 441 | catalog, verified | [CivitAI](https://civitai.com/models/2066681?modelVersionId=2338590) |
 | `angry-wife-i2v` | — | not stated | I2V and T2V | angry wife i2v | 436 | catalog, verified | [CivitAI](https://civitai.com/models/1789377?modelVersionId=2024971) |
-| `thwan21-lora` | — | not stated | not stated | THwan21-lora | 429 | catalog, verified | [HF](https://huggingface.co/jude1903/THwan21-lora) |
+| `thwan21-lora` | `TH woman` | not stated | T2V | THwan21-lora | 429 | catalog, verified | [HF](https://huggingface.co/jude1903/THwan21-lora) |
 | `xenotone` | — | not stated | T2V | XenoTone | 424 | catalog, verified | [CivitAI](https://civitai.com/models/1672112?modelVersionId=1895487) |
 | `armless-amputee-wan2-2` | `armless` | not stated | T2V | Armless - amputee - Wan2.2 | 414 | catalog, verified | [CivitAI](https://civitai.com/models/2693755?modelVersionId=3024771) |
-| `animat3d-style-wan-lora` | — | not stated | T2V | animat3d_style_wan-lora | 412 | catalog, verified | [HF](https://huggingface.co/Ashmotv/animat3d_style_wan-lora) |
+| `animat3d-style-wan-lora` | `animat3d_style` | not stated | T2V | animat3d_style_wan-lora | 412 | catalog, verified | [HF](https://huggingface.co/Ashmotv/animat3d_style_wan-lora) |
 | `wan-2-1-t2v-transformer-lora` | `Transformers` | not stated | T2V | WAN 2.1 T2V Transformer LoRA | 410 | catalog, verified | [CivitAI](https://civitai.com/models/2052032?modelVersionId=2322308) |
 | `wan-2-2-i2v-14b-hopping` | `h1pping` | not stated | I2V | Wan 2.2 I2V 14B hopping | 410 | catalog, verified | [CivitAI](https://civitai.com/models/2260505?modelVersionId=2544646) |
 | `vault-tec-vault-suit-wan-2-2-t2v` | `VaultSuit` | not stated | T2V | Vault-Tec Vault Suit [WAN 2.2 T2V] | 408 | catalog, verified | [CivitAI](https://civitai.com/models/2324950?modelVersionId=2615452) |
-| `wan2-1-i2v480p-fenshengshu-lora` | — | not stated | I2V | wan2.1_I2V480P_fenshengshu_lora | 402 | catalog, verified | [HF](https://huggingface.co/joyfox/wan2.1_I2V480P_fenshengshu_lora) |
+| `wan2-1-i2v480p-fenshengshu-lora` | `镜头快速拉远，人物快速分裂出三个做着相同战斗姿势的影分身，站成一排，全身一直散发着浓烈的金色能量，分身保持人物一致性，令人惊叹的视觉效果` | not stated | I2V | wan2.1_I2V480P_fenshengshu_lora | 402 | catalog, verified | [HF](https://huggingface.co/joyfox/wan2.1_I2V480P_fenshengshu_lora) |
 | `wan2-2-14b-kinestasis-concept-lora` | `banostasis concept` | 0.8–1.0 | T2V | wan2.2 14B Kinestasis concept lora | 394 | catalog, verified | [CivitAI](https://civitai.com/models/1926758?modelVersionId=2180747) |
 | `ural-5557-soviet-truck` | `URAL5557, truck` | 0.85–1.0 | T2V | URAL-5557 soviet truck | 393 | catalog, verified | [CivitAI](https://civitai.com/models/1915966?modelVersionId=2327357) |
 | `v-neckline` | — | not stated | T2V | V-neckline | 393 | catalog, verified | [CivitAI](https://civitai.com/models/1955540?modelVersionId=2213279) |
 | `wetsuittr1-based-on-tomb-raider-s-original-wetsuit` | `wetsuitTR1` | not stated | T2V | wetsuitTR1, based on Tomb Raider's original wetsuit. | 388 | catalog, verified | [CivitAI](https://civitai.com/models/2365367?modelVersionId=2698136) |
-| `y2kaestetics1wan-lora` | — | not stated | not stated | y2kaestetics1wan-lora | 383 | catalog, verified | [HF](https://huggingface.co/fwqww/y2kaestetics1wan-lora) |
+| `y2kaestetics1wan-lora` | `y2kgirl` | not stated | T2V | y2kaestetics1wan-lora | 383 | catalog, verified | [HF](https://huggingface.co/fwqww/y2kaestetics1wan-lora) |
 | `hunyuan-video-wan2-1-t2v-14b-lora-of-a-german-tiger-tank` | `t1g3r`, `tiger` | not stated | T2V | hunyuan video & Wan2.1 T2V 14B lora of a german Tiger Tank | 379 | catalog, verified | [CivitAI](https://civitai.com/models/1158489?modelVersionId=1774122) |
-| `m3owan21-lora` | — | not stated | not stated | m3owan21-lora | 379 | catalog, verified | [HF](https://huggingface.co/jude1903/m3owan21-lora) |
-| `jun3wan212-lora` | — | not stated | not stated | jun3wan212-lora | 377 | catalog, verified | [HF](https://huggingface.co/jude1903/jun3wan212-lora) |
+| `m3owan21-lora` | — | not stated | T2V | m3owan21-lora | 379 | catalog, verified | [HF](https://huggingface.co/jude1903/m3owan21-lora) |
+| `jun3wan212-lora` | `jun3 woman` | not stated | T2V | jun3wan212-lora | 377 | catalog, verified | [HF](https://huggingface.co/jude1903/jun3wan212-lora) |
 | `spinning-top` | `<object> began to spin in place.` | not stated | I2V | spinning top | 375 | catalog, verified | [CivitAI](https://civitai.com/models/1818109?modelVersionId=2057457) |
 | `rope-moving-wan2-1-lora` | — | 1.0 | I2V and T2V | Rope moving Wan2.1 LoRA | 372 | catalog, verified | [CivitAI](https://civitai.com/models/1425445?modelVersionId=1611185) |
 | `ku` | `Crying` | not stated | T2V | ku | 365 | catalog, verified | [CivitAI](https://civitai.com/models/1552284?modelVersionId=1756515) |
@@ -649,44 +651,44 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `muscleup-wan2-1-v1` | `brutalmass` | not stated | T2V | MuscleUp Wan2.1 V1 | 354 | catalog, verified | [CivitAI](https://civitai.com/models/1671031?modelVersionId=1891388) |
 | `balloon-blow-to-pop-wan-2-2-i2v-lora` | `blow2pop` | not stated | I2V | Balloon Blow-to-Pop (Wan 2.2 I2V LoRA) | 353 | catalog, verified | [CivitAI](https://civitai.com/models/2222062?modelVersionId=2501582) |
 | `jump-rope-wan-video-14b-t2v` | — | not stated | T2V | Jump Rope (Wan Video 14B t2v) | 353 | catalog, verified | [CivitAI](https://civitai.com/models/2046852?modelVersionId=2316571) |
-| `asiawan21-lora` | — | not stated | not stated | asiawan21-lora | 350 | catalog, verified | [HF](https://huggingface.co/jude1903/asiawan21-lora) |
+| `asiawan21-lora` | — | not stated | T2V | asiawan21-lora | 350 | catalog, verified | [HF](https://huggingface.co/jude1903/asiawan21-lora) |
 | `luisap-wan-2-2-i2v-nuke` | `NUKE, a nuke explode on the horizon` | not stated | I2V | [LuisaP❤️] WAN 2.2 I2V NUKE | 348 | catalog, verified | [CivitAI](https://civitai.com/models/2077300?modelVersionId=2350486) |
 | `wan2-1-mecha-lora` | — | not stated | I2V | Wan2.1-Mecha-LoRA | 346 | catalog, verified | [HF](https://huggingface.co/starsfriday/Wan2.1-Mecha-LoRA) |
-| `wan21-katwin-01-lora` | — | not stated | not stated | wan21_katwin_01-lora | 345 | catalog, verified | [HF](https://huggingface.co/spamnco/wan21_katwin_01-lora) |
+| `wan21-katwin-01-lora` | `katwin` | not stated | T2V | wan21_katwin_01-lora | 345 | catalog, verified | [HF](https://huggingface.co/spamnco/wan21_katwin_01-lora) |
 | `crotchboobs-crotch-breasts-wan2-2` | `cr0tchb00bs` | not stated | I2V and T2V | Crotchboobs - crotch breasts - Wan2.2 | 343 | catalog, verified | [CivitAI](https://civitai.com/models/2555961?modelVersionId=2872456) |
 | `middle-finger` | `middle-finger` | not stated | T2V | Middle finger | 342 | catalog, verified | [CivitAI](https://civitai.com/models/2210331?modelVersionId=2488539) |
 | `warrior-transformation-wan2-1-i2v-lora` | `warr10r warrior it` | 1.0 | I2V | Warrior Transformation (Wan2.1 I2V LoRA) | 341 | catalog, verified | [CivitAI](https://civitai.com/models/1365002?modelVersionId=1542156) |
 | `circular-shooting` | — | 1 | I2V | Circular shooting | 334 | catalog, verified | [CivitAI](https://civitai.com/models/1926984?modelVersionId=2180985) |
-| `wan2-1-14b-lora-emily-child` | — | not stated | not stated | Wan2.1-14B-lora-emily_child | 334 | catalog, verified | [HF](https://huggingface.co/dhanishvijayan/Wan2.1-14B-lora-emily_child) |
+| `wan2-1-14b-lora-emily-child` | `emily_child` | not stated | T2V | Wan2.1-14B-lora-emily_child | 334 | catalog, verified | [HF](https://huggingface.co/dhanishvijayan/Wan2.1-14B-lora-emily_child) |
 | `loose-socks-for-wan2-1-2-2-lora` | — | not stated | I2V and T2V | Loose socks for wan2.1-2.2(Lora) | 324 | catalog, verified | [CivitAI](https://civitai.com/models/1864003?modelVersionId=2109704) |
 | `reverseheadscissor` | `headscissor` | not stated | T2V | ReverseHeadscissor | 324 | catalog, verified | [CivitAI](https://civitai.com/models/1956904?modelVersionId=2214877) |
 | `wanvideo-i2v-480p-aging-timelapse` | `An aging timelapse in the style of 4g1ngl4ps3, one photo every day for 7 years.` | not stated | I2V | WanVideo i2v 480p: Aging Timelapse | 319 | catalog, verified | [CivitAI](https://civitai.com/models/1357480?modelVersionId=1533446) |
 | `triclops-three-eyes-wan2-2` | `tr1cl0ps` | 1.0 | I2V and T2V | Triclops - three eyes - Wan2.2 | 318 | catalog, verified | [CivitAI](https://civitai.com/models/2311893?modelVersionId=2601065) |
-| `hy1-5-distill-models` | — | not stated | not stated | Hy1.5-Distill-Models | 317 | catalog, verified | [HF](https://huggingface.co/lightx2v/Hy1.5-Distill-Models) |
+| `hy1-5-distill-models` | — | not stated | T2V | Hy1.5-Distill-Models | 317 | catalog, verified | [HF](https://huggingface.co/lightx2v/Hy1.5-Distill-Models) |
 | `eyes-in-lora` | `Eyes In Camera` | not stated | not stated | Eyes In [Lora] | 312 | catalog, verified | [CivitAI](https://civitai.com/models/1476184?modelVersionId=1669716) |
 | `tilt-shift-lens` | `YZ` | not stated | T2V | Tilt-shift lens | 312 | catalog, verified | [CivitAI](https://civitai.com/models/1945263?modelVersionId=2201635) |
 | `bullet-bra` | `bullet bra` | not stated | T2V | Bullet Bra | 311 | catalog, verified | [CivitAI](https://civitai.com/models/2619136?modelVersionId=2940644) |
-| `wan21-diddly-01-lora` | — | not stated | not stated | wan21_diddly_01-lora | 310 | catalog, verified | [HF](https://huggingface.co/spamnco/wan21_diddly_01-lora) |
-| `darkfantasywan-lora` | — | not stated | not stated | darkfantasywan-lora | 307 | catalog, verified | [HF](https://huggingface.co/fwqww/darkfantasywan-lora) |
+| `wan21-diddly-01-lora` | `diddly` | not stated | T2V | wan21_diddly_01-lora | 310 | catalog, verified | [HF](https://huggingface.co/spamnco/wan21_diddly_01-lora) |
+| `darkfantasywan-lora` | `darkfantasy` | not stated | T2V | darkfantasywan-lora | 307 | catalog, verified | [HF](https://huggingface.co/fwqww/darkfantasywan-lora) |
 | `poppy-print-dress` | `RPPD` | not stated | T2V | Poppy Print Dress | 307 | catalog, verified | [CivitAI](https://civitai.com/models/777427?modelVersionId=1818942) |
-| `sk3tch-style-lora` | — | not stated | T2V | Sk3tch_style-lora | 305 | catalog, verified | [HF](https://huggingface.co/Ashmotv/Sk3tch_style-lora) |
+| `sk3tch-style-lora` | `Sk3tch_style` | not stated | T2V | Sk3tch_style-lora | 305 | catalog, verified | [HF](https://huggingface.co/Ashmotv/Sk3tch_style-lora) |
 | `luisap-wan-2-2-soccer-juggle` | `a ball comes to the subject and she starts to juggle` | not stated | I2V | [LuisaP❤️] WAN 2.2 SOCCER JUGGLE | 304 | catalog, verified | [CivitAI](https://civitai.com/models/2107320?modelVersionId=2384018) |
 | `serene-dive` | `ole_serene_dive`, `backward dive into the deep, starting from portrait of serene woman, legs transforming into glowing mermaid tail, camera descending with her, character’s inspired underwater world unfolding below — surreal, emotional, vast, sunbeams, caustic light, floating particles, 16fps, slow motion, Unreal Engine 5, volumetric lighting, teal and gold palette.(masterpiece, best quality, cinematic).` | not stated | I2V | Serene dive | 304 | catalog, verified | [CivitAI](https://civitai.com/models/1988588?modelVersionId=2251046) |
-| `hienwan21-lora` | — | not stated | not stated | hienwan21-lora | 297 | catalog, verified | [HF](https://huggingface.co/jude1903/hienwan21-lora) |
+| `hienwan21-lora` | `hi3nwoman` | not stated | T2V | hienwan21-lora | 297 | catalog, verified | [HF](https://huggingface.co/jude1903/hienwan21-lora) |
 | `headless-neckless-high-noise` | `headless` | not stated | I2V and T2V | Headless Neckless High-Noise | 296 | catalog, verified | [CivitAI](https://civitai.com/models/2511091?modelVersionId=2822529) |
 | `magic-circle-rotat` | `xuanzhuan`, `xuanzhuan,The magic circle is rotating` | not stated | not stated | magic circle rotat | 296 | catalog, verified | [CivitAI](https://civitai.com/models/1531419?modelVersionId=1732704) |
 | `tripod-three-legs-wan2-2` | `tr1l3g`, `she has three legs` | not stated | I2V and T2V | Tripod - three legs - Wan2.2 | 290 | catalog, verified | [CivitAI](https://civitai.com/models/2500707?modelVersionId=2811076) |
 | `fly-up-into-the-sky-like-a-rocket` | `cfg` | not stated | I2V | Fly up into the sky like a rocket | 283 | catalog, verified | [CivitAI](https://civitai.com/models/1967393?modelVersionId=2226849) |
-| `ukrainewar-wan21-14b-lora-bysap` | — | not stated | not stated | UkraineWar_Wan21_14b_LoRA_BySAP | 283 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/UkraineWar_Wan21_14b_LoRA_BySAP) |
+| `ukrainewar-wan21-14b-lora-bysap` | `UKR style war footage movie clip`, `in Ukraine`, `wartime scene` | not stated | I2V and T2V | UkraineWar_Wan21_14b_LoRA_BySAP | 283 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/UkraineWar_Wan21_14b_LoRA_BySAP) |
 | `make-group-v1` | `<group>` | not stated | TI2V (and I2V) | Make Group V1 | 273 | catalog, verified | [CivitAI](https://civitai.com/models/2140401?modelVersionId=2421041) |
 | `ryuko-matoi-senektsu-cosplay` | `senketsu` | not stated | T2V | ryuko matoi senektsu cosplay | 273 | catalog, verified | [CivitAI](https://civitai.com/models/1985454?modelVersionId=2247484) |
 | `polydactyly-six-fingers-wan2-2` | `pldctly, 多余的手指, six fingers,` | 1.0 | I2V and T2V | Polydactyly - six fingers - Wan2.2 | 272 | catalog, verified | [CivitAI](https://civitai.com/models/1972212?modelVersionId=2232352) |
 | `handfeet-prehensile-feet-wan2-2` | `h4ndf33t` | not stated | I2V and T2V | Handfeet - prehensile feet - Wan2.2 | 268 | catalog, verified | [CivitAI](https://civitai.com/models/2562702?modelVersionId=2879718) |
 | `western-female-series` | — | not stated | T2V | Western Female Series | 267 | catalog, verified | [CivitAI](https://civitai.com/models/1858006?modelVersionId=2102871) |
-| `lin3art-style-wan-lora` | — | not stated | T2V | lin3art_style_wan-lora | 264 | catalog, verified | [HF](https://huggingface.co/Ashmotv/lin3art_style_wan-lora) |
+| `lin3art-style-wan-lora` | `lin3art_style` | not stated | T2V | lin3art_style_wan-lora | 264 | catalog, verified | [HF](https://huggingface.co/Ashmotv/lin3art_style_wan-lora) |
 | `vintage-scuba-gear-seta` | `scubaVTG` | not stated | T2V | Vintage scuba gear, setA | 262 | catalog, verified | [CivitAI](https://civitai.com/models/1639583?modelVersionId=1886686) |
 | `car-disappears` | `yren2 special effects` | not stated | I2V | Car disappears | 261 | catalog, verified | [CivitAI](https://civitai.com/models/1389500?modelVersionId=1570326) |
-| `my-first-lora-v1-lora` | — | not stated | T2V | my_first_lora_v1-lora | 261 | catalog, verified | [HF](https://huggingface.co/MartinSSSTSGH/my_first_lora_v1-lora) |
+| `my-first-lora-v1-lora` | `Lilly` | not stated | T2V | my_first_lora_v1-lora | 261 | catalog, verified | [HF](https://huggingface.co/MartinSSSTSGH/my_first_lora_v1-lora) |
 | `classy-transformation-wan2-1-i2v-lora` | `c1455y classy transformation` | 1.0 | I2V | Classy Transformation (Wan2.1 I2V LoRA) | 259 | catalog, verified | [CivitAI](https://civitai.com/models/1368908?modelVersionId=1546563) |
 | `lightlora-wan` | — | not stated | I2V | lightlora wan | 255 | catalog, verified | [CivitAI](https://civitai.com/models/1854888?modelVersionId=2099213) |
 | `sailor-moon` | `smoon, smoon_classicpose, smoon_transformation` | 1 | T2V | Sailor Moon | 253 | catalog, verified | [CivitAI](https://civitai.com/models/2042167?modelVersionId=2311398) |
@@ -699,14 +701,14 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `unique-medieval-fantasy-armor` | — | not stated | I2V and T2V | Unique Medieval fantasy armor | 241 | catalog, verified | [CivitAI](https://civitai.com/models/1804455?modelVersionId=2042096) |
 | `80s-horror-moments-before-they-jump-scare` | — | not stated | T2V | 80s horror moments before they jump scare | 239 | catalog, verified | [CivitAI](https://civitai.com/models/1738272?modelVersionId=1967251) |
 | `wan2-2-i2v-nails-low-noise` | — | not stated | I2V | Wan2.2_I2V_nails_low-noise | 239 | catalog, verified | [CivitAI](https://civitai.com/models/2674087?modelVersionId=3002569) |
-| `vladimirlenin-wan2-1-1-3b-t2v-lora` | — | not stated | not stated | VladimirLENIN_Wan2.1_1.3B_T2V_LoRA | 237 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/VladimirLENIN_Wan2.1_1.3B_T2V_LoRA) |
+| `vladimirlenin-wan2-1-1-3b-t2v-lora` | `movie clip of LEN Vladimir Lenin` | not stated | T2V | VladimirLENIN_Wan2.1_1.3B_T2V_LoRA | 237 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/VladimirLENIN_Wan2.1_1.3B_T2V_LoRA) |
 | `wan2-2-female-figures-in-modern-chinese-paintings` | — | not stated | T2V | wan2.2-国画女性-Female figures in modern Chinese paintings | 236 | catalog, verified | [CivitAI](https://civitai.com/models/1997710?modelVersionId=2261202) |
-| `b4ddie4i-lora` | — | not stated | T2V | b4ddie4i-lora | 233 | catalog, verified | [HF](https://huggingface.co/Mark111111111/b4ddie4i-lora) |
+| `b4ddie4i-lora` | `b4ddie4i` | not stated | T2V | b4ddie4i-lora | 233 | catalog, verified | [HF](https://huggingface.co/Mark111111111/b4ddie4i-lora) |
 | `arcan3-251003-wan22-t2v-v12-rank32-lora` | — | not stated | T2V | arcan3_251003_wan22-t2v_v12-rank32-lora | 232 | catalog, verified | [HF](https://huggingface.co/synap5e/arcan3_251003_wan22-t2v_v12-rank32-lora) |
 | `wan2-2-dodge-viper-gts` | `car V1per6ts` | not stated | T2V | WAN2.2 - Dodge Viper GTS | 228 | catalog, verified | [CivitAI](https://civitai.com/models/2084216?modelVersionId=2358224) |
-| `wan1-3b-causvid-lora-misubidiffusers-conversion` | — | not stated | not stated | Wan1.3B_CausVid_LoRA_MisubiDiffusers_Conversion | 226 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/Wan1.3B_CausVid_LoRA_MisubiDiffusers_Conversion) |
+| `wan1-3b-causvid-lora-misubidiffusers-conversion` | — | not stated | I2V and T2V | Wan1.3B_CausVid_LoRA_MisubiDiffusers_Conversion | 226 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/Wan1.3B_CausVid_LoRA_MisubiDiffusers_Conversion) |
 | `wan2-2` | `coinfirework` | not stated | I2V | Wan2.2——金币喷泉 | 225 | catalog, verified | [CivitAI](https://civitai.com/models/2140472?modelVersionId=2421124) |
-| `mellos-httyd-lora-for-wan2-2-t2v` | — | not stated | T2V | Mellos_HTTYD_Lora_for_WAN2.2_t2v | 224 | catalog, verified | [HF](https://huggingface.co/MelloModels/Mellos_HTTYD_Lora_for_WAN2.2_t2v) |
+| `mellos-httyd-lora-for-wan2-2-t2v` | `t00thle55` | not stated | T2V | Mellos_HTTYD_Lora_for_WAN2.2_t2v | 224 | catalog, verified | [HF](https://huggingface.co/MelloModels/Mellos_HTTYD_Lora_for_WAN2.2_t2v) |
 | `bellyplay` | — | not stated | TI2V (and I2V) | BellyPlay | 221 | catalog, verified | [CivitAI](https://civitai.com/models/2301656?modelVersionId=2589843) |
 | `scissorholdwan` | `scissorhold` | not stated | T2V | ScissorholdWan | 220 | catalog, verified | [CivitAI](https://civitai.com/models/1954648?modelVersionId=2212230) |
 | `wan2-2-5b-i2v-lora-genitalhelperv011` | — | not stated | TI2V (and I2V) | wan2.2_5b_i2v_lora_genitalhelperv011.safetensors | 220 | catalog, verified | [CivitAI](https://civitai.com/models/2830378?modelVersionId=3193732) |
@@ -715,31 +717,31 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `coconut-bra` | `coconut bra` | not stated | T2V | Coconut bra | 211 | catalog, verified | [CivitAI](https://civitai.com/models/2637962?modelVersionId=2961858) |
 | `flash` | `FLASH` | not stated | T2V | FLASH | 209 | catalog, verified | [CivitAI](https://civitai.com/models/2877471?modelVersionId=3251841) |
 | `wan2-2-illustrated-biographies-of-one-hundred-beauties-with-new-poems` | — | not stated | T2V | wan2.2-百美咏新图传-Illustrated Biographies of One Hundred Beauties with New Poems | 208 | catalog, verified | [CivitAI](https://civitai.com/models/1988598?modelVersionId=2251056) |
-| `wan-cumeneitor-lora` | — | not stated | not stated | wan_cumeneitor-lora | 207 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_cumeneitor-lora) |
+| `wan-cumeneitor-lora` | — | not stated | T2V | wan_cumeneitor-lora | 207 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_cumeneitor-lora) |
 | `chest-harness` | `chestharness` | not stated | T2V | Chest Harness | 206 | catalog, verified | [CivitAI](https://civitai.com/models/2020405?modelVersionId=2286685) |
 | `wan2-2-power-rangers-in-space-suit-denji-sentai-megaranger` | — | not stated | T2V | Wan2.2 Power Rangers In Space Suit (Denji Sentai Megaranger) | 203 | catalog, verified | [CivitAI](https://civitai.com/models/2029994?modelVersionId=2297439) |
-| `wan2-1-t2v-14b-person-lora` | — | not stated | T2V | Wan2.1-t2v-14B-Person-LoRA | 200 | catalog, verified | [HF](https://huggingface.co/strangerzonehf/Wan2.1-t2v-14B-Person-LoRA) |
+| `wan2-1-t2v-14b-person-lora` | `A person` | not stated | T2V | Wan2.1-t2v-14B-Person-LoRA | 200 | catalog, verified | [HF](https://huggingface.co/strangerzonehf/Wan2.1-t2v-14B-Person-LoRA) |
 | `wan2-2-i2v-a14b-high-noise-lora-rank64-lightx2v-4step-1022` | — | not stated | I2V | wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022 | 200 | catalog, verified | [HF](https://huggingface.co/SlartyG/wan2.2_i2v_A14b_high_noise_lora_rank64_lightx2v_4step_1022) |
-| `wan-2-2-5b-woven-fabric-02-lora` | — | not stated | TI2V (and I2V) | wan_2_2_5B_woven_fabric_02-lora | 196 | catalog, verified | [HF](https://huggingface.co/wouterverweirder/wan_2_2_5B_woven_fabric_02-lora) |
+| `wan-2-2-5b-woven-fabric-02-lora` | `w0v3nf4br1c` | not stated | TI2V (and I2V/T2V) | wan_2_2_5B_woven_fabric_02-lora | 196 | catalog, verified | [HF](https://huggingface.co/wouterverweirder/wan_2_2_5B_woven_fabric_02-lora) |
 | `dtbj` | `dtbj` | not stated | T2V | DTBJ | 195 | catalog, verified | [CivitAI](https://civitai.com/models/2552832?modelVersionId=2868971) |
 | `wan2-1-t2v-1-3b-longcat-step1500` | — | not stated | T2V | Wan2.1-T2V-1.3B-longcat-step1500 | 195 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-T2V-1.3B-longcat-step1500) |
-| `amputation-wan22-lora` | — | not stated | I2V | Amputation_Wan22-lora | 194 | catalog, verified | [HF](https://huggingface.co/EightiesPower/Amputation_Wan22-lora) |
-| `diaz-jaquet-wan-22-lora` | — | not stated | T2V | diaz_jaquet_wan_22-lora | 193 | catalog, verified | [HF](https://huggingface.co/zebby09/diaz_jaquet_wan_22-lora) |
+| `amputation-wan22-lora` | `amputation` | not stated | I2V | Amputation_Wan22-lora | 194 | catalog, verified | [HF](https://huggingface.co/EightiesPower/Amputation_Wan22-lora) |
+| `diaz-jaquet-wan-22-lora` | `diaz_jaquet_person` | not stated | T2V | diaz_jaquet_wan_22-lora | 193 | catalog, verified | [HF](https://huggingface.co/zebby09/diaz_jaquet_wan_22-lora) |
 | `my-first-lora-v2-lora` | — | not stated | T2V | my_first_lora_v2-lora | 193 | catalog, verified | [HF](https://huggingface.co/LL1999/my_first_lora_v2-lora) |
-| `ratatoskr-animal-creature-and-furry-for-wan-2-1-i2v-lora` | — | not stated | I2V | ratatoskr-animal-creature-and-furry-for-wan-2.1-i2v-lora | 192 | catalog, verified | [HF](https://huggingface.co/Muapi/ratatoskr-animal-creature-and-furry-for-wan-2.1-i2v-lora) |
+| `ratatoskr-animal-creature-and-furry-for-wan-2-1-i2v-lora` | `anthro`, `furry` | 1.0 | I2V and T2V | ratatoskr-animal-creature-and-furry-for-wan-2.1-i2v-lora | 192 | catalog, verified | [HF](https://huggingface.co/Muapi/ratatoskr-animal-creature-and-furry-for-wan-2.1-i2v-lora) |
 | `salia-blinking-disabler-wan2-2-iv2-lora` | `UN8L1Nk1NG, Eyes stay static open.` | not stated | I2V | Salia Blinking Disabler Wan2.2 IV2 Lora | 191 | catalog, verified | [CivitAI](https://civitai.com/models/2955063?modelVersionId=3347223) |
 | `bxjg-method` | `BXJG method` | not stated | I2V | BXJG method | 189 | catalog, verified | [CivitAI](https://civitai.com/models/2272635?modelVersionId=2558028) |
 | `real-stereo-depth-video-wan-2-2-i2v` | — | not stated | I2V | Real Stereo Depth Video - WAN 2.2 I2V | 187 | catalog, verified | [CivitAI](https://civitai.com/models/2949659?modelVersionId=3340545) |
-| `alon-v1-lora` | — | not stated | T2V | alon-v1-lora | 186 | catalog, verified | [HF](https://huggingface.co/Hundsfutz/alon-v1-lora) |
-| `my-first-lora-v1-lora` | — | not stated | T2V | my_first_lora_v1-lora | 185 | catalog, verified | [HF](https://huggingface.co/bigdoinks420518/my_first_lora_v1-lora) |
+| `alon-v1-lora` | `Alon` | not stated | T2V | alon-v1-lora | 186 | catalog, verified | [HF](https://huggingface.co/Hundsfutz/alon-v1-lora) |
+| `my-first-lora-v1-lora` | `aviv4` | not stated | T2V | my_first_lora_v1-lora | 185 | catalog, verified | [HF](https://huggingface.co/bigdoinks420518/my_first_lora_v1-lora) |
 | `natural-breasts` | `NATURAL BREASTS` | not stated | I2V and T2V | NATURAL BREASTS | 185 | catalog, verified | [CivitAI](https://civitai.com/models/2872766?modelVersionId=3245954) |
-| `wan21-ccerf-01-lora` | — | not stated | not stated | wan21_ccerf_01-lora | 184 | catalog, verified | [HF](https://huggingface.co/spamnco/wan21_ccerf_01-lora) |
+| `wan21-ccerf-01-lora` | `ccerf` | not stated | T2V | wan21_ccerf_01-lora | 184 | catalog, verified | [HF](https://huggingface.co/spamnco/wan21_ccerf_01-lora) |
 | `tarzan-transformation-wan2-1-i2v-lora` | `1ung13 jungle transformation` | 1.0 | I2V | Tarzan Transformation (Wan2.1 I2V LoRA) | 182 | catalog, verified | [CivitAI](https://civitai.com/models/1365613?modelVersionId=1542831) |
-| `my-second-lora-v1-lora` | — | not stated | T2V | my_second_lora_v1-lora | 180 | catalog, verified | [HF](https://huggingface.co/notreallyangelic/my_second_lora_v1-lora) |
-| `wan22cumeneitor-lora` | — | not stated | T2V | wan22cumeneitor-lora | 179 | catalog, verified | [HF](https://huggingface.co/d14945921/wan22cumeneitor-lora) |
-| `cosmik-lora` | — | not stated | T2V | Cosmik-lora | 178 | catalog, verified | [HF](https://huggingface.co/visionmaster2/Cosmik-lora) |
+| `my-second-lora-v1-lora` | `m0n420` | not stated | T2V | my_second_lora_v1-lora | 180 | catalog, verified | [HF](https://huggingface.co/notreallyangelic/my_second_lora_v1-lora) |
+| `wan22cumeneitor-lora` | `cumshot` | not stated | T2V | wan22cumeneitor-lora | 179 | catalog, verified | [HF](https://huggingface.co/d14945921/wan22cumeneitor-lora) |
+| `cosmik-lora` | `CosmikR` | not stated | T2V | Cosmik-lora | 178 | catalog, verified | [HF](https://huggingface.co/visionmaster2/Cosmik-lora) |
 | `mountain-bluebird` | — | not stated | T2V | mountain bluebird | 178 | catalog, verified | [CivitAI](https://civitai.com/models/2263033?modelVersionId=2547367) |
-| `ostro-v3-lora` | — | not stated | T2V | ostro_v3-lora | 178 | catalog, verified | [HF](https://huggingface.co/Hex333/ostro_v3-lora) |
+| `ostro-v3-lora` | `ostro` | not stated | T2V | ostro_v3-lora | 178 | catalog, verified | [HF](https://huggingface.co/Hex333/ostro_v3-lora) |
 | `meghan-bellini` | `Meghan Bellini` | not stated | I2V | Meghan Bellini | 174 | catalog, verified | [CivitAI](https://civitai.com/models/2002708?modelVersionId=2266841) |
 | `pearl-string-panties-wan` | `Pearl_String_Panties` | not stated | T2V | Pearl String Panties WAN | 174 | catalog, verified | [CivitAI](https://civitai.com/models/2015562?modelVersionId=2281108) |
 | `1920s-horror-wan2-2-lora` | — | not stated | T2V | 1920s_horror_wan2.2_lora | 173 | catalog, verified | [HF](https://huggingface.co/neph1/1920s_horror_wan2.2_lora) |
@@ -747,32 +749,32 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `anyflow-wan2-1-t2v-1-3b-lora` | — | not stated | T2V | AnyFlow-Wan2.1-T2V-1.3B-LoRA | 170 | catalog, verified | [HF](https://huggingface.co/bghira/AnyFlow-Wan2.1-T2V-1.3B-LoRA) |
 | `fll-fs` | `She sucks on the man's penis, her head moving slowly up and down. she slowly inserts the penis in and out of her mouth. blowjob, deep throat, fellatio, The camera angle is from the side` | not stated | T2V | FLL FS | 169 | catalog, verified | [CivitAI](https://civitai.com/models/2062984?modelVersionId=2334417) |
 | `jerkin-off` | — | not stated | T2V | Jerkin off | 169 | catalog, verified | [CivitAI](https://civitai.com/models/1830193?modelVersionId=2071133) |
-| `my-first-lora-v7-lora` | — | not stated | T2V | my_first_lora_v7-lora | 169 | catalog, verified | [HF](https://huggingface.co/bigdoinks420518/my_first_lora_v7-lora) |
+| `my-first-lora-v7-lora` | `xxtraemily` | not stated | T2V | my_first_lora_v7-lora | 169 | catalog, verified | [HF](https://huggingface.co/bigdoinks420518/my_first_lora_v7-lora) |
 | `vintage-scuba-gear` | `twinhose scuba gear`, `twinhose`, `wetsuitVTG`, `oval dive mask` | not stated | T2V | Vintage scuba gear | 169 | catalog, verified | [CivitAI](https://civitai.com/models/1599461?modelVersionId=1809996) |
-| `wan-lora-arcane-jinx-v1` | — | not stated | not stated | Wan-LoRA-Arcane-Jinx-v1 | 169 | catalog, verified | [HF](https://huggingface.co/Cseti/Wan-LoRA-Arcane-Jinx-v1) |
+| `wan-lora-arcane-jinx-v1` | `csetiarcane`, `Nfj1nx`, `blue hair` | 0.9–1.0 | T2V | Wan-LoRA-Arcane-Jinx-v1 | 169 | catalog, verified | [HF](https://huggingface.co/Cseti/Wan-LoRA-Arcane-Jinx-v1) |
 | `nsfw-wan2-2-t2v-young-woman-in-purple-black-leather-and-lace-cosplay-costume` | `NSFZSCO` | not stated | T2V | NSFW WAN2.2 T2V Young woman in purple, black leather and lace cosplay costume | 168 | catalog, verified | [CivitAI](https://civitai.com/models/1967297?modelVersionId=2226752) |
 | `fly-up-into-the-sky-like-a-rocket` | — | not stated | I2V | Fly up into the sky like a rocket | 167 | catalog, verified | [CivitAI](https://civitai.com/models/1967417?modelVersionId=2226879) |
 | `DS-v1-lora-000047.safetensors` | — | not stated | I2V | 电商生烟特效 | 166 | catalog, verified | [CivitAI](https://civitai.com/models/2323286?modelVersionId=2613593) |
 | `colorful-starry-sky` | `ZHOUHHXK` | not stated | T2V | Colorful starry sky | 163 | catalog, verified | [CivitAI](https://civitai.com/models/1750622?modelVersionId=1981244) |
 | `everyday-black-thong-with-flower-print` | `EDBFPT` | not stated | T2V | Everyday Black Thong with Flower Print | 163 | catalog, verified | [CivitAI](https://civitai.com/models/2129179?modelVersionId=2408462) |
-| `mb-forestroad-wan-2-2-lora` | — | not stated | T2V | MB_FORESTROAD_WAN-2-2-lora | 162 | catalog, verified | [HF](https://huggingface.co/Crowbar-Dub/MB_FORESTROAD_WAN-2-2-lora) |
+| `mb-forestroad-wan-2-2-lora` | `SC64ROAD` | not stated | T2V | MB_FORESTROAD_WAN-2-2-lora | 162 | catalog, verified | [HF](https://huggingface.co/Crowbar-Dub/MB_FORESTROAD_WAN-2-2-lora) |
 | `wan2-2-5b-ti2v-lora-genitalhelperv023` | — | not stated | TI2V (and I2V) | wan2.2_5b_ti2v_lora_genitalhelperv023.safetensors | 161 | catalog, verified | [CivitAI](https://civitai.com/models/3004243?modelVersionId=3408365) |
-| `sots-art-wan1-3b-lora-rank256-bysilveragepoets` | — | not stated | not stated | SOTS_Art_Wan1.3B_LoRA_rank256_bySilverAgePoets | 159 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/SOTS_Art_Wan1.3B_LoRA_rank256_bySilverAgePoets) |
-| `ajwwan22-lora` | — | not stated | T2V | AJWWan22-lora | 156 | catalog, verified | [HF](https://huggingface.co/jude1903/AJWWan22-lora) |
+| `sots-art-wan1-3b-lora-rank256-bysilveragepoets` | `sots art refined vivid style animation clip, vibrant, eclectic, by Dubosarskiy and Vinogradov` | not stated | T2V | SOTS_Art_Wan1.3B_LoRA_rank256_bySilverAgePoets | 159 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/SOTS_Art_Wan1.3B_LoRA_rank256_bySilverAgePoets) |
+| `ajwwan22-lora` | `ajw woman` | not stated | T2V | AJWWan22-lora | 156 | catalog, verified | [HF](https://huggingface.co/jude1903/AJWWan22-lora) |
 | `radomkamenrideroutfit-wan22-paseer` | `kamenrider` | not stated | T2V | RadomKamenriderOutfit-Wan22-PAseer | 155 | catalog, verified | [CivitAI](https://civitai.com/models/1828007?modelVersionId=2075792) |
 | `wan2-2-t2v-a14b-unifiedreward-flex-lora` | — | not stated | T2V | Wan2.2-T2V-A14B-UnifiedReward-Flex-lora | 155 | catalog, verified | [HF](https://huggingface.co/CodeGoat24/Wan2.2-T2V-A14B-UnifiedReward-Flex-lora) |
 | `heart-balloon-blowing-wan-2-1-14b-t2v` | `heart-shaped balloon` | 0.5–1.0 | T2V | Heart balloon blowing - Wan 2.1 14B T2V | 151 | catalog, verified | [CivitAI](https://civitai.com/models/2261025?modelVersionId=2545161) |
 | `sgp` | `_sgp_video_test_` | not stated | T2V | SGP | 150 | catalog, verified | [CivitAI](https://civitai.com/models/1997142?modelVersionId=2260567) |
 | `furen-e-lustario-e-wan2-1-2-2-14b-t2v` | `uren E Lustario, anime-style girl. The image features a character with long, light brown hair that falls past her shoulders. Her hair is styled in loose waves. The character has striking red eyes, which stand out prominently against her skin tone.She is wearing a detailed outfit that includes a white top with a high collar and a deep neckline. The top is adorned with blue and red accents, and there are gold buttons running down the front. She also wears a dark blue skirt with gold buttons, which complements her overall attire. The outfit is completed with black gloves that have blue feathers attached to them.`, `Furen E Lustario, anime-style girl. The image features a character with long, light brown hair that falls past her shoulders. Her hair is styled in loose waves, giving it a flowing appearance. The character has striking red eyes, which stand out prominently against her skin tone.She is wearing a detailed outfit that includes a white top with a high collar and a deep neckline. The top is adorned with blue and red accents, and there are gold buttons running down the front. She also wears a dark blue skirt with gold buttons, which complements her overall attire. The outfit is completed with black gloves that have blue feathers attached to them, adding a touch of elegance and fantasy to her appearance. The character is also wearing black boots with red accents on the toes,` | 0.8 | T2V | Furen E Lustario/フレン・E・ルスタリオ | 142 | catalog, verified | [CivitAI](https://civitai.com/models/1522647?modelVersionId=1722755) |
-| `my-first-lora-v1-lora` | — | not stated | T2V | my_first_lora_v1-lora | 142 | catalog, verified | [HF](https://huggingface.co/visionmaster2/my_first_lora_v1-lora) |
+| `my-first-lora-v1-lora` | `CosmikR` | not stated | T2V | my_first_lora_v1-lora | 142 | catalog, verified | [HF](https://huggingface.co/visionmaster2/my_first_lora_v1-lora) |
 | `wan2-1-t2v-14b-us-army-ah-64-helicopter` | `4H-64`, `ah-64` | not stated | T2V | Wan2.1 T2V 14B US army AH-64 helicopter | 142 | catalog, verified | [CivitAI](https://civitai.com/models/1568429?modelVersionId=1774865) |
 | `my-first-lora-v1-lora` | — | not stated | T2V | my_first_lora_v1-lora | 136 | catalog, verified | [HF](https://huggingface.co/fofdrogon/my_first_lora_v1-lora) |
-| `natalie-wan-2-2-lora` | — | not stated | T2V | natalie_wan_2.2-lora | 136 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/natalie_wan_2.2-lora) |
+| `natalie-wan-2-2-lora` | `natalie` | not stated | T2V | natalie_wan_2.2-lora | 136 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/natalie_wan_2.2-lora) |
 | `wan2-2-su7-ultra-xiaomi-su7-ultra` | — | not stated | T2V | wan2.2-小米su7 ultra-XiaoMi-su7 ultra | 136 | catalog, verified | [CivitAI](https://civitai.com/models/1964313?modelVersionId=2223403) |
 | `cavalgada-lesbica` | `cavalgada lesbica` | not stated | T2V | Cavalgada Lesbica | 135 | catalog, verified | [CivitAI](https://civitai.com/models/2486069?modelVersionId=2795044) |
 | `realistic-comicbook-style-wan-2-2-i2v-480p-lora` | — | not stated | I2V | realistic_comicbook_style_wan_2_2_i2v_480p-lora | 135 | catalog, verified | [HF](https://huggingface.co/maDcaDDie/realistic_comicbook_style_wan_2_2_i2v_480p-lora) |
-| `my-first-lora-v5-lora` | — | not stated | T2V | my_first_lora_v5-lora | 134 | catalog, verified | [HF](https://huggingface.co/TTfire/my_first_lora_v5-lora) |
-| `wan2-2-t2v-a14b-diffusers-bf16-mmxxii-rank256-lora` | — | not stated | T2V | Wan2.2-T2V-A14B-Diffusers-bf16-mmxxii-rank256-lora | 134 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.2-T2V-A14B-Diffusers-bf16-mmxxii-rank256-lora) |
+| `my-first-lora-v5-lora` | `Ronova` | not stated | T2V | my_first_lora_v5-lora | 134 | catalog, verified | [HF](https://huggingface.co/TTfire/my_first_lora_v5-lora) |
+| `wan2-2-t2v-a14b-diffusers-bf16-mmxxii-rank256-lora` | `mmxxii` | not stated | T2V | Wan2.2-T2V-A14B-Diffusers-bf16-mmxxii-rank256-lora | 134 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.2-T2V-A14B-Diffusers-bf16-mmxxii-rank256-lora) |
 | `wan2-1-t2v-14b-mclaren-720s-sports-car` | `mcl4r3n720S`, `720s`, `mclaren` | not stated | I2V and T2V | Wan2.1 T2V 14B McLaren 720s sports car | 133 | catalog, verified | [CivitAI](https://civitai.com/models/1666105?modelVersionId=1885832) |
 | `alexis-noir-wan2-2-lora` | — | not stated | I2V | Alexis_Noir_Wan2.2-lora | 132 | catalog, verified | [HF](https://huggingface.co/Isshywondertwin/Alexis_Noir_Wan2.2-lora) |
 | `wan2-1-t2v-14b-soviet-mil-mi-24-helicopter` | `m1-24`, `mi-24` | not stated | T2V | Wan2.1 T2V 14B Soviet Mil Mi-24 helicopter | 129 | catalog, verified | [CivitAI](https://civitai.com/models/1568410?modelVersionId=1774838) |
@@ -783,23 +785,23 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `blackarmor-wan22-t2v-paseer` | `black armor` | not stated | T2V | BlackArmor-Wan22-T2V-PAseer | 124 | catalog, verified | [CivitAI](https://civitai.com/models/1837199?modelVersionId=2079255) |
 | `wan2-1-t2v-14b-ferrari-laferrari-2013-sports-car` | `l4f3rr4r1`, `laferrari`, `ferrari` | not stated | I2V and T2V | Wan2.1 T2V 14B ferrari laferrari 2013 sports car | 123 | catalog, verified | [CivitAI](https://civitai.com/models/1661183?modelVersionId=1880217) |
 | `wan2-1-t2v-14b-us-army-sherman-tank` | `sh3rm4n`, `sherman`, `sherman_m4`, `sherman m4`, `sherman tank` | not stated | T2V | Wan2.1 T2V 14B US army Sherman Tank | 123 | catalog, verified | [CivitAI](https://civitai.com/models/1564089?modelVersionId=1769923) |
-| `vect0r-style-wan-v2-lora` | — | not stated | T2V | vect0r_style_wan_v2-lora | 122 | catalog, verified | [HF](https://huggingface.co/Ashmotv/vect0r_style_wan_v2-lora) |
+| `vect0r-style-wan-v2-lora` | `Vect0r style` | not stated | T2V | vect0r_style_wan_v2-lora | 122 | catalog, verified | [HF](https://huggingface.co/Ashmotv/vect0r_style_wan_v2-lora) |
 | `wan2-1-t2v-14b-german-leopard-2a5-tank` | `l30p4rd245`, `leopard`, `2a5`, `leopard 2a5` | not stated | I2V and T2V | Wan2.1 T2V 14B German Leopard 2A5 Tank | 122 | catalog, verified | [CivitAI](https://civitai.com/models/1591141?modelVersionId=1800560) |
-| `wan2-2-distill-loras` | — | not stated | I2V | Wan2.2-Distill-Loras | 120 | catalog, verified | [HF](https://huggingface.co/Martin4236/Wan2.2-Distill-Loras) |
-| `full-nelson-sex-i2v-wan2-2-video-lora` | — | not stated | I2V | Full_Nelson_Sex_I2V_Wan2.2_Video_LoRa | 118 | catalog, verified | [HF](https://huggingface.co/FlutterGuyAzaza/Full_Nelson_Sex_I2V_Wan2.2_Video_LoRa) |
-| `ostro-v2-lora` | — | not stated | I2V | ostro_v2-lora | 118 | catalog, verified | [HF](https://huggingface.co/Hex333/ostro_v2-lora) |
+| `wan2-2-distill-loras` | — | 1.0 | I2V and T2V | Wan2.2-Distill-Loras | 120 | catalog, verified | [HF](https://huggingface.co/Martin4236/Wan2.2-Distill-Loras) |
+| `full-nelson-sex-i2v-wan2-2-video-lora` | `FU11N31S0N` | not stated | I2V | Full_Nelson_Sex_I2V_Wan2.2_Video_LoRa | 118 | catalog, verified | [HF](https://huggingface.co/FlutterGuyAzaza/Full_Nelson_Sex_I2V_Wan2.2_Video_LoRa) |
+| `ostro-v2-lora` | `ostro` | not stated | I2V | ostro_v2-lora | 118 | catalog, verified | [HF](https://huggingface.co/Hex333/ostro_v2-lora) |
 | `purple-lace-dress` | — | not stated | T2V | purple lace dress | 118 | catalog, verified | [CivitAI](https://civitai.com/models/1971381?modelVersionId=2231364) |
 | `wan2-1-t2v-14b-need-for-speed-most-wanted-of-a-bmw-gtr-m3-car` | `MWBMWGTRM3`, `bmwgtrm3`, `gtr`, `m3`, `bmw` | not stated | I2V and T2V | Wan2.1 T2V 14B Need for Speed Most Wanted of a BMW GTR M3 Car | 118 | catalog, verified | [CivitAI](https://civitai.com/models/1658267?modelVersionId=1876898) |
 | `blackmermaidarmor-wan22-paseer-designed-by-erios-clerk` | `blackmermaid_armor`, `steel tail`, `fin earrings`, `scaled_armor`, `blackmermaid armor` | not stated | T2V | BlackMermaidArmor-Wan22-PAseer (Designed by Erios Clerk) | 116 | catalog, verified | [CivitAI](https://civitai.com/models/1845475?modelVersionId=2088469) |
-| `my-first-lora-v1-lora` | — | not stated | T2V | my_first_lora_v1-lora | 116 | catalog, verified | [HF](https://huggingface.co/LL1999/my_first_lora_v1-lora) |
+| `my-first-lora-v1-lora` | `Setsuna` | not stated | T2V | my_first_lora_v1-lora | 116 | catalog, verified | [HF](https://huggingface.co/LL1999/my_first_lora_v1-lora) |
 | `wan2-2-1979-nezha-conquers-the-dragon-king` | — | not stated | T2V | wan2.2-哪吒闹海1979-Nezha Conquers the Dragon King | 115 | catalog, verified | [CivitAI](https://civitai.com/models/1987476?modelVersionId=2249805) |
 | `jord0-eyes` | — | not stated | I2V | Jord0_Eyes | 114 | catalog, verified | [CivitAI](https://civitai.com/models/2578060?modelVersionId=2896341) |
 | `wan2-1-t2v-14b-german-pz-iv-h-tank-panzer-4` | `P4NZ3R4`, `panzer4`, `panzer_4` | not stated | T2V | Wan2.1 T2V 14B German Pz.IV H Tank (Panzer 4) | 114 | catalog, verified | [CivitAI](https://civitai.com/models/1574943?modelVersionId=1782253) |
 | `natural-breasts-v2` | `NATURAL BREASTS` | not stated | T2V | NATURAL BREASTS V2. | 113 | catalog, verified | [CivitAI](https://civitai.com/models/2875532?modelVersionId=3249394) |
-| `impalementv2-lora` | — | not stated | I2V | impalementV2-lora | 112 | catalog, verified | [HF](https://huggingface.co/EightiesPower/impalementV2-lora) |
+| `impalementv2-lora` | `impalement` | not stated | I2V | impalementV2-lora | 112 | catalog, verified | [HF](https://huggingface.co/EightiesPower/impalementV2-lora) |
 | `jun3wan22-lora` | — | not stated | T2V | Jun3wan22-lora | 112 | catalog, verified | [HF](https://huggingface.co/jude1903/Jun3wan22-lora) |
 | `tmorph-surprise` | — | not stated | I2V | tmorph-surprise | 111 | catalog, verified | [CivitAI](https://civitai.com/models/2782696?modelVersionId=3134168) |
-| `mix3d-style-wan-lora` | — | not stated | T2V | mix3d_style_wan-lora | 110 | catalog, verified | [HF](https://huggingface.co/Ashmotv/mix3d_style_wan-lora) |
+| `mix3d-style-wan-lora` | `mix3d_style` | not stated | T2V | mix3d_style_wan-lora | 110 | catalog, verified | [HF](https://huggingface.co/Ashmotv/mix3d_style_wan-lora) |
 | `wan2-1-t2v-14b-unifiedreward-flex-lora` | — | not stated | T2V | Wan2.1-T2V-14B-UnifiedReward-Flex-lora | 110 | catalog, verified | [HF](https://huggingface.co/CodeGoat24/Wan2.1-T2V-14B-UnifiedReward-Flex-lora) |
 | `wan2-2-black-cat-detective` | — | not stated | T2V | wan2.2-黑猫警长-Black Cat Detective | 110 | catalog, verified | [CivitAI](https://civitai.com/models/1965757?modelVersionId=2225038) |
 | `wan2-1-t2v-14b-rus-ka-52-combat-helicopter` | `K452`, `k4-52`, `ka52`, `ka-52` | not stated | T2V | Wan2.1 T2V 14B RUS KA-52 combat helicopter | 109 | catalog, verified | [CivitAI](https://civitai.com/models/1569158?modelVersionId=1775683) |
@@ -807,49 +809,49 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `zobra-outfit-snakeskin-and-feathers` | `Zobra` | not stated | I2V and T2V | Zobra Outfit - Snakeskin and Feathers | 108 | catalog, verified | [CivitAI](https://civitai.com/models/2065871?modelVersionId=2337684) |
 | `wan2-1-t2v-14b-german-junkers-ju-87-airplane-stuka` | `JU87`, `stvk4`, `stuka` | not stated | T2V | Wan2.1 T2V 14B German Junkers JU-87 airplane (Stuka) | 107 | catalog, verified | [CivitAI](https://civitai.com/models/1577143?modelVersionId=1784692) |
 | `wan2-1-t2v-14b-german-panther-g-a-tank` | `p4nth3rG`, `p4nth3r_g`, `pantherg`, `panther_g` | not stated | T2V | Wan2.1 T2V 14B German Panther "G/A" Tank | 107 | catalog, verified | [CivitAI](https://civitai.com/models/1574908?modelVersionId=1782213) |
-| `wan2-2-lightning` | — | not stated | I2V | Wan2.2-Lightning | 107 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.2-Lightning) |
-| `anifun-lora` | — | not stated | T2V | anifun-lora | 106 | catalog, verified | [HF](https://huggingface.co/TTfire/anifun-lora) |
+| `wan2-2-lightning` | — | not stated | TI2V (and I2V/T2V) | Wan2.2-Lightning | 107 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.2-Lightning) |
+| `anifun-lora` | `my_first_lora_v7` | not stated | T2V | anifun-lora | 106 | catalog, verified | [HF](https://huggingface.co/TTfire/anifun-lora) |
 | `wan2-2-yu7-xiaomi-yu7` | — | not stated | T2V | wan2.2-小米Yu7-XiaoMi-Yu7 | 105 | catalog, verified | [CivitAI](https://civitai.com/models/1970981?modelVersionId=2230904) |
-| `my-first-lora-v1-lora` | — | not stated | T2V | my_first_lora_v1-lora | 104 | catalog, verified | [HF](https://huggingface.co/Hex333/my_first_lora_v1-lora) |
-| `my-first-lora-v13-lora` | — | not stated | T2V | my_first_lora_v13-lora | 104 | catalog, verified | [HF](https://huggingface.co/bigdoinks420518/my_first_lora_v13-lora) |
-| `ukrainewara14b-wan2-2-t2v-lora` | — | not stated | T2V | UkraineWarA14b_wan2.2_t2v-LoRA | 104 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/UkraineWarA14b_wan2.2_t2v-LoRA) |
+| `my-first-lora-v1-lora` | `ostro` | not stated | I2V and T2V | my_first_lora_v1-lora | 104 | catalog, verified | [HF](https://huggingface.co/Hex333/my_first_lora_v1-lora) |
+| `my-first-lora-v13-lora` | `BR00K3` | not stated | T2V | my_first_lora_v13-lora | 104 | catalog, verified | [HF](https://huggingface.co/bigdoinks420518/my_first_lora_v13-lora) |
+| `ukrainewara14b-wan2-2-t2v-lora` | `UKR style war footage movie clip`, `in Ukraine`, `wartime scene` | not stated | I2V and T2V | UkraineWarA14b_wan2.2_t2v-LoRA | 104 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/UkraineWarA14b_wan2.2_t2v-LoRA) |
 | `bunny-hop` | `bhop` | not stated | I2V and T2V | Bunny hop | 103 | catalog, verified | [CivitAI](https://civitai.com/models/2525940?modelVersionId=2838878) |
 | `twerkmaster-by-stx` | `twrkmstr_stx, ` | not stated | T2V | TWERKMASTER BY STX | 102 | catalog, verified | [CivitAI](https://civitai.com/models/2341832?modelVersionId=2634136) |
-| `wan2-1-i2v-14b-480p-diffusers-mmxxii-rank256-lora` | — | not stated | I2V | Wan2.1-I2V-14B-480P-Diffusers-mmxxii-rank256-lora | 102 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.1-I2V-14B-480P-Diffusers-mmxxii-rank256-lora) |
-| `wan-dramatotal-lora` | — | not stated | not stated | wan_dramatotal-lora | 101 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_dramatotal-lora) |
+| `wan2-1-i2v-14b-480p-diffusers-mmxxii-rank256-lora` | `mmxxii` | not stated | I2V | Wan2.1-I2V-14B-480P-Diffusers-mmxxii-rank256-lora | 102 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.1-I2V-14B-480P-Diffusers-mmxxii-rank256-lora) |
+| `wan-dramatotal-lora` | `cartoon` | not stated | T2V | wan_dramatotal-lora | 101 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_dramatotal-lora) |
 | `wan2-1-t2v-14b-us-army-m18-gmc-hellcat-tank` | `m18h3llc4t`, `m18hellcat`, `hellcat`, `m18` | not stated | I2V and T2V | Wan2.1 T2V 14B US army M18 gmc Hellcat Tank | 101 | catalog, verified | [CivitAI](https://civitai.com/models/1578601?modelVersionId=1786380) |
-| `dwm-wan2-1-fun-14b-lora` | — | not stated | not stated | DWM-Wan2.1-Fun-14b-LoRA | 100 | catalog, verified | [HF](https://huggingface.co/byungjun-kim/DWM-Wan2.1-Fun-14b-LoRA) |
-| `josielynn-wan2-2-lora` | — | not stated | T2V | josielynn_wan2.2-lora | 100 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/josielynn_wan2.2-lora) |
+| `dwm-wan2-1-fun-14b-lora` | — | not stated | I2V | DWM-Wan2.1-Fun-14b-LoRA | 100 | catalog, verified | [HF](https://huggingface.co/byungjun-kim/DWM-Wan2.1-Fun-14b-LoRA) |
+| `josielynn-wan2-2-lora` | `josielynn` | not stated | T2V | josielynn_wan2.2-lora | 100 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/josielynn_wan2.2-lora) |
 | `alessa-dress-sexy-metallic-dress-for-wan` | `AlessaDress`, `metallic gold AlessaDress`, `short sleeves`, `long sleeves`, `sleeveless` | not stated | I2V and T2V | Alessa Dress - Sexy Metallic Dress for WAN | 99 | catalog, verified | [CivitAI](https://civitai.com/models/2066066?modelVersionId=2337889) |
-| `brileywan2-2-lora` | — | not stated | T2V | brileywan2.2-lora | 98 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/brileywan2.2-lora) |
+| `brileywan2-2-lora` | `briley` | not stated | T2V | brileywan2.2-lora | 98 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/brileywan2.2-lora) |
 | `redhead` | `redi` | not stated | T2V | redhead | 98 | catalog, verified | [CivitAI](https://civitai.com/models/2174076?modelVersionId=2448256) |
-| `t2v-video-loras` | — | not stated | I2V | T2V_Video_Loras | 98 | catalog, verified | [HF](https://huggingface.co/MLbackup/T2V_Video_Loras) |
+| `t2v-video-loras` | — | not stated | I2V and T2V | T2V_Video_Loras | 98 | catalog, verified | [HF](https://huggingface.co/MLbackup/T2V_Video_Loras) |
 | `castle-wan-1` | `Hrad, ` | 0.6–0.9 | T2V | castle wan_1 | 96 | catalog, verified | [CivitAI](https://civitai.com/models/2058110?modelVersionId=2329020) |
-| `wan-stream81-640-lora` | — | not stated | not stated | wan_stream81_640-lora | 94 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_stream81_640-lora) |
-| `wan2-2-i2v-a14b-diffusers-bf16-mmxxii-lora` | — | not stated | I2V | Wan2.2-I2V-A14B-Diffusers-bf16-mmxxii-lora | 94 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.2-I2V-A14B-Diffusers-bf16-mmxxii-lora) |
-| `jamilelynnwan22-lora` | — | not stated | T2V | jamilelynnwan22-lora | 93 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/jamilelynnwan22-lora) |
+| `wan-stream81-640-lora` | `stream` | not stated | T2V | wan_stream81_640-lora | 94 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_stream81_640-lora) |
+| `wan2-2-i2v-a14b-diffusers-bf16-mmxxii-lora` | `mmxxii` | not stated | I2V | Wan2.2-I2V-A14B-Diffusers-bf16-mmxxii-lora | 94 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.2-I2V-A14B-Diffusers-bf16-mmxxii-lora) |
+| `jamilelynnwan22-lora` | `jamielynn` | not stated | T2V | jamilelynnwan22-lora | 93 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/jamilelynnwan22-lora) |
 | `wan2-1-t2v-14b-soviet-ddr-t-54-tank` | `DDRT54`, `t54` | not stated | I2V and T2V | Wan2.1 T2V 14B Soviet/DDR T-54 tank | 93 | catalog, verified | [CivitAI](https://civitai.com/models/1640337?modelVersionId=1856699) |
-| `wan2-2-distill-loras` | — | not stated | I2V | Wan2.2-Distill-Loras | 93 | catalog, verified | [HF](https://huggingface.co/kukidevalml/Wan2.2-Distill-Loras) |
+| `wan2-2-distill-loras` | — | 1.0 | I2V and T2V | Wan2.2-Distill-Loras | 93 | catalog, verified | [HF](https://huggingface.co/kukidevalml/Wan2.2-Distill-Loras) |
 | `shreya-1-0-wan2-2` | — | not stated | T2V | Shreya 1.0 WAN2.2 | 92 | catalog, verified | [CivitAI](https://civitai.com/models/1949492?modelVersionId=2206394) |
-| `my-first-lora-v6-lora` | — | not stated | T2V | my_first_lora_v6-lora | 91 | catalog, verified | [HF](https://huggingface.co/TTfire/my_first_lora_v6-lora) |
-| `wan2-1-i2v-14b-720p-diffusers-mmxxii-rank256-lora` | — | not stated | I2V | Wan2.1-I2V-14B-720P-Diffusers-mmxxii-rank256-lora | 90 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.1-I2V-14B-720P-Diffusers-mmxxii-rank256-lora) |
-| `cosmik4-lora` | — | not stated | T2V | Cosmik4-lora | 89 | catalog, verified | [HF](https://huggingface.co/visionmaster2/Cosmik4-lora) |
+| `my-first-lora-v6-lora` | `Ronova` | not stated | T2V | my_first_lora_v6-lora | 91 | catalog, verified | [HF](https://huggingface.co/TTfire/my_first_lora_v6-lora) |
+| `wan2-1-i2v-14b-720p-diffusers-mmxxii-rank256-lora` | `mmxxii` | not stated | I2V | Wan2.1-I2V-14B-720P-Diffusers-mmxxii-rank256-lora | 90 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.1-I2V-14B-720P-Diffusers-mmxxii-rank256-lora) |
+| `cosmik4-lora` | `CosmikR` | not stated | T2V | Cosmik4-lora | 89 | catalog, verified | [HF](https://huggingface.co/visionmaster2/Cosmik4-lora) |
 | `wan22-t2v-a14b-nf4-for-lora-training` | — | not stated | T2V | Wan22-T2V-A14B-NF4-for-LoRA-Training | 89 | catalog, verified | [HF](https://huggingface.co/AcademiaSD/Wan22-T2V-A14B-NF4-for-LoRA-Training) |
-| `pejawan22-lora` | — | not stated | T2V | pejawan22-lora | 88 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/pejawan22-lora) |
-| `wan2-2-i2v-a14b-diffusers-bf16-mmxxii-rank128-lora` | — | not stated | I2V | Wan2.2-I2V-A14B-Diffusers-bf16-mmxxii-rank128-lora | 88 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.2-I2V-A14B-Diffusers-bf16-mmxxii-rank128-lora) |
+| `pejawan22-lora` | `peja` | not stated | T2V | pejawan22-lora | 88 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/pejawan22-lora) |
+| `wan2-2-i2v-a14b-diffusers-bf16-mmxxii-rank128-lora` | `mmxxii` | not stated | I2V | Wan2.2-I2V-A14B-Diffusers-bf16-mmxxii-rank128-lora | 88 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.2-I2V-A14B-Diffusers-bf16-mmxxii-rank128-lora) |
 | `wasserrandar-wan22-text-to-video-lora-quality-1` | — | not stated | T2V | Wasserrandar Wan22 Text To Video LoRA Quality 1 | 88 | catalog, verified | [CivitAI](https://civitai.com/models/2445716?modelVersionId=2749891) |
-| `coral-wan-lora` | — | not stated | T2V | Coral_Wan-lora | 85 | catalog, verified | [HF](https://huggingface.co/Tanus83/Coral_Wan-lora) |
-| `my-first-lora-v1-lora` | — | not stated | T2V | my_first_lora_v1-lora | 85 | catalog, verified | [HF](https://huggingface.co/Martin-H/my_first_lora_v1-lora) |
-| `jponi-lora` | — | not stated | I2V | JPOni-lora | 83 | catalog, verified | [HF](https://huggingface.co/Soulless013/JPOni-lora) |
+| `coral-wan-lora` | `C0ral` | not stated | T2V | Coral_Wan-lora | 85 | catalog, verified | [HF](https://huggingface.co/Tanus83/Coral_Wan-lora) |
+| `my-first-lora-v1-lora` | `lespring_03_wna2-2` | not stated | T2V | my_first_lora_v1-lora | 85 | catalog, verified | [HF](https://huggingface.co/Martin-H/my_first_lora_v1-lora) |
+| `jponi-lora` | `jponi` | not stated | I2V | JPOni-lora | 83 | catalog, verified | [HF](https://huggingface.co/Soulless013/JPOni-lora) |
 | `wan2-1-t2v-14b-2018-nissan-370z-sports-car` | `N1SS4N370Z`, `370z` | not stated | I2V and T2V | Wan2.1 T2V 14B 2018 Nissan 370Z sports car | 81 | catalog, verified | [CivitAI](https://civitai.com/models/1657641?modelVersionId=1876230) |
-| `xandaowan2-2-lora` | — | not stated | T2V | XandaoWan2.2-lora | 81 | catalog, verified | [HF](https://huggingface.co/Korbben/XandaoWan2.2-lora) |
+| `xandaowan2-2-lora` | `Alexandre` | not stated | T2V | XandaoWan2.2-lora | 81 | catalog, verified | [HF](https://huggingface.co/Korbben/XandaoWan2.2-lora) |
 | `bottlefuck` | — | not stated | not stated | bottlefuck | 78 | catalog, verified, low_signal | [CivitAI](https://civitai.com/models/1566135?modelVersionId=1772281) |
-| `one-finger-wan21-t2v-lora` | — | not stated | not stated | one_finger_wan21_t2v_lora | 78 | catalog, verified | [HF](https://huggingface.co/joyfox/one_finger_wan21_t2v_lora) |
+| `one-finger-wan21-t2v-lora` | `0n3_f1n9er` | 0.6 | T2V | one_finger_wan21_t2v_lora | 78 | catalog, verified | [HF](https://huggingface.co/joyfox/one_finger_wan21_t2v_lora) |
 | `uyghur-etles-lora` | `etles` | not stated | T2V | Uyghur Etles LoRA | 77 | catalog, verified | [CivitAI](https://civitai.com/models/1841487?modelVersionId=2083946) |
-| `wan2-2-distill-loras` | — | not stated | I2V | Wan2.2-Distill-Loras | 77 | catalog, verified | [HF](https://huggingface.co/Danis37/Wan2.2-Distill-Loras) |
-| `ivanbucchioniwan2-2-lora` | — | not stated | T2V | IvanBucchioniWan2.2-lora | 76 | catalog, verified | [HF](https://huggingface.co/Korbben/IvanBucchioniWan2.2-lora) |
+| `wan2-2-distill-loras` | — | 1.0 | I2V and T2V | Wan2.2-Distill-Loras | 77 | catalog, verified | [HF](https://huggingface.co/Danis37/Wan2.2-Distill-Loras) |
+| `ivanbucchioniwan2-2-lora` | `Ivanbucchioni` | not stated | I2V and T2V | IvanBucchioniWan2.2-lora | 76 | catalog, verified | [HF](https://huggingface.co/Korbben/IvanBucchioniWan2.2-lora) |
 | `bl00dsqibwan22-lora` | — | not stated | I2V | bl00dsqibWan22-lora | 74 | catalog, verified | [HF](https://huggingface.co/EightiesPower/bl00dsqibWan22-lora) |
-| `wan-lora-0987-94411003` | — | not stated | I2V | wan-lora-0987-94411003 | 74 | catalog, verified | [HF](https://huggingface.co/fwwrsd/wan-lora-0987-94411003) |
+| `wan-lora-0987-94411003` | — | not stated | I2V and T2V | wan-lora-0987-94411003 | 74 | catalog, verified | [HF](https://huggingface.co/fwwrsd/wan-lora-0987-94411003) |
 | `wan2-1-t2v-14b-soviet-tank-t34` | `t34` | not stated | I2V and T2V | Wan2.1 T2V 14B Soviet Tank T34 | 73 | catalog, verified | [CivitAI](https://civitai.com/models/1647284?modelVersionId=1864500) |
 | `tambur` | — | not stated | T2V | Tambur 弹布尔 | 72 | catalog, verified | [CivitAI](https://civitai.com/models/1843965?modelVersionId=2086715) |
 | `wan2-1-t2v-14b-us-army-north-american-p-51d-30-airplane-mustang` | `P51D30`, `p51mustang`, `mustang` | not stated | I2V and T2V | Wan2.1 T2V 14B US army North American P-51d-30 airplane (Mustang) | 72 | catalog, verified | [CivitAI](https://civitai.com/models/1613795?modelVersionId=1826316) |
@@ -857,13 +859,13 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `centa-wan-lora` | — | not stated | T2V | centa_wan-lora | 68 | catalog, verified | [HF](https://huggingface.co/Mademon/centa_wan-lora) |
 | `pixsd-wan-lora` | — | not stated | T2V | pixsd_wan-lora | 68 | catalog, verified | [HF](https://huggingface.co/Mademon/pixsd_wan-lora) |
 | `hvizol` | — | not stated | T2V | HVizol | 65 | catalog, verified, low_signal | [CivitAI](https://civitai.com/models/2477954?modelVersionId=2785967) |
-| `vladimirlenin-wan2-1-1-3b-ver2-rank128-t2v-lora` | — | not stated | not stated | VladimirLENIN_Wan2.1_1.3B_ver2_rank128_T2V_LoRA | 64 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/VladimirLENIN_Wan2.1_1.3B_ver2_rank128_T2V_LoRA) |
+| `vladimirlenin-wan2-1-1-3b-ver2-rank128-t2v-lora` | `movie clip of LEN Vladimir Lenin` | not stated | T2V | VladimirLENIN_Wan2.1_1.3B_ver2_rank128_T2V_LoRA | 64 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/VladimirLENIN_Wan2.1_1.3B_ver2_rank128_T2V_LoRA) |
 | `shioriha-ruri-wan2-1-14b-t2v` | `Shioriha Ruri, anime-style girl. The image features an anime-style character with long, light gray hair that is styled in loose waves. The character has large, expressive green eyes with a hint of yellow. She is wearing a white and blue uniform with a sailor hat adorned with a blue bow and a small gold emblem on the front.The character is wearing a futuristic outfit that includes a white and blue uniform with various patches and insignias. The uniform appears to be made of a metallic or synthetic material, giving it a sleek and high-tech look. The uniform includes a white shirt with a blue collar and a blue tie, a white vest with yellow accents, and dark blue pants.The character is also wearing white gloves and has a fluffy, gray tail with a yellow ribbon tied around it.` | 0.8 | T2V | Shioriha Ruri/栞葉るり | 63 | catalog, verified | [CivitAI](https://civitai.com/models/1682643?modelVersionId=1904485) |
-| `wan2-1-i2v-14b-480p-diffusers-mmxxii-lora` | — | not stated | I2V | Wan2.1-I2V-14B-480P-Diffusers-mmxxii-lora | 63 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.1-I2V-14B-480P-Diffusers-mmxxii-lora) |
+| `wan2-1-i2v-14b-480p-diffusers-mmxxii-lora` | `mmxxii` | not stated | I2V | Wan2.1-I2V-14B-480P-Diffusers-mmxxii-lora | 63 | catalog, verified | [HF](https://huggingface.co/jasbloom/Wan2.1-I2V-14B-480P-Diffusers-mmxxii-lora) |
 | `my-first-lora-v1-h-lora` | — | not stated | I2V | my_first_lora_v1_h-lora | 62 | catalog, verified | [HF](https://huggingface.co/DeepakDevansh/my_first_lora_v1_h-lora) |
-| `maxernstpalimpsestanimation-wan13b-lora-bysilveragepoets` | — | not stated | not stated | MaxErnstPalimpsestAnimation_Wan13b_LoRA_bySilverAgePoets | 61 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/MaxErnstPalimpsestAnimation_Wan13b_LoRA_bySilverAgePoets) |
-| `wan-woven-fabric-01-lora` | — | not stated | TI2V (and I2V) | wan_woven_fabric_01-lora | 61 | catalog, verified | [HF](https://huggingface.co/wouterverweirder/wan_woven_fabric_01-lora) |
-| `wan-blowjob-lora` | — | not stated | not stated | wan_blowjob-lora | 60 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_blowjob-lora) |
+| `maxernstpalimpsestanimation-wan13b-lora-bysilveragepoets` | `Ernst style animation clip by Max Ernst, collaging quasi-transparent palimpsest-like overlay animation of phantasmagoric scenes of close up` | not stated | T2V | MaxErnstPalimpsestAnimation_Wan13b_LoRA_bySilverAgePoets | 61 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/MaxErnstPalimpsestAnimation_Wan13b_LoRA_bySilverAgePoets) |
+| `wan-woven-fabric-01-lora` | — | not stated | TI2V (and I2V/T2V) | wan_woven_fabric_01-lora | 61 | catalog, verified | [HF](https://huggingface.co/wouterverweirder/wan_woven_fabric_01-lora) |
+| `wan-blowjob-lora` | `blowjob` | not stated | T2V | wan_blowjob-lora | 60 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_blowjob-lora) |
 | `wlp-lora` | — | not stated | I2V | wlp-lora | 59 | catalog, verified | [HF](https://huggingface.co/Markus-Pobitzer/wlp-lora) |
 | `malik-wan-lora` | — | not stated | T2V | malik_wan-lora | 58 | catalog, verified | [HF](https://huggingface.co/Mademon/malik_wan-lora) |
 | `shishiro-botan-wan2-1-14b-t2v` | `Shishiro Botan, anime-style girl. The image features an anime-style character with white hair styled in twin tails.The character has cat ears on their head, which are gray with black tips.  The character has large, expressive eyes that are a mix of gray and white. They are wearing a black crop top with white stripes on the shoulders, paired with a long black coat that has white fur trim on the cuffs and collar. The character is also adorned with a yellow necklace that has multiple pendants.` | 0.8 | T2V | Shishiro Botan/獅白ぼたん | 58 | catalog, verified | [CivitAI](https://civitai.com/models/1771361?modelVersionId=2004768) |
@@ -874,97 +876,97 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan2-1-divine-power-lora` | — | not stated | I2V | Wan2.1-Divine-Power-LoRA | 49 | catalog, verified | [HF](https://huggingface.co/starsfriday/Wan2.1-Divine-Power-LoRA) |
 | `wan2-1-t2v-1-3b-longcat-step1000` | — | not stated | T2V | Wan2.1-T2V-1.3B-longcat-step1000 | 49 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-T2V-1.3B-longcat-step1000) |
 | `sheep-sheepy-sheep-sheepy` | — | not stated | T2V | sheep sheepy sheep sheepy | 47 | catalog, verified | [CivitAI](https://civitai.com/models/1833340?modelVersionId=2074684) |
-| `creami-lora` | — | not stated | T2V | creami-lora | 46 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/creami-lora) |
-| `rca-agitpropanimation-wan1-3b-rank64-t2v-lora` | — | not stated | not stated | RCA_AgitpropAnimation_Wan1.3B_rank64_T2V_LoRA | 46 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/RCA_AgitpropAnimation_Wan1.3B_rank64_T2V_LoRA) |
-| `wan-cumeneitor81res-lora` | — | not stated | not stated | wan_cumeneitor81res-lora | 46 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_cumeneitor81res-lora) |
-| `whiteb0ard-transition-wan-lora` | — | not stated | I2V | whiteb0ard_transition_wan-lora | 46 | catalog, verified | [HF](https://huggingface.co/kashish2025/whiteb0ard_transition_wan-lora) |
-| `vladimirlenin-wan2-1-14b-t2v-lora-bysilveragepoets` | — | not stated | not stated | VladimirLENIN_Wan2.1_14B_T2V_LoRA_bySilverAgePoets | 45 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/VladimirLENIN_Wan2.1_14B_T2V_LoRA_bySilverAgePoets) |
+| `creami-lora` | `creami` | not stated | T2V | creami-lora | 46 | catalog, verified | [HF](https://huggingface.co/BarleyFarmer/creami-lora) |
+| `rca-agitpropanimation-wan1-3b-rank64-t2v-lora` | `RCA style agitprop crisp animation by a Communist party` | not stated | T2V | RCA_AgitpropAnimation_Wan1.3B_rank64_T2V_LoRA | 46 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/RCA_AgitpropAnimation_Wan1.3B_rank64_T2V_LoRA) |
+| `wan-cumeneitor81res-lora` | `cumshot` | not stated | T2V | wan_cumeneitor81res-lora | 46 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_cumeneitor81res-lora) |
+| `whiteb0ard-transition-wan-lora` | `whiteb0ard_transition` | not stated | I2V | whiteb0ard_transition_wan-lora | 46 | catalog, verified | [HF](https://huggingface.co/kashish2025/whiteb0ard_transition_wan-lora) |
+| `vladimirlenin-wan2-1-14b-t2v-lora-bysilveragepoets` | `LEN Vladimir Lenin` | not stated | I2V and T2V | VladimirLENIN_Wan2.1_14B_T2V_LoRA_bySilverAgePoets | 45 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/VladimirLENIN_Wan2.1_14B_T2V_LoRA_bySilverAgePoets) |
 | `wan2-1-mecha-lora` | — | not stated | I2V | Wan2.1-Mecha-LoRA | 45 | catalog, verified | [HF](https://huggingface.co/joyfox/Wan2.1-Mecha-LoRA) |
-| `wan-cumeneitor-img480-81res-lora` | — | not stated | I2V | wan_cumeneitor_img480_81res-lora | 43 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_cumeneitor_img480_81res-lora) |
-| `wan21-i2v-480p-smoke-change-clothes-lora` | — | not stated | I2V | wan21_i2v_480P_smoke_change_clothes_lora | 43 | catalog, verified | [HF](https://huggingface.co/joyfox/wan21_i2v_480P_smoke_change_clothes_lora) |
-| `lora` | — | not stated | I2V | lora | 42 | catalog, verified | [HF](https://huggingface.co/faaj888/lora) |
-| `wan-lora-arcane-jinx-v2` | — | not stated | not stated | Wan-LoRA-Arcane-Jinx-v2 | 42 | catalog, verified | [HF](https://huggingface.co/Cseti/Wan-LoRA-Arcane-Jinx-v2) |
-| `c3l3-lora` | — | not stated | I2V | c3l3-lora | 41 | catalog, verified | [HF](https://huggingface.co/RuschMeyer/c3l3-lora) |
-| `wan22cumeneitor81-lora` | — | not stated | T2V | wan22cumeneitor81-lora | 40 | catalog, verified | [HF](https://huggingface.co/d14945921/wan22cumeneitor81-lora) |
-| `asian-women-t2v-wan-2-2-2-1-video-lora` | — | not stated | T2V | asian-women-t2v-wan-2.2-2.1-video-lora | 39 | catalog, verified | [HF](https://huggingface.co/Muapi/asian-women-t2v-wan-2.2-2.1-video-lora) |
-| `self-forcing-fp8` | — | not stated | not stated | Self-Forcing-FP8 | 39 | catalog, verified | [HF](https://huggingface.co/lightx2v/Self-Forcing-FP8) |
-| `wan2-2-5b-nonar-dmd-4step-lora-r64-iter1600` | — | not stated | TI2V (and I2V) | Wan2.2-5B-NonAR-DMD-4Step-LoRA-r64-iter1600 | 39 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Wan2.2-5B-NonAR-DMD-4Step-LoRA-r64-iter1600) |
+| `wan-cumeneitor-img480-81res-lora` | `cumshot` | not stated | I2V | wan_cumeneitor_img480_81res-lora | 43 | catalog, verified | [HF](https://huggingface.co/d14945921/wan_cumeneitor_img480_81res-lora) |
+| `wan21-i2v-480p-smoke-change-clothes-lora` | `ywbz，烟雾特效变装` | not stated | I2V | wan21_i2v_480P_smoke_change_clothes_lora | 43 | catalog, verified | [HF](https://huggingface.co/joyfox/wan21_i2v_480P_smoke_change_clothes_lora) |
+| `lora` | `TOT` | not stated | I2V | lora | 42 | catalog, verified | [HF](https://huggingface.co/faaj888/lora) |
+| `wan-lora-arcane-jinx-v2` | `csetiarcane`, `Nfj1nx`, `blue hair` | 0.9–1.0 | T2V | Wan-LoRA-Arcane-Jinx-v2 | 42 | catalog, verified | [HF](https://huggingface.co/Cseti/Wan-LoRA-Arcane-Jinx-v2) |
+| `c3l3-lora` | `c3l3` | not stated | I2V | c3l3-lora | 41 | catalog, verified | [HF](https://huggingface.co/RuschMeyer/c3l3-lora) |
+| `wan22cumeneitor81-lora` | `cumshot` | not stated | T2V | wan22cumeneitor81-lora | 40 | catalog, verified | [HF](https://huggingface.co/d14945921/wan22cumeneitor81-lora) |
+| `asian-women-t2v-wan-2-2-2-1-video-lora` | `m3i` | 1.0 | T2V | asian-women-t2v-wan-2.2-2.1-video-lora | 39 | catalog, verified | [HF](https://huggingface.co/Muapi/asian-women-t2v-wan-2.2-2.1-video-lora) |
+| `self-forcing-fp8` | — | not stated | T2V | Self-Forcing-FP8 | 39 | catalog, verified | [HF](https://huggingface.co/lightx2v/Self-Forcing-FP8) |
 | `inflated-airbag-wan-2-1-hug` | `InflatedAirbag` | not stated | not stated | Inflated Airbag - Wan 2.1 - Hug | 38 | catalog, verified, low_signal | [CivitAI](https://civitai.com/models/1598948?modelVersionId=1809389) |
 | `shirt-behind-neck` | — | not stated | T2V | Shirt Behind Neck | 37 | catalog, verified | [CivitAI](https://civitai.com/models/2172565?modelVersionId=2446541) |
-| `wan2-1-fusionx-the-lora` | — | not stated | I2V | wan2.1_fusionx-the-lora | 35 | catalog, verified | [HF](https://huggingface.co/Muapi/wan2.1_fusionx-the-lora) |
-| `fraemwerk-v1-lora` | — | not stated | I2V | fraemwerk_v1-lora | 34 | catalog, verified | [HF](https://huggingface.co/fraemwerk/fraemwerk_v1-lora) |
-| `fanny-wan-25-lora` | — | not stated | I2V | fanny_wan_25-lora | 33 | catalog, verified | [HF](https://huggingface.co/Hikarias/fanny_wan_25-lora) |
+| `wan2-1-fusionx-the-lora` | `## 🧠 Usage` | 1.0 | I2V and T2V | wan2.1_fusionx-the-lora | 35 | catalog, verified | [HF](https://huggingface.co/Muapi/wan2.1_fusionx-the-lora) |
+| `fraemwerk-v1-lora` | `fraemwerk` | not stated | I2V | fraemwerk_v1-lora | 34 | catalog, verified | [HF](https://huggingface.co/fraemwerk/fraemwerk_v1-lora) |
+| `fanny-wan-25-lora` | `fanny` | not stated | I2V | fanny_wan_25-lora | 33 | catalog, verified | [HF](https://huggingface.co/Hikarias/fanny_wan_25-lora) |
 | `i2v-mal-lora` | — | not stated | I2V | I2V_Mal-lora | 33 | catalog, verified | [HF](https://huggingface.co/Mademon/I2V_Mal-lora) |
-| `roundabout-full-body-rotation-lora-for-hunyuan-and-wan-video` | — | not stated | I2V | roundabout-full-body-rotation-lora-for-hunyuan-and-wan-video | 33 | catalog, verified | [HF](https://huggingface.co/Muapi/roundabout-full-body-rotation-lora-for-hunyuan-and-wan-video) |
-| `ukrainewar1-3b-wan2-1-t2v-lora` | — | not stated | not stated | UkraineWar1.3B_Wan2.1_t2v-LoRA | 33 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/UkraineWar1.3B_Wan2.1_t2v-LoRA) |
-| `paint-splash-wan2-1-14b-lora` | — | not stated | not stated | paint-splash-wan2.1-14b-lora | 31 | catalog, verified | [HF](https://huggingface.co/Muapi/paint-splash-wan2.1-14b-lora) |
-| `monica-vitt-lora` | — | not stated | not stated | monica-vitt-lora | 30 | catalog, verified | [HF](https://huggingface.co/flying101/monica-vitt-lora) |
-| `loona-illustrious-wan-2-1-human-hellhound-shrekman-hellaverse-loras` | — | not stated | not stated | loona-illustrious-wan-2.1-human-hellhound-shrekman-hellaverse-loras | 29 | catalog, verified | [HF](https://huggingface.co/Muapi/loona-illustrious-wan-2.1-human-hellhound-shrekman-hellaverse-loras) |
+| `roundabout-full-body-rotation-lora-for-hunyuan-and-wan-video` | `r0und4b0ut` | 1.0 | I2V and T2V | roundabout-full-body-rotation-lora-for-hunyuan-and-wan-video | 33 | catalog, verified | [HF](https://huggingface.co/Muapi/roundabout-full-body-rotation-lora-for-hunyuan-and-wan-video) |
+| `ukrainewar1-3b-wan2-1-t2v-lora` | `UKR style war footage movie clip`, `in Ukraine`, `wartime scene` | not stated | I2V and T2V | UkraineWar1.3B_Wan2.1_t2v-LoRA | 33 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/UkraineWar1.3B_Wan2.1_t2v-LoRA) |
+| `paint-splash-wan2-1-14b-lora` | `## 🧠 Usage` | 1.0 | T2V | paint-splash-wan2.1-14b-lora | 31 | catalog, verified | [HF](https://huggingface.co/Muapi/paint-splash-wan2.1-14b-lora) |
+| `monica-vitt-lora` | — | not stated | T2V | monica-vitt-lora | 30 | catalog, verified | [HF](https://huggingface.co/flying101/monica-vitt-lora) |
+| `loona-illustrious-wan-2-1-human-hellhound-shrekman-hellaverse-loras` | `L00na, L00na a wolf girl with black and white fur, red sclera and white eyes, on this video she is wearing her spiked collar, grey crop top, off shoulder shirt, with a pentagram on her chest that's made of thin black lines.` | 1.0 | T2V | loona-illustrious-wan-2.1-human-hellhound-shrekman-hellaverse-loras | 29 | catalog, verified | [HF](https://huggingface.co/Muapi/loona-illustrious-wan-2.1-human-hellhound-shrekman-hellaverse-loras) |
 | `wan22-tessy-lora` | — | not stated | T2V | wan22-tessy-lora | 29 | catalog, verified | [HF](https://huggingface.co/aztro/wan22-tessy-lora) |
 | `my-first-lora-v1-lora` | — | not stated | T2V | my_first_lora_v1-lora | 28 | catalog, verified | [HF](https://huggingface.co/hyperchainsad/my_first_lora_v1-lora) |
-| `c0ldv-t2v-sigmoid-flow-rank64-lora` | — | not stated | T2V | c0ldv_T2V_Sigmoid_Flow_Rank64-lora | 27 | catalog, verified | [HF](https://huggingface.co/Ruzarh/c0ldv_T2V_Sigmoid_Flow_Rank64-lora) |
-| `f3rnanda-wan22-lora` | — | not stated | I2V | f3rnanda_wan22-lora | 27 | catalog, verified | [HF](https://huggingface.co/Hikarias/f3rnanda_wan22-lora) |
-| `car-chase-wan2-1-i2v-lora` | — | not stated | I2V | car-chase-wan2.1-i2v-lora | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/car-chase-wan2.1-i2v-lora) |
-| `parkour-it-i-wan-2-1-i2v-lora` | — | not stated | I2V | parkour-it-i-wan-2.1-i2v-lora | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/parkour-it-i-wan-2.1-i2v-lora) |
-| `wan2-1-carry-in-one-s-arms-i2v14b-lora` | — | not stated | I2V | wan2.1-carry-in-one-s-arms_i2v14b-lora | 24 | catalog, verified | [HF](https://huggingface.co/Muapi/wan2.1-carry-in-one-s-arms_i2v14b-lora) |
-| `rea-wan-i2v-lora-v1` | — | not stated | I2V | rea-wan-i2v-lora-v1 | 23 | catalog, verified | [HF](https://huggingface.co/whp-rea/rea-wan-i2v-lora-v1) |
-| `lora` | — | not stated | I2V | lora | 22 | catalog, verified | [HF](https://huggingface.co/KLOWNZone23/lora) |
-| `pokemon-sprite-animation-video-lora` | — | not stated | not stated | pokemon-sprite-animation-video-lora | 22 | catalog, verified | [HF](https://huggingface.co/Muapi/pokemon-sprite-animation-video-lora) |
-| `wan2-1-passing-each-other-i2v14b-lora` | — | not stated | I2V | wan2.1-passing-each-other_i2v14b-lora | 22 | catalog, verified | [HF](https://huggingface.co/Muapi/wan2.1-passing-each-other_i2v14b-lora) |
-| `instagram-baddie-wan-lora` | — | not stated | not stated | instagram-baddie-wan-lora | 18 | catalog, verified | [HF](https://huggingface.co/Muapi/instagram-baddie-wan-lora) |
-| `wan2-2-5b-cfg5-to-cfg1-50step-lora-r64-iter250` | — | not stated | TI2V (and I2V) | Wan2.2-5B-CFG5-to-CFG1-50Step-LoRA-r64-iter250 | 18 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Wan2.2-5B-CFG5-to-CFG1-50Step-LoRA-r64-iter250) |
-| `cyberpunk2077-characters-wan-2-2-2-1-video-lora` | — | not stated | T2V | cyberpunk2077-characters-wan-2.2-2.1-video-lora | 16 | catalog, verified | [HF](https://huggingface.co/Muapi/cyberpunk2077-characters-wan-2.2-2.1-video-lora) |
-| `eszterwstyle-wan1-3b-t2v-lora-bysilveragepoets` | — | not stated | not stated | EszterWStyle_Wan1.3B_T2V_LoRA_BySilverAgePoets | 16 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/EszterWStyle_Wan1.3B_T2V_LoRA_BySilverAgePoets) |
-| `longlive-lora-nonar-dmd-rgs3-iter1500` | — | not stated | TI2V (and I2V) | LongLive-LoRA-nonAR-DMD-RGS3-iter1500 | 16 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-nonAR-DMD-RGS3-iter1500) |
-| `longlive-lora-wan2-2-ti2v-5b-nonar-dmd-main-rgs1-iter1000` | — | not stated | TI2V (and I2V) | LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS1-iter1000 | 16 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS1-iter1000) |
-| `metropolis-robot-lora-for-wan-2-1-t2v` | — | not stated | T2V | metropolis-robot-lora-for-wan-2.1-t2v | 15 | catalog, verified | [HF](https://huggingface.co/Muapi/metropolis-robot-lora-for-wan-2.1-t2v) |
-| `wan2-1-t2v-14b-resampling-forcing-ar-lora` | — | not stated | T2V | Wan2.1-T2V-14B-Resampling-Forcing-AR-LoRA | 14 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Wan2.1-T2V-14B-Resampling-Forcing-AR-LoRA) |
+| `c0ldv-t2v-sigmoid-flow-rank64-lora` | `c0ldv` | not stated | T2V | c0ldv_T2V_Sigmoid_Flow_Rank64-lora | 27 | catalog, verified | [HF](https://huggingface.co/Ruzarh/c0ldv_T2V_Sigmoid_Flow_Rank64-lora) |
+| `f3rnanda-wan22-lora` | `f3rnanda` | not stated | I2V | f3rnanda_wan22-lora | 27 | catalog, verified | [HF](https://huggingface.co/Hikarias/f3rnanda_wan22-lora) |
+| `car-chase-wan2-1-i2v-lora` | `c4r ch4s3 car chase` | 1.0 | I2V and T2V | car-chase-wan2.1-i2v-lora | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/car-chase-wan2.1-i2v-lora) |
+| `parkour-it-i-wan-2-1-i2v-lora` | — | 1.0 | I2V and T2V | parkour-it-i-wan-2.1-i2v-lora | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/parkour-it-i-wan-2.1-i2v-lora) |
+| `wan2-1-carry-in-one-s-arms-i2v14b-lora` | `GmZmB` | 1.0 | I2V and T2V | wan2.1-carry-in-one-s-arms_i2v14b-lora | 24 | catalog, verified | [HF](https://huggingface.co/Muapi/wan2.1-carry-in-one-s-arms_i2v14b-lora) |
+| `etot` | — | not stated | T2V | Etot | 23 | catalog, verified, low_signal | [CivitAI](https://civitai.com/models/2574901?modelVersionId=2892953) |
+| `rea-wan-i2v-lora-v1` | — | not stated | I2V and T2V | rea-wan-i2v-lora-v1 | 23 | catalog, verified | [HF](https://huggingface.co/whp-rea/rea-wan-i2v-lora-v1) |
+| `lora` | `TOT` | not stated | I2V | lora | 22 | catalog, verified | [HF](https://huggingface.co/KLOWNZone23/lora) |
+| `pokemon-sprite-animation-video-lora` | `pokemon` | 1.0 | T2V | pokemon-sprite-animation-video-lora | 22 | catalog, verified | [HF](https://huggingface.co/Muapi/pokemon-sprite-animation-video-lora) |
+| `wan2-1-passing-each-other-i2v14b-lora` | `EmSmMmT` | 1.0 | I2V and T2V | wan2.1-passing-each-other_i2v14b-lora | 22 | catalog, verified | [HF](https://huggingface.co/Muapi/wan2.1-passing-each-other_i2v14b-lora) |
+| `instagram-baddie-wan-lora` | `igbaddie`, `a woman` | 1.0 | T2V | instagram-baddie-wan-lora | 18 | catalog, verified | [HF](https://huggingface.co/Muapi/instagram-baddie-wan-lora) |
+| `wan2-2-5b-cfg5-to-cfg1-50step-lora-r64-iter250` | — | not stated | TI2V (and I2V/T2V) | Wan2.2-5B-CFG5-to-CFG1-50Step-LoRA-r64-iter250 | 18 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Wan2.2-5B-CFG5-to-CFG1-50Step-LoRA-r64-iter250) |
+| `cyberpunk2077-characters-wan-2-2-2-1-video-lora` | `judy4lv4r3z` | 1.0 | T2V | cyberpunk2077-characters-wan-2.2-2.1-video-lora | 16 | catalog, verified | [HF](https://huggingface.co/Muapi/cyberpunk2077-characters-wan-2.2-2.1-video-lora) |
+| `eszterwstyle-wan1-3b-t2v-lora-bysilveragepoets` | `Eszter style psychedelicate animation clip, crisp, refined, by Eszter Winkelmayer, mixed media, collage-like visuals, geometric figural patterns, mandala-like forms, ink art and vibrant colors` | not stated | T2V | EszterWStyle_Wan1.3B_T2V_LoRA_BySilverAgePoets | 16 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/EszterWStyle_Wan1.3B_T2V_LoRA_BySilverAgePoets) |
+| `longlive-lora-nonar-dmd-rgs3-iter1500` | — | not stated | TI2V (and I2V/T2V) | LongLive-LoRA-nonAR-DMD-RGS3-iter1500 | 16 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-nonAR-DMD-RGS3-iter1500) |
+| `longlive-lora-wan2-2-ti2v-5b-nonar-dmd-main-rgs1-iter1000` | — | not stated | TI2V (and I2V/T2V) | LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS1-iter1000 | 16 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS1-iter1000) |
+| `metropolis-robot-lora-for-wan-2-1-t2v` | `M4r14` | 1.0 | T2V | metropolis-robot-lora-for-wan-2.1-t2v | 15 | catalog, verified | [HF](https://huggingface.co/Muapi/metropolis-robot-lora-for-wan-2.1-t2v) |
+| `wan2-1-t2v-14b-resampling-forcing-ar-lora` | — | 1.0; .0 | T2V | Wan2.1-T2V-14B-Resampling-Forcing-AR-LoRA | 14 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Wan2.1-T2V-14B-Resampling-Forcing-AR-LoRA) |
 | `wan2-2-i2v-a14b-anthro-furry-transformation-lora` | — | not stated | I2V | Wan2.2_I2V_A14B_Anthro_Furry_transformation_LoRA | 14 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Wan2.2_I2V_A14B_Anthro_Furry_transformation_LoRA) |
-| `reproduce-wan2-2-5b-nonar-dmd-4step-lora-r128-iter1500` | — | not stated | TI2V (and I2V) | Reproduce-Wan2.2-5B-NonAR-DMD-4Step-LoRA-r128-iter1500 | 13 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Reproduce-Wan2.2-5B-NonAR-DMD-4Step-LoRA-r128-iter1500) |
-| `longlive-lora-wan2-2-ti2v-5b-nonar-dmd-main-rgs1-iter656` | — | not stated | TI2V (and I2V) | LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS1-iter656 | 12 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS1-iter656) |
-| `self-forcing-causvid-accvid-lora-massive-speed-up-for-wan2-1-made-by-kijai` | — | not stated | not stated | Self-Forcing_CausVid_Accvid_Lora_massive_speed_up_for_Wan2.1_made_by_Kijai | 12 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Self-Forcing_CausVid_Accvid_Lora_massive_speed_up_for_Wan2.1_made_by_Kijai) |
-| `longlive-lora-wan2-2-ti2v-5b-nonar-dmd-main-rgs3-iter1000` | — | not stated | TI2V (and I2V) | LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS3-iter1000 | 11 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS3-iter1000) |
-| `longlive-lora-wan2-2-ti2v-5b-nonar-dmd-main-rgs3-iter646` | — | not stated | TI2V (and I2V) | LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS3-iter646 | 11 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS3-iter646) |
-| `wan14b-toon-lora-t2v` | — | not stated | not stated | wan14b_toon_lora_t2v | 11 | catalog, verified | [HF](https://huggingface.co/Muapi/wan14b_toon_lora_t2v) |
-| `indian-women-t2v-wan-video-lora` | — | not stated | T2V | indian-women-t2v-wan-video-lora | 10 | catalog, verified | [HF](https://huggingface.co/Muapi/indian-women-t2v-wan-video-lora) |
-| `lora` | — | not stated | I2V | lora | 10 | catalog, verified | [HF](https://huggingface.co/hungarborgar/lora) |
-| `reproduce-wan2-1-t2v-14b-cfg5-to-cfg1-50step-lora-r128-iter500` | — | not stated | T2V | Reproduce-Wan2.1-T2V-14B-CFG5-to-CFG1-50Step-LoRA-r128-iter500 | 10 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Reproduce-Wan2.1-T2V-14B-CFG5-to-CFG1-50Step-LoRA-r128-iter500) |
-| `reproduce-wan2-1-t2v-14b-nonar-dmd-4step-lora-r128-iter1000` | — | not stated | T2V | Reproduce-Wan2.1-T2V-14B-NonAR-DMD-4Step-LoRA-r128-iter1000 | 10 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Reproduce-Wan2.1-T2V-14B-NonAR-DMD-4Step-LoRA-r128-iter1000) |
-| `kamehameha-energy-beam-i-wan-2-1-i2v-lora` | — | not stated | I2V | kamehameha-energy-beam-i-wan-2.1-i2v-lora | 9 | catalog, verified | [HF](https://huggingface.co/Muapi/kamehameha-energy-beam-i-wan-2.1-i2v-lora) |
-| `reproduce-wan2-2-5b-cfg5-to-cfg1-50step-lora-r64-iter500` | — | not stated | TI2V (and I2V) | Reproduce-Wan2.2-5B-CFG5-to-CFG1-50Step-LoRA-r64-iter500 | 9 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Reproduce-Wan2.2-5B-CFG5-to-CFG1-50Step-LoRA-r64-iter500) |
-| `raven-teen-titans-2003-lora-wan-2-1-14b-t2v-i2v` | — | not stated | I2V and T2V | raven-teen-titans-2003-lora-wan-2.1-14b-t2v-i2v | 8 | catalog, verified | [HF](https://huggingface.co/Muapi/raven-teen-titans-2003-lora-wan-2.1-14b-t2v-i2v) |
+| `reproduce-wan2-2-5b-nonar-dmd-4step-lora-r128-iter1500` | — | 1 | TI2V (and I2V/T2V) | Reproduce-Wan2.2-5B-NonAR-DMD-4Step-LoRA-r128-iter1500 | 13 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Reproduce-Wan2.2-5B-NonAR-DMD-4Step-LoRA-r128-iter1500) |
+| `longlive-lora-wan2-2-ti2v-5b-nonar-dmd-main-rgs1-iter656` | — | not stated | TI2V (and I2V/T2V) | LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS1-iter656 | 12 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS1-iter656) |
+| `self-forcing-causvid-accvid-lora-massive-speed-up-for-wan2-1-made-by-kijai` | — | not stated | I2V and T2V | Self-Forcing_CausVid_Accvid_Lora_massive_speed_up_for_Wan2.1_made_by_Kijai | 12 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Self-Forcing_CausVid_Accvid_Lora_massive_speed_up_for_Wan2.1_made_by_Kijai) |
+| `longlive-lora-wan2-2-ti2v-5b-nonar-dmd-main-rgs3-iter1000` | — | not stated | TI2V (and I2V/T2V) | LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS3-iter1000 | 11 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS3-iter1000) |
+| `longlive-lora-wan2-2-ti2v-5b-nonar-dmd-main-rgs3-iter646` | — | not stated | TI2V (and I2V/T2V) | LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS3-iter646 | 11 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-Wan2.2-TI2V-5B-nonAR-DMD-main-RGS3-iter646) |
+| `wan14b-toon-lora-t2v` | `Zoggify` | 1.0 | T2V | wan14b_toon_lora_t2v | 11 | catalog, verified | [HF](https://huggingface.co/Muapi/wan14b_toon_lora_t2v) |
+| `indian-women-t2v-wan-video-lora` | `p4r1` | 1.0 | T2V | indian-women-t2v-wan-video-lora | 10 | catalog, verified | [HF](https://huggingface.co/Muapi/indian-women-t2v-wan-video-lora) |
+| `lora` | `TOT` | not stated | I2V | lora | 10 | catalog, verified | [HF](https://huggingface.co/hungarborgar/lora) |
+| `reproduce-wan2-1-t2v-14b-cfg5-to-cfg1-50step-lora-r128-iter500` | — | 1 | T2V | Reproduce-Wan2.1-T2V-14B-CFG5-to-CFG1-50Step-LoRA-r128-iter500 | 10 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Reproduce-Wan2.1-T2V-14B-CFG5-to-CFG1-50Step-LoRA-r128-iter500) |
+| `reproduce-wan2-1-t2v-14b-nonar-dmd-4step-lora-r128-iter1000` | — | 1 | T2V | Reproduce-Wan2.1-T2V-14B-NonAR-DMD-4Step-LoRA-r128-iter1000 | 10 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Reproduce-Wan2.1-T2V-14B-NonAR-DMD-4Step-LoRA-r128-iter1000) |
+| `kamehameha-energy-beam-i-wan-2-1-i2v-lora` | — | 1.0 | I2V and T2V | kamehameha-energy-beam-i-wan-2.1-i2v-lora | 9 | catalog, verified | [HF](https://huggingface.co/Muapi/kamehameha-energy-beam-i-wan-2.1-i2v-lora) |
+| `reproduce-wan2-2-5b-cfg5-to-cfg1-50step-lora-r64-iter500` | — | 1 | TI2V (and I2V/T2V) | Reproduce-Wan2.2-5B-CFG5-to-CFG1-50Step-LoRA-r64-iter500 | 9 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Reproduce-Wan2.2-5B-CFG5-to-CFG1-50Step-LoRA-r64-iter500) |
+| `raven-teen-titans-2003-lora-wan-2-1-14b-t2v-i2v` | `TeenTitans Style`, `RAVTT` | 1.0 | I2V and T2V | raven-teen-titans-2003-lora-wan-2.1-14b-t2v-i2v | 8 | catalog, verified | [HF](https://huggingface.co/Muapi/raven-teen-titans-2003-lora-wan-2.1-14b-t2v-i2v) |
 | `scope-wan2-2-5b-nonar-dmd-4step-lora-r32-iter2000` | — | not stated | TI2V (and I2V) | SCOPE-Wan2.2-5B-NonAR-DMD-4Step-LoRA-r32-iter2000 | 8 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/SCOPE-Wan2.2-5B-NonAR-DMD-4Step-LoRA-r32-iter2000) |
 | `ultimate-deepthroat-i2v-wan2-2-video-lora-k3nk` | — | not stated | I2V | Ultimate_DeepThroat_I2V_Wan2.2_Video_LoRa_-_K3NK | 8 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Ultimate_DeepThroat_I2V_Wan2.2_Video_LoRa_-_K3NK) |
 | `wan2-2-14b-i2v-480p-lightning-nsfw-diffusers-lora-multiscene-softcore-sdnq-fp8-svd-r64` | — | not stated | I2V | wan2.2_14b_i2v_480p_lightning_nsfw_diffusers_lora_Multiscene_softcore_sdnq_fp8_svd_r64 | 8 | catalog, verified | [HF](https://huggingface.co/rockapaper/wan2.2_14b_i2v_480p_lightning_nsfw_diffusers_lora_Multiscene_softcore_sdnq_fp8_svd_r64) |
-| `longlive-lora-nonar-dmd-rgs1-iter1500` | — | not stated | TI2V (and I2V) | LongLive-LoRA-nonAR-DMD-RGS1-iter1500 | 7 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-nonAR-DMD-RGS1-iter1500) |
-| `wan2-1-lora` | — | not stated | not stated | wan2.1-lora | 7 | catalog, verified | [HF](https://huggingface.co/NIVEDAN/wan2.1-lora) |
+| `longlive-lora-nonar-dmd-rgs1-iter1500` | — | not stated | TI2V (and I2V/T2V) | LongLive-LoRA-nonAR-DMD-RGS1-iter1500 | 7 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-nonAR-DMD-RGS1-iter1500) |
+| `wan2-1-lora` | `nivedan` | not stated | I2V and T2V | wan2.1-lora | 7 | catalog, verified | [HF](https://huggingface.co/NIVEDAN/wan2.1-lora) |
 | `toe-flaunting-i2v-wan-2-2-2-1` | `a girl flaunting her feet, WanT0e woman barefoot wiggling toes,` | not stated | I2V | Toe Flaunting i2V (Wan 2.2/2.1) | 6 | catalog, verified | [CivitAI](https://civitai.com/models/2907037?modelVersionId=3287695) |
-| `wan-lora-cat` | — | not stated | not stated | wan-lora-cat | 6 | catalog, verified | [HF](https://huggingface.co/ginipick/wan-lora-cat) |
+| `wan-lora-cat` | `cat` | not stated | I2V and T2V | wan-lora-cat | 6 | catalog, verified | [HF](https://huggingface.co/ginipick/wan-lora-cat) |
 | `facefuck-t2v-wan2-2-video-lora` | — | not stated | T2V | FaceFuck_T2V_Wan2.2_Video_LoRa | 5 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/FaceFuck_T2V_Wan2.2_Video_LoRa) |
 | `sideview-deepthroat-t2v-wan2-2-video-lora` | — | not stated | T2V | SideView_Deepthroat_T2V_Wan2.2_Video_LoRa | 5 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/SideView_Deepthroat_T2V_Wan2.2_Video_LoRa) |
-| `wan-lora-elios` | — | not stated | not stated | wan-lora-elios | 5 | catalog, verified | [HF](https://huggingface.co/elialderson/wan-lora-elios) |
-| `wan2-1-t2v-14b-cfg5-to-cfg1-50step-lora-r128-iter500` | — | not stated | T2V | Wan2.1-T2V-14B-CFG5-to-CFG1-50Step-LoRA-r128-iter500 | 5 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Wan2.1-T2V-14B-CFG5-to-CFG1-50Step-LoRA-r128-iter500) |
+| `wan-lora-elios` | `Elios` | not stated | I2V and T2V | wan-lora-elios | 5 | catalog, verified | [HF](https://huggingface.co/elialderson/wan-lora-elios) |
+| `wan2-1-t2v-14b-cfg5-to-cfg1-50step-lora-r128-iter500` | — | 1 | T2V | Wan2.1-T2V-14B-CFG5-to-CFG1-50Step-LoRA-r128-iter500 | 5 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Wan2.1-T2V-14B-CFG5-to-CFG1-50Step-LoRA-r128-iter500) |
 | `wan2-2-i2v-a14b-futanari-transformation-lora` | — | not stated | I2V | Wan2.2_I2V_A14B_Futanari_transformation_LoRA | 5 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Wan2.2_I2V_A14B_Futanari_transformation_LoRA) |
-| `longlive-lora-nonar-dmd-rgs0-iter1500` | — | not stated | TI2V (and I2V) | LongLive-LoRA-nonAR-DMD-RGS0-iter1500 | 4 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-nonAR-DMD-RGS0-iter1500) |
-| `topo-wan-lora` | — | not stated | not stated | topo-wan-lora | 4 | catalog, verified | [HF](https://huggingface.co/oxfldr/topo-wan-lora) |
+| `longlive-lora-nonar-dmd-rgs0-iter1500` | — | not stated | TI2V (and I2V/T2V) | LongLive-LoRA-nonAR-DMD-RGS0-iter1500 | 4 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/LongLive-LoRA-nonAR-DMD-RGS0-iter1500) |
+| `topo-wan-lora` | `TOPO` | not stated | I2V and T2V | topo-wan-lora | 4 | catalog, verified | [HF](https://huggingface.co/oxfldr/topo-wan-lora) |
 | `wan2-2-14b-i2v-480p-lightning-nsfw-diffusers-lora-general-nsfw-sdnq-fp8-svd-r64` | — | not stated | I2V | wan2.2_14b_i2v_480p_lightning_nsfw_diffusers_lora_GENERAL_NSFW_sdnq_fp8_svd_r64 | 4 | catalog, verified | [HF](https://huggingface.co/jnsn54398/wan2.2_14b_i2v_480p_lightning_nsfw_diffusers_lora_GENERAL_NSFW_sdnq_fp8_svd_r64) |
 | `wan2-2-i2v-a14b-futanari-transformation-futanarization-lora` | — | not stated | I2V | Wan2.2_I2V_A14B_Futanari_transformation_Futanarization_LoRA | 4 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Wan2.2_I2V_A14B_Futanari_transformation_Futanarization_LoRA) |
 | `m4crom4sti4-huge-natural-breasts-physics-t2v-wan2-2-video-lora-k3nk` | — | not stated | T2V | M4CROM4STI4_-_Huge_Natural_Breasts_Physics_-T2V_Wan2.2_Video_LoRa_-_K3NK | 3 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/M4CROM4STI4_-_Huge_Natural_Breasts_Physics_-T2V_Wan2.2_Video_LoRa_-_K3NK) |
 | `90sclub-lora` | — | not stated | TI2V (and I2V) | 90sclub-lora | 2 | catalog, verified | [HF](https://huggingface.co/dvstitles/90sclub-lora) |
 | `sideview-deepthroat-t2v-wan2-2-video-lora` | — | not stated | T2V | SideView_Deepthroat_T2V_Wan2.2_Video_LoRa | 2 | catalog, verified | [HF](https://huggingface.co/B4100/SideView_Deepthroat_T2V_Wan2.2_Video_LoRa) |
-| `ultimate-super-awesome-better-than-blowjob-wan2-2-i2v-wan2-1-i2v-t2v-lora` | — | not stated | I2V | Ultimate_Super_Awesome_Better_Than._Blowjob_Wan2.2_I2V_Wan2.1_I2V_T2V_LoRa | 2 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Ultimate_Super_Awesome_Better_Than._Blowjob_Wan2.2_I2V_Wan2.1_I2V_T2V_LoRa) |
-| `joi-handjob-trend-t2v-i2v-wan2-2-video-lora` | — | not stated | I2V | JOI_handjob_trend_T2V_I2V_Wan2.2_Video_LoRa | 1 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/JOI_handjob_trend_T2V_I2V_Wan2.2_Video_LoRa) |
+| `ultimate-super-awesome-better-than-blowjob-wan2-2-i2v-wan2-1-i2v-t2v-lora` | — | not stated | I2V and T2V | Ultimate_Super_Awesome_Better_Than._Blowjob_Wan2.2_I2V_Wan2.1_I2V_T2V_LoRa | 2 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Ultimate_Super_Awesome_Better_Than._Blowjob_Wan2.2_I2V_Wan2.1_I2V_T2V_LoRa) |
+| `joi-handjob-trend-t2v-i2v-wan2-2-video-lora` | — | not stated | I2V and T2V | JOI_handjob_trend_T2V_I2V_Wan2.2_Video_LoRa | 1 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/JOI_handjob_trend_T2V_I2V_Wan2.2_Video_LoRa) |
 | `self-anal-fisting-t2v-wan2-2-video-lora` | — | not stated | T2V | Self_Anal_Fisting_T2V_-_Wan2.2_Video_LoRa | 1 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Self_Anal_Fisting_T2V_-_Wan2.2_Video_LoRa) |
-| `ultimate-super-awesome-better-than-blowjob-wan2-2-i2v-wan2-1-i2v-t2v-lora-free-playtime-ai` | — | not stated | I2V | Ultimate_Super_Awesome_Better_Than._Blowjob_Wan2.2_I2V_Wan2.1_I2V_T2V_LoRa_-_FREE_-_Playti | 1 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Ultimate_Super_Awesome_Better_Than._Blowjob_Wan2.2_I2V_Wan2.1_I2V_T2V_LoRa_-_FREE_-_Playtime_AI_) |
+| `ultimate-super-awesome-better-than-blowjob-wan2-2-i2v-wan2-1-i2v-t2v-lora-free-playtime-ai` | — | not stated | I2V and T2V | Ultimate_Super_Awesome_Better_Than._Blowjob_Wan2.2_I2V_Wan2.1_I2V_T2V_LoRa_-_FREE_-_Playti | 1 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Ultimate_Super_Awesome_Better_Than._Blowjob_Wan2.2_I2V_Wan2.1_I2V_T2V_LoRa_-_FREE_-_Playtime_AI_) |
 | `wan2-2-t2v-lora-cartoon-style` | — | not stated | T2V | Wan2.2_T2V_Lora_-_Cartoon_Style | 1 | catalog, verified | [HF](https://huggingface.co/UnifiedHorusRA/Wan2.2_T2V_Lora_-_Cartoon_Style) |
-| `aad-1-self-forcing-loras` | — | not stated | I2V | AAD-1-self-forcing-loras | 0 | catalog, verified | [HF](https://huggingface.co/bahae98/AAD-1-self-forcing-loras) |
-| `claydoh-lora-wan2-1-14b` | — | not stated | not stated | Claydoh-LoRA-Wan2.1-14B | 0 | catalog, verified | [HF](https://huggingface.co/HotHams/Claydoh-LoRA-Wan2.1-14B) |
-| `hstoriccolort2v-wan-14b-rank256-lora-bysilveragepoets` | — | not stated | not stated | HSToricColorT2V_Wan_14B_rank256_LoRA_bySilverAgePoets | 0 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/HSToricColorT2V_Wan_14B_rank256_LoRA_bySilverAgePoets) |
+| `aad-1-self-forcing-loras` | — | 1 | I2V and T2V | AAD-1-self-forcing-loras | 0 | catalog, verified | [HF](https://huggingface.co/bahae98/AAD-1-self-forcing-loras) |
+| `claydoh-lora-wan2-1-14b` | — | not stated | T2V | Claydoh-LoRA-Wan2.1-14B | 0 | catalog, verified | [HF](https://huggingface.co/HotHams/Claydoh-LoRA-Wan2.1-14B) |
+| `hstoriccolort2v-wan-14b-rank256-lora-bysilveragepoets` | `HST style analog autochrome film clip`, `close up` | not stated | I2V and T2V | HSToricColorT2V_Wan_14B_rank256_LoRA_bySilverAgePoets | 0 | catalog, verified | [HF](https://huggingface.co/AlekseyCalvin/HSToricColorT2V_Wan_14B_rank256_LoRA_bySilverAgePoets) |
 | `joi-handjob-trend-t2v-12v-wan2-2-video-lora` | — | not stated | T2V | JOI_handjob_trend_T2V_12V_Wan2.2_Video_LoRa | 0 | catalog, verified | [HF](https://huggingface.co/Melonhead123/JOI_handjob_trend_T2V_12V_Wan2.2_Video_LoRa) |
 | `joi-t2v-i2v-wan2-2-video-lora` | — | not stated | I2V | JOI_T2V_I2V_Wan2.2_Video_LoRa | 0 | catalog, verified | [HF](https://huggingface.co/sergfdgfh/JOI_T2V_I2V_Wan2.2_Video_LoRa) |
-| `lexy-vox-i2v-lora-training-wan2-2` | — | not stated | I2V | lexy-vox-i2v-lora-training-wan2.2 | 0 | catalog, verified | [HF](https://huggingface.co/dustin2050/lexy-vox-i2v-lora-training-wan2.2) |
-| `lexy-vox-t2v-lora-training-wan2-2` | — | not stated | T2V | lexy-vox-t2v-lora-training-wan2.2 | 0 | catalog, verified | [HF](https://huggingface.co/dustin2050/lexy-vox-t2v-lora-training-wan2.2) |
-| `lightlingbot-video` | — | not stated | not stated | LightLingBot-Video | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/LightLingBot-Video) |
+| `lexy-vox-i2v-lora-training-wan2-2` | — | not stated | I2V and T2V | lexy-vox-i2v-lora-training-wan2.2 | 0 | catalog, verified | [HF](https://huggingface.co/dustin2050/lexy-vox-i2v-lora-training-wan2.2) |
+| `lexy-vox-t2v-lora-training-wan2-2` | — | not stated | I2V and T2V | lexy-vox-t2v-lora-training-wan2.2 | 0 | catalog, verified | [HF](https://huggingface.co/dustin2050/lexy-vox-t2v-lora-training-wan2.2) |
+| `lightlingbot-video` | — | not stated | I2V and T2V | LightLingBot-Video | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/LightLingBot-Video) |
 | `lightx2v-lora` | — | not stated | not stated | lightx2v-lora | 0 | catalog, verified | [HF](https://huggingface.co/fal/lightx2v-lora) |
 | `loras-wan21-i2v-lightx2v` | — | not stated | I2V | loras-wan21-i2v-lightx2v | 0 | catalog, verified | [HF](https://huggingface.co/hugoprofessor/loras-wan21-i2v-lightx2v) |
 | `rh-wan2-2-i2v-a14b-low-noise-lora-rank64-lightx2v-4step-lora` | — | not stated | I2V | rh-wan2.2-i2v-a14b-low-noise-lora-rank64-lightx2v-4step-lora | 0 | catalog, verified | [HF](https://huggingface.co/RunningHubAI/rh-wan2.2-i2v-a14b-low-noise-lora-rank64-lightx2v-4step-lora) |
@@ -973,41 +975,39 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `rh-wan2-2-t2v-a14b-4steps-250928-dyno-high-lightx2v-lora` | — | not stated | T2V | rh-wan2.2-t2v-a14b-4steps-250928-dyno-high-lightx2v-lora | 0 | catalog, verified | [HF](https://huggingface.co/RunningHubAI/rh-wan2.2-t2v-a14b-4steps-250928-dyno-high-lightx2v-lora) |
 | `rh-wan2-2-t2v-lightx2v-4steps-lora-v1-1-high-noise-lora` | — | not stated | T2V | rh-wan2.2-t2v-lightx2v-4steps-lora-v1.1-high-noise.safetensors-lora | 0 | catalog, verified | [HF](https://huggingface.co/RunningHubAI/rh-wan2.2-t2v-lightx2v-4steps-lora-v1.1-high-noise.safetensors-lora) |
 | `rh-wan21-causvid-14b-t2v-lora-rank32-lora` | — | not stated | T2V | rh-wan21-causvid-14b-t2v-lora-rank32.safetensors-lora | 0 | catalog, verified | [HF](https://huggingface.co/RunningHubAI/rh-wan21-causvid-14b-t2v-lora-rank32.safetensors-lora) |
-| `sistem-loras` | — | not stated | I2V | sistem-loras | 0 | catalog, verified | [HF](https://huggingface.co/SistemAi/sistem-loras) |
-| `squish-pika-lora` | — | not stated | not stated | squish-pika-lora | 0 | catalog, verified | [HF](https://huggingface.co/zsxkib/squish-pika-lora) |
+| `sistem-loras` | — | not stated | I2V and T2V | sistem-loras | 0 | catalog, verified | [HF](https://huggingface.co/SistemAi/sistem-loras) |
+| `squish-pika-lora` | `SQUISH-IT` | not stated | I2V and T2V | squish-pika-lora | 0 | catalog, verified | [HF](https://huggingface.co/zsxkib/squish-pika-lora) |
 | `vbvr-wan2-2` | — | not stated | not stated | Adds video reasoning behavior to Wan 2.2 image-to-video so prompts can carry more explicit | — | catalog, verified | [HF](https://huggingface.co/Video-Reason/VBVR-Wan2.2) |
 | `wan-2-2-i2v-a14b-high-lightx2v-4step-lora-v1030-rank-64-bf16` | — | not stated | not stated | Wan_2_2_I2V_A14B_HIGH_lightx2v_4step_lora_v1030_rank_64_bf16 | 0 | catalog, verified | [HF](https://huggingface.co/DremyBulzXe/Wan_2_2_I2V_A14B_HIGH_lightx2v_4step_lora_v1030_rank_64_bf16) |
 | `wan-2-2-lightx2v-merged-lora` | — | not stated | not stated | wan_2_2_lightx2v_merged_lora | 0 | catalog, verified | [HF](https://huggingface.co/droma/wan_2_2_lightx2v_merged_lora) |
-| `wan-animate-continuation-lora` | — | not stated | I2V | wan-animate-continuation-lora | 0 | catalog, verified | [HF](https://huggingface.co/neoskycloud1/wan-animate-continuation-lora) |
-| `wan-i2v-lora-kiss` | — | not stated | I2V | Wan-I2V-LoRA-Kiss | 0 | catalog, verified | [HF](https://huggingface.co/ighoshsubho/Wan-I2V-LoRA-Kiss) |
+| `wan-animate-continuation-lora` | — | 1.0; 1 | I2V | wan-animate-continuation-lora | 0 | catalog, verified | [HF](https://huggingface.co/neoskycloud1/wan-animate-continuation-lora) |
+| `wan-i2v-lora-kiss` | — | 0.9–1.0 | I2V | Wan-I2V-LoRA-Kiss | 0 | catalog, verified | [HF](https://huggingface.co/ighoshsubho/Wan-I2V-LoRA-Kiss) |
 | `wan2-1-fun-reward-loras-comfy` | — | not stated | not stated | Wan2.1-Fun-Reward-LoRAs-comfy | 0 | catalog, verified | [HF](https://huggingface.co/Kijai/Wan2.1-Fun-Reward-LoRAs-comfy) |
-| `wan2-1-i2v-14b-480p-stepdistill-cfgdistill-lightx2v` | — | not stated | I2V | Wan2.1-I2V-14B-480P-StepDistill-CfgDistill-Lightx2v | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-I2V-14B-480P-StepDistill-CfgDistill-Lightx2v) |
-| `wan2-1-i2v-14b-720p-stepdistill-cfgdistill-lightx2v` | — | not stated | I2V | Wan2.1-I2V-14B-720P-StepDistill-CfgDistill-Lightx2v | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-I2V-14B-720P-StepDistill-CfgDistill-Lightx2v) |
-| `wan2-1-pano360-lora` | — | not stated | I2V | Wan2.1-Pano360-LoRA | 0 | catalog, verified | [HF](https://huggingface.co/mickmumpitz/Wan2.1-Pano360-LoRA) |
+| `wan2-1-i2v-14b-480p-stepdistill-cfgdistill-lightx2v` | — | not stated | I2V and T2V | Wan2.1-I2V-14B-480P-StepDistill-CfgDistill-Lightx2v | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-I2V-14B-480P-StepDistill-CfgDistill-Lightx2v) |
+| `wan2-1-i2v-14b-720p-stepdistill-cfgdistill-lightx2v` | — | not stated | I2V and T2V | Wan2.1-I2V-14B-720P-StepDistill-CfgDistill-Lightx2v | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-I2V-14B-720P-StepDistill-CfgDistill-Lightx2v) |
+| `wan2-1-pano360-lora` | — | not stated | I2V and T2V | Wan2.1-Pano360-LoRA | 0 | catalog, verified | [HF](https://huggingface.co/mickmumpitz/Wan2.1-Pano360-LoRA) |
 | `wan2-1-t2v-14b-causvid` | — | not stated | T2V | Wan2.1-T2V-14B-CausVid | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-T2V-14B-CausVid) |
 | `wan2-1-t2v-14b-stepdistill-cfgdistill` | — | not stated | T2V | Wan2.1-T2V-14B-StepDistill-CfgDistill | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-T2V-14B-StepDistill-CfgDistill) |
 | `wan2-1-t2v-14b-stepdistill-cfgdistill-lightx2v` | — | not stated | T2V | Wan2.1-T2V-14B-StepDistill-CfgDistill-Lightx2v | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.1-T2V-14B-StepDistill-CfgDistill-Lightx2v) |
-| `wan2-2-14b-arcane-jinx-lora-v1` | — | not stated | T2V | wan2.2-14B-Arcane_Jinx-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/wan2.2-14B-Arcane_Jinx-lora-v1) |
-| `wan2-2-14b-kinestasis-concept-lora-v1` | — | not stated | T2V | wan2.2-14B-Kinestasis_concept-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/wan2.2-14B-Kinestasis_concept-lora-v1) |
+| `wan2-2-14b-arcane-jinx-lora-v1` | `Nfj1nx`, `blue hair` | 0.6–1 | T2V | wan2.2-14B-Arcane_Jinx-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/wan2.2-14B-Arcane_Jinx-lora-v1) |
+| `wan2-2-14b-kinestasis-concept-lora-v1` | `Banostasis concept` | 0.8–1.0 | T2V | wan2.2-14B-Kinestasis_concept-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/wan2.2-14B-Kinestasis_concept-lora-v1) |
 | `wan2-2-distill-loras` | — | not stated | I2V | Wan2.2-Distill-Loras | 0 | catalog, verified | [HF](https://huggingface.co/memescreamer/Wan2.2-Distill-Loras) |
-| `wan2-2-i2v-a14b-moe-distill-lightx2v` | — | not stated | I2V | Wan2.2-I2V-A14B-Moe-Distill-Lightx2v | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.2-I2V-A14B-Moe-Distill-Lightx2v) |
+| `wan2-2-i2v-a14b-moe-distill-lightx2v` | — | not stated | I2V and T2V | Wan2.2-I2V-A14B-Moe-Distill-Lightx2v | 0 | catalog, verified | [HF](https://huggingface.co/lightx2v/Wan2.2-I2V-A14B-Moe-Distill-Lightx2v) |
 | `wan2-2-i2v-lightx2v-4step-loras` | — | not stated | I2V | wan2.2-i2v-lightx2v-4step-loras | 0 | catalog, verified | [HF](https://huggingface.co/Banodoco/wan2.2-i2v-lightx2v-4step-loras) |
 | `wan2-2-lora` | — | not stated | I2V | wan2.2-lora | 0 | catalog, verified | [HF](https://huggingface.co/tranlight/wan2.2-lora) |
 | `wan2-2-t2i-t2v-lora` | — | not stated | T2V | Wan2.2_T2i_T2v_LoRA | 0 | catalog, verified | [HF](https://huggingface.co/deadman44/Wan2.2_T2i_T2v_LoRA) |
 | `wan2-2-t2v-12v-small-breasts-lora` | — | not stated | T2V | WAN2.2-T2V-12V-Small-Breasts-LORA | 0 | catalog, verified | [HF](https://huggingface.co/Melonhead123/WAN2.2-T2V-12V-Small-Breasts-LORA) |
 | `wan2-2-t2v-a14b-4steps-lora-lownoise` | — | not stated | T2V | Wan2.2-T2V-A14B-4steps-lora-lownoise.safetensors | 0 | catalog, verified | [HF](https://huggingface.co/dci05049/Wan2.2-T2V-A14B-4steps-lora-lownoise.safetensors) |
 | `wan2-2-t2v-lora` | — | not stated | T2V | Wan2.2-T2V-Lora | 0 | catalog, verified | [HF](https://huggingface.co/Harupi/Wan2.2-T2V-Lora) |
-| `wan2-2-workflow-for-myxx-series-lora` | — | not stated | I2V | Wan2.2_Workflow_for_myxx_series_LoRA | 0 | catalog, verified | [HF](https://huggingface.co/deadman44/Wan2.2_Workflow_for_myxx_series_LoRA) |
-| `wan21-fp16-loras` | — | not stated | not stated | wan21-fp16-loras | 0 | catalog, verified | [HF](https://huggingface.co/wangkanai/wan21-fp16-loras) |
+| `wan2-2-workflow-for-myxx-series-lora` | — | not stated | I2V and T2V | Wan2.2_Workflow_for_myxx_series_LoRA | 0 | catalog, verified | [HF](https://huggingface.co/deadman44/Wan2.2_Workflow_for_myxx_series_LoRA) |
+| `wan21-fp16-loras` | — | 0.3–0.5; 0.6–0.8; 0.9–1.0 | T2V | wan21-fp16-loras | 0 | catalog, verified | [HF](https://huggingface.co/wangkanai/wan21-fp16-loras) |
 | `wan21-i2v-14b-lightx2v-cfg-step-distill-lora-rank64` | — | not stated | not stated | Wan21_I2V_14B_lightx2v_cfg_step_distill_lora_rank64 | 0 | catalog, verified | [HF](https://huggingface.co/lgylgy/Wan21_I2V_14B_lightx2v_cfg_step_distill_lora_rank64) |
 | `wan21-t2v-14b-lightx2v-cfg-step-distill-lora-rank32` | — | not stated | not stated | Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 | 0 | catalog, verified | [HF](https://huggingface.co/joerose/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32) |
 | `wan21-t2v-14b-lightx2v-cfg-step-distill-lora-rank32` | — | not stated | not stated | Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32 | 0 | catalog, verified | [HF](https://huggingface.co/mihaiciorobitca/Wan21_T2V_14B_lightx2v_cfg_step_distill_lora_rank32) |
-| `wan22-fp16-i2v-loras` | — | not stated | I2V | wan22-fp16-i2v-loras | 0 | catalog, verified | [HF](https://huggingface.co/wangkanai/wan22-fp16-i2v-loras) |
-| `wan22-fp8-t2v-loras` | — | not stated | T2V | wan22-fp8-t2v-loras | 0 | catalog, verified | [HF](https://huggingface.co/wangkanai/wan22-fp8-t2v-loras) |
+| `wan22-fp8-t2v-loras` | — | 0.6–0.9; 0.5–0.8; 0.7–1.0 | I2V and T2V | wan22-fp8-t2v-loras | 0 | catalog, verified | [HF](https://huggingface.co/wangkanai/wan22-fp8-t2v-loras) |
 | `wan22-loras` | — | not stated | I2V | wan22-loras | 0 | catalog, verified | [HF](https://huggingface.co/historyinmotion/wan22-loras) |
 | `wan22-t2v-i2v-lora-4gb` | — | not stated | I2V and T2V | Wan22-T2V-I2V-LORA-4GB | 0 | catalog, verified | [HF](https://huggingface.co/The-frizzy1/Wan22-T2V-I2V-LORA-4GB) |
-| `wan25-fp8-i2v-loras` | — | not stated | I2V | wan25-fp8-i2v-loras | 0 | catalog, verified | [HF](https://huggingface.co/wangkanai/wan25-fp8-i2v-loras) |
-| `wlp-wan2-2-ti2v-5b-lora` | — | not stated | TI2V (and I2V) | wlp-Wan2.2-TI2V-5B-lora | 0 | catalog, verified | [HF](https://huggingface.co/Markus-Pobitzer/wlp-Wan2.2-TI2V-5B-lora) |
+| `wlp-wan2-2-ti2v-5b-lora` | — | not stated | TI2V (and I2V/T2V) | wlp-Wan2.2-TI2V-5B-lora | 0 | catalog, verified | [HF](https://huggingface.co/Markus-Pobitzer/wlp-Wan2.2-TI2V-5B-lora) |
 
 ## Details
 
@@ -1360,6 +1360,68 @@ Compatibility: mode: T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low g
 
 Source: [CivitAI](https://civitai.com/models/929497?modelVersionId=1498121)
 
+### `Wan2.2-Distill-Loras`
+
+**Wan2.2-Distill-Loras**
+- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength (stated): 1.0
+
+Example prompts (from the images API, page, or sidecar; never invented):
+
+Example 1:
+```
+**Method 2: From Wan-AI Official Repository**
+```
+
+Example 2:
+```
+> 💡 **Note**: [lightx2v/Wan2.2-Official-Models](https://huggingface.co/lightx2v/Wan2.2-Official-Models) provides separate high noise and low noise base models, download as needed
+
+### Method 1: LightX2V - Offline LoRA Merging (Recommended ⭐)
+
+**Offline LoRA merging provides best performance and supports quantization simultaneously.**
+
+#### 1.1 Download LoRA Models
+```
+
+Compatibility: mode: I2V and T2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22; HF card base_model: Wan-AI/Wan2.2-I2V-A14B
+
+Source: [HF](https://huggingface.co/lightx2v/Wan2.2-Distill-Loras)
+
+### `Wan2.2-Distill-Models`
+
+**Wan2.2-Distill-Models**
+- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength: not stated
+
+Example prompts (from the images API, page, or sidecar; never invented):
+
+Example 1:
+```
+> 💡 **Browse All Models**: [View Full Model Collection →](https://huggingface.co/lightx2v/Wan2.2-Distill-Models/tree/main)
+
+---
+
+## 🚀 Usage
+
+### Method 1: LightX2V (Recommended ⭐)
+
+**LightX2V is a high-performance inference framework optimized for these models, approximately 2x faster than ComfyUI with better quantization accuracy. Highly recommended!**
+
+#### Quick Start
+
+1. Download model (using I2V FP8 as example)
+```
+
+Example 2:
+```
+> 💡 **Tip**: For T2V models, follow the same steps but replace `i2v` with `t2v` in the filenames
+
+2. Clone LightX2V repository
+```
+
+Compatibility: mode: I2V and T2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22; HF card base_model: Wan-AI/Wan2.2-I2V-A14B
+
+Source: [HF](https://huggingface.co/lightx2v/Wan2.2-Distill-Models)
+
 ### `dncng1 high 250901.safetensors`
 
 **dancing**
@@ -1423,36 +1485,4 @@ word: boli567, a beautiful Asian woman with long brown hair is holding a transpa
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/1899592?modelVersionId=2150205)
-
-### `P009-The-Walk-Wan2.2-i2v_Normal-H.safetensors`
-
-**The Walk - Wan 2.2/2.1 - I2V & T2V**
-- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength: not stated · triggers: `walking from behind`, `walking`, `walking back`, `walking front`, `walking side`, `the walk`
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-` adjusted her hair with hand`
-```
-
-Compatibility: mode: I2V and T2V; resolution: 480p I2V; versions exist for both Wan 2.1 and 2.2 — match the workflow; cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
-
-Source: [CivitAI](https://civitai.com/models/1363473?modelVersionId=2254373)
-
-### `WAN2.2-FrenchKiss_HighNoise.safetensors`
-
-**Wan2.2 - French Kiss (I2V/T2V)**
-- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength (stated): 0.5–1
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-`(AT 0-1s) the woman leans towards the woman and begins french kissing her`
-```
-
-Compatibility: mode: I2V and T2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
-
-Source: [CivitAI](https://civitai.com/models/2171333?modelVersionId=2445168)
 

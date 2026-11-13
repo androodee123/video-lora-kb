@@ -111,7 +111,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `better-titfuck-minimax-wan-hunyuan` | `titjob` | not stated | I2V | Better Titfuck (MiniMax, Wan, HunYuan) | 58,378 | catalog, verified | [CivitAI](https://civitai.com/models/1269557?modelVersionId=3264280) |
 | `daring-s-deepthroat-h3-ltx2-3` | — | not stated | I2V | Daring's Deepthroat H3/LTX2.3 | 52,476 | catalog, verified | [CivitAI](https://civitai.com/models/2476698?modelVersionId=3226989) |
 | `minimax-h3-wan2-2-i2v-a14b-futanari-transformation-futanarization-lora` | `futanaei transformation`, `penis growth` | not stated | I2V and T2V | Minimax H3 & Wan2.2 I2V A14B Futanari transformation (Futanarization) LoRA | 47,183 | catalog, verified | [CivitAI](https://civitai.com/models/1911812?modelVersionId=3212000) |
-| `minimax-h3-loras` | — | not stated | not stated | minimax-h3-loras | 46,530 | catalog, verified | [HF](https://huggingface.co/Hearmeman/minimax-h3-loras) |
+| `minimax-h3-loras` | `hmmotion`, `cumshot`, `hmsquirt`, `pussy`, `inniepussy` | 0.9; 1.0 | I2V and T2V | minimax-h3-loras | 46,530 | catalog, verified | [HF](https://huggingface.co/Hearmeman/minimax-h3-loras) |
 | `fingering-pussy` | — | not stated | I2V and T2V | Fingering Pussy | 46,203 | catalog, verified | [CivitAI](https://civitai.com/models/2007360?modelVersionId=3342542) |
 | `synth-pussy` | — | not stated | I2V and T2V | Synth Pussy | 40,793 | catalog, verified | [CivitAI](https://civitai.com/models/2509189?modelVersionId=3320641) |
 | `epic-cumshots` | — | 1.0 | I2V and T2V | Epic Cumshots | 35,354 | catalog, verified | [CivitAI](https://civitai.com/models/2621242?modelVersionId=3202064) |

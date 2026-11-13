@@ -1,6 +1,6 @@
 # Wan: Transitions
 
-8 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+9 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -13,7 +13,8 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `cinematic-fast-cutting-previously-quick-cuts` | `a series of quick cuts` | not stated | I2V and T2V | Cinematic Fast Cutting (previously Quick Cuts) | 2,609 | catalog, verified | [CivitAI](https://civitai.com/models/2113025?modelVersionId=2399621) |
 | `cinematic-smash-cut` | `smash cut to` | not stated | I2V | Cinematic Smash Cut | 2,119 | catalog, verified | [CivitAI](https://civitai.com/models/2126015?modelVersionId=2404934) |
 | `melt-it-acid-dissolve-i-wan-2-1-i2v-lora` | `m3lt1ng`, `The video shows a wine glass filled with red wine. The wine glass then goes through a m3lt1ng process, with the glass m3lt1ng into a liquid, forming a red and black puddle.` | 1 | I2V | Melt It (Acid Dissolve) I Wan 2.1 I2V LoRa | 1,047 | catalog, verified | [CivitAI](https://civitai.com/models/1421583?modelVersionId=1606807) |
-| `melt-it-acid-dissolve-i-wan-2-1-i2v-lora` | — | not stated | I2V | melt-it-acid-dissolve-i-wan-2.1-i2v-lora | 16 | catalog, verified | [HF](https://huggingface.co/Muapi/melt-it-acid-dissolve-i-wan-2.1-i2v-lora) |
+| `daydream-scope-wan-loras` | `ral-acidzlime`, `morphing slime`, `diffslime`, `ddscope`, `ral-dissolve` | not stated | T2V | Daydream Scope Wan LoRAs | 818 | catalog, verified | [CivitAI](https://civitai.com/models/2383884?modelVersionId=2680702) |
+| `melt-it-acid-dissolve-i-wan-2-1-i2v-lora` | `m3lt1ng, The video shows a wine glass filled with red wine. The wine glass then goes through a m3lt1ng process, with the glass m3lt1ng into a liquid, forming a red and black puddle.` | 1.0 | I2V and T2V | melt-it-acid-dissolve-i-wan-2.1-i2v-lora | 16 | catalog, verified | [HF](https://huggingface.co/Muapi/melt-it-acid-dissolve-i-wan-2.1-i2v-lora) |
 
 ## Details
 

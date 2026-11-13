@@ -11,15 +11,15 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `dr34ml4y-all-in-one-nsfw-h3-wan-ltx2` | `m15510n4ry`, `bl0wj0b`, `d0ubl3_bj`, `d0gg1e`, `c0wg1rl` | not stated | T2V | DR34ML4Y - All-In-One NSFW (H3/WAN/LTX2) | 537,585 | catalog, verified | [CivitAI](https://civitai.com/models/1811313?modelVersionId=3082662) |
 | `h3-ltx2-riding-pov-i2v` | `Riding backshot animation`, `Riding frontshot animation`, `moaning and wet slapping sounds`, `heavy breathing`, `relief` | 0.5–0.8 | I2V | H3/LTX2 Riding pov (I2V) | 34,267 | catalog, verified | [CivitAI](https://civitai.com/models/2446218?modelVersionId=2754108) |
 | `ltx-2-5-22b-ic-lora-layout-to-render` | — | not stated | not stated | LTX-2.5 22B IC-LoRA Layout To Render | 19,164 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Layout-To-Render) |
-| `ltx-2-19b-lora-camera-control-dolly-left` | — | not stated | not stated | LTX-2 19B Camera Control Dolly Left | 9,158 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Left) |
-| `ltx-2-19b-lora-camera-control-jib-up` | — | not stated | not stated | LTX-2 19B Camera Control Jib Up | 7,836 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Jib-Up) |
-| `ltx-2-19b-lora-camera-control-jib-down` | — | not stated | not stated | LTX-2 19B Camera Control Jib Down | 7,631 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Jib-Down) |
-| `ltx-2-19b-lora-camera-control-dolly-in` | — | not stated | not stated | LTX-2 19B Camera Control Dolly In | 7,545 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-In) |
-| `ltx-2-19b-lora-camera-control-static` | — | not stated | not stated | LTX-2 19B Camera Control Static | 6,634 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Static) |
+| `ltx-2-19b-lora-camera-control-dolly-left` | — | not stated | T2V | LTX-2 19B Camera Control Dolly Left | 9,158 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Left) |
+| `ltx-2-19b-lora-camera-control-jib-up` | — | not stated | I2V and T2V | LTX-2 19B Camera Control Jib Up | 7,836 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Jib-Up) |
+| `ltx-2-19b-lora-camera-control-jib-down` | — | not stated | T2V | LTX-2 19B Camera Control Jib Down | 7,631 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Jib-Down) |
+| `ltx-2-19b-lora-camera-control-dolly-in` | — | not stated | T2V | LTX-2 19B Camera Control Dolly In | 7,545 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-In) |
+| `ltx-2-19b-lora-camera-control-static` | — | not stated | T2V | LTX-2 19B Camera Control Static | 6,634 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Static) |
 | `tada-cum-swallow-lora` | `TADAA` | not stated | not stated | TADA - Cum Swallow LoRA | 6,367 | catalog, verified | [CivitAI](https://civitai.com/models/2868961?modelVersionId=3247361) |
 | `minimax-h3-ltx-2-3-misticnsfw-aio-10eros` | — | not stated | I2V | Minimax H3 - LTX 2.3 MisticNSFW AIO 10eros | 3,635 | catalog, verified | [CivitAI](https://civitai.com/models/2814217?modelVersionId=3173958) |
 | `camera-controls-ltx-2-3` | `the camera tilts up`, `the camera tilts down`, `the camera pans to the left`, `the camera pans to the right`, `the camera zooms in on <object>` | not stated | not stated | Camera Controls [LTX-2.3] | 3,322 | catalog, verified | [CivitAI](https://civitai.com/models/2622189?modelVersionId=2944022) |
-| `ltx-2-19b-lora-camera-control-dolly-right` | — | not stated | not stated | LTX-2 19B Camera Control Dolly Right | 2,210 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Right) |
+| `ltx-2-19b-lora-camera-control-dolly-right` | — | not stated | T2V | LTX-2 19B Camera Control Dolly Right | 2,210 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Right) |
 | `ltx-2-3-lora-camera-zoom-out-i2v` | — | not stated | I2V | (LTX-2.3 Lora) - Camera Zoom Out (I2V) | 2,097 | catalog, verified | [CivitAI](https://civitai.com/models/2490345?modelVersionId=2799690) |
 | `pov-deepthroat-blowjob-ltx2-3-video-lora-k3nk` | — | not stated | not stated | POV Deepthroat Blowjob - LTX2.3 Video LoRa - K3NK | 1,777 | catalog, verified | [CivitAI](https://civitai.com/models/2776963?modelVersionId=3127057) |
 | `face-tracking-shot-music-video-drclips-style` | `drclipz` | not stated | I2V | Face-Tracking Shot - Music Video - DrClips Style | 1,390 | catalog, verified | [CivitAI](https://civitai.com/models/2736521?modelVersionId=3077078) |
@@ -37,19 +37,19 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `camera-controls-ltx-2` | `The camera pans up`, `The camera pans down`, `The camera pans left`, `The camera pans right`, `The camera zooms in on <object>` | not stated | not stated | Camera Controls [LTX-2] | 326 | catalog, verified | [CivitAI](https://civitai.com/models/2618345?modelVersionId=2939776) |
 | `robot-arm-camera-bolt-cam` | `RobotArm` | not stated | not stated | Robot Arm camera / bolt cam | 287 | catalog, verified | [CivitAI](https://civitai.com/models/1557306?modelVersionId=1762234) |
 | `jib-down` | `JibDown` | not stated | not stated | Jib Down | 283 | catalog, verified | [CivitAI](https://civitai.com/models/1557127?modelVersionId=1762036) |
-| `ltx-2-3-lora-camera-zoom-out-i2v` | — | not stated | I2V | ltx-2.3-lora-camera-zoom-out-i2v | 41 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2.3-lora-camera-zoom-out-i2v) |
-| `ltx-2-lora-rally-race-driver-pov-video` | — | not stated | not stated | ltx-2-lora-rally-race-driver-pov-video | 37 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-lora-rally-race-driver-pov-video) |
-| `ltx2-pov-tittyfucking-lora` | — | not stated | not stated | ltx2-pov-tittyfucking-lora | 34 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx2-pov-tittyfucking-lora) |
-| `ltx-2-i2v-taker-pov-lora` | — | not stated | I2V | ltx-2-i2v-taker-pov-lora | 29 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-i2v-taker-pov-lora) |
-| `ltx-2-19b-lora-camera-control-dolly-left` | — | not stated | not stated | LTX-2-19b-LoRA-Camera-Control-Dolly-Left | 0 | catalog, verified | [HF](https://huggingface.co/Galatea777/LTX-2-19b-LoRA-Camera-Control-Dolly-Left) |
-| `ltx-2-19b-lora-camera-control-dolly-out` | — | not stated | not stated | LTX-2 19B Camera Control Dolly Out | 0 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Out) |
-| `ltx-2-19b-lora-camera-control-jib-down` | — | not stated | not stated | LTX-2-19b-LoRA-Camera-Control-Jib-Down | 0 | catalog, verified | [HF](https://huggingface.co/editedge/LTX-2-19b-LoRA-Camera-Control-Jib-Down) |
-| `ltx-2-3-lora-camera-controls` | — | not stated | not stated | LTX-2.3-LoRa-Camera-Controls | 0 | catalog, verified | [HF](https://huggingface.co/elismasilva/LTX-2.3-LoRa-Camera-Controls) |
-| `ltx2-3-22b-ic-lora-cameraman-v1` | — | not stated | not stated | LTX-2.3 Cameraman IC-LoRA | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v1) |
-| `ltx2-3-22b-ic-lora-cameraman-v2` | — | not stated | not stated | LTX2.3-22B_IC-LoRA-Cameraman_v2 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v2) |
-| `ltx2-3-22b-ic-lora-crossview-prompt` | — | not stated | not stated | LTX-2.3 22B IC-LoRA CrossView Prompt | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Prompt) |
+| `ltx-2-3-lora-camera-zoom-out-i2v` | `## 🧠 Usage` | 1.0 | I2V and T2V | ltx-2.3-lora-camera-zoom-out-i2v | 41 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2.3-lora-camera-zoom-out-i2v) |
+| `ltx-2-lora-rally-race-driver-pov-video` | `## 🧠 Usage` | 1.0 | T2V | ltx-2-lora-rally-race-driver-pov-video | 37 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-lora-rally-race-driver-pov-video) |
+| `ltx2-pov-tittyfucking-lora` | `## 🧠 Usage` | 1.0 | T2V | ltx2-pov-tittyfucking-lora | 34 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx2-pov-tittyfucking-lora) |
+| `ltx-2-i2v-taker-pov-lora` | `takerpov1`, `taker pov` | 1.0 | I2V and T2V | ltx-2-i2v-taker-pov-lora | 29 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-i2v-taker-pov-lora) |
+| `ltx-2-19b-lora-camera-control-dolly-left` | — | not stated | T2V | LTX-2-19b-LoRA-Camera-Control-Dolly-Left | 0 | catalog, verified | [HF](https://huggingface.co/Galatea777/LTX-2-19b-LoRA-Camera-Control-Dolly-Left) |
+| `ltx-2-19b-lora-camera-control-dolly-out` | — | not stated | T2V | LTX-2 19B Camera Control Dolly Out | 0 | catalog, verified | [HF](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Out) |
+| `ltx-2-19b-lora-camera-control-jib-down` | — | not stated | T2V | LTX-2-19b-LoRA-Camera-Control-Jib-Down | 0 | catalog, verified | [HF](https://huggingface.co/editedge/LTX-2-19b-LoRA-Camera-Control-Jib-Down) |
+| `ltx-2-3-lora-camera-controls` | — | not stated | I2V and T2V | LTX-2.3-LoRa-Camera-Controls | 0 | catalog, verified | [HF](https://huggingface.co/elismasilva/LTX-2.3-LoRa-Camera-Controls) |
+| `ltx2-3-22b-ic-lora-cameraman-v1` | — | not stated | I2V and T2V | LTX-2.3 Cameraman IC-LoRA | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v1) |
+| `ltx2-3-22b-ic-lora-cameraman-v2` | — | not stated | I2V and T2V | LTX2.3-22B_IC-LoRA-Cameraman_v2 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v2) |
+| `ltx2-3-22b-ic-lora-crossview-prompt` | `crossview.` | 1 | not stated | LTX-2.3 22B IC-LoRA CrossView Prompt | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Prompt) |
 | `ltx2-3-22b-ic-lora-crossview-warp` | — | not stated | not stated | LTX2.3-22B_IC-LoRA-CrossView-Warp | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Warp) |
-| `ltx2-3-22b-ic-lora-crossview-warp-v2` | — | not stated | not stated | LTX2.3-22B_IC-LoRA-CrossView-Warp_v2 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Warp_v2) |
+| `ltx2-3-22b-ic-lora-crossview-warp-v2` | — | 1 | not stated | LTX2.3-22B_IC-LoRA-CrossView-Warp_v2 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-CrossView-Warp_v2) |
 
 ## Details
 

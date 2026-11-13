@@ -157,30 +157,30 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ban-bansankan-artist-style` | — | not stated | I2V and T2V | ban! (bansankan) - Artist Style | 105 | catalog, verified | [CivitAI](https://civitai.com/models/2498299?modelVersionId=2808361) |
 | `ltxsully-sully-from-monsters-inc-for-ltx2-3` | `ltxsully, the large furry green and purple monster with two small horns on his head` | not stated | T2V | ltxsully - Sully From Monsters Inc for LTX2.3 | 104 | catalog, verified | [CivitAI](https://civitai.com/models/2716904?modelVersionId=3052838) |
 | `carnelian-artist-style` | — | not stated | not stated | carnelian - Artist Style | 101 | catalog, verified | [CivitAI](https://civitai.com/models/2539376?modelVersionId=2853883) |
-| `ltx-2-3-22b-ic-lora-abercrom-me` | — | not stated | not stated | ltx-2.3-22b-ic-lora-abercrom-me | 95 | catalog, verified | [HF](https://huggingface.co/CoachBate/ltx-2.3-22b-ic-lora-abercrom-me) |
-| `retro-90-s-anime-style-lora-ltx-2-3` | — | not stated | not stated | retro-90-s-anime-style-lora-ltx-2.3 | 95 | catalog, verified | [HF](https://huggingface.co/Muapi/retro-90-s-anime-style-lora-ltx-2.3) |
+| `ltx-2-3-22b-ic-lora-abercrom-me` | — | not stated | I2V and T2V | ltx-2.3-22b-ic-lora-abercrom-me | 95 | catalog, verified | [HF](https://huggingface.co/CoachBate/ltx-2.3-22b-ic-lora-abercrom-me) |
+| `retro-90-s-anime-style-lora-ltx-2-3` | `ANIMSTY, SHW_AKIRA, SHW_CWBY, SHW_EVA, SHW_GITS, SHW_GLBY, SHW_GNBR, SHW_KTE, SHW_OUT, SHW_PFTBL, SHW_SLYR, SHW_TNCH, SHW_TYL` | 1.0 | T2V | retro-90-s-anime-style-lora-ltx-2.3 | 95 | catalog, verified | [HF](https://huggingface.co/Muapi/retro-90-s-anime-style-lora-ltx-2.3) |
 | `spongebob-squarepants-pilot-style-lora` | `sbpartstyle` | not stated | not stated | SpongeBob SquarePants Pilot Style LoRA | 95 | catalog, verified | [CivitAI](https://civitai.com/models/2602449?modelVersionId=2922227) |
 | `ltx2-whitealbum2-stylelora` | `WhiteAlbum2` | not stated | not stated | LTX2 WhiteAlbum2 StyleLora | 91 | catalog, verified | [CivitAI](https://civitai.com/models/2356275?modelVersionId=2650097) |
 | `ohisashiburi-artist-style` | — | not stated | I2V and T2V | ohisashiburi - Artist Style | 90 | catalog, verified | [CivitAI](https://civitai.com/models/2526631?modelVersionId=2839645) |
 | `dishwasher1910-artist-style` | — | not stated | I2V and T2V | dishwasher1910 - Artist Style | 81 | catalog, verified | [CivitAI](https://civitai.com/models/2514943?modelVersionId=2826798) |
 | `qart-hadasht` | — | not stated | not stated | Qart Hadasht | 79 | catalog, verified | [CivitAI](https://civitai.com/models/2762210?modelVersionId=3108708) |
 | `bright-frame-flat-2d` | `BR1GHTFL4T2D` | not stated | not stated | Bright Frame Flat 2D | 72 | catalog, verified | [CivitAI](https://civitai.com/models/2942124?modelVersionId=3331098) |
-| `cyberpunk-edgerunners-style-lora-ltx-2-3` | — | not stated | not stated | cyberpunk-edgerunners-style-lora-ltx-2.3 | 70 | catalog, verified | [HF](https://huggingface.co/Muapi/cyberpunk-edgerunners-style-lora-ltx-2.3) |
+| `cyberpunk-edgerunners-style-lora-ltx-2-3` | `ANIMSTY, SHW_CYB.` | 1.0 | T2V | cyberpunk-edgerunners-style-lora-ltx-2.3 | 70 | catalog, verified | [HF](https://huggingface.co/Muapi/cyberpunk-edgerunners-style-lora-ltx-2.3) |
 | `brooklyn` | `Brooklyn` | not stated | not stated | Brooklyn | 51 | catalog, verified | [CivitAI](https://civitai.com/models/2656156?modelVersionId=2982562) |
-| `anime-style-gurren-lagann-lora-ltx-2-3` | — | not stated | not stated | anime-style-gurren-lagann-lora-ltx-2.3 | 49 | catalog, verified | [HF](https://huggingface.co/Muapi/anime-style-gurren-lagann-lora-ltx-2.3) |
-| `ltx-2-19b-ghibli-style-lora` | — | not stated | not stated | LTX-2-19b-ghibli-style-LoRA | 49 | catalog, verified | [HF](https://huggingface.co/ovi054/LTX-2-19b-ghibli-style-LoRA) |
-| `retro-90-s-anime-golden-boy-style-lora-ltx2` | — | not stated | not stated | retro-90-s-anime-golden-boy-style-lora-ltx2 | 31 | catalog, verified | [HF](https://huggingface.co/Muapi/retro-90-s-anime-golden-boy-style-lora-ltx2) |
-| `ltx-2-19b-bntb-style-lora` | — | not stated | not stated | ltx-2-19b-bntb-style-lora | 30 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-19b-bntb-style-lora) |
-| `spongebob-squarepants-pilot-style-lora` | — | not stated | not stated | spongebob-squarepants-pilot-style-lora | 29 | catalog, verified | [HF](https://huggingface.co/Muapi/spongebob-squarepants-pilot-style-lora) |
-| `seikon-no-qwaser-ecchi-anime-style-lora-ltxv2` | — | not stated | not stated | seikon-no-qwaser-ecchi-anime-style-lora-ltxv2 | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/seikon-no-qwaser-ecchi-anime-style-lora-ltxv2) |
-| `dispatch-style-lora-ltx2-3` | — | not stated | not stated | dispatch-style-lora-ltx2.3 | 23 | catalog, verified | [HF](https://huggingface.co/Muapi/dispatch-style-lora-ltx2.3) |
-| `scooby-doo-style-lora-ltx2` | — | not stated | not stated | scooby-doo-style-lora-ltx2 | 22 | catalog, verified | [HF](https://huggingface.co/Muapi/scooby-doo-style-lora-ltx2) |
+| `anime-style-gurren-lagann-lora-ltx-2-3` | `TTGL` | 1.0 | T2V | anime-style-gurren-lagann-lora-ltx-2.3 | 49 | catalog, verified | [HF](https://huggingface.co/Muapi/anime-style-gurren-lagann-lora-ltx-2.3) |
+| `ltx-2-19b-ghibli-style-lora` | — | not stated | I2V and T2V | LTX-2-19b-ghibli-style-LoRA | 49 | catalog, verified | [HF](https://huggingface.co/ovi054/LTX-2-19b-ghibli-style-LoRA) |
+| `retro-90-s-anime-golden-boy-style-lora-ltx2` | `## 🧠 Usage` | 1.0 | T2V | retro-90-s-anime-golden-boy-style-lora-ltx2 | 31 | catalog, verified | [HF](https://huggingface.co/Muapi/retro-90-s-anime-golden-boy-style-lora-ltx2) |
+| `ltx-2-19b-bntb-style-lora` | `## 🧠 Usage` | 1.0 | T2V | ltx-2-19b-bntb-style-lora | 30 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-19b-bntb-style-lora) |
+| `spongebob-squarepants-pilot-style-lora` | `sbpartstyle` | 1.0 | T2V | spongebob-squarepants-pilot-style-lora | 29 | catalog, verified | [HF](https://huggingface.co/Muapi/spongebob-squarepants-pilot-style-lora) |
+| `seikon-no-qwaser-ecchi-anime-style-lora-ltxv2` | `QWASERSTY` | 1.0 | T2V | seikon-no-qwaser-ecchi-anime-style-lora-ltxv2 | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/seikon-no-qwaser-ecchi-anime-style-lora-ltxv2) |
+| `dispatch-style-lora-ltx2-3` | `DISPSTYLE, char_rr, char_bb, char_case, char_invisi, char_prism, char_malev, char_roy, char_punchup` | 1.0 | T2V | dispatch-style-lora-ltx2.3 | 23 | catalog, verified | [HF](https://huggingface.co/Muapi/dispatch-style-lora-ltx2.3) |
+| `scooby-doo-style-lora-ltx2` | `ScoobyDooStyle` | 1.0 | T2V | scooby-doo-style-lora-ltx2 | 22 | catalog, verified | [HF](https://huggingface.co/Muapi/scooby-doo-style-lora-ltx2) |
 | `puppet-supreme` | `Puppet_style, muppet_style` | not stated | not stated | Puppet Supreme | 4 | catalog, verified | [CivitAI](https://civitai.com/models/2927145?modelVersionId=3312438) |
 | `ltx-2-3-paper-cut-out-style-lora` | — | not stated | not stated | Applies a paper cut-out visual style to LTX-2.3 video generation, giving outputs a layered | — | catalog, verified | — |
 | `ltx-2-3-product-ad-style` | — | not stated | not stated | Gives product videos a polished commercial look with advertising-style lighting, cinematic | — | catalog, verified | [HF](https://huggingface.co/SOLRICKS/ltx-2.3-product-ad-style) |
-| `ltx2-3-22b-restyle-ic-lora` | — | not stated | not stated | LTX2.3-22B_ReStyle_IC-LoRA | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_ReStyle_IC-LoRA) |
-| `ltxv-13b-lora-arcane-style-v1` | — | not stated | not stated | LTXV-13B-LoRA-Arcane-style-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTXV-13B-LoRA-Arcane-style-v1) |
-| `ltxv-13b-shinkai-anime-style-lora-v1` | — | not stated | not stated | ltxv-13b-shinkai-anime-style-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/ltxv-13b-shinkai-anime-style-lora-v1) |
+| `ltx2-3-22b-restyle-ic-lora` | — | 1.0 | not stated | LTX2.3-22B_ReStyle_IC-LoRA | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_ReStyle_IC-LoRA) |
+| `ltxv-13b-lora-arcane-style-v1` | `csetiarcane style` | 0.9–1.0 | T2V | LTXV-13B-LoRA-Arcane-style-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTXV-13B-LoRA-Arcane-style-v1) |
+| `ltxv-13b-shinkai-anime-style-lora-v1` | `sh1nka1 style` | 0.8–1.0 | T2V | ltxv-13b-shinkai-anime-style-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/ltxv-13b-shinkai-anime-style-lora-v1) |
 
 ## Details
 

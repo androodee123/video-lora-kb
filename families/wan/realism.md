@@ -102,8 +102,8 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nsfw-wan2-2-t2v-purple-long-sleeve-blouse-blue-patterned-short-skirt-black-panties-nude-high-heel` | `NSFSWZS` | not stated | T2V | NSFW WAN2.2 T2V Purple Long-Sleeve Blouse, Blue Patterned Short Skirt, black Panties Nude  | 114 | catalog, verified | [CivitAI](https://civitai.com/models/2105401?modelVersionId=2381897) |
 | `yoko-littner-realistic-for-wan-2-1` | — | not stated | T2V | Yoko Littner (Realistic) for Wan 2.1 | 109 | catalog, verified | [CivitAI](https://civitai.com/models/1892650?modelVersionId=2142289) |
 | `shiro-deadman-wonderland-realistic-for-wan-21` | — | not stated | T2V | Shiro (Deadman Wonderland Realistic for Wan 21 | 103 | catalog, verified | [CivitAI](https://civitai.com/models/1901750?modelVersionId=2152592) |
-| `tetsuo-ai-wan-video-lora` | — | not stated | T2V | tetsuo-ai-wan-video-lora | 0 | catalog, verified | [HF](https://huggingface.co/piccassol/tetsuo-ai-wan-video-lora) |
-| `tetsuo-ai-wan-video-lora` | — | not stated | T2V | tetsuo-ai-wan-video-lora | 0 | catalog, verified | [HF](https://huggingface.co/jauganaut1/tetsuo-ai-wan-video-lora) |
+| `tetsuo-ai-wan-video-lora` | `tetsuo_character` | not stated | I2V and T2V | tetsuo-ai-wan-video-lora | 0 | catalog, verified | [HF](https://huggingface.co/piccassol/tetsuo-ai-wan-video-lora) |
+| `tetsuo-ai-wan-video-lora` | `tetsuo_character` | not stated | I2V and T2V | tetsuo-ai-wan-video-lora | 0 | catalog, verified | [HF](https://huggingface.co/jauganaut1/tetsuo-ai-wan-video-lora) |
 
 ## Details
 

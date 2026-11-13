@@ -63,13 +63,13 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `souryu-artist-style` | — | not stated | I2V and T2V | souryu - Artist Style | 108 | catalog, verified | [CivitAI](https://civitai.com/models/2521915?modelVersionId=2834461) |
 | `ban-bansankan-artist-style` | — | not stated | I2V and T2V | ban! (bansankan) - Artist Style | 105 | catalog, verified | [CivitAI](https://civitai.com/models/2498299?modelVersionId=2808361) |
 | `carnelian-artist-style` | — | not stated | not stated | carnelian - Artist Style | 101 | catalog, verified | [CivitAI](https://civitai.com/models/2539376?modelVersionId=2853883) |
-| `retro-90-s-anime-style-lora-ltx-2-3` | — | not stated | not stated | retro-90-s-anime-style-lora-ltx-2.3 | 95 | catalog, verified | [HF](https://huggingface.co/Muapi/retro-90-s-anime-style-lora-ltx-2.3) |
+| `retro-90-s-anime-style-lora-ltx-2-3` | `ANIMSTY, SHW_AKIRA, SHW_CWBY, SHW_EVA, SHW_GITS, SHW_GLBY, SHW_GNBR, SHW_KTE, SHW_OUT, SHW_PFTBL, SHW_SLYR, SHW_TNCH, SHW_TYL` | 1.0 | T2V | retro-90-s-anime-style-lora-ltx-2.3 | 95 | catalog, verified | [HF](https://huggingface.co/Muapi/retro-90-s-anime-style-lora-ltx-2.3) |
 | `ohisashiburi-artist-style` | — | not stated | I2V and T2V | ohisashiburi - Artist Style | 90 | catalog, verified | [CivitAI](https://civitai.com/models/2526631?modelVersionId=2839645) |
 | `dishwasher1910-artist-style` | — | not stated | I2V and T2V | dishwasher1910 - Artist Style | 81 | catalog, verified | [CivitAI](https://civitai.com/models/2514943?modelVersionId=2826798) |
-| `anime-style-gurren-lagann-lora-ltx-2-3` | — | not stated | not stated | anime-style-gurren-lagann-lora-ltx-2.3 | 49 | catalog, verified | [HF](https://huggingface.co/Muapi/anime-style-gurren-lagann-lora-ltx-2.3) |
-| `retro-90-s-anime-golden-boy-style-lora-ltx2` | — | not stated | not stated | retro-90-s-anime-golden-boy-style-lora-ltx2 | 31 | catalog, verified | [HF](https://huggingface.co/Muapi/retro-90-s-anime-golden-boy-style-lora-ltx2) |
-| `seikon-no-qwaser-ecchi-anime-style-lora-ltxv2` | — | not stated | not stated | seikon-no-qwaser-ecchi-anime-style-lora-ltxv2 | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/seikon-no-qwaser-ecchi-anime-style-lora-ltxv2) |
-| `ltxv-13b-shinkai-anime-style-lora-v1` | — | not stated | not stated | ltxv-13b-shinkai-anime-style-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/ltxv-13b-shinkai-anime-style-lora-v1) |
+| `anime-style-gurren-lagann-lora-ltx-2-3` | `TTGL` | 1.0 | T2V | anime-style-gurren-lagann-lora-ltx-2.3 | 49 | catalog, verified | [HF](https://huggingface.co/Muapi/anime-style-gurren-lagann-lora-ltx-2.3) |
+| `retro-90-s-anime-golden-boy-style-lora-ltx2` | `## 🧠 Usage` | 1.0 | T2V | retro-90-s-anime-golden-boy-style-lora-ltx2 | 31 | catalog, verified | [HF](https://huggingface.co/Muapi/retro-90-s-anime-golden-boy-style-lora-ltx2) |
+| `seikon-no-qwaser-ecchi-anime-style-lora-ltxv2` | `QWASERSTY` | 1.0 | T2V | seikon-no-qwaser-ecchi-anime-style-lora-ltxv2 | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/seikon-no-qwaser-ecchi-anime-style-lora-ltxv2) |
+| `ltxv-13b-shinkai-anime-style-lora-v1` | `sh1nka1 style` | 0.8–1.0 | T2V | ltxv-13b-shinkai-anime-style-lora-v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/ltxv-13b-shinkai-anime-style-lora-v1) |
 
 ## Details
 
@@ -174,4 +174,25 @@ Example prompt (from the images API, page, or sidecar; never invented):
 Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/2390040?modelVersionId=2687366)
+
+### `ltxv-13b-shinkai-anime-style-lora-v1`
+
+**ltxv-13b-shinkai-anime-style-lora-v1**
+- base `LTXV` · T2V · strength (stated): 0.8–1.0 · triggers: `sh1nka1 style`
+
+Example prompts (from the images API, page, or sidecar; never invented):
+
+Example 1:
+```
+sh1nka1 style A woman stands in a quiet park, the lush greenery around her providing a peaceful backdrop. She wears a white sundress adorned with floral patterns in shades of pink, yellow, and green, the lightweight fabric moving softly with the breeze. A wide-brimmed straw hat rests atop her head, and she wears a pair of large sunglasses that shield her eyes from the afternoon sun. A collection of bracelets jingles on her wrist as she walks along the path, her bare feet gently touching the cool grass. Her long, golden hair falls loosely down her back, and she pauses for a moment to admire the blooming flowers around her, a soft smile playing at the corners of her lips.
+```
+
+Example 2:
+```
+sh1nka1 style A man stands at the edge of a quiet, isolated lake nestled deep in a valley, surrounded by dense, towering cliffs. The water is a striking shade of turquoise, and its surface reflects the vibrant green foliage of the trees lining the shore. He wears a soft, rust-colored sweater and a light brown jacket, his hands casually tucked in his pockets. His short, dark hair ruffles in the breeze as he watches the sun dip behind the cliffs, casting the lake in a warm, amber glow. The serenity of the scene envelops him as he takes in the vastness of the untouched wilderness, the only sound the gentle lapping of the water against the shore.
+```
+
+Compatibility: mode: T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible; HF card base_model: Lightricks/LTX-Video
+
+Source: [HF](https://huggingface.co/Cseti/ltxv-13b-shinkai-anime-style-lora-v1)
 

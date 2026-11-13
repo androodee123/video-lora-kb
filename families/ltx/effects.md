@@ -28,12 +28,49 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `carpet-void-warstyle-lora` | — | 1.0–1; 0.3–0.5 | I2V and T2V | Carpet void-warstyle lora | 138 | catalog, verified | [CivitAI](https://civitai.com/models/2698874?modelVersionId=3030714) |
 | `ltxv-deforum-circle-effect-v1-2025` | — | not stated | not stated | Ltxv-Deforum-Circle-Effect-v1_2025 | 129 | catalog, verified | [CivitAI](https://civitai.com/models/2308643?modelVersionId=2597483) |
 | `ltx-2-3-black-magic-lora` | — | not stated | not stated | LTX-2.3 Black Magic LoRA | 100 | catalog, verified | [HF](https://huggingface.co/FuzzPuppy/LTX-2.3-Black-Magic-LoRA) |
-| `ltx-2-3-lora-bleach-bypass-effect-i2v-i2i` | — | not stated | I2V | ltx-2.3-lora-bleach-bypass-effect-i2v-i2i | 70 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2.3-lora-bleach-bypass-effect-i2v-i2i) |
+| `ltx-2-3-lora-bleach-bypass-effect-i2v-i2i` | `## 🧠 Usage` | 1.0 | I2V and T2V | ltx-2.3-lora-bleach-bypass-effect-i2v-i2i | 70 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2.3-lora-bleach-bypass-effect-i2v-i2i) |
 | `blowing-balloon-ltx` | `blowing balloon`, `blow to pop balloon` | not stated | not stated | Blowing balloon LTX | 53 | catalog, verified | [CivitAI](https://civitai.com/models/2826480?modelVersionId=3188878) |
 | `life-glitch-retro` | — | not stated | not stated | Life Glitch retro | 0 | catalog, verified | [CivitAI](https://civitai.com/models/2971852?modelVersionId=3367813) |
-| `ltx-2-3-22b-ic-lora-lens-remover` | — | not stated | not stated | ltx-2.3-22b-ic-lora-lens_remover | 0 | catalog, verified | [HF](https://huggingface.co/JanKanta/ltx-2.3-22b-ic-lora-lens_remover) |
+| `ltx-2-3-22b-ic-lora-lens-remover` | — | 1.0 | not stated | ltx-2.3-22b-ic-lora-lens_remover | 0 | catalog, verified | [HF](https://huggingface.co/JanKanta/ltx-2.3-22b-ic-lora-lens_remover) |
 
 ## Details
+
+### `LTX-2.5-22b-IC-LoRA-Alpha-Gen`
+
+**LTX-2.5 22B IC-LoRA Alpha Gen (Background Removal)**
+- base `LTXV 2.5` · not stated · strength: not stated
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+No prompt required
+```
+
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
+
+Source: [HF](https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Alpha-Gen)
+
+### `LTX-2.3-Foley-LoRA`
+
+**LTX-2.3 Foley LoRA**
+- base `LTXV 2.3` · not stated · strength: not stated
+
+Example prompts (from the images API, page, or sidecar; never invented):
+
+Example 1:
+```
+No speech is present. No music is present.
+```
+
+Example 2:
+```
+A barista uses an espresso machine to steam milk. No speech is present. No music is present
+```
+
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible; HF card base_model: Lightricks/LTX-2.3
+
+Source: [HF](https://huggingface.co/FuzzPuppy/LTX-2.3-Foley-LoRA)
 
 ### `melting_lora_13b.safetensors`
 
@@ -50,6 +87,48 @@ Example prompt (from the images API, page, or sidecar; never invented):
 Compatibility: mode: I2V and T2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
 Source: [CivitAI](https://civitai.com/models/1571778?modelVersionId=1778638)
+
+### `LTX-2.5-22b-IC-LoRA-Alpha-Gen`
+
+**LTX-2.5-22b-IC-LoRA-Alpha-Gen**
+- base `LTXV 2.5` · not stated · strength: not stated
+
+Example prompts (from the images API, page, or sidecar; never invented):
+
+Example 1:
+```
+No prompt required
+```
+
+Example 2:
+```
+out = rgb * alpha + background * (1 - alpha)
+```
+
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible; HF card base_model: Lightricks/LTX-2.5; HF base_model_relation: adapter
+
+Source: [HF](https://huggingface.co/Jacob121294/LTX-2.5-22b-IC-LoRA-Alpha-Gen)
+
+### `LTX-2.3-Black-Magic-LoRA`
+
+**LTX-2.3 Black Magic LoRA**
+- base `LTXV 2.3` · not stated · strength: not stated
+
+Example prompts (from the images API, page, or sidecar; never invented):
+
+Example 1:
+```
+Restore this underexposed video to a natural, well-exposed version with realistic colors and recovered shadow detail. A woman performs poi fire dancing. She has her back to the camera and is facing an audience.
+```
+
+Example 2:
+```
+Restore this underexposed video to a natural, well-exposed version with realistic colors and recovered shadow detail. A man and woman dance at a nightclub.
+```
+
+Compatibility: Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible; HF card base_model: Lightricks/LTX-2.3; HF base_model_relation: adapter
+
+Source: [HF](https://huggingface.co/FuzzPuppy/LTX-2.3-Black-Magic-LoRA)
 
 ### `ingiai_glitch_ltx23_10k_000002000.safetensors`
 

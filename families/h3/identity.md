@@ -30,7 +30,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `milena-belwyn-h3` | — | not stated | not stated | Milena Belwyn | 140 | installed, verified | [CivitAI](https://civitai.com/models/3017877?modelVersionId=3426128) |
 | `annabelle-nordhavenlove-h3` | — | not stated | not stated | annabelle nordhavenlove | — | installed, unverified | — |
 | `kin-h3` | — | not stated | not stated | kin | — | installed, unverified | — |
-| `minimax-h3-character-swap-lora` | — | not stated | I2V | MiniMax H3 Character Swap LoRA | 143,978 | catalog, verified | [HF](https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA) |
+| `minimax-h3-character-swap-lora` | — | 1.0 | I2V | MiniMax H3 Character Swap LoRA | 143,978 | catalog, verified | [HF](https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA) |
 | `minimax-h3-nsfw-unlocked` | — | not stated | I2V and T2V | MiniMax H3 NSFW Unlocked | 71,984 | catalog, verified | [CivitAI](https://civitai.com/models/2925727?modelVersionId=3354822) |
 | `instapic-ultrareal-the-authentic-social-media-lora-ig-tiktok-realism-flux-zit-flux-2-klein-krea2-minimax` | `instapic` | 0.8–1 | not stated | InstaPic : Ultrareal The Authentic Social Media Lora IG/Tiktok 📸 | 28,863 | catalog, verified | [CivitAI](https://civitai.com/models/2168120?modelVersionId=3405038) |
 | `hilda-monochrome-master-pokemon-anima-h3-il` | `zzHilda, blue eyes, brown hair, long hair, high ponytail, sidelocks,`, `zzHilda, blue eyes, brown hair, long hair, high ponytail, sidelocks,  hat, white shirt, black vest, sleeveless, wristband, short shorts, denim shorts, exposed pocket,` | not stated | not stated | Hilda: Monochrome Master | 6,737 | catalog, verified | [CivitAI](https://civitai.com/models/451648?modelVersionId=3361327) |
@@ -102,7 +102,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `lena-mossclaw` | `lenalora` | not stated | not stated | Lena Mossclaw | 626 | catalog, verified | [CivitAI](https://civitai.com/models/2443132?modelVersionId=3464144) |
 | `carmen` | — | not stated | not stated | Carmen | 624 | catalog, verified | [CivitAI](https://civitai.com/models/2345541?modelVersionId=3359574) |
 | `fawn-hartley` | `fawnlora, small antlers, big golden eyes, soft youthful features.` | not stated | not stated | Fawn Hartley | 620 | catalog, verified | [CivitAI](https://civitai.com/models/2456887?modelVersionId=3275335) |
-| `minimax-h3-character-swap-lora` | — | not stated | not stated | MiniMax-H3-Character-Swap-LoRA | 617 | catalog, verified | [HF](https://huggingface.co/xaxaxaxaxxaxaxa/MiniMax-H3-Character-Swap-LoRA) |
+| `minimax-h3-character-swap-lora` | — | 1.0 | I2V and T2V | MiniMax-H3-Character-Swap-LoRA | 617 | catalog, verified | [HF](https://huggingface.co/xaxaxaxaxxaxaxa/MiniMax-H3-Character-Swap-LoRA) |
 | `bign-heroines-h3-t2va` | `Princess peach` | not stated | T2V | BigN Heroines H3 T2va | 614 | catalog, verified | [CivitAI](https://civitai.com/models/3007369?modelVersionId=3412396) |
 | `svea` | — | not stated | not stated | Svea | 611 | catalog, verified | [CivitAI](https://civitai.com/models/2378675?modelVersionId=3350377) |
 | `mara-whitlock` | `marawhitlock` | not stated | not stated | Mara Whitlock | 591 | catalog, verified | [CivitAI](https://civitai.com/models/2968829?modelVersionId=3368628) |
@@ -162,7 +162,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ai-girl-fictional-women-series35-35-minimax-h3` | `ai35`, `Japanese woman` | not stated | not stated | AI Girl: Fictional Women Series35 / 架空の女性シリーズ35 MiniMax H3 | 391 | catalog, verified | [CivitAI](https://civitai.com/models/3003067?modelVersionId=3406844) |
 | `master-tigress-kung-fu-panda-for-minimax-h3` | `The scene is a 3D CGI animated style of the film KFP, featuring Tigress an female anthropomorphic CGI tiger in her usual red sleveless outfit.  The Setting is: [Setting]  In the Scene: [Scene]` | not stated | I2V and T2V | Master Tigress (Kung Fu Panda) for MiniMax H3 | 391 | catalog, verified | [CivitAI](https://civitai.com/models/2959271?modelVersionId=3352382) |
 | `ai-girl-alessia` | — | not stated | not stated | AI Girl - Alessia | 386 | catalog, verified | [CivitAI](https://civitai.com/models/2870893?modelVersionId=3417552) |
-| `minimax-h3-character-swap-lora` | — | not stated | not stated | MiniMax-H3-Character-Swap-LoRA | 386 | catalog, verified | [HF](https://huggingface.co/Kobe202455/MiniMax-H3-Character-Swap-LoRA) |
+| `minimax-h3-character-swap-lora` | — | 1.0 | I2V and T2V | MiniMax-H3-Character-Swap-LoRA | 386 | catalog, verified | [HF](https://huggingface.co/Kobe202455/MiniMax-H3-Character-Swap-LoRA) |
 | `krea-2-dit-clementine-zclclementine-fictional-ai-influencer-consistent-character` | `zclclementine`, `zclclementinewoman` | not stated | I2V and T2V | [Krea 2 DiT] Clementine (zclclementine) — Fictional AI Influencer & Consistent Character | 384 | catalog, verified | [CivitAI](https://civitai.com/models/3033293?modelVersionId=3453641) |
 | `yasmin-belwyn` | — | not stated | not stated | Yasmin Belwyn | 377 | catalog, verified | [CivitAI](https://civitai.com/models/2988357?modelVersionId=3388302) |
 | `alyssa-belrose` | — | not stated | not stated | ALYSSA Belrose | 376 | catalog, verified | [CivitAI](https://civitai.com/models/2994493?modelVersionId=3396019) |
@@ -204,7 +204,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `marnie-thatch` | `marnielora` | not stated | not stated | Marnie Thatch | 270 | catalog, verified | [CivitAI](https://civitai.com/models/2860844?modelVersionId=3455431) |
 | `h3sully-sully-from-monsters-inc-for-h3-minimax` | — | not stated | not stated | h3sully - Sully from Monsters Inc for H3 Minimax | 267 | catalog, verified | [CivitAI](https://civitai.com/models/2886539?modelVersionId=3263006) |
 | `gordon-pinewood` | — | not stated | not stated | Gordon Pinewood | 266 | catalog, verified | [CivitAI](https://civitai.com/models/2906761?modelVersionId=3288326) |
-| `minimax-h3-masafy-lora` | — | not stated | not stated | minimax-h3-masafy-lora | 266 | catalog, verified | [HF](https://huggingface.co/masafy/minimax-h3-masafy-lora) |
+| `minimax-h3-masafy-lora` | — | 0.8; 1.0 | I2V | minimax-h3-masafy-lora | 266 | catalog, verified | [HF](https://huggingface.co/masafy/minimax-h3-masafy-lora) |
 | `lucy-nublar` | `lucynublar, long raptor face.` | not stated | not stated | Lucy Nublar | 265 | catalog, verified | [CivitAI](https://civitai.com/models/2905329?modelVersionId=3287257) |
 | `lisaone` | `lisa1` | not stated | not stated | LISAONE | 256 | catalog, verified | [CivitAI](https://civitai.com/models/2917409?modelVersionId=3300557) |
 | `darcy-romero` | `darcylora` | not stated | not stated | Darcy Romero | 253 | catalog, verified | [CivitAI](https://civitai.com/models/2932836?modelVersionId=3403782) |
@@ -281,7 +281,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `heather-mason-silent-hill-3` | `sh3heather, a young woman with short blonde hair, wearing a white vest over an orange sleeveless turtleneck, a short green skirt, and brown boots.` | not stated | not stated | Heather Mason - Silent Hill 3 | 123 | catalog, verified | [CivitAI](https://civitai.com/models/3039990?modelVersionId=3455146) |
 | `looney-red-riding-hood-mmh3-character` | `LRRH with a toothy manic grin, blue eyes and messy blonde hair, wearing a tattered red hooded cloak, laced corset top, white blouse, red pleated skirt, fingerless gloves, and thigh-high boots`, `dark fantasy digital painting illustration` | not stated | T2V | Looney Red Riding Hood :: MMH3 Character | 123 | catalog, verified | [CivitAI](https://civitai.com/models/3038353?modelVersionId=3452862) |
 | `linavid2` | `lina_vid2` | not stated | not stated | LinaVid2 | 120 | catalog, verified | [CivitAI](https://civitai.com/models/3036339?modelVersionId=3450268) |
-| `minimax-h3-character-swap-lora` | — | not stated | not stated | MiniMax-H3-Character-Swap-LoRA | 117 | catalog, verified | [HF](https://huggingface.co/arthur-y/MiniMax-H3-Character-Swap-LoRA) |
+| `minimax-h3-character-swap-lora` | — | 1.0 | I2V and T2V | MiniMax-H3-Character-Swap-LoRA | 117 | catalog, verified | [HF](https://huggingface.co/arthur-y/MiniMax-H3-Character-Swap-LoRA) |
 | `bertie-wells` | `bertielora` | not stated | not stated | Bertie Wells | 115 | catalog, verified | [CivitAI](https://civitai.com/models/3048314?modelVersionId=3466245) |
 | `anne-tayanita-cree-native-american-woman-video` | `Anne-Tayanita Cree`, `young woman` | not stated | not stated | Anne-Tayanita Cree - native american woman - video | 113 | catalog, verified | [CivitAI](https://civitai.com/models/3040127?modelVersionId=3455370) |
 | `naoto-shirogane-voice-persona-4-audio-only-minimax-h3` | — | not stated | not stated | Naoto Shirogane Voice - Persona 4 - Audio Only [Minimax H3] | 111 | catalog, verified | [CivitAI](https://civitai.com/models/3044646?modelVersionId=3461115) |
@@ -451,6 +451,22 @@ Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install clai
 
 Source: [CivitAI](https://civitai.com/models/3046432?modelVersionId=3463453)
 
+### `MiniMax-H3-Character-Swap-LoRA`
+
+**MiniMax H3 Character Swap LoRA**
+- base `MiniMax H3` · I2V · strength (stated): 1.0
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+> Replace the selected person in <Video 1> with the character in <Picture 1>. > Keep the reference character's face, hair and clothing. Follow the source > performance's pose, gaze, expression and movement. Preserve the scene and the > other people.
+```
+
+Compatibility: mode: I2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo); HF card base_model: Comfy-Org/MiniMax-H3; HF base_model_relation: adapter
+
+Source: [HF](https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA)
+
 ### `minimaxh3-fyre-v01.safetensors`
 
 **Fyre (fictional character)**
@@ -585,22 +601,4 @@ Describe the image by detailing the color, shape, size, texture, quantity, text,
 Compatibility: mode: I2V and T2V; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/3033305?modelVersionId=3453656)
-
-### `betty_rubble_mmh3_minimaxh3_e10.safetensors`
-
-**Betty Rubble - Realistic (ToonToLife) - The Flintstones (1960) - MMH3, KREA2**
-- base `MiniMax H3` · not stated · strength (stated): 0.75–0.85; 0.3–0.5 · triggers: `subject_definitions: <Subject 1> (S1) a female, Betty Rubble is the primary character in the video. (S1) is a mature 25-year-old American woman with a high pitched sweet voice with a strong New York City accent of the 1960s. retention_analysis: <Subject 1> (appears in [Shot 1]): fully_preserved - She has dark black hair styled in a short, voluminous bob with bangs and a blue hair bow, light brown eyes, and medium skin tone. She wears a solid light blue halter style dress with a black neckstrap that joins at a white scallop shell pendant and has a jagged hemline.`
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-`subject_definitions: (S1) a female, Betty Rubble is the primary character in the video. (S1) is a mature 25-year-old American woman with a high pitched sweet voice with a strong New York City accent of the 1960s.
-
-retention_analysis: (appears in [Shot 1]): fully_preserved - She has dark black hair styled in a short, voluminous bob with bangs and a blue hair bow, light brown eyes, and medium skin tone. She wears a solid light blue halter style dress with a black neckstrap that joins at a white scallop shell pendant and has a jagged hemline.`
-```
-
-Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
-
-Source: [CivitAI](https://civitai.com/models/2953019?modelVersionId=3360820)
 

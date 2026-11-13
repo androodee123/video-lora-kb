@@ -121,7 +121,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `anthro-lucky-101-dalmatians-series` | — | not stated | not stated | Anthro Lucky (101 Dalmatians Series) | 206 | catalog, verified | [CivitAI](https://civitai.com/models/2637165?modelVersionId=2960970) |
 | `mariblonde` | — | not stated | not stated | Mariblonde | 196 | catalog, verified | [CivitAI](https://civitai.com/models/2751203?modelVersionId=3095123) |
 | `sigrid-ltx` | `sigrid` | 1.0 | I2V and T2V | Sigrid - LTX | 194 | catalog, verified | [CivitAI](https://civitai.com/models/2796855?modelVersionId=3152520) |
-| `ltx2-3-ic-lora-dual-character` | — | not stated | not stated | ltx2.3-ic-lora-dual-character | 189 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx2.3-ic-lora-dual-character) |
+| `ltx2-3-ic-lora-dual-character` | `## 🧠 Usage` | 1.0 | T2V | ltx2.3-ic-lora-dual-character | 189 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx2.3-ic-lora-dual-character) |
 | `thannie-franklyn` | — | not stated | not stated | Thannie Franklyn | 179 | catalog, verified | [CivitAI](https://civitai.com/models/2980621?modelVersionId=3384173) |
 | `ltx2-3-arcane-mel` | `ArcaneMel` | not stated | not stated | [LTX2.3] Arcane - Mel | 169 | catalog, verified | [CivitAI](https://civitai.com/models/2728846?modelVersionId=3067567) |
 | `ltx2-3-arcane-caitlyn` | `ArcaneCaitlyn` | not stated | not stated | [LTX2.3] Arcane - Caitlyn | 167 | catalog, verified | [CivitAI](https://civitai.com/models/2728863?modelVersionId=3067588) |
@@ -153,7 +153,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `kwan-lora-v2` | — | not stated | not stated | Kwan_lora_v2 | 35 | catalog, verified | [CivitAI](https://civitai.com/models/2880329?modelVersionId=3255385) |
 | `mara-v2-ltx` | `Mara` | not stated | not stated | Mara V2 LTX | 26 | catalog, verified, low_signal | [CivitAI](https://civitai.com/models/3020849?modelVersionId=3429971) |
 | `ltx-2-5-22b-ic-lora-cel-character` | — | not stated | not stated | ltx-2.5-22b-ic-lora-cel-character | 25 | catalog, verified | [HF](https://huggingface.co/Baberg/ltx-2.5-22b-ic-lora-cel-character) |
-| `ltx2-3-22b-arcane-jinx-v1` | — | not stated | not stated | LTX2.3-22B_Arcane-Jinx_v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_Arcane-Jinx_v1) |
+| `ltx2-3-22b-arcane-jinx-v1` | `Nfj1nx` | 0.8–1.0 | I2V and T2V | LTX2.3-22B_Arcane-Jinx_v1 | 0 | catalog, verified | [HF](https://huggingface.co/Cseti/LTX2.3-22B_Arcane-Jinx_v1) |
 
 ## Details
 

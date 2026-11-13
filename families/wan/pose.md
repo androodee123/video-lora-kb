@@ -1,6 +1,6 @@
 # Wan: Pose / control
 
-30 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+32 LoRAs (0 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -33,9 +33,11 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `galgame-visual-novel-background-wan` | — | not stated | T2V | Galgame 背景 Visual Novel Background (Wan) | 648 | catalog, verified | [CivitAI](https://civitai.com/models/1939515?modelVersionId=2195111) |
 | `huge-implants-wan-2-1` | `huge implants` | not stated | T2V | Huge Implants Wan 2.1 | 634 | catalog, verified | [CivitAI](https://civitai.com/models/2035644?modelVersionId=2303911) |
 | `paw-pose-wan2-2` | `刨手手` | not stated | I2V | 刨手手paw pose动图Wan2.2 | 189 | catalog, verified | [CivitAI](https://civitai.com/models/2005439?modelVersionId=2269905) |
-| `wan-fun-lora-5b-control-traincfg4-4step-cfg1-step1600` | — | not stated | TI2V (and I2V) | WAN-Fun-LoRA-5B-Control-TrainCFG4-4Step-CFG1-step1600 | 21 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/WAN-Fun-LoRA-5B-Control-TrainCFG4-4Step-CFG1-step1600) |
-| `wan2-2-5b-thedenk-depth-controlnet-nonar-dmd-4step-lora-r64-iter3000` | — | not stated | TI2V (and I2V) | Wan2.2-5B-TheDenk-Depth-ControlNet-NonAR-DMD-4Step-LoRA-r64-iter3000 | 9 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Wan2.2-5B-TheDenk-Depth-ControlNet-NonAR-DMD-4Step-LoRA-r64-iter3000) |
-| `coag-wan2-2-fun-a14b-control-lora` | — | not stated | I2V | CoaG-Wan2.2-Fun-A14B-Control-LoRA | 0 | catalog, verified | [HF](https://huggingface.co/zshyang1106/CoaG-Wan2.2-Fun-A14B-Control-LoRA) |
+| `wan2-2-5b-nonar-dmd-4step-lora-r64-iter1600` | — | not stated | TI2V (and I2V/T2V) | Wan2.2-5B-NonAR-DMD-4Step-LoRA-r64-iter1600 | 39 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Wan2.2-5B-NonAR-DMD-4Step-LoRA-r64-iter1600) |
+| `wan-fun-lora-5b-control-traincfg4-4step-cfg1-step1600` | — | 1.0; 1 | TI2V (and I2V) | WAN-Fun-LoRA-5B-Control-TrainCFG4-4Step-CFG1-step1600 | 21 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/WAN-Fun-LoRA-5B-Control-TrainCFG4-4Step-CFG1-step1600) |
+| `wan2-2-5b-thedenk-depth-controlnet-nonar-dmd-4step-lora-r64-iter3000` | — | not stated | TI2V (and I2V/T2V) | Wan2.2-5B-TheDenk-Depth-ControlNet-NonAR-DMD-4Step-LoRA-r64-iter3000 | 9 | catalog, verified | [HF](https://huggingface.co/Perflow-Shuai/Wan2.2-5B-TheDenk-Depth-ControlNet-NonAR-DMD-4Step-LoRA-r64-iter3000) |
+| `coag-wan2-2-fun-a14b-control-lora` | — | 0.55 | I2V | CoaG-Wan2.2-Fun-A14B-Control-LoRA | 0 | catalog, verified | [HF](https://huggingface.co/zshyang1106/CoaG-Wan2.2-Fun-A14B-Control-LoRA) |
+| `wan22-fp16-i2v-loras` | — | 0.6; 0.85; 0.7 | I2V and T2V | wan22-fp16-i2v-loras | 0 | catalog, verified | [HF](https://huggingface.co/wangkanai/wan22-fp16-i2v-loras) |
 
 ## Details
 
@@ -178,4 +180,21 @@ Example prompt (from the images API, page, or sidecar; never invented):
 Compatibility: mode: TI2V (and I2V/T2V); Wan 2.2 5B TI2V — do not drop into a 14B I2V-A14B / T2V-A14B graph; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/2262863?modelVersionId=2547157)
+
+### `WAN-Fun-LoRA-5B-Control-TrainCFG4-4Step-CFG1-step1600`
+
+**WAN-Fun-LoRA-5B-Control-TrainCFG4-4Step-CFG1-step1600**
+- base `Wan Video 2.2 TI2V-5B` · TI2V (and I2V) · strength (stated): 1.0; 1
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+After the example loads the full Control transformer, and **before** applying
+CPU/group offloading, attach this adapter once:
+```
+
+Compatibility: mode: TI2V (and I2V); Wan 2.2 5B TI2V — do not drop into a 14B I2V-A14B / T2V-A14B graph; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22; HF card base_model: alibaba-pai/Wan2.2-Fun-5B-Control; HF base_model_relation: adapter
+
+Source: [HF](https://huggingface.co/Perflow-Shuai/WAN-Fun-LoRA-5B-Control-TrainCFG4-4Step-CFG1-step1600)
 

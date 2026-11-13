@@ -55,7 +55,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ltx-2-3-real-orgasm` | — | not stated | not stated | LTX 2.3 - Real Orgasm | 7,989 | catalog, verified | [CivitAI](https://civitai.com/models/2630331?modelVersionId=2953217) |
 | `sexgod-fingering-dildo-ltx-2-3` | — | not stated | I2V | SexGod Fingering/Dildo LTX 2.3 | 7,800 | catalog, verified | [CivitAI](https://civitai.com/models/2580360?modelVersionId=2898896) |
 | `penis-lora-by-coachbate-ltx-2-3` | `bwc` | not stated | I2V and T2V | PENIS LoRA by CoachBate - LTX-2.3 | 7,511 | catalog, verified | [CivitAI](https://civitai.com/models/2310783?modelVersionId=2903097) |
-| `ltx-2-2-3-i2v-nsfw-furry-multi-purpose-sex-lora` | — | not stated | I2V | ltx-2-2.3-i2v-nsfw-furry-multi-purpose-sex-lora | 7,428 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-2.3-i2v-nsfw-furry-multi-purpose-sex-lora) |
+| `ltx-2-2-3-i2v-nsfw-furry-multi-purpose-sex-lora` | `## 🧠 Usage` | 1.0 | I2V and T2V | ltx-2-2.3-i2v-nsfw-furry-multi-purpose-sex-lora | 7,428 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-2.3-i2v-nsfw-furry-multi-purpose-sex-lora) |
 | `rogue-ai-missionary-cowgirl` | — | not stated | I2V | Rogue AI -- Missionary / Cowgirl | 7,222 | catalog, verified | [CivitAI](https://civitai.com/models/2471327?modelVersionId=2778591) |
 | `wan2-2-ltx-2-3-cock-growth` | — | 1 | not stated | Wan2.2/LTX 2.3 Cock Growth | 6,555 | catalog, verified | [CivitAI](https://civitai.com/models/2090300?modelVersionId=2987819) |
 | `solo-male-masturbation-ltx-2-19b-with-audio` | — | not stated | I2V | Solo Male Masturbation --  LTX-2 19B (with Audio!) | 6,492 | catalog, verified | [CivitAI](https://civitai.com/models/906812?modelVersionId=2609597) |
@@ -96,7 +96,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `xray-slime-penetration` | `xray sex animation`, `slime penetration animation`, `moving hips`, `riding on top`, `view from behind` | not stated | I2V | Xray / Slime penetration | 1,421 | catalog, verified | [CivitAI](https://civitai.com/models/2795629?modelVersionId=3178699) |
 | `gay-sex-sulphur-2-ltx-2-3` | `g@ys3x` | not stated | I2V and T2V | Gay Sex - Sulphur 2 (LTX-2.3) | 1,346 | catalog, verified | [CivitAI](https://civitai.com/models/2641559?modelVersionId=2988281) |
 | `flaccid-vtx-flaccid-uncut-penis-i2v-ltx2-3` | — | not stated | I2V and T2V | Flaccid VTX - Flaccid Uncut Penis I2V  [LTX2.3] | 1,302 | catalog, verified | [CivitAI](https://civitai.com/models/2624310?modelVersionId=2946404) |
-| `penis-lora-by-coachbate-ltx-2-3` | — | not stated | not stated | penis-lora-by-coachbate-ltx-2.3 | 1,243 | catalog, verified | [HF](https://huggingface.co/Muapi/penis-lora-by-coachbate-ltx-2.3) |
+| `penis-lora-by-coachbate-ltx-2-3` | `bwc` | 1.0 | T2V | penis-lora-by-coachbate-ltx-2.3 | 1,243 | catalog, verified | [HF](https://huggingface.co/Muapi/penis-lora-by-coachbate-ltx-2.3) |
 | `ltx2-3-alien-tentacle-nsfw-v1-0` | — | not stated | I2V | LTX2.3 Alien tentacle (NSFW) v1.0 | 1,176 | catalog, verified | [CivitAI](https://civitai.com/models/2557433?modelVersionId=2874065) |
 | `ltx-2-3-furry-2d-nsfw-multi-purpose-lora-cum` | — | not stated | I2V | LTX 2.3 - Furry 2D NSFW Multi Purpose Lora  + Cum | 1,164 | catalog, verified | [CivitAI](https://civitai.com/models/2731589?modelVersionId=3071035) |
 | `ltx2-3-futanari` | `futa_nar1` | not stated | T2V | LTX2.3_FUTANARI | 1,124 | catalog, verified | [CivitAI](https://civitai.com/models/2611795?modelVersionId=2932598) |
@@ -115,18 +115,18 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `stacey-ltx2-3-zit-flux` | — | not stated | not stated | STACEY (LTX2.3) (ZIT) (FLUX) | 447 | catalog, verified | [CivitAI](https://civitai.com/models/2693065?modelVersionId=3119494) |
 | `intense-fullbody-finishes-ltx-2-5-2-3` | — | not stated | not stated | Intense_Fullbody_Finishes_LTX_2.5&2.3 | 431 | catalog, verified | [CivitAI](https://civitai.com/models/2927084?modelVersionId=3312346) |
 | `blazing-heart` | `blazin_heart` | not stated | not stated | Blazing Heart | 332 | catalog, verified | [CivitAI](https://civitai.com/models/2395778?modelVersionId=2769994) |
-| `penis-lora-ltx-2-3-sulphur-lora` | — | not stated | not stated | penis-lora-ltx-2.3-sulphur-lora | 321 | catalog, verified | [HF](https://huggingface.co/Muapi/penis-lora-ltx-2.3-sulphur-lora) |
+| `penis-lora-ltx-2-3-sulphur-lora` | `PENISLORA` | 1.0 | T2V | penis-lora-ltx-2.3-sulphur-lora | 321 | catalog, verified | [HF](https://huggingface.co/Muapi/penis-lora-ltx-2.3-sulphur-lora) |
 | `ltx-2-3-sulphur-defined-muscle-t2v` | — | 1 | I2V and T2V | LTX 2.3 (Sulphur) Defined Muscle T2V | 194 | catalog, verified | [CivitAI](https://civitai.com/models/2781624?modelVersionId=3132867) |
-| `penis-lora-ltx-2-3-sulphur-lora` | — | not stated | not stated | penis-lora-ltx-2.3-sulphur-lora | 129 | catalog, verified | [HF](https://huggingface.co/chfm/penis-lora-ltx-2.3-sulphur-lora) |
+| `penis-lora-ltx-2-3-sulphur-lora` | `PENISLORA` | 1.0 | T2V | penis-lora-ltx-2.3-sulphur-lora | 129 | catalog, verified | [HF](https://huggingface.co/chfm/penis-lora-ltx-2.3-sulphur-lora) |
 | `penis-ltx-2-5-by-coachbate` | `p3n15` | not stated | I2V and T2V | Penis LTX-2.5 by CoachBate | 113 | catalog, verified | [CivitAI](https://civitai.com/models/2851705?modelVersionId=3220391) |
 | `jessie-b-star` | `JessieB` | not stated | not stated | Jessie B Star | 79 | catalog, verified | [CivitAI](https://civitai.com/models/2644002?modelVersionId=2968820) |
-| `ultimate-deepthroat-general-nsfw-ltx2-3-video-lora-k3nk` | — | not stated | not stated | ultimate-deepthroat-general-nsfw-ltx2.3-video-lora-k3nk | 74 | catalog, verified | [HF](https://huggingface.co/Muapi/ultimate-deepthroat-general-nsfw-ltx2.3-video-lora-k3nk) |
-| `full-nelson-sex-i2v-ltx2-3-i2v-lora-k3nk` | — | not stated | I2V | full-nelson-sex-i2v-ltx2.3-i2v-lora-k3nk | 61 | catalog, verified | [HF](https://huggingface.co/Muapi/full-nelson-sex-i2v-ltx2.3-i2v-lora-k3nk) |
-| `ltx-2-fingering-lora` | — | not stated | not stated | ltx-2-fingering-lora | 48 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-fingering-lora) |
+| `ultimate-deepthroat-general-nsfw-ltx2-3-video-lora-k3nk` | `## 🧠 Usage` | 1.0 | T2V | ultimate-deepthroat-general-nsfw-ltx2.3-video-lora-k3nk | 74 | catalog, verified | [HF](https://huggingface.co/Muapi/ultimate-deepthroat-general-nsfw-ltx2.3-video-lora-k3nk) |
+| `full-nelson-sex-i2v-ltx2-3-i2v-lora-k3nk` | `FU11N31S0N` | 1.0 | I2V and T2V | full-nelson-sex-i2v-ltx2.3-i2v-lora-k3nk | 61 | catalog, verified | [HF](https://huggingface.co/Muapi/full-nelson-sex-i2v-ltx2.3-i2v-lora-k3nk) |
+| `ltx-2-fingering-lora` | `## 🧠 Usage` | 1.0 | T2V | ltx-2-fingering-lora | 48 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2-fingering-lora) |
 | `uncut-penis-ltx-2-5-by-coachbate` | `CBUNCT` | not stated | I2V and T2V | Uncut Penis LTX-2.5 by CoachBate | 35 | catalog, verified | [CivitAI](https://civitai.com/models/2918112?modelVersionId=3301399) |
-| `ltx-2-2-3-i2v-nsfw-furry-multi-purpose-sex-lora` | — | not stated | I2V | ltx-2-2.3-i2v-nsfw-furry-multi-purpose-sex-lora | 18 | catalog, verified | [HF](https://huggingface.co/drtuch/ltx-2-2.3-i2v-nsfw-furry-multi-purpose-sex-lora) |
+| `ltx-2-2-3-i2v-nsfw-furry-multi-purpose-sex-lora` | `## 🧠 Usage` | 1.0 | I2V and T2V | ltx-2-2.3-i2v-nsfw-furry-multi-purpose-sex-lora | 18 | catalog, verified | [HF](https://huggingface.co/drtuch/ltx-2-2.3-i2v-nsfw-furry-multi-purpose-sex-lora) |
 | `cumshot-ltx-2-5` | `CBLOADZ` | not stated | not stated | Cumshot (LTX-2.5) | 9 | catalog, verified | [CivitAI](https://civitai.com/models/3036399?modelVersionId=3450355) |
-| `ltx2-3-cum-on-face-transition` | — | not stated | not stated | LTX2.3-cum-on-face-transition | 0 | catalog, verified | [HF](https://huggingface.co/Lora-Daddy/LTX2.3-cum-on-face-transition) |
+| `ltx2-3-cum-on-face-transition` | — | not stated | I2V | LTX2.3-cum-on-face-transition | 0 | catalog, verified | [HF](https://huggingface.co/Lora-Daddy/LTX2.3-cum-on-face-transition) |
 
 ## Details
 

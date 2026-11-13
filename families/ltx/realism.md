@@ -25,8 +25,8 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `ai-girl-fictional-women-series33-33-ltx-2-5` | `ai33`, `Japanese high school girl with short hair` | not stated | not stated | AI Girl: Fictional Women Series33 / 架空の女性シリーズ33 LTX-2.5 | 333 | catalog, verified | [CivitAI](https://civitai.com/models/2877846?modelVersionId=3252296) |
 | `ai-girl-fictional-women-series25-25-ltx2-3` | — | not stated | not stated | AI Girl: Fictional Women Series25 / 架空の女性シリーズ25 LTX2.3 | 230 | catalog, verified | [CivitAI](https://civitai.com/models/2756287?modelVersionId=3101418) |
 | `pure-pristine-asain-ltx2-5` | — | 0.9–1.0 | not stated | pure pristine Asain [LTX2.5] | 194 | catalog, verified | [CivitAI](https://civitai.com/models/2994266?modelVersionId=3395722) |
-| `ltx23-surfaces-realism-lora` | — | not stated | not stated | ltx23-surfaces-realism-lora | 160 | catalog, verified | [HF](https://huggingface.co/joeygambino/ltx23-surfaces-realism-lora) |
-| `ltx-2-3-t2v-mc-furry-realistic-lora` | — | not stated | T2V | ltx-2.3-t2v-mc-furry-realistic-lora | 47 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2.3-t2v-mc-furry-realistic-lora) |
+| `ltx23-surfaces-realism-lora` | — | not stated | T2V | ltx23-surfaces-realism-lora | 160 | catalog, verified | [HF](https://huggingface.co/joeygambino/ltx23-surfaces-realism-lora) |
+| `ltx-2-3-t2v-mc-furry-realistic-lora` | `furryrealistic1` | 1.0 | T2V | ltx-2.3-t2v-mc-furry-realistic-lora | 47 | catalog, verified | [HF](https://huggingface.co/Muapi/ltx-2.3-t2v-mc-furry-realistic-lora) |
 
 ## Details
 

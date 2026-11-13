@@ -49,7 +49,7 @@ Do not stack two motion boosters and two realism LoRAs on the first pass. Turbo 
 
 ## Goal recipes
 
-Recipes 1–16 and 49–64 are MiniMax H3, 17–32 and 65–78 Wan, 33–45 and 79–90 LTX, 46–48 and 91–96 cross-family (96 recipes). “Installed” means present on the 13 Nov 2026 RAID snapshot. Prompt templates: `guides/prompt-patterns.md`.
+Recipes 1–16 and 49–64 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33–45 and 79–90 LTX, 46–48 and 91–96 cross-family (97 recipes). “Installed” means present on the 13 Nov 2026 RAID snapshot. Prompt templates: `guides/prompt-patterns.md`.
 
 ### 1. Realistic, less-morphing human motion (H3)
 
@@ -75,7 +75,7 @@ Recipes 1–16 and 49–64 are MiniMax H3, 17–32 and 65–78 Wan, 33–45 and 
 ### 5. Frozen-time camera orbit / card spin (H3)
 
 - Installed: `minimax-h3-orb360-cardspin-h3`.
-- Catalog / HF: `pablodawson/MiniMax-H3-360-Orbit-LoRA` (FL2VA, same image as both endpoint frames; trigger not stated here). Requires a first-last / FL2VA workflow, not a plain I2V still-to-clip unless the pack says otherwise.
+- Catalog / HF: `pablodawson/MiniMax-H3-360-Orbit-LoRA` (FL2VA, same image as both endpoint frames). The card’s `instance_prompt` begins “One frozen instant. Only the camera moves. In a continuous 360 orbit…” and states LoRA strength **1.0**. Requires a first-last / FL2VA workflow, not a plain I2V still-to-clip unless the pack says otherwise.
 
 ### 6. Locked camera or chase / fisheye POV (H3)
 
@@ -96,7 +96,7 @@ Recipes 1–16 and 49–64 are MiniMax H3, 17–32 and 65–78 Wan, 33–45 and 
 ### 9. Realism slider / skin and detail (H3)
 
 - Installed: `mmh3-realism-slider-h3`, `mmh3-realism-slider-v2-hyperflow-h3-flash-h3` (stated 0.65–0.85 / 0.65–0.90 on the v2 page), `mmh3-detail-slider-h3`.
-- Catalog / HF: `fal/MiniMax-H3-Realism-People-LoRA` (Fuzz Puppy notes the trigger `r34l1sm` — use that only as cited there).
+- Catalog / HF: `fal/MiniMax-H3-Realism-People-LoRA` — the model card states trigger `r34l1sm` and intended strength **1.0** (it also describes 0.6–0.8 as a lighter touch; start at the stated 1.0 unless you are softening).
 - Catalog: `eyes-skin-hands-h3` (trigger `perfe8ct`) for eyes, skin, and hands.
 
 ### 10. Few-step / turbo speed (H3)
@@ -107,7 +107,7 @@ Recipes 1–16 and 49–64 are MiniMax H3, 17–32 and 65–78 Wan, 33–45 and 
 
 ### 11. Character swap, keep the motion (H3)
 
-- HF: `akatz-ai/MiniMax-H3-Character-Swap-LoRA` (Ref2VA; Fuzz Puppy recommends V1.5). Not on the RAID snapshot.
+- HF: `akatz-ai/MiniMax-H3-Character-Swap-LoRA` (Ref2VA; Fuzz Puppy recommends V1.5). The model card states strength **1.0** for the V1.5 file. Not on the RAID snapshot. No trigger word is stated on the card — do not invent one.
 - Do not stack a second identity LoRA on top for the first test.
 
 ### 12. Load a specific character / identity (H3)
@@ -149,6 +149,7 @@ Recipes 1–16 and 49–64 are MiniMax H3, 17–32 and 65–78 Wan, 33–45 and 
 
 - Catalog: `VERTIGO - (Perfect DollyZoom)` (Wan 2.1 t2v and 2.2 T2V-A14B versions). Trigger not stated here unless the row has one.
 - Catalog: `[WAN2.2] Smartphone Snapshot Photo Reality [STYLE]` for phone-look T2V.
+- Catalog / HF: `Muapi/360-orbit-camera-motion-wan2.1-i2v-lora` — card states trained words `0rb4it 360 degree orbit` and `lora_strength` **1.0**. The card’s `base_model` is `wan-ai/Wan2.1-T2V-14B-Diffusers` (Wan 2.1, not 2.2 high/low).
 - Installed Wan set is thin on dedicated camera LoRAs; `drift-stop-from-close-up-face-wan2-2-i2v-a-wan` is a specific I2V camera move (Akira-style drift stop), not a general orbit.
 
 ### 20. Wan I2V 14B vs T2V 14B vs 5B TI2V
@@ -178,6 +179,7 @@ Recipes 1–16 and 49–64 are MiniMax H3, 17–32 and 65–78 Wan, 33–45 and 
 
 ### 25. Wan anime or 2D style
 
+- HF / catalog: `Cseti/wan-14b-shinkai-anime-style-lora-v1` — card states trigger `sh1nka1 style` (add `animation` if the effect is weak, as the card says) and strength **0.8–1.0**, on Wan 2.1 14B T2V.
 - See `families/wan/anime.md` and `style.md`. Installed Wan style is almost empty; plan on a catalog style LoRA (smartphone-reality, anime packs). Do not combine two strong style LoRAs.
 
 ### 26. Wan realism / live-action look
@@ -530,6 +532,14 @@ Recipes 1–16 and 49–64 are MiniMax H3, 17–32 and 65–78 Wan, 33–45 and 
 - Prefer I2V (H3 `omni-eros-new-h3`, Wan `animate-wan22`, LTX `animate-ltx2` / `23` / `25`) and spend the prompt on action, camera, and sound — not on re-describing the face.
 - Use T2V (`video-h3`, `video-wan22`, `video-ltx*`) only when there is no still, and then write a full appearance description. Identity LoRAs help T2V more than a good I2V still does.
 - FL2VA / first-last / Ref2VA packs still need their extra frames (recipes 5, 11, 53).
+
+
+### 97. Wan 2.1 1.3B T2V LoRAs (not 14B)
+
+- The CivitAI base `Wan Video 1.3B t2v` is a **1.3B** graph. Do not drop these files into Wan 2.2 14B high/low or 5B TI2V, or into 14B I2V 480p/720p, unless a row also publishes a matching 14B version (some multi-base models do — check `bases`).
+- 1.3B-only examples now in the catalog (triggers as recorded; strengths `not stated` unless noted): `wan2.1 1.3b female anatomy` (`NTM`); `wan2.1 1.3b male anatomy` (`ntm-male`); `wan2.1 1.3b static rotation` (`sttcrttn`); `Wan 2.1 1.3B tools` (`low speed`, `high speed`); `Beauty of rain [Wan 1.3B]` (`b3@ut1f0ll_r@in`); `Genshin TCG Style [Wan 1.3B]` (`Genshin_TCG`, stated **0.75–1.0**); `PixelArtRedmond - Wan Lora` (`Pixel Art`, `PixArFK`); `Kubakub_Architecture_Wan2.1_1.3B_t2v` (`Kubakub`); `Enchanted - Giselle` (`2DGiselle`); `Vintage 1980s anime` (stated **0.7–1.0**, trigger not stated).
+- `Sex helper for NSFW Wan 1.3b` and the 1.3B furry I2V pack have no recorded trigger — do not invent one.
+- Two low-download 1.3B rows are flagged `low_signal` (`Twerk - Wan2.1 - 1.3b`, `Etot`).
 
 ---
 

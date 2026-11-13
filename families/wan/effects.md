@@ -118,11 +118,11 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `nsfw-wan2-2-t2v-oriental-noble-courtesan-ensemble-teal-lace-bra-set-with-fur-cape-stiletto-pumps` | `NSFLSQP` | not stated | T2V | NSFW WAN2.2 T2V Oriental Noble Courtesan Ensemble – Teal Lace Bra Set With Fur Cape & Stil | 124 | catalog, verified | [CivitAI](https://civitai.com/models/2186974?modelVersionId=2462446) |
 | `wan2-1-i2v-aoji-effect-14b` | `N5ONUHUAN effect` | not stated | I2V | Wan2.1 I2V - AoJi Effect 14b | 123 | catalog, verified | [CivitAI](https://civitai.com/models/1425277?modelVersionId=1610991) |
 | `djz-indoor-skateparks` | `vkv style` | not stated | T2V | DJZ Indoor Skateparks | 120 | catalog, verified | [CivitAI](https://civitai.com/models/1656720?modelVersionId=1875215) |
-| `matrix-bullet-time-camera-effect-wan2-1-i2v-lora` | — | not stated | I2V | matrix-bullet-time-camera-effect-wan2.1-i2v-lora | 78 | catalog, verified | [HF](https://huggingface.co/Muapi/matrix-bullet-time-camera-effect-wan2.1-i2v-lora) |
+| `matrix-bullet-time-camera-effect-wan2-1-i2v-lora` | `b4ll3t t1m3 bullet time shot` | 1.0 | I2V and T2V | matrix-bullet-time-camera-effect-wan2.1-i2v-lora | 78 | catalog, verified | [HF](https://huggingface.co/Muapi/matrix-bullet-time-camera-effect-wan2.1-i2v-lora) |
 | `superspeed` | `superspeed` | not stated | T2V | Superspeed | 77 | catalog, verified, low_signal | [CivitAI](https://civitai.com/models/2613400?modelVersionId=2934376) |
 | `refvfx-lora` | — | not stated | I2V | refVFX-lora | 26 | catalog, verified | [HF](https://huggingface.co/maxwelljones14/refVFX-lora) |
-| `hero-run-effect-wan2-1-i2v-lora` | — | not stated | I2V | hero-run-effect-wan2.1-i2v-lora | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/hero-run-effect-wan2.1-i2v-lora) |
-| `sharingan-eyes-effect-wan-2-1-i2v-lora` | — | not stated | I2V | sharingan-eyes-effect-wan-2.1-i2v-lora | 11 | catalog, verified | [HF](https://huggingface.co/Muapi/sharingan-eyes-effect-wan-2.1-i2v-lora) |
+| `hero-run-effect-wan2-1-i2v-lora` | `4ct3ion Action Run` | 1.0 | I2V and T2V | hero-run-effect-wan2.1-i2v-lora | 25 | catalog, verified | [HF](https://huggingface.co/Muapi/hero-run-effect-wan2.1-i2v-lora) |
+| `sharingan-eyes-effect-wan-2-1-i2v-lora` | — | 1.0 | I2V and T2V | sharingan-eyes-effect-wan-2.1-i2v-lora | 11 | catalog, verified | [HF](https://huggingface.co/Muapi/sharingan-eyes-effect-wan-2.1-i2v-lora) |
 
 ## Details
 

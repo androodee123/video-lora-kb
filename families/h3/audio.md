@@ -1,6 +1,6 @@
 # H3: Audio / voice
 
-40 LoRAs (3 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
+41 LoRAs (3 installed on the 13 Nov 2026 RAID snapshot). Installed rows are listed first, then the rest by CivitAI/HF download count.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -29,12 +29,12 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `tifa-lockheart-voice-eng-final-fantasy-7-audio-only-minimax-h3-commission` | — | not stated | not stated | Tifa Lockheart Voice (Eng) - Final Fantasy 7 - Audio Only [Minimax H3] (Commission) | 250 | catalog, verified | [CivitAI](https://civitai.com/models/3032646?modelVersionId=3445472) |
 | `noelle-silva-voice-eng-black-clover-audio-only-minimax-h3-commission` | — | not stated | not stated | Noelle Silva Voice (Eng) - Black Clover - Audio Only [Minimax H3] (Commission) | 244 | catalog, verified | [CivitAI](https://civitai.com/models/2976566?modelVersionId=3373654) |
 | `rise-kujikawa-voice-persona-4-audio-only-minimax-h3` | — | not stated | not stated | Rise Kujikawa Voice - Persona 4 - Audio Only [Minimax H3] | 239 | catalog, verified | [CivitAI](https://civitai.com/models/3035078?modelVersionId=3448571) |
-| `asmr-whisper-audio-h3-lora` | — | not stated | not stated | asmr-whisper-audio-h3-lora | 222 | catalog, verified | [HF](https://huggingface.co/vpakarinen/asmr-whisper-audio-h3-lora) |
+| `asmr-whisper-audio-h3-lora` | — | not stated | I2V and T2V | asmr-whisper-audio-h3-lora | 222 | catalog, verified | [HF](https://huggingface.co/vpakarinen/asmr-whisper-audio-h3-lora) |
 | `fuuka-yamagishi-voice-persona-3-audio-only-minimax-h3` | — | not stated | not stated | Fuuka Yamagishi Voice - Persona 3 - Audio Only [Minimax H3] | 208 | catalog, verified | [CivitAI](https://civitai.com/models/3035085?modelVersionId=3448575) |
 | `tae-takemi-voice-persona-5-audio-only-minimax-h3` | — | not stated | not stated | Tae Takemi Voice - Persona 5 - Audio Only [Minimax H3] | 200 | catalog, verified | [CivitAI](https://civitai.com/models/3035050?modelVersionId=3448535) |
 | `sadayo-kawakami-voice-persona-5-audio-only-minimax-h3` | — | not stated | not stated | Sadayo Kawakami Voice - Persona 5 - Audio Only [Minimax H3] | 199 | catalog, verified | [CivitAI](https://civitai.com/models/3035059?modelVersionId=3448546) |
 | `aerith-gainsborough-voice-eng-final-fantasy-7-audio-only-minimax-h3-commission` | — | not stated | not stated | Aerith Gainsborough Voice (Eng) - Final Fantasy 7 - Audio Only [Minimax H3] (Commission) | 198 | catalog, verified | [CivitAI](https://civitai.com/models/3040096?modelVersionId=3455318) |
-| `natural-face-speech-h3-lora` | — | not stated | not stated | natural-face-speech-h3-lora | 184 | catalog, verified | [HF](https://huggingface.co/vpakarinen/natural-face-speech-h3-lora) |
+| `natural-face-speech-h3-lora` | — | not stated | I2V and T2V | natural-face-speech-h3-lora | 184 | catalog, verified | [HF](https://huggingface.co/vpakarinen/natural-face-speech-h3-lora) |
 | `yuffie-kisaragi-voice-eng-final-fantasy-7-audio-only-minimax-h3-commission` | — | not stated | not stated | Yuffie Kisaragi Voice (Eng) - Final Fantasy 7 - Audio Only [Minimax H3] (Commission) | 178 | catalog, verified | [CivitAI](https://civitai.com/models/3040101?modelVersionId=3455327) |
 | `mimosa-vermillion-voice-eng-black-clover-audio-only-minimax-h3-commission` | — | not stated | not stated | Mimosa Vermillion Voice (Eng) - Black Clover - Audio Only [Minimax H3] (Commission) | 160 | catalog, verified | [CivitAI](https://civitai.com/models/3035038?modelVersionId=3448522) |
 | `yukari-takeba-voice-persona-3-audio-only-minimax-h3` | — | not stated | not stated | Yukari Takeba Voice - Persona 3 - Audio Only [Minimax H3] | 152 | catalog, verified | [CivitAI](https://civitai.com/models/3046276?modelVersionId=3463258) |
@@ -44,7 +44,8 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `elizabeth-voice-persona-3-audio-only-minimax-h3` | — | not stated | not stated | Elizabeth Voice - Persona 3 - Audio Only [Minimax H3] | 126 | catalog, verified | [CivitAI](https://civitai.com/models/3046304?modelVersionId=3463289) |
 | `kotone-shiomi-femc-voice-persona-3-audio-only-minimax-h3` | — | not stated | not stated | Kotone Shiomi / FeMC Voice - Persona 3 - Audio Only [Minimax H3] | 125 | catalog, verified | [CivitAI](https://civitai.com/models/3046300?modelVersionId=3463284) |
 | `naoto-shirogane-voice-persona-4-audio-only-minimax-h3` | — | not stated | not stated | Naoto Shirogane Voice - Persona 4 - Audio Only [Minimax H3] | 111 | catalog, verified | [CivitAI](https://civitai.com/models/3044646?modelVersionId=3461115) |
-| `natural-face-speech-h3-lora` | — | not stated | not stated | natural-face-speech-h3-lora | 12 | catalog, verified | [HF](https://huggingface.co/concil859856/natural-face-speech-h3-lora) |
+| `asmr-trigger-audio-h3-lora` | — | not stated | I2V and T2V | asmr-trigger-audio-h3-lora | 17 | catalog, verified | [HF](https://huggingface.co/TechnoBaptist/asmr-trigger-audio-h3-lora) |
+| `natural-face-speech-h3-lora` | — | not stated | I2V and T2V | natural-face-speech-h3-lora | 12 | catalog, verified | [HF](https://huggingface.co/concil859856/natural-face-speech-h3-lora) |
 | `bombshell-bliss-minimax-h3` | `bogify style, semi-realistic digital art,` | not stated | not stated | Bombshell Bliss MiniMax H3 | 1 | catalog, verified | [CivitAI](https://civitai.com/models/3005611?modelVersionId=3410119) |
 
 ## Details

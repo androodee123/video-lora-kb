@@ -22,18 +22,18 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `hmnsfw-h3` | `hmmotion` | 0.6–1.0 | I2V and T2V | HMNSFW - AIO Sex LoRA | 88,223 | catalog, verified | [CivitAI](https://civitai.com/models/2834417?modelVersionId=3206518) |
 | `shake-harder-h3` | `dynv2`, `integrated_multimodal_description: [Shot 1] dynfb1, keep the characters, clothing, environment, and overall composition from the first frame consistent. The two figures remain in close interaction while performing extremely strong, rapid, repeated forward-and-back body motion at maximum visible intensity. The hip movement is large, forceful, and high-amplitude, with deep repeated thrusting motion and very fast rhythmic pacing. The bodies show powerful momentum, strong recoil, and aggressive weight transfer with every cycle. The torso, shoulders, chest, waist, hips, hair, and limbs all display intense secondary motion, violent follow-through, and pronounced shaking from the force of the movement. The chest bouncing becomes very strong and highly visible, and the entire upper body reacts dynamically to the repeated high-force motion. The pace continues to build, becoming faster, harder, and more energetic over time. Preserve stable anatomy, keep both figures clearly separated, and keep the camera mostly steady so the body motion remains the main source of intensity.`, `integrated_multimodal_description: [Shot 1] dynvt1, keep the characters, clothing, environment, and overall composition from the first frame consistent. From the very first frame the two figures are already locked in extremely fast, maximum-intensity vertical rising-and-dropping motion with zero build-up. The repeated upward lift and downward drop run at the highest possible speed and frequency for the entire duration, delivering relentless, non-stop, high-amplitude pounding without any slowing or pause. Every cycle is large, forceful, and aggressive, creating continuous deep recoil, violent weight transfer, and explosive body momentum. The hips and lower body drive the motion at blistering pace, while the torso, shoulders, chest, waist, hair, and limbs shake violently with strong secondary motion and heavy follow-through on every single stroke. Chest bouncing is extreme, constant, and highly visible from start to finish. Preserve stable anatomy, keep both figures clearly separated, and keep the camera mostly steady so the ultra-fast body motion remains the sole source of intensity through the final frame.` | 0.6–0.8 | I2V and T2V | Faster! Harder! Shake Harder! | 55,636 | catalog, verified | [CivitAI](https://civitai.com/models/2840146?modelVersionId=3228867) |
 | `shake-harder-ref-h3` | `dynv2`, `integrated_multimodal_description: [Shot 1] dynfb1, keep the characters, clothing, environment, and overall composition from the first frame consistent. The two figures remain in close interaction while performing extremely strong, rapid, repeated forward-and-back body motion at maximum visible intensity. The hip movement is large, forceful, and high-amplitude, with deep repeated thrusting motion and very fast rhythmic pacing. The bodies show powerful momentum, strong recoil, and aggressive weight transfer with every cycle. The torso, shoulders, chest, waist, hips, hair, and limbs all display intense secondary motion, violent follow-through, and pronounced shaking from the force of the movement. The chest bouncing becomes very strong and highly visible, and the entire upper body reacts dynamically to the repeated high-force motion. The pace continues to build, becoming faster, harder, and more energetic over time. Preserve stable anatomy, keep both figures clearly separated, and keep the camera mostly steady so the body motion remains the main source of intensity.`, `integrated_multimodal_description: [Shot 1] dynvt1, keep the characters, clothing, environment, and overall composition from the first frame consistent. From the very first frame the two figures are already locked in extremely fast, maximum-intensity vertical rising-and-dropping motion with zero build-up. The repeated upward lift and downward drop run at the highest possible speed and frequency for the entire duration, delivering relentless, non-stop, high-amplitude pounding without any slowing or pause. Every cycle is large, forceful, and aggressive, creating continuous deep recoil, violent weight transfer, and explosive body momentum. The hips and lower body drive the motion at blistering pace, while the torso, shoulders, chest, waist, hair, and limbs shake violently with strong secondary motion and heavy follow-through on every single stroke. Chest bouncing is extreme, constant, and highly visible from start to finish. Preserve stable anatomy, keep both figures clearly separated, and keep the camera mostly steady so the ultra-fast body motion remains the sole source of intensity through the final frame.` | 0.6–0.8 | I2V and T2V | Faster! Harder! Shake Harder! | 55,636 | catalog, verified | [CivitAI](https://civitai.com/models/2840146?modelVersionId=3246346) |
-| `minimax-h3-360-orbit-lora` | — | not stated | I2V | MiniMax H3 360 Orbit LoRA | 36,756 | catalog, verified | [HF](https://huggingface.co/pablodawson/MiniMax-H3-360-Orbit-LoRA) |
+| `minimax-h3-360-orbit-lora` | `One frozen instant. Only the camera moves. In a continuous 360 orbit. Preserve every person and object in exactly the same world position, orientation, shape and pose throughout the shot. Airborne objects remain suspended at the captured height and angle: no wobbling, shaking, spinning, drifting, falling or continued action. Keep faces, hands, clothing, liquids and the background motionless while retaining their natural appearance. Camera parallax is the only source of apparent movement. No cuts, zoom, morphing or added objects.` | 1.0 | I2V and T2V | MiniMax H3 360 Orbit LoRA | 36,756 | catalog, verified | [HF](https://huggingface.co/pablodawson/MiniMax-H3-360-Orbit-LoRA) |
 | `h3-ltx2-riding-pov-i2v` | — | 0.5–0.8 | I2V | H3/LTX2 Riding pov (I2V) | 34,267 | catalog, verified | [CivitAI](https://civitai.com/models/2446218?modelVersionId=3203205) |
 | `h3-pov-missionary-insertion` | — | not stated | I2V and T2V | H3 POV Missionary Insertion | 18,779 | catalog, verified | [CivitAI](https://civitai.com/models/2843744?modelVersionId=3210503) |
 | `better-motion-h3` | — | 0.4–0.8 | I2V and T2V | Better Human Motion H3/LTX 2.5 | 18,682 | catalog, verified | [CivitAI](https://civitai.com/models/2734359?modelVersionId=3256084) |
-| `minimax-h3-camera-motion-lora` | — | not stated | not stated | minimax-h3-Camera-Motion-lora | 18,583 | catalog, verified | [HF](https://huggingface.co/Jojocodex/minimax-h3-Camera-Motion-lora) |
+| `minimax-h3-camera-motion-lora` | — | not stated | T2V | minimax-h3-Camera-Motion-lora | 18,583 | catalog, verified | [HF](https://huggingface.co/Jojocodex/minimax-h3-Camera-Motion-lora) |
 | `hmmisdog-missionary-doggy-pov-lora-for-minimax-h3` | — | not stated | not stated | HMMisDog - Missionary / Doggy POV LoRA for Minimax H3 | 14,547 | catalog, verified | [CivitAI](https://civitai.com/models/2924146?modelVersionId=3356770) |
 | `motion-repair-h3` | — | not stated | I2V | BUNNY General Motion Continuity Repair | 9,916 | catalog, verified | [CivitAI](https://civitai.com/models/2890788?modelVersionId=3366092) |
 | `deeper-h3` | — | not stated | not stated | Deeper... Hold It. | 8,928 | catalog, verified | [CivitAI](https://civitai.com/models/2879661?modelVersionId=3254522) |
 | `digicam-h3` | `d1g1cam` | not stated | I2V and T2V | [Minimax H3] Digicam Y2K Nude Realism Effect | 8,747 | catalog, verified | [CivitAI](https://civitai.com/models/2855485?modelVersionId=3224980) |
 | `real-cinematic-h3` | — | not stated | not stated | Minimax H3 Cinematic V2 | 8,711 | catalog, verified | [CivitAI](https://civitai.com/models/2890588?modelVersionId=3267949) |
 | `minimax-h3-male-pov` | `mpov, first-person perspective pov video` | not stated | I2V | Minimax H3 - Male Pov | 7,286 | catalog, verified | [CivitAI](https://civitai.com/models/2966380?modelVersionId=3361122) |
-| `minimax-h3-ref2va-lora-crossview-warp-v1` | — | not stated | I2V | MiniMax-H3_Ref2VA-LoRA-CrossView-Warp_v1 | 6,514 | catalog, verified | [HF](https://huggingface.co/Cseti/MiniMax-H3_Ref2VA-LoRA-CrossView-Warp_v1) |
+| `minimax-h3-ref2va-lora-crossview-warp-v1` | `crossview  areas.)` | 0.8 | I2V | MiniMax-H3_Ref2VA-LoRA-CrossView-Warp_v1 | 6,514 | catalog, verified | [HF](https://huggingface.co/Cseti/MiniMax-H3_Ref2VA-LoRA-CrossView-Warp_v1) |
 | `tada-cum-swallow-lora` | `TADAA` | not stated | not stated | TADA - Cum Swallow LoRA | 6,367 | catalog, verified | [CivitAI](https://civitai.com/models/2868961?modelVersionId=3241306) |
 | `eyes-skin-hands-h3` | `perfe8ct`, `perfect hands`, `perfect skin`, `perfect eyes` | not stated | I2V and T2V | Minimax H3: t2va (T2V) – Polyhedron: Perfect Eyes // Perfect Skin // Perfect Hands | 4,349 | catalog, verified | [CivitAI](https://civitai.com/models/2899220?modelVersionId=3278036) |
 | `cinematic-h3` | `See LoRA describtion`, `see LoRA description` | not stated | T2V | Cinematic Style LoRA + Detail Enhancer for MiniMax H3 | 4,124 | catalog, verified | [CivitAI](https://civitai.com/models/2849726?modelVersionId=3217898) |
@@ -53,16 +53,16 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `telephoto-zoom` | — | not stated | not stated | Telephoto Zoom | 660 | catalog, verified | [CivitAI](https://civitai.com/models/3015922?modelVersionId=3423497) |
 | `target-pov-spitting` | — | not stated | not stated | Target POV: Spitting | 490 | catalog, verified | [CivitAI](https://civitai.com/models/3026618?modelVersionId=3437470) |
 | `16mm-found-footage` | — | 0.9–1.0 | not stated | 16mm Found Footage | 416 | catalog, verified | [CivitAI](https://civitai.com/models/3015094?modelVersionId=3422417) |
-| `minimax-h3-360-orbit-lora` | — | not stated | not stated | MiniMax-H3-360-Orbit-LoRA | 360 | catalog, verified | [HF](https://huggingface.co/TomMueller2077/MiniMax-H3-360-Orbit-LoRA) |
+| `minimax-h3-360-orbit-lora` | `One frozen instant. Only the camera moves. In a continuous 360 orbit. Preserve every person and object in exactly the same world position, orientation, shape and pose throughout the shot. Airborne objects remain suspended at the captured height and angle: no wobbling, shaking, spinning, drifting, falling or continued action. Keep faces, hands, clothing, liquids and the background motionless while retaining their natural appearance. Camera parallax is the only source of apparent movement. No cuts, zoom, morphing or added objects.` | 1.0 | I2V and T2V | MiniMax-H3-360-Orbit-LoRA | 360 | catalog, verified | [HF](https://huggingface.co/TomMueller2077/MiniMax-H3-360-Orbit-LoRA) |
 | `coffin-dance-meme-minimax-h3` | `cfdance` | not stated | not stated | Coffin Dance Meme MiniMax H3 | 274 | catalog, verified | [CivitAI](https://civitai.com/models/3003542?modelVersionId=3407470) |
-| `minimax-h3-camera-motion-lora` | — | not stated | not stated | minimax-h3-Camera-Motion-lora | 265 | catalog, verified | [HF](https://huggingface.co/robertbschuette/minimax-h3-Camera-Motion-lora) |
-| `minimax-h3-360-orbit-lora` | — | not stated | not stated | MiniMax-H3-360-Orbit-LoRA | 217 | catalog, verified | [HF](https://huggingface.co/Leon1000/MiniMax-H3-360-Orbit-LoRA) |
+| `minimax-h3-camera-motion-lora` | — | not stated | T2V | minimax-h3-Camera-Motion-lora | 265 | catalog, verified | [HF](https://huggingface.co/robertbschuette/minimax-h3-Camera-Motion-lora) |
+| `minimax-h3-360-orbit-lora` | `One frozen instant. Only the camera moves. In a continuous 360 orbit. Preserve every person and object in exactly the same world position, orientation, shape and pose throughout the shot. Airborne objects remain suspended at the captured height and angle: no wobbling, shaking, spinning, drifting, falling or continued action. Keep faces, hands, clothing, liquids and the background motionless while retaining their natural appearance. Camera parallax is the only source of apparent movement. No cuts, zoom, morphing or added objects.` | 1.0 | I2V and T2V | MiniMax-H3-360-Orbit-LoRA | 217 | catalog, verified | [HF](https://huggingface.co/Leon1000/MiniMax-H3-360-Orbit-LoRA) |
 | `inertia-momentum-slider-minimax-h3-and-camera-shake-amplitude-slider-preview-minimax-h3` | — | not stated | not stated | Inertia & Momentum Slider [MiniMax H3] and Camera Shake Amplitude Slider [Preview] [MiniMa | 198 | catalog, verified | [CivitAI](https://civitai.com/models/2998133?modelVersionId=3406833) |
 | `anal-minimax` | — | not stated | not stated | Anal - MiniMax | 195 | catalog, verified | [CivitAI](https://civitai.com/models/3031553?modelVersionId=3443995) |
 | `blowjob-ass-up-101-h3` | — | not stated | I2V and T2V | Blowjob ass up 101 h3 | 90 | catalog, verified | [CivitAI](https://civitai.com/models/3045872?modelVersionId=3462716) |
 | `pornmaster-mmh3-pov-large-penis-i2v` | `first-person view of penis. a man's erect penis, prominent penile veins.` | 0.8 | I2V | PornMaster MMH3 POV Large Penis  I2V | 84 | catalog, verified | [CivitAI](https://civitai.com/models/2861074?modelVersionId=3231921) |
 | `minimax-h3-orb360-vertical-lora` | — | not stated | not stated | MiniMax-H3-ORB360-Vertical-LoRA | 83 | catalog, verified | [HF](https://huggingface.co/yama-kiyo/MiniMax-H3-ORB360-Vertical-LoRA) |
-| `minimax-h3-360-orbit-lora` | — | not stated | not stated | MiniMax-H3-360-Orbit-LoRA | 79 | catalog, verified | [HF](https://huggingface.co/robertbschuette/MiniMax-H3-360-Orbit-LoRA) |
+| `minimax-h3-360-orbit-lora` | `One frozen instant. Only the camera moves. In a continuous 360 orbit. Preserve every person and object in exactly the same world position, orientation, shape and pose throughout the shot. Airborne objects remain suspended at the captured height and angle: no wobbling, shaking, spinning, drifting, falling or continued action. Keep faces, hands, clothing, liquids and the background motionless while retaining their natural appearance. Camera parallax is the only source of apparent movement. No cuts, zoom, morphing or added objects.` | 1.0 | I2V and T2V | MiniMax-H3-360-Orbit-LoRA | 79 | catalog, verified | [HF](https://huggingface.co/robertbschuette/MiniMax-H3-360-Orbit-LoRA) |
 | `twink-chibi-video-1` | — | not stated | not stated | twink chibi video 1 | 68 | catalog, verified | [CivitAI](https://civitai.com/models/3039219?modelVersionId=3454033) |
 | `y2kdigicam-2000s-digicam-look-h3` | `y2kdigicam` | 0.8 | not stated | y2kdigicam - 2000s Digicam Look (H3) | 53 | catalog, verified | [CivitAI](https://civitai.com/models/2987922?modelVersionId=3387744) |
 | `camera-shake-amplitude-slider-preview-minimax-h3-only` | — | not stated | not stated | Camera Shake Amplitude Slider [Preview] [MiniMax H3] Only | 40 | catalog, verified | [CivitAI](https://civitai.com/models/3003926?modelVersionId=3407958) |
@@ -283,6 +283,48 @@ Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a pe
 
 Source: [CivitAI](https://civitai.com/models/2840146?modelVersionId=3246346)
 
+### `MiniMax-H3-360-Orbit-LoRA`
+
+**MiniMax H3 360 Orbit LoRA**
+- base `MiniMax H3` · I2V and T2V · strength (stated): 1.0 · triggers: `One frozen instant. Only the camera moves. In a continuous 360 orbit. Preserve every person and object in exactly the same world position, orientation, shape and pose throughout the shot. Airborne objects remain suspended at the captured height and angle: no wobbling, shaking, spinning, drifting, falling or continued action. Keep faces, hands, clothing, liquids and the background motionless while retaining their natural appearance. Camera parallax is the only source of apparent movement. No cuts, zoom, morphing or added objects.`
+
+Example prompts (from the images API, page, or sidecar; never invented):
+
+Example 1:
+```
+One frozen instant. Only the camera moves. In a continuous 360 orbit.
+```
+
+Example 2:
+```
+One frozen instant. Only the camera moves. In a continuous 360 orbit. Preserve every person and object in exactly the same world position, orientation, shape and pose throughout the shot. Airborne objects remain suspended at the captured height and angle: no wobbling, shaking, spinning, drifting, falling or continued action. Keep faces, hands, clothing, liquids and the background motionless while retaining their natural appearance. Camera parallax is the only source of apparent movement. No cuts, zoom, morphing or added objects.
+```
+
+Compatibility: mode: I2V and T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo); HF card base_model: MiniMaxAI/MiniMax-H3; HF base_model_relation: adapter
+
+Source: [HF](https://huggingface.co/pablodawson/MiniMax-H3-360-Orbit-LoRA)
+
+### `minimax-h3-Camera-Motion-lora`
+
+**minimax-h3-Camera-Motion-lora**
+- base `MiniMax H3` · T2V · strength: not stated
+
+Example prompts (from the images API, page, or sidecar; never invented):
+
+Example 1:
+```
+camera motion
+```
+
+Example 2:
+```
+camera motion, [主体], [场景], [运镜描述], [光线/风格], [画质]
+```
+
+Compatibility: mode: T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo); HF card base_model: Comfy-Org/MiniMax-H3
+
+Source: [HF](https://huggingface.co/Jojocodex/minimax-h3-Camera-Motion-lora)
+
 ### `deeper-h3.safetensors`
 
 **Deeper... Hold It. \| H3 Deep Motion Booster**
@@ -339,36 +381,4 @@ non_diegetic_music: Describe the score and instrumentation here, or use N/A when
 Compatibility: mode: T2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
 Source: [CivitAI](https://civitai.com/models/2849726?modelVersionId=3217898)
-
-### `MMH3-FPOV-000160.safetensors`
-
-**Minimax H3 - Female POV**
-- base `MiniMax H3` · I2V · strength: not stated · triggers: `fpov, first-person perspective pov video`
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-fpov, first-person perspective pov video, i am sitting on the edge of the cliff, my legs are bent at the knees and my hands are resting on them, i am wearing a green sweater and jeans, i lower my hands to my sides and stand up. high angle, only my hands and legs are visible.
-```
-
-Compatibility: mode: I2V; Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
-
-Source: [CivitAI](https://civitai.com/models/2967915?modelVersionId=3362906)
-
-### `HandgagPOV_MiniMaxH3_v1.safetensors`
-
-**Handgag POV**
-- base `MiniMax H3` · not stated · strength (stated): 1.0
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-long nails, red nails Gloves: gloved, glove + color , glove + material . Example: gloved, leather glove, black glove. For better success, I recommend increasing the weights of the keywords, like '(gloved, latex glove, blue glove:1.15)' Rings: single ring / two rings / multiple rings/wedding ring, ring + material Example: single ring, wedding ring, gold ring, large ring Bonus: spit handgag: spit_handgag, wet hand, spittle, drool Full prompt example: hand palm, left_hand, (cupping, focused_hand, fingerprints), black hair, goth, bdsm room, heavy makeup, low-angle, shushing mouth, piercing blue eyes, dark makeup, punk aesthetic, red backlight, hard shadows, black robe, single ring, large ring, soft skinfolds, hair fringe, red nails, short nails, [wide-shot]
-```
-
-Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
-
-Source: [CivitAI](https://civitai.com/models/466438?modelVersionId=3378606)
 
