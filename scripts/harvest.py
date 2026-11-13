@@ -52,6 +52,8 @@ BASE_MODELS = [
     "Wan Video 1.3B t2v",
 ]
 
+ADAPTER_TYPES = ["LORA", "LoCon", "DoRA"]
+
 SORTS = {
     "newest": "Newest",
     "downloads": "Most Downloaded",
@@ -126,14 +128,15 @@ def page_key(base_model: str, cursor) -> str:
 
 def iter_civitai_pages(base_model: str, sort: str, limit: int = 100, max_pages: int = 80,
                        refresh: bool = False, delay: float = 0.35, cache_name: str | None = None,
-                       period: str | None = None, query: str | None = None):
+                       period: str | None = None, query: str | None = None, types=None):
     """Yield raw page dicts, caching each under data/raw/civitai/<cache_name or sort>/. """
+    types = list(types or ["LORA"])
     sort_dir = CIVIT_RAW / (cache_name or sort)
     sort_dir.mkdir(parents=True, exist_ok=True)
     cursor = None
     pages = 0
     while pages < max_pages:
-        key_src = f"{base_model}|{cursor or ''}|{period or ''}|{query or ''}|{limit}"
+        key_src = f"{base_model}|{cursor or ''}|{period or ''}|{query or ''}|{limit}|{','.join(types)}"
         dest = sort_dir / (hashlib.sha1(key_src.encode()).hexdigest()[:16] + "_" + safe_base(base_model or "any") + ".json")
         # also accept legacy page_key filenames for unfiltered newest/downloads/rated
         legacy = sort_dir / page_key(base_model, cursor) if not period and not query else None
@@ -142,21 +145,22 @@ def iter_civitai_pages(base_model: str, sort: str, limit: int = 100, max_pages: 
         elif legacy and legacy.exists() and legacy.stat().st_size > 20 and not refresh:
             data = json.loads(legacy.read_text(encoding="utf-8"))
         else:
-            params = {
-                "types": "LORA",
-                "limit": limit,
-                "nsfw": "true",
-                "sort": SORTS.get(sort, sort),
-            }
+            params = [
+                ("limit", limit),
+                ("nsfw", "true"),
+                ("sort", SORTS.get(sort, sort)),
+            ]
+            for t in types:
+                params.append(("types", t))
             if base_model:
-                params["baseModels"] = base_model
+                params.append(("baseModels", base_model))
             if period:
-                params["period"] = period
+                params.append(("period", period))
             if query:
-                params["query"] = query
+                params.append(("query", query))
             if cursor:
-                params["cursor"] = cursor
-            url = API + "?" + urllib.parse.urlencode(params)
+                params.append(("cursor", cursor))
+            url = API + "?" + urllib.parse.urlencode(params, doseq=True)
             data = _get(url)
             dest.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
             time.sleep(delay)
@@ -358,6 +362,9 @@ def family_of_base(base: str | None) -> str | None:
 EXTRA_VIDEO_BASES = ["Wan Video 1.3B t2v"]  # rare / mis-filed vs the 14B bases; still Wan family
 
 def is_video_model(m) -> bool:
+    typ = m.get("type") or ""
+    if typ and typ not in ("LORA", "LoRA", "LoCon", "DoRA", "LoHA", "LoKR", "LyCORIS"):
+        return False
     allowed = set(BASE_MODELS) | set(EXTRA_VIDEO_BASES)
     return any(v.get("baseModel") in allowed for v in (m.get("modelVersions") or []))
 
@@ -415,16 +422,20 @@ def write_index(models, extra=None, log=sys.stderr):
     return manifest
 
 
-def harvest_full_sorts(period="AllTime", refresh=False, log=sys.stderr, bases=None):
+def harvest_full_sorts(period="AllTime", refresh=False, log=sys.stderr, bases=None, types=None):
     """Exhaust Newest / Most Downloaded / Highest Rated for every baseModel."""
+    types = list(types or ["LORA"])
+    type_key = ",".join(types)
     counts = {}
     for sort in ("newest", "downloads", "rated"):
         cache = f"{sort}-{period}" if period else sort
+        if types != ["LORA"]:
+            cache = f"{cache}-{'-'.join(types)}"
         counts[cache] = {}
         for bm in (bases or BASE_MODELS):
             n = pages = 0
             for page in iter_civitai_pages(bm, sort, max_pages=80, refresh=refresh,
-                                           period=period, cache_name=cache):
+                                           period=period, cache_name=cache, types=types):
                 n += len(page.get("items") or [])
                 pages += 1
             counts[cache][bm] = {"listed": n, "pages": pages}
@@ -1003,6 +1014,8 @@ def main():
                     help="fetch README/model cards for Hugging Face catalog rows (resumable, no weights)")
     ap.add_argument("--bases", default="",
                     help="comma-separated CivitAI baseModels for --full-sorts (default: all BASE_MODELS)")
+    ap.add_argument("--types", default="LORA",
+                    help="comma-separated CivitAI types (default LORA; use LoCon,DoRA for LyCORIS adapters)")
     args = ap.parse_args()
 
     if args.verify_sorts:
@@ -1016,8 +1029,9 @@ def main():
         return
 
     bases = [b.strip() for b in (args.bases or "").split(",") if b.strip()] or None
+    types = [t.strip() for t in (args.types or "LORA").split(",") if t.strip()] or ["LORA"]
     if args.full_sorts:
-        harvest_full_sorts(period=args.period, refresh=args.refresh, bases=bases)
+        harvest_full_sorts(period=args.period, refresh=args.refresh, bases=bases, types=types)
     if args.keywords:
         harvest_keywords(refresh=args.refresh)
     if args.hf_expand or args.hf_only:

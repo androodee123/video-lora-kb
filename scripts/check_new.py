@@ -2,6 +2,7 @@
 """Diff newly listed CivitAI video LoRAs against data/loras.jsonl.
 
 Uses the same baseModel list and paging helper as scripts/harvest.py.
+Only LORA / LoCon / DoRA models on confirmed video baseModels are proposed.
 Writes proposals/YYYY-MM-DD.md. MUST NEVER download or ingest weights.
 """
 from __future__ import annotations
@@ -15,6 +16,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import harvest as H
+import video_lora as V
 
 ROOT = H.ROOT
 JSONL = ROOT / "data" / "loras.jsonl"
@@ -88,12 +90,19 @@ def main():
         print(f"query {bm} ...", file=sys.stderr)
         n = 0
         for page in H.iter_civitai_pages(bm, args.sort, limit=args.limit, max_pages=args.pages,
-                                          refresh=args.refresh, cache_name="check_new"):
+                                          refresh=args.refresh, cache_name="check_new",
+                                          types=["LORA", "LoCon", "DoRA"]):
             for it in page.get("items") or []:
                 mid = it.get("id")
                 if mid in seen:
                     continue
                 seen.add(mid)
+                # Video LoRA / LoCon / DoRA only, on a confirmed video base.
+                typ = it.get("type") or ""
+                if typ not in V.ADAPTER_TYPES:
+                    continue
+                if not V.civitai_has_video_base(it):
+                    continue
                 if mid in known_ids:
                     already += 1
                     continue

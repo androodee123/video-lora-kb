@@ -16,6 +16,7 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import harvest as H
+import video_lora as V
 
 ROOT = H.ROOT
 TZ = ZoneInfo("Africa/Johannesburg")
@@ -417,7 +418,19 @@ def compile_records():
     installed_ids = {r.get("civitai_model_id") for r in installed if r.get("civitai_model_id")}
 
     records = []
+    excluded = []
     seen_keys = set()  # (family, civitai_model_id, file) for installed uniqueness
+    hf_index = {it.get("id"): it for it in hf if it.get("id")}
+
+    def accept(rec, model=None, hf_item=None, card=None):
+        keep, reason = V.classify_record(rec, model, hf_item, card)
+        if keep:
+            records.append(rec)
+            return True
+        rec = dict(rec)
+        rec["exclude_reason"] = reason
+        excluded.append(rec)
+        return False
 
     # 1) Installed / curated rows first — keep RAID filenames and sidecar triggers
     for r in installed:
@@ -463,8 +476,8 @@ def compile_records():
         rec.pop("match_how", None)
         rec.pop("page_404", None)
         rec.pop("notes", None)
-        records.append(rec)
-        seen_keys.add((rec["family"], mid, rec.get("file")))
+        if accept(rec, model=model):
+            seen_keys.add((rec["family"], mid, rec.get("file")))
 
     # 2) CivitAI catalog rows (not already represented as an installed file for that family+id)
     installed_family_ids = {(r["family"], r.get("civitai_model_id")) for r in records if r.get("civitai_model_id")}
@@ -528,7 +541,7 @@ def compile_records():
                 infer_i2v_t2v(bases, model.get("name") or "", desc, fname),
             ),
         }
-        records.append(rec)
+        accept(rec, model=model)
 
     # 3) Hugging Face official / community (skip if already linked by name+family and installed)
     hf_urls = { (r.get("urls") or {}).get("huggingface") for r in records }
@@ -631,7 +644,7 @@ def compile_records():
         }
         if fuzz_hit and fuzz_hit.get("tutorial"):
             rec["urls"]["tutorial"] = fuzz_hit["tutorial"]
-        records.append(rec)
+        accept(rec, hf_item=hf_index.get(hid), card=card)
 
     # fuzzpuppy entries not already in HF or civitai
     have_hf = { (r.get("urls") or {}).get("huggingface") for r in records }
@@ -677,10 +690,10 @@ def compile_records():
             "low_signal": False,
             "compatibility": compatibility_notes(fam, [base], name, L.get("description") or "", name, [], "not stated"),
         }
-        records.append(rec)
+        accept(rec)
 
-    print(f"records {len(records)} dropped_low {dropped_low} low_signal {low_signal_n} restored {kept_low_unique}", file=sys.stderr)
-    return records
+    print(f"records {len(records)} dropped_low {dropped_low} low_signal {low_signal_n} restored {kept_low_unique} excluded {len(excluded)}", file=sys.stderr)
+    return records, excluded
 
 
 JSONL_KEYS = [
@@ -699,10 +712,22 @@ def write_jsonl(records, path: Path):
             f.write(json.dumps(obj, ensure_ascii=False) + "\n")
 
 
+def write_excluded(rows, path: Path):
+    keys = list(JSONL_KEYS) + ["exclude_reason"]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        for r in rows:
+            obj = {k: r.get(k) for k in keys}
+            f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+    inst = [r for r in rows if r.get("installed")]
+    print(f"excluded {len(rows)} (installed {len(inst)}) -> {path}", file=sys.stderr)
+
+
 if __name__ == "__main__":
-    recs = compile_records()
+    recs, excluded = compile_records()
     out = ROOT / "data" / "loras.jsonl"
     write_jsonl(recs, out)
+    write_excluded(excluded, ROOT / "data" / "excluded.jsonl")
     # also dump a rich sidecar for the renderer (includes example prompts)
     rich = ROOT / "data" / ".records-rich.json"
     # keep example_prompt in rich only (jsonl is slimmer but we included most fields)

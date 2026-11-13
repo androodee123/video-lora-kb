@@ -240,9 +240,11 @@ def render_readme(recs, c, written):
         return "\n".join(lines)
     return f"""# Video LoRA knowledge base
 
-Private, comprehensive catalog of **useful video LoRAs** for MiniMax H3, Wan (2.1, 2.2 14B high/low and 5B TI2V), and LTX (LTXV, LTX-2, 2.3, 2.5).
+Private, comprehensive catalog of **video LoRAs only** for MiniMax H3, Wan (2.1 including 1.3B T2V, 2.2 14B high/low and 5B TI2V), and LTX (LTXV, LTX-2, 2.3, 2.5). Rows are LoRA / LoCon / DoRA adapters that can be stacked into T2V or I2V graphs. Speed and distill LoRAs (lightx2v, CausVid) stay in.
 
-Coverage is the full CivitAI inventory for the confirmed `baseModel` strings (paged to exhaustion, plus Most Downloaded / Highest Rated checks), Hugging Face official and community speed/control packs, and the [Fuzz Puppy directory](https://www.fuzzpuppy.com/lora-directory). LoRAs **installed** on the AIOps RAID (`/Volumes/RAID/Lora/{{H3,Wan,LTX2}}`, snapshot 13 Nov 2026) are flagged `installed=true` and sorted first in every table.
+**Out of scope** (image LoRAs, checkpoints, finetunes, merges, full base-model repos, pure workflows, ControlNets that are not LoRAs, VAEs, text encoders, GGUF/quantised full models, and non-video families such as Hunyuan) are not in `data/loras.jsonl`. Installed RAID files that fail this test are moved to [`data/excluded.jsonl`](data/excluded.jsonl) with a reason — they are not deleted. Catalog-only drops are logged there too.
+
+Coverage is the full CivitAI inventory for the confirmed `baseModel` strings (paged to exhaustion, plus Most Downloaded / Highest Rated checks; types `LORA`, `LoCon`, and `DoRA`), Hugging Face official and community speed/control packs, and the [Fuzz Puppy directory](https://www.fuzzpuppy.com/lora-directory). LoRAs **installed** on the AIOps RAID (`/Volumes/RAID/Lora/{{H3,Wan,LTX2}}`, snapshot 13 Nov 2026) are flagged `installed=true` and sorted first in every table.
 
 Research compiled **{DATE_LABEL}**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py` and `scripts/check_new.py` must never download or ingest LoRA files.
 
@@ -271,8 +273,8 @@ A LoRA may appear in more than one category.
 2. Open the family + category page under `families/`. Tables list **installed first**, then catalog entries by popularity (downloads).
 3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md). Per-family prompt templates and trigger usage: [`guides/prompt-patterns.md`](guides/prompt-patterns.md).
 4. Official / utility packs also appear in [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md).
-5. Machine-readable data: [`data/loras.jsonl`](data/loras.jsonl).
-6. Refresh CivitAI/HF metadata: `python3 scripts/harvest.py` (writes `data/raw/`, gitignored). Propose new models since the last harvest: `python3 scripts/check_new.py`.
+5. Machine-readable data: [`data/loras.jsonl`](data/loras.jsonl). Rows that were audited out of the catalog (including installed RAID files that are not video LoRAs) live in [`data/excluded.jsonl`](data/excluded.jsonl) with an `exclude_reason`.
+6. Refresh CivitAI/HF metadata: `python3 scripts/harvest.py` (writes `data/raw/`, gitignored). Propose new video LoRAs since the last harvest: `python3 scripts/check_new.py` (LORA / LoCon / DoRA on confirmed video bases only).
 
 ## Strengths and triggers
 
@@ -292,6 +294,7 @@ Wan 2.2 14B dual-KSampler graphs need **paired HIGH and LOW noise LoRAs** for th
 - `Wan Video 2.2 I2V-A14B`
 - `Wan Video 2.2 T2V-A14B`
 - `Wan Video 2.2 TI2V-5B`
+- `Wan Video 1.3B t2v`
 - `LTXV`
 - `LTXV2`
 - `LTXV 2.3`
@@ -302,7 +305,8 @@ High vs low noise is not a `baseModel` value.
 ## Reproducing the harvest
 
 ```
-python3 scripts/harvest.py --full-sorts --period AllTime   # Newest + Most Downloaded + Highest Rated, all bases
+python3 scripts/harvest.py --full-sorts --period AllTime   # Newest + Most Downloaded + Highest Rated, all bases (types=LORA)
+python3 scripts/harvest.py --full-sorts --period AllTime --types LoCon,DoRA   # LyCORIS adapters on the same video bases
 python3 scripts/harvest.py --keywords                      # CivitAI keyword queries (video bases only)
 python3 scripts/harvest.py --hf-expand                     # broader Hugging Face LoRA search
 python3 scripts/harvest.py --hf-cards                      # README/model cards for Hugging Face rows
