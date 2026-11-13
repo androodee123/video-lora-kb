@@ -1,21 +1,21 @@
 # Wan LoRAs
 
-Installed rows are flagged in every table and sorted first.
+Tables list **accessible** LoRAs only (on Graydient, the AIOps RAID, or both). A *Suggest ingest* block lists high-value candidates that are not yet accessible. Suggestions are not auto-downloaded.
 
-- [Motion](motion.md) — 66 (2 installed)
-- [Camera](camera.md) — 145 (4 installed)
-- [Audio / voice](audio.md) — 3 (0 installed)
-- [Style](style.md) — 498 (1 installed)
-- [Enhancement / quality / speed](enhancement.md) — 981 (30 installed)
-- [Identity / character](identity.md) — 644 (0 installed)
-- [Effects / VFX](effects.md) — 117 (0 installed)
-- [Transitions](transitions.md) — 9 (0 installed)
-- [Lighting](lighting.md) — 10 (0 installed)
-- [Physics / cloth / hair](physics.md) — 19 (0 installed)
-- [NSFW acts and anatomy](nsfw-acts.md) — 634 (34 installed)
-- [Anime / 2D](anime.md) — 373 (1 installed)
-- [Realism](realism.md) — 98 (0 installed)
-- [Character consistency](character-consistency.md) — 6 (0 installed)
-- [Object control](object-control.md) — 1 (0 installed)
-- [Pose / control](pose.md) — 32 (0 installed)
-- [unverified](unverified.md) — 7 (7 installed)
+- [Motion](motion.md) — 3 accessible
+- [Camera](camera.md) — 7 accessible
+- [Audio / voice](audio.md) — 0 accessible
+- [Style](style.md) — 1 accessible
+- [Enhancement / quality / speed](enhancement.md) — 41 accessible
+- [Identity / character](identity.md) — 2 accessible
+- [Effects / VFX](effects.md) — 0 accessible
+- [Transitions](transitions.md) — 0 accessible
+- [Lighting](lighting.md) — 0 accessible
+- [Physics / cloth / hair](physics.md) — 0 accessible
+- [NSFW acts and anatomy](nsfw-acts.md) — 39 accessible
+- [Anime / 2D](anime.md) — 1 accessible
+- [Realism](realism.md) — 0 accessible
+- [Character consistency](character-consistency.md) — 0 accessible
+- [Object control](object-control.md) — 0 accessible
+- [Pose / control](pose.md) — 1 accessible
+- [unverified](unverified.md) — 8 (7 on AIOps)

@@ -42,7 +42,7 @@ FAMILY_ORDER = ("H3", "Wan", "LTX2")
 FAMILY_LABEL = {"H3": "MiniMax H3", "Wan": "Wan 2.1 / 2.2", "LTX2": "LTX-2 / 2.3 / 2.5"}
 # Fixed zip timestamps for deterministic archives (catalog snapshot date).
 ZIP_DATE = (2026, 11, 13, 0, 0, 0)
-EXPECTED_COUNT = 4844
+EXPECTED_COUNT = 391
 EXPECTED_RECIPES = 98
 
 FRONTMATTER = """\
@@ -51,7 +51,7 @@ name: video-lora-kb
 description: >-
   Choose and stack video LoRAs for MiniMax H3, Wan 2.1/2.2 (14B high/low and
   5B TI2V), and LTX-2/2.3/2.5 (T2V and I2V). Use when picking, comparing, or
-  combining video LoRAs. Prefer installed LoRAs when they cover the goal;
+  combining video LoRAs. Prefer LoRAs already on Graydient or the AIOps RAID when they cover the goal;
   never invent triggers or strengths.
 ---
 """
@@ -59,13 +59,13 @@ description: >-
 INTRO = """\
 # Skill: choose a video LoRA
 
-Comprehensive goal→LoRA chooser for MiniMax H3, Wan 2.1 / 2.2 (14B high/low and 5B TI2V), and LTX-2 / 2.3 / 2.5. Prefer **installed** LoRAs when they cover the goal; otherwise recommend a popular catalog or Hugging Face pack. Adult NSFW LoRAs are in scope — describe them factually.
+Comprehensive goal→LoRA chooser for MiniMax H3, Wan 2.1 / 2.2 (14B high/low and 5B TI2V), and LTX-2 / 2.3 / 2.5. Prefer **available** LoRAs (on Graydient, the AIOps RAID, or both) when they cover the goal. Where a high-value candidate is not yet available, add a clearly labelled Suggest ingest line; never auto-download. Adult NSFW LoRAs are in scope — describe them factually.
 
-This is a standalone, prompt-ready export of the private `video-lora-kb` knowledge base (4,844 video LoRAs; RAID snapshot 13 Nov 2026). It stores **metadata only** — no weights.
+This is a standalone, prompt-ready export of the private `video-lora-kb` knowledge base (391 video LoRAs; RAID snapshot 13 Nov 2026). It stores **metadata only** — no weights.
 
 **Never invent a trigger or a strength.** If the catalog says a strength is blank / `not stated`, or a trigger cell is empty, say so and tune on a short test clip. A general H3 starting range of 0.6–0.9 is only a rule of thumb, not per-file data.
 
-Installed names use RAID slugs. Catalog / Hugging Face packs use published names and links. Compact top-N tables at the end list installed LoRAs first, then the rest by downloads. The full 4,844-row catalog is in `video-lora-catalog.json` / `.csv` in the same share pack.
+Names use catalog slugs. Compact top-N tables list accessible LoRAs (Graydient+AIOps, then AIOps, then Graydient). Candidates that are not yet available appear only as Suggest ingest. The accessible catalog is in `video-lora-catalog.json` / `.csv` in the same share pack.
 
 """
 
@@ -256,7 +256,7 @@ def build_top_sections(rows: list[dict], per_cat: int) -> str:
     parts = [
         "## Top LoRAs per family and category",
         "",
-        f"Up to {per_cat} LoRAs per category: **installed first**, then by download count. "
+        f"Up to {per_cat} LoRAs per category: **accessible first** (Graydient+AIOps, then AIOps, then Graydient), then by download count. "
         "Trigger and strength are shown only when already recorded in the catalog — never invented. "
         "A blank trigger or strength means `not stated`. A LoRA may appear in more than one category. "
         f"Full catalog ({len(rows)} rows): `video-lora-catalog.json` / `video-lora-catalog.csv`.",
@@ -370,7 +370,7 @@ This pack is a privacy-preserving export of the private `video-lora-kb` knowledg
 ## Files
 
 - `video-lora-skill.md` — single consolidated, prompt-ready skill (selection logic, stacking, I2V/T2V usage, prompt patterns, all 98 recipes, compact top LoRAs per family/category). Target size is under ~150 KB so it fits in an AI context window.
-- `video-lora-catalog.json` / `video-lora-catalog.csv` — the full 4,844-row catalog with useful fields only (id, family, base, category, name, trigger, strength, installed, url, downloads, short example prompt).
+- `video-lora-catalog.json` / `video-lora-catalog.csv` — the full accessible-row catalog with useful fields only (id, family, base, category, name, trigger, strength, installed, url, downloads, short example prompt).
 - `HOW-TO-USE.md` — this file.
 - `video-lora-kb-claude-skill.zip` — Anthropic Agent Skills layout (`video-lora-kb/SKILL.md` plus `references/` guides and family category pages).
 
@@ -378,7 +378,7 @@ This pack is a privacy-preserving export of the private `video-lora-kb` knowledg
 
 Attach `video-lora-skill.md` to the chat, or add it to a Project / Gem / custom GPT knowledge file. For lookups beyond the compact tables, also attach `video-lora-catalog.json` (or the CSV). A typical starter instruction:
 
-> Use the attached video LoRA skill to choose and stack LoRAs for MiniMax H3, Wan, and LTX. Prefer installed LoRAs when they cover the goal. Never invent a trigger or a strength; if the skill or catalog leaves them blank, say so and suggest a short test clip.
+> Use the attached video LoRA skill to choose and stack LoRAs for MiniMax H3, Wan, and LTX. Prefer LoRAs already on Graydient or the AIOps RAID. Suggest ingest only when the documented rule says so, and never auto-download. Never invent a trigger or a strength; if the skill or catalog leaves them blank, say so and suggest a short test clip.
 
 ## Claude (Agent Skill)
 

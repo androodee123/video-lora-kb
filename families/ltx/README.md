@@ -1,21 +1,21 @@
 # LTX2 LoRAs
 
-Installed rows are flagged in every table and sorted first.
+Tables list **accessible** LoRAs only (on Graydient, the AIOps RAID, or both). A *Suggest ingest* block lists high-value candidates that are not yet accessible. Suggestions are not auto-downloaded.
 
-- [Motion](motion.md) — 34 (4 installed)
-- [Camera](camera.md) — 44 (2 installed)
-- [Audio / voice](audio.md) — 16 (1 installed)
-- [Style](style.md) — 175 (9 installed)
-- [Enhancement / quality / speed](enhancement.md) — 313 (13 installed)
-- [Identity / character](identity.md) — 148 (0 installed)
-- [Effects / VFX](effects.md) — 26 (1 installed)
-- [Transitions](transitions.md) — 15 (0 installed)
-- [Lighting](lighting.md) — 7 (0 installed)
-- [Physics / cloth / hair](physics.md) — 9 (0 installed)
-- [NSFW acts and anatomy](nsfw-acts.md) — 121 (19 installed)
-- [Anime / 2D](anime.md) — 64 (4 installed)
-- [Realism](realism.md) — 21 (1 installed)
-- [Character consistency](character-consistency.md) — 1 (0 installed)
-- [Pose / control](pose.md) — 15 (0 installed)
-- [Lipsync](lipsync.md) — 2 (0 installed)
-- [unverified](unverified.md) — 4 (4 installed)
+- [Motion](motion.md) — 4 accessible
+- [Camera](camera.md) — 5 accessible
+- [Audio / voice](audio.md) — 1 accessible
+- [Style](style.md) — 11 accessible
+- [Enhancement / quality / speed](enhancement.md) — 17 accessible
+- [Identity / character](identity.md) — 2 accessible
+- [Effects / VFX](effects.md) — 2 accessible
+- [Transitions](transitions.md) — 0 accessible
+- [Lighting](lighting.md) — 0 accessible
+- [Physics / cloth / hair](physics.md) — 0 accessible
+- [NSFW acts and anatomy](nsfw-acts.md) — 22 accessible
+- [Anime / 2D](anime.md) — 5 accessible
+- [Realism](realism.md) — 1 accessible
+- [Character consistency](character-consistency.md) — 0 accessible
+- [Pose / control](pose.md) — 0 accessible
+- [Lipsync](lipsync.md) — 0 accessible
+- [unverified](unverified.md) — 5 (4 on AIOps)

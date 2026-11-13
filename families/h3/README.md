@@ -1,22 +1,22 @@
 # H3 LoRAs
 
-Installed rows are flagged in every table and sorted first.
+Tables list **accessible** LoRAs only (on Graydient, the AIOps RAID, or both). A *Suggest ingest* block lists high-value candidates that are not yet accessible. Suggestions are not auto-downloaded.
 
-- [Motion](motion.md) — 51 (14 installed)
-- [Camera](camera.md) — 61 (12 installed)
-- [Audio / voice](audio.md) — 41 (3 installed)
-- [Style](style.md) — 310 (46 installed)
-- [Enhancement / quality / speed](enhancement.md) — 501 (140 installed)
-- [Identity / character](identity.md) — 299 (24 installed)
-- [Effects / VFX](effects.md) — 34 (9 installed)
-- [Transitions](transitions.md) — 6 (2 installed)
-- [Lighting](lighting.md) — 6 (1 installed)
-- [Physics / cloth / hair](physics.md) — 25 (12 installed)
-- [NSFW acts and anatomy](nsfw-acts.md) — 234 (96 installed)
-- [Anime / 2D](anime.md) — 90 (15 installed)
-- [Realism](realism.md) — 76 (10 installed)
-- [Character consistency](character-consistency.md) — 3 (0 installed)
-- [Object control](object-control.md) — 3 (1 installed)
-- [Pose / control](pose.md) — 10 (1 installed)
-- [Lipsync](lipsync.md) — 2 (1 installed)
-- [unverified](unverified.md) — 40 (40 installed)
+- [Motion](motion.md) — 15 accessible
+- [Camera](camera.md) — 12 accessible
+- [Audio / voice](audio.md) — 3 accessible
+- [Style](style.md) — 49 accessible
+- [Enhancement / quality / speed](enhancement.md) — 153 accessible
+- [Identity / character](identity.md) — 25 accessible
+- [Effects / VFX](effects.md) — 9 accessible
+- [Transitions](transitions.md) — 2 accessible
+- [Lighting](lighting.md) — 1 accessible
+- [Physics / cloth / hair](physics.md) — 14 accessible
+- [NSFW acts and anatomy](nsfw-acts.md) — 110 accessible
+- [Anime / 2D](anime.md) — 17 accessible
+- [Realism](realism.md) — 11 accessible
+- [Character consistency](character-consistency.md) — 0 accessible
+- [Object control](object-control.md) — 1 accessible
+- [Pose / control](pose.md) — 2 accessible
+- [Lipsync](lipsync.md) — 1 accessible
+- [unverified](unverified.md) — 46 (40 on AIOps)
