@@ -69,8 +69,12 @@ def links(r):
     parts = []
     if u.get("civitai"):
         parts.append(f"[CivitAI]({u['civitai']})")
-    if u.get("huggingface"):
-        parts.append(f"[HF]({u['huggingface']})")
+    hf = u.get("huggingface")
+    gd = u.get("graydient_hf")
+    if hf:
+        parts.append(f"[HF]({hf})")
+    if gd and gd != hf:
+        parts.append(f"[Graydient HF]({gd})")
     if u.get("civitai_skeleton") and not u.get("civitai"):
         parts.append(f"[skeleton]({u['civitai_skeleton']})")
     return ", ".join(parts) or "—"
@@ -99,11 +103,9 @@ def table(rows):
     return "\n".join(lines)
 
 def sort_rows(rows):
-    lab_ord = {R.ON_GRAYDIENT: 0, R.TO_ADD: 1, "candidate": 2}
     def key(r):
-        lab = R.graydient_status(r)
         dl = -(r.get("downloads") or 0)
-        return (lab_ord.get(lab, 9), dl, (r.get("slug") or r["file"]))
+        return (R.status_rank(r), dl, (r.get("slug") or r["file"]))
     return sorted(rows, key=key)
 
 def counts(recs, cands=None):
@@ -111,8 +113,8 @@ def counts(recs, cands=None):
     out = {}
     for fam in ("H3", "Wan", "LTX2"):
         sub = [r for r in recs if r["family"] == fam]
-        g = [r for r in sub if R.graydient_status(r) == R.ON_GRAYDIENT]
-        to_add = [r for r in sub if R.graydient_status(r) == R.TO_ADD]
+        g = [r for r in sub if R.is_on_graydient(r)]
+        to_add = [r for r in sub if R.is_to_add(r)]
         a = [r for r in sub if r.get("aiops") or r.get("installed")]
         inst = a
         out[fam] = {
@@ -156,7 +158,7 @@ def suggest_section(fam, cat, accessible_rows, all_candidates):
     lines = [
         "## Suggest ingest",
         "",
-        "These are **not** on Graydient or the AIOps RAID yet. Suggestion only — "
+        "These are **not** in the available Graydient set yet. Suggestion only — "
         "download and ingest them yourself with the civit-to-graydient pipeline if you want them. "
         "**Nothing here is auto-downloaded.**",
         "",
@@ -193,16 +195,17 @@ def render_families(recs, rich_by_key, candidates=None):
             if not rows and not suggest:
                 continue
             inst_n = sum(1 for r in rows if r.get("aiops") or r.get("installed"))
-            gd_n = sum(1 for r in rows if R.graydient_status(r) == R.ON_GRAYDIENT)
-            to_add_n = sum(1 for r in rows if R.graydient_status(r) == R.TO_ADD)
+            gd_n = sum(1 for r in rows if R.is_on_graydient(r))
+            to_add_n = sum(1 for r in rows if R.is_to_add(r))
             if rows:
                 intro = (
                     f"{len(rows)} available Graydient LoRAs ({gd_n} already on Graydient, "
-                    f"{to_add_n} to add to Graydient). "
+                    f"{to_add_n} still to add to Graydient). "
                     "Everything in this table is part of the Graydient set: files already in "
-                    "`Octavian123/civit` are listed first; RAID files that still need ingest "
-                    "are labelled *to add to Graydient* and must be run through civit-to-graydient "
-                    "before they appear in the concept browser. There is no AIOps-only category. "
+                    "`Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; "
+                    "RAID files that still need ingest are labelled *to add to Graydient* "
+                    "(or *to add to Graydient (no public source; needs local upload)* when there is no public URL) "
+                    "and must be ingested before they appear in the concept browser. There is no AIOps-only category. "
                     "Nothing is auto-downloaded."
                 )
             else:
@@ -283,8 +286,8 @@ def render_families(recs, rich_by_key, candidates=None):
         written[fam].append(("unverified", "unverified.md", len(unver), sum(1 for r in unver if r.get("aiops") or r.get("installed"))))
         # family index
         idx = [f"# {fam} LoRAs\n",
-               "Tables list **accessible** LoRAs only (on Graydient, the AIOps RAID, or both). "
-               "A *Suggest ingest* block lists high-value candidates that are not yet accessible. "
+               "Tables list **available** Graydient LoRAs only (already on Graydient, or still to add). "
+               "A *Suggest ingest* block lists high-value candidates that are not yet available. "
                "Suggestions are not auto-downloaded.\n"]
         for cat, fname, n, inst_n in written[fam]:
             title = CAT_TITLE.get(cat, cat)
@@ -324,7 +327,7 @@ def render_readme(recs, c, written, cand_n=0):
         return "\n".join(lines)
     return f"""# Video LoRA knowledge base
 
-Private catalog of **available Graydient video LoRAs** for MiniMax H3, Wan (2.1 including 1.3B T2V, 2.2 14B high/low and 5B TI2V), and LTX (LTXV, LTX-2, 2.3, 2.5). Every row in `data/loras.jsonl` is a Graydient LoRA. `graydient_status` is **on Graydient** when a matching `{{slug}}.safetensors` is already in Hugging Face `Octavian123/civit`, or **to add to Graydient** when the file is on the 13 Nov 2026 RAID snapshot (`/Volumes/RAID/Lora/{{H3,Wan,LTX2}}`, `aiops=true`) and still needs civit-to-graydient ingest before it appears in the concept browser. There is no “AIOps only” category — anything on the RAID must be added to Graydient.
+Private catalog of **available Graydient video LoRAs** for MiniMax H3, Wan (2.1 including 1.3B T2V, 2.2 14B high/low and 5B TI2V), and LTX (LTXV, LTX-2, 2.3, 2.5). Every row in `data/loras.jsonl` is a Graydient LoRA. `graydient_status` is **on Graydient** when a matching weight is already in Hugging Face `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private`, or **to add to Graydient** (including **to add to Graydient (no public source; needs local upload)**) when the file is on the 13 Nov 2026 RAID snapshot (`/Volumes/RAID/Lora/{{H3,Wan,LTX2}}`, `aiops=true`) and still needs ingest before it appears in the concept browser. There is no “AIOps only” category — anything on the RAID must be added to Graydient.
 
 Public CivitAI / Hugging Face video LoRAs that are not yet in this set live in [`data/candidates.jsonl`](data/candidates.jsonl) with an `ingest_priority` score. They are suggested for ingest when they fill a gap or clearly outrank what is already available — never auto-downloaded. The RAID files that still need ingest are listed in [`data/graydient_ingest_queue.md`](data/graydient_ingest_queue.md).
 
@@ -341,7 +344,7 @@ Research compiled **{DATE_LABEL}**. Many entries are adult NSFW and are document
 | LTX-2 / 2.3 / 2.5 | {l['on_graydient']} | {l['to_add']} | {l['total']} | {l['candidates']} |
 | **Total** | **{h['on_graydient']+w['on_graydient']+l['on_graydient']}** | **{h['to_add']+w['to_add']+l['to_add']}** | **{h['total']+w['total']+l['total']}** | **{h['candidates']+w['candidates']+l['candidates']}** |
 
-Recommend a LoRA that is already on Graydient first. If the pick is labelled *to add to Graydient*, ingest it with civit-to-graydient before using it in the concept browser (not auto-downloaded). Suggest ingest of a public candidate when the category or goal has no available option, or when a candidate is clearly stronger (at least 2,000 downloads and at least 2× the top available download count in that category) or is an official utility pack with no available equivalent. The full rule is in [`SKILL.md`](SKILL.md).
+Recommend a LoRA that is already on Graydient first. If the pick is labelled *to add to Graydient*, ingest it before using it in the concept browser (not auto-downloaded). RAID-only files with no public URL need a local upload. Suggest ingest of a public candidate when the category or goal has no available option, or when a candidate is clearly stronger (at least 2,000 downloads and at least 2× the top available download count in that category) or is an official utility pack with no available equivalent. The full rule is in [`SKILL.md`](SKILL.md).
 
 ### Counts by category (available)
 
@@ -353,7 +356,7 @@ A LoRA may appear in more than one category.
 
 ## How to use this repo
 
-1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser. Recipes recommend available Graydient LoRAs first. Picks labelled *to add to Graydient* must be ingested before use. When the rule says so, a *Suggest ingest* line points at a public candidate.
+1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser. Recipes recommend available Graydient LoRAs first. Picks labelled *to add to Graydient* must be ingested (or locally uploaded if there is no public source) before use. When the rule says so, a *Suggest ingest* line points at a public candidate.
 2. Open the family + category page under `families/`. Tables list available LoRAs (on Graydient first, then to add), then a *Suggest ingest* block when the rule fires.
 3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md). Per-family prompt templates and trigger usage: [`guides/prompt-patterns.md`](guides/prompt-patterns.md).
 4. Official / utility packs also appear in [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md). If they are not already on Graydient, treat them as ingest candidates.
@@ -407,7 +410,7 @@ python3 scripts/harvest.py --hf-cards                      # README/model cards 
 python3 scripts/harvest.py --enrich --enrich-images        # full /models/{{id}} + example-prompt images API
 python3 scripts/harvest.py --full-sorts --bases 'Wan Video 1.3B t2v'
 python3 scripts/build_kb.py
-python3 scripts/filter_accessible.py    # available Graydient set (on Graydient or to add); rest -> data/candidates.jsonl
+python3 scripts/filter_accessible.py    # rematch civit + civit2 + private; available set (on Graydient or to add); rest -> data/candidates.jsonl
 python3 scripts/render_kb.py
 python3 scripts/export_pack.py
 ```
@@ -416,7 +419,7 @@ Raw API dumps live in `data/raw/` and are gitignored (tens of megabytes). See `d
 
 ## Sources
 
-- Hugging Face `Octavian123/civit` file listing (Graydient access). Metadata only — weights are never downloaded by these scripts.
+- Hugging Face `Octavian123/civit`, `Octavian123/civit2`, and `Octavian123/private` file listings (Graydient access). Metadata only — weights are never downloaded by these scripts.
 - AIOps RAID inventory and sidecars (`/Volumes/RAID/Lora/{{H3,Wan,LTX2}}`, snapshot 13 Nov 2026).
 - CivitAI public API, metadata only (every confirmed baseModel paged with Newest, Most Downloaded, and Highest Rated, including `period=AllTime`; keyword queries; full `/api/v1/models/{{id}}` descriptions and `/api/v1/images` example prompts when the public API returns `meta.prompt`).
 - Hugging Face Hub search (author lists plus `models?search=` / pipeline tags for Wan-AI / Wan2.1 / Wan2.2, Lightricks / LTX, MiniMax, lightx2v, alibaba-pai, and related community packs).

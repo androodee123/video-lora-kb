@@ -1,16 +1,16 @@
 # Wan: Pose / control
 
-1 available Graydient LoRAs (1 already on Graydient, 0 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+1 available Graydient LoRAs (1 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `zero-two-dance` | `doing the zero-two dance`, `arms are up with her hands behind her head as she sways her hips from side the side` | not stated | T2V | Zero-Two Dance | 5,226 | on Graydient, verified | [CivitAI](https://civitai.com/models/1819613?modelVersionId=2412504) |
+| `zero-two-dance` | `doing the zero-two dance`, `arms are up with her hands behind her head as she sways her hips from side the side` | not stated | T2V | Zero-Two Dance | 5,226 | on Graydient, verified | [CivitAI](https://civitai.com/models/1819613?modelVersionId=2412504), [HF](https://huggingface.co/Octavian123/civit/blob/main/Zero-Two Dance - one.wan - zerto-two-dance-wan-one-e18-az420.safetensors) |
 
 ## Suggest ingest
 
-These are **not** on Graydient or the AIOps RAID yet. Suggestion only — download and ingest them yourself with the civit-to-graydient pipeline if you want them. **Nothing here is auto-downloaded.**
+These are **not** in the available Graydient set yet. Suggestion only — download and ingest them yourself with the civit-to-graydient pipeline if you want them. **Nothing here is auto-downloaded.**
 
 | slug / file | trigger | strength | downloads | ingest priority | why | links |
 |---|---|---|---:|---:|---|---|
@@ -43,5 +43,5 @@ realistic`
 
 Compatibility: mode: T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1819613?modelVersionId=2412504)
+Source: [CivitAI](https://civitai.com/models/1819613?modelVersionId=2412504), [HF](https://huggingface.co/Octavian123/civit/blob/main/Zero-Two Dance - one.wan - zerto-two-dance-wan-one-e18-az420.safetensors)
 

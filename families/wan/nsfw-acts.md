@@ -1,54 +1,54 @@
 # Wan: NSFW acts and anatomy
 
-39 available Graydient LoRAs (33 already on Graydient, 6 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+39 available Graydient LoRAs (38 already on Graydient, 1 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `cumshot-wan` | `cumshot-wan` | 1 | I2V and T2V | Wan Cumshot | 117,152 | on Graydient, verified | [CivitAI](https://civitai.com/models/1350447?modelVersionId=1602715) |
-| `masturbation-cumshot-for-wan-i2v-14b-v1-1-masturbation-cumshot-v1-1-e310` | `which lands on her {thighs|pelvis|stomach|face|breasts}`, `She moves her hand rapidly up and down the shaft of her penis and she ejaculates white sticky liquid from her penis` | not stated | I2V and T2V | Masturbation Cumshot for Wan I2V 14B | 33,568 | on Graydient, verified | [CivitAI](https://civitai.com/models/1368557?modelVersionId=1807318) |
-| `sh00tz-high-wan` | `sh00tz`, `sh00t`, `c0hf` | 0.9–1.0 | I2V | sh00tz : series of cumshots | 32,531 | on Graydient, verified | [CivitAI](https://civitai.com/models/2429545?modelVersionId=2731730) |
-| `facial-cumshots-wan` | `A woman is receiving a load of cum on her face`, `wmgtnfcl, A woman is getting cum on her face from a man's penis.`, `A woman is receiving a load of cum on her face, a man holding his penis in his hand and stroking it ejaculates cum or white semen into the woman's face.`, `wmgtnfcl, A woman is getting cum on her face from a man's penis. ` | not stated | T2V | Facial Cumshots | 28,218 | on Graydient, verified | [CivitAI](https://civitai.com/models/1436911?modelVersionId=1624240) |
-| `brutal-dildo-wan` | `using a brutal dildo`, `using a brutal dildo inside her vagina, vaginal`, `using a brutal dildo inside her anus, anal`, `she is riding the dildo` | not stated | T2V | Brutal Dildo | 17,965 | on Graydient, verified | [CivitAI](https://civitai.com/models/1442486?modelVersionId=2672954) |
-| `brutal-dildo-wan-2` | `using a brutal dildo`, `using a brutal dildo inside her vagina, vaginal`, `using a brutal dildo inside her anus, anal`, `she is riding the dildo` | not stated | T2V | Brutal Dildo | 17,965 | on Graydient, verified | [CivitAI](https://civitai.com/models/1442486?modelVersionId=2672954) |
-| `handjobs-wan` | `handjobs`, `A woman is performing a handjob on a penis, she moves her hand quickly up and down in a rhythmic motion.` | not stated | T2V | handjobs | 17,953 | on Graydient, verified | [CivitAI](https://civitai.com/models/1950988?modelVersionId=2208094) |
-| `standing-sex-wan` | `A man and a woman are having standing sex`, `A man and a woman are having standing sex, the man is standing behind the woman and is thrusting his hip while penetrating her, they are having passionate sex.` | not stated | T2V | Standing Sex | 14,229 | on Graydient, verified | [CivitAI](https://civitai.com/models/1934246?modelVersionId=2189213) |
-| `blowjobs-man-in-frame-wan` | `A woman is performing oral sex on a man's penis.`, `On one side and in the foreground a woman is performing oral sex on a man's penis while he is relaxed and appears on the other side within the frame.`, `On one side and in the foreground a woman is performing oral sex on a man's penis while he is relaxed and appears on the other side within the frame. ` | not stated | T2V | Blowjobs - Man in Frame | 13,896 | on Graydient, verified | [CivitAI](https://civitai.com/models/1454728?modelVersionId=1644836) |
-| `wan22-i2v-futa-cowgirl-high-noise` | `wan22_futa_cowgirl_512`, `a transgender woman having anal sex in cowgirl position`, `she bounces up and down on the penis as it slides all the way in and out of her asshole. she is having anal sex riding on top.` | not stated | I2V and T2V | Wan 2.2 / 2.1 - Trans & Futanari Cowgirl - i2v - t2v | 13,260 | on Graydient, verified | [CivitAI](https://civitai.com/models/1375170?modelVersionId=2297958) |
-| `wan-2-2-wan-2-1-trans-futanari-missionary-i2v` | `futa missionary`, `Trans woman laying down.`, `Thrusting all the way in and out of her asshole.`, `Her penis is erect. Anal penetration.` | 1.0 | I2V and T2V | Wan 2.2 / Wan 2.1 - Trans & Futanari Missionary - I2V | 8,616 | on Graydient, verified | [CivitAI](https://civitai.com/models/1598775?modelVersionId=1809196) |
-| `licking-breasts-wan` | `licking breasts`, `pusfix` | not stated | T2V | Pussy FIX | 8,270 | on Graydient, verified | [CivitAI](https://civitai.com/models/1953143?modelVersionId=2210535) |
-| `cowgirl-sex-position-wan` | `A woman is having sex with a man in a cowgirl position`, `she is straddling on top of him`, `A woman is having sex with a man in a cowgirl position, she is straddling on top of him, her body is moving up and down rapidly as his penis is penetrating her.` | not stated | I2V and T2V | Cowgirl Sex Position | 7,772 | on Graydient, verified | [CivitAI](https://civitai.com/models/2065218?modelVersionId=2336951) |
-| `wan-2-2-wan-2-1-taker-pov-fellatio-i2v` | `taker POV fellatio`, `Moving towards and away from her pelvis.` | not stated | I2V and T2V | Wan 2.2 / Wan 2.1 - Taker POV Fellatio - I2V | 6,996 | on Graydient, verified | [CivitAI](https://civitai.com/models/1518243?modelVersionId=2591003) |
-| `dildoing-wan` | `pumping a dildo inside her vagina`, `pumping a dildo insider her vagina` | not stated | not stated | dildoing | 5,797 | on Graydient, verified | [CivitAI](https://civitai.com/models/2903074?modelVersionId=3282820) |
-| `onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan` | `POV SEX, A toy figurine is placed there. A first-person hand grabs the toy figurine. A first-person hand spreads the figurine's legs. A first-person perspective hand deeply inserts its penis into the figure's vagina. The figure's belly swells greatly.` | not stated | I2V | Onaho Figure POV SEX (WAN2.2 I2V 14B) insert 2 stomach bulge (fairy size Sex) | 4,679 | on Graydient, verified | [CivitAI](https://civitai.com/models/2539592?modelVersionId=2854125) |
-| `choking-missionary-il-noobai-wan-2-1-shrekman-hentai-loras` | `CH0KEMV1. This video depicts the male POV scene of missionary position with chocking focused on the female the male is out of frame holds the the female throat as he thrust his penis inside her vagina.` | not stated | I2V and T2V | Choking Missionary IL&NoobAI + WAN 2.1 | 4,655 | on Graydient, verified | [CivitAI](https://civitai.com/models/1258291?modelVersionId=2051163) |
-| `reverse-cowgirl-trans-wan` | `A beautiful transsexual woman with a penis is having anal sex with a man`, `A beautiful transsexual woman with a penis is having anal sex with a man, she is riding his penis while looking at the viewer` | not stated | T2V | Reverse Cowgirl Trans | 4,137 | on Graydient, verified | [CivitAI](https://civitai.com/models/1927612?modelVersionId=2181700) |
-| `extreme-ejaculation-wan` | `A woman receives an extreme ejaculation load to her face. A tight low-angle close-up captures the ex`, `A woman receives an extreme ejaculation load to her face. A tight low-angle close-up captures the explosive high-velocity release from the massive veiny cock, thick ropes of hot cum erupting in powerful arcing streams that splatter heavily across her upturned face, viscous fluid compressing and sliding in weighty inertia-driven trails, eyes squeeze shut in overwhelmed intensity` | not stated | T2V | Extreme Ejaculation | 3,352 | on Graydient, verified | [CivitAI](https://civitai.com/models/2680222?modelVersionId=3009502) |
-| `cum-on-figureexcessive-wan21` | `cum-on-figureexcessive-wan21`, `The penis repeatedly ejaculates into the figure doll, which is completely fixed and motionless. Her face and whole body are covered with a large amount of translucent white semen, and the semen drips slowly.` | not stated | I2V | フィギュアぶっかけ/cum on figure/excessive bukkake/wan2.2 I2V | 3,314 | on Graydient, verified | [CivitAI](https://civitai.com/models/2520511?modelVersionId=2832880) |
-| `wan-2-2-i2v-pegging` | — | not stated | I2V | WAN 2.2 I2V - Pegging | 3,042 | on Graydient, verified | [CivitAI](https://civitai.com/models/2410338?modelVersionId=2710056) |
-| `rough-sex-anal-real-wan-2-2-i2v-t2v-wan` | `rough sex anal real wan 2 2 i2v t2v wan` | 0.5–0.8 | I2V and T2V | Rough sex (anal) [Real] | 2,983 | on Graydient, verified | [CivitAI](https://civitai.com/models/2432655?modelVersionId=2735253) |
-| `anal-no-boy-wan` | `anal no boy wan` | not stated | I2V | anal ｜ no boy | 2,955 | on Graydient, verified | [CivitAI](https://civitai.com/models/2739534?modelVersionId=3080785) |
-| `onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan` | `POV sex. Very intense sex. Her body shakes violently. penis thrusts violently. penis ejaculates. She violently vomits semen. Semen overflows from her mouth. Semen flows slowly, forming thin streams. Semen overflows from her vagina. Semen is splattered all over her body.` | not stated | I2V | Onaho Figure POV SEX (WAN2.2 I2V 14B) Vomiting Cum Bukkake | 2,955 | on Graydient, verified | [CivitAI](https://civitai.com/models/2544890?modelVersionId=2859997) |
-| `onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan` | `POV Oral sex,  Sex toy figurine is placed there.  first-person Giant hand grabs the Sex toy figurine.  figurine's breasts are exposed. first-person Giant penis into the Sex toy figure's mouth.  figurine's body shakes violently during intense oral sex.` | not stated | I2V | Onaho Figure POV Oral SEX (WAN2.2 I2V 14B) Extreme Deepthroat Irrumatio | 2,795 | on Graydient, verified | [CivitAI](https://civitai.com/models/2596754?modelVersionId=2917002) |
-| `side-sex-spooning-trans-wan` | `A transsexual woman is lying on her side with her penis and testicles visible`, `A transsexual woman is lying on her side with her penis and testicles visible, behind her there is a man also lying on his side and penetrating her anally with his penis`, `A transsexual woman is lying on her side with her penis and testicles visible, behind her there is a man also lying on his side and penetrating her anally with his penis.` | not stated | T2V | Side sex/spooning Trans | 2,642 | on Graydient, verified | [CivitAI](https://civitai.com/models/1927742?modelVersionId=2181862) |
-| `onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan` | `There is a small figurine. giant penis appears. figurine's clothes automatically come off. figurine happily embraces the penis. figurine caresses the penis with its whole body. giant penis ejaculates, splattering semen all over the figurine. figurine becomes covered in semen.` | not stated | I2V | Onaho Figure Bukkake (WAN2.2 I2V 14B) Hugging penis body job (fairy size) | 2,481 | on Graydient, verified | [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445) |
-| `wan-2-2-i2v-gay-anal-motion` | `gayanal` | not stated | I2V | Wan 2.2 I2V - Gay Anal (motion) | 1,006 | on Graydient, verified | [CivitAI](https://civitai.com/models/2889631?modelVersionId=3279268) |
-| `quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan` | `quorum general nsfw for wan 2 2 i2v a14b wan` | not stated | I2V | Quorum - general NSFW LoRA for Wan 2.2 I2V-A14B | 649 | on Graydient, verified | [CivitAI](https://civitai.com/models/2918508?modelVersionId=3301880) |
-| `wan-2-2-i2v-gay-riding-motion-anal-wan` | `gayriding` | not stated | I2V | Wan 2.2 I2V - Gay Riding (motion) (anal) | 601 | on Graydient, verified | [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864) |
-| `facial-cumshot-crossfire-wan` | `cstm_actn_facial` | not stated | I2V | Facial Cumshot Crossfire | 516 | on Graydient, verified | [CivitAI](https://civitai.com/models/2913261?modelVersionId=3295567) |
-| `gay-gooning-wan2-2-t2v-wan` | `gay gooning wan2 2 t2v wan` | 0.8 | T2V | Gay Gooning Wan2.2 T2V | 165 | on Graydient, verified | [CivitAI](https://civitai.com/models/2904116?modelVersionId=3284086) |
-| `wan22-i2v-futa-missionary-high-noise` | `wan22_i2v_futa_missionary`, `futa missionary` | not stated | not stated | wan22 i2v futa missionary high noise | — | on Graydient, unverified | — |
-| `wan2-2-i2v-tentacled-v2-1-high-tawslora` | `Wan2.2 I2V Tentacled v2.1 High tawsLora`, `tentaclesex`, `Tentaclesex` | not stated | I2V and T2V | Tentacled - Wan2.2-14B | 22,149 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/1853189?modelVersionId=2543800) |
-| `wan2-2-i2v-tentacled-v2-1-low-tawslora` | `Wan2.2 I2V Tentacled v2.1 Low tawsLora`, `tentaclesex`, `Tentaclesex` | not stated | I2V and T2V | Tentacled - Wan2.2-14B | 22,149 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/1853189?modelVersionId=2543800) |
-| `wan22-i2v-futa-cowgirl-low-noise` | `wan22_futa_cowgirl_512`, `a transgender woman having anal sex in cowgirl position`, `she bounces up and down on the penis as it slides all the way in and out of her asshole. she is having anal sex riding on top.` | not stated | I2V and T2V | Wan 2.2 / 2.1 - Trans & Futanari Cowgirl - i2v - t2v | 13,260 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/1375170?modelVersionId=2297958) |
-| `wan2-1-i2v-480p-flaccid-v1-0` | `flaccid-v0.6-musubi`, `wan2.1 i2v 480p flaccid`, `penis`, `bounce`, `swing` | not stated | I2V | Flaccid Penis | 5,822 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/1795584?modelVersionId=2032017) |
-| `wanfutaonfuta` | `WanFutaonFuta`, `futa on futa` | not stated | T2V | Wan Futa on Futa - Penis Motion Modifier | 1,498 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929) |
-| `wan22-i2v-futa-missionary-low-noise` | `wan22_i2v_futa_missionary`, `futa missionary` | not stated | not stated | wan22 i2v futa missionary low noise | — | to add to Graydient, unverified | — |
+| `cumshot-wan` | `cumshot-wan` | 1 | I2V and T2V | Wan Cumshot | 117,152 | on Graydient, verified | [CivitAI](https://civitai.com/models/1350447?modelVersionId=1602715), [HF](https://huggingface.co/Octavian123/civit/blob/main/cumshot-wan.safetensors) |
+| `masturbation-cumshot-for-wan-i2v-14b-v1-1-masturbation-cumshot-v1-1-e310` | `which lands on her {thighs|pelvis|stomach|face|breasts}`, `She moves her hand rapidly up and down the shaft of her penis and she ejaculates white sticky liquid from her penis` | not stated | I2V and T2V | Masturbation Cumshot for Wan I2V 14B | 33,568 | on Graydient, verified | [CivitAI](https://civitai.com/models/1368557?modelVersionId=1807318), [HF](https://huggingface.co/Octavian123/civit/blob/main/Masturbation Cumshot for Wan I2V 14B - v1.1 - masturbation_cumshot_v1.1_e310.safetensors) |
+| `sh00tz-high-wan` | `sh00tz`, `sh00t`, `c0hf` | 0.9–1.0 | I2V | sh00tz : series of cumshots | 32,531 | on Graydient, verified | [CivitAI](https://civitai.com/models/2429545?modelVersionId=2731730), [HF](https://huggingface.co/Octavian123/civit/blob/main/sh00tz-high-wan.safetensors) |
+| `facial-cumshots-wan` | `A woman is receiving a load of cum on her face`, `wmgtnfcl, A woman is getting cum on her face from a man's penis.`, `A woman is receiving a load of cum on her face, a man holding his penis in his hand and stroking it ejaculates cum or white semen into the woman's face.`, `wmgtnfcl, A woman is getting cum on her face from a man's penis. ` | not stated | T2V | Facial Cumshots | 28,218 | on Graydient, verified | [CivitAI](https://civitai.com/models/1436911?modelVersionId=1624240), [HF](https://huggingface.co/Octavian123/civit/blob/main/facial-cumshots-wan.safetensors) |
+| `wan2-2-i2v-tentacled-v2-1-high-tawslora` | `Wan2.2 I2V Tentacled v2.1 High tawsLora`, `tentaclesex`, `Tentaclesex` | not stated | I2V and T2V | Tentacled - Wan2.2-14B | 22,149 | on Graydient, verified | [CivitAI](https://civitai.com/models/1853189?modelVersionId=2543800), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wan2-2-i2v-tentacled-v2-1-high-tawslora.safetensors) |
+| `wan2-2-i2v-tentacled-v2-1-low-tawslora` | `Wan2.2 I2V Tentacled v2.1 Low tawsLora`, `tentaclesex`, `Tentaclesex` | not stated | I2V and T2V | Tentacled - Wan2.2-14B | 22,149 | on Graydient, verified | [CivitAI](https://civitai.com/models/1853189?modelVersionId=2543800), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wan2-2-i2v-tentacled-v2-1-low-tawslora.safetensors) |
+| `brutal-dildo-wan` | `using a brutal dildo`, `using a brutal dildo inside her vagina, vaginal`, `using a brutal dildo inside her anus, anal`, `she is riding the dildo` | not stated | T2V | Brutal Dildo | 17,965 | on Graydient, verified | [CivitAI](https://civitai.com/models/1442486?modelVersionId=2672954), [HF](https://huggingface.co/Octavian123/civit/blob/main/brutal-dildo-wan.safetensors) |
+| `brutal-dildo-wan-2` | `using a brutal dildo`, `using a brutal dildo inside her vagina, vaginal`, `using a brutal dildo inside her anus, anal`, `she is riding the dildo` | not stated | T2V | Brutal Dildo | 17,965 | on Graydient, verified | [CivitAI](https://civitai.com/models/1442486?modelVersionId=2672954), [HF](https://huggingface.co/Octavian123/civit/blob/main/brutal-dildo-wan-2.safetensors) |
+| `handjobs-wan` | `handjobs`, `A woman is performing a handjob on a penis, she moves her hand quickly up and down in a rhythmic motion.` | not stated | T2V | handjobs | 17,953 | on Graydient, verified | [CivitAI](https://civitai.com/models/1950988?modelVersionId=2208094), [HF](https://huggingface.co/Octavian123/civit/blob/main/handjobs-wan.safetensors) |
+| `standing-sex-wan` | `A man and a woman are having standing sex`, `A man and a woman are having standing sex, the man is standing behind the woman and is thrusting his hip while penetrating her, they are having passionate sex.` | not stated | T2V | Standing Sex | 14,229 | on Graydient, verified | [CivitAI](https://civitai.com/models/1934246?modelVersionId=2189213), [HF](https://huggingface.co/Octavian123/civit/blob/main/standing-sex-wan.safetensors) |
+| `blowjobs-man-in-frame-wan` | `A woman is performing oral sex on a man's penis.`, `On one side and in the foreground a woman is performing oral sex on a man's penis while he is relaxed and appears on the other side within the frame.`, `On one side and in the foreground a woman is performing oral sex on a man's penis while he is relaxed and appears on the other side within the frame. ` | not stated | T2V | Blowjobs - Man in Frame | 13,896 | on Graydient, verified | [CivitAI](https://civitai.com/models/1454728?modelVersionId=1644836), [HF](https://huggingface.co/Octavian123/civit/blob/main/blowjobs-man-in-frame-wan.safetensors) |
+| `wan22-i2v-futa-cowgirl-high-noise` | `wan22_futa_cowgirl_512`, `a transgender woman having anal sex in cowgirl position`, `she bounces up and down on the penis as it slides all the way in and out of her asshole. she is having anal sex riding on top.` | not stated | I2V and T2V | Wan 2.2 / 2.1 - Trans & Futanari Cowgirl - i2v - t2v | 13,260 | on Graydient, verified | [CivitAI](https://civitai.com/models/1375170?modelVersionId=2297958), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 2.1 - Trans Futanari Cowgirl - i2v - t2v - v1.0 Wan 2.2 I2v 14B High - wan22_i2v_futa_cowgirl_high_noise.safetensors) |
+| `wan22-i2v-futa-cowgirl-low-noise` | `wan22_futa_cowgirl_512`, `a transgender woman having anal sex in cowgirl position`, `she bounces up and down on the penis as it slides all the way in and out of her asshole. she is having anal sex riding on top.` | not stated | I2V and T2V | Wan 2.2 / 2.1 - Trans & Futanari Cowgirl - i2v - t2v | 13,260 | on Graydient, verified | [CivitAI](https://civitai.com/models/1375170?modelVersionId=2297958), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wan22-i2v-futa-cowgirl-low-noise.safetensors) |
+| `wan-2-2-wan-2-1-trans-futanari-missionary-i2v` | `futa missionary`, `Trans woman laying down.`, `Thrusting all the way in and out of her asshole.`, `Her penis is erect. Anal penetration.` | 1.0 | I2V and T2V | Wan 2.2 / Wan 2.1 - Trans & Futanari Missionary - I2V | 8,616 | on Graydient, verified | [CivitAI](https://civitai.com/models/1598775?modelVersionId=1809196), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 Wan 2.1 - Trans Futanari Missionary - I2V - v1.0 Wan 2.2 I2V 14B High - wan22_i2v_futa_missionary_high_noise.safetensors) |
+| `licking-breasts-wan` | `licking breasts`, `pusfix` | not stated | T2V | Pussy FIX | 8,270 | on Graydient, verified | [CivitAI](https://civitai.com/models/1953143?modelVersionId=2210535), [HF](https://huggingface.co/Octavian123/civit/blob/main/licking-breasts-wan.safetensors) |
+| `cowgirl-sex-position-wan` | `A woman is having sex with a man in a cowgirl position`, `she is straddling on top of him`, `A woman is having sex with a man in a cowgirl position, she is straddling on top of him, her body is moving up and down rapidly as his penis is penetrating her.` | not stated | I2V and T2V | Cowgirl Sex Position | 7,772 | on Graydient, verified | [CivitAI](https://civitai.com/models/2065218?modelVersionId=2336951), [HF](https://huggingface.co/Octavian123/civit/blob/main/cowgirl-sex-position-wan.safetensors) |
+| `wan-2-2-wan-2-1-taker-pov-fellatio-i2v` | `taker POV fellatio`, `Moving towards and away from her pelvis.` | not stated | I2V and T2V | Wan 2.2 / Wan 2.1 - Taker POV Fellatio - I2V | 6,996 | on Graydient, verified | [CivitAI](https://civitai.com/models/1518243?modelVersionId=2591003), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 Wan 2.1 - Taker POV Fellatio - I2V - v1.0 Wan 2.2 I2V 14B High - wan22_i2v_taker_pov_bj_high_noise.safetensors) |
+| `wan2-1-i2v-480p-flaccid-v1-0` | `flaccid-v0.6-musubi`, `wan2.1 i2v 480p flaccid`, `penis`, `bounce`, `swing` | not stated | I2V | Flaccid Penis | 5,822 | on Graydient, verified | [CivitAI](https://civitai.com/models/1795584?modelVersionId=2032017), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wan2-1-i2v-480p-flaccid-v1-0.safetensors) |
+| `dildoing-wan` | `pumping a dildo inside her vagina`, `pumping a dildo insider her vagina` | not stated | not stated | dildoing | 5,797 | on Graydient, verified | [CivitAI](https://civitai.com/models/2903074?modelVersionId=3282820), [HF](https://huggingface.co/Octavian123/civit/blob/main/dildoing-wan.safetensors) |
+| `onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan` | `POV SEX, A toy figurine is placed there. A first-person hand grabs the toy figurine. A first-person hand spreads the figurine's legs. A first-person perspective hand deeply inserts its penis into the figure's vagina. The figure's belly swells greatly.` | not stated | I2V | Onaho Figure POV SEX (WAN2.2 I2V 14B) insert 2 stomach bulge (fairy size Sex) | 4,679 | on Graydient, verified | [CivitAI](https://civitai.com/models/2539592?modelVersionId=2854125), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan.safetensors) |
+| `choking-missionary-il-noobai-wan-2-1-shrekman-hentai-loras` | `CH0KEMV1. This video depicts the male POV scene of missionary position with chocking focused on the female the male is out of frame holds the the female throat as he thrust his penis inside her vagina.` | not stated | I2V and T2V | Choking Missionary IL&NoobAI + WAN 2.1 | 4,655 | on Graydient, verified | [CivitAI](https://civitai.com/models/1258291?modelVersionId=2051163), [HF](https://huggingface.co/Octavian123/civit/blob/main/Mid-century Film Still - v1.0 - lora-000008.TA_trained.safetensors) |
+| `reverse-cowgirl-trans-wan` | `A beautiful transsexual woman with a penis is having anal sex with a man`, `A beautiful transsexual woman with a penis is having anal sex with a man, she is riding his penis while looking at the viewer` | not stated | T2V | Reverse Cowgirl Trans | 4,137 | on Graydient, verified | [CivitAI](https://civitai.com/models/1927612?modelVersionId=2181700), [HF](https://huggingface.co/Octavian123/civit/blob/main/reverse-cowgirl-trans-wan.safetensors) |
+| `extreme-ejaculation-wan` | `A woman receives an extreme ejaculation load to her face. A tight low-angle close-up captures the ex`, `A woman receives an extreme ejaculation load to her face. A tight low-angle close-up captures the explosive high-velocity release from the massive veiny cock, thick ropes of hot cum erupting in powerful arcing streams that splatter heavily across her upturned face, viscous fluid compressing and sliding in weighty inertia-driven trails, eyes squeeze shut in overwhelmed intensity` | not stated | T2V | Extreme Ejaculation | 3,352 | on Graydient, verified | [CivitAI](https://civitai.com/models/2680222?modelVersionId=3009502), [HF](https://huggingface.co/Octavian123/civit/blob/main/extreme-ejaculation-wan.safetensors) |
+| `cum-on-figureexcessive-wan21` | `cum-on-figureexcessive-wan21`, `The penis repeatedly ejaculates into the figure doll, which is completely fixed and motionless. Her face and whole body are covered with a large amount of translucent white semen, and the semen drips slowly.` | not stated | I2V | フィギュアぶっかけ/cum on figure/excessive bukkake/wan2.2 I2V | 3,314 | on Graydient, verified | [CivitAI](https://civitai.com/models/2520511?modelVersionId=2832880), [HF](https://huggingface.co/Octavian123/civit/blob/main/cum-on-figureexcessive-wan21.safetensors) |
+| `wan-2-2-i2v-pegging` | — | not stated | I2V | WAN 2.2 I2V - Pegging | 3,042 | on Graydient, verified | [CivitAI](https://civitai.com/models/2410338?modelVersionId=2710056), [HF](https://huggingface.co/Octavian123/civit/blob/main/WAN 2.2 I2V - Pegging - v1.0 high - I2V-WAN2.2-Pegging-HighNoise_-000030.safetensors) |
+| `rough-sex-anal-real-wan-2-2-i2v-t2v-wan` | `rough sex anal real wan 2 2 i2v t2v wan` | 0.5–0.8 | I2V and T2V | Rough sex (anal) [Real] | 2,983 | on Graydient, verified | [CivitAI](https://civitai.com/models/2432655?modelVersionId=2735253), [HF](https://huggingface.co/Octavian123/civit/blob/main/rough-sex-anal-real-wan-2-2-i2v-t2v-wan.safetensors) |
+| `anal-no-boy-wan` | `anal no boy wan` | not stated | I2V | anal ｜ no boy | 2,955 | on Graydient, verified | [CivitAI](https://civitai.com/models/2739534?modelVersionId=3080785), [HF](https://huggingface.co/Octavian123/civit/blob/main/anal-no-boy-wan.safetensors) |
+| `onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan` | `POV sex. Very intense sex. Her body shakes violently. penis thrusts violently. penis ejaculates. She violently vomits semen. Semen overflows from her mouth. Semen flows slowly, forming thin streams. Semen overflows from her vagina. Semen is splattered all over her body.` | not stated | I2V | Onaho Figure POV SEX (WAN2.2 I2V 14B) Vomiting Cum Bukkake | 2,955 | on Graydient, verified | [CivitAI](https://civitai.com/models/2544890?modelVersionId=2859997), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan.safetensors) |
+| `onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan` | `POV Oral sex,  Sex toy figurine is placed there.  first-person Giant hand grabs the Sex toy figurine.  figurine's breasts are exposed. first-person Giant penis into the Sex toy figure's mouth.  figurine's body shakes violently during intense oral sex.` | not stated | I2V | Onaho Figure POV Oral SEX (WAN2.2 I2V 14B) Extreme Deepthroat Irrumatio | 2,795 | on Graydient, verified | [CivitAI](https://civitai.com/models/2596754?modelVersionId=2917002), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan.safetensors) |
+| `side-sex-spooning-trans-wan` | `A transsexual woman is lying on her side with her penis and testicles visible`, `A transsexual woman is lying on her side with her penis and testicles visible, behind her there is a man also lying on his side and penetrating her anally with his penis`, `A transsexual woman is lying on her side with her penis and testicles visible, behind her there is a man also lying on his side and penetrating her anally with his penis.` | not stated | T2V | Side sex/spooning Trans | 2,642 | on Graydient, verified | [CivitAI](https://civitai.com/models/1927742?modelVersionId=2181862), [HF](https://huggingface.co/Octavian123/civit/blob/main/side-sex-spooning-trans-wan.safetensors) |
+| `onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan` | `There is a small figurine. giant penis appears. figurine's clothes automatically come off. figurine happily embraces the penis. figurine caresses the penis with its whole body. giant penis ejaculates, splattering semen all over the figurine. figurine becomes covered in semen.` | not stated | I2V | Onaho Figure Bukkake (WAN2.2 I2V 14B) Hugging penis body job (fairy size) | 2,481 | on Graydient, verified | [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan.safetensors) |
+| `wanfutaonfuta` | `WanFutaonFuta`, `futa on futa` | not stated | T2V | Wan Futa on Futa - Penis Motion Modifier | 1,498 | on Graydient, verified | [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wanfutaonfuta.safetensors) |
+| `wan-2-2-i2v-gay-anal-motion` | `gayanal` | not stated | I2V | Wan 2.2 I2V - Gay Anal (motion) | 1,006 | on Graydient, verified | [CivitAI](https://civitai.com/models/2889631?modelVersionId=3279268), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 I2V - Gay Anal motion - High - wan22_i2v_gayanal_motion_v4_high_noise.safetensors) |
+| `quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan` | `quorum general nsfw for wan 2 2 i2v a14b wan` | not stated | I2V | Quorum - general NSFW LoRA for Wan 2.2 I2V-A14B | 649 | on Graydient, verified | [CivitAI](https://civitai.com/models/2918508?modelVersionId=3301880), [HF](https://huggingface.co/Octavian123/civit/blob/main/quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan.safetensors) |
+| `wan-2-2-i2v-gay-riding-motion-anal-wan` | `gayriding` | not stated | I2V | Wan 2.2 I2V - Gay Riding (motion) (anal) | 601 | on Graydient, verified | [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864), [HF](https://huggingface.co/Octavian123/civit/blob/main/wan-2-2-i2v-gay-riding-motion-anal-wan.safetensors) |
+| `facial-cumshot-crossfire-wan` | `cstm_actn_facial` | not stated | I2V | Facial Cumshot Crossfire | 516 | on Graydient, verified | [CivitAI](https://civitai.com/models/2913261?modelVersionId=3295567), [HF](https://huggingface.co/Octavian123/civit/blob/main/facial-cumshot-crossfire-wan.safetensors) |
+| `gay-gooning-wan2-2-t2v-wan` | `gay gooning wan2 2 t2v wan` | 0.8 | T2V | Gay Gooning Wan2.2 T2V | 165 | on Graydient, verified | [CivitAI](https://civitai.com/models/2904116?modelVersionId=3284086), [HF](https://huggingface.co/Octavian123/civit/blob/main/gay-gooning-wan2-2-t2v-wan.safetensors) |
+| `wan22-i2v-futa-missionary-high-noise` | `wan22_i2v_futa_missionary`, `futa missionary` | not stated | not stated | wan22 i2v futa missionary high noise | — | on Graydient, unverified | [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 Wan 2.1 - Trans Futanari Missionary - I2V - v1.0 Wan 2.2 I2V 14B High - wan22_i2v_futa_missionary_high_noise.safetensors) |
+| `wan22-i2v-futa-missionary-low-noise` | `wan22_i2v_futa_missionary`, `futa missionary` | not stated | not stated | wan22 i2v futa missionary low noise | — | to add to Graydient (no public source; needs local upload), unverified | — |
 
 ## Suggest ingest
 
-These are **not** on Graydient or the AIOps RAID yet. Suggestion only — download and ingest them yourself with the civit-to-graydient pipeline if you want them. **Nothing here is auto-downloaded.**
+These are **not** in the available Graydient set yet. Suggestion only — download and ingest them yourself with the civit-to-graydient pipeline if you want them. **Nothing here is auto-downloaded.**
 
 | slug / file | trigger | strength | downloads | ingest priority | why | links |
 |---|---|---|---:|---:|---|---|
@@ -72,7 +72,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: I2V and T2V; resolution: 480p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1350447?modelVersionId=1602715)
+Source: [CivitAI](https://civitai.com/models/1350447?modelVersionId=1602715), [HF](https://huggingface.co/Octavian123/civit/blob/main/cumshot-wan.safetensors)
 
 ### `Masturbation Cumshot for Wan I2V 14B - v1.1 - masturbation_cumshot_v1.1_e310.safetensors`
 
@@ -88,7 +88,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: I2V and T2V; resolution: 480p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1368557?modelVersionId=1807318)
+Source: [CivitAI](https://civitai.com/models/1368557?modelVersionId=1807318), [HF](https://huggingface.co/Octavian123/civit/blob/main/Masturbation Cumshot for Wan I2V 14B - v1.1 - masturbation_cumshot_v1.1_e310.safetensors)
 
 ### `sh00tz-high-wan.safetensors`
 
@@ -104,7 +104,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: I2V; Wan high-noise file present; pair with the matching low-noise LoRA on 2.2 14B; Wan 2.2 14B; 2.1 cross-use is not guaranteed; speed/distill LoRA — use on the few-step / turbo graph; do not treat as a style LoRA on a full-step pass; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2429545?modelVersionId=2731730)
+Source: [CivitAI](https://civitai.com/models/2429545?modelVersionId=2731730), [HF](https://huggingface.co/Octavian123/civit/blob/main/sh00tz-high-wan.safetensors)
 
 ### `facial-cumshots-wan.safetensors`
 
@@ -120,7 +120,39 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1436911?modelVersionId=1624240)
+Source: [CivitAI](https://civitai.com/models/1436911?modelVersionId=1624240), [HF](https://huggingface.co/Octavian123/civit/blob/main/facial-cumshots-wan.safetensors)
+
+### `Wan2.2-I2V-Tentacled-v2.1-High-tawsLora.safetensors`
+
+**Tentacled - Wan2.2-14B**
+- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength: not stated · triggers: `Wan2.2 I2V Tentacled v2.1 High tawsLora`, `tentaclesex`, `Tentaclesex` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`Tentaclesex, woman sitting, tentacle enters her mouth, tentacle blowjob.`
+```
+
+Compatibility: mode: I2V and T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/1853189?modelVersionId=2543800), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wan2-2-i2v-tentacled-v2-1-high-tawslora.safetensors)
+
+### `Wan2.2-I2V-Tentacled-v2.1-Low-tawsLora.safetensors`
+
+**Tentacled - Wan2.2-14B**
+- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength: not stated · triggers: `Wan2.2 I2V Tentacled v2.1 Low tawsLora`, `tentaclesex`, `Tentaclesex` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`Tentaclesex, woman sitting, tentacle enters her mouth, tentacle blowjob.`
+```
+
+Compatibility: mode: I2V and T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/1853189?modelVersionId=2543800), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wan2-2-i2v-tentacled-v2-1-low-tawslora.safetensors)
 
 ### `brutal-dildo-wan.safetensors`
 
@@ -144,7 +176,7 @@ She is wearing {a {black|beige|red|blue|pink|yellow|blue} tube top and short sho
 
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1442486?modelVersionId=2672954)
+Source: [CivitAI](https://civitai.com/models/1442486?modelVersionId=2672954), [HF](https://huggingface.co/Octavian123/civit/blob/main/brutal-dildo-wan.safetensors)
 
 ### `brutal-dildo-wan-2.safetensors`
 
@@ -168,7 +200,7 @@ She is wearing {a {black|beige|red|blue|pink|yellow|blue} tube top and short sho
 
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1442486?modelVersionId=2672954)
+Source: [CivitAI](https://civitai.com/models/1442486?modelVersionId=2672954), [HF](https://huggingface.co/Octavian123/civit/blob/main/brutal-dildo-wan-2.safetensors)
 
 ### `handjobs-wan.safetensors`
 
@@ -184,7 +216,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1950988?modelVersionId=2208094)
+Source: [CivitAI](https://civitai.com/models/1950988?modelVersionId=2208094), [HF](https://huggingface.co/Octavian123/civit/blob/main/handjobs-wan.safetensors)
 
 ### `standing-sex-wan.safetensors`
 
@@ -200,7 +232,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1934246?modelVersionId=2189213)
+Source: [CivitAI](https://civitai.com/models/1934246?modelVersionId=2189213), [HF](https://huggingface.co/Octavian123/civit/blob/main/standing-sex-wan.safetensors)
 
 ### `blowjobs-man-in-frame-wan.safetensors`
 
@@ -216,7 +248,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1454728?modelVersionId=1644836)
+Source: [CivitAI](https://civitai.com/models/1454728?modelVersionId=1644836), [HF](https://huggingface.co/Octavian123/civit/blob/main/blowjobs-man-in-frame-wan.safetensors)
 
 ### `wan22_i2v_futa_cowgirl_high_noise.safetensors`
 
@@ -232,7 +264,23 @@ a transgender woman having anal sex in cowgirl position. Very high quality 4k an
 
 Compatibility: mode: I2V and T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1375170?modelVersionId=2297958)
+Source: [CivitAI](https://civitai.com/models/1375170?modelVersionId=2297958), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 2.1 - Trans Futanari Cowgirl - i2v - t2v - v1.0 Wan 2.2 I2v 14B High - wan22_i2v_futa_cowgirl_high_noise.safetensors)
+
+### `wan22_i2v_futa_cowgirl_low_noise.safetensors`
+
+**Wan 2.2 / 2.1 - Trans & Futanari Cowgirl - i2v - t2v**
+- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength: not stated · triggers: `wan22_futa_cowgirl_512`, `a transgender woman having anal sex in cowgirl position`, `she bounces up and down on the penis as it slides all the way in and out of her asshole. she is having anal sex riding on top.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+a transgender woman having anal sex in cowgirl position. Very high quality 4k animation, This is a masterpiece of the best quality, the video is showcasing amazing and highly detailed artwork. A man having rough anal sex with a transgender futanari woman. She bounces on top of him as his penis quickly slides all the way in and out of her asshole from base to tip. Her breasts are bouncing.
+```
+
+Compatibility: mode: I2V and T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/1375170?modelVersionId=2297958), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wan22-i2v-futa-cowgirl-low-noise.safetensors)
 
 ### `wan-i2v-futa-missionary-v1-e50.safetensors`
 
@@ -248,7 +296,7 @@ Trans woman laying down. Thrusting all the way in and out of her asshole. Her pe
 
 Compatibility: mode: I2V and T2V; resolution: 720p I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; versions exist for both Wan 2.1 and 2.2 — match the workflow; cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1598775?modelVersionId=1809196)
+Source: [CivitAI](https://civitai.com/models/1598775?modelVersionId=1809196), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 Wan 2.1 - Trans Futanari Missionary - I2V - v1.0 Wan 2.2 I2V 14B High - wan22_i2v_futa_missionary_high_noise.safetensors)
 
 ### `licking-breasts-wan.safetensors`
 
@@ -257,7 +305,7 @@ Source: [CivitAI](https://civitai.com/models/1598775?modelVersionId=1809196)
 
 Compatibility: mode: T2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1953143?modelVersionId=2210535)
+Source: [CivitAI](https://civitai.com/models/1953143?modelVersionId=2210535), [HF](https://huggingface.co/Octavian123/civit/blob/main/licking-breasts-wan.safetensors)
 
 ### `cowgirl-sex-position-wan.safetensors`
 
@@ -273,7 +321,23 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: I2V and T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2065218?modelVersionId=2336951)
+Source: [CivitAI](https://civitai.com/models/2065218?modelVersionId=2336951), [HF](https://huggingface.co/Octavian123/civit/blob/main/cowgirl-sex-position-wan.safetensors)
+
+### `wan2.1-i2v-480p-flaccid-v1.0.safetensors`
+
+**Flaccid Penis**
+- base `Wan Video 14B i2v 480p` · I2V · strength: not stated · triggers: `flaccid-v0.6-musubi`, `wan2.1 i2v 480p flaccid`, `penis`, `bounce`, `swing` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`A muscular woman is flexing her abs and showing off her body. She has a large penis.`
+```
+
+Compatibility: mode: I2V; resolution: 480p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/1795584?modelVersionId=2032017), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wan2-1-i2v-480p-flaccid-v1-0.safetensors)
 
 ### `dildoing-wan.safetensors`
 
@@ -296,7 +360,7 @@ Scene Overview: She is {{lying on her side|reclined|lying on her back} on a {lig
 
 Compatibility: Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2903074?modelVersionId=3282820)
+Source: [CivitAI](https://civitai.com/models/2903074?modelVersionId=3282820), [HF](https://huggingface.co/Octavian123/civit/blob/main/dildoing-wan.safetensors)
 
 ### `onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan.safetensors`
 
@@ -317,7 +381,7 @@ The figure's belly swells greatly.`
 
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2539592?modelVersionId=2854125)
+Source: [CivitAI](https://civitai.com/models/2539592?modelVersionId=2854125), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan.safetensors)
 
 ### `reverse-cowgirl-trans-wan.safetensors`
 
@@ -333,7 +397,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1927612?modelVersionId=2181700)
+Source: [CivitAI](https://civitai.com/models/1927612?modelVersionId=2181700), [HF](https://huggingface.co/Octavian123/civit/blob/main/reverse-cowgirl-trans-wan.safetensors)
 
 ### `extreme-ejaculation-wan.safetensors`
 
@@ -349,7 +413,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2680222?modelVersionId=3009502)
+Source: [CivitAI](https://civitai.com/models/2680222?modelVersionId=3009502), [HF](https://huggingface.co/Octavian123/civit/blob/main/extreme-ejaculation-wan.safetensors)
 
 ### `cum-on-figureexcessive-wan21.safetensors`
 
@@ -365,7 +429,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2520511?modelVersionId=2832880)
+Source: [CivitAI](https://civitai.com/models/2520511?modelVersionId=2832880), [HF](https://huggingface.co/Octavian123/civit/blob/main/cum-on-figureexcessive-wan21.safetensors)
 
 ### `I2V-WAN2.2-Pegging-HighNoise_-000030.safetensors`
 
@@ -381,7 +445,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2410338?modelVersionId=2710056)
+Source: [CivitAI](https://civitai.com/models/2410338?modelVersionId=2710056), [HF](https://huggingface.co/Octavian123/civit/blob/main/WAN 2.2 I2V - Pegging - v1.0 high - I2V-WAN2.2-Pegging-HighNoise_-000030.safetensors)
 
 ### `rough-sex-anal-real-wan-2-2-i2v-t2v-wan.safetensors`
 
@@ -397,7 +461,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: I2V and T2V; Wan high-noise file present; pair with the matching low-noise LoRA on 2.2 14B; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2432655?modelVersionId=2735253)
+Source: [CivitAI](https://civitai.com/models/2432655?modelVersionId=2735253), [HF](https://huggingface.co/Octavian123/civit/blob/main/rough-sex-anal-real-wan-2-2-i2v-t2v-wan.safetensors)
 
 ### `anal-no-boy-wan.safetensors`
 
@@ -406,7 +470,7 @@ Source: [CivitAI](https://civitai.com/models/2432655?modelVersionId=2735253)
 
 Compatibility: mode: I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2739534?modelVersionId=3080785)
+Source: [CivitAI](https://civitai.com/models/2739534?modelVersionId=3080785), [HF](https://huggingface.co/Octavian123/civit/blob/main/anal-no-boy-wan.safetensors)
 
 ### `onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan.safetensors`
 
@@ -430,7 +494,7 @@ Semen is splattered all over her body.`
 
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2544890?modelVersionId=2859997)
+Source: [CivitAI](https://civitai.com/models/2544890?modelVersionId=2859997), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan.safetensors)
 
 ### `onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan.safetensors`
 
@@ -451,7 +515,7 @@ figurine's body shakes violently during intense oral sex.`
 
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2596754?modelVersionId=2917002)
+Source: [CivitAI](https://civitai.com/models/2596754?modelVersionId=2917002), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan.safetensors)
 
 ### `side-sex-spooning-trans-wan.safetensors`
 
@@ -467,7 +531,7 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/1927742?modelVersionId=2181862)
+Source: [CivitAI](https://civitai.com/models/1927742?modelVersionId=2181862), [HF](https://huggingface.co/Octavian123/civit/blob/main/side-sex-spooning-trans-wan.safetensors)
 
 ### `onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan.safetensors`
 
@@ -489,7 +553,16 @@ figurine becomes covered in semen.`
 
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445)
+Source: [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan.safetensors)
+
+### `WanFutaonFuta.safetensors`
+
+**Wan Futa on Futa - Penis Motion Modifier**
+- base `Wan Video 14B t2v` · T2V · strength: not stated · triggers: `WanFutaonFuta`, `futa on futa` · on Graydient
+
+Compatibility: mode: T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wanfutaonfuta.safetensors)
 
 ### `quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan.safetensors`
 
@@ -498,7 +571,7 @@ Source: [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445)
 
 Compatibility: mode: I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2918508?modelVersionId=3301880)
+Source: [CivitAI](https://civitai.com/models/2918508?modelVersionId=3301880), [HF](https://huggingface.co/Octavian123/civit/blob/main/quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan.safetensors)
 
 ### `wan-2-2-i2v-gay-riding-motion-anal-wan.safetensors`
 
@@ -507,7 +580,7 @@ Source: [CivitAI](https://civitai.com/models/2918508?modelVersionId=3301880)
 
 Compatibility: mode: I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864)
+Source: [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864), [HF](https://huggingface.co/Octavian123/civit/blob/main/wan-2-2-i2v-gay-riding-motion-anal-wan.safetensors)
 
 ### `facial-cumshot-crossfire-wan.safetensors`
 
@@ -516,7 +589,7 @@ Source: [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864)
 
 Compatibility: mode: I2V; resolution: 720p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2913261?modelVersionId=3295567)
+Source: [CivitAI](https://civitai.com/models/2913261?modelVersionId=3295567), [HF](https://huggingface.co/Octavian123/civit/blob/main/facial-cumshot-crossfire-wan.safetensors)
 
 ### `gay-gooning-wan2-2-t2v-wan.safetensors`
 
@@ -525,7 +598,7 @@ Source: [CivitAI](https://civitai.com/models/2913261?modelVersionId=3295567)
 
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2904116?modelVersionId=3284086)
+Source: [CivitAI](https://civitai.com/models/2904116?modelVersionId=3284086), [HF](https://huggingface.co/Octavian123/civit/blob/main/gay-gooning-wan2-2-t2v-wan.safetensors)
 
 ### `wan22_i2v_futa_missionary_high_noise.safetensors`
 
@@ -535,83 +608,12 @@ Source: [CivitAI](https://civitai.com/models/2904116?modelVersionId=3284086)
 
 Compatibility: Wan high-noise file present; pair with the matching low-noise LoRA on 2.2 14B; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-### `Wan2.2-I2V-Tentacled-v2.1-High-tawsLora.safetensors`
-
-**Tentacled - Wan2.2-14B**
-- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength: not stated · triggers: `Wan2.2 I2V Tentacled v2.1 High tawsLora`, `tentaclesex`, `Tentaclesex` · to add to Graydient
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-`Tentaclesex, woman sitting, tentacle enters her mouth, tentacle blowjob.`
-```
-
-Compatibility: mode: I2V and T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
-
-Source: [CivitAI](https://civitai.com/models/1853189?modelVersionId=2543800)
-
-### `Wan2.2-I2V-Tentacled-v2.1-Low-tawsLora.safetensors`
-
-**Tentacled - Wan2.2-14B**
-- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength: not stated · triggers: `Wan2.2 I2V Tentacled v2.1 Low tawsLora`, `tentaclesex`, `Tentaclesex` · to add to Graydient
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-`Tentaclesex, woman sitting, tentacle enters her mouth, tentacle blowjob.`
-```
-
-Compatibility: mode: I2V and T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
-
-Source: [CivitAI](https://civitai.com/models/1853189?modelVersionId=2543800)
-
-### `wan22_i2v_futa_cowgirl_low_noise.safetensors`
-
-**Wan 2.2 / 2.1 - Trans & Futanari Cowgirl - i2v - t2v**
-- base `Wan Video 2.2 I2V-A14B` · I2V and T2V · strength: not stated · triggers: `wan22_futa_cowgirl_512`, `a transgender woman having anal sex in cowgirl position`, `she bounces up and down on the penis as it slides all the way in and out of her asshole. she is having anal sex riding on top.` · to add to Graydient
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-a transgender woman having anal sex in cowgirl position. Very high quality 4k animation, This is a masterpiece of the best quality, the video is showcasing amazing and highly detailed artwork. A man having rough anal sex with a transgender futanari woman. She bounces on top of him as his penis quickly slides all the way in and out of her asshole from base to tip. Her breasts are bouncing.
-```
-
-Compatibility: mode: I2V and T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
-
-Source: [CivitAI](https://civitai.com/models/1375170?modelVersionId=2297958)
-
-### `wan2.1-i2v-480p-flaccid-v1.0.safetensors`
-
-**Flaccid Penis**
-- base `Wan Video 14B i2v 480p` · I2V · strength: not stated · triggers: `flaccid-v0.6-musubi`, `wan2.1 i2v 480p flaccid`, `penis`, `bounce`, `swing` · to add to Graydient
-
-Example prompt (from the images API, page, or sidecar; never invented):
-
-
-```
-`A muscular woman is flexing her abs and showing off her body. She has a large penis.`
-```
-
-Compatibility: mode: I2V; resolution: 480p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
-
-Source: [CivitAI](https://civitai.com/models/1795584?modelVersionId=2032017)
-
-### `WanFutaonFuta.safetensors`
-
-**Wan Futa on Futa - Penis Motion Modifier**
-- base `Wan Video 14B t2v` · T2V · strength: not stated · triggers: `WanFutaonFuta`, `futa on futa` · to add to Graydient
-
-Compatibility: mode: T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
-
-Source: [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929)
+Source: [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 Wan 2.1 - Trans Futanari Missionary - I2V - v1.0 Wan 2.2 I2V 14B High - wan22_i2v_futa_missionary_high_noise.safetensors)
 
 ### `wan22_i2v_futa_missionary_low_noise.safetensors`
 
 **wan22 i2v futa missionary low noise**
-- not stated · strength: not stated · triggers: `wan22_i2v_futa_missionary`, `futa missionary` · to add to Graydient
+- not stated · strength: not stated · triggers: `wan22_i2v_futa_missionary`, `futa missionary` · to add to Graydient (no public source; needs local upload)
 - **Unverified** — no confirmed live page, or the listed id 404'd.
 
 Compatibility: Wan low-noise file present; pair with the matching high-noise LoRA on 2.2 14B; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22

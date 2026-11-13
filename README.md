@@ -1,41 +1,41 @@
 # Video LoRA knowledge base
 
-Private catalog of **available Graydient video LoRAs** for MiniMax H3, Wan (2.1 including 1.3B T2V, 2.2 14B high/low and 5B TI2V), and LTX (LTXV, LTX-2, 2.3, 2.5). Every row in `data/loras.jsonl` is a Graydient LoRA. `graydient_status` is **on Graydient** when a matching `{slug}.safetensors` is already in Hugging Face `Octavian123/civit`, or **to add to Graydient** when the file is on the 13 Nov 2026 RAID snapshot (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`, `aiops=true`) and still needs civit-to-graydient ingest before it appears in the concept browser. There is no “AIOps only” category — anything on the RAID must be added to Graydient.
+Private catalog of **available Graydient video LoRAs** for MiniMax H3, Wan (2.1 including 1.3B T2V, 2.2 14B high/low and 5B TI2V), and LTX (LTXV, LTX-2, 2.3, 2.5). Every row in `data/loras.jsonl` is a Graydient LoRA. `graydient_status` is **on Graydient** when a matching weight is already in Hugging Face `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private`, or **to add to Graydient** (including **to add to Graydient (no public source; needs local upload)**) when the file is on the 13 Nov 2026 RAID snapshot (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`, `aiops=true`) and still needs ingest before it appears in the concept browser. There is no “AIOps only” category — anything on the RAID must be added to Graydient.
 
 Public CivitAI / Hugging Face video LoRAs that are not yet in this set live in [`data/candidates.jsonl`](data/candidates.jsonl) with an `ingest_priority` score. They are suggested for ingest when they fill a gap or clearly outrank what is already available — never auto-downloaded. The RAID files that still need ingest are listed in [`data/graydient_ingest_queue.md`](data/graydient_ingest_queue.md).
 
 **Out of scope** (image LoRAs, checkpoints, finetunes, merges, full base-model repos, pure workflows, ControlNets that are not LoRAs, VAEs, text encoders, GGUF/quantised full models, and non-video families such as Hunyuan) are not in `data/loras.jsonl`. Installed RAID files that fail this test are in [`data/excluded.jsonl`](data/excluded.jsonl) with a reason. See [`data/accessibility_report.md`](data/accessibility_report.md) for the last accessibility filter.
 
-Research compiled **13 Nov 2026, 22:18 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
+Research compiled **13 Nov 2026, 22:57 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
 
 ## Counts
 
 | Family | On Graydient | To add to Graydient | Available total | Candidates |
 |---|---:|---:|---:|---:|
-| MiniMax H3 | 224 | 50 | 274 | 981 |
-| Wan (2.1 / 2.2) | 54 | 19 | 73 | 2706 |
-| LTX-2 / 2.3 / 2.5 | 27 | 17 | 44 | 774 |
-| **Total** | **305** | **86** | **391** | **4461** |
+| MiniMax H3 | 274 | 0 | 274 | 952 |
+| Wan (2.1 / 2.2) | 60 | 13 | 73 | 2670 |
+| LTX-2 / 2.3 / 2.5 | 40 | 3 | 43 | 747 |
+| **Total** | **374** | **16** | **390** | **4369** |
 
-Recommend a LoRA that is already on Graydient first. If the pick is labelled *to add to Graydient*, ingest it with civit-to-graydient before using it in the concept browser (not auto-downloaded). Suggest ingest of a public candidate when the category or goal has no available option, or when a candidate is clearly stronger (at least 2,000 downloads and at least 2× the top available download count in that category) or is an official utility pack with no available equivalent. The full rule is in [`SKILL.md`](SKILL.md).
+Recommend a LoRA that is already on Graydient first. If the pick is labelled *to add to Graydient*, ingest it before using it in the concept browser (not auto-downloaded). RAID-only files with no public URL need a local upload. Suggest ingest of a public candidate when the category or goal has no available option, or when a candidate is clearly stronger (at least 2,000 downloads and at least 2× the top available download count in that category) or is an official utility pack with no available equivalent. The full rule is in [`SKILL.md`](SKILL.md).
 
 ### Counts by category (available)
 
 | Category | H3 available (on Graydient / to add) | Wan available (on Graydient / to add) | LTX available (on Graydient / to add) |
 |---|---:|---:|---:|
-| Motion | 15 (14/1) | 3 (2/1) | 4 (2/2) |
-| Camera | 12 (9/3) | 7 (7/0) | 5 (4/1) |
-| Audio / voice | 3 (2/1) | 0 (0/0) | 1 (0/1) |
-| Style | 49 (38/11) | 1 (0/1) | 11 (8/3) |
-| Enhancement / quality / speed | 153 (126/27) | 41 (26/15) | 17 (9/8) |
-| Identity / character | 25 (18/7) | 2 (2/0) | 2 (2/0) |
-| Effects / VFX | 9 (7/2) | 0 (0/0) | 2 (1/1) |
+| Motion | 15 (15/0) | 3 (3/0) | 4 (4/0) |
+| Camera | 12 (12/0) | 7 (7/0) | 5 (5/0) |
+| Audio / voice | 3 (3/0) | 0 (0/0) | 1 (1/0) |
+| Style | 49 (49/0) | 1 (1/0) | 11 (11/0) |
+| Enhancement / quality / speed | 153 (153/0) | 41 (28/13) | 16 (15/1) |
+| Identity / character | 25 (25/0) | 2 (2/0) | 2 (2/0) |
+| Effects / VFX | 9 (9/0) | 0 (0/0) | 2 (2/0) |
 | Transitions | 2 (2/0) | 0 (0/0) | 0 (0/0) |
-| Lighting | 1 (0/1) | 0 (0/0) | 0 (0/0) |
+| Lighting | 1 (1/0) | 0 (0/0) | 0 (0/0) |
 | Physics / cloth / hair | 14 (14/0) | 0 (0/0) | 0 (0/0) |
-| NSFW acts and anatomy | 110 (94/16) | 39 (33/6) | 22 (12/10) |
-| Anime / 2D | 17 (15/2) | 1 (0/1) | 5 (4/1) |
-| Realism | 11 (7/4) | 0 (0/0) | 1 (1/0) |
+| NSFW acts and anatomy | 110 (110/0) | 39 (38/1) | 21 (19/2) |
+| Anime / 2D | 17 (17/0) | 1 (1/0) | 5 (5/0) |
+| Realism | 11 (11/0) | 0 (0/0) | 1 (1/0) |
 | Character consistency | 0 (0/0) | 0 (0/0) | 0 (0/0) |
 | Object control | 1 (1/0) | 0 (0/0) | 0 (0/0) |
 | Pose / control | 2 (2/0) | 1 (1/0) | 0 (0/0) |
@@ -43,11 +43,11 @@ Recommend a LoRA that is already on Graydient first. If the pick is labelled *to
 
 A LoRA may appear in more than one category.
 
-Of 391 rows: **235** (60.1%) have at least one recorded trigger, **55** (14.1%) have a stated strength, **99** (25.3%) have at least one example prompt (images API or page text). **2** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented.
+Of 390 rows: **234** (60.0%) have at least one recorded trigger, **55** (14.1%) have a stated strength, **99** (25.4%) have at least one example prompt (images API or page text). **2** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented.
 
 ## How to use this repo
 
-1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser. Recipes recommend available Graydient LoRAs first. Picks labelled *to add to Graydient* must be ingested before use. When the rule says so, a *Suggest ingest* line points at a public candidate.
+1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser. Recipes recommend available Graydient LoRAs first. Picks labelled *to add to Graydient* must be ingested (or locally uploaded if there is no public source) before use. When the rule says so, a *Suggest ingest* line points at a public candidate.
 2. Open the family + category page under `families/`. Tables list available LoRAs (on Graydient first, then to add), then a *Suggest ingest* block when the rule fires.
 3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md). Per-family prompt templates and trigger usage: [`guides/prompt-patterns.md`](guides/prompt-patterns.md).
 4. Official / utility packs also appear in [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md). If they are not already on Graydient, treat them as ingest candidates.
@@ -101,7 +101,7 @@ python3 scripts/harvest.py --hf-cards                      # README/model cards 
 python3 scripts/harvest.py --enrich --enrich-images        # full /models/{id} + example-prompt images API
 python3 scripts/harvest.py --full-sorts --bases 'Wan Video 1.3B t2v'
 python3 scripts/build_kb.py
-python3 scripts/filter_accessible.py    # available Graydient set (on Graydient or to add); rest -> data/candidates.jsonl
+python3 scripts/filter_accessible.py    # rematch civit + civit2 + private; available set (on Graydient or to add); rest -> data/candidates.jsonl
 python3 scripts/render_kb.py
 python3 scripts/export_pack.py
 ```
@@ -110,7 +110,7 @@ Raw API dumps live in `data/raw/` and are gitignored (tens of megabytes). See `d
 
 ## Sources
 
-- Hugging Face `Octavian123/civit` file listing (Graydient access). Metadata only — weights are never downloaded by these scripts.
+- Hugging Face `Octavian123/civit`, `Octavian123/civit2`, and `Octavian123/private` file listings (Graydient access). Metadata only — weights are never downloaded by these scripts.
 - AIOps RAID inventory and sidecars (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`, snapshot 13 Nov 2026).
 - CivitAI public API, metadata only (every confirmed baseModel paged with Newest, Most Downloaded, and Highest Rated, including `period=AllTime`; keyword queries; full `/api/v1/models/{id}` descriptions and `/api/v1/images` example prompts when the public API returns `meta.prompt`).
 - Hugging Face Hub search (author lists plus `models?search=` / pipeline tags for Wan-AI / Wan2.1 / Wan2.2, Lightricks / LTX, MiniMax, lightx2v, alibaba-pai, and related community packs).

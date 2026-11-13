@@ -42,7 +42,7 @@ FAMILY_ORDER = ("H3", "Wan", "LTX2")
 FAMILY_LABEL = {"H3": "MiniMax H3", "Wan": "Wan 2.1 / 2.2", "LTX2": "LTX-2 / 2.3 / 2.5"}
 # Fixed zip timestamps for deterministic archives (catalog snapshot date).
 ZIP_DATE = (2026, 11, 13, 0, 0, 0)
-EXPECTED_COUNT = 391
+EXPECTED_COUNT = 390
 EXPECTED_RECIPES = 98
 
 FRONTMATTER = """\
@@ -61,7 +61,7 @@ INTRO = """\
 
 Comprehensive goal→LoRA chooser for MiniMax H3, Wan 2.1 / 2.2 (14B high/low and 5B TI2V), and LTX-2 / 2.3 / 2.5. Prefer **available** Graydient LoRAs (already on Graydient, or *to add to Graydient* after civit-to-graydient ingest) when they cover the goal. Where a high-value candidate is not yet available, add a clearly labelled Suggest ingest line; never auto-download. Adult NSFW LoRAs are in scope — describe them factually.
 
-This is a standalone, prompt-ready export of the private `video-lora-kb` knowledge base (391 video LoRAs; RAID snapshot 13 Nov 2026). It stores **metadata only** — no weights.
+This is a standalone, prompt-ready export of the private `video-lora-kb` knowledge base (390 video LoRAs; RAID snapshot 13 Nov 2026; Graydient source: Octavian123/civit, civit2, and private). It stores **metadata only** — no weights.
 
 **Never invent a trigger or a strength.** If the catalog says a strength is blank / `not stated`, or a trigger cell is empty, say so and tune on a short test clip. A general H3 starting range of 0.6–0.9 is only a rule of thumb, not per-file data.
 
@@ -178,6 +178,8 @@ def compact_record(r: dict) -> dict[str, Any]:
         "trigger": trigger_text(r),
         "strength": stated_strength(r),
         "graydient_status": r.get("graydient_status") or "",
+        "graydient_slug": r.get("graydient_slug") or r.get("slug") or "",
+        "graydient_hf": (r.get("urls") or {}).get("graydient_hf") or "",
         "aiops": bool(r.get("aiops")),
         "installed": bool(r.get("installed")),
         "url": primary_url(r),
@@ -346,6 +348,8 @@ def write_csv(path: Path, records: list[dict]) -> None:
         "trigger",
         "strength",
         "graydient_status",
+        "graydient_slug",
+        "graydient_hf",
         "aiops",
         "installed",
         "url",

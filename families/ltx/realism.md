@@ -1,16 +1,16 @@
 # LTX2: Realism
 
-1 available Graydient LoRAs (1 already on Graydient, 0 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+1 available Graydient LoRAs (1 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `warped-female-body-parts-for-ltxv-2-5-ltx2` | `sloped_breasts`, `round_breasts`, `perfect_breasts`, `pointy_breasts`, `puffy_nipples` | not stated | I2V | Warped Female Body Parts For LTXV 2.5 | 496 | on Graydient, verified | [CivitAI](https://civitai.com/models/2985345?modelVersionId=3384607) |
+| `warped-female-body-parts-for-ltxv-2-5-ltx2` | `sloped_breasts`, `round_breasts`, `perfect_breasts`, `pointy_breasts`, `puffy_nipples` | not stated | I2V | Warped Female Body Parts For LTXV 2.5 | 496 | on Graydient, verified | [CivitAI](https://civitai.com/models/2985345?modelVersionId=3384607), [HF](https://huggingface.co/Octavian123/civit/blob/main/warped-female-body-parts-for-ltxv-2-5-ltx2.safetensors) |
 
 ## Suggest ingest
 
-These are **not** on Graydient or the AIOps RAID yet. Suggestion only — download and ingest them yourself with the civit-to-graydient pipeline if you want them. **Nothing here is auto-downloaded.**
+These are **not** in the available Graydient set yet. Suggestion only — download and ingest them yourself with the civit-to-graydient pipeline if you want them. **Nothing here is auto-downloaded.**
 
 | slug / file | trigger | strength | downloads | ingest priority | why | links |
 |---|---|---|---:|---:|---|---|
@@ -34,5 +34,5 @@ s: natural_breasts, (((medium_breasts:1.5))), saggy_breasts. The entire scene co
 
 Compatibility: mode: I2V; Graydient LTX workflows (family-level, not a per-LoRA install claim): animate-ltx2 / animate-ltx23 / animate-ltx25 — match the LoRA base when possible
 
-Source: [CivitAI](https://civitai.com/models/2985345?modelVersionId=3384607)
+Source: [CivitAI](https://civitai.com/models/2985345?modelVersionId=3384607), [HF](https://huggingface.co/Octavian123/civit/blob/main/warped-female-body-parts-for-ltxv-2-5-ltx2.safetensors)
 

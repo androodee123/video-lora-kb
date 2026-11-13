@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Propose new CivitAI video LoRAs that are not yet accessible.
 
-Accessible LoRAs live in data/loras.jsonl (on Graydient or the AIOps RAID).
-Already-known but not-yet-accessible rows live in data/candidates.jsonl.
+Accessible LoRAs live in data/loras.jsonl (on Graydient via Hugging Face
+Octavian123/civit, Octavian123/civit2, or Octavian123/private, or still
+to add from the AIOps RAID). Already-known but not-yet-accessible rows
+live in data/candidates.jsonl.
 This script lists *new* CivitAI video LoRAs (LORA / LoCon / DoRA on confirmed
 video baseModels) that are in neither file — ingest candidates for a person
 to review and, if wanted, ingest with civit-to-graydient.

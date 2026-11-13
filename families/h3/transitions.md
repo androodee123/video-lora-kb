@@ -1,17 +1,17 @@
 # H3: Transitions
 
-2 available Graydient LoRAs (2 already on Graydient, 0 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+2 available Graydient LoRAs (2 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `body-obese-transition-minimax-h3` | `make the women obese` | not stated | not stated | Body_obese_MiniMax-H3 | 567 | on Graydient, verified | [CivitAI](https://civitai.com/models/3010906?modelVersionId=3416989) |
-| `transition-minimax-h3-f2v-h3` | `ysp_smshcut a woman. no transition` | not stated | not stated | transition minimax f2v | — | on Graydient, unverified | [CivitAI](https://civitai.com/models/2902679) |
+| `body-obese-transition-minimax-h3` | `make the women obese` | not stated | not stated | Body_obese_MiniMax-H3 | 567 | on Graydient, verified | [CivitAI](https://civitai.com/models/3010906?modelVersionId=3416989), [HF](https://huggingface.co/Octavian123/civit/blob/main/body-obese-transition-minimax-h3.safetensors) |
+| `transition-minimax-h3-f2v-h3` | `ysp_smshcut a woman. no transition` | not stated | not stated | transition minimax f2v | — | on Graydient, unverified | [CivitAI](https://civitai.com/models/2902679), [HF](https://huggingface.co/Octavian123/civit/blob/main/transition-minimax-h3-f2v-h3.safetensors) |
 
 ## Suggest ingest
 
-These are **not** on Graydient or the AIOps RAID yet. Suggestion only — download and ingest them yourself with the civit-to-graydient pipeline if you want them. **Nothing here is auto-downloaded.**
+These are **not** in the available Graydient set yet. Suggestion only — download and ingest them yourself with the civit-to-graydient pipeline if you want them. **Nothing here is auto-downloaded.**
 
 | slug / file | trigger | strength | downloads | ingest priority | why | links |
 |---|---|---|---:|---:|---|---|
@@ -26,7 +26,7 @@ These are **not** on Graydient or the AIOps RAID yet. Suggestion only — downlo
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
-Source: [CivitAI](https://civitai.com/models/3010906?modelVersionId=3416989)
+Source: [CivitAI](https://civitai.com/models/3010906?modelVersionId=3416989), [HF](https://huggingface.co/Octavian123/civit/blob/main/body-obese-transition-minimax-h3.safetensors)
 
 ### `transition-minimax-h3-f2v-h3.safetensors`
 
@@ -36,5 +36,5 @@ Source: [CivitAI](https://civitai.com/models/3010906?modelVersionId=3416989)
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
-Source: [CivitAI](https://civitai.com/models/2902679)
+Source: [CivitAI](https://civitai.com/models/2902679), [HF](https://huggingface.co/Octavian123/civit/blob/main/transition-minimax-h3-f2v-h3.safetensors)
 

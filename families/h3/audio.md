@@ -1,18 +1,18 @@
 # H3: Audio / voice
 
-3 available Graydient LoRAs (2 already on Graydient, 1 to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit` are listed first; RAID files that still need ingest are labelled *to add to Graydient* and must be run through civit-to-graydient before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+3 available Graydient LoRAs (3 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
-| `jav-moans-audio-only-minimax-h3` | `jpnMoans` | not stated | not stated | JAV moans/喘ぎ声 - Audio Only [Minimax H3] | 6,566 | on Graydient, verified | [CivitAI](https://civitai.com/models/2902825?modelVersionId=3282509) |
-| `natural-face-speech-minimax-h3` | — | not stated | not stated | natural face speech minimax | — | on Graydient, unverified | — |
-| `minimax-female-accents-north-american-h3` | — | 0.4–0.5 | not stated | Minimax Female Accents (North American) | 281 | to add to Graydient, verified | [CivitAI](https://civitai.com/models/3047714?modelVersionId=3465296) |
+| `jav-moans-audio-only-minimax-h3` | `jpnMoans` | not stated | not stated | JAV moans/喘ぎ声 - Audio Only [Minimax H3] | 6,566 | on Graydient, verified | [CivitAI](https://civitai.com/models/2902825?modelVersionId=3282509), [HF](https://huggingface.co/Octavian123/civit/blob/main/jav-moans-audio-only-minimax-h3.safetensors) |
+| `minimax-female-accents-north-american-h3` | — | 0.4–0.5 | not stated | Minimax Female Accents (North American) | 281 | on Graydient, verified | [CivitAI](https://civitai.com/models/3047714?modelVersionId=3465296), [HF](https://huggingface.co/Octavian123/civit2/blob/main/minimax-female-accents-north-american-h3.safetensors) |
+| `natural-face-speech-minimax-h3` | — | not stated | not stated | natural face speech minimax | — | on Graydient, unverified | [HF](https://huggingface.co/Octavian123/civit/blob/main/natural-face-speech-minimax-h3.safetensors) |
 
 ## Suggest ingest
 
-These are **not** on Graydient or the AIOps RAID yet. Suggestion only — download and ingest them yourself with the civit-to-graydient pipeline if you want them. **Nothing here is auto-downloaded.**
+These are **not** in the available Graydient set yet. Suggestion only — download and ingest them yourself with the civit-to-graydient pipeline if you want them. **Nothing here is auto-downloaded.**
 
 | slug / file | trigger | strength | downloads | ingest priority | why | links |
 |---|---|---|---:|---:|---|---|
@@ -53,12 +53,12 @@ jpnMoans, she moans sharply and loudly`
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
-Source: [CivitAI](https://civitai.com/models/2902825?modelVersionId=3282509)
+Source: [CivitAI](https://civitai.com/models/2902825?modelVersionId=3282509), [HF](https://huggingface.co/Octavian123/civit/blob/main/jav-moans-audio-only-minimax-h3.safetensors)
 
 ### `minimax-female-accents-north-american-h3.safetensors`
 
 **Minimax Female Accents (North American)**
-- base `MiniMax H3` · not stated · strength (stated): 0.4–0.5 · to add to Graydient
+- base `MiniMax H3` · not stated · strength (stated): 0.4–0.5 · on Graydient
 
 Example prompt (from the images API, page, or sidecar; never invented):
 
@@ -69,5 +69,5 @@ Example prompt (from the images API, page, or sidecar; never invented):
 
 Compatibility: Graydient H3 workflows (family-level, not a per-LoRA install claim): omni-eros-new-h3 (I2V), extend-h3, extendturbo-h3 (turbo packs only on turbo)
 
-Source: [CivitAI](https://civitai.com/models/3047714?modelVersionId=3465296)
+Source: [CivitAI](https://civitai.com/models/3047714?modelVersionId=3465296), [HF](https://huggingface.co/Octavian123/civit2/blob/main/minimax-female-accents-north-american-h3.safetensors)
 

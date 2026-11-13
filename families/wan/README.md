@@ -1,6 +1,6 @@
 # Wan LoRAs
 
-Tables list **accessible** LoRAs only (on Graydient, the AIOps RAID, or both). A *Suggest ingest* block lists high-value candidates that are not yet accessible. Suggestions are not auto-downloaded.
+Tables list **available** Graydient LoRAs only (already on Graydient, or still to add). A *Suggest ingest* block lists high-value candidates that are not yet available. Suggestions are not auto-downloaded.
 
 - [Motion](motion.md) — 3 accessible
 - [Camera](camera.md) — 7 accessible

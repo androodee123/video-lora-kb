@@ -2,7 +2,7 @@
 
 Comprehensive goal→LoRA chooser for MiniMax H3, Wan 2.1 / 2.2 (14B high/low and 5B TI2V), and LTX-2 / 2.3 / 2.5. Adult NSFW LoRAs are in scope — describe them factually.
 
-**Recommend available Graydient LoRAs first.** Every LoRA in this skill's available set is a Graydient LoRA. Recipes label each pick **on Graydient** (a matching file already in Hugging Face `Octavian123/civit`) or **to add to Graydient** (the file is on the 13 Nov 2026 RAID snapshot at `/Volumes/RAID/Lora/{H3,Wan,LTX2}` and must be ingested with civit-to-graydient before it appears in the concept browser). There is no “AIOps only” category.
+**Recommend available Graydient LoRAs first.** Every LoRA in this skill's available set is a Graydient LoRA. Recipes label each pick **on Graydient** (a matching file already in Hugging Face `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private`) or **to add to Graydient (no public source; needs local upload)** (the file is on the 13 Nov 2026 RAID snapshot at `/Volumes/RAID/Lora/{H3,Wan,LTX2}` and has no public CivitAI/HF URL, so it needs a local RAID upload before it appears in the concept browser). There is no “AIOps only” category.
 
 **Suggest ingest when it is useful**, never automatically. A *Suggest ingest* line means: this LoRA is not in the available Graydient set yet; if you want it, download it and ingest it with the civit-to-graydient pipeline. Nothing in this skill downloads or ingests weights.
 
@@ -80,7 +80,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 
 ### 4. North American accent (H3)
 
-- Available (to add to Graydient): `minimax-female-accents-north-american-h3` (trigger not stated; strength 0.4–0.5). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.**
+- Available (on Graydient): `minimax-female-accents-north-american-h3` (trigger not stated; strength 0.4–0.5).
 
 ### 5. Frozen-time camera orbit / card spin (H3)
 
@@ -90,7 +90,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 ### 6. Locked camera or chase / fisheye POV (H3)
 
 - Available (on Graydient): `mmh3-locked-stabilization-camera-locked-to-h3` (trigger `the camera is centred on`, `lockstab`; strength 1); `crash-zoom-minimax-h3` (trigger `crash_zm`; strength not stated); `pov-fisheye-immersive-sexy-chasing-track-h-h3` (trigger not stated; strength not stated); `amateur-pov-h3` (trigger `zy_amateurpov`; strength 0.4–0.85).
-- Available (to add to Graydient): `smart-glasses-pov-minimax-h3` (trigger `povsint`; strength not stated). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.**
+- Available (on Graydient): `smart-glasses-pov-minimax-h3` (trigger `povsint`; strength not stated).
 - Suggest ingest: `camera-motion-h3` [CivitAI](https://civitai.com/models/2914784?modelVersionId=3297480) (trigger `camera motion`; strength not stated). Download and ingest into Graydient with civit-to-graydient if you want them. **Not auto-downloaded.**
 
 ### 7. Phone / digicam / Y2K nude realism (H3)
@@ -100,14 +100,14 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 
 ### 8. Cinematic film texture (H3)
 
-- Available (to add to Graydient): `teal-orange-cinematic-h3` (trigger not stated; strength not stated). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.**
+- Available (on Graydient): `teal-orange-cinematic-h3` (trigger not stated; strength not stated).
 - Suggest ingest: `cinematic-h3` [CivitAI](https://civitai.com/models/2849726?modelVersionId=3217898) (trigger `See LoRA describtion`, `see LoRA description`; strength not stated); `real-cinematic-h3` [CivitAI](https://civitai.com/models/2890588?modelVersionId=3267949) (trigger not stated; strength not stated). Download and ingest into Graydient with civit-to-graydient if you want them. **Not auto-downloaded.**
 - Pick one texture LoRA. Pair with a realism slider only after a baseline.
 
 ### 9. Realism slider / skin and detail (H3)
 
 - Available (on Graydient): `mmh3-realism-slider-h3` (trigger not stated; strength not stated); `mmh3-detail-slider-h3` (trigger not stated; strength not stated).
-- Available (to add to Graydient): `mmh3-realism-slider-v2-hyperflow-h3-flash-h3` (trigger not stated; strength 0.65–0.85; 0.65–0.90). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.**
+- Available (on Graydient): `mmh3-realism-slider-v2-hyperflow-h3-flash-h3` (trigger not stated; strength 0.65–0.85; 0.65–0.90).
 - Suggest ingest: `minimax-h3-realism-people-lora` [HF](https://huggingface.co/fal/MiniMax-H3-Realism-People-LoRA) (trigger `r34l1sm`; strength 1.0). Download and ingest into Graydient with civit-to-graydient if you want them. **Not auto-downloaded.**
 - Suggest ingest: `eyes-skin-hands-h3` [CivitAI](https://civitai.com/models/2899220?modelVersionId=3278036) (trigger `perfe8ct`, `perfect hands`, `perfect skin`; strength not stated). Download and ingest into Graydient with civit-to-graydient if you want them. **Not auto-downloaded.**
 
@@ -148,7 +148,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 ### 17. Wan 2.2 high/low pairing (general)
 
 - Whenever the row’s `files` (or installed filenames) include `HIGH` and `LOW` / `high_noise` and `low_noise`, load both at the same strength.
-- Available pairs (ingest any that are still *to add to Graydient* before use): Tentacled v2.1 high/low (sidecars present), futa cowgirl high/low, plus unverified sidecar-only pairs `Fondled_*`, `wan22_i2v_futa_missionary_*`, `xMilkDuctXrayx_*`.
+- Available pairs: Tentacled v2.1 high/low (on Graydient, sidecars present), futa cowgirl high/low (`wan22-i2v-futa-cowgirl-low-noise` is on Graydient). Unverified sidecar-only pairs `Fondled_*`, `wan22_i2v_futa_missionary_*` (low still to add; no public source, needs local upload), `xMilkDuctXrayx_*` (still to add; no public source, needs local upload).
 - Local `b7_test1_wan22_t2v_f17_high_*` is **high-noise only**, trigger `b7vhs`. Prefer the final `..._high_noise.safetensors`. There is no matching low from that run.
 
 ### 18. Faster Wan 2.2 / 2.1 (distill, LightX2V, CausVid, self-forcing)
@@ -171,7 +171,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 
 ### 21. Wan 2.1 480p vs 720p I2V
 
-- Available (to add to Graydient): `wan2-1-i2v-480p-flaccid-v1-0` (trigger `flaccid-v0.6-musubi`, `wan2.1 i2v 480p flaccid`, `penis`; strength not stated). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.**
+- Available (on Graydient): `wan2-1-i2v-480p-flaccid-v1-0` (trigger `flaccid-v0.6-musubi`, `wan2.1 i2v 480p flaccid`, `penis`; strength not stated).
 - Catalog 720p I2V uses `Wan Video 14B i2v 720p`. Check the row’s `base` before downloading or recommending.
 
 ### 22. General NSFW motion on Wan 2.2 I2V (catalog)
@@ -181,7 +181,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 
 ### 23. Wan act LoRAs already on RAID (cowgirl, doggy, blowjob, etc.)
 
-- Available act files (some still to add to Graydient) include cowgirl, reverse-cowgirl, doggystyle, standing sex, side/spoon, handjobs, blowjobs, twerking, dildoing, facial/cumshot packs. Many are single-file Wan 2.1-era or unpaired 2.2 — read `base` and whether a high/low mate exists.
+- Available act files include cowgirl, reverse-cowgirl, doggystyle, standing sex, side/spoon, handjobs, blowjobs, twerking, dildoing, facial/cumshot packs. Many are single-file Wan 2.1-era or unpaired 2.2 — read `base` and whether a high/low mate exists.
 - Triggers: prefer the sidecar or catalog `triggers` field. Several older skeleton rows use the slug as the trigger; if `triggers` is empty, say not stated.
 
 ### 24. Wan identity / character
@@ -220,11 +220,11 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 
 ### 32. Local Wan look probe (VHS / 90s tape)
 
-- Available (to add to Graydient): `b7_test1` high-noise T2V, trigger `b7vhs`. Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.** Example from the sidecar README: `b7vhs, three women in a dark brick dungeon, white lingerie, locked-off wide shot, they slowly move together`. No low-noise mate.
+- Available (to add to Graydient (no public source; needs local upload)): `b7_test1` high-noise T2V, trigger `b7vhs`. No public source; needs a local RAID upload into Graydient before use. **Not auto-downloaded.** Example from the sidecar README: `b7vhs, three women in a dark brick dungeon, white lingerie, locked-off wide shot, they slowly move together`. No low-noise mate.
 
 ### 33. LTX taker POV
 
-- Available (to add to Graydient): `ltx-2-takerpov-lora-v1-2` (trigger `LTX-2_takerpov_lora_v1.2`, `LTX takerpov`, `takerpov1`; strength 0.8–1.0). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.**
+- Available (on Graydient): `ltx-2-takerpov-lora-v1-2` (trigger `LTX-2_takerpov_lora_v1.2`, `LTX takerpov`, `takerpov1`; strength 0.8–1.0).
 
 ### 34. LTX official camera control (dolly, jib, static) — not on RAID
 
@@ -234,7 +234,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 ### 35. LTX sexy / thrust / swing motion (installed)
 
 - Available (on Graydient): `ltx23-i2v-swing-in-out-os` (trigger `ltx23-i2v-swing-in-out2`, `ltx23 i2v swing in out os`; strength not stated); `ltx23-i2v-swing-up-down-os` (trigger `ltx23-i2v-swing-up-down`, `ltx23 i2v swing up down os`; strength not stated).
-- Available (to add to Graydient): `ltx2-i2v-sexymove` (trigger `LTX2-i2v-SexyMove`, `LTX2 i2v SexyMove`, `sexy`; strength 0.2–0.91); `ltx2-i2v-sexthrust` (trigger `LTX2-i2v-SexThrust_1`, `LTX2 i2v SexThrust`; strength 0.8–1.0; 0.2–0.4). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.**
+- Available (on Graydient): `ltx2-i2v-sexymove` (trigger `LTX2-i2v-SexyMove`, `LTX2 i2v SexyMove`, `sexy`; strength 0.2–0.91); `ltx2-i2v-sexthrust` (trigger `LTX2-i2v-SexThrust_1`, `LTX2 i2v SexThrust`; strength 0.8–1.0; 0.2–0.4).
 - Start SexyMove around the stated best zone, not at 0.91.
 
 ### 36. LTX body physics / better breasts (catalog)
@@ -244,7 +244,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 ### 37. LTX anime / flat / retro style
 
 - Available (on Graydient): `pvc-anime-figures-ltx-2-3-ltx2` (trigger not stated; strength not stated).
-- Available (to add to Graydient): `retro-anime-mix-by-shrekman-ltx2` (trigger `Flat 2D, Retro anime style`; strength not stated). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.**
+- Available (on Graydient): `retro-anime-mix-by-shrekman-ltx2` (trigger `Flat 2D, Retro anime style`; strength not stated).
 - Catalog: Posing Dynamics (`PosingDynamicsDaal`), 90s anime style (`ANIMSTY`, …) in `families/ltx/anime.md` / `style.md`.
 
 ### 38. LTX realism / amateur look
@@ -325,7 +325,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 
 ### 52. Lighting, caustics, relight (H3)
 
-- Available (to add to Graydient): `Underwater Sunlight Caustics & Ocean Refraction Slider` (trigger not stated). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.**
+- Available (on Graydient): `Underwater Sunlight Caustics & Ocean Refraction Slider` (trigger not stated).
 - Catalog / texture already in recipes 7–8 (`teal-orange-cinematic-h3` installed). Pick one lighting/texture direction.
 - Conflict: caustics/underwater look vs dry cinematic teal-orange on the same pass.
 
@@ -370,7 +370,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 
 ### 61. Penis detail / futa helpers (H3)
 
-- Available (to add to Graydient): `dirtylarry-s-dick-detailer-h3` (trigger not stated; strength 1). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.**
+- Available (on Graydient): `dirtylarry-s-dick-detailer-h3` (trigger not stated; strength 1).
 - Pair with one act LoRA, not a second detailer.
 
 ### 62. Face-slap motion (H3, Ref2VA)
@@ -383,7 +383,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 
 ### 64. Hair-pulling motion (H3)
 
-- Available (to add to Graydient): `hair-pulling-h3-101-h3` (trigger not stated). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.** Catalog may list other hair-pull acts; use the family table. Strength not stated — short test clip.
+- Available (on Graydient): `hair-pulling-h3-101-h3` (trigger not stated). Catalog may list other hair-pull acts; use the family table. Strength not stated — short test clip.
 
 ### 65. Talking / lipsync on Wan
 
@@ -503,7 +503,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 
 ### 89. Installed LTX multi-purpose NSFW
 
-- Available (to add to Graydient): `LTX 2/2.3 [I2V] NSFW (+furry) - Multi purpose sex lora` (trigger `ltx2 nsfw+furry`, strength not stated). Ingest into Graydient with civit-to-graydient before use. **Not auto-downloaded.** Use with one additional motion helper at most (SexyMove in its **0.75–0.8** best zone if needed).
+- Available (on Graydient): `LTX 2/2.3 [I2V] NSFW (+furry) - Multi purpose sex lora` (trigger `ltx2 nsfw+furry`, strength not stated). Use with one additional motion helper at most (SexyMove in its **0.75–0.8** best zone if needed).
 - Browse `families/ltx/nsfw-acts.md` for more installed acts.
 
 ### 90. CrossView / alternate camera IC-LoRA (LTX)
@@ -533,7 +533,7 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 
 ### 94. Object interaction: pick a family
 
-- H3: recipe 16 (`LiconStudio/Minimax-H3-VBVR`) and catalog `Swallowing Object` (stated **0.75–1**, trigger starts `She inserts the [object] inside her mouth…` — use the recorded wording, filling only the object slot the page leaves open). Available `Vaginal object delivery` has a recorded delivery trigger in the table — ingest it first if it is still *to add to Graydient*.
+- H3: recipe 16 (`LiconStudio/Minimax-H3-VBVR`) and catalog `Swallowing Object` (stated **0.75–1**, trigger starts `She inserts the [object] inside her mouth…` — use the recorded wording, filling only the object slot the page leaves open). Available `Vaginal object delivery` (`vaginal-object-delivery-h3`) is on Graydient and has a recorded delivery trigger in the table.
 - Wan: recipe 67 (living clothes **0.75–1.0** on 2.1; ObjectTypo).
 - LTX: official clean-plate / ingredients / edit packs (recipe 40) and prompt-based object-edit LoRAs; strength often `not stated`.
 
@@ -570,5 +570,5 @@ Recipes 1–16, 49–64 and 98 are MiniMax H3, 17–32, 65–78 and 97 Wan, 33�
 - Prompt shapes: `guides/image-to-video.md` and per-family templates in `guides/prompt-patterns.md`.
 - Official utility directory: `guides/fuzzpuppy-directory.md` (many of these are ingest candidates if they are not already on Graydient).
 - New CivitAI uploads that are not yet accessible: `python3 scripts/check_new.py` (proposal markdown only, no downloads).
-- RAID files still to add to Graydient: `data/graydient_ingest_queue.md`.
+- RAID files still to add to Graydient (no public source; need a local upload): `data/graydient_ingest_queue.md`.
 - Candidate backlog with ingest-priority scores: `data/candidates.jsonl`.

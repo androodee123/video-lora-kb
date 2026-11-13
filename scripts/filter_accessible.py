@@ -1,21 +1,25 @@
 #!/usr/bin/env python3
-"""Filter the catalog to Graydient- or AIOps-accessible video LoRAs.
+"""Filter the catalog to Graydient-accessible video LoRAs.
 
-Accessible:
-  - graydient: a matching file exists in Hugging Face repo Octavian123/civit
-    (private Graydient concepts are registered from those {slug}.safetensors
-    files). Metadata only — this script never downloads weights.
-  - aiops: the row is already on the AIOps RAID (installed=true), from the
-    13 Nov 2026 snapshot at /Volumes/RAID/Lora/{H3,Wan,LTX2}.
+A LoRA is on Graydient when a matching weight file exists in any of:
+  - Hugging Face Octavian123/civit
+  - Hugging Face Octavian123/civit2 (newer ingests)
+  - Hugging Face Octavian123/private (included when listable)
 
-data/loras.jsonl is rewritten to accessible rows only (graydient OR aiops).
-Everything else goes to data/candidates.jsonl with an ingest_priority score.
-data/excluded.jsonl is left untouched.
+aiops/installed remains a secondary flag from the 13 Nov 2026 RAID snapshot
+at /Volumes/RAID/Lora/{H3,Wan,LTX2}. RAID files that are not yet in those
+HF repos stay in data/loras.jsonl with graydient_status "to add to Graydient"
+(or "to add to Graydient (no public source; needs local upload)" when there
+is no public CivitAI/HF URL).
 
-Unmatched Octavian123/civit files that are clearly video LoRAs (H3 / Wan / LTX)
-are added as graydient=true, verified=false rows. Image-family files
-(-krea2, -anima, -moss, -ill, … and moss/ checkpoints) are not added unless
-they already match a catalog video row.
+The universe rematched each run is data/loras.jsonl plus data/candidates.jsonl.
+Matches become available ("on Graydient"). Everything else stays in
+data/candidates.jsonl with an ingest_priority score. data/excluded.jsonl is
+left untouched except for an explicit drop list (Finder duplicates).
+
+This script never downloads weights. Unmatched HF video files are not
+auto-added (that previously inflated the catalog); only existing catalog or
+candidate rows are promoted.
 """
 from __future__ import annotations
 
@@ -37,8 +41,11 @@ ROOT = H.ROOT
 JSONL = ROOT / "data" / "loras.jsonl"
 CANDIDATES = ROOT / "data" / "candidates.jsonl"
 REPORT = ROOT / "data" / "accessibility_report.md"
-HF_CACHE = ROOT / "data" / "raw" / "huggingface" / "octavian123-civit-files.txt"
-HF_REPO = "Octavian123/civit"
+HF_CACHE_DIR = ROOT / "data" / "raw" / "huggingface"
+HF_REPOS = R.HF_REPOS
+HF_REPO = HF_REPOS[0]  # backward-compatible alias (civit)
+DROP_SLUGS = {"msltx-3fingering-step00005000-comfy-1"}
+SLUG_MAP = ROOT / "data" / "graydient_slugs.json"
 TZ = ZoneInfo("Africa/Johannesburg")
 
 WEIGHT_EXT = (".safetensors", ".sft")
@@ -92,9 +99,10 @@ def infer_family(path: str) -> str | None:
     'wan' or 'h3' as a word. moss/ tree is image training checkpoints unless
     a later exact catalog match already used the file.
     """
-    if path.startswith("moss/"):
+    rel = rel_path(path)
+    if rel.startswith("moss/") or path.startswith("moss/"):
         return None
-    base = path.rsplit("/", 1)[-1]
+    base = rel.rsplit("/", 1)[-1]
     sl = slugify(base)
     tok = last_token(sl)
     if tok in IMAGE_LAST_TOKENS:
@@ -111,18 +119,83 @@ def infer_family(path: str) -> str | None:
     return None
 
 
+def cache_path(repo: str) -> Path:
+    return HF_CACHE_DIR / f"octavian123-{repo.split('/')[-1]}-files.txt"
+
+
+def split_repo_path(path: str) -> tuple[str, str]:
+    parts = path.split("/", 2)
+    if len(parts) >= 3:
+        repo = f"{parts[0]}/{parts[1]}"
+        if repo in HF_REPOS:
+            return repo, parts[2]
+    return "", path
+
+
+def rel_path(path: str) -> str:
+    _, rel = split_repo_path(path)
+    return rel
+
+
+def is_moss(path: str) -> bool:
+    rel = rel_path(path)
+    return rel.startswith("moss/") or path.startswith("moss/")
+
+
+def hf_blob_url(repo_rel: str) -> str:
+    repo, rel = split_repo_path(repo_rel)
+    if repo and rel:
+        return f"https://huggingface.co/{repo}/blob/main/{rel}"
+    return f"https://huggingface.co/{HF_REPO}/blob/main/{repo_rel}"
+
+
+def preferred_repo_file(paths: list[str]) -> str | None:
+    if not paths:
+        return None
+    by_repo: dict[str, list[str]] = {}
+    for p in paths:
+        repo, _rel = split_repo_path(p)
+        by_repo.setdefault(repo or "unknown", []).append(p)
+    for repo in R.HF_REPO_PREF:
+        if by_repo.get(repo):
+            return sorted(by_repo[repo])[0]
+    return sorted(paths)[0]
+
+
 def list_hf_files(refresh: bool) -> list[str]:
-    if HF_CACHE.exists() and not refresh:
-        files = [ln.strip() for ln in HF_CACHE.read_text(encoding="utf-8").splitlines() if ln.strip()]
-        print(f"HF file list from cache ({len(files)} paths): {HF_CACHE}", file=sys.stderr)
-        return files
+    """Return repo-prefixed paths (Octavian123/civit2/foo.safetensors). Metadata only."""
     from huggingface_hub import HfApi
-    print(f"listing {HF_REPO} via huggingface_hub (metadata only, no weights) ...", file=sys.stderr)
-    files = list(HfApi().list_repo_files(HF_REPO, repo_type="model"))
-    HF_CACHE.parent.mkdir(parents=True, exist_ok=True)
-    HF_CACHE.write_text("\n".join(files) + "\n", encoding="utf-8")
-    print(f"wrote cache {HF_CACHE} ({len(files)} paths)", file=sys.stderr)
-    return files
+
+    api = None
+    all_files: list[str] = []
+    HF_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    for repo in HF_REPOS:
+        cache = cache_path(repo)
+        files = None
+        if cache.exists() and not refresh:
+            files = [ln.strip() for ln in cache.read_text(encoding="utf-8").splitlines() if ln.strip()]
+            print(f"HF file list from cache ({len(files)} paths): {cache}", file=sys.stderr)
+        else:
+            try:
+                if api is None:
+                    api = HfApi()
+                print(f"listing {repo} via huggingface_hub (metadata only, no weights) ...", file=sys.stderr)
+                files = list(api.list_repo_files(repo, repo_type="model"))
+                cache.write_text("\n".join(files) + "\n", encoding="utf-8")
+                print(f"wrote cache {cache} ({len(files)} paths)", file=sys.stderr)
+            except Exception as e:
+                print(f"WARNING: could not list {repo}: {type(e).__name__}: {e}", file=sys.stderr)
+                if cache.exists():
+                    files = [ln.strip() for ln in cache.read_text(encoding="utf-8").splitlines() if ln.strip()]
+                    print(f"falling back to cache ({len(files)} paths): {cache}", file=sys.stderr)
+                else:
+                    files = []
+        for f in files or []:
+            all_files.append(f"{repo}/{f}")
+    combined = HF_CACHE_DIR / "octavian123-graydient-files.txt"
+    combined.write_text("\n".join(all_files) + "\n", encoding="utf-8")
+    print(f"combined Graydient listing: {len(all_files)} paths across {len(HF_REPOS)} repos", file=sys.stderr)
+    return all_files
 
 
 def catalog_keys(r: dict) -> list[tuple[str, str]]:
@@ -193,7 +266,7 @@ def keys_compatible(row_key: str, hf_slug: str, row_family: str, hf_path: str) -
     """
     if not row_key or not hf_slug or row_key == hf_slug:
         return "exact" if row_key == hf_slug else None
-    if hf_path.startswith("moss/") or last_token(hf_slug) in IMAGE_LAST_TOKENS:
+    if is_moss(hf_path) or last_token(hf_slug) in IMAGE_LAST_TOKENS:
         return None
     hf_fam = infer_family(hf_path)
     if hf_fam and row_family and hf_fam != row_family:
@@ -255,13 +328,17 @@ def match_rows(rows: list[dict], hf_files: list[str]):
         def usable(path, kind):
             # Image-family uploads (-krea2, -anima, -moss, -ill, qwen, zimage, moss/)
             # are not Graydient video access, even when they share a CivitAI title.
-            if path.startswith("moss/"):
+            if is_moss(path):
                 return False
             sl = slugify(path.rsplit("/", 1)[-1])
             if last_token(sl) in IMAGE_LAST_TOKENS:
                 return False
             hf_fam = infer_family(path)
-            if hf_fam and fam and hf_fam != fam:
+            # Exact slug/file/path matches win even when the RAID family and the
+            # filename suffix disagree (e.g. an H3 port whose slug still ends in -wan).
+            if hf_fam and fam and hf_fam != fam and kind not in {
+                "slug", "file", "file_raw", "files", "files_raw", "path",
+            }:
                 return False
             # civitai_name / fuzzy need a clear video family; exact file/slug/path
             # may still match an oddly named video weight.
@@ -289,7 +366,7 @@ def match_rows(rows: list[dict], hf_files: list[str]):
                     if not sl.startswith(prefix) and not key.startswith(sl[:20]):
                         continue
                     for path in paths:
-                        if path.startswith("moss/") or last_token(slugify(path.rsplit("/", 1)[-1])) in IMAGE_LAST_TOKENS:
+                        if is_moss(path) or last_token(slugify(path.rsplit("/", 1)[-1])) in IMAGE_LAST_TOKENS:
                             continue
                         reason = keys_compatible(key, sl, fam, path)
                         if reason and reason != "exact":
@@ -304,7 +381,7 @@ def unmatched_video_files(hf_weights: list[str], used: set[str]) -> list[tuple[s
     for path in hf_weights:
         if path in used:
             continue
-        if path.startswith("moss/"):
+        if is_moss(path):
             continue
         fam = infer_family(path)
         if fam:
@@ -321,7 +398,8 @@ def new_row_from_hf(path: str, family: str) -> dict:
             purpose = sl[: -(len(tok) + 1)]
             break
     purpose = purpose.replace("-", " ").strip() or sl
-    url = f"https://huggingface.co/{HF_REPO}/blob/main/{path}"
+    url = hf_blob_url(path)
+    repo, _rel = split_repo_path(path)
     rec = {
         "family": family,
         "file": base,
@@ -343,7 +421,7 @@ def new_row_from_hf(path: str, family: str) -> dict:
         "thumbs_up": None,
         "source": "octavian123-civit",
         "bases": None,
-        "hf_id": HF_REPO,
+        "hf_id": repo or HF_REPO,
         "files": [base],
         "example_prompt": None,
         "example_prompts": [],
@@ -378,8 +456,7 @@ def sort_accessible(rows: list[dict]) -> list[dict]:
     fam_ord = {"H3": 0, "Wan": 1, "LTX2": 2}
 
     def key(r):
-        lab = R.access_label(r)
-        lab_ord = {R.ON_GRAYDIENT: 0, R.TO_ADD: 1}.get(lab, 3)
+        lab_ord = R.status_rank(r)
         inst = 0 if r.get("aiops") or r.get("installed") else 1
         dl = -(r.get("downloads") or 0)
         return (fam_ord.get(r.get("family"), 9), lab_ord, inst, dl, r.get("slug") or r.get("file") or "")
@@ -405,20 +482,160 @@ def counts_block(acc: list[dict], cand: list[dict]) -> dict:
     out = {}
     for fam in ("H3", "Wan", "LTX2"):
         sub = [r for r in acc if r.get("family") == fam]
-        g = sum(1 for r in sub if r.get("graydient"))
+        on = sum(1 for r in sub if R.is_on_graydient(r))
+        to_add = sum(1 for r in sub if R.is_to_add(r))
         a = sum(1 for r in sub if r.get("aiops"))
-        both = sum(1 for r in sub if r.get("graydient") and r.get("aiops"))
         out[fam] = {
-            "graydient_only": g - both,
-            "aiops_only": a - both,
-            "both": both,
-            "accessible": len(sub),
-            "graydient": g,
-            "aiops": a,
+            "on_graydient": on,
+            "to_add": to_add,
+            "available": len(sub),
             "candidates": sum(1 for r in cand if r.get("family") == fam),
+            "aiops": a,
+            # aliases kept for older callers
+            "accessible": len(sub),
+            "graydient": on,
+            "graydient_only": sum(1 for r in sub if R.is_on_graydient(r) and not r.get("aiops")),
+            "aiops_only": to_add,
+            "both": sum(1 for r in sub if R.is_on_graydient(r) and r.get("aiops")),
         }
     out["ALL"] = {k: sum(out[f][k] for f in ("H3", "Wan", "LTX2")) for k in next(iter(out.values()))}
     return out
+
+
+def load_slug_map() -> dict[str, str]:
+    if not SLUG_MAP.exists():
+        return {}
+    data = json.loads(SLUG_MAP.read_text(encoding="utf-8"))
+    out = {}
+    for k, v in (data or {}).items():
+        if k and v and k != v:
+            out[str(k)] = str(v)
+    return out
+
+
+def load_universe() -> tuple[list[dict], int, list[dict]]:
+    """Merge loras.jsonl + candidates.jsonl, dropping Finder duplicates.
+
+    Returns (rows, available_before_merge, dropped_rows).
+    """
+    acc = load_jsonl(JSONL)
+    cand = load_jsonl(CANDIDATES)
+    dropped = []
+    seen = set()
+    rows = []
+    for r in acc + cand:
+        slug = r.get("slug") or r.get("file") or ""
+        if slug in DROP_SLUGS or slugify(slug) in DROP_SLUGS:
+            dropped.append(r)
+            continue
+        # Same CivitAI title can have an H3 version and a Wan version that share a slug.
+        # Identity is family + slug + file + version + path, not slug alone.
+        key = (
+            r.get("family") or "",
+            slug,
+            r.get("file") or "",
+            str(r.get("version_id") or ""),
+            r.get("path") or "",
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append(r)
+    return rows, len(acc), dropped
+
+
+def stamp_graydient_urls(r: dict, files: list[str], slug_map: dict[str, str]) -> None:
+    r["graydient_files"] = sorted(set(files))
+    pref = preferred_repo_file(files)
+    urls = dict(r.get("urls") or {})
+    if pref:
+        gd = hf_blob_url(pref)
+        urls["graydient_hf"] = gd
+        repo, _rel = split_repo_path(pref)
+        r["graydient_hf_repo"] = repo or None
+        r["hf_id"] = repo or r.get("hf_id")
+        # Do not overwrite an upstream public HF page with the Graydient copy.
+        if not urls.get("huggingface"):
+            urls["huggingface"] = gd
+    r["urls"] = urls
+    sl = r.get("slug")
+    if sl and sl in slug_map:
+        r["graydient_slug"] = slug_map[sl]
+    elif r.get("graydient_slug") in (None, "", sl):
+        # keep an existing distinct slug; otherwise leave unset/same
+        pass
+
+
+def write_ingest_queue(rows: list[dict], now: str) -> None:
+    queue = [r for r in rows if R.needs_graydient_ingest(r)]
+    md = ROOT / "data" / "graydient_ingest_queue.md"
+    txt = ROOT / "data" / "graydient_ingest_queue.txt"
+    by_fam = Counter(r.get("family") for r in queue)
+    no_src = [r for r in queue if not R.has_source_url(r) or R.graydient_status(r) == R.TO_ADD_NO_SOURCE]
+    lines = [
+        "# Graydient ingest queue",
+        "",
+        f"Generated {now}. These **{len(queue)}** LoRAs are on the AIOps RAID "
+        f"(`/Volumes/RAID/Lora/{{H3,Wan,LTX2}}`, snapshot 13 Nov 2026) but do not have a matching file in "
+        f"Hugging Face `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private`. "
+        f"They stay in the available set (`data/loras.jsonl`) with `graydient_status` = "
+        f"**to add to Graydient (no public source; needs local upload)** when there is no public CivitAI/HF URL. "
+        "They need a local RAID upload into the Graydient concept browser — ingest.py cannot fetch them from a URL. "
+        "Nothing here is auto-downloaded.",
+        "",
+        f"Total: **{len(queue)}** (H3 {by_fam.get('H3', 0)}, Wan {by_fam.get('Wan', 0)}, LTX {by_fam.get('LTX2', 0)}). "
+        f"No public source URL: {len(no_src)}.",
+        "",
+        "| family | slug | RAID path | status | source |",
+        "|---|---|---|---|---|",
+    ]
+    fam_ord = {"H3": 0, "Wan": 1, "LTX2": 2}
+    for r in sorted(queue, key=lambda x: (fam_ord.get(x.get("family"), 9), x.get("slug") or x.get("file") or "")):
+        path = r.get("path") or r.get("file") or ""
+        src = "—"
+        u = r.get("urls") or {}
+        if u.get("civitai"):
+            src = f"[source]({u['civitai']})"
+        elif u.get("huggingface"):
+            src = f"[source]({u['huggingface']})"
+        lines.append(
+            f"| {r.get('family')} | `{r.get('slug') or r.get('file')}` | `{path}` | "
+            f"{R.graydient_status(r)} | {src} |"
+        )
+    md.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    txt_lines = [
+        "# Remaining Graydient ingest items. No public source URL — needs local upload from the RAID path.",
+        "# This file is a list, not a download queue. Do not fetch weights automatically.",
+    ]
+    for r in sorted(queue, key=lambda x: (fam_ord.get(x.get("family"), 9), x.get("slug") or x.get("file") or "")):
+        raid = r.get("path") or r.get("file") or r.get("slug")
+        txt_lines.append(f"/Volumes/RAID/Lora/{raid}")
+    txt.write_text("\n".join(txt_lines).rstrip() + "\n", encoding="utf-8")
+    print(f"wrote {md} ({len(queue)}) and {txt}", file=sys.stderr)
+
+
+def append_excluded(dropped: list[dict], now: str) -> None:
+    if not dropped:
+        return
+    dest = ROOT / "data" / "excluded.jsonl"
+    existing = load_jsonl(dest)
+    have = {(r.get("slug") or r.get("file")) for r in existing}
+    added = 0
+    with dest.open("a", encoding="utf-8") as f:
+        for r in dropped:
+            key = r.get("slug") or r.get("file")
+            if key in have:
+                continue
+            rec = dict(r)
+            rec["exclude_reason"] = (
+                "Finder duplicate of msltx-3fingering-step00005000-comfy "
+                "(identical weights); dropped from the available catalog on 13 Nov 2026."
+            )
+            rec["excluded_at"] = now
+            f.write(json.dumps(rec, ensure_ascii=False, default=str) + "\n")
+            added += 1
+    if added:
+        print(f"appended {added} dropped row(s) to {dest}", file=sys.stderr)
 
 
 def render_report(
@@ -431,57 +648,81 @@ def render_report(
     rows_before: int,
     unmatched: list[tuple[str, str]],
     used_files: set[str],
-    aiops_not_graydient: list[dict],
+    still_to_add: list[dict],
     doubts: list[str],
+    promoted: int,
+    dropped: list[dict],
+    repo_counts: dict[str, int],
 ) -> str:
     c = counts_block(acc, cand)
+    repo_bits = ", ".join(f"`{repo}` {n} paths" for repo, n in repo_counts.items())
     lines = [
         f"# Accessibility report",
         "",
-        f"Generated {now}. Source of Graydient access: Hugging Face `{HF_REPO}` "
-        f"({len(hf_files)} paths, {len(hf_weights)} weight files, listed via the Hub API — no weights downloaded). "
-        f"Source of AIOps access: `installed=true` rows from the 13 Nov 2026 RAID snapshot "
+        f"Generated {now}. Source of Graydient access: Hugging Face "
+        + ", ".join(f"`{repo}`" for repo in HF_REPOS)
+        + f" ({len(hf_files)} combined paths, {len(hf_weights)} weight files, listed via the Hub API — no weights downloaded). "
+        f"Per-repo path counts: {repo_bits}. "
+        f"Source of RAID presence: `installed=true` / `aiops=true` rows from the 13 Nov 2026 snapshot "
         f"(`/Volumes/RAID/Lora/{{H3,Wan,LTX2}}`).",
         "",
-        f"Catalog before filter: **{rows_before}** video LoRAs. After filter: **{len(acc)}** accessible, "
-        f"**{len(cand)}** ingest candidates. Unmatched HF video files added: **{len(unmatched)}** "
-        f"(verified=false).",
+        f"Universe rematched (available + candidates, after dropping Finder duplicates): **{rows_before}**. "
+        f"After filter: **{len(acc)}** available, **{len(cand)}** ingest candidates. "
+        f"Candidates newly promoted to available because they matched civit / civit2 / private: **{promoted}**. "
+        f"Unmatched HF video files auto-added: **{len(unmatched)}** (default is none).",
         "",
         "## Counts",
         "",
-        "| Family | Graydient only | AIOps only | Both | Accessible total | Candidates |",
-        "|---|---:|---:|---:|---:|---:|",
+        "| Family | on Graydient | still to add | available | candidates |",
+        "|---|---:|---:|---:|---:|",
     ]
     for fam, label in (("H3", "MiniMax H3"), ("Wan", "Wan"), ("LTX2", "LTX"), ("ALL", "**Total**")):
         x = c[fam]
         lines.append(
-            f"| {label} | {x['graydient_only']} | {x['aiops_only']} | {x['both']} | "
-            f"{x['accessible']} | {x['candidates']} |"
+            f"| {label} | {x['on_graydient']} | {x['to_add']} | {x['available']} | {x['candidates']} |"
         )
     lines += [
         "",
-        f"HF weight files reviewed: **{len(hf_weights)}**. HF weight files matched to a catalog row: "
+        f"HF weight files reviewed: **{len(hf_weights)}**. HF weight files matched to a catalog or candidate row: "
         f"**{len(used_files)}**.",
         "",
-        "## AIOps (installed) not on Graydient",
+        "## Still to add to Graydient",
         "",
-        f"{len(aiops_not_graydient)} of the installed RAID video LoRAs have no matching file in `{HF_REPO}`. "
-        "They stay in `data/loras.jsonl` as AIOps-only.",
+        f"{len(still_to_add)} installed RAID video LoRAs have no matching file in "
+        + ", ".join(f"`{repo}`" for repo in HF_REPOS)
+        + ". They stay in `data/loras.jsonl` labelled "
+        f"`{R.TO_ADD_NO_SOURCE}` when they have no public source URL (local upload required). "
+        "See `data/graydient_ingest_queue.md`.",
         "",
     ]
-    if aiops_not_graydient:
+    if still_to_add:
         lines += [
-            "| family | slug / file | source |",
-            "|---|---|---|",
+            "| family | slug / file | RAID path | status |",
+            "|---|---|---|---|",
         ]
-        for r in aiops_not_graydient:
-            lines.append(f"| {r.get('family')} | `{r.get('slug') or r.get('file')}` | {r.get('source') or '—'} |")
+        for r in still_to_add:
+            lines.append(
+                f"| {r.get('family')} | `{r.get('slug') or r.get('file')}` | "
+                f"`{r.get('path') or r.get('file') or '—'}` | {R.graydient_status(r)} |"
+            )
+        lines.append("")
+    if dropped:
+        lines += [
+            "## Dropped from the catalog",
+            "",
+            f"{len(dropped)} Finder-duplicate row(s) were removed from the available set and appended to "
+            "`data/excluded.jsonl`.",
+            "",
+        ]
+        for r in dropped:
+            lines.append(f"- `{r.get('slug') or r.get('file')}` (`{r.get('path') or r.get('file')}`)")
         lines.append("")
     lines += [
         "## Unmatched Hugging Face video files added",
         "",
-        f"{len(unmatched)} root-level weight files looked like H3 / Wan / LTX video LoRAs and did not match "
-        "an existing catalog row. Each was added with `graydient=true`, `verified=false`, no invented trigger or strength.",
+        f"{len(unmatched)} unmatched HF video files were added as new available rows. "
+        "The default is to not auto-add unmatched HF files (that previously inflated the catalog). "
+        "Use `--add-unmatched` to include them.",
         "",
     ]
     if unmatched:
@@ -511,17 +752,29 @@ def render_report(
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Filter catalog to Graydient- or AIOps-accessible video LoRAs.")
-    ap.add_argument("--refresh-hf", action="store_true", help="re-list Octavian123/civit instead of using the cache")
+    ap = argparse.ArgumentParser(description="Filter catalog to Graydient-accessible video LoRAs.")
+    ap.add_argument("--refresh-hf", action="store_true", help="re-list civit, civit2, and private instead of using the cache")
+    ap.add_argument("--add-unmatched", action="store_true", help="also add unmatched HF video files as new available rows")
     args = ap.parse_args()
 
     now = datetime.now(TZ).strftime("%-d %b %Y, %H:%M") + " Africa/Johannesburg (SAST)"
-    rows = load_jsonl(JSONL)
+    rows, acc_before, dropped = load_universe()
     if not rows:
         sys.exit(f"missing catalog {JSONL}")
-    rows_before = len(rows)
+    slug_map = load_slug_map()
+    append_excluded(dropped, now)
+    if dropped:
+        print(f"dropped {len(dropped)} Finder-duplicate row(s): "
+              + ", ".join((r.get("slug") or r.get("file") or "?") for r in dropped), file=sys.stderr)
+
+    # How many current candidates will be promoted?
+    cand_slugs = {r.get("slug") or r.get("file") for r in load_jsonl(CANDIDATES)}
 
     hf_files = list_hf_files(refresh=args.refresh_hf)
+    repo_counts: dict[str, int] = Counter()
+    for path in hf_files:
+        repo, _rel = split_repo_path(path)
+        repo_counts[repo or "unknown"] += 1
     matches, hf_weights, _by_slug = match_rows(rows, hf_files)
 
     used: set[str] = set()
@@ -529,80 +782,84 @@ def main():
         for _, path in bag:
             used.add(path)
 
-    # Flag rows
     accessible = []
     leftover = []
+    promoted = 0
     for i, r in enumerate(rows):
         r = dict(r)
-        r["aiops"] = bool(r.get("installed"))
+        r["aiops"] = bool(r.get("installed") or r.get("aiops"))
+        was_candidate = (r.get("slug") or r.get("file")) in cand_slugs and not (
+            r.get("graydient") or r.get("aiops") or r.get("installed") or R.is_on_graydient(r) or R.is_to_add(r)
+        )
         if i in matches:
             r["graydient"] = True
             r["graydient_status"] = R.ON_GRAYDIENT
-            r["graydient_files"] = sorted({p for _, p in matches[i]})
+            stamp_graydient_urls(r, [p for _, p in matches[i]], slug_map)
+            if was_candidate:
+                promoted += 1
         else:
             r["graydient"] = False
-            r["graydient_status"] = R.TO_ADD if r["aiops"] else "candidate"
             r["graydient_files"] = []
+            if r["aiops"]:
+                r["graydient_status"] = R.TO_ADD_NO_SOURCE if not R.has_source_url(r) else R.TO_ADD
+            else:
+                r["graydient_status"] = "candidate"
+                r.pop("graydient_hf_repo", None)
         if r["graydient"] or r["aiops"]:
             accessible.append(r)
         else:
             leftover.append(r)
 
-    unmatched = unmatched_video_files(hf_weights, used)
-    doubts = []
-    # Don't add an unmatched HF file whose slug already exists in accessible
-    exist_slugs = {slugify(r.get("slug") or "") for r in accessible}
-    exist_slugs |= {slugify(stem(r.get("file") or "")) for r in accessible}
-    added = []
-    skipped_dup = []
-    for path, fam in unmatched:
-        sl = slugify(path.rsplit("/", 1)[-1])
-        if sl in exist_slugs:
-            skipped_dup.append((path, fam, sl))
-            continue
-        rec = new_row_from_hf(path, fam)
-        accessible.append(rec)
-        added.append((path, fam))
-        exist_slugs.add(sl)
-        used.add(path)
-    if skipped_dup:
+    unmatched: list[tuple[str, str]] = []
+    added: list[tuple[str, str]] = []
+    doubts: list[str] = []
+    if args.add_unmatched:
+        unmatched = unmatched_video_files(hf_weights, used)
+        exist_slugs = {slugify(r.get("slug") or "") for r in accessible}
+        exist_slugs |= {slugify(stem(r.get("file") or "")) for r in accessible}
+        skipped_dup = []
+        for path, fam in unmatched:
+            sl = slugify(path.rsplit("/", 1)[-1])
+            if sl in exist_slugs:
+                skipped_dup.append((path, fam, sl))
+                continue
+            rec = new_row_from_hf(path, fam)
+            accessible.append(rec)
+            added.append((path, fam))
+            exist_slugs.add(sl)
+            used.add(path)
+        if skipped_dup:
+            doubts.append(
+                f"{len(skipped_dup)} unmatched HF video files were not added because their slug already exists "
+                f"on an accessible row: "
+                + ", ".join(f"`{p}`" for p, _, _ in skipped_dup[:12])
+                + ("…" if len(skipped_dup) > 12 else "")
+            )
+        unmatched = added
+    else:
         doubts.append(
-            f"{len(skipped_dup)} unmatched HF video files were not added because their slug already exists "
-            f"on an accessible row (likely a long original filename next to a slugged upload): "
-            + ", ".join(f"`{p}`" for p, _, _ in skipped_dup[:12])
-            + ("…" if len(skipped_dup) > 12 else "")
+            "Unmatched HF video files were not auto-added in this run. "
+            "Only existing catalog and candidate rows can be promoted. Pass --add-unmatched to include them."
         )
 
-    # Family inference doubts: long names mentioning more than one family
-    multi = []
-    for path, fam in added:
-        blob = path.lower()
-        hits = []
-        if H3_NAME_RE.search(blob):
-            hits.append("H3")
-        if WAN_NAME_RE.search(blob):
-            hits.append("Wan")
-        if LTX_NAME_RE.search(blob):
-            hits.append("LTX")
-        if len(set(hits)) > 1:
-            multi.append((path, fam, hits))
-    if multi:
-        doubts.append(
-            f"{len(multi)} added HF files mention more than one family in the filename; family was taken from the "
-            f"clearest token/suffix (may be a multi-base upload of a single version). Examples: "
-            + "; ".join(f"`{p}` → {fam} (also {hits})" for p, fam, hits in multi[:8])
-        )
     doubts.append(
         "moss/ and *-moss.safetensors were treated as image (KroMoss / Krea) unless an exact catalog video-row "
-        "match already used the file. No catalog video row matched a moss file in this run, so none were kept."
+        "match already used the file."
     )
     doubts.append(
         "Official Hugging Face packs (lightx2v, Lightricks IC-LoRAs, etc.) stay in candidates.jsonl unless the "
-        "same weights were also uploaded to Octavian123/civit or are on the RAID. They are scored high for ingest "
-        "because they fill utility gaps, but they are not treated as already accessible."
+        "same weights were also uploaded to Octavian123/civit, Octavian123/civit2, or Octavian123/private, "
+        "or are on the RAID. They are scored high for ingest because they fill utility gaps, but they are not "
+        "treated as already accessible."
     )
     doubts.append(
-        "Version forks (e.g. `…-v2-h3` on RAID vs `…-h3` on Graydient) are not merged. Each slug is its own row."
+        "Version forks (e.g. `…-v2-h3` on RAID vs `…-h3` on Graydient) are not merged. Each slug is its own row. "
+        "When Graydient registered a concept under a distinct slug (for example `minimax-h3-t2v-i2v-doublefuck-h3-v2`), "
+        "that name is stored in `graydient_slug` on the catalog row."
+    )
+    doubts.append(
+        "Exact slug/file matches are kept even when the RAID family and the filename suffix disagree "
+        "(H3 ports whose slugs still end in `-wan`)."
     )
 
     # Ingest scores
@@ -621,20 +878,23 @@ def main():
 
     write_jsonl(accessible, JSONL)
     write_jsonl(leftover, CANDIDATES)
+    write_ingest_queue(accessible, now)
 
-    aiops_only = [r for r in accessible if r.get("aiops") and not r.get("graydient")]
+    still_to_add = [r for r in accessible if R.needs_graydient_ingest(r)]
     report = render_report(
-        now, hf_files, hf_weights, accessible, leftover, matches, rows_before,
-        added, used, aiops_only, doubts,
+        now, hf_files, hf_weights, accessible, leftover, matches, len(rows),
+        added, used, still_to_add, doubts, promoted, dropped, dict(repo_counts),
     )
     REPORT.write_text(report, encoding="utf-8")
     print(f"wrote {REPORT}", file=sys.stderr)
 
     c = counts_block(accessible, leftover)
     print("COUNTS", json.dumps(c, indent=2))
+    print(f"candidates promoted to available: {promoted}")
     print(f"unmatched HF video added: {len(added)}")
-    print(f"AIOps not on Graydient: {len(aiops_only)}")
+    print(f"still to add to Graydient: {len(still_to_add)}")
     print(f"HF weights reviewed: {len(hf_weights)}; matched to a catalog row: {len(used) - len(added)}")
+
 
 
 if __name__ == "__main__":

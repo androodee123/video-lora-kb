@@ -2,10 +2,14 @@
 
 The available set is Graydient LoRAs: every row in data/loras.jsonl.
 graydient_status is either:
-  - "on Graydient" — a matching file is in Hugging Face Octavian123/civit
+  - "on Graydient" — a matching file is in Hugging Face Octavian123/civit,
+    Octavian123/civit2, or Octavian123/private
   - "to add to Graydient" — the LoRA is on the AIOps RAID and must be ingested
     into Graydient (civit-to-graydient) before it can be used in the concept
-    browser. There is no "AIOps only" category.
+    browser
+  - "to add to Graydient (no public source; needs local upload)" — same, but
+    there is no public CivitAI/HF URL, so ingest requires a local RAID upload.
+    There is no "AIOps only" category.
 
 aiops remains a secondary boolean (present on the 13 Nov 2026 RAID snapshot).
 
@@ -39,12 +43,36 @@ OFFICIAL_UTIL_RE = re.compile(
 
 ON_GRAYDIENT = "on Graydient"
 TO_ADD = "to add to Graydient"
+TO_ADD_NO_SOURCE = "to add to Graydient (no public source; needs local upload)"
+
+# Graydient concept weights live in these Hugging Face repos (metadata only).
+HF_REPOS = ("Octavian123/civit", "Octavian123/civit2", "Octavian123/private")
+HF_REPO_PREF = ("Octavian123/civit2", "Octavian123/civit", "Octavian123/private")
+
+
+def is_on_graydient(row: dict) -> bool:
+    return graydient_status(row) == ON_GRAYDIENT
+
+
+def is_to_add(row: dict) -> bool:
+    st = graydient_status(row)
+    return isinstance(st, str) and st.startswith(TO_ADD)
+
+
+def status_rank(row: dict) -> int:
+    if is_on_graydient(row):
+        return 0
+    if is_to_add(row):
+        return 1
+    return 9
 
 
 def graydient_status(row: dict) -> str:
-    """Return 'on Graydient', 'to add to Graydient', or 'candidate'."""
+    """Return 'on Graydient', a 'to add to Graydient…' label, or 'candidate'."""
     stated = row.get("graydient_status")
-    if stated in (ON_GRAYDIENT, TO_ADD):
+    if stated == ON_GRAYDIENT:
+        return stated
+    if isinstance(stated, str) and stated.startswith(TO_ADD):
         return stated
     if row.get("graydient"):
         return ON_GRAYDIENT
@@ -63,7 +91,7 @@ def access_label_pretty(row: dict) -> str:
 
 
 def needs_graydient_ingest(row: dict) -> bool:
-    return graydient_status(row) == TO_ADD
+    return is_to_add(row)
 
 
 def _num(v, default=0):
