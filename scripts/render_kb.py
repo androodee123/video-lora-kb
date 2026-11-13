@@ -310,7 +310,7 @@ python3 scripts/harvest.py --full-sorts --period AllTime --types LoCon,DoRA   # 
 python3 scripts/harvest.py --keywords                      # CivitAI keyword queries (video bases only)
 python3 scripts/harvest.py --hf-expand                     # broader Hugging Face LoRA search
 python3 scripts/harvest.py --hf-cards                      # README/model cards for Hugging Face rows
-python3 scripts/harvest.py --enrich --enrich-images        # full /models/{id} + example-prompt images API
+python3 scripts/harvest.py --enrich --enrich-images        # full /models/{{id}} + example-prompt images API
 python3 scripts/harvest.py --full-sorts --bases 'Wan Video 1.3B t2v'
 python3 scripts/build_kb.py && python3 scripts/render_kb.py
 ```
@@ -319,7 +319,7 @@ Raw API dumps live in `data/raw/` and are gitignored (tens of megabytes). See `d
 
 ## Sources
 
-- CivitAI public API, metadata only (every confirmed baseModel paged with Newest, Most Downloaded, and Highest Rated, including `period=AllTime`; keyword queries for camera/motion/audio/identity/control/etc.; full `/api/v1/models/{id}` descriptions and `/api/v1/images` example prompts when the public API returns `meta.prompt`).
+- CivitAI public API, metadata only (every confirmed baseModel paged with Newest, Most Downloaded, and Highest Rated, including `period=AllTime`; keyword queries for camera/motion/audio/identity/control/etc.; full `/api/v1/models/{{id}}` descriptions and `/api/v1/images` example prompts when the public API returns `meta.prompt`).
 - Hugging Face Hub search (author lists plus `models?search=` / pipeline tags for Wan-AI / Wan2.1 / Wan2.2, Lightricks / LTX, MiniMax, lightx2v, alibaba-pai, and related community packs).
 - RAID inventory and sidecars, Sept 2026 catalog skeletons, curated MCB `h3-loras.md`.
 - [fuzzpuppy.com/lora-directory](https://www.fuzzpuppy.com/lora-directory).
