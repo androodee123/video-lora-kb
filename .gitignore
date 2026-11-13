@@ -1,4 +1,4 @@
-# Never commit weights or hashes of private RAID dumps
+# Never commit weights
 *.safetensors
 *.pt
 *.bin
@@ -7,3 +7,8 @@
 __pycache__/
 *.pyc
 .env
+
+# Raw API dumps are large (tens of MB). Re-fetch with scripts/harvest.py.
+data/raw/civitai/
+data/raw/huggingface/
+data/.records-rich.json

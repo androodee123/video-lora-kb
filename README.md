@@ -1,55 +1,60 @@
 # Video LoRA knowledge base
 
-Private catalog for Andrew (FormsXpress) of **video LoRAs already installed** on the AIOps RAID (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`), plus a small curated set of MiniMax H3 motion/camera/realism and audio LoRAs from the Sept 2026 MCB grouping that were not in the 13 Nov 2026 inventory snapshot.
+Private, comprehensive catalog of **useful video LoRAs** for MiniMax H3, Wan (2.1, 2.2 14B high/low and 5B TI2V), and LTX (LTXV, LTX-2, 2.3, 2.5).
 
-Inventory snapshot: **13 Nov 2026**. Research compiled **13 Nov 2026, 18:23 Africa/Johannesburg (SAST)**. Many entries are adult NSFW; they are documented factually like any other LoRA.
+Coverage is the full CivitAI inventory for the confirmed `baseModel` strings (paged to exhaustion, plus Most Downloaded / Highest Rated checks), Hugging Face official and community speed/control packs, and the [Fuzz Puppy directory](https://www.fuzzpuppy.com/lora-directory). LoRAs **installed** on the AIOps RAID (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`, snapshot 13 Nov 2026) are flagged `installed=true` and sorted first in every table.
 
-This repo stores **metadata only**. It does not contain weights, and `scripts/check_new.py` must never download or ingest LoRA files.
+Research compiled **13 Nov 2026, 18:37 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py` and `scripts/check_new.py` must never download or ingest LoRA files.
 
 ## Counts
 
-| Family | Installed `.safetensors` | Installed verified | Installed unverified | Extra curated (not in snapshot) | Notes |
-|---|---:|---:|---:|---:|---|
-| MiniMax H3 | 244 | 203 | 41 | 12 | Curated extras are motion/camera/realism and audio picks from `h3-loras.md`. |
-| Wan (2.1 / 2.2) | 55 | 47 | 8 | 0 | Includes 9 local `b7_test1` high-noise training checkpoints. |
-| LTX-2 / 2.3 / 2.5 | 32 | 28 | 4 | 0 | Sidecar `.txt` files were the primary trigger source when present. |
-| **Total records** | 331 | 278 | 53 | 12 | One JSONL row per file. |
+| Family | Total records | Installed | Installed verified | Installed unverified | Catalog-only (CivitAI/HF) | Verified |
+|---|---:|---:|---:|---:|---:|---:|
+| MiniMax H3 | 1183 | 244 | 203 | 41 | 939 | 1142 |
+| Wan (2.1 / 2.2) | 2451 | 55 | 47 | 8 | 2396 | 2443 |
+| LTX-2 / 2.3 / 2.5 | 668 | 32 | 28 | 4 | 636 | 664 |
+| **Total** | **4302** | **331** | **278** | **53** | **3971** | **4249** |
 
-Verified means a CivitAI (or local README, for the `b7` test) source was matched with reasonable confidence and the model metadata was fetched. Unverified rows are stubs: keep them, do not invent triggers or strengths.
+Low-value CivitAI rows (under ~100 downloads and no thumbs-up) were dropped unless they were installed. 37 such models were excluded.
+
+### Counts by category
+
+| Category | H3 total (installed) | Wan total (installed) | LTX total (installed) |
+|---|---:|---:|---:|
+| Motion | 49 (14) | 55 (2) | 41 (4) |
+| Camera | 55 (12) | 130 (4) | 43 (2) |
+| Audio / voice | 37 (3) | 3 (0) | 12 (0) |
+| Style | 298 (47) | 479 (1) | 169 (9) |
+| Enhancement / quality / speed | 405 (131) | 768 (31) | 203 (10) |
+| Identity / character | 293 (24) | 607 (0) | 147 (0) |
+| Effects / VFX | 34 (9) | 112 (0) | 24 (1) |
+| Transitions | 3 (2) | 7 (0) | 6 (0) |
+| Lighting | 7 (1) | 9 (0) | 5 (0) |
+| Physics / cloth / hair | 23 (10) | 17 (0) | 9 (0) |
+| NSFW acts and anatomy | 235 (97) | 604 (34) | 112 (19) |
+| Anime / 2D | 88 (15) | 348 (1) | 60 (4) |
+| Realism | 75 (10) | 95 (0) | 20 (1) |
+
+A LoRA may appear in more than one category.
 
 ## How to use this repo
 
-1. Start with [`SKILL.md`](SKILL.md) if you are choosing LoRAs for a goal (realistic motion, breathy audio, camera orbit, identity, style, a specific act).
-2. Then open the family + category page under `families/`. Each page is a table of slug/file, trigger, strength, I2V vs T2V, purpose, and links. Richer entries have a short details section with a source example prompt when one was published.
+1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser with recipes across families, stacking, stated strengths, and known conflicts.
+2. Open the family + category page under `families/`. Tables list **installed first**, then catalog entries by popularity (downloads).
 3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md).
-4. Machine-readable data is [`data/loras.jsonl`](data/loras.jsonl) — one record per LoRA file.
-5. To see what is new on CivitAI since this catalog was built, run `python3 scripts/check_new.py`. It only writes a markdown proposal list; it never downloads weights.
+4. Official / utility packs also appear in [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md).
+5. Machine-readable data: [`data/loras.jsonl`](data/loras.jsonl).
+6. Refresh CivitAI/HF metadata: `python3 scripts/harvest.py` (writes `data/raw/`, gitignored). Propose new models since the last harvest: `python3 scripts/check_new.py`.
 
-## Layout
+## Strengths and triggers
 
-```
-README.md
-SKILL.md
-guides/image-to-video.md
-guides/fuzzpuppy-directory.md
-families/h3/     motion, camera, audio, style, identity, enhancement, nsfw-acts, unverified
-families/wan/    same category split
-families/ltx/    same category split
-data/loras.jsonl
-scripts/check_new.py
-```
-
-## Strengths
-
-If a page or sidecar does not state a strength, the catalog says **`not stated`**. Do not copy a family-wide rule of thumb into a per-LoRA field. A general MiniMax H3 starting range of 0.6–0.9 appears in older notes as a rule of thumb only — tune each LoRA yourself.
+If a page or sidecar does not state a strength or trigger, the catalog says **`not stated`** or leaves `triggers` empty. Do not invent either. A general MiniMax H3 starting range of 0.6–0.9 is a rule of thumb only, not per-LoRA data.
 
 ## Wan 2.2 high / low pairs
 
-Wan 2.2 14B dual-KSampler graphs need **paired HIGH and LOW noise LoRAs** for the same concept when both were trained. Load the high-noise file on the high-noise sampler and the low-noise file on the low-noise sampler, usually at the same strength. The local `b7_test1` run is **high-noise only**; a matching low-noise LoRA was not trained.
+Wan 2.2 14B dual-KSampler graphs need **paired HIGH and LOW noise LoRAs** for the same concept when both were trained. Load the high-noise file on the high-noise sampler and the low-noise file on the low-noise sampler, usually at the same strength. Catalog rows for uninstalled models list both published filenames in `files` when present. The local `b7_test1` run is **high-noise only**.
 
-## CivitAI `baseModel` strings used by `check_new.py`
-
-These are the strings CivitAI's API actually returned and accepted as `baseModels` filters on 13 Nov 2026:
+## CivitAI `baseModel` strings (`scripts/harvest.py` / `check_new.py`)
 
 - `MiniMax H3`
 - `Wan Video`
@@ -64,20 +69,22 @@ These are the strings CivitAI's API actually returned and accepted as `baseModel
 - `LTXV 2.3`
 - `LTXV 2.5`
 
-High vs low noise is **not** a `baseModel` value; it lives in the version or filename.
+High vs low noise is not a `baseModel` value.
+
+## Reproducing the harvest
+
+```
+python3 scripts/harvest.py --sorts newest           # resume from data/raw cache
+python3 scripts/harvest.py --verify-sorts           # first page of Most Downloaded / Highest Rated
+python3 scripts/harvest.py --hf-only                # official HF org listings
+python3 scripts/build_kb.py && python3 scripts/render_kb.py
+```
+
+Raw API dumps live in `data/raw/` and are gitignored (tens of megabytes). See `data/raw/README.md`.
 
 ## Sources
 
-- RAID inventory TSVs and sidecars under `/Volumes/RAID/Lora/{H3,Wan,LTX2}` (snapshot copied to the box 13 Nov 2026).
-- Sept 2026 H3 and Wan catalog skeletons, and the curated MCB-focused `h3-loras.md` grouping.
-- CivitAI public API (`/api/v1/models` and `/api/v1/models/{id}`), metadata only.
-- [Fuzz Puppy AI Video LoRA Directory](https://www.fuzzpuppy.com/lora-directory) (61 tracked utility/official LoRAs). See [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md). Almost none of the installed NSFW act LoRAs appear there.
-
-## Gaps worth knowing
-
-- A cluster of Sept 2026 skeleton CivitAI ids now 404 on `civitai.com` (for example Disney Style, doggy-style sex, dildo masturbation, natural sagging breasts). Triggers from the skeleton are kept; rows stay unverified.
-- `natural-face-speech-minimax-h3` is installed and is an audio pick, but no live page was found and no trigger was recorded.
-- Several Wan 2.2 pairs (`Fondled_*`, `wan22_i2v_futa_missionary_*`, `xMilkDuctXrayx_*`) have sidecar triggers but no confirmed CivitAI/HF page.
-- `LTX-2 - Orgasm v1`, `LTX-2 - Rubbing Her Pussy`, `PLORAV7_LTX_000010500`, and `tiny-breasts-flat-chest-ltx2` remain unverified. `LTX-2 - Better Female Nudity` was matched by exact file size and name to SexGod's LTX-2 Female Nudity pack; the other two same-size files were **not** assumed to be the same model.
-- A few files sitting in the H3 folder are named for other families (`*-wan.safetensors`, `*-krea2*.safetensors`, `minigirl-onahole-xl.safetensors`). They are catalogued where they were found.
-- Official Lightricks / Fuzz Puppy camera, restore, and IC-LoRAs are mostly **not** installed on the RAID snapshot.
+- CivitAI public API, metadata only (full Newest crawl of the base models above, plus Most Downloaded / Highest Rated first-page checks; two popular models missing from Newest were merged in).
+- Hugging Face model listings (Lightricks, lightx2v, alibaba-pai, Kijai, Cseti, fal, Pika-Labs, FuzzPuppy, plus targeted searches for CausVid / self-forcing / distill / camera-control).
+- RAID inventory and sidecars, Sept 2026 catalog skeletons, curated MCB `h3-loras.md`.
+- [fuzzpuppy.com/lora-directory](https://www.fuzzpuppy.com/lora-directory).
