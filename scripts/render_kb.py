@@ -305,7 +305,9 @@ High vs low noise is not a `baseModel` value.
 python3 scripts/harvest.py --full-sorts --period AllTime   # Newest + Most Downloaded + Highest Rated, all bases
 python3 scripts/harvest.py --keywords                      # CivitAI keyword queries (video bases only)
 python3 scripts/harvest.py --hf-expand                     # broader Hugging Face LoRA search
+python3 scripts/harvest.py --hf-cards                      # README/model cards for Hugging Face rows
 python3 scripts/harvest.py --enrich --enrich-images        # full /models/{id} + example-prompt images API
+python3 scripts/harvest.py --full-sorts --bases 'Wan Video 1.3B t2v'
 python3 scripts/build_kb.py && python3 scripts/render_kb.py
 ```
 

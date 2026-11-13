@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import os
 import json
 import re
 import sys
@@ -48,6 +49,7 @@ BASE_MODELS = [
     "LTXV2",
     "LTXV 2.3",
     "LTXV 2.5",
+    "Wan Video 1.3B t2v",
 ]
 
 SORTS = {
@@ -413,13 +415,13 @@ def write_index(models, extra=None, log=sys.stderr):
     return manifest
 
 
-def harvest_full_sorts(period="AllTime", refresh=False, log=sys.stderr):
+def harvest_full_sorts(period="AllTime", refresh=False, log=sys.stderr, bases=None):
     """Exhaust Newest / Most Downloaded / Highest Rated for every baseModel."""
     counts = {}
     for sort in ("newest", "downloads", "rated"):
         cache = f"{sort}-{period}" if period else sort
         counts[cache] = {}
-        for bm in BASE_MODELS:
+        for bm in (bases or BASE_MODELS):
             n = pages = 0
             for page in iter_civitai_pages(bm, sort, max_pages=80, refresh=refresh,
                                            period=period, cache_name=cache):
@@ -584,6 +586,347 @@ def enrich_images(delay=0.18, max_versions_per_model=2, log=sys.stderr):
     return {"ok": ok, "skip": skip, "err": err, "prompts": prompts, "versions": len(vids)}
 
 
+def _hf_headers():
+    headers = {"User-Agent": UA}
+    token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGING_FACE_HUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
+
+
+def _get_text(url: str, retries: int = 5):
+    """GET a text body (README). Retries 429/5xx. Raises HTTPError for 401/403/404 after last try."""
+    last = None
+    for i in range(retries):
+        try:
+            req = urllib.request.Request(url, headers=_hf_headers())
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                raw = resp.read()
+                charset = "utf-8"
+                ctype = resp.headers.get("content-type") or ""
+                if "charset=" in ctype:
+                    charset = ctype.split("charset=", 1)[1].split(";")[0].strip() or "utf-8"
+                return raw.decode(charset, errors="replace"), getattr(resp, "status", 200)
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code in (429, 500, 502, 503, 504):
+                time.sleep(2 + i * 2)
+                continue
+            raise
+        except Exception as e:
+            last = e
+            time.sleep(1 + i)
+    raise RuntimeError(f"GET text failed {url}: {last}")
+
+
+def hf_card_paths(hf_id: str):
+    HF_RAW.mkdir(parents=True, exist_ok=True)
+    cards = HF_RAW / "cards"
+    cards.mkdir(parents=True, exist_ok=True)
+    stem = safe_base(hf_id.replace("/", "__"))
+    return cards / f"{stem}.md", cards / f"{stem}.status.json"
+
+
+def fetch_hf_readme(hf_id: str, refresh: bool = False):
+    """Fetch README.md from main then master. Resumable; metadata only."""
+    dest, status_path = hf_card_paths(hf_id)
+    if dest.exists() and dest.stat().st_size > 0 and not refresh:
+        return dest.read_text(encoding="utf-8", errors="replace")
+    if status_path.exists() and not refresh:
+        try:
+            st = json.loads(status_path.read_text(encoding="utf-8"))
+        except Exception:
+            st = {}
+        if st.get("status") in (401, 403, 404, "missing"):
+            return None
+    last_code = None
+    for branch in ("main", "master"):
+        url = f"https://huggingface.co/{hf_id}/raw/{branch}/README.md"
+        try:
+            text, code = _get_text(url)
+        except urllib.error.HTTPError as e:
+            last_code = e.code
+            if e.code in (404,):
+                continue
+            if e.code in (401, 403):
+                status_path.write_text(json.dumps({
+                    "status": e.code, "url": url, "id": hf_id,
+                }), encoding="utf-8")
+                return None
+            raise
+        if text is not None:
+            dest.write_text(text, encoding="utf-8")
+            status_path.write_text(json.dumps({
+                "status": 200, "branch": branch, "url": url, "id": hf_id, "bytes": len(text),
+            }), encoding="utf-8")
+            return text
+    status_path.write_text(json.dumps({
+        "status": last_code or "missing", "id": hf_id,
+    }), encoding="utf-8")
+    return None
+
+
+# Conservative patterns for stated LoRA scale / strength in HF cards.
+_HF_SCALE = re.compile(
+    r"(?i)(?:lora[_\s-]*scale|lora[_\s-]*strength|lora[_\s-]*weight|(?:recommended\s+)?(?:strength|weight|scale))\s*(?:of\s*)?(?:[:：=]|is)?\s*(0?\.\d+|1(?:\.0+)?)(?:\s*(?:[-–—to]+)\s*(0?\.\d+|1(?:\.0+)?))?"
+)
+_HF_SCALE_REV = re.compile(
+    r"(?i)(0?\.\d+|1(?:\.0+)?)\s*(?:[-–—to]+)\s*(0?\.\d+|1(?:\.0+)?)?\s*(?:lora[_\s-]*(?:scale|strength|weight))"
+)
+_HF_TRIGGER_LINE = re.compile(
+    r"(?i)(?:^|\n)\s*(?:trigger(?:\s+word(?:s)?)?|instance[_\s-]*prompt|activation(?:\s+word(?:s)?)?|trained[_\s-]*words?)\s*[:：]\s*`?([^`\n]+?)`?\s*(?:\n|$)"
+)
+
+
+def _as_str_list(val) -> list[str]:
+    out = []
+    if val is None or val is False:
+        return out
+    if isinstance(val, str):
+        # split only on commas / newlines, keep multi-word triggers intact
+        parts = re.split(r"[\n,]+", val)
+        for p in parts:
+            p = p.strip().strip("`\"'")
+            if p and p not in out:
+                out.append(p)
+        return out
+    if isinstance(val, (list, tuple)):
+        for x in val:
+            out.extend(_as_str_list(x))
+        return out
+    if isinstance(val, dict):
+        for x in val.values():
+            out.extend(_as_str_list(x))
+        return out
+    s = str(val).strip()
+    if s:
+        out.append(s)
+    return out
+
+
+def _split_frontmatter(text: str):
+    if not text:
+        return {}, text or ""
+    if text.startswith("\ufeff"):
+        text = text.lstrip("\ufeff")
+    if not text.startswith("---"):
+        return {}, text
+    # YAML frontmatter: leading --- ... ---
+    m = re.match(r"^---\s*\n(.*?)\n---\s*\n?(.*)$", text, re.S)
+    if not m:
+        return {}, text
+    raw, body = m.group(1), m.group(2)
+    try:
+        import yaml
+        data = yaml.safe_load(raw) or {}
+        if not isinstance(data, dict):
+            data = {}
+    except Exception:
+        data = {}
+    return data, body
+
+
+def map_hf_base_model(stated) -> list[str]:
+    """Map stated HF base_model values to CivitAI baseModel strings when the match is unambiguous."""
+    values = _as_str_list(stated)
+    mapped = []
+    rules = [
+        (re.compile(r"(?i)Wan2\.2[-_ ].*5B|TI2V-5B|Wan2\.2-TI2V"), "Wan Video 2.2 TI2V-5B"),
+        (re.compile(r"(?i)Wan2\.2[-_ ].*I2V|Wan2\.2-I2V"), "Wan Video 2.2 I2V-A14B"),
+        (re.compile(r"(?i)Wan2\.2[-_ ].*T2V|Wan2\.2-T2V"), "Wan Video 2.2 T2V-A14B"),
+        (re.compile(r"(?i)Wan2\.1.*720"), "Wan Video 14B i2v 720p"),
+        (re.compile(r"(?i)Wan2\.1.*480"), "Wan Video 14B i2v 480p"),
+        (re.compile(r"(?i)Wan2\.1.*[Tt]2[Vv]|Wan2\.1-T2V"), "Wan Video 14B t2v"),
+        (re.compile(r"(?i)Wan2\.1|Wan-AI/Wan2\.1"), "Wan Video"),
+        (re.compile(r"(?i)MiniMax-?H3|MiniMax_H3"), "MiniMax H3"),
+        (re.compile(r"(?i)LTX-?2\.5|LTXV[_\s-]*2\.5"), "LTXV 2.5"),
+        (re.compile(r"(?i)LTX-?2\.3|LTXV[_\s-]*2\.3"), "LTXV 2.3"),
+        (re.compile(r"(?i)LTX-?2(?:-19|_)|LTX-2[^-.\d]|/LTX-2$"), "LTXV2"),
+        (re.compile(r"(?i)LTX-?Video|LTXV(?![\s-]*2)"), "LTXV"),
+    ]
+    for raw in values:
+        hit = None
+        for rx, civ in rules:
+            if rx.search(raw):
+                hit = civ
+                break
+        if hit and hit not in mapped:
+            mapped.append(hit)
+    return mapped
+
+
+def parse_hf_card(text: str) -> dict:
+    """Parse instance_prompt/triggers, stated strength, example prompts, and base_model. Never invent."""
+    front, body = _split_frontmatter(text or "")
+    blob = (text or "")
+    triggers = []
+    for key in (
+        "instance_prompt", "trigger", "trigger_word", "trigger_words",
+        "trained_words", "trainedWords", "activation", "activation_word",
+        "activation_token", "token",
+    ):
+        if key in front and front[key] not in (None, "", [], False):
+            for t in _as_str_list(front[key]):
+                if t and t not in triggers and t.lower() not in ("lora", "none", "n/a", "not stated"):
+                    triggers.append(t)
+    if not triggers:
+        for m in _HF_TRIGGER_LINE.finditer(body):
+            for t in _as_str_list(m.group(1)):
+                if t and t not in triggers and len(t) < 200:
+                    triggers.append(t)
+    examples = []
+    widgets = front.get("widget") or front.get("examples") or []
+    if isinstance(widgets, dict):
+        widgets = [widgets]
+    if isinstance(widgets, str):
+        widgets = [widgets]
+    for w in widgets or []:
+        cand = []
+        if isinstance(w, str):
+            cand = [w]
+        elif isinstance(w, dict):
+            if w.get("text"):
+                cand.append(w["text"])
+            if w.get("prompt"):
+                cand.append(w["prompt"])
+            if w.get("example"):
+                cand.append(w["example"])
+            params = w.get("parameters") or w.get("output") or {}
+            if isinstance(params, dict) and params.get("prompt"):
+                cand.append(params["prompt"])
+        for c in cand:
+            c = str(c).strip()
+            if c and c not in examples and len(c) > 8:
+                examples.append(c[:1500])
+        if len(examples) >= 2:
+            break
+    if len(examples) < 2:
+        for m in re.finditer(r"```(?:prompt|text|markdown)?\n(.*?)```", body, re.S | re.I):
+            block = m.group(1).strip()
+            if len(block) > 20 and not re.match(r"(?i)^(pip |python |git |cd |import |from )", block):
+                if block not in examples:
+                    examples.append(block[:1500])
+            if len(examples) >= 2:
+                break
+    if len(examples) < 2:
+        m = re.search(
+            r"(?is)(?:example prompt|example:|prompt example|sample prompt|example prompts?)\s*[:\-]?\s*(.{20,800})",
+            body,
+        )
+        if m:
+            cand = re.sub(r"\s+", " ", m.group(1).strip().split("\n\n")[0].strip())
+            if len(cand) > 20 and cand not in examples:
+                examples.append(cand[:1500])
+
+    strength_hits = []
+    for rx in (_HF_SCALE, _HF_SCALE_REV):
+        for m in rx.finditer(blob):
+            a = m.group(1)
+            b = m.group(2) if m.lastindex and m.lastindex >= 2 else None
+            if a and not re.match(r"^(0?\.\d+|1(?:\.0+)?)$", a or ""):
+                # _HF_SCALE_REV group 1 is the number; _HF_SCALE too
+                pass
+            hit = f"{a}–{b}" if b else a
+            # For _HF_SCALE_REV, if group2 missing and group1 is scale number...
+            if hit and hit not in strength_hits:
+                strength_hits.append(hit)
+    # also YAML keys
+    for key in ("lora_scale", "lora_strength", "lora_weight", "strength", "weight", "scale", "recommended_strength"):
+        if key in front and front[key] not in (None, "", [], False):
+            val = front[key]
+            if isinstance(val, (int, float)):
+                hit = str(val)
+                if hit not in strength_hits:
+                    strength_hits.append(hit)
+            elif isinstance(val, str) and re.search(r"(0?\.\d+|1(?:\.0+)?)", val):
+                # only if it looks like a stated scale, not prose
+                m = re.search(r"(0?\.\d+|1(?:\.0+)?)(?:\s*(?:[-–—to]+)\s*(0?\.\d+|1(?:\.0+)?))?", val)
+                if m and len(val) < 40:
+                    hit = f"{m.group(1)}–{m.group(2)}" if m.group(2) else m.group(1)
+                    if hit not in strength_hits:
+                        strength_hits.append(hit)
+
+    base_raw = front.get("base_model") or front.get("base_models") or front.get("baseModel")
+    mapped = map_hf_base_model(base_raw)
+    return {
+        "triggers": triggers[:12],
+        "strength": ("; ".join(strength_hits[:3]) if strength_hits else None),
+        "example_prompts": examples[:2],
+        "hf_base_model": _as_str_list(base_raw),
+        "bases_mapped": mapped,
+        "base_model_relation": front.get("base_model_relation"),
+        "pipeline_tag": front.get("pipeline_tag"),
+    }
+
+
+def load_hf_card(hf_id: str) -> dict | None:
+    dest, _ = hf_card_paths(hf_id)
+    if not dest.exists() or dest.stat().st_size == 0:
+        return None
+    return parse_hf_card(dest.read_text(encoding="utf-8", errors="replace"))
+
+
+def enrich_hf_cards(ids=None, delay=0.2, refresh=False, log=sys.stderr):
+    """Fetch and cache README/model cards for Hugging Face catalog rows. Metadata only."""
+    if ids is None:
+        index = HF_RAW / "index.json"
+        jsonl = ROOT / "data" / "loras.jsonl"
+        seen = []
+        if jsonl.exists():
+            for line in jsonl.read_text(encoding="utf-8").splitlines():
+                if not line.strip():
+                    continue
+                rec = json.loads(line)
+                hid = rec.get("hf_id")
+                if rec.get("source") == "huggingface" and hid and hid not in seen:
+                    seen.append(hid)
+        if index.exists():
+            for it in json.loads(index.read_text(encoding="utf-8")):
+                hid = it.get("id")
+                if hid and hid not in seen:
+                    seen.append(hid)
+        ids = seen
+    ok = skip = err = missing = 0
+    parsed_trig = parsed_str = parsed_ex = 0
+    for i, hid in enumerate(ids, 1):
+        dest, status_path = hf_card_paths(hid)
+        cached = dest.exists() and dest.stat().st_size > 0 and not refresh
+        if cached:
+            text = dest.read_text(encoding="utf-8", errors="replace")
+            skip += 1
+        else:
+            try:
+                text = fetch_hf_readme(hid, refresh=refresh)
+                if text is None:
+                    missing += 1
+                else:
+                    ok += 1
+            except Exception as e:
+                status_path.write_text(json.dumps({"status": "error", "id": hid, "error": str(e)}), encoding="utf-8")
+                err += 1
+                text = None
+            time.sleep(delay)
+        if text:
+            parsed = parse_hf_card(text)
+            if parsed.get("triggers"):
+                parsed_trig += 1
+            if parsed.get("strength"):
+                parsed_str += 1
+            if parsed.get("example_prompts"):
+                parsed_ex += 1
+        if i % 50 == 0:
+            print(f"  hf cards {i}/{len(ids)} ok={ok} skip={skip} missing={missing} err={err} "
+                  f"trig={parsed_trig} strength={parsed_str} examples={parsed_ex}",
+                  file=log, flush=True)
+    print(f"enrich hf cards done ok={ok} skip={skip} missing={missing} err={err} "
+          f"trig={parsed_trig} strength={parsed_str} examples={parsed_ex} total={len(ids)}",
+          file=log)
+    return {"ok": ok, "skip": skip, "missing": missing, "err": err,
+            "trig": parsed_trig, "strength": parsed_str, "examples": parsed_ex, "total": len(ids)}
+
+
+
+
 def main():
     ap = argparse.ArgumentParser(description="Harvest CivitAI/HF video LoRA metadata (no weights).")
     ap.add_argument("--refresh", action="store_true", help="re-fetch pages even if cached")
@@ -601,6 +944,10 @@ def main():
     ap.add_argument("--enrich", action="store_true", help="fetch full /api/v1/models/{id} for every id")
     ap.add_argument("--enrich-images", action="store_true", help="fetch /api/v1/images for version example prompts")
     ap.add_argument("--period", default="AllTime")
+    ap.add_argument("--hf-cards", action="store_true",
+                    help="fetch README/model cards for Hugging Face catalog rows (resumable, no weights)")
+    ap.add_argument("--bases", default="",
+                    help="comma-separated CivitAI baseModels for --full-sorts (default: all BASE_MODELS)")
     args = ap.parse_args()
 
     if args.verify_sorts:
@@ -613,18 +960,21 @@ def main():
             print("No gaps: first pages of downloads/rated are already in the newest cache.", file=sys.stderr)
         return
 
+    bases = [b.strip() for b in (args.bases or "").split(",") if b.strip()] or None
     if args.full_sorts:
-        harvest_full_sorts(period=args.period, refresh=args.refresh)
+        harvest_full_sorts(period=args.period, refresh=args.refresh, bases=bases)
     if args.keywords:
         harvest_keywords(refresh=args.refresh)
     if args.hf_expand or args.hf_only:
         harvest_hf_expanded(refresh=args.refresh)
+    if args.hf_cards:
+        enrich_hf_cards(refresh=args.refresh)
     if args.enrich:
         enrich_models()
     if args.enrich_images:
         enrich_images()
     if not any([args.full_sorts, args.keywords, args.hf_expand, args.hf_only,
-                args.enrich, args.enrich_images, args.civitai_only, args.verify_sorts]):
+                args.hf_cards, args.enrich, args.enrich_images, args.civitai_only, args.verify_sorts]):
         sorts = [s.strip() for s in args.sorts.split(",") if s.strip()]
         if not args.hf_only:
             harvest_civitai(sorts=sorts, refresh=args.refresh, max_pages=args.max_pages)

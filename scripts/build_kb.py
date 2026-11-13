@@ -576,9 +576,32 @@ def compile_records():
         # skip if this HF repo is clearly an image model that slipped through
         name = hid.split("/")[-1]
         fuzz_hit = fuzz_by_url.get(url) or fuzz_by_url.get(url + "/")
-        desc = (fuzz_hit or {}).get("description") or ""
+        card = H.load_hf_card(hid) or {}
+        card_text = ""
+        dest, _st = H.hf_card_paths(hid)
+        if dest.exists():
+            try:
+                card_text = dest.read_text(encoding="utf-8", errors="replace")
+            except Exception:
+                card_text = ""
+        desc = "\n".join(x for x in [(fuzz_hit or {}).get("description") or "", card_text] if x)
+        # Prefer base_model stated on the card when it maps cleanly to a known CivitAI string.
+        mapped = card.get("bases_mapped") or []
+        if mapped:
+            bases = mapped
+            base = mapped[0] if len(mapped) == 1 else (base if base in mapped else mapped[0])
+        else:
+            bases = [base] if base else []
         cats = classify(name, it.get("tags") or [], name, None, description=desc)
-        rec_i2v = infer_i2v_t2v([base] if base else [], name, desc, name)
+        rec_i2v = infer_i2v_t2v(bases, name, desc, name)
+        triggers = list(card.get("triggers") or [])
+        strength = card.get("strength") or "not stated"
+        examples = list(card.get("example_prompts") or [])
+        compat = compatibility_notes(fam, bases, name, desc, name, [], rec_i2v)
+        if card.get("hf_base_model"):
+            compat.append("HF card base_model: " + ", ".join(card["hf_base_model"][:6]))
+        if card.get("base_model_relation"):
+            compat.append("HF base_model_relation: " + str(card["base_model_relation"]))
         rec = {
             "family": fam,
             "file": name,
@@ -586,9 +609,9 @@ def compile_records():
             "civitai_model_id": None,
             "version_id": None,
             "base": base,
-            "bases": [base] if base else [],
-            "triggers": [],
-            "strength": "not stated",
+            "bases": bases,
+            "triggers": triggers,
+            "strength": strength,
             "categories": cats,
             "urls": {"huggingface": url},
             "verified": True,
@@ -601,10 +624,10 @@ def compile_records():
             "thumbs_up": it.get("likes") or 0,
             "source": "huggingface",
             "hf_id": hid,
-            "example_prompt": None,
-            "example_prompts": [],
+            "example_prompt": examples[0] if examples else None,
+            "example_prompts": examples,
             "low_signal": False,
-            "compatibility": compatibility_notes(fam, [base] if base else [], name, desc, name, [], rec_i2v),
+            "compatibility": compat,
         }
         if fuzz_hit and fuzz_hit.get("tutorial"):
             rec["urls"]["tutorial"] = fuzz_hit["tutorial"]
