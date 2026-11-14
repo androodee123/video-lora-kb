@@ -6,7 +6,7 @@ Public CivitAI / Hugging Face video LoRAs that are not yet in this set live in [
 
 **Out of scope** (image LoRAs, checkpoints, finetunes, merges, full base-model repos, pure workflows, ControlNets that are not LoRAs, VAEs, text encoders, GGUF/quantised full models, and non-video families such as Hunyuan) are not in `data/loras.jsonl`. Installed RAID files that fail this test are in [`data/excluded.jsonl`](data/excluded.jsonl) with a reason. See [`data/accessibility_report.md`](data/accessibility_report.md) for the last accessibility filter.
 
-Research compiled **13 Nov 2026, 22:57 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
+Research compiled **14 Nov 2026, 14:35 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
 
 ## Counts
 
@@ -44,6 +44,8 @@ Recommend a LoRA that is already on Graydient first. If the pick is labelled *to
 A LoRA may appear in more than one category.
 
 Of 390 rows: **234** (60.0%) have at least one recorded trigger, **55** (14.1%) have a stated strength, **99** (25.4%) have at least one example prompt (images API or page text). **2** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented.
+
+**Updating:** run `bash scripts/update.sh` (see [`UPDATING.md`](UPDATING.md)). It rematches Graydient availability, pulls new CivitAI LoRAs, rebuilds the catalog and pushes.
 
 ## How to use this repo
 

@@ -354,6 +354,8 @@ A LoRA may appear in more than one category.
 
 {coverage_block(recs)}
 
+**Updating:** run `bash scripts/update.sh` (see [`UPDATING.md`](UPDATING.md)). It rematches Graydient availability, pulls new CivitAI LoRAs, rebuilds the catalog and pushes.
+
 ## How to use this repo
 
 1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser. Recipes recommend available Graydient LoRAs first. Picks labelled *to add to Graydient* must be ingested (or locally uploaded if there is no public source) before use. When the rule says so, a *Suggest ingest* line points at a public candidate.
