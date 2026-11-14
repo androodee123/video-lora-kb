@@ -25,7 +25,7 @@ REPO = "androodee123/video-lora-kb"
 PY = sys.executable
 
 def jl(p):
-    return [json.loads(l) for l in p.read_text().splitlines() if l.strip()] if p.exists() else []
+    return [json.loads(l) for l in p.read_text().split("\n") if l.strip()] if p.exists() else []
 
 def key(r):
     return f"{r.get('family')}|{r.get('slug') or r.get('file')}|{r.get('file')}|{r.get('version_id')}"

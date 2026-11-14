@@ -43,7 +43,7 @@ FAMILY_LABEL = {"H3": "MiniMax H3", "Wan": "Wan 2.1 / 2.2", "LTX2": "LTX-2 / 2.3
 # Fixed zip timestamps for deterministic archives (catalog snapshot date).
 ZIP_DATE = (2026, 11, 13, 0, 0, 0)
 # Derived from the repo so the pack keeps building as the catalog grows (update.py).
-EXPECTED_COUNT = sum(1 for _l in DATA.read_text(encoding="utf-8").splitlines() if _l.strip())
+EXPECTED_COUNT = sum(1 for _l in DATA.read_text(encoding="utf-8").split("\n") if _l.strip())
 EXPECTED_RECIPES = len(re.findall(r"^### \d+\. ", SKILL_SRC.read_text(encoding="utf-8"), re.M))
 
 FRONTMATTER = """\

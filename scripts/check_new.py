@@ -59,7 +59,7 @@ def load_known():
             if kind == "accessible":
                 sys.stderr.write(f"warning: {path} not found; every result will look new\n")
             continue
-        for line in path.read_text(encoding="utf-8").splitlines():
+        for line in path.read_text(encoding="utf-8").split("\n"):
             if not line.strip():
                 continue
             r = json.loads(line)

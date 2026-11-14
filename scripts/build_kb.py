@@ -391,7 +391,7 @@ def load_installed():
     if inst_path.exists():
         recs = json.loads(inst_path.read_text())
     elif p.exists():
-        recs = [json.loads(l) for l in p.read_text().splitlines() if l.strip()]
+        recs = [json.loads(l) for l in p.read_text().split("\n") if l.strip()]
         recs = [r for r in recs if r.get("installed") or r.get("path", "").startswith("(not in")]
     return recs
 

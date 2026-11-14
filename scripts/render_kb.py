@@ -430,11 +430,11 @@ Raw API dumps live in `data/raw/` and are gitignored (tens of megabytes). See `d
 """
 
 def main():
-    recs = [json.loads(l) for l in (ROOT / "data" / "loras.jsonl").read_text().splitlines() if l.strip()]
+    recs = [json.loads(l) for l in (ROOT / "data" / "loras.jsonl").read_text().split("\n") if l.strip()]
     cand_path = ROOT / "data" / "candidates.jsonl"
     candidates = []
     if cand_path.exists():
-        candidates = [json.loads(l) for l in cand_path.read_text().splitlines() if l.strip()]
+        candidates = [json.loads(l) for l in cand_path.read_text().split("\n") if l.strip()]
     rich = {}
     rp = Path("/tmp/vlora-work/records-full.json")
     if rp.exists():
