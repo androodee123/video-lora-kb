@@ -1,19 +1,19 @@
 # Accessibility report
 
-Generated 13 Nov 2026, 22:56 Africa/Johannesburg (SAST). Source of Graydient access: Hugging Face `Octavian123/civit`, `Octavian123/civit2`, `Octavian123/private` (14098 combined paths, 13032 weight files, listed via the Hub API — no weights downloaded). Per-repo path counts: `Octavian123/civit` 11206 paths, `Octavian123/civit2` 2361 paths, `Octavian123/private` 531 paths. Source of RAID presence: `installed=true` / `aiops=true` rows from the 13 Nov 2026 snapshot (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`).
+Generated 14 Nov 2026, 14:36 Africa/Johannesburg (SAST). Source of Graydient access: Hugging Face `Octavian123/civit`, `Octavian123/civit2`, `Octavian123/private` (14154 combined paths, 13088 weight files, listed via the Hub API — no weights downloaded). Per-repo path counts: `Octavian123/civit` 11206 paths, `Octavian123/civit2` 2417 paths, `Octavian123/private` 531 paths. Source of RAID presence: `installed=true` / `aiops=true` rows from the 13 Nov 2026 snapshot (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`).
 
-Universe rematched (available + candidates, after dropping Finder duplicates): **4759**. After filter: **390** available, **4369** ingest candidates. Candidates newly promoted to available because they matched civit / civit2 / private: **0**. Unmatched HF video files auto-added: **0** (default is none).
+Universe rematched (available + candidates, after dropping Finder duplicates): **4768**. After filter: **390** available, **4378** ingest candidates. Candidates newly promoted to available because they matched civit / civit2 / private: **0**. Unmatched HF video files auto-added: **0** (default is none).
 
 ## Counts
 
 | Family | on Graydient | still to add | available | candidates |
 |---|---:|---:|---:|---:|
-| MiniMax H3 | 274 | 0 | 274 | 952 |
+| MiniMax H3 | 274 | 0 | 274 | 961 |
 | Wan | 60 | 13 | 73 | 2670 |
 | LTX | 40 | 3 | 43 | 747 |
-| **Total** | 374 | 16 | 390 | 4369 |
+| **Total** | 374 | 16 | 390 | 4378 |
 
-HF weight files reviewed: **13032**. HF weight files matched to a catalog or candidate row: **392**.
+HF weight files reviewed: **13088**. HF weight files matched to a catalog or candidate row: **392**.
 
 ## Still to add to Graydient
 
@@ -37,12 +37,6 @@ HF weight files reviewed: **13032**. HF weight files matched to a catalog or can
 | LTX2 | `ltx-2-orgasm-v1` | `LTX2/LTX-2 - Orgasm v1.safetensors` | to add to Graydient (no public source; needs local upload) |
 | LTX2 | `ltx-2-rubbing-her-pussy` | `LTX2/LTX-2 - Rubbing Her Pussy.safetensors` | to add to Graydient (no public source; needs local upload) |
 | LTX2 | `plorav7-ltx-000010500` | `LTX2/PLORAV7_LTX_000010500.safetensors` | to add to Graydient (no public source; needs local upload) |
-
-## Dropped from the catalog
-
-1 Finder-duplicate row(s) were removed from the available set and appended to `data/excluded.jsonl`.
-
-- `msltx-3fingering-step00005000-comfy-1` (`LTX2/msltx-3fingering-step00005000_comfy (1).safetensors`)
 
 ## Unmatched Hugging Face video files added
 

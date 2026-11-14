@@ -18,6 +18,26 @@ Names below use catalog slugs. Family tables: `families/*`.
 
 ---
 
+<!-- AUTO-UPDATE:START -->
+## Live inventory (auto-updated by `scripts/update.py`, 2026-11-14)
+
+On Graydient **374** · to add to Graydient **16** · available **390** · ingest candidates **4378** (H3 274, Wan 73, LTX 43 available). Ranked candidates: `data/candidates.jsonl`, queue: `data/graydient_ingest_queue.md`.
+
+**Newest ingest candidates found by the weekly update (proposals only, nothing auto-downloads; max 10):**
+
+- 2026-11-14 `fake-breasts-bimbo-fake-tits` (H3) — fake breasts — https://civitai.com/models/2182514?modelVersionId=3468918
+- 2026-11-14 `moss-h3-image-ningenmame-style` (H3) — @ningen_mame — https://civitai.com/models/3010902?modelVersionId=3469574
+- 2026-11-14 `moss-h3-image-onineko-style` (H3) — onineko — https://civitai.com/models/3008630?modelVersionId=3469664
+- 2026-11-14 `doctor-penny` (H3) — dctrlora — https://civitai.com/models/2857823?modelVersionId=3468506
+- 2026-11-14 `minimax-image-bal-breast` (H3) — bal_breast — https://civitai.com/models/3050961?modelVersionId=3469572
+- 2026-11-14 `crown-hyperpdmd-hd-3-4-step-all-in-one-turbo-de-quantization-lora-minimax-h3-bf16-int8-gguf-q4` (H3) — trigger not stated — https://civitai.com/models/3051154?modelVersionId=3469827
+- 2026-11-14 `faith-nordhavenlove` (H3) — trigger not stated — https://civitai.com/models/3051150?modelVersionId=3469821
+- 2026-11-14 `zaynab-von-vergin` (H3) — trigger not stated — https://civitai.com/models/3051201?modelVersionId=3469895
+- 2026-11-14 `doggystyle-minimax` (H3) — trigger not stated — https://civitai.com/models/3051148?modelVersionId=3469819
+
+Recipes below are curated; newly available LoRAs appear in the family pages (`families/`) and here until a recipe is updated.
+<!-- AUTO-UPDATE:END -->
+
 ## How to stack (read this first)
 
 ### MiniMax H3

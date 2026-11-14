@@ -6,16 +6,16 @@ Public CivitAI / Hugging Face video LoRAs that are not yet in this set live in [
 
 **Out of scope** (image LoRAs, checkpoints, finetunes, merges, full base-model repos, pure workflows, ControlNets that are not LoRAs, VAEs, text encoders, GGUF/quantised full models, and non-video families such as Hunyuan) are not in `data/loras.jsonl`. Installed RAID files that fail this test are in [`data/excluded.jsonl`](data/excluded.jsonl) with a reason. See [`data/accessibility_report.md`](data/accessibility_report.md) for the last accessibility filter.
 
-Research compiled **14 Nov 2026, 14:35 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
+Research compiled **14 Nov 2026, 14:36 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
 
 ## Counts
 
 | Family | On Graydient | To add to Graydient | Available total | Candidates |
 |---|---:|---:|---:|---:|
-| MiniMax H3 | 274 | 0 | 274 | 952 |
+| MiniMax H3 | 274 | 0 | 274 | 961 |
 | Wan (2.1 / 2.2) | 60 | 13 | 73 | 2670 |
 | LTX-2 / 2.3 / 2.5 | 40 | 3 | 43 | 747 |
-| **Total** | **374** | **16** | **390** | **4369** |
+| **Total** | **374** | **16** | **390** | **4378** |
 
 Recommend a LoRA that is already on Graydient first. If the pick is labelled *to add to Graydient*, ingest it before using it in the concept browser (not auto-downloaded). RAID-only files with no public URL need a local upload. Suggest ingest of a public candidate when the category or goal has no available option, or when a candidate is clearly stronger (at least 2,000 downloads and at least 2× the top available download count in that category) or is an official utility pack with no available equivalent. The full rule is in [`SKILL.md`](SKILL.md).
 
