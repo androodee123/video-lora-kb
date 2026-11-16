@@ -12,9 +12,9 @@ Tables list **available** Graydient LoRAs only (already on Graydient, or still t
 - [Transitions](transitions.md) — 2 accessible
 - [Lighting](lighting.md) — 1 accessible
 - [Physics / cloth / hair](physics.md) — 14 accessible
-- [NSFW acts and anatomy](nsfw-acts.md) — 110 accessible
+- [NSFW acts and anatomy](nsfw-acts.md) — 111 accessible
 - [Anime / 2D](anime.md) — 17 accessible
-- [Realism](realism.md) — 11 accessible
+- [Realism](realism.md) — 12 accessible
 - [Character consistency](character-consistency.md) — 0 accessible
 - [Object control](object-control.md) — 1 accessible
 - [Pose / control](pose.md) — 2 accessible

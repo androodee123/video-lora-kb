@@ -19,21 +19,28 @@ Names below use catalog slugs. Family tables: `families/*`.
 ---
 
 <!-- AUTO-UPDATE:START -->
-## Live inventory (auto-updated by `scripts/update.py`, 2026-11-14)
+## Live inventory (auto-updated by `scripts/update.py`, 2026-11-16)
 
-On Graydient **374** · to add to Graydient **16** · available **390** · ingest candidates **4378** (H3 274, Wan 73, LTX 43 available). Ranked candidates: `data/candidates.jsonl`, queue: `data/graydient_ingest_queue.md`.
+On Graydient **377** · to add to Graydient **16** · available **393** · ingest candidates **4398** (H3 275, Wan 74, LTX 44 available). Ranked candidates: `data/candidates.jsonl`, queue: `data/graydient_ingest_queue.md`.
+
+**Recently became available on Graydient (newest first, max 20):**
+
+- 2026-11-16 `tig-ol-bitties-big-natural-tits-breasts-mh3-kr2-zit-f1d-pny-ill-sd1-5` (H3) — TigOlBitties — https://civitai.com/models/957630?modelVersionId=3458906
+- 2026-11-16 `futa-masturbation-cumshot-i2v-mh3-ltx-wan` (Wan) — trigger not stated — https://civitai.com/models/2011853?modelVersionId=2368269
+- 2026-11-16 `futa-masturbation-cumshot-i2v-mh3-ltx-wan` (LTX2) — trigger not stated — https://civitai.com/models/2011853?modelVersionId=2896861
 
 **Newest ingest candidates found by the weekly update (proposals only, nothing auto-downloads; max 10):**
 
-- 2026-11-14 `fake-breasts-bimbo-fake-tits` (H3) — fake breasts — https://civitai.com/models/2182514?modelVersionId=3468918
-- 2026-11-14 `moss-h3-image-ningenmame-style` (H3) — @ningen_mame — https://civitai.com/models/3010902?modelVersionId=3469574
-- 2026-11-14 `moss-h3-image-onineko-style` (H3) — onineko — https://civitai.com/models/3008630?modelVersionId=3469664
-- 2026-11-14 `doctor-penny` (H3) — dctrlora — https://civitai.com/models/2857823?modelVersionId=3468506
-- 2026-11-14 `minimax-image-bal-breast` (H3) — bal_breast — https://civitai.com/models/3050961?modelVersionId=3469572
-- 2026-11-14 `crown-hyperpdmd-hd-3-4-step-all-in-one-turbo-de-quantization-lora-minimax-h3-bf16-int8-gguf-q4` (H3) — trigger not stated — https://civitai.com/models/3051154?modelVersionId=3469827
-- 2026-11-14 `faith-nordhavenlove` (H3) — trigger not stated — https://civitai.com/models/3051150?modelVersionId=3469821
-- 2026-11-14 `zaynab-von-vergin` (H3) — trigger not stated — https://civitai.com/models/3051201?modelVersionId=3469895
-- 2026-11-14 `doggystyle-minimax` (H3) — trigger not stated — https://civitai.com/models/3051148?modelVersionId=3469819
+- 2026-11-16 `sweet-butter-cookie-style` (H3) — Redraw <Picture 1> as a @sweetbuttercookie style illustration. Keep the same characters, pose, composition, framing and background from <Picture 1>. — https://civitai.com/models/3035952?modelVersionId=3471135
+- 2026-11-16 `vulva-masturbation-fingering-close-up` (H3) — trigger not stated — https://civitai.com/models/3051965?modelVersionId=3470859
+- 2026-11-16 `breast-size-slider-minimax-h3-image` (H3) — trigger not stated — https://civitai.com/models/3052536?modelVersionId=3471708
+- 2026-11-16 `natural-breasts-minimax-h3-image` (H3) — trigger not stated — https://civitai.com/models/3052751?modelVersionId=3471964
+- 2026-11-16 `minimax-h3-image-real-pussy` (H3) — trigger not stated — https://civitai.com/models/3054468?modelVersionId=3474256
+- 2026-11-16 `detailed-penis-h3` (H3) — trigger not stated — https://civitai.com/models/3054540?modelVersionId=3474357
+- 2026-11-16 `2d-oral-sex` (H3) — trigger not stated — https://civitai.com/models/3053642?modelVersionId=3473145
+- 2026-11-16 `pixelart-minimax-moss-krea2-sd` (H3) — PixelArt_TeraWatt — https://civitai.com/models/3050907?modelVersionId=3471773
+- 2026-11-16 `maggie-thompson` (H3) — maggielora — https://civitai.com/models/3050512?modelVersionId=3470484
+- 2026-11-16 `ordinaryjoe` (H3) — trigger not stated — https://civitai.com/models/2483401?modelVersionId=3471228
 
 Recipes below are curated; newly available LoRAs appear in the family pages (`families/`) and here until a recipe is updated.
 <!-- AUTO-UPDATE:END -->
