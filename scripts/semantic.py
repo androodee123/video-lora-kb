@@ -327,7 +327,7 @@ def tag_text(*parts, categories=None) -> dict:
 # Hard exclusions (never catalogued): explicit loli/shota/underage terms in a LoRA's own name, triggers or tags, and the
 # forbidden real-person identities. Everything else that is minor-coded is KEPT and flagged `minor_coded` (see minor_flag);
 # suggest.py never offers flagged LoRAs for NSFW prompts and never stacks them with NSFW or anatomy LoRAs.
-HARD_RE = re.compile(r"\b(loli\w*|shota\w*|toddler|underage|under ?age|preteen|pre ?teen)\b", re.I)
+HARD_RE = re.compile(r"\b(loli(?!ta)\w*|shota(?!ro)\w*|toddler|underage|under ?age|preteen|pre ?teen)\b", re.I)
 FORBIDDEN_ID_RE = re.compile(r"youngandrew|handyandy|andrewyoung|andy\.?young", re.I)
 
 def blocked(*texts) -> str | None:
@@ -381,7 +381,7 @@ def weight_from_text(desc: str):
 MINOR_CHARACTER_RE = re.compile(r"\b(asuka langley|souryuu|soryu|rei ayanami|ayanami rei|shinji|mari makinami|lillie|nemona|iono|fern frieren|frieren fern|fern sousou|marin kitagawa|rias gremory|akeno|koneko|asia argento|xenovia|nezuko|kanao|mikasa|annie leonhart|historia reiss|sasha braus|hinata hyuga|hinata hyuuga|sakura haruno|ino yamanaka|tenten|temari|uraraka|ochako|himiko toga|toga himiko|momo yaoyorozu|kyoka jirou|jirou kyouka|tsuyu asui|mina ashido|nobara|maki zenin|makima young|anya forger|ruby hoshino|kana arima|akane kurokawa|chisato nishikigi|takina inoue|megumin|ram rezero|rem rezero|zero two|ichigo franxx|ryuko matoi|satsuki kiryuin|mako mankanshoku|nui harime|yuffie|katara|toph|azula|ty lee|mai avatar|zelda (oot|ocarina|skyward|botw|totk)|raven teen titans|starfire teen titans|teen titans starfire|jinx teen titans|serial experiments lain|lain iwakura|meg griffin|summer smith|daphne blake|velma|courtney total drama|gwen tennyson|kim possible|violet parr|sam manson|star butterfly|marco diaz|luz noceda|amity blight|anne boonchuy|marcy wu|sasha waybright|tinker ?bell|civchan|bulma (og|young|teen|dragon ball original)|tron bonne|kirara onizaki|sophie neuenmuller|ryza|reisalin|usagi tsukino|ami mizuno|rei hino|makoto kino|minako aino|aino minako|chibiusa|madoka kaname|homura akemi|sayaka miki|kyoko sakura|mami tomoe|nagisa momoe|haruhi suzumiya|mikuru|yuki nagato|hatsune miku|kagamine|rin tohsaka|sakura matou|illyasviel|illya|chloe von|miyu edelfelt|klee|qiqi|nahida|sayu|diona|yaoyao|bailu|hook honkai|bronya zaychik|kiana kaslana|chika fujiwara|kaguya shinomiya|ai hayasaka|komi shouko|power chainsaw young|shiroko|hoshino blue|aru blue|mika misono|hina sorasaki|yuuka hayase|asuna ichinose|nonomi|serika kuromi|hifumi ajima|azusa shirasu|hanako urawa)\b", re.I)
 AGE_RE = re.compile(r"\b(age ?slider|age ?(adjust\w*|tweak\w*|changer|control)|aging slider|de ?ag(e|ed|ing)|younger (version|self|look\w*)|age ?regress\w*|reverse aging|rejuvenat\w*)\b", re.I)
 EXPLICIT_NAME_RE = re.compile(r"\b(child|children|kids?|minor|minors|underage)\b", re.I)
-EXPLICIT_DESC_RE = re.compile(r"\b(loli\w*|shota\w*|child|children|underage|preteen)\b", re.I)
+EXPLICIT_DESC_RE = re.compile(r"\b(loli(?!ta)\w*|shota(?!ro)\w*|child|children|underage|preteen)\b", re.I)
 
 POKEMON_KID_RE = re.compile(r"\b(misty|dawn|serena|may|iris|bonnie|lana|mallow|lillie|gloria|marnie|nemona|juliana|penny|ash ketchum|hilda|rosa|selene)\W+(\w+\W+)?pok[eé]mon|pok[eé]mon\W+(\w+\W+)?(misty|dawn|serena|may|iris|bonnie|lana|mallow|lillie|gloria|marnie|nemona|juliana|penny|ash ketchum|hilda|rosa|selene)\b", re.I)
 
