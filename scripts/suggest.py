@@ -310,6 +310,8 @@ def main():
                     break
     if any(p["minor_coded"] for p in picks):
         notes.append("Flagged minor_coded picks are SFW-only: never pair them with NSFW/anatomy LoRAs or explicit wording.")
+    if nsfw_prompt and any(o.get("minor_coded") for o in used_rows):
+        notes.insert(0, "Minor-coded LoRA already in an NSFW prompt: SFW-only, remove it or the NSFW wording.")
     result = {"prompt_semantic": q["semantic"], "nsfw_prompt": nsfw_prompt, "already_in_prompt": [u[0] for u in used], "families": fams or "all",
               "suggestions": picks, "by_category": {c: [o["slug"] for _, o, _ in v] for c, v in by_cat.items()}, "stack_notes": notes}
     if a.json:
@@ -320,6 +322,9 @@ def main():
         print("Already in prompt: " + ", ".join(f"{n}:{w or '?'}" for n, w in used))
     if nsfw_prompt:
         print("NSFW prompt: minor-coded LoRAs are excluded.")
+        bad = [o["slug"] for o in used_rows if o.get("minor_coded")]
+        if bad:
+            print("WARNING: minor-coded LoRA(s) " + ", ".join(bad) + " are SFW-only: remove them or remove the NSFW/explicit wording.")
     print(f"Families: {', '.join(fams) if fams else 'all'}" + (f" (+ near: {', '.join(fams_near)}, down-weighted)" if fams_near else "") + "\n")
     for i, p in enumerate(picks, 1):
         flags = []
