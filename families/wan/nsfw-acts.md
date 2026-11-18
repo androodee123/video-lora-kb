@@ -1,6 +1,6 @@
 # Wan: NSFW acts and anatomy
 
-40 available Graydient LoRAs (39 already on Graydient, 1 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+47 available Graydient LoRAs (46 already on Graydient, 1 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -23,20 +23,27 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan-2-2-wan-2-1-trans-futanari-missionary-i2v` | `futa missionary`, `Trans woman laying down.`, `Thrusting all the way in and out of her asshole.`, `Her penis is erect. Anal penetration.` | 1.0 | I2V and T2V | Wan 2.2 / Wan 2.1 - Trans & Futanari Missionary - I2V | 8,616 | on Graydient, verified | [CivitAI](https://civitai.com/models/1598775?modelVersionId=1809196), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 Wan 2.1 - Trans Futanari Missionary - I2V - v1.0 Wan 2.2 I2V 14B High - wan22_i2v_futa_missionary_high_noise.safetensors) |
 | `licking-breasts-wan` | `licking breasts`, `pusfix` | not stated | T2V | Pussy FIX | 8,270 | on Graydient, verified | [CivitAI](https://civitai.com/models/1953143?modelVersionId=2210535), [HF](https://huggingface.co/Octavian123/civit/blob/main/licking-breasts-wan.safetensors) |
 | `cowgirl-sex-position-wan` | `A woman is having sex with a man in a cowgirl position`, `she is straddling on top of him`, `A woman is having sex with a man in a cowgirl position, she is straddling on top of him, her body is moving up and down rapidly as his penis is penetrating her.` | not stated | I2V and T2V | Cowgirl Sex Position | 7,772 | on Graydient, verified | [CivitAI](https://civitai.com/models/2065218?modelVersionId=2336951), [HF](https://huggingface.co/Octavian123/civit/blob/main/cowgirl-sex-position-wan.safetensors) |
+| `extreme-pov-deep-throat-wan2-2-i2v-14b-2-starting-point-for-irrumatio` | `She happily brings her face close to the man's penis. She sniffs his penis. The man's hands forcefully grab her head. She is forced to perform irrumatio. She swallows his penis very deeply.` | not stated | I2V | Extreme POV Deep Throat (WAN2.2 I2V 14B) 2 Starting point for irrumatio | 7,586 | on Graydient, verified | [CivitAI](https://civitai.com/models/2474906?modelVersionId=2782577), [HF](https://huggingface.co/Octavian123/civit2/blob/main/extreme-pov-deep-throat-wan2-2-i2v-14b-2-s-wan.safetensors) |
 | `wan-2-2-wan-2-1-taker-pov-fellatio-i2v` | `taker POV fellatio`, `Moving towards and away from her pelvis.` | not stated | I2V and T2V | Wan 2.2 / Wan 2.1 - Taker POV Fellatio - I2V | 6,996 | on Graydient, verified | [CivitAI](https://civitai.com/models/1518243?modelVersionId=2591003), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 Wan 2.1 - Taker POV Fellatio - I2V - v1.0 Wan 2.2 I2V 14B High - wan22_i2v_taker_pov_bj_high_noise.safetensors) |
 | `wan2-1-i2v-480p-flaccid-v1-0` | `flaccid-v0.6-musubi`, `wan2.1 i2v 480p flaccid`, `penis`, `bounce`, `swing` | not stated | I2V | Flaccid Penis | 5,822 | on Graydient, verified | [CivitAI](https://civitai.com/models/1795584?modelVersionId=2032017), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wan2-1-i2v-480p-flaccid-v1-0.safetensors) |
 | `dildoing-wan` | `pumping a dildo inside her vagina`, `pumping a dildo insider her vagina` | not stated | not stated | dildoing | 5,797 | on Graydient, verified | [CivitAI](https://civitai.com/models/2903074?modelVersionId=3282820), [HF](https://huggingface.co/Octavian123/civit/blob/main/dildoing-wan.safetensors) |
+| `extreme-insertion-pov-sex-wan2-2-i2v-14b-insert-2-stomach-bulge` | `POV Sex Video The man effortlessly lifts her up and inserts his penis in one swift motion. As his enormous penis enters her vagina, it swells up into a rod-like shape, reaching the base of her ribs. She arches her back, shakes her head violently, sticks out her tongue, and convulses violently.` | not stated | I2V | Extreme Insertion POV SEX (WAN2.2 I2V 14B) insert 2 stomach bulge | 4,976 | on Graydient, verified | [CivitAI](https://civitai.com/models/2523849?modelVersionId=2836618), [HF](https://huggingface.co/Octavian123/civit2/blob/main/extreme-insertion-pov-sex-wan2-2-i2v-14b-i-wan-2.safetensors) |
 | `onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan` | `POV SEX, A toy figurine is placed there. A first-person hand grabs the toy figurine. A first-person hand spreads the figurine's legs. A first-person perspective hand deeply inserts its penis into the figure's vagina. The figure's belly swells greatly.` | not stated | I2V | Onaho Figure POV SEX (WAN2.2 I2V 14B) insert 2 stomach bulge (fairy size Sex) | 4,679 | on Graydient, verified | [CivitAI](https://civitai.com/models/2539592?modelVersionId=2854125), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan.safetensors) |
 | `choking-missionary-il-noobai-wan-2-1-shrekman-hentai-loras` | `CH0KEMV1. This video depicts the male POV scene of missionary position with chocking focused on the female the male is out of frame holds the the female throat as he thrust his penis inside her vagina.` | not stated | I2V and T2V | Choking Missionary IL&NoobAI + WAN 2.1 | 4,655 | on Graydient, verified | [CivitAI](https://civitai.com/models/1258291?modelVersionId=2051163), [HF](https://huggingface.co/Octavian123/civit/blob/main/Mid-century Film Still - v1.0 - lora-000008.TA_trained.safetensors) |
+| `close-up-pussy-and-anus-pov-hands-spreading-it-wide-open-wan2-2-i2v-14b-buukake` | `A white slime-like substance splashes over her. The camera zooms in on her pussy. The camera's POV hands spread her pussy and asshole wide open. Her pussy is stretched very wide. Her asshole is stretched very wide too. We get a detailed look inside her pussy and asshole.` | not stated | I2V | Close up pussy and anus, POV hands spreading it wide open.  (WAN2.2 I2V 14B) +Buukake | 4,604 | on Graydient, verified | [CivitAI](https://civitai.com/models/2426014?modelVersionId=2727687), [HF](https://huggingface.co/Octavian123/civit2/blob/main/close-up-pussy-and-anus-pov-hands-spreadin-wan.safetensors) |
 | `reverse-cowgirl-trans-wan` | `A beautiful transsexual woman with a penis is having anal sex with a man`, `A beautiful transsexual woman with a penis is having anal sex with a man, she is riding his penis while looking at the viewer` | not stated | T2V | Reverse Cowgirl Trans | 4,137 | on Graydient, verified | [CivitAI](https://civitai.com/models/1927612?modelVersionId=2181700), [HF](https://huggingface.co/Octavian123/civit/blob/main/reverse-cowgirl-trans-wan.safetensors) |
 | `extreme-ejaculation-wan` | `A woman receives an extreme ejaculation load to her face. A tight low-angle close-up captures the ex`, `A woman receives an extreme ejaculation load to her face. A tight low-angle close-up captures the explosive high-velocity release from the massive veiny cock, thick ropes of hot cum erupting in powerful arcing streams that splatter heavily across her upturned face, viscous fluid compressing and sliding in weighty inertia-driven trails, eyes squeeze shut in overwhelmed intensity` | not stated | T2V | Extreme Ejaculation | 3,352 | on Graydient, verified | [CivitAI](https://civitai.com/models/2680222?modelVersionId=3009502), [HF](https://huggingface.co/Octavian123/civit/blob/main/extreme-ejaculation-wan.safetensors) |
 | `cum-on-figureexcessive-wan21` | `cum-on-figureexcessive-wan21`, `The penis repeatedly ejaculates into the figure doll, which is completely fixed and motionless. Her face and whole body are covered with a large amount of translucent white semen, and the semen drips slowly.` | not stated | I2V | フィギュアぶっかけ/cum on figure/excessive bukkake/wan2.2 I2V | 3,314 | on Graydient, verified | [CivitAI](https://civitai.com/models/2520511?modelVersionId=2832880), [HF](https://huggingface.co/Octavian123/civit/blob/main/cum-on-figureexcessive-wan21.safetensors) |
+| `iwara-hentai-mmd-dance-wan2-2-i2v-14b-how-it-s-done` | `She is swaying her hips rhythmically from side to side.`, `She is swaying her hips rhythmically back and forth.`, `Intense dance motion Front angle. Shaking her hips from side to side Her arms are on her hips.`, `Intense dance moves. Dancing with arms raised to show armpits. Shaking hips from side to side.`, `Intense dance movements. Provocative dancing with the middle fingers raised on both hands. Shaking hips from side to side. Shaking hips up and down.` | not stated | I2V | IWARA HENTAI MMD DANCE (WAN2.2 I2V 14B) How it's Done | 3,205 | on Graydient, verified | [CivitAI](https://civitai.com/models/2460257?modelVersionId=2766292), [HF](https://huggingface.co/Octavian123/civit2/blob/main/iwara-hentai-mmd-dance-wan2-2-i2v-14b-how-wan-2.safetensors) |
+| `iwara-hentai-mmd-dynamic-hip-swing-dance-wan2-2-i2v-14b` | `She performs a dynamic hip-swinging dance.   She performs a dynamic hip-shaking dance.`, `She performs a dynamic hip-swinging dance.   She performs a dynamic hip-shaking dance. She dynamic shakes her right hand vigorously up and down. She dynamic swings her right hand vigorously up and down.` | not stated | I2V | IWARA HENTAI MMD Dynamic Hip Swing Dance (WAN2.2 I2V 14B) | 3,099 | on Graydient, verified | [CivitAI](https://civitai.com/models/2495882?modelVersionId=2805776), [HF](https://huggingface.co/Octavian123/civit2/blob/main/iwara-hentai-mmd-dynamic-hip-swing-dance-w-wan-2.safetensors) |
 | `wan-2-2-i2v-pegging` | — | not stated | I2V | WAN 2.2 I2V - Pegging | 3,042 | on Graydient, verified | [CivitAI](https://civitai.com/models/2410338?modelVersionId=2710056), [HF](https://huggingface.co/Octavian123/civit/blob/main/WAN 2.2 I2V - Pegging - v1.0 high - I2V-WAN2.2-Pegging-HighNoise_-000030.safetensors) |
 | `rough-sex-anal-real-wan-2-2-i2v-t2v-wan` | `rough sex anal real wan 2 2 i2v t2v wan` | 0.5–0.8 | I2V and T2V | Rough sex (anal) [Real] | 2,983 | on Graydient, verified | [CivitAI](https://civitai.com/models/2432655?modelVersionId=2735253), [HF](https://huggingface.co/Octavian123/civit/blob/main/rough-sex-anal-real-wan-2-2-i2v-t2v-wan.safetensors) |
 | `anal-no-boy-wan` | `anal no boy wan` | not stated | I2V | anal ｜ no boy | 2,955 | on Graydient, verified | [CivitAI](https://civitai.com/models/2739534?modelVersionId=3080785), [HF](https://huggingface.co/Octavian123/civit/blob/main/anal-no-boy-wan.safetensors) |
 | `onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan` | `POV sex. Very intense sex. Her body shakes violently. penis thrusts violently. penis ejaculates. She violently vomits semen. Semen overflows from her mouth. Semen flows slowly, forming thin streams. Semen overflows from her vagina. Semen is splattered all over her body.` | not stated | I2V | Onaho Figure POV SEX (WAN2.2 I2V 14B) Vomiting Cum Bukkake | 2,955 | on Graydient, verified | [CivitAI](https://civitai.com/models/2544890?modelVersionId=2859997), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan.safetensors) |
 | `onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan` | `POV Oral sex,  Sex toy figurine is placed there.  first-person Giant hand grabs the Sex toy figurine.  figurine's breasts are exposed. first-person Giant penis into the Sex toy figure's mouth.  figurine's body shakes violently during intense oral sex.` | not stated | I2V | Onaho Figure POV Oral SEX (WAN2.2 I2V 14B) Extreme Deepthroat Irrumatio | 2,795 | on Graydient, verified | [CivitAI](https://civitai.com/models/2596754?modelVersionId=2917002), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan.safetensors) |
+| `gagging-blowjob-gagging-deepthroat-penis-and-dildo-commission` | `Gagging blowjob, deepthroat; a video of a woman performing a deepthroat gagging blowjob with a dildo. Pov of a woman shoving a long and thick dildo deeply into her mouth and throat. The woman is moving the dildo back and forth in her mouth and throat. Her face shows visible discomfort as she gags on the dildo while it is deep in her mouth and throat. Her throat is prominently bulging as the dildo penetrates her mouth and throat. She makes the dildo wet with translucent saliva.`, `Gagging blowjob, deepthroat; a video of a woman performing a deepthroat gagging blowjob. She is kneeling in front of a man. The man is moving his erect penis back and forth in the woman mouth and throat, while she is sucking the man's penis, the penis is going deep into her mouth and throat. Her face shows visible discomfort as she gags on the penis while it is deep in her mouth and throat. Her throat is prominently bulging as the man's penis penetrates her mouth and throat. She makes the penis wet with translucent saliva.` | not stated | I2V | Gagging Blowjob, Gagging Deepthroat (Penis and Dildo) - Commission | 2,643 | on Graydient, verified | [CivitAI](https://civitai.com/models/1978480?modelVersionId=2239474), [HF](https://huggingface.co/Octavian123/civit2/blob/main/gagging-blowjob-gagging-deepthroat-penis-a-wan.safetensors) |
 | `side-sex-spooning-trans-wan` | `A transsexual woman is lying on her side with her penis and testicles visible`, `A transsexual woman is lying on her side with her penis and testicles visible, behind her there is a man also lying on his side and penetrating her anally with his penis`, `A transsexual woman is lying on her side with her penis and testicles visible, behind her there is a man also lying on his side and penetrating her anally with his penis.` | not stated | T2V | Side sex/spooning Trans | 2,642 | on Graydient, verified | [CivitAI](https://civitai.com/models/1927742?modelVersionId=2181862), [HF](https://huggingface.co/Octavian123/civit/blob/main/side-sex-spooning-trans-wan.safetensors) |
+| `choking-sex-sex-with-choking-choke` | `a man choke fucking a woman, a mans hand gripping her neck tightly and choking her, a man is thrusting into her, he is choke fucking her. her expression shows arousal, choking focused on the female, his hand grasps her neck tightly and chokes her, his hand isaround her throat` | not stated | I2V | Choking Sex, Sex With Choking, Choke | 2,525 | on Graydient, verified | [CivitAI](https://civitai.com/models/1951345?modelVersionId=2208483), [HF](https://huggingface.co/Octavian123/civit2/blob/main/choking-sex-sex-with-choking-choke-wan.safetensors) |
 | `onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan` | `There is a small figurine. giant penis appears. figurine's clothes automatically come off. figurine happily embraces the penis. figurine caresses the penis with its whole body. giant penis ejaculates, splattering semen all over the figurine. figurine becomes covered in semen.` | not stated | I2V | Onaho Figure Bukkake (WAN2.2 I2V 14B) Hugging penis body job (fairy size) | 2,481 | on Graydient, verified | [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan.safetensors) |
 | `wanfutaonfuta` | `WanFutaonFuta`, `futa on futa` | not stated | T2V | Wan Futa on Futa - Penis Motion Modifier | 1,498 | on Graydient, verified | [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wanfutaonfuta.safetensors) |
 | `wan-2-2-i2v-gay-anal-motion` | `gayanal` | not stated | I2V | Wan 2.2 I2V - Gay Anal (motion) | 1,006 | on Graydient, verified | [CivitAI](https://civitai.com/models/2889631?modelVersionId=3279268), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 I2V - Gay Anal motion - High - wan22_i2v_gayanal_motion_v4_high_noise.safetensors) |
@@ -324,6 +331,26 @@ Compatibility: mode: I2V and T2V; Wan 2.2: use the matching HIGH + LOW pair on t
 
 Source: [CivitAI](https://civitai.com/models/2065218?modelVersionId=2336951), [HF](https://huggingface.co/Octavian123/civit/blob/main/cowgirl-sex-position-wan.safetensors)
 
+### `POVDeepThowt_L_Wan2-2_i2v_A14B.safetensors`
+
+**Extreme POV Deep Throat (WAN2.2 I2V 14B) 2 Starting point for irrumatio \| スゴイ ディープスロート～イラマチオ開始点**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `She happily brings her face close to the man's penis. She sniffs his penis. The man's hands forcefully grab her head. She is forced to perform irrumatio. She swallows his penis very deeply.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`She happily brings her face close to the man's penis.
+She sniffs his penis.
+The man's hands forcefully grab her head.
+She is forced to perform irrumatio.
+She swallows his penis very deeply.`
+```
+
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2474906?modelVersionId=2782577), [HF](https://huggingface.co/Octavian123/civit2/blob/main/extreme-pov-deep-throat-wan2-2-i2v-14b-2-s-wan.safetensors)
+
 ### `wan2.1-i2v-480p-flaccid-v1.0.safetensors`
 
 **Flaccid Penis**
@@ -362,6 +389,25 @@ Scene Overview: She is {{lying on her side|reclined|lying on her back} on a {lig
 Compatibility: Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/2903074?modelVersionId=3282820), [HF](https://huggingface.co/Octavian123/civit/blob/main/dildoing-wan.safetensors)
+
+### `PovSex_HugePenisInsertV2_L_Wan2-2_i2v_A14B.safetensors`
+
+**Extreme Insertion POV SEX (WAN2.2 I2V 14B) insert 2 stomach bulge  \| スゴイ 巨大ペニス セックス～ボコォ 腹ボコ**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `POV Sex Video The man effortlessly lifts her up and inserts his penis in one swift motion. As his enormous penis enters her vagina, it swells up into a rod-like shape, reaching the base of her ribs. She arches her back, shakes her head violently, sticks out her tongue, and convulses violently.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`POV Sex Video
+The man effortlessly lifts her up and inserts his penis in one swift motion.
+As his enormous penis enters her vagina, it swells up into a rod-like shape, reaching the base of her ribs.
+She arches her back, shakes her head violently, sticks out her tongue, and convulses violently.`
+```
+
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2523849?modelVersionId=2836618), [HF](https://huggingface.co/Octavian123/civit2/blob/main/extreme-insertion-pov-sex-wan2-2-i2v-14b-i-wan-2.safetensors)
 
 ### `onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan.safetensors`
 
@@ -431,6 +477,39 @@ Example prompt (from the images API, page, or sidecar; never invented):
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/2520511?modelVersionId=2832880), [HF](https://huggingface.co/Octavian123/civit/blob/main/cum-on-figureexcessive-wan21.safetensors)
+
+### `MMD_Dance_HowItsDone_L_Wan2-2_i2v_A14B_.safetensors`
+
+**IWARA HENTAI MMD DANCE (WAN2.2 I2V 14B) How it's Done \| イワラ エロダンス 腰ふりモーション**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `She is swaying her hips rhythmically from side to side.`, `She is swaying her hips rhythmically back and forth.`, `Intense dance motion Front angle. Shaking her hips from side to side Her arms are on her hips.`, `Intense dance moves. Dancing with arms raised to show armpits. Shaking hips from side to side.`, `Intense dance movements. Provocative dancing with the middle fingers raised on both hands. Shaking hips from side to side. Shaking hips up and down.`, `Intense dance motions. Pseudo-masturbation dance. Shaking hips back and forth. Shaking hips up and down.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`She is swaying her hips rhythmically from side to side.`
+```
+
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2460257?modelVersionId=2766292), [HF](https://huggingface.co/Octavian123/civit2/blob/main/iwara-hentai-mmd-dance-wan2-2-i2v-14b-how-wan-2.safetensors)
+
+### `DynamicHipSwingDance2_H_Wan2-2_i2v_A14B.safetensors`
+
+**IWARA HENTAI MMD Dynamic Hip Swing Dance (WAN2.2 I2V 14B) \| ダイナミック腰振りダンス**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `She performs a dynamic hip-swinging dance.   She performs a dynamic hip-shaking dance.`, `She performs a dynamic hip-swinging dance.   She performs a dynamic hip-shaking dance. She dynamic shakes her right hand vigorously up and down. She dynamic swings her right hand vigorously up and down.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`She performs a dynamic hip-swinging dance. 
+She performs a dynamic hip-shaking dance.`
+```
+
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2495882?modelVersionId=2805776), [HF](https://huggingface.co/Octavian123/civit2/blob/main/iwara-hentai-mmd-dynamic-hip-swing-dance-w-wan-2.safetensors)
 
 ### `I2V-WAN2.2-Pegging-HighNoise_-000030.safetensors`
 

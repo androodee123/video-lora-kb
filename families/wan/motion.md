@@ -1,11 +1,12 @@
 # Wan: Motion
 
-3 available Graydient LoRAs (3 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+4 available Graydient LoRAs (4 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
 | slug / file | trigger | strength | I2V/T2V | purpose | downloads | status | links |
 |---|---|---|---|---|---:|---|---|
+| `perreo-dancing-ass-grinding-wan2-1-t2v-14b` | `Assgrnd, a man and a woman are dancing, the woman is moving her ass against the man's body.` | not stated | T2V | Perreo Dancing - Ass grinding - Wan2.1 T2V 14B | 2,283 | on Graydient, verified | [CivitAI](https://civitai.com/models/1429887?modelVersionId=1616201), [HF](https://huggingface.co/Octavian123/civit2/blob/main/perreo-dancing-ass-grinding-wan2-1-t2v-14b-wan.safetensors) |
 | `wanfutaonfuta` | `WanFutaonFuta`, `futa on futa` | not stated | T2V | Wan Futa on Futa - Penis Motion Modifier | 1,498 | on Graydient, verified | [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wanfutaonfuta.safetensors) |
 | `wan-2-2-i2v-gay-anal-motion` | `gayanal` | not stated | I2V | Wan 2.2 I2V - Gay Anal (motion) | 1,006 | on Graydient, verified | [CivitAI](https://civitai.com/models/2889631?modelVersionId=3279268), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 I2V - Gay Anal motion - High - wan22_i2v_gayanal_motion_v4_high_noise.safetensors) |
 | `wan-2-2-i2v-gay-riding-motion-anal-wan` | `gayriding` | not stated | I2V | Wan 2.2 I2V - Gay Riding (motion) (anal) | 601 | on Graydient, verified | [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864), [HF](https://huggingface.co/Octavian123/civit/blob/main/wan-2-2-i2v-gay-riding-motion-anal-wan.safetensors) |
@@ -21,6 +22,22 @@ These are **not** in the available Graydient set yet. Suggestion only — downlo
 | `wan-2-2-i2v-grinding-cowgirl` | `grindingCowgirl` | not stated | 22,158 | 184.3 | high-value upgrade (22,158 downloads, ≥2× the top accessible) | [CivitAI](https://civitai.com/models/2323362?modelVersionId=2613687) |
 
 ## Details
+
+### `perreo45.safetensors`
+
+**Perreo Dancing - Ass grinding - Wan2.1 T2V 14B**
+- base `Wan Video` · T2V · strength: not stated · triggers: `Assgrnd, a man and a woman are dancing, the woman is moving her ass against the man's body.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`Assgrnd, a man and a woman are dancing, the woman is moving her ass against the man's body.`
+```
+
+Compatibility: mode: T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/1429887?modelVersionId=1616201), [HF](https://huggingface.co/Octavian123/civit2/blob/main/perreo-dancing-ass-grinding-wan2-1-t2v-14b-wan.safetensors)
 
 ### `WanFutaonFuta.safetensors`
 

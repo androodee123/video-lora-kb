@@ -19,28 +19,42 @@ Names below use catalog slugs. Family tables: `families/*`.
 ---
 
 <!-- AUTO-UPDATE:START -->
-## Live inventory (auto-updated by `scripts/update.py`, 2026-11-16)
+## Live inventory (auto-updated by `scripts/update.py`, 2026-11-18)
 
-On Graydient **377** · to add to Graydient **16** · available **393** · ingest candidates **4398** (H3 275, Wan 74, LTX 44 available). Ranked candidates: `data/candidates.jsonl`, queue: `data/graydient_ingest_queue.md`.
+On Graydient **391** · to add to Graydient **16** · available **407** · ingest candidates **4410** (H3 277, Wan 85, LTX 45 available). Ranked candidates: `data/candidates.jsonl`, queue: `data/graydient_ingest_queue.md`.
 
 **Recently became available on Graydient (newest first, max 20):**
 
+- 2026-11-18 `detailed-penis-h3` (H3) — trigger not stated — https://civitai.com/models/3054540?modelVersionId=3474357
+- 2026-11-18 `slam-bam-wham-clam-slam-ass-ass-slam-on-ground` (H3) — Thick curvy woman, low rear camera angle, in deep squat position. She aggressively lifts her hips then violently slams her huge soft ass into the floor repeatedly, hard impact, strong jiggle and bounce every time. Focused close-up on the ass slam, realistic physics, continuous powerful drops. — https://civitai.com/models/3001881?modelVersionId=3405313
+- 2026-11-18 `extreme-pov-deep-throat-wan2-2-i2v-14b-2-starting-point-for-irrumatio` (Wan) — She happily brings her face close to the man's penis. She sniffs his penis. The man's hands forcefully grab her head. She is forced to perform irrumatio. She swallows his penis very deeply. — https://civitai.com/models/2474906?modelVersionId=2782577
+- 2026-11-18 `extreme-insertion-pov-sex-wan2-2-i2v-14b-insert-2-stomach-bulge` (Wan) — POV Sex Video The man effortlessly lifts her up and inserts his penis in one swift motion. As his enormous penis enters her vagina, it swells up into a rod-like shape, reaching the base of her ribs. She arches her back, shakes her head violently, sticks out her tongue, and convulses violently. — https://civitai.com/models/2523849?modelVersionId=2836618
+- 2026-11-18 `close-up-pussy-and-anus-pov-hands-spreading-it-wide-open-wan2-2-i2v-14b-buukake` (Wan) — A white slime-like substance splashes over her. The camera zooms in on her pussy. The camera's POV hands spread her pussy and asshole wide open. Her pussy is stretched very wide. Her asshole is stretched very wide too. We get a detailed look inside her pussy and asshole. — https://civitai.com/models/2426014?modelVersionId=2727687
+- 2026-11-18 `iwara-hentai-mmd-dance-wan2-2-i2v-14b-how-it-s-done` (Wan) — She is swaying her hips rhythmically from side to side., She is swaying her hips rhythmically back and forth., Intense dance motion Front angle. Shaking her hips from side to side Her arms are on her hips., Intense dance moves. Dancing with arms raised to show armpits. Shaking hips from side to side. — https://civitai.com/models/2460257?modelVersionId=2766292
+- 2026-11-18 `iwara-hentai-mmd-dynamic-hip-swing-dance-wan2-2-i2v-14b` (Wan) — She performs a dynamic hip-swinging dance.   She performs a dynamic hip-shaking dance., She performs a dynamic hip-swinging dance.   She performs a dynamic hip-shaking dance. She dynamic shakes her right hand vigorously up and down. She dynamic swings her right hand vigorously up and down. — https://civitai.com/models/2495882?modelVersionId=2805776
+- 2026-11-18 `gagging-blowjob-gagging-deepthroat-penis-and-dildo-commission` (Wan) — Gagging blowjob, deepthroat; a video of a woman performing a deepthroat gagging blowjob with a dildo. Pov of a woman shoving a long and thick dildo deeply into her mouth and throat. The woman is moving the dildo back and forth in her mouth and throat. Her face shows visible discomfort as she gags on the dildo while it is deep in her mouth and throat. Her throat is prominently bulging as the dildo penetrates her mouth and throat. She makes the dildo wet with translucent saliva., Gagging blowjob, deepthroat; a video of a woman performing a deepthroat gagging blowjob. She is kneeling in front of a man. The man is moving his erect penis back and forth in the woman mouth and throat, while she is sucking the man's penis, the penis is going deep into her mouth and throat. Her face shows visible discomfort as she gags on the penis while it is deep in her mouth and throat. Her throat is prominently bulging as the man's penis penetrates her mouth and throat. She makes the penis wet with translucent saliva. — https://civitai.com/models/1978480?modelVersionId=2239474
+- 2026-11-18 `choking-sex-sex-with-choking-choke` (Wan) — a man choke fucking a woman, a mans hand gripping her neck tightly and choking her, a man is thrusting into her, he is choke fucking her. her expression shows arousal, choking focused on the female, his hand grasps her neck tightly and chokes her, his hand isaround her throat — https://civitai.com/models/1951345?modelVersionId=2208483
+- 2026-11-18 `perreo-dancing-ass-grinding-wan2-1-t2v-14b` (Wan) — Assgrnd, a man and a woman are dancing, the woman is moving her ass against the man's body. — https://civitai.com/models/1429887?modelVersionId=1616201
+- 2026-11-18 `ass-walk-from-behind-booty-walking-ass-jiggle-walk` (Wan) — bouncy walking, her large, round ass is prominent as she walks away from the camera, strides confidently, camera is from behind, her ass is bouncing, she is walking away from the camera, walks away from the viewer, the viewer moves with her, her butt jiggles as she walks, ass focus — https://civitai.com/models/1916530?modelVersionId=2169176
+- 2026-11-18 `faceslap-slapped-in-the-face-face-slap-wan-2-1` (Wan) — Faceslap, a woman is getting slapped in the face by a man. Realistic physics as he slaps her in the face. Camera focuses on her face as his hand slaps her across her face. She has an expression of shock, disgust, and arousal., Pov view, a woman is quickly smacked across the face by a man's hand, hard slap — https://civitai.com/models/1999427?modelVersionId=2263107
+- 2026-11-18 `rimming-woman-rimming-man-s-ass-anilingus-wan-2-1` (Wan) — the man is receiving anilingus from the woman. The woman is licking deep in the man's ass — https://civitai.com/models/2007014?modelVersionId=2271640
+- 2026-11-18 `jockstrap-varied-colors-styles-and-concepts-krea2-klein-ltx2-zit-flux-pony-sdxl` (LTX2) — jockstrap — https://civitai.com/models/269777?modelVersionId=2696366
 - 2026-11-16 `tig-ol-bitties-big-natural-tits-breasts-mh3-kr2-zit-f1d-pny-ill-sd1-5` (H3) — TigOlBitties — https://civitai.com/models/957630?modelVersionId=3458906
 - 2026-11-16 `futa-masturbation-cumshot-i2v-mh3-ltx-wan` (Wan) — trigger not stated — https://civitai.com/models/2011853?modelVersionId=2368269
 - 2026-11-16 `futa-masturbation-cumshot-i2v-mh3-ltx-wan` (LTX2) — trigger not stated — https://civitai.com/models/2011853?modelVersionId=2896861
 
 **Newest ingest candidates found by the weekly update (proposals only, nothing auto-downloads; max 10):**
 
-- 2026-11-16 `sweet-butter-cookie-style` (H3) — Redraw <Picture 1> as a @sweetbuttercookie style illustration. Keep the same characters, pose, composition, framing and background from <Picture 1>. — https://civitai.com/models/3035952?modelVersionId=3471135
-- 2026-11-16 `vulva-masturbation-fingering-close-up` (H3) — trigger not stated — https://civitai.com/models/3051965?modelVersionId=3470859
-- 2026-11-16 `breast-size-slider-minimax-h3-image` (H3) — trigger not stated — https://civitai.com/models/3052536?modelVersionId=3471708
-- 2026-11-16 `natural-breasts-minimax-h3-image` (H3) — trigger not stated — https://civitai.com/models/3052751?modelVersionId=3471964
-- 2026-11-16 `minimax-h3-image-real-pussy` (H3) — trigger not stated — https://civitai.com/models/3054468?modelVersionId=3474256
-- 2026-11-16 `detailed-penis-h3` (H3) — trigger not stated — https://civitai.com/models/3054540?modelVersionId=3474357
-- 2026-11-16 `2d-oral-sex` (H3) — trigger not stated — https://civitai.com/models/3053642?modelVersionId=3473145
-- 2026-11-16 `pixelart-minimax-moss-krea2-sd` (H3) — PixelArt_TeraWatt — https://civitai.com/models/3050907?modelVersionId=3471773
-- 2026-11-16 `maggie-thompson` (H3) — maggielora — https://civitai.com/models/3050512?modelVersionId=3470484
-- 2026-11-16 `ordinaryjoe` (H3) — trigger not stated — https://civitai.com/models/2483401?modelVersionId=3471228
+- 2026-11-18 `radiance-chrome-voluptuous` (H3) — trigger not stated — https://civitai.com/models/2323765?modelVersionId=3476241
+- 2026-11-18 `remove-clothing-censors` (H3) — trigger not stated — https://civitai.com/models/730405?modelVersionId=3477305
+- 2026-11-18 `skinny-chicks` (H3) — trigger not stated — https://civitai.com/models/2904614?modelVersionId=3477366
+- 2026-11-18 `large-naturals` (H3) — trigger not stated — https://civitai.com/models/2904630?modelVersionId=3474852
+- 2026-11-18 `sexy-harness` (H3) — trigger not stated — https://civitai.com/models/2904485?modelVersionId=3477452
+- 2026-11-18 `all-in-one-invisible-person-livingclothes-minimax-h3-v2v-ref2v-sfw-nsfw-alpha-preview` (H3) — REMOVE-MAN, REMOVE-MALE, invisiblesex, invisiblegrab — https://civitai.com/models/3056580?modelVersionId=3477173
+- 2026-11-18 `c41-lomo` (H3) — c41_lomo — https://civitai.com/models/3056336?modelVersionId=3476816
+- 2026-11-18 `minimax-h3-dance-lora` (H3) — trigger not stated — https://civitai.com/models/3056222?modelVersionId=3476635
+- 2026-11-18 `minimax-h3-dance-beat-sync-slider` (H3) — trigger not stated — https://civitai.com/models/3056235?modelVersionId=3476658
+- 2026-11-18 `sakuga-style-anime-action-fight-choreography` (H3) — sakuga_style — https://civitai.com/models/3055989?modelVersionId=3476298
 
 Recipes below are curated; newly available LoRAs appear in the family pages (`families/`) and here until a recipe is updated.
 <!-- AUTO-UPDATE:END -->

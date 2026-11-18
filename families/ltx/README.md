@@ -6,7 +6,7 @@ Tables list **available** Graydient LoRAs only (already on Graydient, or still t
 - [Camera](camera.md) — 5 accessible
 - [Audio / voice](audio.md) — 1 accessible
 - [Style](style.md) — 11 accessible
-- [Enhancement / quality / speed](enhancement.md) — 16 accessible
+- [Enhancement / quality / speed](enhancement.md) — 17 accessible
 - [Identity / character](identity.md) — 2 accessible
 - [Effects / VFX](effects.md) — 2 accessible
 - [Transitions](transitions.md) — 0 accessible
