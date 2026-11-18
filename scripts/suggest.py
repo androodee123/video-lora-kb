@@ -186,8 +186,9 @@ def stack_notes(picks, used_rows):
         notes.append("More than one identity LoRA: only keep several when the image has that many different people.")
     if roles["style"] > 1:
         notes.append("Two or more style LoRAs fight each other: keep one, or halve both weights.")
-    styl = set(t for o in picks + used_rows if o.get("role") in ("style", "detail") for t in (o.get("semantic") or {}).get("style", []))
-    if {"photoreal", "amateur", "cinematic"} & styl and {"anime", "comic", "cartoon", "hentai", "retro anime"} & styl:
+    REAL, TOON = {"photoreal", "amateur", "cinematic"}, {"anime", "comic", "cartoon", "hentai", "retro anime"}
+    lanes = [set((o.get("semantic") or {}).get("style", [])) for o in picks + used_rows if o.get("role") in ("style", "detail")]
+    if any(l & REAL and not l & TOON for l in lanes) and any(l & TOON and not l & REAL for l in lanes):
         notes.append("Realism and anime/comic style LoRAs rarely agree: choose one lane.")
     if roles["utility"]:
         notes.append("Speed/slider LoRAs: speed ones only on the matching turbo/few-step workflow; sliders are signed (negative weight reverses).")
