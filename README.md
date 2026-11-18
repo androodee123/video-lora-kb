@@ -6,16 +6,16 @@ Public CivitAI / Hugging Face video LoRAs that are not yet in this set live in [
 
 **Out of scope** (image LoRAs, checkpoints, finetunes, merges, full base-model repos, pure workflows, ControlNets that are not LoRAs, VAEs, text encoders, GGUF/quantised full models, and non-video families such as Hunyuan) are not in `data/loras.jsonl`. Installed RAID files that fail this test are in [`data/excluded.jsonl`](data/excluded.jsonl) with a reason. See [`data/accessibility_report.md`](data/accessibility_report.md) for the last accessibility filter.
 
-Research compiled **18 Nov 2026, 11:46 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
+Research compiled **18 Nov 2026, 12:09 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
 
 ## Counts
 
 | Family | On Graydient | To add to Graydient | Available total | Candidates |
 |---|---:|---:|---:|---:|
-| MiniMax H3 | 277 | 0 | 277 | 1006 |
-| Wan (2.1 / 2.2) | 72 | 13 | 85 | 2659 |
-| LTX-2 / 2.3 / 2.5 | 42 | 3 | 45 | 745 |
-| **Total** | **391** | **16** | **407** | **4410** |
+| MiniMax H3 | 274 | 0 | 274 | 971 |
+| Wan (2.1 / 2.2) | 74 | 13 | 87 | 2616 |
+| LTX-2 / 2.3 / 2.5 | 42 | 3 | 45 | 742 |
+| **Total** | **390** | **16** | **406** | **4329** |
 
 Recommend a LoRA that is already on Graydient first. If the pick is labelled *to add to Graydient*, ingest it before using it in the concept browser (not auto-downloaded). RAID-only files with no public URL need a local upload. Suggest ingest of a public candidate when the category or goal has no available option, or when a candidate is clearly stronger (at least 2,000 downloads and at least 2× the top available download count in that category) or is an official utility pack with no available equivalent. The full rule is in [`SKILL.md`](SKILL.md).
 
@@ -24,32 +24,33 @@ Recommend a LoRA that is already on Graydient first. If the pick is labelled *to
 | Category | H3 available (on Graydient / to add) | Wan available (on Graydient / to add) | LTX available (on Graydient / to add) |
 |---|---:|---:|---:|
 | Motion | 15 (15/0) | 4 (4/0) | 4 (4/0) |
-| Camera | 12 (12/0) | 10 (10/0) | 5 (5/0) |
+| Camera | 12 (12/0) | 12 (12/0) | 5 (5/0) |
 | Audio / voice | 3 (3/0) | 0 (0/0) | 1 (1/0) |
 | Style | 49 (49/0) | 1 (1/0) | 11 (11/0) |
-| Enhancement / quality / speed | 154 (154/0) | 43 (30/13) | 17 (16/1) |
-| Identity / character | 25 (25/0) | 2 (2/0) | 2 (2/0) |
+| Enhancement / quality / speed | 152 (152/0) | 43 (30/13) | 17 (16/1) |
+| Identity / character | 24 (24/0) | 2 (2/0) | 2 (2/0) |
 | Effects / VFX | 9 (9/0) | 0 (0/0) | 2 (2/0) |
 | Transitions | 2 (2/0) | 0 (0/0) | 0 (0/0) |
 | Lighting | 1 (1/0) | 0 (0/0) | 0 (0/0) |
 | Physics / cloth / hair | 14 (14/0) | 1 (1/0) | 0 (0/0) |
-| NSFW acts and anatomy | 113 (113/0) | 47 (46/1) | 22 (20/2) |
+| NSFW acts and anatomy | 113 (113/0) | 50 (49/1) | 22 (20/2) |
 | Anime / 2D | 17 (17/0) | 1 (1/0) | 5 (5/0) |
 | Realism | 12 (12/0) | 0 (0/0) | 1 (1/0) |
 | Character consistency | 0 (0/0) | 0 (0/0) | 0 (0/0) |
 | Object control | 1 (1/0) | 0 (0/0) | 0 (0/0) |
-| Pose / control | 2 (2/0) | 1 (1/0) | 0 (0/0) |
+| Pose / control | 1 (1/0) | 0 (0/0) | 0 (0/0) |
 | Lipsync | 1 (1/0) | 0 (0/0) | 0 (0/0) |
 
 A LoRA may appear in more than one category.
 
-Of 407 rows: **248** (60.9%) have at least one recorded trigger, **56** (13.8%) have a stated strength, **104** (25.6%) have at least one example prompt (images API or page text). **2** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented.
+Of 406 rows: **249** (61.3%) have at least one recorded trigger, **56** (13.8%) have a stated strength, **105** (25.9%) have at least one example prompt (images API or page text). **2** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented.
 
 **Updating:** run `bash scripts/update.sh` (see [`UPDATING.md`](UPDATING.md)). It rematches Graydient availability, pulls new CivitAI LoRAs, rebuilds the catalog and pushes.
 
 ## How to use this repo
 
 1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser. Recipes recommend available Graydient LoRAs first. Picks labelled *to add to Graydient* must be ingested (or locally uploaded if there is no public source) before use. When the rule says so, a *Suggest ingest* line points at a public candidate.
+1. To improve a draft prompt, run `python3 scripts/suggest.py "<prompt>" --base h3|wan|ltx`: it matches the prompt's subject, intent, clothing, expression, object, pose, style, anatomy and motion against every video LoRA on Graydient (`data/semantic_catalog.jsonl`; worked examples in [`guides/prompt-matching.md`](guides/prompt-matching.md)).
 2. Open the family + category page under `families/`. Tables list available LoRAs (on Graydient first, then to add), then a *Suggest ingest* block when the rule fires.
 3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md). Per-family prompt templates and trigger usage: [`guides/prompt-patterns.md`](guides/prompt-patterns.md).
 4. Official / utility packs also appear in [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md). If they are not already on Graydient, treat them as ingest candidates.

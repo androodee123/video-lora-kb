@@ -1,6 +1,6 @@
 # Wan: Camera
 
-10 available Graydient LoRAs (10 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+12 available Graydient LoRAs (12 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -12,6 +12,8 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `extreme-insertion-pov-sex-wan2-2-i2v-14b-insert-2-stomach-bulge` | `POV Sex Video The man effortlessly lifts her up and inserts his penis in one swift motion. As his enormous penis enters her vagina, it swells up into a rod-like shape, reaching the base of her ribs. She arches her back, shakes her head violently, sticks out her tongue, and convulses violently.` | not stated | I2V | Extreme Insertion POV SEX (WAN2.2 I2V 14B) insert 2 stomach bulge | 4,976 | on Graydient, verified | [CivitAI](https://civitai.com/models/2523849?modelVersionId=2836618), [HF](https://huggingface.co/Octavian123/civit2/blob/main/extreme-insertion-pov-sex-wan2-2-i2v-14b-i-wan-2.safetensors) |
 | `onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan` | `POV SEX, A toy figurine is placed there. A first-person hand grabs the toy figurine. A first-person hand spreads the figurine's legs. A first-person perspective hand deeply inserts its penis into the figure's vagina. The figure's belly swells greatly.` | not stated | I2V | Onaho Figure POV SEX (WAN2.2 I2V 14B) insert 2 stomach bulge (fairy size Sex) | 4,679 | on Graydient, verified | [CivitAI](https://civitai.com/models/2539592?modelVersionId=2854125), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan.safetensors) |
 | `close-up-pussy-and-anus-pov-hands-spreading-it-wide-open-wan2-2-i2v-14b-buukake` | `A white slime-like substance splashes over her. The camera zooms in on her pussy. The camera's POV hands spread her pussy and asshole wide open. Her pussy is stretched very wide. Her asshole is stretched very wide too. We get a detailed look inside her pussy and asshole.` | not stated | I2V | Close up pussy and anus, POV hands spreading it wide open.  (WAN2.2 I2V 14B) +Buukake | 4,604 | on Graydient, verified | [CivitAI](https://civitai.com/models/2426014?modelVersionId=2727687), [HF](https://huggingface.co/Octavian123/civit2/blob/main/close-up-pussy-and-anus-pov-hands-spreadin-wan.safetensors) |
+| `super-close-up-pussy-and-anus-wan2-2-i2v-14b-2-spread-pussy-and-anus` | `She forcefully pushes the viewer down. She straddles the viewer. She presses her crotch against the viewer. She presses her pussy in front of the viewer's eyes. Her clitoris is very large. She spreads her pussy wide open. She spreads her anus wide open. Her pussy and anus are shown in close-up.` | not stated | I2V | Super Close up pussy and anus (WAN2.2 I2V 14B) 2 spread pussy and anus. | 4,309 | on Graydient, verified | [CivitAI](https://civitai.com/models/2533538?modelVersionId=2847348), [HF](https://huggingface.co/Octavian123/civit2/blob/main/super-close-up-pussy-and-anus-wan2-2-i2v-1-wan-2.safetensors) |
+| `ultra-super-close-up-pussy-and-anus-wan2-2-i2v-14b-pov-cunnilingus` | `Her legs spread, giving an extreme close-up of her pussy and anus. Her pussy and anus are spread wide open. Her pussy and anus are shown in very close-up detail. She is looking at viewers with lewd smile.` | not stated | I2V | Ultra Super Close up pussy and anus (WAN2.2 I2V 14B) POV Cunnilingus | 3,557 | on Graydient, verified | [CivitAI](https://civitai.com/models/2591072?modelVersionId=2910728), [HF](https://huggingface.co/Octavian123/civit2/blob/main/ultra-super-close-up-pussy-and-anus-wan2-2-wan-2.safetensors) |
 | `onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan` | `POV sex. Very intense sex. Her body shakes violently. penis thrusts violently. penis ejaculates. She violently vomits semen. Semen overflows from her mouth. Semen flows slowly, forming thin streams. Semen overflows from her vagina. Semen is splattered all over her body.` | not stated | I2V | Onaho Figure POV SEX (WAN2.2 I2V 14B) Vomiting Cum Bukkake | 2,955 | on Graydient, verified | [CivitAI](https://civitai.com/models/2544890?modelVersionId=2859997), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan.safetensors) |
 | `onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan` | `POV Oral sex,  Sex toy figurine is placed there.  first-person Giant hand grabs the Sex toy figurine.  figurine's breasts are exposed. first-person Giant penis into the Sex toy figure's mouth.  figurine's body shakes violently during intense oral sex.` | not stated | I2V | Onaho Figure POV Oral SEX (WAN2.2 I2V 14B) Extreme Deepthroat Irrumatio | 2,795 | on Graydient, verified | [CivitAI](https://civitai.com/models/2596754?modelVersionId=2917002), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan.safetensors) |
 | `onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan` | `There is a small figurine. giant penis appears. figurine's clothes automatically come off. figurine happily embraces the penis. figurine caresses the penis with its whole body. giant penis ejaculates, splattering semen all over the figurine. figurine becomes covered in semen.` | not stated | I2V | Onaho Figure Bukkake (WAN2.2 I2V 14B) Hugging penis body job (fairy size) | 2,481 | on Graydient, verified | [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan.safetensors) |
@@ -104,6 +106,48 @@ The figure's belly swells greatly.`
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/2539592?modelVersionId=2854125), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-sex-wan2-2-i2v-14b-insert-wan.safetensors)
+
+### `PovCloseUpPussy_L_Wan2-2_i2v_A14B.safetensors`
+
+**Super Close up pussy and anus (WAN2.2 I2V 14B) 2 spread pussy and anus. \| スーパースゴイ超接写くぱぁ**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `She forcefully pushes the viewer down. She straddles the viewer. She presses her crotch against the viewer. She presses her pussy in front of the viewer's eyes. Her clitoris is very large. She spreads her pussy wide open. She spreads her anus wide open. Her pussy and anus are shown in close-up.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`She forcefully pushes the viewer down.
+She straddles the viewer.
+She presses her crotch against the viewer.
+She presses her pussy in front of the viewer's eyes.
+Her clitoris is very large.
+She spreads her pussy wide open.
+She spreads her anus wide open.
+Her pussy and anus are shown in close-up.`
+```
+
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2533538?modelVersionId=2847348), [HF](https://huggingface.co/Octavian123/civit2/blob/main/super-close-up-pussy-and-anus-wan2-2-i2v-1-wan-2.safetensors)
+
+### `UltraCloseupPussy_L_Wan2-2_i2v_A14B.safetensors`
+
+**Ultra Super Close up pussy and anus (WAN2.2 I2V 14B) POV Cunnilingus \| 主観クンニ視点**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `Her legs spread, giving an extreme close-up of her pussy and anus. Her pussy and anus are spread wide open. Her pussy and anus are shown in very close-up detail. She is looking at viewers with lewd smile.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`Her legs spread, giving an extreme close-up of her pussy and anus.
+Her pussy and anus are spread wide open.
+Her pussy and anus are shown in very close-up detail.
+She is looking at viewers with lewd smile.`
+```
+
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2591072?modelVersionId=2910728), [HF](https://huggingface.co/Octavian123/civit2/blob/main/ultra-super-close-up-pussy-and-anus-wan2-2-wan-2.safetensors)
 
 ### `onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan.safetensors`
 

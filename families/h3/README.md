@@ -6,8 +6,8 @@ Tables list **available** Graydient LoRAs only (already on Graydient, or still t
 - [Camera](camera.md) — 12 accessible
 - [Audio / voice](audio.md) — 3 accessible
 - [Style](style.md) — 49 accessible
-- [Enhancement / quality / speed](enhancement.md) — 154 accessible
-- [Identity / character](identity.md) — 25 accessible
+- [Enhancement / quality / speed](enhancement.md) — 152 accessible
+- [Identity / character](identity.md) — 24 accessible
 - [Effects / VFX](effects.md) — 9 accessible
 - [Transitions](transitions.md) — 2 accessible
 - [Lighting](lighting.md) — 1 accessible
@@ -17,6 +17,6 @@ Tables list **available** Graydient LoRAs only (already on Graydient, or still t
 - [Realism](realism.md) — 12 accessible
 - [Character consistency](character-consistency.md) — 0 accessible
 - [Object control](object-control.md) — 1 accessible
-- [Pose / control](pose.md) — 2 accessible
+- [Pose / control](pose.md) — 1 accessible
 - [Lipsync](lipsync.md) — 1 accessible
 - [unverified](unverified.md) — 46

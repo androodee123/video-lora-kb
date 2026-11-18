@@ -1,6 +1,6 @@
 # H3: Identity / character
 
-25 available Graydient LoRAs (25 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+24 available Graydient LoRAs (24 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -20,7 +20,6 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `anabelle-phoenix-h3` | — | not stated | not stated | Anabelle Phoenix | 377 | on Graydient, verified | [CivitAI](https://civitai.com/models/3001803?modelVersionId=3405208), [HF](https://huggingface.co/Octavian123/civit/blob/main/anabelle-phoenix-h3.safetensors) |
 | `gc-virtual-girl-h3` | — | not stated | not stated | GC VIRTUAL GIRL | 341 | on Graydient, verified | [CivitAI](https://civitai.com/models/2994657?modelVersionId=3396188), [HF](https://huggingface.co/Octavian123/civit/blob/main/gc-virtual-girl-h3.safetensors) |
 | `miriam-h3` | `Miriam` | not stated | not stated | miriam | 299 | on Graydient, verified | [CivitAI](https://civitai.com/models/3000676?modelVersionId=3403785), [HF](https://huggingface.co/Octavian123/civit/blob/main/miriam-h3.safetensors) |
-| `civchan-unoffical-h3` | — | not stated | T2V | CivChan (Unoffical) | 256 | on Graydient, verified | [CivitAI](https://civitai.com/models/2768290?modelVersionId=3463622), [HF](https://huggingface.co/Octavian123/civit2/blob/main/civchan-unoffical-h3.safetensors) |
 | `lisaone` | `lisa1` | not stated | not stated | LISAONE | 256 | on Graydient, verified | [CivitAI](https://civitai.com/models/2917409?modelVersionId=3300557), [HF](https://huggingface.co/Octavian123/civit/blob/main/AA_ILU_Basic_Poses - V1 - V1.safetensors) |
 | `staci-80s-zit-mmh3-h3` | — | not stated | not stated | Staci 80s [ZIT] [MMH3] | 249 | on Graydient, verified | [CivitAI](https://civitai.com/models/3035617?modelVersionId=3462093), [HF](https://huggingface.co/Octavian123/civit2/blob/main/staci-80s-zit-mmh3-h3.safetensors) |
 | `candi-h3` | `Candi` | not stated | not stated | candi | 212 | on Graydient, verified | [CivitAI](https://civitai.com/models/2992064?modelVersionId=3392991), [HF](https://huggingface.co/Octavian123/civit/blob/main/candi-h3.safetensors) |

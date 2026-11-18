@@ -4,6 +4,15 @@ Automatic entries from `scripts/update.py` (newest first). Catalog/SKILL updates
 
 ## 2026-11-18
 
+Counts: on Graydient 390 · to add 16 · candidates 4329. Moved candidate→available 3, added 0, became on Graydient 0, removed 4, new candidates 0.
+
+Candidates now on Graydient (moved to available):
+- `super-close-up-pussy-and-anus-wan2-2-i2v-14b-2-spread-pussy-and-anus` (Wan) — She forcefully pushes the viewer down. She straddles the viewer. She presses her crotch against the viewer. She presses her pussy in front of the viewer's eyes. Her clitoris is very large. She spreads her pussy wide open. She spreads her anus wide open. Her pussy and anus are shown in close-up. — https://civitai.com/models/2533538?modelVersionId=2847348
+- `summon-multiple-boys-and-penises-wan2-2-i2v-14b-before-gang-bang` (Wan) — She is looking at the camera. camera quickly move above her head. She looks up at the camera and smiles. Naked 5 boys surround her. She's smile surrounded by sea of ​​erect 5 large penises. — https://civitai.com/models/2431507?modelVersionId=2734116
+- `ultra-super-close-up-pussy-and-anus-wan2-2-i2v-14b-pov-cunnilingus` (Wan) — Her legs spread, giving an extreme close-up of her pussy and anus. Her pussy and anus are spread wide open. Her pussy and anus are shown in very close-up detail. She is looking at viewers with lewd smile. — https://civitai.com/models/2591072?modelVersionId=2910728
+
+## 2026-11-18
+
 Counts: on Graydient 391 · to add 16 · candidates 4410. Moved candidate→available 14, added 0, became on Graydient 0, removed 0, new candidates 26.
 
 Candidates now on Graydient (moved to available):

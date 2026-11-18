@@ -21,10 +21,13 @@ Names below use catalog slugs. Family tables: `families/*`. **To match a draft p
 <!-- AUTO-UPDATE:START -->
 ## Live inventory (auto-updated by `scripts/update.py`, 2026-11-18)
 
-On Graydient **391** · to add to Graydient **16** · available **407** · ingest candidates **4410** (H3 277, Wan 85, LTX 45 available). Ranked candidates: `data/candidates.jsonl`, queue: `data/graydient_ingest_queue.md`.
+On Graydient **390** · to add to Graydient **16** · available **406** · ingest candidates **4329** (H3 274, Wan 87, LTX 45 available). Ranked candidates: `data/candidates.jsonl`, queue: `data/graydient_ingest_queue.md`.
 
 **Recently became available on Graydient (newest first, max 20):**
 
+- 2026-11-18 `super-close-up-pussy-and-anus-wan2-2-i2v-14b-2-spread-pussy-and-anus` (Wan) — She forcefully pushes the viewer down. She straddles the viewer. She presses her crotch against the viewer. She presses her pussy in front of the viewer's eyes. Her clitoris is very large. She spreads her pussy wide open. She spreads her anus wide open. Her pussy and anus are shown in close-up. — https://civitai.com/models/2533538?modelVersionId=2847348
+- 2026-11-18 `summon-multiple-boys-and-penises-wan2-2-i2v-14b-before-gang-bang` (Wan) — She is looking at the camera. camera quickly move above her head. She looks up at the camera and smiles. Naked 5 boys surround her. She's smile surrounded by sea of ​​erect 5 large penises. — https://civitai.com/models/2431507?modelVersionId=2734116
+- 2026-11-18 `ultra-super-close-up-pussy-and-anus-wan2-2-i2v-14b-pov-cunnilingus` (Wan) — Her legs spread, giving an extreme close-up of her pussy and anus. Her pussy and anus are spread wide open. Her pussy and anus are shown in very close-up detail. She is looking at viewers with lewd smile. — https://civitai.com/models/2591072?modelVersionId=2910728
 - 2026-11-18 `detailed-penis-h3` (H3) — trigger not stated — https://civitai.com/models/3054540?modelVersionId=3474357
 - 2026-11-18 `slam-bam-wham-clam-slam-ass-ass-slam-on-ground` (H3) — Thick curvy woman, low rear camera angle, in deep squat position. She aggressively lifts her hips then violently slams her huge soft ass into the floor repeatedly, hard impact, strong jiggle and bounce every time. Focused close-up on the ass slam, realistic physics, continuous powerful drops. — https://civitai.com/models/3001881?modelVersionId=3405313
 - 2026-11-18 `extreme-pov-deep-throat-wan2-2-i2v-14b-2-starting-point-for-irrumatio` (Wan) — She happily brings her face close to the man's penis. She sniffs his penis. The man's hands forcefully grab her head. She is forced to perform irrumatio. She swallows his penis very deeply. — https://civitai.com/models/2474906?modelVersionId=2782577

@@ -36,8 +36,8 @@ Prompt reads as: subject: woman; concept: nightlife, lighting; pose: dancing; st
 | 1 | `<slow-twerk-high-wan:0.8>` | motion | words: slow; pose/action/camera: dancing; video motion: bouncing, dance motion | twerking | 0.8 (default) |
 | 2 | `<hip-swayass-wan21:0.8>` | motion | words: dance; pose/action/camera: dancing; video motion: bouncing, dance motion | performs an ass shaking dance | 0.8 (default) |
 | 3 | `<iwara-hentai-mmd-dynamic-hip-swing-dance-wan2-2-i2v-14b:0.8>` | act | words: dance; subject/character: woman; pose/action/camera: dancing | She performs a dynamic hip-swinging dance., She performs a dynamic hip-shaking dance., She performs a dynamic hip-swinging dance. | 0.8 (default) |
-| 4 | `<belly-dancing-wan:0.8>` | motion | words: woman; subject/character: woman; pose/action/camera: dancing | A beautiful woman is belly dancing, she is moving her hips seductively | 0.8 (default) |
-| 5 | `<exotic-dancer-yet:0.8>` | detail | subject/character: woman; pose/action/camera: dancing; video motion: dance motion | — (slug only) | 0.8 (default) |
+| 4 | `<exotic-dancer-yet:0.8>` | detail | subject/character: woman; pose/action/camera: dancing; video motion: dance motion | — (slug only) | 0.8 (default) |
+| 5 | `<radio-dancing-wan:0.8>` | detail | subject/character: woman; pose/action/camera: dancing; video motion: dance motion | 5odp3g | 0.8 (default) |
 | 6 | `<grinding-cowgirl-high-wan:0.8>` | motion | pose/action/camera: dancing; adds: cowgirl, sex | — (slug only) | 0.8 (default) |
 
 Stacking notes: Wan 2.2 A14B LoRAs come in high-noise/low-noise pairs: load the matching partner on the other expert. Large stack: add LoRAs one at a time and keep helpers at 0.2–0.5. Pair <slow-twerk-high-wan> (high/low-noise) with <slow-twerk-low-wan>. Pair <grinding-cowgirl-high-wan> (high/low-noise) with <grinding-cowgirl-low-wan>.
@@ -55,7 +55,7 @@ Prompt reads as: subject: woman; concept: lighting; expression: smile, talking; 
 | 1 | `<natural-face-speech-minimax-h3:0.8>` | motion | words: natural, speech; expression: talking; video motion: talking motion | — (slug only) | 0.8 (default) |
 | 2 | `<foreskin-stretch-h3:0.8>` | detail | words: close, soft; concept/intent: lighting; pose/action/camera: close-up | fskin_stretch, close-up of a hand gently stretching the foreskin of an erect penis, pulling it forward and slightly downward | 0.8 (default) |
 | 3 | `<mmh3-locked-stabilization-camera-locked-to-h3:1.0>` | motion | words: camera; object/prop: camera | the camera is centred on, lockstab | 1.0 (source) |
-| 4 | `<slam-bam-wham-clam-slam-ass-ass-slam-on-ground:0.8>` | detail | words: camera, close, woman; subject/character: woman; object/prop: camera | Thick curvy woman, low rear camera angle, hard impact | 0.8 (default) |
+| 4 | `<minimax-female-accents-north-american-h3:0.45>` | motion | subject/character: woman; video motion: talking motion | — (slug only) | 0.45 (source) |
 | 5 | `<natural-sagging-breasts-h3:0.8>` | detail | words: natural | — (slug only) | 0.8 (default) |
 | 6 | `<whispering-h3:0.8>` | detail | expression: talking | — (slug only) | 0.8 (default) |
 
