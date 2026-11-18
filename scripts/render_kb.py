@@ -359,6 +359,7 @@ A LoRA may appear in more than one category.
 ## How to use this repo
 
 1. Start with [`SKILL.md`](SKILL.md) — a goal→LoRA chooser. Recipes recommend available Graydient LoRAs first. Picks labelled *to add to Graydient* must be ingested (or locally uploaded if there is no public source) before use. When the rule says so, a *Suggest ingest* line points at a public candidate.
+1. To improve a draft prompt, run `python3 scripts/suggest.py "<prompt>" --base h3|wan|ltx`: it matches the prompt's subject, intent, clothing, expression, object, pose, style, anatomy and motion against every video LoRA on Graydient (`data/semantic_catalog.jsonl`; worked examples in [`guides/prompt-matching.md`](guides/prompt-matching.md)).
 2. Open the family + category page under `families/`. Tables list available LoRAs (on Graydient first, then to add), then a *Suggest ingest* block when the rule fires.
 3. For I2V / T2V prompting and Graydient workflow names, read [`guides/image-to-video.md`](guides/image-to-video.md). Per-family prompt templates and trigger usage: [`guides/prompt-patterns.md`](guides/prompt-patterns.md).
 4. Official / utility packs also appear in [`guides/fuzzpuppy-directory.md`](guides/fuzzpuppy-directory.md). If they are not already on Graydient, treat them as ingest candidates.

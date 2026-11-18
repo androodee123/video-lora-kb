@@ -48,3 +48,29 @@ The weekly routine runs `bash scripts/update.sh` from this repo and reports the 
 ## Requirements and caches
 
 Python 3 with `huggingface_hub` (HF credentials come from the machine's normal HF login; nothing is stored in the repo) and `gh` logged in as `androodee123`. Raw caches live in `data/raw/` (gitignored). `scripts/check_new.py` remains a read-only preview of new CivitAI LoRAs.
+
+## Semantic catalog and prompt matcher
+
+`scripts/update.sh` now also runs `scripts/build_semantic.py --prune-kb` right after the catalog rebuild, then `scripts/matcher_examples.py`:
+
+1. **Adults-only prune:** rows in `data/loras.jsonl` / `data/candidates.jsonl` whose CivitAI model/version id was safety-skipped in an ingest review (`data/local/safety_skips.json`), or whose name/triggers/tags are minor- or school-coded (`scripts/semantic.py`: terms, canonically-minor characters, student-cast franchises), move to `data/excluded.jsonl` with the reason.
+2. **`data/semantic_catalog.jsonl`:** one row per LoRA we have on Graydient (plus HF/RAID-only ones, flagged), merged from `data/loras.jsonl`, the AIOps library snapshot and the ingest-plan snapshot. Fields: slug, family, base_model, name, triggers (empty = no trigger; registered by slug), weight + source, source_url, CivitAI ids, creator (`onemoreepoch` = Andrew's own), ingest_date (plan date or AIOps `ingested_at`; approximate), availability {graydient, hf, raid}, role, and `semantic` tags in subject / concept / clothing / expression / object / pose / style / anatomy (+ motion for video), derived from names, triggers, CivitAI tags and descriptions. Summary: `data/semantic_summary.md`.
+3. **`guides/prompt-matching.md`:** worked `scripts/suggest.py` examples regenerated on the current catalog.
+
+`scripts/check_new.py` rebuilds the same catalog and adds a *Semantic tags* section to the proposal (new and untagged LoRAs, snapshot ages). New CivitAI proposals carry their semantic tags too.
+
+### Refreshing the local snapshots (`data/local/`)
+
+The AIOps LoRA library and the civit-to-graydient plan files live on the home Mac, so the weekly box run reuses the committed snapshots. Refresh them (read-only; sanitized: no RAID paths, download URLs, logins or tokens) when `check_new.py` says they are older than a week, or after a big ingest:
+
+```bash
+# on the home Mac, from a checkout of this repo
+python3 scripts/export_local_meta.py \
+  --aiops-db ~/AI/ai-ops-portal/data/catalog-index.sqlite \
+  --plans '/Users/AndrewD/downloadtemp/civit-ingest-*/plan.json' \
+  --out data/local
+# safety skips come from the ingest review files (box: /workspace/ingest-batches)
+python3 scripts/export_local_meta.py --batches /workspace/ingest-batches --out data/local
+```
+
+Then `python3 scripts/build_semantic.py --prune-kb && python3 scripts/matcher_examples.py`, or just run `bash scripts/update.sh`. The SQLite DB is opened with `mode=ro`; nothing is downloaded or ingested.

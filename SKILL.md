@@ -14,7 +14,7 @@ Suggest-ingest rule (same rule as the family/category pages):
 
 A general H3 starting range of 0.6–0.9 is only a rule of thumb, not per-file data.
 
-Names below use catalog slugs. Family tables: `families/*`.
+Names below use catalog slugs. Family tables: `families/*`. **To match a draft prompt against every video LoRA on Graydient, run `python3 scripts/suggest.py "<prompt>" --base h3|wan|ltx` — see *Match a prompt to LoRAs* below.**
 
 ---
 
@@ -58,6 +58,22 @@ On Graydient **391** · to add to Graydient **16** · available **407** · inges
 
 Recipes below are curated; newly available LoRAs appear in the family pages (`families/`) and here until a recipe is updated.
 <!-- AUTO-UPDATE:END -->
+
+## Match a prompt to LoRAs (semantic matcher)
+
+Use this whenever someone hands you a draft video prompt, a clip to improve, or an intent ("more natural bounce", "slow orbit around her", "less robotic speech"). It searches **every video LoRA we have on Graydient** (H3, Wan 2.1/2.2, LTX-2/2.3), not just the recipe picks below.
+
+1. **Read the prompt context.** Note the family/workflow (H3 e.g. `omni-eros-new-h3`, Wan I2V/T2V, LTX), I2V vs T2V, the LoRAs already in it (`<slug:w>`), and what the clip should get closer to: subject/character, concept/intent, clothing/outfit, expression, object/prop, pose/action/camera, style/medium, anatomy and **video motion** (thrusting, bouncing/physics, riding, oral motion, camera orbit/push/pan/static, slow-mo, walking, dancing, talking/lip-sync, undressing, transitions, VFX, character consistency, motion quality).
+2. **Run the matcher** (instant, offline):
+   ```bash
+   python3 scripts/suggest.py "<draft prompt>" --base h3|wan|ltx [--intent "<goal in words>"] [--top 12] [--include-unavailable] [--json]
+   ```
+   It parses the prompt into those categories, scores each catalog LoRA on rare shared words (name, slug, source triggers) and shared semantic tags, prefers on-Graydient and verified ones, collapses versions, and prints **why it matched**, the **trigger** (or *no trigger — registered by slug*), the **weight** (source-stated, or a labelled default), availability, the source link, *Best per category*, *Stacking notes* (including the Wan 2.2 high/low-noise partner slug) and a *Proposed addition*.
+3. **Or consult the catalog directly:** `data/semantic_catalog.jsonl` (one row per Graydient slug: `slug, family, base_model, name, triggers, no_trigger, weight, weight_source, source_url, creator, own, ingest_date, availability{graydient,hf,raid}, role, i2v_t2v, semantic{…, motion}`), e.g. `jq -c 'select(.family=="H3" and (.semantic.motion//[]|index("camera orbit")))' data/semantic_catalog.jsonl`. Counts: `data/semantic_summary.md`.
+4. **Propose additions, don't dump the list.** One identity per person, one style/look, one motion-quality or realism helper, then only the act/motion/camera helpers the clip needs; speed/turbo LoRAs only on the matching fast graph; pair Wan 2.2 high/low files. Skip picks whose *why* says `adds: …` unless wanted. Write `<slug:weight>` then the source triggers in the prompt; no-trigger LoRAs go in by slug only. **Never invent a trigger or a strength.**
+5. Explain each addition in one line and test one LoRA at a time.
+
+Worked examples with real slugs: `guides/prompt-matching.md`. Rebuilt weekly by `scripts/update.sh` (`scripts/build_semantic.py`); `scripts/check_new.py` reports new/untagged LoRAs.
 
 ## How to stack (read this first)
 

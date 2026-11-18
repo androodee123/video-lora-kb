@@ -9,6 +9,10 @@ This script lists *new* CivitAI video LoRAs (LORA / LoCon / DoRA on confirmed
 video baseModels) that are in neither file — ingest candidates for a person
 to review and, if wanted, ingest with civit-to-graydient.
 
+Also rebuilds data/semantic_catalog.jsonl (scripts/build_semantic.py) so every video LoRA on Graydient carries
+subject/concept/clothing/expression/object/pose/style/anatomy/motion tags for scripts/suggest.py, and appends a
+"Semantic tags" section (new/untagged entries, age of the data/local snapshots). Skip with --no-semantic.
+
 Writes proposals/YYYY-MM-DD.md. MUST NEVER download or ingest weights.
 """
 from __future__ import annotations
@@ -23,6 +27,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import harvest as H
 import video_lora as V
+import semantic as S
+import build_semantic as B
 
 ROOT = H.ROOT
 JSONL = ROOT / "data" / "loras.jsonl"
@@ -102,6 +108,7 @@ def main():
     ap.add_argument("--sort", default="newest", choices=list(H.SORTS))
     ap.add_argument("--refresh", action="store_true", help="re-fetch proposal pages")
     ap.add_argument("--date", help="proposal filename date (YYYY-MM-DD)")
+    ap.add_argument("--no-semantic", action="store_true", help="skip the semantic-catalog rebuild")
     args = ap.parse_args()
 
     known_ids, known_files, _known_hf, n_acc, n_cand = load_known()
@@ -128,6 +135,10 @@ def main():
                 if mid in known_ids:
                     already += 1
                     continue
+                tw = " ".join(w for v in (it.get("modelVersions") or []) for w in (v.get("trainedWords") or []))
+                tg = " ".join(t if isinstance(t, str) else str(t.get("name", "")) for t in (it.get("tags") or []))
+                if S.blocked_character(it.get("name"), tg, tw) or S.blocked(it.get("name"), tg, tw):
+                    continue  # adults only
                 names = [
                     (f.get("name") or "").lower()
                     for v in (it.get("modelVersions") or [])
@@ -166,8 +177,8 @@ def main():
         lines.append("No new candidates in this window.")
     else:
         lines += [
-            "| model id | name | downloads | baseModel | triggers | files | link |",
-            "|---|---|---:|---|---|---|---|",
+            "| model id | name | downloads | baseModel | triggers | semantic tags | files | link |",
+            "|---|---|---:|---|---|---|---|---|",
         ]
         for it in new:
             bases = sorted({v.get("baseModel") or "" for v in it["versions"] if v.get("baseModel")})
@@ -184,9 +195,11 @@ def main():
             trig = ", ".join(f"`{w}`" for w in words[:6]) or "—"
             fn = ", ".join(f"`{n}`" for n in files[:5]) or "—"
             name = (it.get("name") or "").replace("|", "\\|")
+            sem = S.tag_text(it.get("name"), " ".join(words))
+            semtxt = "; ".join(f"{k}: {', '.join(v[:3])}" for k, v in sem.items()) or "—"
             lines.append(
                 f"| {it['id']} | {name} | {it['downloads']:,} | {', '.join(bases) or it['queried_base']} "
-                f"| {trig} | {fn} | [{it['id']}]({it['url']}) |"
+                f"| {trig} | {semtxt} | {fn} | [{it['id']}]({it['url']}) |"
             )
         lines += ["", "## Details", ""]
         for it in new:
@@ -202,6 +215,13 @@ def main():
                 )
             lines.append("")
 
+    if not args.no_semantic:
+        before = B.catalog_slugs()
+        try:
+            B.main()
+            lines += [""] + B.report_lines(before)
+        except Exception as e:  # never block the weekly report
+            lines += ["", "## Semantic tags for the prompt matcher", "", f"Rebuild failed: {e}"]
     dest.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     print(f"wrote {dest} ({len(new)} new, {already} already known)", file=sys.stderr)
 
