@@ -178,6 +178,13 @@ def primary_category(o, sem_hits):
         return max(sem_hits, key=lambda c: (len(sem_hits[c]) * CAT_W.get(c, 1)))
     return {"style": "style", "clothing": "clothing", "pose": "pose", "anatomy": "anatomy", "motion": "motion"}.get(role, "concept")
 
+NOT_GARMENT = {"nude", "naked", "topless", "bottomless", "undressing", "clothed", "costume"}
+
+def named_by_person_word(why):
+    """True when an identity's name match rests on a non-clothing word (a garment like 'plugsuit' alone is not a name)."""
+    words = next((w[len("words: "):].split(", ") for w in why if w.startswith("words: ")), [])
+    return any(not S.tag_text(t).get("clothing") for t in words if len(t) > 2)
+
 def nsfwish(o):
     """NSFW or anatomy LoRA: never stacked with a minor_coded one."""
     return bool(o.get("nsfw") or o.get("role") in ("act", "anatomy") or (o.get("semantic") or {}).get("anatomy"))
@@ -241,18 +248,38 @@ def main():
     used_rows = [o for o in rows if o["slug"].lower() in used_names]
     # safety: minor_coded LoRAs (minor/school-age characters, age sliders) are SFW-only
     nsfw_prompt = S.is_nsfw(q["semantic"], text) or any(nsfwish(o) for o in used_rows)
-    if nsfw_prompt:
-        pool = [o for o in pool if not o.get("minor_coded")]
-    elif any(o.get("minor_coded") for o in used_rows):
+    if any(o.get("minor_coded") for o in used_rows) and not nsfw_prompt:
         pool = [o for o in pool if not nsfwish(o)]
     fields, idf, tidf = build_index(pool)
     scored = []
+    garments = set(q["semantic"].get("clothing", [])) - NOT_GARMENT
+    best_identity = (0.0, None)  # strongest name-matched character LoRA, flagged or not
     for o, f in zip(pool, fields):
         if o["slug"].lower() in used_names:
             continue
         s, why, hits = score(o, f, q, idf, tidf, fams, fams_near)
+        if o.get("role") == "identity" and "name match" in why and s > best_identity[0] and named_by_person_word(why):
+            best_identity = (s, o)
+        if nsfw_prompt and o.get("minor_coded"):
+            continue
+        # garment-first: when the prompt names an outfit, clothing-only LoRAs for that garment rank first
+        if s > 0 and garments and o.get("role") == "clothing" and garments & set((o.get("semantic") or {}).get("clothing", [])):
+            s *= 1.5
+            why.append("outfit match")
         if s > 0:
             scored.append((s, o, why, hits))
+    minor_named = nsfw_prompt and best_identity[1] is not None and best_identity[1].get("minor_coded")
+    if minor_named:
+        # the prompt names a minor-coded character with NSFW wording: no suggestions and no outfit substitutes
+        msg = (f"The prompt names a minor-coded character ({best_identity[1]['slug']}: {best_identity[1].get('minor_reason')}) "
+               "and is NSFW. Minor-coded characters are SFW-only, so nothing is suggested and no outfit substitute is offered. "
+               "Remove the NSFW wording, or drop the character.")
+        if a.json:
+            print(json.dumps({"prompt_semantic": q["semantic"], "nsfw_prompt": True, "minor_coded_character": best_identity[1]["slug"],
+                              "suggestions": [], "stack_notes": [msg]}, ensure_ascii=False, indent=1))
+        else:
+            print(msg)
+        return 0
     scored.sort(key=lambda x: -x[0])
     best, seen_group, other_versions = [], {}, Counter()
     for s, o, why, hits in scored:
@@ -285,7 +312,7 @@ def main():
             break
         if item[1]["slug"] not in taken:
             top.append(item); taken.add(item[1]["slug"])
-    top.sort(key=lambda x: -x[0])
+    top.sort(key=lambda x: ("outfit match" not in x[2], -x[0]))
     picks = []
     for s, o, why, hits in top:
         w, wsrc = weight_of(o)

@@ -18,6 +18,8 @@ IMAGE = [
      "score_9, score_8_up, 1girl, dark elf, silver hair, bikini armor, holding sword, from below, angry, fantasy forest", ""),
     ("Latex + pose + expression (Illustrious/NoobAI)", "illustrious",
      "1girl, black latex catsuit, high heels, kneeling, looking at viewer, smirk, neon lights, night city", "glossy fetish fashion look"),
+    ("Outfit-first: plugsuit-style bodysuit, adult original character (Illustrious/NoobAI)", "illustrious",
+     "adult woman, mature female, white and red plugsuit, form-fitting bodysuit, standing in a sci-fi hangar, anime", "get the plugsuit outfit without a character LoRA"),
     ("Noir boudoir (MOSS, kromoss)", "moss",
      "score_9, best quality, woman in a black corset and fishnet stockings sitting on a velvet chair, low-key lighting, film noir", ""),
 ]
