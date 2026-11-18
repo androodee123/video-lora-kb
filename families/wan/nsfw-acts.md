@@ -1,6 +1,6 @@
 # Wan: NSFW acts and anatomy
 
-50 available Graydient LoRAs (49 already on Graydient, 1 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+51 available Graydient LoRAs (50 already on Graydient, 1 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -48,6 +48,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `side-sex-spooning-trans-wan` | `A transsexual woman is lying on her side with her penis and testicles visible`, `A transsexual woman is lying on her side with her penis and testicles visible, behind her there is a man also lying on his side and penetrating her anally with his penis`, `A transsexual woman is lying on her side with her penis and testicles visible, behind her there is a man also lying on his side and penetrating her anally with his penis.` | not stated | T2V | Side sex/spooning Trans | 2,642 | on Graydient, verified | [CivitAI](https://civitai.com/models/1927742?modelVersionId=2181862), [HF](https://huggingface.co/Octavian123/civit/blob/main/side-sex-spooning-trans-wan.safetensors) |
 | `choking-sex-sex-with-choking-choke` | `a man choke fucking a woman, a mans hand gripping her neck tightly and choking her, a man is thrusting into her, he is choke fucking her. her expression shows arousal, choking focused on the female, his hand grasps her neck tightly and chokes her, his hand isaround her throat` | not stated | I2V | Choking Sex, Sex With Choking, Choke | 2,525 | on Graydient, verified | [CivitAI](https://civitai.com/models/1951345?modelVersionId=2208483), [HF](https://huggingface.co/Octavian123/civit2/blob/main/choking-sex-sex-with-choking-choke-wan.safetensors) |
 | `onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan` | `There is a small figurine. giant penis appears. figurine's clothes automatically come off. figurine happily embraces the penis. figurine caresses the penis with its whole body. giant penis ejaculates, splattering semen all over the figurine. figurine becomes covered in semen.` | not stated | I2V | Onaho Figure Bukkake (WAN2.2 I2V 14B) Hugging penis body job (fairy size) | 2,481 | on Graydient, verified | [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan.safetensors) |
+| `iwara-hentai-mmd-futanari-penis-masturbation-wan2-2-i2v-14b` | `very lewd and vulgar expression was on her face. She is a hermaphrodite girl. She is holding her penis in her hand. She masturbates her penis with the movements of her large arms and hands. She swings her hand up and down with very large movements.` | not stated | I2V | IWARA HENTAI MMD Futanari Penis Masturbation (WAN2.2 I2V 14B) | 1,724 | on Graydient, verified | [CivitAI](https://civitai.com/models/2505365?modelVersionId=2816603), [HF](https://huggingface.co/Octavian123/civit2/blob/main/iwara-hentai-mmd-futanari-penis-masturbati-wan-2.safetensors) |
 | `wanfutaonfuta` | `WanFutaonFuta`, `futa on futa` | not stated | T2V | Wan Futa on Futa - Penis Motion Modifier | 1,498 | on Graydient, verified | [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wanfutaonfuta.safetensors) |
 | `wan-2-2-i2v-gay-anal-motion` | `gayanal` | not stated | I2V | Wan 2.2 I2V - Gay Anal (motion) | 1,006 | on Graydient, verified | [CivitAI](https://civitai.com/models/2889631?modelVersionId=3279268), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 I2V - Gay Anal motion - High - wan22_i2v_gayanal_motion_v4_high_noise.safetensors) |
 | `quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan` | `quorum general nsfw for wan 2 2 i2v a14b wan` | not stated | I2V | Quorum - general NSFW LoRA for Wan 2.2 I2V-A14B | 649 | on Graydient, verified | [CivitAI](https://civitai.com/models/2918508?modelVersionId=3301880), [HF](https://huggingface.co/Octavian123/civit/blob/main/quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan.safetensors) |
@@ -700,6 +701,26 @@ Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydien
 
 Source: [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan.safetensors)
 
+### `MMD_FutanariPenisMasturbation_L_Wan2-2_i2v_A14B.safetensors`
+
+**IWARA HENTAI MMD Futanari Penis Masturbation (WAN2.2 I2V 14B) \| ふたなり ちんぽ オナニー**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `very lewd and vulgar expression was on her face. She is a hermaphrodite girl. She is holding her penis in her hand. She masturbates her penis with the movements of her large arms and hands. She swings her hand up and down with very large movements.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`very lewd and vulgar expression was on her face.
+She is a hermaphrodite girl.
+She is holding her penis in her hand.
+She masturbates her penis with the movements of her large arms and hands.
+She swings her hand up and down with very large movements.`
+```
+
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2505365?modelVersionId=2816603), [HF](https://huggingface.co/Octavian123/civit2/blob/main/iwara-hentai-mmd-futanari-penis-masturbati-wan-2.safetensors)
+
 ### `WanFutaonFuta.safetensors`
 
 **Wan Futa on Futa - Penis Motion Modifier**
@@ -726,13 +747,4 @@ Source: [CivitAI](https://civitai.com/models/2918508?modelVersionId=3301880), [H
 Compatibility: mode: I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864), [HF](https://huggingface.co/Octavian123/civit/blob/main/wan-2-2-i2v-gay-riding-motion-anal-wan.safetensors)
-
-### `facial-cumshot-crossfire-wan.safetensors`
-
-**Facial Cumshot Crossfire**
-- base `Wan Video 14B i2v 720p` · I2V · strength: not stated · triggers: `cstm_actn_facial` · on Graydient
-
-Compatibility: mode: I2V; resolution: 720p I2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low graphs; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
-
-Source: [CivitAI](https://civitai.com/models/2913261?modelVersionId=3295567), [HF](https://huggingface.co/Octavian123/civit/blob/main/facial-cumshot-crossfire-wan.safetensors)
 

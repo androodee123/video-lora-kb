@@ -1,6 +1,6 @@
 # Wan: Enhancement / quality / speed
 
-43 available Graydient LoRAs (30 already on Graydient, 13 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+44 available Graydient LoRAs (31 already on Graydient, 13 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -21,6 +21,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `wan-2-2-femdom-facesitting` | — | not stated | T2V | WAN 2.2 FEMDOM Facesitting | 2,944 | on Graydient, verified | [CivitAI](https://civitai.com/models/2115679?modelVersionId=2393583), [HF](https://huggingface.co/Octavian123/civit/blob/main/WAN 2.2 FEMDOM Facesitting - V5.0 Low Noise - Wan2_2_Facesitting5.0_LowNoise.safetensors) |
 | `wan-2-2-femdom-ass-worship` | — | not stated | T2V | WAN 2.2 FEMDOM Ass Worship | 2,683 | on Graydient, verified | [CivitAI](https://civitai.com/models/2124655?modelVersionId=2403355), [HF](https://huggingface.co/Octavian123/civit/blob/main/WAN 2.2 FEMDOM Ass Worship - v1.0 - Wan2_2_Ass_Worship_HighNoise.safetensors) |
 | `one-piece-swimsuit-swimsuitopo` | `swimsuitOPO` | not stated | T2V | One-piece swimsuit, swimsuitOPO | 2,531 | on Graydient, verified | [CivitAI](https://civitai.com/models/1487957?modelVersionId=1712103), [HF](https://huggingface.co/Octavian123/civit/blob/main/One-piece swimsuit swimsuitOPO - swimsuitOPO_v01_KREA2 - swimsuitOPO_v01_KREA2_e040.safetensors) |
+| `walking-rotation-wan2-2-i2v-14b-loop-walking-concept` | `She walks very energetically. She walks sideways to the right. She walks backward. She walks sideways to the left. She walks facing forward. she swings her hips widely. She swings her arms widely. Her hair moves beautifully.` | 1; 0.5 | I2V | Walking Rotation(WAN2.2 I2V 14B) Loop walking concept | 2,465 | on Graydient, verified | [CivitAI](https://civitai.com/models/2481790?modelVersionId=2790285), [HF](https://huggingface.co/Octavian123/civit2/blob/main/walking-rotation-wan2-2-i2v-14b-loop-walki-wan-2.safetensors) |
 | `wan2-2-i2v-injection-medical-syringe-detai-wan` | `wan2 2 i2v injection medical syringe detai wan` | not stated | I2V | Wan2.2 I2V Injection & Medical Syringe Detail | 2,269 | on Graydient, verified | [CivitAI](https://civitai.com/models/2334825?modelVersionId=2626394), [HF](https://huggingface.co/Octavian123/civit/blob/main/wan2-2-i2v-injection-medical-syringe-detai-wan.safetensors) |
 | `gyno-chair-wan` | `gynecological examination chair` | not stated | T2V | Gyno chair | 1,507 | on Graydient, verified | [CivitAI](https://civitai.com/models/2692734?modelVersionId=3023500), [HF](https://huggingface.co/Octavian123/civit/blob/main/gyno-chair-wan.safetensors) |
 | `femdom-facesitting-2-0` | — | not stated | I2V and T2V | FEMDOM Facesitting 2.0 | 1,048 | on Graydient, verified | [CivitAI](https://civitai.com/models/1801238?modelVersionId=2038450), [HF](https://huggingface.co/Octavian123/civit/blob/main/FEMDOM Facesitting 2.0 - Version 2.0 - wan_facesitting-000014.safetensors) |
@@ -251,6 +252,29 @@ Example prompt (from the images API, page, or sidecar; never invented):
 Compatibility: mode: T2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/2680222?modelVersionId=3009502), [HF](https://huggingface.co/Octavian123/civit/blob/main/extreme-ejaculation-wan.safetensors)
+
+### `RotationWalking_H_Wan2-2_i2v_A14B.safetensors`
+
+**Walking Rotation(WAN2.2 I2V 14B) Loop walking concept \| ぐるぐる歩くループモーション**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength (stated): 1; 0.5 · triggers: `She walks very energetically. She walks sideways to the right. She walks backward. She walks sideways to the left. She walks facing forward. she swings her hips widely. She swings her arms widely. Her hair moves beautifully.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`She walks very energetically.
+She walks sideways to the right.
+She walks backward.
+She walks sideways to the left.
+She walks facing forward.
+she swings her hips widely.
+She swings her arms widely.
+Her hair moves beautifully.`
+```
+
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2481790?modelVersionId=2790285), [HF](https://huggingface.co/Octavian123/civit2/blob/main/walking-rotation-wan2-2-i2v-14b-loop-walki-wan-2.safetensors)
 
 ### `wan2-2-i2v-injection-medical-syringe-detai-wan.safetensors`
 

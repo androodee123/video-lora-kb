@@ -6,16 +6,16 @@ Tables list **available** Graydient LoRAs only (already on Graydient, or still t
 - [Camera](camera.md) — 12 accessible
 - [Audio / voice](audio.md) — 0 accessible
 - [Style](style.md) — 1 accessible
-- [Enhancement / quality / speed](enhancement.md) — 43 accessible
+- [Enhancement / quality / speed](enhancement.md) — 44 accessible
 - [Identity / character](identity.md) — 2 accessible
 - [Effects / VFX](effects.md) — 0 accessible
 - [Transitions](transitions.md) — 0 accessible
 - [Lighting](lighting.md) — 0 accessible
 - [Physics / cloth / hair](physics.md) — 1 accessible
-- [NSFW acts and anatomy](nsfw-acts.md) — 50 accessible
+- [NSFW acts and anatomy](nsfw-acts.md) — 51 accessible
 - [Anime / 2D](anime.md) — 1 accessible
 - [Realism](realism.md) — 0 accessible
 - [Character consistency](character-consistency.md) — 0 accessible
 - [Object control](object-control.md) — 0 accessible
-- [Pose / control](pose.md) — 0 accessible
+- [Pose / control](pose.md) — 1 accessible
 - [unverified](unverified.md) — 8
