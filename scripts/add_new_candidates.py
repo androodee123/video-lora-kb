@@ -91,7 +91,7 @@ def main():
                         "example_prompts": examples[:2], "low_signal": (st.get("downloadCount") or 0) < 100 and (st.get("thumbsUpCount") or 0) < 1,
                         "compatibility": B.compatibility_notes(fam, bases, model.get("name") or "", desc, fname, B.high_low_files(vers), i2v),
                     }
-                    reason = S.minor_reason(model.get("name"), " ".join(B.tag_names(model.get("tags"))), " ".join(trained)) or S.hard_reason(desc[:1500])
+                    reason = S.minor_reason(model.get("name"), " ".join(B.tag_names(model.get("tags"))), " ".join(trained))  # description-only terms are flagged, not excluded
                     if reason:
                         rec["exclude_reason"] = reason
                         excl_rows.append(rec)

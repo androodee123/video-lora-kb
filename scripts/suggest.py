@@ -178,6 +178,10 @@ def primary_category(o, sem_hits):
         return max(sem_hits, key=lambda c: (len(sem_hits[c]) * CAT_W.get(c, 1)))
     return {"style": "style", "clothing": "clothing", "pose": "pose", "anatomy": "anatomy", "motion": "motion"}.get(role, "concept")
 
+def nsfwish(o):
+    """NSFW or anatomy LoRA: never stacked with a minor_coded one."""
+    return bool(o.get("nsfw") or o.get("role") in ("act", "anatomy") or (o.get("semantic") or {}).get("anatomy"))
+
 def stack_notes(picks, used_rows):
     notes = []
     roles = Counter(o.get("role") for o in picks + used_rows)
@@ -235,6 +239,12 @@ def main():
         pool = [o for o in pool if o.get("own")]
     used_names = {u[0].lower() for u in used}
     used_rows = [o for o in rows if o["slug"].lower() in used_names]
+    # safety: minor_coded LoRAs (minor/school-age characters, age sliders) are SFW-only
+    nsfw_prompt = S.is_nsfw(q["semantic"], text) or any(nsfwish(o) for o in used_rows)
+    if nsfw_prompt:
+        pool = [o for o in pool if not o.get("minor_coded")]
+    elif any(o.get("minor_coded") for o in used_rows):
+        pool = [o for o in pool if not nsfwish(o)]
     fields, idf, tidf = build_index(pool)
     scored = []
     for o, f in zip(pool, fields):
@@ -284,7 +294,8 @@ def main():
                       "weight": w, "weight_note": wsrc, "own": o.get("own"), "creator": o.get("creator"),
                       "availability": o.get("availability"), "source_url": o.get("source_url"),
                       "other_versions": other_versions.get(o.get("group") or o["slug"], 0),
-                      "near_family": bool(fams_near and o["family"] in fams_near)})
+                      "near_family": bool(fams_near and o["family"] in fams_near),
+                      "minor_coded": bool(o.get("minor_coded")), "nsfw": nsfwish(o)})
     notes = stack_notes([o for _, o, _, _ in top[:6]], used_rows)
     if IS_VIDEO:
         slugs = {o["slug"].lower(): o["slug"] for o in rows}
@@ -297,7 +308,9 @@ def main():
                         p["pair"] = slugs[partner]
                         notes.append(f"Pair <{p['slug']}> (high/low-noise) with <{slugs[partner]}>.")
                     break
-    result = {"prompt_semantic": q["semantic"], "already_in_prompt": [u[0] for u in used], "families": fams or "all",
+    if any(p["minor_coded"] for p in picks):
+        notes.append("Flagged minor_coded picks are SFW-only: never pair them with NSFW/anatomy LoRAs or explicit wording.")
+    result = {"prompt_semantic": q["semantic"], "nsfw_prompt": nsfw_prompt, "already_in_prompt": [u[0] for u in used], "families": fams or "all",
               "suggestions": picks, "by_category": {c: [o["slug"] for _, o, _ in v] for c, v in by_cat.items()}, "stack_notes": notes}
     if a.json:
         print(json.dumps(result, ensure_ascii=False, indent=1))
@@ -305,6 +318,8 @@ def main():
     print("Prompt reads as: " + ("; ".join(f"{S.CATEGORY_LABEL[c]}: {', '.join(v)}" for c, v in q["semantic"].items()) or "(no category words found)"))
     if used:
         print("Already in prompt: " + ", ".join(f"{n}:{w or '?'}" for n, w in used))
+    if nsfw_prompt:
+        print("NSFW prompt: minor-coded LoRAs are excluded.")
     print(f"Families: {', '.join(fams) if fams else 'all'}" + (f" (+ near: {', '.join(fams_near)}, down-weighted)" if fams_near else "") + "\n")
     for i, p in enumerate(picks, 1):
         flags = []
@@ -314,6 +329,8 @@ def main():
         flags.append("on Graydient" if av.get("graydient") else "NOT on Graydient (" + "/".join(k for k in ("hf", "raid") if av.get(k)) + ")")
         if p["near_family"]:
             flags.append(f"{p['family']} LoRA on another SDXL family: may degrade")
+        if p["minor_coded"]:
+            flags.append("MINOR-CODED: SFW only")
         if p["other_versions"]:
             flags.append(f"+{p['other_versions']} other versions")
         trig = ", ".join(p["triggers"][:6]) + (" …" if len(p["triggers"]) > 6 else "") if p["triggers"] else "no trigger (registered by slug; use the <slug> only)"
@@ -347,6 +364,8 @@ def main():
         if p["role"] == "identity" and "name match" not in p["why"]:
             continue
         if p["near_family"] or not (p["availability"] or {}).get("graydient"):
+            continue
+        if (p["minor_coded"] and any(c["nsfw"] for c in chosen)) or (p["nsfw"] and any(c["minor_coded"] for c in chosen)):
             continue
         roles[p["role"]] += 1
         chosen.append(p)

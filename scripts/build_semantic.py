@@ -314,26 +314,21 @@ def main():
             vid = int(vid) if vid else None
         except (TypeError, ValueError):
             mid = vid = None
+        flag = None
         if mid in ALLOW_MODEL_IDS:
             pass
-        elif mid in bad_models or vid in bad_versions:
-            dropped["safety-skip id"] += 1; continue
         elif mid in excl_models or k in excl_slugs or any(key(Path(h).stem) in excl_slugs for h in r.get("hf_files") or []):
-            dropped["KB excluded (minor-coded / not a LoRA)"] += 1; continue
+            dropped["KB excluded (explicit minor term / forbidden identity / not a LoRA)"] += 1; continue
+        elif mid in bad_models or vid in bad_versions:
+            flag = "safety-skipped in an ingest review"
         epoch = k in epoch_slugs or any(key(Path(h).stem) in epoch_slugs for h in r.get("hf_files") or []) or bool(EPOCH_RE.search(k))
         if epoch and not (r.get("own") or key(r.get("creator")) in OWN_CREATORS) and k in epoch_slugs:
             dropped["intermediate epoch (final kept)"] += 1; continue
-        why = S.blocked(r["slug"], r.get("name"), " ".join(r.get("triggers") or []), " ".join(r.get("civit_tags") or []))
-        if not why:
-            why = S.blocked_character(r["slug"], r.get("name"), " ".join(r.get("triggers") or []), " ".join(r.get("civit_tags") or []))
-            if why:
-                dropped["minor-coded character/franchise"] += 1
-                continue
-        if not why:
-            hard = re.search(r"\b(loli\w*|shota\w*|underage|preteen|child|kids?|(1[0-7]|[1-9]) ?years? old)\b", S.norm_text(r.get("desc") or "")[:600])
-            why = f"description: {hard.group(0)}" if hard else None
-        if why and mid not in ALLOW_MODEL_IDS:
-            dropped["minor/school-coded text"] += 1; continue
+        texts = (r["slug"], r.get("name"), " ".join(r.get("triggers") or []), " ".join(r.get("civit_tags") or []))
+        if mid not in ALLOW_MODEL_IDS:
+            if S.blocked(*texts):
+                dropped["explicit minor term / forbidden identity in name/triggers/tags"] += 1; continue
+            flag = flag or S.minor_flag(texts, r.get("desc") or "")
         trig = r.get("triggers") or []
         # a "trigger" identical to the slug is the Graydient no-trigger convention, not a source trigger
         trig = [t for t in trig if squash(t) != squash(r["slug"])]  # slug-as-token = Graydient no-trigger convention
@@ -362,6 +357,10 @@ def main():
             "desc": re.sub(r"\s+", " ", (r.get("desc") or "")).strip()[:220],
             "downloads": r.get("downloads") or 0, "reliability": r.get("reliability"),
         }
+        o["nsfw"] = S.is_nsfw(sem, " ".join(str(x) for x in texts if x)) or kind in ("act", "anatomy")
+        if flag:
+            o["minor_coded"] = True
+            o["minor_reason"] = flag
         if epoch:
             o["epoch"] = True
         if r.get("i2v_t2v"):
@@ -411,7 +410,10 @@ def write_summary(out, dropped):
     cat = Counter(c for o in out for c in o["semantic"])
     L = ["# Semantic LoRA catalog summary", "",
          f"Built {datetime.now().strftime('%Y-%m-%d')} by `scripts/build_semantic.py` from `data/loras.jsonl`, the AIOps library snapshot and the ingest plans. "
-         "Adults only: safety-skipped CivitAI ids and minor/school-coded names are excluded.", "",
+         f"Only LoRAs with an explicit loli/shota/underage-type term in their own name, triggers or tags (or a forbidden identity) are excluded. "
+         f"{sum(1 for o in out if o.get('minor_coded'))} entries are kept but flagged `minor_coded` (canonically minor/school-age characters, age sliders/de-aging, "
+         "ingest-review safety skips, or a child term in the description): the matcher offers them only for SFW prompts and never stacks them with NSFW/anatomy LoRAs. "
+         f"{sum(1 for o in out if o.get('nsfw'))} entries are marked `nsfw`.", "",
          "| family | entries | on Graydient | own (onemoreepoch) | no trigger | with semantic tags |", "|---|---:|---:|---:|---:|---:|"]
     for f in FAMILIES:
         if fam[f]:
@@ -461,13 +463,13 @@ def _texts(r):
     return [str(r.get("slug") or ""), str(r.get("name") or r.get("civitai_name") or ""), str(r.get("purpose") or ""),
             " ".join(map(str, trig)), " ".join(tags)]
 
-def prune_kb():
-    """Adults-only guard for the KB catalogs themselves: move safety-skipped / minor-coded rows out of
-    data/loras.jsonl and data/candidates.jsonl into data/excluded.jsonl (with the reason)."""
+def flag_kb():
+    """Flag (never remove) minor-coded rows in data/loras.jsonl and data/candidates.jsonl: sets minor_coded/minor_reason.
+    Only explicit loli/shota/underage-type terms in name/triggers/tags or a forbidden identity are moved to excluded.jsonl."""
     safety = json.loads((LOCAL / "safety_skips.json").read_text()) if (LOCAL / "safety_skips.json").exists() else {}
     bad_models = set(safety.get("model_ids", [])) - ALLOW_MODEL_IDS
     bad_versions = set(safety.get("version_ids", []))
-    moved = Counter()
+    flagged, moved = Counter(), Counter()
     excl_path = DATA / "excluded.jsonl"
     excl = excl_path.read_text(encoding="utf-8").rstrip("\n").split("\n") if excl_path.exists() else []
     for name in ("loras.jsonl", "candidates.jsonl"):
@@ -486,26 +488,29 @@ def prune_kb():
                 vid = int(vid) if vid else None
             except (TypeError, ValueError):
                 mid = vid = None
-            why = None
+            r.pop("minor_coded", None); r.pop("minor_reason", None)
             if mid not in ALLOW_MODEL_IDS:
-                if mid in bad_models or vid in bad_versions:
-                    why = "safety-skipped in an ingest review (adults only)"
-                else:
-                    t = _texts(r)
-                    why = S.blocked_character(*t) or S.blocked(*t)
-            if why:
-                moved[name] += 1
-                e = {"slug": r.get("slug") or r.get("name"), "family": r.get("family"), "civitai_model_id": mid, "reason": why}
-                if IS_VIDEO:
-                    e["exclude_reason"] = why
-                excl.append(json.dumps(e, ensure_ascii=False))
-            else:
-                keep.append(line)
+                t = _texts(r)
+                hard = S.blocked(*t)
+                if hard:
+                    moved[name] += 1
+                    e = {"slug": r.get("slug") or r.get("name"), "family": r.get("family"), "civitai_model_id": mid, "reason": hard}
+                    if IS_VIDEO:
+                        e["exclude_reason"] = hard
+                    excl.append(json.dumps(e, ensure_ascii=False))
+                    continue
+                why = ("safety-skipped in an ingest review" if (mid in bad_models or vid in bad_versions) else None) or \
+                      S.minor_flag(t, r.get("description") or r.get("desc") or "")
+                if why:
+                    r["minor_coded"] = True
+                    r["minor_reason"] = why
+                    flagged[name] += 1
+            keep.append(json.dumps(r, ensure_ascii=False))
         p.write_text("\n".join(keep) + "\n", encoding="utf-8")
     excl_path.write_text("\n".join(l for l in excl if l.strip()) + "\n", encoding="utf-8")
-    print(json.dumps({"pruned": moved}))
+    print(json.dumps({"flagged_minor_coded": flagged, "hard_excluded": moved}))
 
 if __name__ == "__main__":
-    if "--prune-kb" in sys.argv:
-        prune_kb()
+    if "--flag-kb" in sys.argv or "--prune-kb" in sys.argv:
+        flag_kb()
     main()

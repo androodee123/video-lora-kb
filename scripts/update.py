@@ -116,9 +116,9 @@ def run(a, clock, summary, today):
             raise SystemExit("could not list one of the Graydient HF repos; refusing to rematch from cache (no changes kept)")
         m = re.search(r"HF weights reviewed: (\d+)", r.stdout)
         summary["hf_weights_reviewed"] = int(m.group(1)) if m else None
-    with clock.step("adults-only prune + semantic catalog (prompt matcher)"):
-        # moves safety-skipped / minor-coded rows to excluded.jsonl, then tags every Graydient LoRA for scripts/suggest.py
-        r = U.sh([PY, "scripts/build_semantic.py", "--prune-kb"], ROOT, check=False)
+    with clock.step("minor-coded flags + semantic catalog (prompt matcher)"):
+        # flags minor-coded rows (SFW-only), excludes only explicit loli/shota/underage terms, then tags every Graydient LoRA for scripts/suggest.py
+        r = U.sh([PY, "scripts/build_semantic.py", "--flag-kb"], ROOT, check=False)
         if r.returncode != 0:
             raise SystemExit("build_semantic failed: " + (r.stderr or "")[-300:])
         for line in r.stdout.strip().splitlines():

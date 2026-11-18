@@ -51,9 +51,9 @@ Python 3 with `huggingface_hub` (HF credentials come from the machine's normal H
 
 ## Semantic catalog and prompt matcher
 
-`scripts/update.sh` now also runs `scripts/build_semantic.py --prune-kb` right after the catalog rebuild, then `scripts/matcher_examples.py`:
+`scripts/update.sh` now also runs `scripts/build_semantic.py --flag-kb` right after the catalog rebuild, then `scripts/matcher_examples.py`:
 
-1. **Adults-only prune:** rows in `data/loras.jsonl` / `data/candidates.jsonl` whose CivitAI model/version id was safety-skipped in an ingest review (`data/local/safety_skips.json`), or whose name/triggers/tags are minor- or school-coded (`scripts/semantic.py`: terms, canonically-minor characters, student-cast franchises), move to `data/excluded.jsonl` with the reason.
+1. **Minor-coded flags:** nothing is removed for being minor-coded. Rows in `data/loras.jsonl` / `data/candidates.jsonl` that are canonically minor/school-age characters (named individually in `scripts/semantic.py`, no franchise rules), age-slider/de-aging LoRAs, ingest-review safety skips (`data/local/safety_skips.json`), or that say child/minor in their own text get `minor_coded: true` plus `minor_reason`. Only an explicit loli/shota/underage/preteen/toddler term in a LoRA's own name, triggers or tags, or a forbidden identity, moves it to `data/excluded.jsonl`. `scripts/suggest.py` never offers `minor_coded` LoRAs for NSFW prompts (explicit/nudity wording or NSFW/anatomy LoRAs already in the stack) and never stacks them with NSFW or anatomy LoRAs.
 2. **`data/semantic_catalog.jsonl`:** one row per LoRA we have on Graydient (plus HF/RAID-only ones, flagged), merged from `data/loras.jsonl`, the AIOps library snapshot and the ingest-plan snapshot. Fields: slug, family, base_model, name, triggers (empty = no trigger; registered by slug), weight + source, source_url, CivitAI ids, creator (`onemoreepoch` = Andrew's own), ingest_date (plan date or AIOps `ingested_at`; approximate), availability {graydient, hf, raid}, role, and `semantic` tags in subject / concept / clothing / expression / object / pose / style / anatomy (+ motion for video), derived from names, triggers, CivitAI tags and descriptions. Summary: `data/semantic_summary.md`.
 3. **`guides/prompt-matching.md`:** worked `scripts/suggest.py` examples regenerated on the current catalog.
 
@@ -73,4 +73,4 @@ python3 scripts/export_local_meta.py \
 python3 scripts/export_local_meta.py --batches /workspace/ingest-batches --out data/local
 ```
 
-Then `python3 scripts/build_semantic.py --prune-kb && python3 scripts/matcher_examples.py`, or just run `bash scripts/update.sh`. The SQLite DB is opened with `mode=ro`; nothing is downloaded or ingested.
+Then `python3 scripts/build_semantic.py --flag-kb && python3 scripts/matcher_examples.py`, or just run `bash scripts/update.sh`. The SQLite DB is opened with `mode=ro`; nothing is downloaded or ingested.

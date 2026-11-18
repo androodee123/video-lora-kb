@@ -323,22 +323,24 @@ def tag_text(*parts, categories=None) -> dict:
             out[c] = hits
     return out
 
-# -------- safety (adults only) --------
-MINOR_RE = re.compile(r"\b(loli\w*|shota\w*|child\w*|kids?|toddler|underage|under ?age|minor|preteen|pre ?teen|teen\w*|tween|jk|jc|elementary|middle ?school|little ?girl|little ?boy|young ?girl|young ?boy|baby ?face|age ?(slider|difference|regress\w*)|lolita|school ?girl|schoolgirl|school ?boy|school ?uniform|serafuku|seifuku|gakuen|high ?school|highschool|student|kindergarten|randoseru|gym uniform|buruma|(1[0-7]|[1-9]) ?(years? old|yo)|cub|smol|kid)\b", re.I)
+# -------- safety --------
+# Hard exclusions (never catalogued): explicit loli/shota/underage terms in a LoRA's own name, triggers or tags, and the
+# forbidden real-person identities. Everything else that is minor-coded is KEPT and flagged `minor_coded` (see minor_flag);
+# suggest.py never offers flagged LoRAs for NSFW prompts and never stacks them with NSFW or anatomy LoRAs.
+HARD_RE = re.compile(r"\b(loli\w*|shota\w*|toddler|underage|under ?age|preteen|pre ?teen)\b", re.I)
 FORBIDDEN_ID_RE = re.compile(r"youngandrew|handyandy|andrewyoung|andy\.?young", re.I)
-# Adult-coded words that also contain blocked substrings are fine (e.g. "teenage mutant" is not handled; we stay conservative).
-SAFE_ALLOW = re.compile(r"\b(student council president \(adult\)|teacher)\b", re.I)
 
 def blocked(*texts) -> str | None:
+    """Hard exclusion reason for name/trigger/tag text, else None."""
     for t in texts:
         if not t:
             continue
         t2 = norm_text(t)
         if FORBIDDEN_ID_RE.search(t2):
             return "forbidden identity"
-        m = MINOR_RE.search(t2)
+        m = HARD_RE.search(t2)
         if m:
-            return f"minor/school-coded term: {m.group(0)}"
+            return f"explicit minor term in name/tags: {m.group(0)}"
     return None
 
 # -------- tokens for lexical matching --------
@@ -374,18 +376,42 @@ def weight_from_text(desc: str):
             return None
     return None
 
-# Canonically minor / school-age characters and student-cast franchises that show up in LoRA names.
-# Conservative: the whole franchise is excluded unless the name matches ADULT_ALLOW (clearly adult characters).
-MINOR_FRANCHISE_RE = re.compile(r"\b(blue archive|my hero academia|boku no hero|love live|idolm.?ster|bang ?dream|k ?on!?|lucky star|haruhi|toradora|kaguya sama|komi (san|can)|oregairu|high ?school dxd|highschool of the dead|teen titans|sailor (moon|mercury|mars|jupiter|venus|chibi|senshi)|bishoujo senshi|madoka|magica|little witch academia|kill la kill|darling in the franxx|evangelion|eva 0[12]|pokemon|pok.mon|amphibia|owl house|star vs|ben 10|kim possible|totally spies|danny phantom|spy x family|oshi no ko|bocchi|lycoris|precure|pretty cure|azumanga|nichijou|yuru|non non biyori|my dress up darling|sono bisque|rascal does not dream|bunny girl senpai|horimiya|nisekoi|quintessential quintuplets|5 ?toubun|date a live|to love ru|prison school|shokugeki|food wars|assassination classroom|haikyuu|chainsaw man denji|mob psycho|atelier|the idolmaster|uma musume|kantai|kancolle|genshin.*(klee|qiqi|nahida|sayu|diona|yaoyao|dori)|honkai.*(bailu|hook|clara|bronya)|fire emblem three houses|persona [345]|danganronpa|steins gate|clannad|the melancholy|re ?zero.*(ram|rem|emilia)|konosuba.*megumin|frieren.*fern|dragon ball (og|original)|kid buu|chi ?chi young|videl)\b", re.I)
-MINOR_CHARACTER_RE = re.compile(r"\b(asuka langley|souryuu|soryu|rei ayanami|ayanami rei|shinji|mari makinami|lillie|nemona|iono|fern frieren|frieren fern|fern sousou|marin kitagawa|rias gremory|akeno|koneko|asia argento|xenovia|nezuko|kanao|shinobu kocho|mitsuri|mikasa|annie leonhart|historia|sasha braus|hinata hyuga|hinata hyuuga|sakura haruno|ino yamanaka|tenten|temari|uraraka|ochako|himiko toga|toga himiko|momo yaoyorozu|jirou|tsuyu|mina ashido|nobara|maki zenin|makima young|anya forger|ruby hoshino|kana arima|akane kurokawa|chisato|takina|megumin|aqua konosuba|darkness konosuba|ram rezero|rem rezero|emilia rezero|zero two|ichigo franxx|ryuko matoi|satsuki kiryuin|mako mankanshoku|nui harime|yuffie|katara|toph|azula|ty lee|mai avatar|zelda (oot|ocarina|skyward|botw|totk|twilight)|raven teen titans|starfire|jinx teen titans|serial experiments lain|lain iwakura|meg griffin|summer smith|daphne blake|velma|total drama|gwen tennyson|kim possible|violet parr|sam manson|star butterfly|marco diaz|luz noceda|amity|anne boonchuy|marcy|sasha waybright|tinker ?bell|civchan|bulma (og|young|teen|dragon ball original)|tron bonne|kirara onizaki|sophie neuenmuller|ryza|reisalin|usagi tsukino|ami mizuno|rei hino|makoto kino|minako aino|aino minako|chibiusa|madoka kaname|homura akemi|sayaka miki|kyoko sakura|mami tomoe|nagisa momoe|haruhi suzumiya|mikuru|yuki nagato|hatsune miku|kagamine|rin tohsaka|sakura matou|illyasviel|illya|chloe von|miyu edelfelt|klee|qiqi|nahida|sayu|diona|yaoyao|bailu|hook honkai|bronya zaychik|kiana kaslana|yae sakura|chika fujiwara|kaguya shinomiya|ai hayasaka|komi shouko|power chainsaw young|shiroko|hoshino blue|aru blue|mika misono|hina sorasaki|yuuka hayase|asuna ichinose|nonomi|serika kuromi|hifumi|azusa shirasu|hanako urawa)\b", re.I)
-ADULT_ALLOW = re.compile(r"\b(misato|ritsuko|yui ikari|naoko akagi|cynthia|jessie|nurse joy|officer jenny|lusamine|juniper|delia|tsunade|kushina|kurenai|anko|mei terumi|shizune|midnight|mt\.? ?lady|mount lady|nemuri|rumi usagiyama|mirko|yor forger|makima|himeno|quanxi|frieren|ubel|bulma (adult|z|super|older)|chichi adult|android 18|android 21|caulifla|cheelai|zangya|nico robin|boa hancock|tashigi|reiju|alvida)\b", re.I)
+# Specific characters that are canonically under 18 or school-age/students (named individually; no franchise rules).
+# Kept in the catalogs for SFW use and flagged `minor_coded`.
+MINOR_CHARACTER_RE = re.compile(r"\b(asuka langley|souryuu|soryu|rei ayanami|ayanami rei|shinji|mari makinami|lillie|nemona|iono|fern frieren|frieren fern|fern sousou|marin kitagawa|rias gremory|akeno|koneko|asia argento|xenovia|nezuko|kanao|mikasa|annie leonhart|historia reiss|sasha braus|hinata hyuga|hinata hyuuga|sakura haruno|ino yamanaka|tenten|temari|uraraka|ochako|himiko toga|toga himiko|momo yaoyorozu|kyoka jirou|jirou kyouka|tsuyu asui|mina ashido|nobara|maki zenin|makima young|anya forger|ruby hoshino|kana arima|akane kurokawa|chisato nishikigi|takina inoue|megumin|ram rezero|rem rezero|zero two|ichigo franxx|ryuko matoi|satsuki kiryuin|mako mankanshoku|nui harime|yuffie|katara|toph|azula|ty lee|mai avatar|zelda (oot|ocarina|skyward|botw|totk)|raven teen titans|starfire teen titans|teen titans starfire|jinx teen titans|serial experiments lain|lain iwakura|meg griffin|summer smith|daphne blake|velma|courtney total drama|gwen tennyson|kim possible|violet parr|sam manson|star butterfly|marco diaz|luz noceda|amity blight|anne boonchuy|marcy wu|sasha waybright|tinker ?bell|civchan|bulma (og|young|teen|dragon ball original)|tron bonne|kirara onizaki|sophie neuenmuller|ryza|reisalin|usagi tsukino|ami mizuno|rei hino|makoto kino|minako aino|aino minako|chibiusa|madoka kaname|homura akemi|sayaka miki|kyoko sakura|mami tomoe|nagisa momoe|haruhi suzumiya|mikuru|yuki nagato|hatsune miku|kagamine|rin tohsaka|sakura matou|illyasviel|illya|chloe von|miyu edelfelt|klee|qiqi|nahida|sayu|diona|yaoyao|bailu|hook honkai|bronya zaychik|kiana kaslana|chika fujiwara|kaguya shinomiya|ai hayasaka|komi shouko|power chainsaw young|shiroko|hoshino blue|aru blue|mika misono|hina sorasaki|yuuka hayase|asuna ichinose|nonomi|serika kuromi|hifumi ajima|azusa shirasu|hanako urawa)\b", re.I)
+AGE_RE = re.compile(r"\b(age ?slider|age ?(adjust\w*|tweak\w*|changer|control)|aging slider|de ?ag(e|ed|ing)|younger (version|self|look\w*)|age ?regress\w*|reverse aging|rejuvenat\w*)\b", re.I)
+EXPLICIT_NAME_RE = re.compile(r"\b(child|children|kids?|minor|minors|underage)\b", re.I)
+EXPLICIT_DESC_RE = re.compile(r"\b(loli\w*|shota\w*|child|children|underage|preteen)\b", re.I)
 
-def blocked_character(*texts) -> str | None:
-    t = norm_text(" | ".join(x for x in texts if x))
-    m = MINOR_CHARACTER_RE.search(t)
+POKEMON_KID_RE = re.compile(r"\b(misty|dawn|serena|may|iris|bonnie|lana|mallow|lillie|gloria|marnie|nemona|juliana|penny|ash ketchum|hilda|rosa|selene)\W+(\w+\W+)?pok[eé]mon|pok[eé]mon\W+(\w+\W+)?(misty|dawn|serena|may|iris|bonnie|lana|mallow|lillie|gloria|marnie|nemona|juliana|penny|ash ketchum|hilda|rosa|selene)\b", re.I)
+
+def minor_flag(name_texts, desc: str = "") -> str | None:
+    """Reason to flag an entry minor_coded (kept, SFW-only in suggest.py), else None."""
+    t = norm_text(" | ".join(x for x in name_texts if x))
+    m = MINOR_CHARACTER_RE.search(t) or POKEMON_KID_RE.search(t)
     if m:
-        return f"minor-coded character: {m.group(0)}"
-    if ADULT_ALLOW.search(t):
-        return None  # clearly adult character inside an otherwise student-cast franchise
-    m = MINOR_FRANCHISE_RE.search(t)
-    return f"minor-coded franchise: {m.group(0)}" if m else None
+        return f"canonically minor/school-age character: {m.group(0)}"
+    m = AGE_RE.search(t)
+    if m:
+        return f"age slider / de-aging: {m.group(0)}"
+    m = EXPLICIT_NAME_RE.search(t)
+    if m:
+        return f"name/tags say: {m.group(0)}"
+    m = re.search(r"\blolita\b", t)
+    if m:
+        return "lolita (fashion term, but ambiguous: SFW only)"
+    m = EXPLICIT_DESC_RE.search(norm_text(desc or "")[:800])
+    if m:
+        return f"description says: {m.group(0)}"
+    return None
+
+NSFW_CONCEPTS = {"sex", "oral", "anal", "handjob", "titjob", "footjob", "masturbation", "cumshot", "squirt", "orgasm", "bdsm",
+                 "groupsex", "lesbian", "gay", "nudity", "exhibitionism", "toys", "condom", "chastity", "lactation", "watersports",
+                 "worship", "humiliation", "aftermath", "tentacles"}
+NSFW_ANATOMY = {"nipples", "penis", "testicles", "vulva", "anus", "pubic hair", "fluids"}
+NSFW_POSE = {"missionary", "cowgirl", "doggystyle", "standing sex", "spooning", "69", "face sitting", "piledriver"}
+NSFW_WORDS = re.compile(r"\b(nsfw|explicit|nude|naked|nudity|topless|bottomless|porn\w*|hentai|sex|sexual|xxx|erotic|lewd|uncensored|fuck\w*|cum\w*|pussy|penis|cock|dick|nipples?|vagina|vulva|anus|orgasm|masturbat\w*|blowjob|fellatio|cunnilingus|creampie|bukkake|bdsm|bondage)\b", re.I)
+
+def is_nsfw(sem: dict, text: str = "") -> bool:
+    return bool(set(sem.get("concept", [])) & NSFW_CONCEPTS or set(sem.get("anatomy", [])) & NSFW_ANATOMY
+                or set(sem.get("pose", [])) & NSFW_POSE or NSFW_WORDS.search(norm_text(text)))

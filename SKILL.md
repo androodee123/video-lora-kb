@@ -75,6 +75,7 @@ Use this whenever someone hands you a draft video prompt, a clip to improve, or 
 3. **Or consult the catalog directly:** `data/semantic_catalog.jsonl` (one row per Graydient slug: `slug, family, base_model, name, triggers, no_trigger, weight, weight_source, source_url, creator, own, ingest_date, availability{graydient,hf,raid}, role, i2v_t2v, semantic{…, motion}`), e.g. `jq -c 'select(.family=="H3" and (.semantic.motion//[]|index("camera orbit")))' data/semantic_catalog.jsonl`. Counts: `data/semantic_summary.md`.
 4. **Propose additions, don't dump the list.** One identity per person, one style/look, one motion-quality or realism helper, then only the act/motion/camera helpers the clip needs; speed/turbo LoRAs only on the matching fast graph; pair Wan 2.2 high/low files. Skip picks whose *why* says `adds: …` unless wanted. Write `<slug:weight>` then the source triggers in the prompt; no-trigger LoRAs go in by slug only. **Never invent a trigger or a strength.**
 5. Explain each addition in one line and test one LoRA at a time.
+6. **Minor-coded LoRAs are SFW-only.** Entries flagged `minor_coded` (named minor/school-age characters, age sliders/de-aging) stay in the catalog for SFW renders; for NSFW prompts the matcher hides them, and never stack one with an NSFW or anatomy LoRA.
 
 Worked examples with real slugs: `guides/prompt-matching.md`. Rebuilt weekly by `scripts/update.sh` (`scripts/build_semantic.py`); `scripts/check_new.py` reports new/untagged LoRAs.
 

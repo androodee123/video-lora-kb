@@ -2,8 +2,8 @@
 from __future__ import annotations
 import re
 
-MINOR_RE = re.compile(r"\b(loli\w*|shota\w*|child\w*|kids?|toddler|underage|under[- ]age|minor|preteen|pre[- ]teen|teen\w*|tween|jk|jc|elementary|middle[- ]school|little[- ]girl|little[- ]boy|young[- ]girl|baby[- ]?face|age[- ]?(slider|difference|regress\w*)|lolita)\b", re.I)
-HARD_RE = re.compile(r"\b(loli\w*|shota\w*|underage|under[- ]age|preteen|pre[- ]teen)\b", re.I)
+MINOR_RE = re.compile(r"\b(loli(?!ta)\w*|shota(?!ro)\w*|toddler|underage|under[- ]age|preteen|pre[- ]teen)\b", re.I)  # hard exclusions only; everything else is flagged minor_coded by semantic.py
+HARD_RE = re.compile(r"\b(loli(?!ta)\w*|shota(?!ro)\w*|underage|under[- ]age|preteen|pre[- ]teen)\b", re.I)
 FORBIDDEN_ID_RE = re.compile(r"youngandrew|handyandy|andrewyoung|andy\.?young", re.I)
 
 def minor_reason(*texts):

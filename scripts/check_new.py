@@ -137,8 +137,8 @@ def main():
                     continue
                 tw = " ".join(w for v in (it.get("modelVersions") or []) for w in (v.get("trainedWords") or []))
                 tg = " ".join(t if isinstance(t, str) else str(t.get("name", "")) for t in (it.get("tags") or []))
-                if S.blocked_character(it.get("name"), tg, tw) or S.blocked(it.get("name"), tg, tw):
-                    continue  # adults only
+                if S.blocked(it.get("name"), tg, tw):
+                    continue  # explicit loli/shota/underage terms only; minor-coded characters are flagged, not dropped
                 names = [
                     (f.get("name") or "").lower()
                     for v in (it.get("modelVersions") or [])
