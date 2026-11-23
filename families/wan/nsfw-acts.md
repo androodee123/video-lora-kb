@@ -1,6 +1,6 @@
 # Wan: NSFW acts and anatomy
 
-51 available Graydient LoRAs (50 already on Graydient, 1 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+53 available Graydient LoRAs (52 already on Graydient, 1 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -33,7 +33,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `close-up-pussy-and-anus-pov-hands-spreading-it-wide-open-wan2-2-i2v-14b-buukake` | `A white slime-like substance splashes over her. The camera zooms in on her pussy. The camera's POV hands spread her pussy and asshole wide open. Her pussy is stretched very wide. Her asshole is stretched very wide too. We get a detailed look inside her pussy and asshole.` | not stated | I2V | Close up pussy and anus, POV hands spreading it wide open.  (WAN2.2 I2V 14B) +Buukake | 4,604 | on Graydient, verified | [CivitAI](https://civitai.com/models/2426014?modelVersionId=2727687), [HF](https://huggingface.co/Octavian123/civit2/blob/main/close-up-pussy-and-anus-pov-hands-spreadin-wan.safetensors) |
 | `super-close-up-pussy-and-anus-wan2-2-i2v-14b-2-spread-pussy-and-anus` | `She forcefully pushes the viewer down. She straddles the viewer. She presses her crotch against the viewer. She presses her pussy in front of the viewer's eyes. Her clitoris is very large. She spreads her pussy wide open. She spreads her anus wide open. Her pussy and anus are shown in close-up.` | not stated | I2V | Super Close up pussy and anus (WAN2.2 I2V 14B) 2 spread pussy and anus. | 4,309 | on Graydient, verified | [CivitAI](https://civitai.com/models/2533538?modelVersionId=2847348), [HF](https://huggingface.co/Octavian123/civit2/blob/main/super-close-up-pussy-and-anus-wan2-2-i2v-1-wan-2.safetensors) |
 | `reverse-cowgirl-trans-wan` | `A beautiful transsexual woman with a penis is having anal sex with a man`, `A beautiful transsexual woman with a penis is having anal sex with a man, she is riding his penis while looking at the viewer` | not stated | T2V | Reverse Cowgirl Trans | 4,137 | on Graydient, verified | [CivitAI](https://civitai.com/models/1927612?modelVersionId=2181700), [HF](https://huggingface.co/Octavian123/civit/blob/main/reverse-cowgirl-trans-wan.safetensors) |
-| `summon-multiple-boys-and-penises-wan2-2-i2v-14b-before-gang-bang` | `She is looking at the camera. camera quickly move above her head. She looks up at the camera and smiles. Naked 5 boys surround her. She's smile surrounded by sea of ​​erect 5 large penises.` | not stated | I2V | Summon multiple boys and penises (WAN2.2 I2V 14B) Before Gang Bang | 4,078 | on Graydient, verified | [CivitAI](https://civitai.com/models/2431507?modelVersionId=2734116), [HF](https://huggingface.co/Octavian123/civit2/blob/main/summon-multiple-boys-and-penises-wan2-2-i2-wan.safetensors) |
+| `summon-multiple-boys-and-penises-wan2-2-i2v-14b-before-gang-bang` | `She is looking at the camera. camera quickly move above her head. She looks up at the camera and smiles. Naked 5 boys surround her. She's smile surrounded by sea of ​​erect 5 large penises.` | not stated | I2V | Summon multiple boys and penises (WAN2.2 I2V 14B) Before Gang Bang | 4,078 | on Graydient, verified | [CivitAI](https://civitai.com/models/2431507?modelVersionId=2734116), [HF](https://huggingface.co/Octavian123/civit2/blob/main/summon-multiple-boys-and-penises-wan2-2-i2-wan.safetensors), [Graydient HF](https://huggingface.co/Octavian123/civit2/blob/main/summon-multiple-boys-and-penises-wan2-2-i2-v3947-wan.safetensors) |
 | `ultra-super-close-up-pussy-and-anus-wan2-2-i2v-14b-pov-cunnilingus` | `Her legs spread, giving an extreme close-up of her pussy and anus. Her pussy and anus are spread wide open. Her pussy and anus are shown in very close-up detail. She is looking at viewers with lewd smile.` | not stated | I2V | Ultra Super Close up pussy and anus (WAN2.2 I2V 14B) POV Cunnilingus | 3,557 | on Graydient, verified | [CivitAI](https://civitai.com/models/2591072?modelVersionId=2910728), [HF](https://huggingface.co/Octavian123/civit2/blob/main/ultra-super-close-up-pussy-and-anus-wan2-2-wan-2.safetensors) |
 | `extreme-ejaculation-wan` | `A woman receives an extreme ejaculation load to her face. A tight low-angle close-up captures the ex`, `A woman receives an extreme ejaculation load to her face. A tight low-angle close-up captures the explosive high-velocity release from the massive veiny cock, thick ropes of hot cum erupting in powerful arcing streams that splatter heavily across her upturned face, viscous fluid compressing and sliding in weighty inertia-driven trails, eyes squeeze shut in overwhelmed intensity` | not stated | T2V | Extreme Ejaculation | 3,352 | on Graydient, verified | [CivitAI](https://civitai.com/models/2680222?modelVersionId=3009502), [HF](https://huggingface.co/Octavian123/civit/blob/main/extreme-ejaculation-wan.safetensors) |
 | `cum-on-figureexcessive-wan21` | `cum-on-figureexcessive-wan21`, `The penis repeatedly ejaculates into the figure doll, which is completely fixed and motionless. Her face and whole body are covered with a large amount of translucent white semen, and the semen drips slowly.` | not stated | I2V | フィギュアぶっかけ/cum on figure/excessive bukkake/wan2.2 I2V | 3,314 | on Graydient, verified | [CivitAI](https://civitai.com/models/2520511?modelVersionId=2832880), [HF](https://huggingface.co/Octavian123/civit/blob/main/cum-on-figureexcessive-wan21.safetensors) |
@@ -49,8 +49,10 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `choking-sex-sex-with-choking-choke` | `a man choke fucking a woman, a mans hand gripping her neck tightly and choking her, a man is thrusting into her, he is choke fucking her. her expression shows arousal, choking focused on the female, his hand grasps her neck tightly and chokes her, his hand isaround her throat` | not stated | I2V | Choking Sex, Sex With Choking, Choke | 2,525 | on Graydient, verified | [CivitAI](https://civitai.com/models/1951345?modelVersionId=2208483), [HF](https://huggingface.co/Octavian123/civit2/blob/main/choking-sex-sex-with-choking-choke-wan.safetensors) |
 | `onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan` | `There is a small figurine. giant penis appears. figurine's clothes automatically come off. figurine happily embraces the penis. figurine caresses the penis with its whole body. giant penis ejaculates, splattering semen all over the figurine. figurine becomes covered in semen.` | not stated | I2V | Onaho Figure Bukkake (WAN2.2 I2V 14B) Hugging penis body job (fairy size) | 2,481 | on Graydient, verified | [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan.safetensors) |
 | `iwara-hentai-mmd-futanari-penis-masturbation-wan2-2-i2v-14b` | `very lewd and vulgar expression was on her face. She is a hermaphrodite girl. She is holding her penis in her hand. She masturbates her penis with the movements of her large arms and hands. She swings her hand up and down with very large movements.` | not stated | I2V | IWARA HENTAI MMD Futanari Penis Masturbation (WAN2.2 I2V 14B) | 1,724 | on Graydient, verified | [CivitAI](https://civitai.com/models/2505365?modelVersionId=2816603), [HF](https://huggingface.co/Octavian123/civit2/blob/main/iwara-hentai-mmd-futanari-penis-masturbati-wan-2.safetensors) |
+| `ear-fuck-wan2-2-i2v-14b-ear-sex` | `A naked man appears. The man's penis is erect. The man inserts his penis into her ear canal. She is startled and trembling. The man begins to ear sex.` | not stated | I2V | Ear Fuck (WAN2.2 I2V 14B) Ear Sex | 1,706 | on Graydient, verified | [CivitAI](https://civitai.com/models/2550409?modelVersionId=2866173), [HF](https://huggingface.co/Octavian123/civit2/blob/main/ear-fuck-wan2-2-i2v-14b-ear-sex-wan-2.safetensors) |
 | `wanfutaonfuta` | `WanFutaonFuta`, `futa on futa` | not stated | T2V | Wan Futa on Futa - Penis Motion Modifier | 1,498 | on Graydient, verified | [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wanfutaonfuta.safetensors) |
 | `wan-2-2-i2v-gay-anal-motion` | `gayanal` | not stated | I2V | Wan 2.2 I2V - Gay Anal (motion) | 1,006 | on Graydient, verified | [CivitAI](https://civitai.com/models/2889631?modelVersionId=3279268), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 I2V - Gay Anal motion - High - wan22_i2v_gayanal_motion_v4_high_noise.safetensors) |
+| `furry-ear-fuck-wan2-2-i2v-14b-animal-ear-sex` | `Two boys with erect penises appear from the left and right. The two boys place their penises against the holes of her animal ears. Two boys insert their penises into her animal ears. She trembles violently with pleasure. She rolls her eyes, tears streaming down her face.` | not stated | I2V | Furry Ear Fuck (WAN2.2 I2V 14B) Animal Ear Sex | 732 | on Graydient, verified | [CivitAI](https://civitai.com/models/2554768?modelVersionId=2871191), [HF](https://huggingface.co/Octavian123/civit2/blob/main/furry-ear-fuck-wan2-2-i2v-14b-animal-ear-s-wan-2.safetensors) |
 | `quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan` | `quorum general nsfw for wan 2 2 i2v a14b wan` | not stated | I2V | Quorum - general NSFW LoRA for Wan 2.2 I2V-A14B | 649 | on Graydient, verified | [CivitAI](https://civitai.com/models/2918508?modelVersionId=3301880), [HF](https://huggingface.co/Octavian123/civit/blob/main/quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan.safetensors) |
 | `wan-2-2-i2v-gay-riding-motion-anal-wan` | `gayriding` | not stated | I2V | Wan 2.2 I2V - Gay Riding (motion) (anal) | 601 | on Graydient, verified | [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864), [HF](https://huggingface.co/Octavian123/civit/blob/main/wan-2-2-i2v-gay-riding-motion-anal-wan.safetensors) |
 | `facial-cumshot-crossfire-wan` | `cstm_actn_facial` | not stated | I2V | Facial Cumshot Crossfire | 516 | on Graydient, verified | [CivitAI](https://civitai.com/models/2913261?modelVersionId=3295567), [HF](https://huggingface.co/Octavian123/civit/blob/main/facial-cumshot-crossfire-wan.safetensors) |
@@ -491,7 +493,7 @@ She's smile surrounded by sea of ​​erect 5 large penises.`
 
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Source: [CivitAI](https://civitai.com/models/2431507?modelVersionId=2734116), [HF](https://huggingface.co/Octavian123/civit2/blob/main/summon-multiple-boys-and-penises-wan2-2-i2-wan.safetensors)
+Source: [CivitAI](https://civitai.com/models/2431507?modelVersionId=2734116), [HF](https://huggingface.co/Octavian123/civit2/blob/main/summon-multiple-boys-and-penises-wan2-2-i2-wan.safetensors), [Graydient HF](https://huggingface.co/Octavian123/civit2/blob/main/summon-multiple-boys-and-penises-wan2-2-i2-v3947-wan.safetensors)
 
 ### `UltraCloseupPussy_L_Wan2-2_i2v_A14B.safetensors`
 
@@ -721,6 +723,25 @@ Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydien
 
 Source: [CivitAI](https://civitai.com/models/2505365?modelVersionId=2816603), [HF](https://huggingface.co/Octavian123/civit2/blob/main/iwara-hentai-mmd-futanari-penis-masturbati-wan-2.safetensors)
 
+### `EarSex_Wan2-2_i2v_A14B_low_noise.safetensors`
+
+**Ear Fuck (WAN2.2 I2V 14B) Ear Sex \|  耳姦**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `A naked man appears. The man's penis is erect. The man inserts his penis into her ear canal. She is startled and trembling. The man begins to ear sex.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`A naked man appears. The man's penis is erect.
+The man inserts his penis into her ear canal.
+She is startled and trembling.
+The man begins to ear sex.`
+```
+
+Compatibility: mode: I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2550409?modelVersionId=2866173), [HF](https://huggingface.co/Octavian123/civit2/blob/main/ear-fuck-wan2-2-i2v-14b-ear-sex-wan-2.safetensors)
+
 ### `WanFutaonFuta.safetensors`
 
 **Wan Futa on Futa - Penis Motion Modifier**
@@ -730,21 +751,23 @@ Compatibility: mode: T2V; Wan 2.1 LoRA; do not assume it works on 2.2 high/low g
 
 Source: [CivitAI](https://civitai.com/models/1808772?modelVersionId=2046929), [HF](https://huggingface.co/Octavian123/civit2/blob/main/wanfutaonfuta.safetensors)
 
-### `quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan.safetensors`
+### `AnimalEarSex_L_Wan2-2_i2v_A14B.safetensors`
 
-**Quorum - general NSFW LoRA for Wan 2.2 I2V-A14B**
-- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `quorum general nsfw for wan 2 2 i2v a14b wan` · on Graydient
+**Furry Ear Fuck (WAN2.2 I2V 14B) Animal Ear Sex \| ケモ耳姦**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `Two boys with erect penises appear from the left and right. The two boys place their penises against the holes of her animal ears. Two boys insert their penises into her animal ears. She trembles violently with pleasure. She rolls her eyes, tears streaming down her face.` · on Graydient
 
-Compatibility: mode: I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+Example prompt (from the images API, page, or sidecar; never invented):
 
-Source: [CivitAI](https://civitai.com/models/2918508?modelVersionId=3301880), [HF](https://huggingface.co/Octavian123/civit/blob/main/quorum-general-nsfw-for-wan-2-2-i2v-a14b-wan.safetensors)
 
-### `wan-2-2-i2v-gay-riding-motion-anal-wan.safetensors`
+```
+`Two boys with erect penises appear from the left and right.
+The two boys place their penises against the holes of her animal ears.
+Two boys insert their penises into her animal ears.
+She trembles violently with pleasure.
+She rolls her eyes, tears streaming down her face.`
+```
 
-**Wan 2.2 I2V - Gay Riding (motion) (anal)**
-- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `gayriding` · on Graydient
+Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
-Compatibility: mode: I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
-
-Source: [CivitAI](https://civitai.com/models/2920136?modelVersionId=3303864), [HF](https://huggingface.co/Octavian123/civit/blob/main/wan-2-2-i2v-gay-riding-motion-anal-wan.safetensors)
+Source: [CivitAI](https://civitai.com/models/2554768?modelVersionId=2871191), [HF](https://huggingface.co/Octavian123/civit2/blob/main/furry-ear-fuck-wan2-2-i2v-14b-animal-ear-s-wan-2.safetensors)
 

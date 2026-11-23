@@ -6,16 +6,16 @@ Public CivitAI / Hugging Face video LoRAs that are not yet in this set live in [
 
 **Out of scope** (image LoRAs, checkpoints, finetunes, merges, full base-model repos, pure workflows, ControlNets that are not LoRAs, VAEs, text encoders, GGUF/quantised full models, and non-video families such as Hunyuan) are not in `data/loras.jsonl`. Installed RAID files that fail this test are in [`data/excluded.jsonl`](data/excluded.jsonl) with a reason. See [`data/accessibility_report.md`](data/accessibility_report.md) for the last accessibility filter.
 
-Research compiled **18 Nov 2026, 12:30 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
+Research compiled **23 Nov 2026, 08:17 Africa/Johannesburg (SAST)**. Many entries are adult NSFW and are documented factually. This repo stores **metadata only** — no weights. `scripts/harvest.py`, `scripts/check_new.py`, and `scripts/filter_accessible.py` must never download or ingest LoRA files.
 
 ## Counts
 
 | Family | On Graydient | To add to Graydient | Available total | Candidates |
 |---|---:|---:|---:|---:|
-| MiniMax H3 | 277 | 0 | 277 | 1006 |
-| Wan (2.1 / 2.2) | 77 | 13 | 90 | 2654 |
-| LTX-2 / 2.3 / 2.5 | 42 | 3 | 45 | 745 |
-| **Total** | **396** | **16** | **412** | **4405** |
+| MiniMax H3 | 280 | 0 | 280 | 1035 |
+| Wan (2.1 / 2.2) | 80 | 13 | 93 | 2653 |
+| LTX-2 / 2.3 / 2.5 | 42 | 3 | 45 | 749 |
+| **Total** | **402** | **16** | **418** | **4437** |
 
 Recommend a LoRA that is already on Graydient first. If the pick is labelled *to add to Graydient*, ingest it before using it in the concept browser (not auto-downloaded). RAID-only files with no public URL need a local upload. Suggest ingest of a public candidate when the category or goal has no available option, or when a candidate is clearly stronger (at least 2,000 downloads and at least 2× the top available download count in that category) or is an official utility pack with no available equivalent. The full rule is in [`SKILL.md`](SKILL.md).
 
@@ -24,16 +24,16 @@ Recommend a LoRA that is already on Graydient first. If the pick is labelled *to
 | Category | H3 available (on Graydient / to add) | Wan available (on Graydient / to add) | LTX available (on Graydient / to add) |
 |---|---:|---:|---:|
 | Motion | 15 (15/0) | 4 (4/0) | 4 (4/0) |
-| Camera | 12 (12/0) | 12 (12/0) | 5 (5/0) |
+| Camera | 12 (12/0) | 13 (13/0) | 5 (5/0) |
 | Audio / voice | 3 (3/0) | 0 (0/0) | 1 (1/0) |
 | Style | 49 (49/0) | 1 (1/0) | 11 (11/0) |
-| Enhancement / quality / speed | 154 (154/0) | 44 (31/13) | 17 (16/1) |
-| Identity / character | 25 (25/0) | 2 (2/0) | 2 (2/0) |
+| Enhancement / quality / speed | 154 (154/0) | 45 (32/13) | 17 (16/1) |
+| Identity / character | 27 (27/0) | 2 (2/0) | 2 (2/0) |
 | Effects / VFX | 9 (9/0) | 0 (0/0) | 2 (2/0) |
 | Transitions | 2 (2/0) | 0 (0/0) | 0 (0/0) |
 | Lighting | 1 (1/0) | 0 (0/0) | 0 (0/0) |
 | Physics / cloth / hair | 14 (14/0) | 1 (1/0) | 0 (0/0) |
-| NSFW acts and anatomy | 113 (113/0) | 51 (50/1) | 22 (20/2) |
+| NSFW acts and anatomy | 114 (114/0) | 53 (52/1) | 22 (20/2) |
 | Anime / 2D | 17 (17/0) | 1 (1/0) | 5 (5/0) |
 | Realism | 12 (12/0) | 0 (0/0) | 1 (1/0) |
 | Character consistency | 0 (0/0) | 0 (0/0) | 0 (0/0) |
@@ -43,7 +43,7 @@ Recommend a LoRA that is already on Graydient first. If the pick is labelled *to
 
 A LoRA may appear in more than one category.
 
-Of 412 rows: **253** (61.4%) have at least one recorded trigger, **57** (13.8%) have a stated strength, **109** (26.5%) have at least one example prompt (images API or page text). **2** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented.
+Of 418 rows: **258** (61.7%) have at least one recorded trigger, **57** (13.6%) have a stated strength, **111** (26.6%) have at least one example prompt (images API or page text). **2** rows are flagged `low_signal`. Missing fields are recorded as `not stated` / empty — never invented.
 
 **Updating:** run `bash scripts/update.sh` (see [`UPDATING.md`](UPDATING.md)). It rematches Graydient availability, pulls new CivitAI LoRAs, rebuilds the catalog and pushes.
 

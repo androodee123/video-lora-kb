@@ -2,6 +2,18 @@
 
 Automatic entries from `scripts/update.py` (newest first). Catalog/SKILL updates are applied automatically; adding weights to Graydient stays a manual, Andrew-requested step.
 
+## 2026-11-23
+
+Counts: on Graydient 402 · to add 16 · candidates 4437. Moved candidate→available 6, added 0, became on Graydient 0, removed 0, new candidates 38.
+
+Candidates now on Graydient (moved to available):
+- `whiskface-black-minimax-h3-fl2va-preliminary` (H3) — whiskface-black — https://civitai.com/models/3055926?modelVersionId=3476214
+- `whiskface-minimax-h3-fl2v-preliminary` (H3) — whiskface — https://civitai.com/models/3055897?modelVersionId=3476179
+- `tit-fuck-101-h3` (H3) — trigger not stated — https://civitai.com/models/3034804?modelVersionId=3448229
+- `ear-fuck-wan2-2-i2v-14b-ear-sex` (Wan) — A naked man appears. The man's penis is erect. The man inserts his penis into her ear canal. She is startled and trembling. The man begins to ear sex. — https://civitai.com/models/2550409?modelVersionId=2866173
+- `furry-ear-fuck-wan2-2-i2v-14b-animal-ear-sex` (Wan) — Two boys with erect penises appear from the left and right. The two boys place their penises against the holes of her animal ears. Two boys insert their penises into her animal ears. She trembles violently with pleasure. She rolls her eyes, tears streaming down her face. — https://civitai.com/models/2554768?modelVersionId=2871191
+- `fighter-transform-gerwalk-wan2-2-i2v-14b-guardian-in-robotech` (Wan) — A sci-fi video focusing on vehicles. A fictional fighter jet transforms. The plane is flying. The plane is a transforming fighter jet, so it transforms like Robotech. A high-speed production. — https://civitai.com/models/2423675?modelVersionId=2725039
+
 ## 2026-11-18
 
 Counts: on Graydient 396 · to add 16 · candidates 4405. Moved candidate→available 5, added 0, became on Graydient 0, removed 0, new candidates 0.

@@ -1,19 +1,19 @@
 # Accessibility report
 
-Generated 18 Nov 2026, 12:29 Africa/Johannesburg (SAST). Source of Graydient access: Hugging Face `Octavian123/civit`, `Octavian123/civit2`, `Octavian123/private` (18936 combined paths, 17870 weight files, listed via the Hub API — no weights downloaded). Per-repo path counts: `Octavian123/civit` 11206 paths, `Octavian123/civit2` 7199 paths, `Octavian123/private` 531 paths. Source of RAID presence: `installed=true` / `aiops=true` rows from the 13 Nov 2026 snapshot (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`).
+Generated 23 Nov 2026, 08:17 Africa/Johannesburg (SAST). Source of Graydient access: Hugging Face `Octavian123/civit`, `Octavian123/civit2`, `Octavian123/private` (22126 combined paths, 21060 weight files, listed via the Hub API — no weights downloaded). Per-repo path counts: `Octavian123/civit` 11206 paths, `Octavian123/civit2` 10389 paths, `Octavian123/private` 531 paths. Source of RAID presence: `installed=true` / `aiops=true` rows from the 13 Nov 2026 snapshot (`/Volumes/RAID/Lora/{H3,Wan,LTX2}`).
 
-Universe rematched (available + candidates, after dropping Finder duplicates): **4817**. After filter: **412** available, **4405** ingest candidates. Candidates newly promoted to available because they matched civit / civit2 / private: **5**. Unmatched HF video files auto-added: **0** (default is none).
+Universe rematched (available + candidates, after dropping Finder duplicates): **4855**. After filter: **418** available, **4437** ingest candidates. Candidates newly promoted to available because they matched civit / civit2 / private: **6**. Unmatched HF video files auto-added: **0** (default is none).
 
 ## Counts
 
 | Family | on Graydient | still to add | available | candidates |
 |---|---:|---:|---:|---:|
-| MiniMax H3 | 277 | 0 | 277 | 1006 |
-| Wan | 77 | 13 | 90 | 2654 |
-| LTX | 42 | 3 | 45 | 745 |
-| **Total** | 396 | 16 | 412 | 4405 |
+| MiniMax H3 | 280 | 0 | 280 | 1035 |
+| Wan | 80 | 13 | 93 | 2653 |
+| LTX | 42 | 3 | 45 | 749 |
+| **Total** | 402 | 16 | 418 | 4437 |
 
-HF weight files reviewed: **17870**. HF weight files matched to a catalog or candidate row: **420**.
+HF weight files reviewed: **21060**. HF weight files matched to a catalog or candidate row: **430**.
 
 ## Still to add to Graydient
 

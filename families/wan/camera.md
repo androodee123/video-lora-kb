@@ -1,6 +1,6 @@
 # Wan: Camera
 
-12 available Graydient LoRAs (12 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
+13 available Graydient LoRAs (13 already on Graydient, 0 still to add to Graydient). Everything in this table is part of the Graydient set: files already in `Octavian123/civit`, `Octavian123/civit2`, or `Octavian123/private` are listed first; RAID files that still need ingest are labelled *to add to Graydient* (or *to add to Graydient (no public source; needs local upload)* when there is no public URL) and must be ingested before they appear in the concept browser. There is no AIOps-only category. Nothing is auto-downloaded.
 
 Strength is recorded only when a page or sidecar states it. Otherwise `not stated`.
 
@@ -17,6 +17,7 @@ Strength is recorded only when a page or sidecar states it. Otherwise `not state
 | `onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan` | `POV sex. Very intense sex. Her body shakes violently. penis thrusts violently. penis ejaculates. She violently vomits semen. Semen overflows from her mouth. Semen flows slowly, forming thin streams. Semen overflows from her vagina. Semen is splattered all over her body.` | not stated | I2V | Onaho Figure POV SEX (WAN2.2 I2V 14B) Vomiting Cum Bukkake | 2,955 | on Graydient, verified | [CivitAI](https://civitai.com/models/2544890?modelVersionId=2859997), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-sex-wan2-2-i2v-14b-vomiti-wan.safetensors) |
 | `onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan` | `POV Oral sex,  Sex toy figurine is placed there.  first-person Giant hand grabs the Sex toy figurine.  figurine's breasts are exposed. first-person Giant penis into the Sex toy figure's mouth.  figurine's body shakes violently during intense oral sex.` | not stated | I2V | Onaho Figure POV Oral SEX (WAN2.2 I2V 14B) Extreme Deepthroat Irrumatio | 2,795 | on Graydient, verified | [CivitAI](https://civitai.com/models/2596754?modelVersionId=2917002), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-pov-oral-sex-wan2-2-i2v-14b-e-wan.safetensors) |
 | `onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan` | `There is a small figurine. giant penis appears. figurine's clothes automatically come off. figurine happily embraces the penis. figurine caresses the penis with its whole body. giant penis ejaculates, splattering semen all over the figurine. figurine becomes covered in semen.` | not stated | I2V | Onaho Figure Bukkake (WAN2.2 I2V 14B) Hugging penis body job (fairy size) | 2,481 | on Graydient, verified | [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan.safetensors) |
+| `ear-fuck-wan2-2-i2v-14b-ear-sex` | `A naked man appears. The man's penis is erect. The man inserts his penis into her ear canal. She is startled and trembling. The man begins to ear sex.` | not stated | I2V | Ear Fuck (WAN2.2 I2V 14B) Ear Sex | 1,706 | on Graydient, verified | [CivitAI](https://civitai.com/models/2550409?modelVersionId=2866173), [HF](https://huggingface.co/Octavian123/civit2/blob/main/ear-fuck-wan2-2-i2v-14b-ear-sex-wan-2.safetensors) |
 | `wan-2-2-i2v-gay-anal-motion` | `gayanal` | not stated | I2V | Wan 2.2 I2V - Gay Anal (motion) | 1,006 | on Graydient, verified | [CivitAI](https://civitai.com/models/2889631?modelVersionId=3279268), [HF](https://huggingface.co/Octavian123/civit/blob/main/Wan 2.2 I2V - Gay Anal motion - High - wan22_i2v_gayanal_motion_v4_high_noise.safetensors) |
 
 ## Suggest ingest
@@ -215,4 +216,23 @@ figurine becomes covered in semen.`
 Compatibility: mode: I2V; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
 
 Source: [CivitAI](https://civitai.com/models/2575354?modelVersionId=2893445), [HF](https://huggingface.co/Octavian123/civit/blob/main/onaho-figure-bukkake-wan2-2-i2v-14b-huggin-wan.safetensors)
+
+### `EarSex_Wan2-2_i2v_A14B_low_noise.safetensors`
+
+**Ear Fuck (WAN2.2 I2V 14B) Ear Sex \|  耳姦**
+- base `Wan Video 2.2 I2V-A14B` · I2V · strength: not stated · triggers: `A naked man appears. The man's penis is erect. The man inserts his penis into her ear canal. She is startled and trembling. The man begins to ear sex.` · on Graydient
+
+Example prompt (from the images API, page, or sidecar; never invented):
+
+
+```
+`A naked man appears. The man's penis is erect.
+The man inserts his penis into her ear canal.
+She is startled and trembling.
+The man begins to ear sex.`
+```
+
+Compatibility: mode: I2V; Wan 2.2: use the matching HIGH + LOW pair on the matching samplers; Wan 2.2 14B; 2.1 cross-use is not guaranteed; Graydient Wan workflows (family-level, not a per-LoRA install claim): animate-wan22, video-wan22
+
+Source: [CivitAI](https://civitai.com/models/2550409?modelVersionId=2866173), [HF](https://huggingface.co/Octavian123/civit2/blob/main/ear-fuck-wan2-2-i2v-14b-ear-sex-wan-2.safetensors)
 
